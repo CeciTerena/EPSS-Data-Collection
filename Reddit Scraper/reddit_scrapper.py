@@ -111,16 +111,16 @@ def scrape():
     return results
 
 
-        
-
 def save_results(new_results, filename="reddit_cve_posts.json"):
     try:
+        existing = []
         if os.path.exists(filename):
             with open(filename, "r", encoding="utf-8") as f:
-                existing = json.load(f)
-        else:
-            existing = []
-            
+                try:
+                    existing = json.load(f)
+                except json.JSONDecodeError:
+                    print(f"Warning: {filename} is empty or corrupted. Starting fresh.")
+
         existing_links = set(post['permalink'] for post in existing)
         combined = existing + [r for r in new_results if r['permalink'] not in existing_links]
 
@@ -130,9 +130,10 @@ def save_results(new_results, filename="reddit_cve_posts.json"):
     except Exception as e:
         print(f"Error saving results: {e}")
 
-
 results = scrape()
 if results:
     save_results(results)
+else:
+    print("No new results to save.")
 
 
