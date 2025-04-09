@@ -26,7 +26,7 @@ jobs:
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
-        run: python reddit_cve_scraper.py
+        run: python reddit_scraper.py
 
       - name: Commit and push results
         run: |
