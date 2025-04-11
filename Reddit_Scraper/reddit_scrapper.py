@@ -82,7 +82,7 @@ def get_top_thread(submission, depth=2):
 
 def scrape():
     results = []
-    for submission in reddit.subreddit("all").search("CVE", sort="relevant", time_filter="month", limit=100):
+    for submission in reddit.subreddit("all").search("CVE", sort="relevant", time_filter="month", limit=5):
         cve_pattern = re.compile(r"CVE-\d{4}-\d{4,7}", re.IGNORECASE)
         text = submission.title + " " + submission.selftext
         cve_matches = cve_pattern.findall(text)

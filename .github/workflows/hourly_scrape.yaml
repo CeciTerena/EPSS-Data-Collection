@@ -38,6 +38,10 @@ jobs:
             git add "$FILE"
             git commit -m "Update CVE scrape results [bot]" || echo "No changes to commit"
             git remote set-url origin "$REPO_URL"
+
+            echo "Updated remote URL:"
+            git remote -v
+
             git push
           else
             echo "No results to commit."
@@ -46,3 +50,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
 
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
