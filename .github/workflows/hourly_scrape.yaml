@@ -32,7 +32,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
-          if [ -f reddit_cve_posts.json ]; then
+          if [ -f "Reddit Scraper/reddit_cve_posts.json"]; then
             git add "Reddit Scraper/reddit_cve_posts.json"
             git commit -m "Update CVE scrape results [bot]" || echo "No changes to commit"
             git push

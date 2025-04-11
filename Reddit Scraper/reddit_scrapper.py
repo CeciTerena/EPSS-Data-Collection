@@ -22,7 +22,7 @@ def extract_cybersecyritynews_article(url):
 
         article_div = soup.find('div', class_='td-post-content tagdiv-type')
         if not article_div:
-            return "Article content not found."
+            return "..."
         
         children = article_div.find_all(recursive=False)
 
@@ -32,7 +32,7 @@ def extract_cybersecyritynews_article(url):
 
         content = "\n\n".join(el.get_text(strip=True) for el in filtered_elements)
 
-        return content if content else "No valid content found."
+        return content if content else "..."
     
     except Exception as e:
         return f"Error fetching article: {e}"
@@ -50,7 +50,7 @@ def extract_redpacketsecurity_article(url):
                     return p.get_text(strip=True)
                 else:
                     return "Paragraph after CVE heading not found."
-        return "No CVE heading found in <h2> tags."
+        return "..."
     except Exception as e:
         return f"Error fetching article: {e}"
 
