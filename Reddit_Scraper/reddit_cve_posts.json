@@ -1944,5 +1944,19 @@
     "timestamp": "2025-04-11T17:20:52",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32242"
+    ],
+    "cve_counts": {
+      "CVE-2025-32242": 1
+    },
+    "title": "CVE Alert: CVE-2025-32242",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1jwyupl/cve_alert_cve202532242/",
+    "timestamp": "2025-04-11T19:50:15",
+    "article_text": "Missing Authorization vulnerability in Hive Support Hive Support allows Accessing Functionality Not Properly Constrained by ACLs. This issue affects Hive Support: from n/a through 1.2.2.",
+    "comments": []
   }
 ]
