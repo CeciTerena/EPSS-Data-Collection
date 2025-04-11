@@ -35,8 +35,11 @@ jobs:
           if [ -f "Reddit_Scraper/reddit_cve_posts.json" ]; then
             git add "Reddit_Scraper/reddit_cve_posts.json"
             git commit -m "Update CVE scrape results [bot]" || echo "No changes to commit"
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
             git push
           else
             echo "No results to commit."
-
           fi
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
