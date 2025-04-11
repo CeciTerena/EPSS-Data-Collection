@@ -1830,5 +1830,91 @@
     "timestamp": "2025-04-09T17:23:59",
     "article_text": "None",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1073"
+    ],
+    "cve_counts": {
+      "CVE-2025-1073": 1
+    },
+    "title": "CVE Alert: CVE-2025-1073",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1jwrqd6/cve_alert_cve20251073/",
+    "timestamp": "2025-04-11T14:50:16",
+    "article_text": "Panasonic IR Control Hub (IR Blaster) versions 1.17 and earlier may allow an attacker with physical access to load unauthorized firmware onto the device.",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22457"
+    ],
+    "cve_counts": {
+      "CVE-2025-22457": 2
+    },
+    "title": "CVE-2025-22457: PoC for CVE-2025-22457 - A remote unauthenticated stack based buffer overflow affecting Ivanti Connect Secure, Pulse Connect Secure, Ivanti Policy Secure, and ZTA Gateway",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1jwrm68/cve202522457_poc_for_cve202522457_a_remote/",
+    "timestamp": "2025-04-11T14:45:13",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2018-3646"
+    ],
+    "cve_counts": {
+      "CVE-2018-3646": 1
+    },
+    "title": "PLEASE HELP, EVENT VIEWER WEIRD ERROR LOGS.",
+    "text": "\nPlease help me, I have been having so many event viewer weird errors and my mom got me this laptop I have no idea what's wrong with it, it's only 5 months old and I don't know what to do.\n\nEvent viewer errors:\n\nThe driver/Driver/WUDFRd failed to load. Device: ROOT\\DISPLAY\\0000\n\nUMDF reflector is unable to connect to SCM. This is expected during boot, when csm has not started yet. Will retry when it starts.\n\nDevice association detected an endpoint discovery failure.\n\nThe time provider VMICTimeProvider has indicated that the current hardware and os is not supported and stopped.\n\nUnable to load pluton-windows firmware. Status code STATUS_SUCCESS. Reason: failed to apply firmware.\n\nHypervisor configured mitigations for CVE-2018-3646 for virtual machines. Processor not affected: false Processor family not affected: false Processor supports cache flush: false Hyper threading enabled: true Parent supervisor applies mitiqations: false Mitiqations disabled by bcdedit: false Mitiqations enabled: true Cache flush needed: false\n\nPlease help me, there's so many and I don't know what's wrong omg. This laptop is from Walmart and no I halvent done anything for this to happen please anyone help me out.",
+    "permalink": "/r/computers/comments/1jwrlgf/please_help_event_viewer_weird_error_logs/",
+    "timestamp": "2025-04-11T14:44:23",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22457"
+    ],
+    "cve_counts": {
+      "CVE-2025-22457": 1
+    },
+    "title": "CVE-2025-22457 - Ivanti - rapid analysis",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1jwrk87/cve202522457_ivanti_rapid_analysis/",
+    "timestamp": "2025-04-11T14:42:51",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2018-3646"
+    ],
+    "cve_counts": {
+      "CVE-2018-3646": 1
+    },
+    "title": "Laptop is having weird event viewer logs please help me out.",
+    "text": "Please help me, I have been having so many event viewer weird errors and my mom got me this laptop I have no idea what's wrong with it, it's only 5 months old and I don't know what to do.\n\nEvent viewer errors:\n\nThe driver/Driver/WUDFRd failed to load. Device: ROOT\\DISPLAY\\0000\n\nUMDF reflector is unable to connect to SCM. This is expected during boot, when csm has not started yet. Will retry when it starts.\n\nDevice association detected an endpoint discovery failure.\n\nThe time provider VMICTimeProvider has indicated that the current hardware and os is not supported and stopped.\n\nUnable to load pluton-windows firmware. Status code STATUS_SUCCESS. Reason: failed to apply firmware.\n\nHypervisor configured mitigations for CVE-2018-3646 for virtual machines.\nProcessor not affected: false\nProcessor family not affected: false\nProcessor supports cache flush: false\nHyper threading enabled: true\nParent supervisor applies mitiqations: false\nMitiqations disabled by bcdedit: false\nMitiqations enabled: true\nCache flush needed: false\n\nPlease help me, there's so many and I don't know what's wrong omg. This laptop is from Walmart and no I halvent done anything for this to happen please anyone help me out.",
+    "permalink": "/r/laptops/comments/1jwrear/laptop_is_having_weird_event_viewer_logs_please/",
+    "timestamp": "2025-04-11T14:35:42",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2075",
+      "CVE-2025-24813"
+    ],
+    "cve_counts": {
+      "CVE-2025-2075": 1,
+      "CVE-2025-24813": 1
+    },
+    "title": "Security Watch 4/11/25",
+    "text": "On K12TechPro, we've launched a weekly cyber threat intelligence and vulnerability newsletter with NTP and K12TechPro. We'll post the \"public\" news to k12sysadmin from each newsletter. For the full \"k12 techs only\" portion (no middle schoolers, bad guys, vendors, etc. allowed), log into [k12techpro.com](http://k12techpro.com) and visit the Cybersecurity Hub.\n\n**Oracle Data Breach**\n\nOracle is quietly acknowledging aspects of their data breach incident following increased media pressure and a class action lawsuit.\n\n**Fast Flux**\n\nFast flux attacks are using rapid DNS changes and dummy servers to evade detection and bypass domain-level blocking. With phishing campaigns and malware delivery becoming harder to stop, here is actionable guidance from CISA on how to identify and mitigate fast flux threats across your network - [https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-093a](https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-093a)\n\n**Wordpress**\n\nWordPress plugin vulnerability (CVE-2025-2075) is affecting over 50,000 sites using the Uncanny Automator plugin. This flaw allows attackers with minimal access to gain full administrative privileges. \n\n**Apache Tomcat**\n\nApache Tomcat path equivalence vulnerability (CVE-2025-24813) is rated critical with a CVSS score of 9.8. This issue could allow attackers to bypass access controls or even execute remote code under specific conditions.",
+    "permalink": "/r/k12sysadmin/comments/1jwr2vj/security_watch_41125/",
+    "timestamp": "2025-04-11T14:22:05",
+    "article_text": null,
+    "comments": []
   }
 ]
