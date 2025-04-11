@@ -162,8 +162,6 @@ def save_results(new_results, filename="reddit_cve_posts.json"):
         print(f"Error saving results: {e}")
 
 results = scrape()
-
-print(f"Scraped {len(results)} new posts. {results}")
 if results:
     save_results(results)
 else:
