@@ -1930,5 +1930,19 @@
     "timestamp": "2025-04-11T15:27:16",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2020-11971"
+    ],
+    "cve_counts": {
+      "CVE-2020-11971": 1
+    },
+    "title": "Apache Camel NES: Extended Support for EOL Camel 3.x Applications",
+    "text": "For teams concerned about Apache Camel 3.x approaching end-of-life, I wanted to share that HeroDevs has just launched Apache Camel NES (Never-Ending Support).\n\n**What Apache Camel NES provides:**\n\n* Security patches for newly discovered vulnerabilities in Camel 3.x\n* Compliance documentation for SOC 2, HIPAA, and PCI-DSS\n* Support for specific Camel 3.x + Spring Boot combinations\n* Regular updates and SBOMs for security teams\n\n**Technical details:**\n\n* Version 3.22 was expected to reach EOL in December 2024\n* We also support Camel 2.25.4 (last released May 28, 2021)\n* Support for camel-spring-boot-starter:3.22.x with Spring Boot 2.7.x\n* Addresses specific vulnerabilities like CVE-2020-11971\n\nThis approach lets teams maintain security while planning migrations on their own timelines.\n\nIf anyone has questions about the technical aspects of maintaining EOL frameworks or wants to discuss Apache Camel migration challenges, I'm happy to chat.\n\nHave you found particular strategies effective for managing the transition?",
+    "permalink": "/r/OSS_EOL/comments/1jwvbap/apache_camel_nes_extended_support_for_eol_camel/",
+    "timestamp": "2025-04-11T17:20:52",
+    "article_text": null,
+    "comments": []
   }
 ]
