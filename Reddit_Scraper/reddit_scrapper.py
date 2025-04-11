@@ -22,7 +22,7 @@ def extract_cybersecyritynews_article(url):
 
         article_div = soup.find('div', class_='td-post-content tagdiv-type')
         if not article_div:
-            return "..."
+            return "None"
         
         children = article_div.find_all(recursive=False)
 
@@ -32,7 +32,7 @@ def extract_cybersecyritynews_article(url):
 
         content = "\n\n".join(el.get_text(strip=True) for el in filtered_elements)
 
-        return content if content else "..."
+        return content if content else "None"
     
     except Exception as e:
         return f"Error fetching article: {e}"
@@ -50,7 +50,7 @@ def extract_redpacketsecurity_article(url):
                     return p.get_text(strip=True)
                 else:
                     return "Paragraph after CVE heading not found."
-        return "..."
+        return "None"
     except Exception as e:
         return f"Error fetching article: {e}"
 
@@ -110,12 +110,12 @@ def scrape():
             print(f"Time: {timestamp}")
             print(f"URL: https://reddit.com{submission.permalink}")
             print(f"Internal URLS: {urls}")
-            print(f"Text: {submission.selftext}...")
+            print(f"Text: {submission.selftext}")
             print(f"Article Text: {article_text}")
             print("Top Comments:")
             for c in thread:
                 indent = "  " * c['level']
-                print(f"{indent}↑{c['score']} by {c['author']}: {c['text']}...")
+                print(f"{indent}↑{c['score']} by {c['author']}: {c['text']}")
             print("-" * 40)
 
             post_data = {
@@ -156,11 +156,9 @@ def save_results(new_results, filename="reddit_cve_posts.json"):
             if r is not None and r.get("permalink") not in existing_links
         ]
         
-        
         print(f"Existing records: {len(existing)}")
         print(f"New results: {len(new_results)}")
         print(f"Combined records: {len(combined)}")
-        
         
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(combined, f, ensure_ascii=False, indent=2)

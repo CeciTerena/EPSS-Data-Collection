@@ -31,11 +31,6 @@ jobs:
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
         run: python reddit_scrapper.py
         
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-
       - name: Commit and push results
         run: |
           git config --global user.name 'github-actions'
