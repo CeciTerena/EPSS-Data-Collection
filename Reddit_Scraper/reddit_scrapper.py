@@ -155,16 +155,26 @@ def save_results(new_results, filename="reddit_cve_posts.json"):
             r for r in new_results
             if r is not None and r.get("permalink") not in existing_links
         ]
+        
+        
+        print(f"Existing records: {len(existing)}")
+        print(f"New results: {len(new_results)}")
+        print(f"Combined records: {len(combined)}")
+        
+        
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(combined, f, ensure_ascii=False, indent=2)
         print(f"Saved {len(combined)} total posts.")
     except Exception as e:
         print(f"Error saving results: {e}")
+        
+    print("Absolute path to saved file:", os.path.abspath(filepath))
 
 results = scrape()
 if results:
     save_results(results)
 else:
     print("No new results to save.")
+    
 
 

@@ -43,6 +43,14 @@ jobs:
           
           FILE="Reddit_Scraper/reddit_cve_posts.json"
           if [ -f "$FILE" ]; then
+
+            echo "git status:"
+            git status
+            echo "git diff --stat on reddit_cve_posts.json:"
+            git diff --stat "Reddit_Scraper/reddit_cve_posts.json"
+
+
+
             git add "$FILE"
             git commit -m "Update CVE scrape results [bot]" || echo "No changes to commit"
             git remote set-url origin "$REPO_URL"
