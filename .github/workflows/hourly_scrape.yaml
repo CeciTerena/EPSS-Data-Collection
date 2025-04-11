@@ -27,6 +27,11 @@ jobs:
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
         run: python reddit_scrapper.py
+        
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Commit and push results
         run: |
@@ -39,7 +44,7 @@ jobs:
             git commit -m "Update CVE scrape results [bot]" || echo "No changes to commit"
             git remote set-url origin "$REPO_URL"
 
-            echo "Updated remote URL:"
+            echo "Updated remote URL:" 
             git remote -v
 
             git push
@@ -50,8 +55,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
 
-
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: false
