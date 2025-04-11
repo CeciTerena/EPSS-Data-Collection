@@ -13,6 +13,30 @@ reddit = praw.Reddit(
     user_agent=os.environ['REDDIT_USER_AGENT'],
 )
 
+def extract_cybersecyritynews_article(url):
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        article_div = soup.find('div', class_='td-post-content tagdiv-type')
+        if not article_div:
+            return "Article content not found."
+        
+        children = article_div.find_all(recursive=False)
+
+        filtered_elements = [el for el in children if el.name in {'p', 'h2'}]
+        if filtered_elements and filtered_elements[-1].name == 'p':
+            filtered_elements = filtered_elements[:-1]
+
+        content = "\n\n".join(el.get_text(strip=True) for el in filtered_elements)
+
+        return content if content else "No valid content found."
+    
+    except Exception as e:
+        return f"Error fetching article: {e}"
+
 def extract_redpacketsecurity_article(url):
     try:
         response = requests.get(url, timeout=10, allow_redirects=False)
@@ -58,7 +82,7 @@ def get_top_thread(submission, depth=2):
 
 def scrape():
     results = []
-    for submission in reddit.subreddit("all").search("CVE", sort="new", time_filter="hour", limit=1000):
+    for submission in reddit.subreddit("all").search("CVE", sort="new", time_filter="hour", limit=100):
         cve_pattern = re.compile(r"CVE-\d{4}-\d{4,7}", re.IGNORECASE)
         text = submission.title + " " + submission.selftext
         cve_matches = cve_pattern.findall(text)
@@ -75,6 +99,8 @@ def scrape():
             article_text = None
             if "redpacketsecurity.com" in submission.url:
                 article_text = extract_redpacketsecurity_article(submission.url)
+            elif "cybersecuritynews.com" in submission.url:
+                article_text = extract_cybersecyritynews_article(submission.url)
             
             thread = get_top_thread(submission)
             
@@ -107,30 +133,37 @@ def scrape():
                     for comment in thread
                     if comment["text"].strip()]
             }
-            results.append(post_data)
+            if post_data: 
+                results.append(post_data)
     return results
 
 
 def save_results(new_results, filename="reddit_cve_posts.json"):
     try:
+        base_dir = os.path.dirname(__file__)
+        filepath = os.path.join(base_dir, filename)
         existing = []
-        if os.path.exists(filename):
-            with open(filename, "r", encoding="utf-8") as f:
+        if os.path.exists(filepath):
+            with open(filepath, "r", encoding="utf-8") as f:
                 try:
                     existing = json.load(f)
                 except json.JSONDecodeError:
                     print(f"Warning: {filename} is empty or corrupted. Starting fresh.")
 
         existing_links = set(post['permalink'] for post in existing)
-        combined = existing + [r for r in new_results if r['permalink'] not in existing_links]
-
-        with open(filename, "w", encoding="utf-8") as f:
+        combined = existing + [
+            r for r in new_results
+            if r is not None and r.get("permalink") not in existing_links
+        ]
+        with open(filepath, "w", encoding="utf-8") as f:
             json.dump(combined, f, ensure_ascii=False, indent=2)
         print(f"Saved {len(combined)} total posts.")
     except Exception as e:
         print(f"Error saving results: {e}")
 
 results = scrape()
+
+print(f"Scraped {len(results)} new posts. {results}")
 if results:
     save_results(results)
 else:

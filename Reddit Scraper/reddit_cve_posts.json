@@ -1,1 +1,16 @@
-null
+[
+  {
+    "cves": [
+      "CVE-2023-42007"
+    ],
+    "cve_counts": {
+      "CVE-2023-42007": 1
+    },
+    "title": "CVE Alert: CVE-2023-42007",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1jwm1kz/cve_alert_cve202342007/",
+    "timestamp": "2025-04-11T11:50:14",
+    "article_text": "IBM Sterling Control Center 6.2.1, 6.3.1, and 6.4.0 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.",
+    "comments": []
+  }
+]
