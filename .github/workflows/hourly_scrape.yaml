@@ -37,6 +37,7 @@ jobs:
           if [ -f "$FILE" ]; then
             git add "$FILE"
             git commit -m "Update CVE scrape results [bot]" || echo "No changes to commit"
+            git remote set-url origin "$REPO_URL"
             git push
           else
             echo "No results to commit."
