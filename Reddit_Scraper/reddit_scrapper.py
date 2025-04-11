@@ -32,7 +32,7 @@ def extract_cybersecyritynews_article(url):
 
         content = "\n\n".join(el.get_text(strip=True) for el in filtered_elements)
 
-        return content if content else "None"
+        return content if content else None
     
     except Exception as e:
         return f"Error fetching article: {e}"
@@ -49,8 +49,8 @@ def extract_redpacketsecurity_article(url):
                 if p:
                     return p.get_text(strip=True)
                 else:
-                    return "Paragraph after CVE heading not found."
-        return "None"
+                    return None
+        return None
     except Exception as e:
         return f"Error fetching article: {e}"
 
@@ -82,7 +82,7 @@ def get_top_thread(submission, depth=2):
 
 def scrape():
     results = []
-    for submission in reddit.subreddit("all").search("CVE", sort="relevant", time_filter="month", limit=100):
+    for submission in reddit.subreddit("all").search("CVE", sort="new", time_filter="hour", limit=1000):
         cve_pattern = re.compile(r"CVE-\d{4}-\d{4,7}", re.IGNORECASE)
         text = submission.title + " " + submission.selftext
         cve_matches = cve_pattern.findall(text)
