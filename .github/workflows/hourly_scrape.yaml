@@ -32,14 +32,16 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
-          if [ -f "Reddit_Scraper/reddit_cve_posts.json" ]; then
-            git add "Reddit_Scraper/reddit_cve_posts.json"
+          
+          FILE="Reddit_Scraper/reddit_cve_posts.json"
+          if [ -f "$FILE" ]; then
+            git add "$FILE"
             git commit -m "Update CVE scrape results [bot]" || echo "No changes to commit"
-            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
             git push
           else
             echo "No results to commit."
           fi
-
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_URL: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+
