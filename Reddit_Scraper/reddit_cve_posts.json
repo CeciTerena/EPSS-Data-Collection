@@ -1916,5 +1916,19 @@
     "timestamp": "2025-04-11T14:22:05",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30208"
+    ],
+    "cve_counts": {
+      "CVE-2025-30208": 2
+    },
+    "title": "ViteJS CVE-2025-30208",
+    "text": "🚨 New plugin for ViteJS's CVE-2025-30208  is up.\n\nIt's dev, nothing wrong can happen right?\n\nHave fun.\n\nSource: https://x.com/phithon_xg/status/1905351732500250711",
+    "permalink": "/r/LeakIX/comments/1jwslq4/vitejs_cve202530208/",
+    "timestamp": "2025-04-11T15:27:16",
+    "article_text": null,
+    "comments": []
   }
 ]
