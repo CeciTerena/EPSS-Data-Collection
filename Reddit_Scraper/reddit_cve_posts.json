@@ -1986,5 +1986,19 @@
     "timestamp": "2025-04-12T04:50:15",
     "article_text": "An app may be able to elevate privileges. This issue is fixed in macOS 14. This issue was addressed by removing the vulnerable code.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-36347"
+    ],
+    "cve_counts": {
+      "CVE-2024-36347": 1
+    },
+    "title": "Gigabyte X870E Aorus Master F5 BIOS random 4d error after turning on secure boot",
+    "text": "As per title. Recently updated my Gigabyte X870E Aorus Master from F5a to F5 for the \"AMD CPU microcode signature verification vulnerability (CVE-2024-36347)\" patch. Had updated AMD Chipset Driver to 7.01.08.129 before and after the F5 BIOS update. Got random 4d error on boot up, stuck on the screen with Aorus logo without the spinning wheel.\n\nTried reset BIOS to default settings, no help. Tried turning off PSU then hold power button for 30 secs, no good. Redownload and reflash F5 bios again then turn off memory restore context. Things seems to work well. On boot up the next day, remember I haven't turn on secure boot after reflashing BIOS. Turn it back on and the random 4d boot up error start happening again. Afterwards, I noticed some of the BIOS settings was changed after secure boot changes, including memory context restore changing back to auto. Turned it off, thought everything was stable. Turned on my PC the next day and it got stuck with 4d error again. Seems like there's something wrong with secure boot or the way I turned it on. User standard/custom mode both causes 4d error randomly. But when it boot successfully, everything works fine. Did a quick 30 min CPU+RAM and RAM test via OCCT and nothing was found.\n\nAny help please?",
+    "permalink": "/r/gigabyte/comments/1jxaezo/gigabyte_x870e_aorus_master_f5_bios_random_4d/",
+    "timestamp": "2025-04-12T05:49:22",
+    "article_text": null,
+    "comments": []
   }
 ]
