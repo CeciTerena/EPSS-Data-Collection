@@ -2100,5 +2100,19 @@
         "level": 2
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-32631"
+    ],
+    "cve_counts": {
+      "CVE-2025-32631": 1
+    },
+    "title": "CVE Alert: CVE-2025-32631",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1jxprtu/cve_alert_cve202532631/",
+    "timestamp": "2025-04-12T19:50:13",
+    "article_text": "Improper Limitation of a Pathname to a Restricted Directory (‘Path Traversal’) vulnerability in oxygensuite Oxygen MyData for WooCommerce allows Path Traversal. This issue affects Oxygen MyData for WooCommerce: from n/a through 1.0.63.",
+    "comments": []
   }
 ]
