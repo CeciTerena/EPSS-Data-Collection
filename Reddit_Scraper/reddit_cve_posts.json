@@ -2028,5 +2028,19 @@
     "timestamp": "2025-04-12T13:54:13",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3434"
+    ],
+    "cve_counts": {
+      "CVE-2025-3434": 1
+    },
+    "title": "CVE Alert: CVE-2025-3434",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1jxj061/cve_alert_cve20253434/",
+    "timestamp": "2025-04-12T14:50:16",
+    "article_text": "The SMTP for Amazon SES – YaySMTP plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Email Logs in all versions up to, and including, 1.8 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+    "comments": []
   }
 ]
