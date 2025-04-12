@@ -1958,5 +1958,19 @@
     "timestamp": "2025-04-11T19:50:15",
     "article_text": "Missing Authorization vulnerability in Hive Support Hive Support allows Accessing Functionality Not Properly Constrained by ACLs. This issue affects Hive Support: from n/a through 1.2.2.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22457"
+    ],
+    "cve_counts": {
+      "CVE-2025-22457": 1
+    },
+    "title": "Is The Sofistication In The Room With Us? - X-Forwarded-For and Ivanti Connect Secure (CVE-2025-22457)",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1jx4140/is_the_sofistication_in_the_room_with_us/",
+    "timestamp": "2025-04-11T23:44:13",
+    "article_text": null,
+    "comments": []
   }
 ]
