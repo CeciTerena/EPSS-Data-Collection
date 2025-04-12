@@ -2014,5 +2014,19 @@
     "timestamp": "2025-04-12T09:50:16",
     "article_text": "The The Everest Forms – Contact Form, Quiz, Survey, Newsletter & Payment Form Builder for WordPress plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 3.1.1. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for authenticated attackers, with Subscriber-level access and above, to execute arbitrary shortcodes.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3102"
+    ],
+    "cve_counts": {
+      "CVE-2025-3102": 1
+    },
+    "title": "Une faille critique dans le plugin WordPress OttoKit ( CVE-2025-3102)",
+    "text": "",
+    "permalink": "/r/actutech/comments/1jxhtmf/une_faille_critique_dans_le_plugin_wordpress/",
+    "timestamp": "2025-04-12T13:54:13",
+    "article_text": null,
+    "comments": []
   }
 ]
