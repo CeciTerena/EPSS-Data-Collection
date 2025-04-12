@@ -2056,5 +2056,49 @@
     "timestamp": "2025-04-12T16:01:00",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-0132"
+    ],
+    "cve_counts": {
+      "CVE-2024-0132": 1
+    },
+    "title": "Incomplete NVIDIA Patch to CVE-2024-0132 Exposes AI Infrastructure and Data",
+    "text": "",
+    "permalink": "/r/worldTechnology/comments/1jxnf9n/incomplete_nvidia_patch_to_cve20240132_exposes_ai/",
+    "timestamp": "2025-04-12T18:05:45",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30429"
+    ],
+    "cve_counts": {
+      "CVE-2025-30429": 1
+    },
+    "title": "CVE-2025-30429 exploit",
+    "text": "what exactly does \"an app breaking out of its sandbox\" mean and what could be done with it?",
+    "permalink": "/r/jailbreak/comments/1jxn3rf/cve202530429_exploit/",
+    "timestamp": "2025-04-12T17:51:53",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 3,
+        "text": "It means with said exploit that apps have the advantage of being able to do things outside of its permissions. Much like Filza.",
+        "level": 0
+      },
+      {
+        "score": 2,
+        "text": "so, can we edit files inside /var? if so, can we make a tool like MisakaX for iOS 18.1-18.3.1?",
+        "level": 1
+      },
+      {
+        "score": 1,
+        "text": "Perhaps; but it'll require much more than just one exploit..",
+        "level": 2
+      }
+    ]
   }
 ]
