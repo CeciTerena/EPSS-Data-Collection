@@ -30,29 +30,33 @@ jobs:
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
         run: python reddit_scrapper.py
+
+      - name: Run cleaner
+        working-directory: ./NLP_Pipeline
+        run: python cleaning.py
         
       - name: Commit and push results
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'actions@github.com'
           
-          FILE="Reddit_Scraper/reddit_cve_posts.json"
-          if [ -f "$FILE" ]; then
+          FILE1="Reddit_Scraper/reddit_cve_posts.json"
+          FILE2="NLP_Pipeline/cleaned_reddit_posts.json"
+          CHANGED=false
 
-            echo "git status:"
-            git status
-            echo "git diff --stat on reddit_cve_posts.json:"
-            git diff --stat "Reddit_Scraper/reddit_cve_posts.json"
+          if [ -f "$FILE1" ]; then
+            git add "$FILE1"
+            CHANGED=true
+          fi
 
+          if [ -f "$FILE2" ]; then
+            git add "$FILE2"
+            CHANGED=true
+          fi
 
-
-            git add "$FILE"
-            git commit -m "Update CVE scrape results [bot]" || echo "No changes to commit"
+          if [ "$CHANGED" = true ]; then
+            git commit -m "Update CVE scrape and cleaned results [bot]" || echo "No changes to commit"
             git remote set-url origin "$REPO_URL"
-
-            echo "Updated remote URL:" 
-            git remote -v
-
             git push
           else
             echo "No results to commit."

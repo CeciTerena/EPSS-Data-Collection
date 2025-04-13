@@ -1,0 +1,1460 @@
+[
+  {
+    "cves": [
+      "CVE-2023-42007"
+    ],
+    "cve_counts": {
+      "CVE-2023-42007": 1
+    },
+    "title": "CVE Alert: CVE-2023-42007",
+    "permalink": "/r/RedPacketSecurity/comments/1jwm1kz/cve_alert_cve202342007/",
+    "timestamp": "2025-04-11T11:50:14",
+    "clean_text": "CVE Alert: CVE-2023-42007 IBM Sterling Control Center 6.2.1, 6.3.1, and 6.4.0 is vulnerable to cross-site scripting. This vulnerability allows users to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22230"
+    ],
+    "cve_counts": {
+      "CVE-2025-22230": 3
+    },
+    "title": "VMSA-2025-0005: VMware Tools for Windows update addresses an authentication bypass vulnerability (CVE-2025-22230)",
+    "permalink": "/r/vmware/comments/1jjkivb/vmsa20250005_vmware_tools_for_windows_update/",
+    "timestamp": "2025-03-25T14:22:18",
+    "clean_text": "VMSA-2025-0005: VMware Tools for Windows update addresses an authentication bypass vulnerability (CVE-2025-22230) VMware Tools authentication bypass vulnerability (CVE-2025-22230) Description: VMware Tools for Windows contains an authentication bypass vulnerability due to improper access control. VMware has evaluated the severity of this issue to be in the [Important severity range](https://www.broadcom.com/support/vmware-services/security-response) with a maximum CVSSv3 base score of [7.8](https://www.first.org/cvss/calculator/3-1#CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). Known Attack Vectors: A malicious actor with non-administrative privileges on a Windows guest VM may gain ability to perform certain high-privilege operations within that VM.VMware Tools authentication bypass vulnerability (CVE-2025-22230) Description: VMware Tools for Windows contains an authentication bypass vulnerability due to improper access control. VMware has evaluated the severity of this issue to be in the Important severity range with a maximum CVSSv3 base score of 7.8. Known Attack Vectors: A malicious actor with non-administrative privileges on a Windows guest VM may gain ability to perform certain high-privilege operations within that VM. VMware Tools for **Windows only, Linux and Mac is not affected** I am very curious which \"high-privilege operations within that VM\" are meant by that VMSA. Maybe someone can give some insight on this? Source: [https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25518](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25518) \\[Edit 2025-03-26\\] Have asked [vmware.psirt@broadcom.com](mailto:vmware.psirt@broadcom.com) for more details on the \"high-privilege operations within that VM\" wording. The answer is clear: They won't give out any more details.",
+    "clean_comments": [
+      "Level 0: Yippie more patching oh what fun!"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1,
+      "cve-2025-29927": 1
+    },
+    "title": "Next.js Authentication Bypass Vulnerability (CVE-2025-29927) Explained Simply",
+    "permalink": "/r/reactjs/comments/1ji309p/nextjs_authentication_bypass_vulnerability/",
+    "timestamp": "2025-03-23T16:20:39",
+    "clean_text": "Next.js Authentication Bypass Vulnerability (CVE-2025-29927) Explained Simply I've created a beginner-friendly breakdown of this critical Next.js middleware vulnerability that affects millions of applications Please take a look and let me know what you think 💭 📖 https://neoxs.me/blog/critical-nextjs-middleware-vulnerability-cve-2025-29927-authentication-bypass",
+    "clean_comments": [
+      "Level 0: Really good article on this, but your code snippet aren't scrollable on mobile.",
+      "Level 1: Thanks for your feedback i will improve it 🙏",
+      "Level 2: Some of them do appear to be scrollable, I think one of the list items is breaking scroll so the page size is larger than the browser window size. Site does look really good."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1
+    },
+    "title": "Next.js Middleware Exploit: Deep Dive into CVE-2025-29927 Authorization Bypass - ZeroPath Blog",
+    "permalink": "/r/programming/comments/1jhloj4/nextjs_middleware_exploit_deep_dive_into/",
+    "timestamp": "2025-03-22T23:26:39",
+    "clean_text": "Next.js Middleware Exploit: Deep Dive into CVE-2025-29927 Authorization Bypass - ZeroPath Blog",
+    "clean_comments": [
+      "Level 0: A detailed approach to the research was published here: https://zhero-web-sec.github.io/research-and-things/nextjs-and-the-corrupt-middleware. This vulnerability is insane.",
+      "Level 1: Thank you, this is a way better link",
+      "Level 2: Not really. He's REALLY stretching the extent of the vulnerability. CSP is a client-side protection, nothing to do with the web app itself. You cannot forge an identity or modify the _output_ of the middleware functions. This is merely a bypass of what should be a pretty superficial check in your overall application. If this vulnerability _immediately_ affects you in a material way then you need to revaluate your entire architecture."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-9956"
+    ],
+    "cve_counts": {
+      "CVE-2024-9956": 1
+    },
+    "title": "CVE-2024-9956 - PassKey Account Takeover in All Mobile Browsers",
+    "permalink": "/r/Bitwarden/comments/1jgtnt5/cve20249956_passkey_account_takeover_in_all/",
+    "timestamp": "2025-03-21T22:39:52",
+    "clean_text": "CVE-2024-9956 - PassKey Account Takeover in All Mobile Browsers",
+    "clean_comments": [
+      "Level 0: TLDR An attacker within bluetooth range is able to trigger navigation to a FIDO:/ URI from an attacker controlled page on a mobile browser, allowing them to initiate a legitimate PassKeys authentication intent which will be received on the attacker’s device. This results in the attacker being able to “phish” PassKeys credentials, completely breaking this assumption that PassKeys are impossible to phish. Cool. So you have to be on the attacker’s ~~network~~ malicious website, in Bluetooth range of the attacker, and be on a mobile browser. So, not really a big vulnerability, but a neat MITM attack.",
+      "Level 1: Or the attacker can be on YOUR network...  This, you'd better check your Wifi passwords and security protocols. I guess I shouldn't be doing this phone FIDO2 thing on other people's networks, or should be very cautious about it.",
+      "Level 2: Unless your wifi and admin panel password is the default one from the box, realistically this attack would have to be on either public wifi, or an highly targeted attack. And the common Joe isn’t really a high value target.",
+      "Level 1: breaking this assumption that PassKeys are impossible to phish It's still not extracting the private key - it's intercepting the signing of a single request.",
+      "Level 2: Same method as phishing an OTP. The secret is not compromised, but you can get the OTP from the user.",
+      "Level 1: Technically someone can set up a device like a Raspberry Pi close to a victim using it as a remote proxy. They can then start a PassKey authentication via Bluetooth from anywhere effectively phishing PassKey credentials remotely. This can allow attackers to take advantage of PassKeys from their own home even after leaving the device behind. While it’s still tricky and not something the average person has to worry about, this moves from a simple man-in-the-middle attack to a more complex and creative method to do it remotely. Update your browsers y’all!",
+      "Level 1: Why do you have to be on the same network? That isn't a requirement of CTAP AFAIK. You just need to be within bluetooth range of the attacker device (and on attacker site obviously to get FIDO: URI).",
+      "Level 2: Edited. You are correct. I was thinking of the easiest way to get a victim near you to a malicious website, and captive portals came to mind.",
+      "Level 1: Imagine being connected to a public WiFi, or on a plane. How is that not a big vulnerability?",
+      "Level 1: Or a public WiFi, according to the note with some phishing. Also was fixed in some updates in October 2024. This is old news new that probably no one noticed until now, especially OP."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-23120",
+      "CVE-2024-29849"
+    ],
+    "cve_counts": {
+      "CVE-2024-29849": 2,
+      "CVE-2025-23120": 1
+    },
+    "title": "[PSA] Critical Veeam Vulnerability CVE-2024-29849",
+    "permalink": "/r/sysadmin/comments/1jf0luo/psa_critical_veeam_vulnerability_cve202429849/",
+    "timestamp": "2025-03-19T16:09:04",
+    "clean_text": "[PSA] Critical Veeam Vulnerability CVE-2024-29849 This one has a severity score of 9.9 so better patch fast: [https://www.veeam.com/kb4696](https://www.veeam.com/kb4696) **EDIT: This vulnerability only impacts domain-joined backup servers.** This refers to **CVE-2025-23120** and not CVE-2024-29849 as I mistakenly put in the subject, sorry about that!",
+    "clean_comments": [
+      "Level 0: **Note:** This vulnerability only impacts domain-joined backup servers, which is against the [Security & Compliance Best Practices](https://helpcenter.veeam.com/docs/backup/vsphere/best_practices_analyzer.html?zoom_highlight=%22Backup%20server%20should%20not%20be%20a%20part%20of%20the%20production%20domain%22).",
+      "Level 1: I have a domain joined jump box running the Veeam console but the backup and replication service/database runs on a non domain joined server. Does this only impact servers running the backup and replication service, or even the console?",
+      "Level 1: That line is in the post on Veeam as well but it's not entirely accurate. The best practices aren't to have a server not domain joined but to have it in a management domain separate from production.",
+      "Level 1: Sorry, yes, I should have mentioned that.  I've edited the post accordingly."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2020-14979"
+    ],
+    "cve_counts": {
+      "cve-2020-14979": 2
+    },
+    "title": "Why does Defender hate Fan Control? An explanation of Windows Drivers, WinRing0.sys, and its 7.8 CVE score:",
+    "permalink": "/r/FanControl/comments/1j93doq/why_does_defender_hate_fan_control_an_explanation/",
+    "timestamp": "2025-03-11T22:19:12",
+    "clean_text": "Why does Defender hate Fan Control? An explanation of Windows Drivers, WinRing0.sys, and its 7.8 CVE score: #TL;DR * Windows Defender is not wrong, per se. `WinRing0` DOES has a vulnerability that lets unprivileged programs *hack into Windows. * Fan Control is not malicious, `WinRing0` is not malicious, but a malicious program can use `WinRing0` to bypass your system's security measures because it has a vulnerability. * Read source 1 for the technical details. * You don't have to read this entire wall of text, skip to the headers that interests you. # Introduction Hello everyone! As you probably found out by now, Fan Control's implementation is currently broken. This is due to the kernel driver that Fan Control uses `WinRing0` being blocked by Windows Defender. I want to clarify a few things I learned while researching this and show a bit of behind the scenes of how your computer talks to Fan Control and why Defender has blocked it. # Pet Peeve First off, as a computer scientist it pains me to see people's knee jerk reaction is to override their operating system's security systems. It's there to protect you, yes it can make mistakes, but you should generally wait for an official response or similar understanding and you shouldn't do it blindly. Your security means nothing if you override your security when it's inconvenient. It's kind of like taking the carbon monoxide alarm off the wall because you don't like that it's beeping super loudly. Anyways. # What is a driver and why do we need them? ^(skip to next header if you don't care how drivers work) To answer why Defender has blocked fan Control, I first have to explain how Fan Control works with Windows. I'll try to keep this explanation as simple as possible. *^(Asterisks indicate an oversimplification for clarity) Window's main job is to manage a bunch of different applications and allow them to talk to the hardware. In old times it used to be the case that a program can tell the computer to do whatever it wants. This was a problem because it could mess up other programs, crash the entire system, and do malicious things. So to fix this, operating systems (OS) now split up the computer's memory and give a piece to each application. This application now has its own space to do things, called user-space. Each application is *only allowed to do things in its own piece of memory and nothing else. If the application crashed, the OS can throw away the application & its piece of memory and everything else on the system will be fine. This has a big problem though: applications isolated in user-space could not talk to hardware! If you can talk to the hardware, you can do anything to the system, so it's an intentional protection. But your hardware needs to talk to the operating system to work, but there is too many pieces of hardware that all work differently. Windows doesn't know how to talk to all of them! So we need these programs that can interface with hardware but can't live in user-space. But at the same time we want the kind of protection that user-space gives. The solution is drivers: special programs that can receive special exceptions to live in *kernel-space. Kernel-space is the opposite of user-space. You can do anything in kernel-space! Like talk to hardware to control your fans or read your credit card number when you pay for something. Because kernel-space drivers are so high risk Microsoft gate keeps them with an iron fist, kinda like Apple's non-EU app store on iPhones. # Fan Control used a driver called `WinRing0` Fan Control cannot talk directly to your hardware. It can talk to a driver, and that driver can talk to the hardware. There are a few different drivers and api's Fan Control uses, but the main one was `WinRing0`. ### Who made `WinRing0`? `WinRing0` is a third party driver developed by OpenLibSys. ### Who convinced Microsoft to let `WinRing0` be a driver with privileges? The company called EVGA convinced Microsoft. Why? Because EVGA made software that used the third party driver. They don't use it anymore because it was vulnerable. # `WinRing0` is a vulnerable driver! This is why Defender hates `WinRing0`. On August 11th, 2020 a security researcher named Matt Hand published¹ the vulnerability report for `WinRing0` proving that it had a high-risk privilege escalation exploit. This means a user-space program can take control of this driver* and then use it to gain kernel-space privileges. This means a lowly application can take advantage of `WinRing0` to do whatever it wants to your computer! When this was discovered, EVGA abandoned `WinRing0` and made their own proprietary driver that they use. The developers of `WinRing0` can fix the driver, but under Microsoft's modern strict driver rules, an updated `WinRing0` won't make it past Microsoft's driver gate keepers. Many projects used and still use this driver. That's why Microsoft couldn't just cut support outright for the driver- too many things would break all at once. But `WinRing0` was on borrowed time, Microsoft planned to cut the driver in 2024, but then they pushed it back to Jan 2025. And now Microsoft seems to start following through. # What are the risks of running a vulnerable driver? Well a vulnerable driver is basically a front door to your house that you cannot lock. If everyone in town is friendly, you're good. But all it takes is one malicious actor to recognize the vulnerable door and waltz right on in. The door still functions, and friendly programs like Fan Control are respectful when they have to go in your house through the door. But you are less protected while having it installed. I would recommend listening to Defender. If you choose to override Defender, know that your OS's front door is open, and any program you run can use it for whatever they wish. # Sources 1) Matt Hand (security researcher), https://medium.com/@matterpreter/cve-2020-14979-local-privilege-escalation-in-evga-precisionx1-cf63c6b95896 2) CVE Database, https://nvd.nist.gov/vuln/detail/cve-2020-14979 3) Related Github issue, https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/issues/984 4) Fan Control Dev, https://www.reddit.com/r/JayzTwoCents/comments/13nwpzq/comment/jldj1o9/ Feel free to ask questions, there's no such thing as a stupid question on my posts.",
+    "clean_comments": [
+      "Level 0: It's not true that EVGA was anyhow involved in the WinRing0 driver. They were just one of many companies that used it as it was easy to integrate it and open-source. And the driver+signature was accepted by Windows kernel because it used the old (attestation / cross-certified) signing method that was sufficient several years ago and didn't require an expensive EV code-signing certificate. Signing requirements for kernel drivers changed after Win10 release but drivers signed before were still accepted to preserve compatibility. No one had to convince MS to accept that driver, you just bough a certificate for Windows kernel code signing (with MS cross-cert), signed your driver and it worked. The author of WinRing0 had such certificate probably also for other projects he was working on. Today, you need a more expensive EV certificate (issued to businesses only) and need to let MS sign your driver on their portal (validated via customer EV cert).",
+      "Level 1: This is correct, I'll update my post."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1
+    },
+    "title": "Authorization Bypass Vulnerability in Vercel Next.js: CVE-2025-29927",
+    "permalink": "/r/nextjs/comments/1jgsfhf/authorization_bypass_vulnerability_in_vercel/",
+    "timestamp": "2025-03-21T21:44:28",
+    "clean_text": "Authorization Bypass Vulnerability in Vercel Next.js: CVE-2025-29927 It is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. *  For Next.js 15.x, this issue is fixed in `15.2.3` * For Next.js 14.x, this issue is fixed in `14.2.25` * For Next.js versions `11.1.4` thru `13.5.6` we recommend consulting the below workaround.",
+    "clean_comments": [
+      "Level 0: lol so like half of nextjs applications are currently sitting vulnerable",
+      "Level 1: The fast way to resolve it: Cloudflare / Vercel or any other CDN / HTTP server (like nginx) firewall rule : Block any request containing this req header: \\`x-middleware-subrequest\\`",
+      "Level 2: Sites deployed on Vercel aren't affected by this exploit",
+      "Level 1: I've got a few and they are not exploitable, so it really depends on your setup. But yeah it's pretty bad."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1
+    },
+    "title": "CVE-2025-29927: Authorization Bypass in Next.js Middleware",
+    "permalink": "/r/reactjs/comments/1jhmz1d/cve202529927_authorization_bypass_in_nextjs/",
+    "timestamp": "2025-03-23T00:30:08",
+    "clean_text": "CVE-2025-29927: Authorization Bypass in Next.js Middleware",
+    "clean_comments": [
+      "Level 0: Reading the details gave me a right chuckle. They decided that the best way to flag to downstream middleware that something already ran was via… http header 🤦‍♂️",
+      "Level 1: That is genuinely insane",
+      "Level 1: Like having a lock on your door then leaving the key hanging on a hook outside.",
+      "Level 1: Could you elaborate for those uninitiated (a.k.a. me)?",
+      "Level 2: You're a kid, wanting to ask your parents for whatever demand to your heart's content - give me $100, ice cream for dinner, etc. You know both parents would say no, but it doesn't matter, since you will just ask Parent 1 and inform them that Parent 2 said it was okay, and that also Parent 1 should not ask Parent 2 about the request. Parent 1 does no validation of what Parent 2 allegedly said, and gives you $100 and ice cream for dinner.",
+      "Level 2: Essentially they hook up a bunch of functions that all align to process a request (middleware). They wanted a way to tell if specific function already ran to avoid recursion in case some other function short circuits to a specific one. Rather than define this information in some area outside of user input (e.g. in a property on Request type), they decided to colocate it along with user supplied data aka HTTP headers. So all user had to do was send along a request saying ‘already ran authentication’ and next would believe them.",
+      "Level 1: Classic “security through obscurity” type of move lmao"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-23120"
+    ],
+    "cve_counts": {
+      "CVE-2025-23120": 1
+    },
+    "title": "CVE-2025-23120 - CVSS 9.9 - KB4724",
+    "permalink": "/r/Veeam/comments/1jf0zia/cve202523120_cvss_99_kb4724/",
+    "timestamp": "2025-03-19T16:25:03",
+    "clean_text": "CVE-2025-23120 - CVSS 9.9 - KB4724 At this time, guidance from Veeam is: Note: This vulnerability only impacts domain-joined backup servers, which is against the Security & Compliance Best Practices. KB: https://www.veeam.com/kb4724 Download URL: https://download2.veeam.com/VBR/v12/VeeamBackup&Replication_12.3.1.1139_20250315.iso SHA1: `bb94f8a40ede5f7e55417e018bff603903ad243a` Edit 1: Looks like there's some other feature improvements under this latest update as well: https://www.veeam.com/kb4696 Edit 2: Updated my Veeam CE install, seems fine so far. There appear to be new versions of the agents for Windows/Linux/Unix too.",
+    "clean_comments": [
+      "Level 0: The update broke 2 Backups on Azure Local 23H2. You can't update the Transport Service atm. My case already got escalted to R&D",
+      "Level 1: My case got fobbed off with \"disable wdac to install the update\""
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 3,
+      "cve-2025-29927": 2
+    },
+    "title": "CVE-2025-29927: Bypass de auth no Next.js (CRÍTICA)",
+    "permalink": "/r/brdev/comments/1jiij1p/cve202529927_bypass_de_auth_no_nextjs_crítica/",
+    "timestamp": "2025-03-24T04:20:07",
+    "clean_text": "CVE-2025-29927: Bypass de auth no Next.js (CRÍTICA) Pessoal, acabou de ser anunciado uma vulnerabilidade crítica no Nextjs. A vulnerabilidade permite que o invasor autentique no Nextjs sem precisar de credenciais. O nível de facilidade para executar é absurdo. Literalmente enviar o seguinte header: x-middleware-subrequest: middleware permite acesso, como usuário logado, aos sites que utilizam o middleware do Nextjs para fazer autenticação e autorização. Pelo que entendi, o Nextjs passa o header nos request para identificar loops infinitos e interromper a execução de funções. Neste caso, é possível interromper as funções ligadas a autenticação e acessar o site como usuário logado. Muitas aplicações estão em risco e precisam corrigir a vulnerabilidade. Essa vulnerabilidade está marcada como **9.1/10 (CRÍTICA) no CVSS** Aqui alguns links para mais informações sobre a vulnerabilidade: [CVE-2025-29927 | Next.js](https://nextjs.org/blog/cve-2025-29927) [Critical Next.js Vulnerability: How a Simple Header Bypasses Authentication (CVE-2025-29927) 🕵️ | Neoxs](https://www.neoxs.me/blog/critical-nextjs-middleware-vulnerability-cve-2025-29927-authentication-bypass)",
+    "clean_comments": [
+      "Level 0: https://preview.redd.it/k5sjcl4uwkqe1.jpeg?width=1080&format=pjpg&auto=webp&s=047d3826e055fb03aa4485ffeb592298f8a5b065 Levar em consideração quem pode ser afetado e quem não.",
+      "Level 1: Os únicos que são afetados é quem utiliza o middleware do nextjs para autenticar, aliás não só a autenticação, mas basicamente qualquer tipo de validação feita no middleware está vulnerável. Muita gente só precisa de um sistema de login simples e não utiliza outros provedores. Então a quantidade de gente afetada é bem alta.",
+      "Level 1: O segundo ponto é o mais importante, não se depende de middleware pra auth",
+      "Level 2: Não tem nada de errado, o middleware é executado em todos os requests. Então por ele você pode validar o cookie, claims e tudo mais antes de processar o request. O problema é que dá para burlar tudo."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1,
+      "cve-2025-29927": 1
+    },
+    "title": "Next.js Middleware Authentication Bypass Vulnerability (CVE-2025-29927) - Simplified With Working Demo 🕵️",
+    "permalink": "/r/nextjs/comments/1ji1j4j/nextjs_middleware_authentication_bypass/",
+    "timestamp": "2025-03-23T15:15:26",
+    "clean_text": "Next.js Middleware Authentication Bypass Vulnerability (CVE-2025-29927) - Simplified With Working Demo 🕵️ I've created a comprehensive yet simple explanation of the critical Next.js middleware vulnerability that affects millions of applications. The guide is designed for developers of ALL experience levels - because security shouldn't be gatekept behind complex terminology. 📖 https://neoxs.me/blog/critical-nextjs-middleware-vulnerability-cve-2025-29927-authentication-bypass",
+    "clean_comments": [
+      "Level 0: Glad I never used middleware to protect any routes. I protect them directly inside. I check session and redirect if needed.",
+      "Level 1: Yea personally i would prefer moving authentication logic to the backend, and create my proper custom middleware on the client side.",
+      "Level 2: That's where it is at.",
+      "Level 1: do you make some kind of function? otherwise copy pasting the same code is shit",
+      "Level 2: You could make a HoC for your pages.",
+      "Level 1: I do use it, but proxing to wpgrapql endpoint  I check for token auth that its legit. Anything sensitive its first checked and made sure its allowed in PHP backend.."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-23120"
+    ],
+    "cve_counts": {
+      "CVE-2025-23120": 2
+    },
+    "title": "Critical Veeam Backup & Replication vulnerability for domain joined backup servers CVE-2025-23120 (KB4724)",
+    "permalink": "/r/msp/comments/1jf0y3j/critical_veeam_backup_replication_vulnerability/",
+    "timestamp": "2025-03-19T16:23:18",
+    "clean_text": "Critical Veeam Backup & Replication vulnerability for domain joined backup servers CVE-2025-23120 (KB4724) https://www.veeam.com/kb4724 **CVE-2025-23120**  A vulnerability allowing remote code execution (RCE) by authenticated domain users.  Severity: Critical CVSS v3.1 Score: 9.9 Source: Reported by Piotr Bazydlo of [watchTowr](https://watchtowr.com/)",
+    "clean_comments": [
+      "Level 0: Reminder to not domain join your backup servers, or if you do - take extreme caution and ensure it's an independent forest from your other domain(s).",
+      "Level 1: It’s perfectly fine to domain join them, and actually a lot better if you do. However that domain should be a standalone domain that is only used for the backup infrastructure and only has one way trusts to production.",
+      "Level 1: 100% this.",
+      "Level 2: I’d say more 75% this because domain joining is the best solution when you have a dedicated backup infrastructure domain and Forrest that uses one way trusts to production."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-27591"
+    ],
+    "cve_counts": {
+      "CVE-2025-27591": 1
+    },
+    "title": "Below: World Writable Directory in /var/log/below Allows Local Privilege Escalation (CVE-2025-27591)",
+    "permalink": "/r/linux/comments/1jathij/below_world_writable_directory_in_varlogbelow/",
+    "timestamp": "2025-03-14T02:20:58",
+    "clean_text": "Below: World Writable Directory in /var/log/below Allows Local Privilege Escalation (CVE-2025-27591)",
+    "clean_comments": [
+      "Level 0: it took me 20 seconds in reading before releasing the program itself was called Below.  I thought it was telling me Below as in \"look below\" :("
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 2
+    },
+    "title": "Lessons from Next.js Middleware vulnerability CVE-2025-29927: Why Route-Level Auth Checks Are Worth the Extra Work",
+    "permalink": "/r/nextjs/comments/1jpqw5h/lessons_from_nextjs_middleware_vulnerability/",
+    "timestamp": "2025-04-02T15:06:41",
+    "clean_text": "Lessons from Next.js Middleware vulnerability CVE-2025-29927: Why Route-Level Auth Checks Are Worth the Extra Work Hey r/nextjs community, With the recent disclosure of CVE-2025-29927 (the Next.js middleware bypass vulnerability), I wanted to share some thoughts on an authentication patterns that I always use in all my projects and that can help keep your apps secure, even in the face of framework-level vulnerabilities like this. For those who haven't heard, Vercel recently disclosed a critical vulnerability in Next.js middleware. By adding a special header (`x-middleware-subrequest`) to requests, attackers can completely bypass middleware-based authentication checks. This affects apps that rely on middleware for auth or security checks without additional validation at the route level. We can all agree that middleware-based auth is convenient (implement once, protect many routes), this vulnerability highlights why checking auth at the route level provides an additional layer of security. Yes, it's more verbose and requires more code, but it creates a defense-in-depth approach that's resilient to middleware bypasses. Here's a pattern I've been using, some people always ask why I don't just use the middleware, but that incident proves its effectiveness. **First, create a requireAuth function:** export async function requireAuth(Roles: Role[] = []) { const session = await auth(); if (!session) { return redirect('/signin'); } if (Roles.length && !userHasRoles(session.user, Roles)) { return { authorized: false, session }; } return { authorized: true, session }; } // Helper function to check roles function userHasRoles(user: Session[\"user\"], roles: Role[]) { const userRoles = user?.roles || []; const userRolesName = userRoles.map((role) => role.role.name); return roles.every((role) => userRolesName.includes(role)); } **Then, implement it in every route that needs protection:** export default async function AdminPage() { const { authorized } = await requireAuth([Role.ADMIN]); if (!authorized) return <Unauthorized />; // Your protected page content return ( <div> <h1>Admin Dashboard</h1> {/* Rest of your protected content */} </div> ); } # Benefits of This Approach 1. **Resilience to middleware vulnerabilities**: Even if middleware is bypassed, each route still performs its own auth check 2. **Fine-grained control**: Different routes can require different roles or permissions 3. **Explicit security**: Makes the security requirements of each route clear in the code 4. **Early returns**: Auth failures are handled before any sensitive logic executes I use [Next.js Full-Stack-Kit](https://full-stack-kit.dev) for several projects and it implements this pattern consistently across all protected routes. What I like about that pattern is that auth checks aren't hidden away in some middleware config - they're right there at the top of each page component, making the security requirements explicit and reviewable. At first, It might seem tedious to add auth checks to every route (especially when you have dozens of them), this vulnerability shows why that extra work is worth it. Defense in depth is a fundamental security principle, and implementing auth checks at multiple levels can save you from framework-level vulnerabilities. Stay safe guys!",
+    "clean_comments": [
+      "Level 0: Authorisation checks should be done as high and early as reasonable. If it's simple condition like signin status or role and same rule would be applied to whole segment anyway, there's no need to spread it to each child route. Also you'd avoid more expensive RSC execution in case a redirect is necessary. If the check is more granular e.g. \"....where id=? and foo.owner=?\", 123, user.id)\" then it needs to be done at data access layer obviously. Doing **authentication** in middleware or equivalent concept is another thing. Since it will be done anyway, might as well handle it right away. This would also make standardized auth solutions easier when the whole authentication process could be a preliminary step, establishing the internal user data as result.",
+      "Level 1: Would you then say that authorization should be done at the highest level route that needs to be protected through something like a template.tsx?",
+      "Level 1: What are your thoughts on the potential performance implications of auth checks in middleware? I’m not the sort of dev who typically obsesses much about perf, but this scenario is one exception. My understanding (correct me if I’m wrong) is that for a typical app with a partially personalised UI - e.g. a dashboard with the user’s avatar in the top-right - most of the outer app “shell” is static (i.e. the same thing is shown to all users). In this case, it feels wrong to me to dump a blocking auth service check in middleware. Instead, you could conceivably render parts of the screen immediately and then any slower, user-specific elements stream in and replace their skeleton loaders. Additionally, you only need to do a single db/auth service hit to verify a user, as this result can then just use React’s cache function to reuse the result across the same server render pass. One final pattern I’ve been using is “optimistic” session checks in middleware, which is basically instant as it only checks for a JWT. Of course it’s technically not secure because it could be tampered with, but for rendering basic user data there’s no issue. And for operations that really need full server security, you use row-level security, auth guards in RSCs, server actions, etc. In this way, you get immediate UI rendering with secure data access (it’s just a bit more cumbersome than having a single middleware check). I think seb markbage supports this pattern from one of his tweets. Also could be a motivating factor for features like partial pre-rendering",
+      "Level 2: Parsing and validating JWT token ( let's say HS256) takes ~5-20 microseconds. Asymmetric ones will be slower but even if it would take 1ms you are completely fine for blocking for 1ms in any typical web application. Sessions make much less sense for distributed system but if you're close to db it's perfectly viable. Usually it's just a single index lookup which should be very fast. Again shouldn't be an issue. Most framework default to doing this every request and it isn't an issue. Why this is an issue with NextJS? Because middleware runs possibly 10000km away from the data. Also people do crazy things like calling an external server ( Supabase for example) to do the auth check which obviously is extremely slow. My advice? Use JWT and just validate it locally. Extremely fast and simple."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-9956"
+    ],
+    "cve_counts": {
+      "CVE-2024-9956": 1
+    },
+    "title": "CVE-2024-9956 - PassKey Account Takeover in All Mobile Browsers",
+    "permalink": "/r/cybersecurity/comments/1jhdrha/cve20249956_passkey_account_takeover_in_all/",
+    "timestamp": "2025-03-22T17:29:49",
+    "clean_text": "CVE-2024-9956 - PassKey Account Takeover in All Mobile Browsers",
+    "clean_comments": [
+      "Level 0: What’s everyone’s thoughts on passkeys these days? The root cause of this CVE is that the authenticator (your BLE security key) has no built-in mechanism to independently verify the authenticity of the host (domain) it’s communicating with. This absence of “host verification” allows attackers to MITM the BLE-based authentication, redirecting legitimate responses to malicious endpoints. Cool. So your fancy BLE security key basically trusts whoever it connects with over Bluetooth, without ever double-checking who’s on the other end. Oops. Not an easy fix, but clearly authenticators need a way to explicitly verify the domain before signing responses. Without domain validation PassKeys are vulnerable to subtle but powerful MITM attacks like this one. As far as mitigations I can think of a few: BLE Domain Binding: Enhance the security of BLE keys by incorporating explicit domain checks directly into the BLE handshake. This would ensure that the authenticator independently verifies the host’s identity, preventing unauthorized access from third-party devices. Out-of-Band Domain Checks: Implement a secondary, trusted channel (such as NFC or a “tap-to-confirm” feature on the security device) to validate the domain requesting PassKey credentials. This would provide an additional layer of verification before the device trusts the request without hesitation. Challenge-Based Verification: Have the authenticator issue a cryptographic challenge specifically tied to the domain. The authenticator won’t finalize the authentication unless the host proves its legitimacy cryptographically. In other words, make the domain prove it’s not an imposter first.",
+      "Level 1: It’s a new technology that hasn’t been battle tested. Adopt if you wanna beta test for free. Personally, this is just device authentication cookies dressed in their Sunday best. I’m not a fan and will continue to ignore prompts to use them.",
+      "Level 2: To me they seem to basically give everyone a yubikey. Which we've seen as being superior to token 2FA. I think Passkeys a great. Much harder to Phish."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1,
+      "cve-2025-29927": 1
+    },
+    "title": "🚨 Next.js Middleware Authentication Bypass (CVE-2025-29927) explained for all developers!",
+    "permalink": "/r/webdev/comments/1ji1wmv/nextjs_middleware_authentication_bypass/",
+    "timestamp": "2025-03-23T15:32:25",
+    "clean_text": "🚨 Next.js Middleware Authentication Bypass (CVE-2025-29927) explained for all developers! I've broken down this new critical security vulnerability into simple steps anyone can understand. One HTTP header = complete authentication bypass! Please take a look and let me know what are your thoughts 💭 📖 https://neoxs.me/blog/critical-nextjs-middleware-vulnerability-cve-2025-29927-authentication-bypass",
+    "clean_comments": [
+      "Level 0: Why not link the CVE in your article?",
+      "Level 1: Hey there 😃 Yes it’s there and i also added a dedicated section at the end for references i included the original security researcher who found this vulnerability (they did an amazing work and deserve the support) and also the official nextjs announcement regarding this vulnerability.",
+      "Level 2: Why so much down votes haha 😅"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-30401"
+    ],
+    "cve_counts": {
+      "CVE-2025-30401": 1
+    },
+    "title": "WhatsApp vulnerability could be used to infect Windows users with malware (CVE-2025-30401)",
+    "permalink": "/r/cybersecurity/comments/1jv57l7/whatsapp_vulnerability_could_be_used_to_infect/",
+    "timestamp": "2025-04-09T13:01:22",
+    "clean_text": "WhatsApp vulnerability could be used to infect Windows users with malware (CVE-2025-30401)",
+    "clean_comments": [
+      "Level 0: [removed]",
+      "Level 1: 🤖🚀 I just loooove reading AI Slop, please give me more of those lazy, uninspired mundane ad comments.  🤖🚀",
+      "Level 2: OP was banned for this comment."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-12425",
+      "CVE-2024-12426"
+    ],
+    "cve_counts": {
+      "CVE-2024-12425": 1,
+      "CVE-2024-12426": 1
+    },
+    "title": "Exploiting LibreOffice (CVE-2024-12425 and CVE-2024-12426)",
+    "permalink": "/r/hacking/comments/1jgcghl/exploiting_libreoffice_cve202412425_and/",
+    "timestamp": "2025-03-21T08:59:17",
+    "clean_text": "Exploiting LibreOffice (CVE-2024-12425 and CVE-2024-12426)",
+    "clean_comments": [
+      "Level 0: LibreOffice is a great FOSS suite for writing and awesome alternative for MS Office but honestly, I feel like it's bound to have these vulns :( it's so unfortunate",
+      "Level 1: To be fair, office has had similar vulns as well for it's entire existence XD Tfw scripting features run scripts. All the more reason to never use a spreadsheet or word processor as a database/web service"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-0117",
+      "CVE-2025-0114",
+      "CVE-2025-0116",
+      "CVE-2025-0115",
+      "CVE-2025-0118"
+    ],
+    "cve_counts": {
+      "CVE-2025-0114": 2,
+      "CVE-2025-0115": 2,
+      "CVE-2025-0116": 2,
+      "CVE-2025-0117": 2,
+      "CVE-2025-0118": 2
+    },
+    "title": "Attention - CVE",
+    "permalink": "/r/paloaltonetworks/comments/1j9twx6/attention_cve/",
+    "timestamp": "2025-03-12T20:24:23",
+    "clean_text": "Attention - CVE Hi, That might be important for one or the other of you! :) Prisma Access Browser PAN-SA-2025-0007 Chromium: Monthly Vulnerability Update (March 2025) (Severity: HIGH) https://security.paloaltonetworks.com/PAN-SA-2025-0007 PAN-OS CVE-2025-0114 PAN-OS: Denial of Service (DoS) in GlobalProtect (Severity: MEDIUM) https://security.paloaltonetworks.com/CVE-2025-0114 CVE-2025-0115 PAN-OS: Authenticated Admin File Read Vulnerability in PAN-OS CLI (Severity: MEDIUM) https://security.paloaltonetworks.com/CVE-2025-0115 CVE-2025-0116 PAN-OS: Firewall Denial of Service (DoS) Using a Specially Crafted LLDP Frame (Severity: MEDIUM) https://security.paloaltonetworks.com/CVE-2025-0116 GlobalProtect App CVE-2025-0117 GlobalProtect App: Local Privilege Escalation (PE) Vulnerability (Severity: MEDIUM) https://security.paloaltonetworks.com/CVE-2025-0117 CVE-2025-0118 GlobalProtect App: Execution of Unsafe ActiveX Control Vulnerability (Severity: LOW) https://security.paloaltonetworks.com/CVE-2025-0118",
+    "clean_comments": [
+      "Level 0: Pretty meh, started getting used to the 9+ CVEs already Step up your CVE game PA.",
+      "Level 1: These aren't even all that bad."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-23120"
+    ],
+    "cve_counts": {
+      "CVE-2025-23120": 1,
+      "cve-2025-23120": 2
+    },
+    "title": "Veeam CVE 9.9 Alert -",
+    "permalink": "/r/sysadmin/comments/1jgrpld/veeam_cve_99_alert/",
+    "timestamp": "2025-03-21T21:12:33",
+    "clean_text": "Veeam CVE 9.9 Alert - **// Overview** On March 19th, 2025, software vendor Veeam announced a patch to address **CVE-2025-23120,** which allows for remote code execution (RCE) by any domain authenticated users. The CVSS score is 9.9 representing a serious risk, however this impacts only AD Domain-joined backup servers. The attack takes advantage of a deserialization vulnerability in two different .NET classes. Deserialization is a process to reassemble data after it has been broken into smaller pieces in a stream of bytes known as serialization. The vendor, watchTowr, who reported the vulnerability to Veeam, made note to mention the process of relying on deny-lists, instead of accept-lists is one of the root causes, as it allows attackers to attempt to identify other classes which are not blocked to facilitate code execution. As Sophos has previously reported\\[1\\], Veeam backup servers are frequently targeted by financially motivated threat actors to encrypt and ransom an organization’s data. We recommend high priority be given to patching your backup servers if they meet the criteria below. In addition, Sophos does support Veeam integration to further strengthen your protections\\[2\\]. **// What you should do** Customers running Veeam Backup & Replication software products are advised to upgrade to version 12.3.1, or apply the latest hotfix 12.3 following the vendor’s specific guidance: 1. 12.3.0.310 and all earlier builds of version 12 are impacted Please be advised that application of this hotfix may overwrite previous hotfixes per Veeam’s guidance. [https://www.veeam.com/kb4724](https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvd5djq9e.r.us-west-2.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.veeam.com%252Fkb4724%2F1%2F01010195ba6e1dc2-bee103a9-f191-4ba1-a15f-643badbd5c97-000000%2FcE1OH5jf1aN1IMb1iHbmpRTfxSU%3D419&data=05%7C02%7Cjasoncohenour%40ovfcu.com%7Cdaf7a7bdfae64826d3ff08dd68b865f0%7Cf5ea2130c88948fa8b41bbb81c80157e%7C0%7C0%7C638781863399659476%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=K0kuV3JbE1IPQIegL3zU0vPOVGrB0Sv6Z6Cap0bh0Ko%3D&reserved=0) Additional Reporting 1. [https://labs.watchtowr.com/by-executive-order-we-are-banning-blacklists-domain-level-rce-in-veeam-backup-replication-cve-2025-23120/](https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvd5djq9e.r.us-west-2.awstrack.me%2FL0%2Fhttps%3A%252F%252Flabs.watchtowr.com%252Fby-executive-order-we-are-banning-blacklists-domain-level-rce-in-veeam-backup-replication-cve-2025-23120%252F%2F1%2F01010195ba6e1dc2-bee103a9-f191-4ba1-a15f-643badbd5c97-000000%2Fdb6vxeGtQee5ft54t3pL5rUDfo8%3D419&data=05%7C02%7Cjasoncohenour%40ovfcu.com%7Cdaf7a7bdfae64826d3ff08dd68b865f0%7Cf5ea2130c88948fa8b41bbb81c80157e%7C0%7C0%7C638781863399678778%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=kEMKhOLBXIiSXvlyqieJ3XmmtfZkJ7nnuVK%2FF3iYKfI%3D&reserved=0) 2. \\[1\\] [https://news.sophos.com/en-us/2024/11/08/veeam-exploit-seen-used-again-with-a-new-ransomware-frag/](https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvd5djq9e.r.us-west-2.awstrack.me%2FL0%2Fhttps%3A%252F%252Fnews.sophos.com%252Fen-us%252F2024%252F11%252F08%252Fveeam-exploit-seen-used-again-with-a-new-ransomware-frag%252F%2F1%2F01010195ba6e1dc2-bee103a9-f191-4ba1-a15f-643badbd5c97-000000%2F2Bz90ljGw9uqvG4GEExuhoDd9bM%3D419&data=05%7C02%7Cjasoncohenour%40ovfcu.com%7Cdaf7a7bdfae64826d3ff08dd68b865f0%7Cf5ea2130c88948fa8b41bbb81c80157e%7C0%7C0%7C638781863399694184%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=fBJv4pYTeO2KG0FHMF9S2TzFix4a636Xb86hT9q7FRc%3D&reserved=0)",
+    "clean_comments": [
+      "Level 0: You're late to the party: https://old.reddit.com/r/sysadmin/search?q=CVE-2025-23120&restrict_sr=on",
+      "Level 1: Late?  This is like showing up the Thursday after the Saturday party with a vegetable tray and Busch lite.",
+      "Level 2: That's just early for the next party."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-26506"
+    ],
+    "cve_counts": {
+      "CVE-2025-26506": 1
+    },
+    "title": "HP Warns of Critical Security Flaw in LaserJet Printers - CVE-2025-26506 (CVSSv4 9.2)",
+    "permalink": "/r/cybersecurity/comments/1jb4br2/hp_warns_of_critical_security_flaw_in_laserjet/",
+    "timestamp": "2025-03-14T13:48:47",
+    "clean_text": "HP Warns of Critical Security Flaw in LaserJet Printers - CVE-2025-26506 (CVSSv4 9.2)",
+    "clean_comments": [
+      "Level 0: Less cancer: https://nvd.nist.gov/vuln/detail/CVE-2025-26506 AttackerKB - hasn’t updated as of yet: https://attackerkb.com/topics/l1wN22ZLnI/cve-2025-26506?referrer=search",
+      "Level 1: Thank you"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-22457"
+    ],
+    "cve_counts": {
+      "CVE-2025-22457": 1
+    },
+    "title": "Is The Sofistication In The Room With Us? - X-Forwarded-For and Ivanti Connect Secure (CVE-2025-22457) - watchTowr Labs",
+    "permalink": "/r/netsec/comments/1jrcdex/is_the_sofistication_in_the_room_with_us/",
+    "timestamp": "2025-04-04T13:50:55",
+    "clean_text": "Is The Sofistication In The Room With Us? - X-Forwarded-For and Ivanti Connect Secure (CVE-2025-22457) - watchTowr Labs",
+    "clean_comments": [
+      "Level 0: It seems like they literally said \"well the exploit string is limited to a small set of characters, so it's hard to exploit\" without checking if it would be trivial for an attacker to just...only use that small set of characters. It could have been limited to a single character and it wouldn't have mattered in the slightest.",
+      "Level 1: I'm pretty sure if I go digging in my Tools folder I have a tool for exactly this sort of situation.  I'm sure I could search one up in five minutes if not.  They ship that stock with Kali Linux. What a bizarre idea. Edit: On reading more closely, it's only numbers and period characters, so that's relatively constrained, but yeah... thinking this couldn't be used to devastating effect is ridiculous."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-27564"
+    ],
+    "cve_counts": {
+      "CVE-2024-27564": 1
+    },
+    "title": "Hackers Exploit ChatGPT with CVE-2024-27564, 10,000+ Attacks in a Week",
+    "permalink": "/r/InfoSecNews/comments/1jdokdk/hackers_exploit_chatgpt_with_cve202427564_10000/",
+    "timestamp": "2025-03-17T21:36:37",
+    "clean_text": "Hackers Exploit ChatGPT with CVE-2024-27564, 10,000+ Attacks in a Week",
+    "clean_comments": [
+      "Level 0: Their being really misleading in stating this is an OpenAI hack... This is a hack in a ChatGPT wrapper application written in PHP unrelated to OpenAI. [https://github.com/dirk1983/chatgpt](https://github.com/dirk1983/chatgpt) It has nothing to do with OpenAI, heavy click bait going on here. This post title included. This is a story as old as the internet, some dude puts an example/demo file in his repo library that basically is `<?php exec($_GET['parameter']); ?>` and everyone who just git clones the repo leaves it laying around for someone else to find using Google.",
+      "Level 1: Who said it's an OpenAI hack? It exactly states that a vulnerability (CVE-2024-27564) is being exploited. The company who revealed these attacks is Veriti AI. The clearly state that \"Attackers are actively targeting OpenAI, exploiting CVE-2024-27564, a Server-Side Request Forgery (SSRF) vulnerability in OpenAI’s ChatGPT infrastructure.\" If this is not accurate you should contact Veriti and prove them wrong. I am sure if this was inaccurate OpenAI would have argued it to Veriti before the report had gone live.",
+      "Level 2: **From the post title:** *\"Hackers exploit ChatGPT\"...* **To the article:** *(Deeba Ahmed wrote)* *\"exploitation of a vulnerability within OpenAI’s ChatGPT infrastructure\"...* Both of these statements are false and pure clickbait. If you actually check the **CVE**, you'll see it doesn't mention OpenAI at all. Instead, it points directly to the **GitHub repository** I previously called out: * **Actual CVE:** [CVE-2024-27564](https://nvd.nist.gov/vuln/detail/CVE-2024-27564) * **Vulnerable Software:** [GitHub Repository](https://github.com/dirk1983/chatgpt) (NOT OpenAI) [Veriti.ai](http://Veriti.ai) is completely off the mark. Their entire article wrongly frames this as an OpenAI hack, when in reality, it's unrelated to OpenAI entirely: [Veriti.ai's article](https://veriti.ai/blog/cve-2024-27564-actively-exploited/) Considering [Veriti.ai](https://veriti.ai/odin-ai-cybersearch/) sells software that competes with OpenAI's offerings, I'd take their claims with a hefty grain of salt. Honestly, I wouldn’t be surprised if an AI wrote that sloppy article. Considering the ONLY mention of ChatGPT in ANY of this, is the Github Repository name owned by one: [dirk1983](https://github.com/dirk1983/) (Not OpenAI) I'll let an AI explain it better: [ChatGPT Analysis](https://chatgpt.com/share/67d8b6e7-9e9c-800c-a6ab-b886c0c258af)"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1
+    },
+    "title": "Detect NetxJS CVE-2025-29927 efficiently and at scale",
+    "permalink": "/r/netsec/comments/1jlqota/detect_netxjs_cve202529927_efficiently_and_at/",
+    "timestamp": "2025-03-28T08:55:16",
+    "clean_text": "Detect NetxJS CVE-2025-29927 efficiently and at scale",
+    "clean_comments": [
+      "Level 0: I dont see the tree sitter library being shared in the article. Whats the point of writing detecting these bugs at scale when the authors cant share the details that can lead someone scanning at scale.",
+      "Level 1: You mean this very well known library : https://tree-sitter.github.io/tree-sitter/#parsers I might be misinterpreting you.",
+      "Level 2: I think they're referring to the tool mentioned in the post (which was built using the tree-sitter library) that analyzes JS code to retrieve hidden paths that normally wouldn't be returned when crawling the app. **For this technique, we have developed a tool** that uses TreeSitter with custom queries and a custom variable resolution mechanism to be as precise as we could given the complexity of the minified JavaScript content we analyze. ... So, finally, using our understanding on the vulnerability and the way to find entry points, we simply automate it for each potentially vulnerable application: - Fetch all .js files loaded by the application - **Analyze them to find entrypoints using our JS analyzer tool** - Run the detection template on these entrypoints"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29824"
+    ],
+    "cve_counts": {
+      "CVE-2025-29824": 1
+    },
+    "title": "CVE-2025-29824 Information",
+    "permalink": "/r/crowdstrike/comments/1jv6wfr/cve202529824_information/",
+    "timestamp": "2025-04-09T14:18:09",
+    "clean_text": "CVE-2025-29824 Information Just checking in with everyone to see if they have found any additional information involving this CVE with CrowdStrike? I have only found their standard blog information about patch Tuesday but nothing else.",
+    "clean_comments": [
+      "Level 0: Hi there. *Fortunately* (?), CLFS is used and abused so Falcon has a ton of detection content that looks for that behavior. MSFT has some fairly (read: very) [broad](https://www.microsoft.com/en-us/security/blog/2025/04/08/exploitation-of-clfs-zero-day-leads-to-ransomware-activity/) hunting rules on their site looking for post-exploitation behavior of CLFS exploitation and rasomware execution. I'll translate them in case they are useful to you: **Detect CLFS BLF file creation after exploitation of CVE 2025-29824** #event_simpleName=/FileWritten$/F FileName=/\\.blf/iF FilePath=/\\\\ProgramData\\\\SkyPDF\\\\/iF **LSSASS process dumping activity** Falcon will throw an absolute fit if this happens. No need to search for it. Falcon is going to bring it straight to you. **Ransomware Process Activity** #event_simpleName=ProcessRollup2 CommandLine=/(?<marker>(dllhost|bcdedit|wbadmin|wevtutil))/iF | marker:=lower(\"marker\") | case { marker=dllhost | CommandLine=/\\\\Windows\\\\system32\\\\dllhost.exe\\s+--do/iF; marker=bcdedit | CommandLine=/recoveryenabled\\s+no/iF; marker=wbadmin | CommandLine=/delete\\s+catalog\\s+-quiet/iF; marker=wevtutil| CommandLine=/cl\\s+Application/iF; } **PipeMagic and RansomEXX fansomware domains** #event_simpleName=DnsRequest | in(field=\"DomainName\", values=[\"*aaaaabbbbbbb.eastus.cloudapp.azure.com\",\"*jbdg4buq6jd7ed3rd6cynqtq5abttuekjnxqrqyvk4xam5i7ld33jvqd.onion\",\"*uyhi3ypdkfeymyf5v35pbk3pz7st3zamsbjzf47jiqbcm3zmikpwf3qd.onion\"]) **Disclaimer** These searches, which I did not come up with, are pretty broad and mostly target post-infection LOL activity. You may see these in your environment. That does not mean exploitation of CVE 2025-29824 has occurred. They are points of investigation :) Cheers."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-36347"
+    ],
+    "cve_counts": {
+      "CVE-2024-36347": 1
+    },
+    "title": "Update AMD AGESA V2 1.2.0.E for fix AMD CPU microcode signature verification vulnerability (CVE-2024-36347)",
+    "permalink": "/r/MSI_Gaming/comments/1jq0dxj/update_amd_agesa_v2_120e_for_fix_amd_cpu/",
+    "timestamp": "2025-04-02T21:28:28",
+    "clean_text": "Update AMD AGESA V2 1.2.0.E for fix AMD CPU microcode signature verification vulnerability (CVE-2024-36347) When we can expect AMD AGESA V2 1.2.0.E agesa for am4 socket? Gigabyte and asus released them already.",
+    "clean_comments": [
+      "Level 0: Waiting for update.",
+      "Level 1: Once you qualify for Social Security, stop waiting ... :P This is MSI we're talking about ..."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-24514",
+      "CVE-2025-1097",
+      "CVE-2025-1974",
+      "CVE-2025-1098"
+    ],
+    "cve_counts": {
+      "CVE-2025-1097": 2,
+      "CVE-2025-1098": 2,
+      "CVE-2025-24514": 2,
+      "CVE-2025-1974": 2
+    },
+    "title": "Critical IngressNightmare RCE vulnerabilities (CVE-2025-1097, CVE-2025-1098, CVE-2025-24514, CVE-2025-1974) in Ingress NGINX Controller",
+    "permalink": "/r/sysadmin/comments/1jjjhjm/critical_ingressnightmare_rce_vulnerabilities/",
+    "timestamp": "2025-03-25T13:34:59",
+    "clean_text": "Critical IngressNightmare RCE vulnerabilities (CVE-2025-1097, CVE-2025-1098, CVE-2025-24514, CVE-2025-1974) in Ingress NGINX Controller Link to blogpost: [https://www.wiz.io/blog/ingress-nginx-kubernetes-vulnerabilities](https://www.wiz.io/blog/ingress-nginx-kubernetes-vulnerabilities) Wiz Research just disclosed a new set of unauthenticated Remote Code Execution (RCE) vulnerabilities in Ingress NGINX Controller for Kubernetes (nicknamed **IngressNightmare**). These are serious — with a CVSS v3.1 base score of **9.8**, and they allow an attacker to execute arbitrary code in the cluster’s Ingress NGINX Controller pod and potentially access *all secrets across all namespaces*. If you’re running Kubernetes in production, please read on. **TL;DR** * **Vulnerabilities:** CVE-2025-1097, CVE-2025-1098, CVE-2025-24514, CVE-2025-1974 * **Severity:** Critical (9.8 CVSS v3.1) * **Potential Impact:** Full cluster takeover (access to all secrets in the cluster). * **Affected Component:** Admission controller inside Ingress NGINX (a very commonly used ingress controller). **Summary** Ingress NGINX Controller is massively popular. Wiz says they’ve found **over 6,500** publicly exposed clusters – including some at Fortune 500 companies – that have the admission controller wide open to the internet, making them critical targets. Ingress NGINX by default deploys a validating webhook (admission controller) that checks incoming ingress objects for compliance. But in these vulnerable versions, that webhook can be abused to inject malicious NGINX configs. That eventually leads to RCE within the Ingress NGINX pod. Combine that with the admission controller’s elevated privileges, and it’s game over. **Affected Versions / Fix** * **Fixed in:** Ingress NGINX Controller versions `1.12.1` and `1.11.5`. * If you’re running an older release, you’re at risk. Patch ASAP. **Mitigation Steps** 1. **Update** to the latest Ingress NGINX Controller (1.12.1+ or 1.11.5+). 2. **Lock down the admission webhook** so it’s only reachable by the Kubernetes API Server. * This means restricting network policies or ensuring the webhook isn’t publicly exposed. 3. **If you can’t patch**, you can: * Temporarily **disable** the validating webhook by removing the `ingress-nginx-admission` ValidatingWebhookConfiguration and the `--validating-webhook` argument. (But remember: re-enable it once you upgrade, because it does serve useful security checks!) * Apply **strict network policies** so only the K8s control plane can talk to this webhook.",
+    "clean_comments": [
+      "Level 0: Sometimes you're just happy, you don't use all of that fancy stuff.",
+      "Level 1: LOL, this makes me happy I don't use Nginx, but now I worry about Traefik and what might be found there. However, I also don't use Kubernetes (yet), so maybe a bit less risk there?"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-23120"
+    ],
+    "cve_counts": {
+      "CVE-2025-23120": 1
+    },
+    "title": "By Executive Order, We Are Banning Blacklists - Domain-Level RCE in Veeam Backup & Replication (CVE-2025-23120) - watchTowr Labs",
+    "permalink": "/r/netsec/comments/1jff8u9/by_executive_order_we_are_banning_blacklists/",
+    "timestamp": "2025-03-20T02:54:12",
+    "clean_text": "By Executive Order, We Are Banning Blacklists - Domain-Level RCE in Veeam Backup & Replication (CVE-2025-23120) - watchTowr Labs",
+    "clean_comments": [
+      "Level 0: This is not an executive order from Trump.  This is a report of a vulnerability in Veeam’s blacklist functionality which is used against certain objects in code.  This is a rough summary. There is nothing in the article saying this bug was put in intentionally by law or executive order by the US federal government.",
+      "Level 1: watchTowr meme a lot, their title is not intended to be serious",
+      "Level 2: I’m sorry.  I’ve been on-edge when it comes to hearing “executive order” as my response is always “what institution is getting destroyed now?”"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-1974"
+    ],
+    "cve_counts": {
+      "CVE-2025-1974": 1
+    },
+    "title": "Ingress-nginx CVE-2025-1974: What It Is and How to Fix It",
+    "permalink": "/r/kubernetes/comments/1jjf2mu/ingressnginx_cve20251974_what_it_is_and_how_to/",
+    "timestamp": "2025-03-25T09:03:31",
+    "clean_text": "Ingress-nginx CVE-2025-1974: What It Is and How to Fix It",
+    "clean_comments": [
+      "Level 0: To save time to the readers, if you used helm, just helm repo update then helm upgrade.",
+      "Level 1: So like any other security update with no breaking changes? 😁 Why is everything a news article/tutorial nowadays? Content farming?",
+      "Level 2: Security first before functionality? Lezdo it 🤣",
+      "Level 1: Last time I checked the new version has regressions. Easier to disable the admission webhooks",
+      "Level 2: Actually, there are 4 CVEs reported and only one CVE will be resolved by disabling the admission webhook. The other 3, can only be mitigated by updating.",
+      "Level 1: Make sure using —reuse-values. My ingress allows snippet and I forgot to use it. Ended up getting 404 and had to edit configmap to add: annotations-risk-level: Critical"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-0123"
+    ],
+    "cve_counts": {
+      "CVE-2025-0123": 1
+    },
+    "title": "CVE-2025-0123 PAN-OS",
+    "permalink": "/r/paloaltonetworks/comments/1jvcn0f/cve20250123_panos/",
+    "timestamp": "2025-04-09T18:13:44",
+    "clean_text": "CVE-2025-0123 PAN-OS This CVE just came out about a vulnerability in HTTP/2 Packet Captures It looks like this CVE can be fixed by just turning off HTTP2? Am I reading that correctly?",
+    "clean_comments": [
+      "Level 0: Be careful with disabling http/2 when using AppID in firewall rules. It might happen that some web apps can’t get identified properly ending with blocking them"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2017-5715",
+      "CVE-2017-5753"
+    ],
+    "cve_counts": {
+      "CVE-2017-5715": 2,
+      "CVE-2017-5753": 2
+    },
+    "title": "Microsoft CVE-2017-5715 & CVE-2017-5753 'Spectre'",
+    "permalink": "/r/sysadmin/comments/1jalxun/microsoft_cve20175715_cve20175753_spectre/",
+    "timestamp": "2025-03-13T20:31:28",
+    "clean_text": "Microsoft CVE-2017-5715 & CVE-2017-5753 'Spectre' We have Rapid7 in our environment and one of the vulnerabilities that I've been chasing down is both CVEs CVE-2017-5715 CVE-2017-5753 The vulnerability proof is HKEY\\_LOCAL\\_MACHINE\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\Session Manager\\\\Memory Management. There is s FeatureSettingsOverride that does not exist. I've checked other systems that have the same OS versions, and they also do not have a FeatureSettingsOverride entry either. I thought it would be as simple as a KB install, but it seems a bit more complex than that. I've tried adding the registry value manually on a few systems and rerunning Rapid7 report, but they keep coming back as still vulnerable. I'm assuming someone out there has mitigated this before and knows an automated approach. Any advice will be greatly appreciated!",
+    "clean_comments": [
+      "Level 0: For me, this vulnerability was in CVE-2022-0001 but it's the same fix I believe. There seems to be 2 ways to fix this, either adding that key with this value: reg add \"HKEY\\_LOCAL\\_MACHINE\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\Session Manager\\\\Memory Management\" /v FeatureSettingsOverride /t REG\\_DWORD /d 0x00800000 /f But, there is also a \"Combined Mitigation\" that can be used with this key: reg add \"HKEY\\_LOCAL\\_MACHINE\\\\SYSTEM\\\\CurrentControlSet\\\\Control\\\\Session Manager\\\\Memory Management\" /v FeatureSettingsOverride /t REG\\_DWORD /d 0x00802048 /f We remediated through Crowdstrike and that's where I saw the combined mitigation is the one it wanted for some of them. Seems to be whether you have Hyper V enabled or not that the key differs. Good luck, hope this helped",
+      "Level 1: I also used the crowdstrike mitigation recommendations. One point I’d clarify. It’s not hyper-v but hyper threading enabled.",
+      "Level 2: Ah thank you! I remembered reading about Hyper something. I should have looked it up, but only kept the keys in my notes. Thank you for the correction!",
+      "Level 1: Are the registry entries needed on literally all CPUs?"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-25291",
+      "CVE-2025-25292"
+    ],
+    "cve_counts": {
+      "CVE-2025-25291": 1,
+      "CVE-2025-25292": 1
+    },
+    "title": "Fixes for new critical authentication bypasses affecting ruby-saml and omniauth-saml were published (CVE-2025-25291 + CVE-2025-25292), update!",
+    "permalink": "/r/ruby/comments/1ja6lh0/fixes_for_new_critical_authentication_bypasses/",
+    "timestamp": "2025-03-13T07:32:40",
+    "clean_text": "Fixes for new critical authentication bypasses affecting ruby-saml and omniauth-saml were published (CVE-2025-25291 + CVE-2025-25292), update!",
+    "clean_comments": [
+      "Level 0: Perhaps consider xmldsig library…",
+      "Level 1: It does not cover encryption and its no maintained (last commit 3y ago). The last vulnerabilitis discovered in ruby-saml are not directly related to how xmldsig was implemented, but how was used.",
+      "Level 2: There is an xmlenc library as well for that. It’s all used in libsaml gem"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-0120"
+    ],
+    "cve_counts": {
+      "CVE-2025-0120": 1
+    },
+    "title": "CVE-2025-0120",
+    "permalink": "/r/paloaltonetworks/comments/1jvchyq/cve20250120/",
+    "timestamp": "2025-04-09T18:08:08",
+    "clean_text": "CVE-2025-0120 This is for the GlobalProtect App: Local Privilege Escalation I’m currently on 6.2.6, the unaffected version is 6.2.7-h3 or 6.2.8, but I do not see it when I go to Device -> GlobalProtect Client. Am I the only one with this issue?",
+    "clean_comments": [
+      "Level 0: 6.2.8 seems to be there for me on a 445 , 6.2.7-h3 isn't (unless im using the wrong command) Done in cli request global-protect-client software download version 6.2.8",
+      "Level 1: Yup i see 6.2.8. Not 6.2.7-h3"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-1974"
+    ],
+    "cve_counts": {
+      "CVE-2025-1974": 1,
+      "cve-2025-1974": 1
+    },
+    "title": "Ingress-nginx CVE-2025-1974",
+    "permalink": "/r/rancher/comments/1jjewem/ingressnginx_cve20251974/",
+    "timestamp": "2025-03-25T08:50:00",
+    "clean_text": "Ingress-nginx CVE-2025-1974 This CVE (https://kubernetes.io/blog/2025/03/24/ingress-nginx-cve-2025-1974/) is also affecting rancher, right? Latest image for the backend (https://hub.docker.com/r/rancher/mirrored-nginx-ingress-controller-defaultbackend/tags) seems to be from 4 months ago. I could not find any rancher-specific news regarding this CVE online. Any ideas?",
+    "clean_comments": [
+      "Level 0: The Rancher team posted about this [here](https://www.suse.com/support/kb/doc/?id=000021756) and an [rke2 issue](https://github.com/rancher/rke2/issues/7953) has a bit more detail and progress."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-27591"
+    ],
+    "cve_counts": {
+      "CVE-2025-27591": 1
+    },
+    "title": "Below: World Writable Directory in /var/log/below Allows Local Privilege Escalation (CVE-2025-27591)",
+    "permalink": "/r/rust/comments/1jatht8/below_world_writable_directory_in_varlogbelow/",
+    "timestamp": "2025-03-14T02:21:24",
+    "clean_text": "Below: World Writable Directory in /var/log/below Allows Local Privilege Escalation (CVE-2025-27591)",
+    "clean_comments": [
+      "Level 0: An example of how you still need to be careful of security bugs, even in Rust.",
+      "Level 1: Yes ofc. Rust is not a silver bullet solution for every bug out there, neither it claimed to be. We can still make logical bugs and other bugs in it.",
+      "Level 1: There is no room to even take Rust into consideration, this CVE has absolutely nothing to do with the language. Security bugs are not memory safety issues. Why'd you re-post this here?",
+      "Level 2: Below is apparently written in Rust. A little reminder that Rust doesn't prevent security bugs, only memory safety bugs, may not be a bad idea."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-24813"
+    ],
+    "cve_counts": {
+      "CVE-2025-24813": 2
+    },
+    "title": "Unifi Network Server and Tomcat CVE-2025-24813",
+    "permalink": "/r/Ubiquiti/comments/1jeetg7/unifi_network_server_and_tomcat_cve202524813/",
+    "timestamp": "2025-03-18T20:20:14",
+    "clean_text": "Unifi Network Server and Tomcat CVE-2025-24813 It seems like UNS uses Tomcat under the hood - is there any exposure due to CVE-2025-24813?",
+    "clean_comments": [
+      "Level 0: Hello!  Thanks for posting on r/Ubiquiti! This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many useful details as you can. Ubiquiti makes a great tool to help with figuring out where to place your access points and other network design questions located at: https://design.ui.com If you see people spreading misinformation or violating the \"don't be an asshole\" general rule, please report it! *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Ubiquiti) if you have any questions or concerns.*"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-22457"
+    ],
+    "cve_counts": {
+      "CVE-2025-22457": 1
+    },
+    "title": "Suspected China-Nexus Threat Actor Actively Exploiting Critical Ivanti Connect Secure Vulnerability (CVE-2025-22457)",
+    "permalink": "/r/netsec/comments/1jqoobu/suspected_chinanexus_threat_actor_actively/",
+    "timestamp": "2025-04-03T17:33:02",
+    "clean_text": "Suspected China-Nexus Threat Actor Actively Exploiting Critical Ivanti Connect Secure Vulnerability (CVE-2025-22457)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-8690"
+    ],
+    "cve_counts": {
+      "CVE-2024-8690": 1
+    },
+    "title": "Palo Alto Cortex XDR bypass (CVE-2024-8690)",
+    "permalink": "/r/netsec/comments/1jgra20/palo_alto_cortex_xdr_bypass_cve20248690/",
+    "timestamp": "2025-03-21T20:54:12",
+    "clean_text": "Palo Alto Cortex XDR bypass (CVE-2024-8690)",
+    "clean_comments": [
+      "Level 0: Two things: 1. Palo alto [states](https://security.paloaltonetworks.com/CVE-2024-8690) that different versions were affected - 8.2 and up was not affected. 2. I‘m curious why their Windows ELAM component didn‘t catch this. I thought it was designed against this exact threat?"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-2825",
+      "CVE-2025-31161"
+    ],
+    "cve_counts": {
+      "CVE-2025-31161": 10,
+      "cve-2025-31161": 2,
+      "cve-2025-2825": 2
+    },
+    "title": "Critical Vulnerability: CrushFTP CVE-2025-31161 Auth Bypass and Post-Exploitation",
+    "permalink": "/r/sysadmin/comments/1jrocrs/critical_vulnerability_crushftp_cve202531161_auth/",
+    "timestamp": "2025-04-04T22:18:48",
+    "clean_text": "Critical Vulnerability: CrushFTP CVE-2025-31161 Auth Bypass and Post-Exploitation **TL;DR:** CVE-2025-31161 is a critical severity vulnerability allowing attackers to control how user authentication is handled by CrushFTP managed file transfer (MFT) software. **We strongly recommend patching immediately to avoid affected versions 10.0.0 through 10.8.3 and 11.0.0 through 11.3.0.** Successful exploitation of CVE-2025-31161 would give attackers admin level access across the CrushFTP application for further compromise. On 3 April 2025, Huntress observed in-the-wild exploitation of CVE-2025-31161, an authentication bypass vulnerability in versions of the CrushFTP software. We uncovered further post-exploitation activity leveraging the MeshCentral agent and other malware that we will discuss in [this writeup. ](https://www.huntress.com/blog/crushftp-cve-2025-31161-auth-bypass-and-post-exploitation?utm_campaign=rapid-response&utm_source=reddit&utm_medium=social) While doing some further analysis, we uncovered potential evidence of compromise as early as 30 March 2025, which seemed to be testing access, and did not spawn any external processes to CrushFTP. In [a recent post](https://x.com/Shadowserver/status/1906753539499520064) from the ShadowServer team, they state as of March 30 there were [\\~1,500 vulnerable instances](https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/time-series/?date_range=7&host_type=src&vendor=crushftp&vulnerability=cve-2025-2825&dataset=unique_ips&limit=1000&group_by=geo&style=stacked) of CrushFTP publicly exposed to the internet. We have published a proof of concept, IOCs, and analysis on Mesh and AnyDesk post exploitations [in this blog](https://www.huntress.com/blog/crushftp-cve-2025-31161-auth-bypass-and-post-exploitation?utm_campaign=rapid-response&utm_source=reddit&utm_medium=social). # What is CVE-2025-31161? [CVE-2025-31161](https://nvd.nist.gov/vuln/detail/CVE-2025-31161) is a **9.8 CVSS** critical severity vulnerability that affects how the CrushFTP file transfer application handles user authentication. At the time of writing, the NIST NVD entry states the description: *CrushFTP versions 10.0.0 through 10.8.3 and 11.0.0 through 11.3.0 are affected by a vulnerability in the S3 authorization header processing that allows authentication bypass. Remote and unauthenticated HTTP requests to CrushFTP with known usernames can be used to impersonate a user and conduct actions on their behalf, including administrative actions and data retrieval.* This vulnerability [is patched](https://www.crushftp.com/crush11wiki/Wiki.jsp?page=Update) and is mitigated in CrushFTP versions 11.3.1+ and 10.8.4+. Huntress has validated and confirmed the authentication bypass is prevented in patched versions. Please ensure your own installations of CrushFTP are updated to the latest versions. If your CrushFTP instance is publicly exposed to the open Internet, **we strongly recommend you patch immediately.** Upon successful exploitation, an adversary may gain access to the administrator user account for the CrushFTP application, and leverage this to create new backdoor accounts, access files (upload and download), obtain code execution, and achieve full control of the vulnerable server. The vulnerability was assigned a CVE on March 26, and the Shadowserver Foundation first reported CVE-2025-31161 exploitation activity on March 31. The exploitation of CVE-2025-31161 is indicative of a concerning trend that we’ve seen [across several incidents](https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild), where threat actors are targeting MFT platforms as a way to deliver disruptive attacks. These platforms are typically external-facing and house sensitive enterprise data, making them a favorite for threat actors. As such, prompt patching is critical. Within our partner base we have seen 148 unique endpoints with the CrushFTP software installed as a service, with 95 of these running major versions 10 and 11.  Approximately 72 different companies within our customer base were currently running unpatched versions of CrushFTP.  **Customers have been notified of the urgency to upgrade.** Numerous other security firms have discussed CVE-2025-31161 (hat tip to [Rapid7 AttackerKB](https://attackerkb.com/topics/k0EgiL9Psz/cve-2025-2825/rapid7-analysis) and [Outpost24](https://outpost24.com/blog/crushftp-auth-bypass-vulnerability/) amongst others) and thanks to their shared insights, Huntress was able to recreate a proof-of-concept (PoC) with ease. The core of this vulnerability is the S3 authentication functionality included as a part of CrushFTP. Due to logic bugs in the underlying source code (which [Project Discovery did a fantastic job](https://projectdiscovery.io/blog/crushftp-authentication-bypass) outlining), a mere **Authorization** header in an HTTP request is all that is needed to bypass authentication without valid username or password credentials. # What is Huntress Doing? Post-exploitation efforts are already thoroughly covered by Huntress detection rules. In response to these intrusions specifically, [we crafted detectors to find child processes invoked underneath the CrushFTP service executable](https://gist.github.com/JohnHammond/a22bf3103eeb0f985cf1cef4d3fc849f#file-win_proc_creation_shell_child_process_crushftp-yml). For community members not yet protected with Huntress, there are two Sigma rules available in the public SigmaHQ repository for: 1. Detecting “[Remote Access Tool - MeshAgent Command Execution via MeshCentral](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_remote_access_tools_meshagent_exec.yml)” 2. Detecting “[Remote Access Tool - AnyDesk Silent Installation](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_remote_access_tools_anydesk_silent_install.yml)” If you think you could be impacted, [abuse our trial](https://www.huntress.com/start-trial?utm_campaign=rapid-response&utm_source=reddit&utm_medium=social) to quickly discover anything shady left behind.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 2,
+      "cve-2025-29927": 1
+    },
+    "title": "Attention: Critical Next.js vulnerability CVE-2025-29927",
+    "permalink": "/r/msp/comments/1jircuc/attention_critical_nextjs_vulnerability/",
+    "timestamp": "2025-03-24T14:01:38",
+    "clean_text": "Attention: Critical Next.js vulnerability CVE-2025-29927 Next.js released an alert for CVE-2025-29927 (CVSS: 9.1), a authorization bypass vulnerability, impacting the Next.js React framework. The vulnerability has been addressed in versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3.The vulnerability could allow threat actors to bypass authorization checks performed in Next.js middleware, potentially allowing them to access sensitive web pages that are typically reserved for admins or other high-privileged users. A proof of concept (PoC) for the vulnerability has been released by security researcher Rachid Allam, indicating it is imperative that the vulnerability is patched quickly to prevent threat actors from using available information to exploit. 🛡️Immediate Action: Update to the latest available versions. Prevent external user requests which contain the “x-middleware-subrequest” header from reaching your Next.js application. Notable Sources: [Next.js Alert](https://nextjs.org/blog/cve-2025-29927) [PoC Blog](https://zhero-web-sec.github.io/research-and-things/nextjs-and-the-corrupt-middleware)",
+    "clean_comments": [
+      "Level 0: This is of no help to an MSP. This product is not a standalone product that an MSP can update. This product is middleware that might be included in larger web applications. Which web applications? Who knows? Be afraid. Is there some signature that you can use to scan for affected versions? Who knows? Be afraid. Did you provide any IOCs? Nope. But, I suspect that you'll argue that it's all in the linked blog. True, it could be, if you're a security expert that understands JavaScript and Yara. Which is way beyond most MSPs. This post is not informative. It is FUD based advertising.",
+      "Level 1: Agree. Though here's the assist for MSPs... If a client has an app that relies on next.js, you can use cloudflare to WAF it and protect yourself; [https://developers.cloudflare.com/changelog/2025-03-22-next-js-vulnerability-waf/](https://developers.cloudflare.com/changelog/2025-03-22-next-js-vulnerability-waf/) But as you said, normally in the realm of developers/programmers to deal with.",
+      "Level 2: Really, please don't look at vulnerable products and say \"we'll just a WAF\". The moment you give someone that option, they'll have no reason to get something patched and those WAFs are always easily bypassed."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-21333"
+    ],
+    "cve_counts": {
+      "CVE-2025-21333": 2
+    },
+    "title": "CVE-2025-21333 Windows kernel heap buffer overflow analysis",
+    "permalink": "/r/ExploitDev/comments/1jab3rz/cve202521333_windows_kernel_heap_buffer_overflow/",
+    "timestamp": "2025-03-13T12:45:13",
+    "clean_text": "CVE-2025-21333 Windows kernel heap buffer overflow analysis Writeup showing how to craft a POC exploit for a windows kernel heap-based buffer overflow in the paged pool. Full POC code available here: https://github.com/MrAle98/CVE-2025-21333-POC",
+    "clean_comments": [
+      "Level 0: Good read"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-40893",
+      "CVE-2024-40892"
+    ],
+    "cve_counts": {
+      "CVE-2024-40892": 2,
+      "CVE-2024-40893": 2
+    },
+    "title": "CVE-2024-40892 and CVE-2024-40893",
+    "permalink": "/r/firewalla/comments/1jd9ste/cve202440892_and_cve202440893/",
+    "timestamp": "2025-03-17T10:51:25",
+    "clean_text": "CVE-2024-40892 and CVE-2024-40893 I've been a Firewalla user for a few years and I'm a big fan of the hardware and mobile app. Given they are security products, I've long thought they would benefit from undergoing an annual security audit, with the audit report published online similar to the practices of vendors such as Proton and Bitwarden. While searching for something today, I randomly found [this write up](https://www.labs.greynoise.io/grimoire/2024-08-20-bluuid-firewalla/) from GreyNoise regarding vulnerabilities CVE-2024-40892 and CVE-2024-40893, which were patched in [app version 1.62](https://help.firewalla.com/hc/en-us/articles/30599664470419-Firewalla-App-Release-1-62-Support-for-Gold-Pro-Live-Throughput-by-Device-Excluding-Devices): I'm not sharing this to sensationalise the vulnerabilities but I believe if a researcher can find these issues while explicitly scoped to bluetooth functionality, a more comprehensive audit could potentially find more concerning issues that once fixed, would benefit all users.",
+    "clean_comments": [
+      "Level 0: If you are implying annual explicit security audit will find all the CVE's, then no, that's not the case, and likely will just give you false sense of security. (Given how often zero day news you see in the press from companies that have almost infinitely amount of budget for security, this audit may work for VPN services ... that's something I can't comment) If you are implying firewalla doesn't do annual security audits, that's not true either. We audit security explicitly with every release, and there are secure code review/test processes in place, which is likely no different than any other security company. (edit, disclaimer added, indicating my comment is strictly for security products, not related security audits to VPN services)",
+      "Level 1: Do you guys do checks to make sure there are no hidden Chinese backdoors like in Huawei and TP-Link?",
+      "Level 2: we write our own code, have code reviews, and a big portion of the code we write is open."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-22457"
+    ],
+    "cve_counts": {
+      "CVE-2025-22457": 1
+    },
+    "title": "Suspected China-Nexus Threat Actor Actively Exploiting Critical Ivanti Connect Secure Vulnerability (CVE-2025-22457)",
+    "permalink": "/r/blueteamsec/comments/1jqjnga/suspected_chinanexus_threat_actor_actively/",
+    "timestamp": "2025-04-03T14:18:13",
+    "clean_text": "Suspected China-Nexus Threat Actor Actively Exploiting Critical Ivanti Connect Secure Vulnerability (CVE-2025-22457)",
+    "clean_comments": [
+      "Level 0: You can use this python vulnerability scanner to check if vulnerable: [https://github.com/securekomodo/CVE-2025-22457](https://github.com/securekomodo/CVE-2025-22457) And when you run it, the appliance will generate log ERROR31093: Program web recently failed. and is a high fidelity log to alert on to determine if being exploited by CVE-2025-22457"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-24813"
+    ],
+    "cve_counts": {
+      "CVE-2025-24813": 1
+    },
+    "title": "Analysis of CVE-2025-24813 Apache Tomcat Path Equivalence RCE",
+    "permalink": "/r/netsec/comments/1j9f0ur/analysis_of_cve202524813_apache_tomcat_path/",
+    "timestamp": "2025-03-12T08:00:26",
+    "clean_text": "Analysis of CVE-2025-24813 Apache Tomcat Path Equivalence RCE",
+    "clean_comments": [
+      "Level 0: How does CVE-2025-24813 only have [a CVSS score of 5.5](https://nvd.nist.gov/vuln/detail/CVE-2025-24813) with C/I/A all being Low... For a RCE?",
+      "Level 1: It looks like somebody woke up and it's now a 9.8",
+      "Level 2: Aaah - So it does! :)"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-2748"
+    ],
+    "cve_counts": {
+      "CVE-2025-2748": 1
+    },
+    "title": "XSS To RCE By Abusing Custom File Handlers - Kentico Xperience CMS (CVE-2025-2748) - watchTowr Labs",
+    "permalink": "/r/netsec/comments/1jos2z2/xss_to_rce_by_abusing_custom_file_handlers/",
+    "timestamp": "2025-04-01T10:12:46",
+    "clean_text": "XSS To RCE By Abusing Custom File Handlers - Kentico Xperience CMS (CVE-2025-2748) - watchTowr Labs",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1
+    },
+    "title": "Doing the Due Diligence: Analyzing the Next.js Middleware Bypass (CVE-2025-29927)",
+    "permalink": "/r/netsec/comments/1jim7sp/doing_the_due_diligence_analyzing_the_nextjs/",
+    "timestamp": "2025-03-24T08:52:06",
+    "clean_text": "Doing the Due Diligence: Analyzing the Next.js Middleware Bypass (CVE-2025-29927)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32101"
+    ],
+    "cve_counts": {
+      "CVE-2025-32101": 1
+    },
+    "title": "[CVE-2025-32101] UNA CMS <= 14.0.0-RC4 PHP Object Injection",
+    "permalink": "/r/netsec/comments/1jto4br/cve202532101_una_cms_1400rc4_php_object_injection/",
+    "timestamp": "2025-04-07T15:32:26",
+    "clean_text": "[CVE-2025-32101] UNA CMS <= 14.0.0-RC4 PHP Object Injection",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24801",
+      "CVE-2025-24799"
+    ],
+    "cve_counts": {
+      "CVE-2025-24799": 1,
+      "CVE-2025-24801": 1
+    },
+    "title": "Pre-authentication SQL injection to RCE in GLPI (CVE-2025-24799/CVE-2025-24801)",
+    "permalink": "/r/netsec/comments/1j9hcdw/preauthentication_sql_injection_to_rce_in_glpi/",
+    "timestamp": "2025-03-12T10:53:57",
+    "clean_text": "Pre-authentication SQL injection to RCE in GLPI (CVE-2025-24799/CVE-2025-24801)",
+    "clean_comments": [
+      "Level 0: How are there still preauth vulns in GLPI is beyond me."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2021-35587"
+    ],
+    "cve_counts": {
+      "CVE-2021-35587": 3,
+      "cve-2021-35587": 2
+    },
+    "title": "Oracle Breach - Looking Like CVE-2021-35587",
+    "permalink": "/r/cybersecurity/comments/1jjndqo/oracle_breach_looking_like_cve202135587/",
+    "timestamp": "2025-03-25T16:23:42",
+    "clean_text": "Oracle Breach - Looking Like CVE-2021-35587 What's up peeps. I want to keep this short, but here's some good info I've dug up. I hate to spam the sub with more posts about the same thing, but felt this should be shared. 1) The endpoint the TA stated they compromised is currently down. But there is a recent archive of it (Feb 17th) on the Wayback Machine: [https://web.archive.org/web/20250217171149/https://login.us2.oraclecloud.com/](https://web.archive.org/web/20250217171149/https://login.us2.oraclecloud.com/) 2) The alleged vulnerability is CVE-2021-35587. It relates to the OpenSSO component of OAM (Oracle Access Manager). OpenSSO was deprecated in later 12c releases, but is fully available in 11g (see the Wayback Machine title? WELCOME TO ORACLE FUSION MIDDLEWARE 11g). Fun fact, 11g was deprecated in 2020. 3) An interesting PoC for CVE-2021-35587 can be found here: [https://testbnull.medium.com/oracle-access-manager-pre-auth-rce-cve-2021-35587-analysis-1302a4542316](https://testbnull.medium.com/oracle-access-manager-pre-auth-rce-cve-2021-35587-analysis-1302a4542316) Hope some of this can be helpful to others. Every day is looking worse for Oracle as they keep their head buried in the sand.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1,
+      "cve-2025-29927": 1
+    },
+    "title": "Next.js Middleware Authentication Bypass Vulnerability (CVE-2025-29927) - Simplified With Working Demo 🕵️",
+    "permalink": "/r/Hacking_Tutorials/comments/1jjdod8/nextjs_middleware_authentication_bypass/",
+    "timestamp": "2025-03-25T07:14:26",
+    "clean_text": "Next.js Middleware Authentication Bypass Vulnerability (CVE-2025-29927) - Simplified With Working Demo 🕵️ I've created a comprehensive yet simple explanation of the critical Next.js middleware vulnerability that affects millions of applications. Please take a look and let me know what are your thoughts 💭 📖 https://neoxs.me/blog/critical-nextjs-middleware-vulnerability-cve-2025-29927-authentication-bypass",
+    "clean_comments": [
+      "Level 0: The vulnerable code was originally introduced as a solution to prevent infinite middleware recursion. In the version prior to the patched one, a condition was added to track the number of discovered middleware instances and set a maximum depth of 5. This depth was stored in a specific header. However, a developer—who was apparently “vibe coding”—added a condition to completely skip the middleware if its depth exceeded 5. The security researcher later discovered this vulnerability when they noticed an unusual header being sent with each request. Since Next.js is open-source, they reviewed the code, identified the issue, and the rest is history. You can check the vulnerable code here: https://github.com/vercel/next.js/blob/4386a87db6a2b4e5464c4be1d04346653d39de11/packages/next/src/server/web/sandbox/sandbox.ts#L96"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-22457"
+    ],
+    "cve_counts": {
+      "CVE-2025-22457": 2
+    },
+    "title": "Stack-based buffer overflow in Ivanti Connect Secure - CVE-2025-22457",
+    "permalink": "/r/cybersecurity/comments/1jr2qz7/stackbased_buffer_overflow_in_ivanti_connect/",
+    "timestamp": "2025-04-04T03:49:18",
+    "clean_text": "Stack-based buffer overflow in Ivanti Connect Secure - CVE-2025-22457 CVE-2025-22457: Stack-based buffer overflow in Ivanti Connect Secure (≤22.7R2.5), Policy Secure & ZTA Gateways could lead to remote code execution CVSS: 9.0 limited exploitation observed.",
+    "clean_comments": [
+      "Level 0: You can use this python vulnerability scanner to check if vulnerable: [https://github.com/securekomodo/CVE-2025-22457](https://github.com/securekomodo/CVE-2025-22457)"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1
+    },
+    "title": "Next.js security alert - how to attack and fix CVE-2025-29927",
+    "permalink": "/r/pwnhub/comments/1jritd3/nextjs_security_alert_how_to_attack_and_fix/",
+    "timestamp": "2025-04-04T18:21:38",
+    "clean_text": "Next.js security alert - how to attack and fix CVE-2025-29927",
+    "clean_comments": [
+      "Level 0: **Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.** Stay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**. Whether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead. Stay sharp. Stay secure. **[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)** *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29824"
+    ],
+    "cve_counts": {
+      "CVE-2025-29824": 1
+    },
+    "title": "Microsoft fixes actively exploited Windows CLFS zero-day (CVE-2025-29824)",
+    "permalink": "/r/cybersecurity/comments/1julxtw/microsoft_fixes_actively_exploited_windows_clfs/",
+    "timestamp": "2025-04-08T19:15:37",
+    "clean_text": "Microsoft fixes actively exploited Windows CLFS zero-day (CVE-2025-29824)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1
+    },
+    "title": "Next.js CVE-2025-29927",
+    "permalink": "/r/nextjs/comments/1jhgg9b/nextjs_cve202529927/",
+    "timestamp": "2025-03-22T19:26:41",
+    "clean_text": "Next.js CVE-2025-29927",
+    "clean_comments": [
+      "Level 0: That timeline is insane. It took you over two weeks from the report date to start triaging one of the worst vulnerabilities I have ever seen. If this is not a wake up call to people that Vercel does not take their backend capabilities seriously I don’t know what is."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-22457"
+    ],
+    "cve_counts": {
+      "CVE-2025-22457": 1
+    },
+    "title": "Ivanti VPN customers targeted via unrecognized RCE vulnerability (CVE-2025-22457)",
+    "permalink": "/r/ivanti/comments/1jqpgu3/ivanti_vpn_customers_targeted_via_unrecognized/",
+    "timestamp": "2025-04-03T18:02:53",
+    "clean_text": "Ivanti VPN customers targeted via unrecognized RCE vulnerability (CVE-2025-22457)",
+    "clean_comments": [
+      "Level 0: You can use this python vulnerability scanner to check if vulnerable: [https://github.com/securekomodo/CVE-2025-22457](https://github.com/securekomodo/CVE-2025-22457)"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1
+    },
+    "title": "Small demo of CVE-2025-29927. Also my first youtube video",
+    "permalink": "/r/nextjs/comments/1jsbznk/small_demo_of_cve202529927_also_my_first_youtube/",
+    "timestamp": "2025-04-05T19:51:47",
+    "clean_text": "Small demo of CVE-2025-29927. Also my first youtube video Created a small video where I demo the vulnerability. Hope the language and content is simple enough for anyone to understand. https://youtu.be/5j8aJiKrbgU?si=NS3pUvGyGHzFAbsz",
+    "clean_comments": [
+      "Level 0: Why is the wheel being reinvented every few hours? We know the vulnerability. We know how it works. That vulnerability has been patched. End of story. Thanks for coming to my TED Talk. ps: Also, this is some low quality video with a crappy AI voiceover slapped over it, probably reading off a script generated with ChatGPT."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-22457"
+    ],
+    "cve_counts": {
+      "CVE-2025-22457": 1
+    },
+    "title": "April Security Advisory Ivanti Connect Secure, Policy Secure & ZTA Gateways (CVE-2025-22457)",
+    "permalink": "/r/worldTechnology/comments/1jr57dc/april_security_advisory_ivanti_connect_secure/",
+    "timestamp": "2025-04-04T06:19:17",
+    "clean_text": "April Security Advisory Ivanti Connect Secure, Policy Secure & ZTA Gateways (CVE-2025-22457)",
+    "clean_comments": [
+      "Level 0: You can use this python vulnerability scanner to check if vulnerable: [https://github.com/securekomodo/CVE-2025-22457](https://github.com/securekomodo/CVE-2025-22457)"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2023-24932"
+    ],
+    "cve_counts": {
+      "CVE-2023-24932": 4
+    },
+    "title": "Struggling with CVE-2023-24932 (BlackLotus)",
+    "permalink": "/r/sysadmin/comments/1jlwbjj/struggling_with_cve202324932_blacklotus/",
+    "timestamp": "2025-03-28T14:26:38",
+    "clean_text": "Struggling with CVE-2023-24932 (BlackLotus) We have around 1,500 notebooks. I've been struggling with the patch since October due to the 4x (or 8x) reboots required for the workaround. This week, I discovered on the MS Security page that the February update has closed this vulnerability. *\"Feb 11, 2025* *The following updates have been made to CVE-2023-24932: 1) In the Security Updates table, added all supported versions of the following as they are affected by this vulnerability: Windows 11 24H2 and Windows Server 2025. 2) Further, to comprehensively address this vulnerability, Microsoft has released February 2025 security updates for all affected versions of Windows 11 version 22H2 and Windows 11 version 23H2.* *Microsoft recommends that customers install the updates to be fully protected from the vulnerability. Customers whose systems are configured to receive automatic updates do not need to take any further action.\" Source:* [CVE-2023-24932 - Security Update Guide - Microsoft - Secure Boot Security Feature Bypass Vulnerability](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2023-24932%22msrc.microsoft.com%22) The updates that have been installed this year: *2025-03 Cumulative Update for Windows 11 Version 23H2 for x64-based Systems (KB5053602)* *Successfully installed on 12.03.2025* *2025-02 Cumulative Update for Windows 11 Version 23H2 for x64-based Systems (KB5051989)* *Successfully installed on 15.02.2025* *2025-01 Cumulative Update for Windows 11 Version 23H2 for x64-based Systems (KB5050021)* *Successfully installed on 15.01.2025* Unfortunately, it was still the old one. Running this command - output -> True \\[System.Text.Encoding\\]::ASCII.GetString((Get-SecureBootUEFI db).bytes) -match 'Windows UEFI CA 2023' Mounting the EFI file and checking the certificate chain --> Still the 2011 certificate. It should have been the \"***Windows UEFI CA 2023***\" Now I'm wondering if this was solved or not? Has anyone else checked this too? Thanks in Advance!!",
+    "clean_comments": [
+      "Level 0: This is my interpretation of the entire thing (subject to potential error) as I've not seen a lot of discussion around it, outside of a few threads on the SCCM reddit. The update doesn't change what files were signed with the cert (at the time) when you first built the device. You need to make this change. [How to manage the Windows Boot Manager revocations for Secure Boot changes associated with CVE-2023-24932 - Microsoft Support](https://support.microsoft.com/en-gb/topic/how-to-manage-the-windows-boot-manager-revocations-for-secure-boot-changes-associated-with-cve-2023-24932-41a975df-beb2-40c1-99a3-b3ff139f832d#bkmk_scopeofimpact) Scroll down to mitigation deployment guidelines and it tells you what to do there which, doing this for 1500 machines will take you ages, so an alternative way; I tried updating our winPE addon as we use SCCM but despite following their instructions, it still shows the old cert though unless i've done something wrong, if anyone else has managed to get the new cert showing for their PE addon, please post and save me. [WinPE: Mount and Customize | Microsoft Learn](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-mount-and-customize?view=windows-11#add-updates-to-winpe-if-needed) and step 6 here; [WinPE: Create bootable media | Microsoft Learn](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/winpe-create-usb-bootable-drive?view=windows-11#update-the-windows-pe-add-on-for-the-windows-adk) if it was at least in the image, thats half of it effectively done (not including the reimaging your devices part) and you just have to enable the revocation part via registry which you could do with group policy. The idea was in my situation, to include this update whilst we're reimaging devices which over time would cover a fair chunk and then manually do the rest. But no dice. Edit: used the wrong update when updating WinPE, in the latest version, also had the wrong ADK/winPE",
+      "Level 1: Good point, but I don't understand why Microsoft declares the vulnerability to be fixed, although this is not the case. I have tested a PS script on 2 clients, but the multiple restarts break my neck. Especially as our employees are consultants who sometimes have their notebooks in sleep mode for many weeks. When I make the PS prompt, the 2023 CA is shown, but it has not been implemented? Something must have changed here. PS prompt: \\[System.Text.Encoding\\]::ASCII.GetString((Get-SecureBootUEFI db).bytes) -match 'Windows UEFI CA 2023' Output: true The new CA is in the repository but not implemented?... I have tried to deploy the PS script via Ivanti DSM. When the script runs through, the status is set to Undone with the feedback e.g. “Step 1 finished, Reboot Count: 0” this is then always counted up, but I cannot rebuild the reboot count correctly, because the Ivanti DSM agent on the client also starts after the sleep mode is awakened..."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-0927"
+    ],
+    "cve_counts": {
+      "CVE-2025-0927": 1
+    },
+    "title": "Learn how an out-of-bounds write vulnerability in the Linux kernel can be exploited to achieve an LPE (CVE-2025-0927)",
+    "permalink": "/r/netsec/comments/1je3w9o/learn_how_an_outofbounds_write_vulnerability_in/",
+    "timestamp": "2025-03-18T12:35:42",
+    "clean_text": "Learn how an out-of-bounds write vulnerability in the Linux kernel can be exploited to achieve an LPE (CVE-2025-0927)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22457"
+    ],
+    "cve_counts": {
+      "CVE-2025-22457": 1
+    },
+    "title": "CVE-2025-22457: Stack-based buffer overflow in Ivanti Connect Secure",
+    "permalink": "/r/vulnintel/comments/1jr2mpg/cve202522457_stackbased_buffer_overflow_in_ivanti/",
+    "timestamp": "2025-04-04T03:42:39",
+    "clean_text": "CVE-2025-22457: Stack-based buffer overflow in Ivanti Connect Secure",
+    "clean_comments": [
+      "Level 0: You can use this python vulnerability scanner to check if vulnerable: [https://github.com/securekomodo/CVE-2025-22457](https://github.com/securekomodo/CVE-2025-22457)"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-0132"
+    ],
+    "cve_counts": {
+      "CVE-2024-0132": 1
+    },
+    "title": "Incomplete Patch in NVIDIA Toolkit Leaves CVE-2024-0132 Open to Container Escapes",
+    "permalink": "/r/u_TheCyberSecurityHub/comments/1jvzyuq/incomplete_patch_in_nvidia_toolkit_leaves/",
+    "timestamp": "2025-04-10T14:58:04",
+    "clean_text": "Incomplete Patch in NVIDIA Toolkit Leaves CVE-2024-0132 Open to Container Escapes",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-35587"
+    ],
+    "cve_counts": {
+      "CVE-2021-35587": 2
+    },
+    "title": "Oracle Data Breach 2025 — CVE-2021-35587 Exploited. Could Your Business Be Next?",
+    "permalink": "/r/PureWhiteLabel/comments/1jvy5zt/oracle_data_breach_2025_cve202135587_exploited/",
+    "timestamp": "2025-04-10T13:40:18",
+    "clean_text": "Oracle Data Breach 2025 — CVE-2021-35587 Exploited. Could Your Business Be Next? The recent Oracle data breach was traced back to an older vulnerability (CVE-2021-35587), reminding us how dangerous unpatched systems and shadow IT can be. https://preview.redd.it/f9op8xqvg0ue1.png?width=1200&format=png&auto=webp&s=c3fa06d53d675b7688122ed927cfa9e66c7a0c0c 🚨 Data was stolen 💼 Lawsuits are stacking up 🔍 Shadow IT is being blamed What can companies do **now** to avoid a similar fate? * Improve vulnerability monitoring * Use VPNs to secure remote access * Adopt a proactive threat model We’re exploring how white-label VPN solutions can help businesses prevent data exfiltration and regain control. Thoughts?",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32027"
+    ],
+    "cve_counts": {
+      "CVE-2025-32027": 1
+    },
+    "title": "CVE Alert: CVE-2025-32027",
+    "permalink": "/r/RedPacketSecurity/comments/1jwhw7y/cve_alert_cve202532027/",
+    "timestamp": "2025-04-11T04:50:16",
+    "clean_text": "CVE Alert: CVE-2025-32027 Yii is an open source PHP web framework. Prior to 1.1.31, yiisoft/yii is vulnerable to Reflected XSS in specific scenarios where the fallback error renderer is used. Upgrade yiisoft/yii to version 1.1.31 or higher.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1974"
+    ],
+    "cve_counts": {
+      "CVE-2025-1974": 2
+    },
+    "title": "CVE-2025-1974: PoC for the IngressNightmare (CVE-2025-1974 ) vulnerability found in the Kubernetes ingress-nginx Admission Controller",
+    "permalink": "/r/blueteamsec/comments/1jkwo37/cve20251974_poc_for_the_ingressnightmare/",
+    "timestamp": "2025-03-27T05:19:14",
+    "clean_text": "CVE-2025-1974: PoC for the IngressNightmare (CVE-2025-1974 ) vulnerability found in the Kubernetes ingress-nginx Admission Controller",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22457"
+    ],
+    "cve_counts": {
+      "CVE-2025-22457": 5
+    },
+    "title": "GitHub - securekomodo/CVE-2025-22457: CVE-2025-22457: Python Exploit POC Scanner to Detect Ivanti Connect Secure RCE",
+    "permalink": "/r/bugbounty/comments/1jvq18l/github_securekomodocve202522457_cve202522457/",
+    "timestamp": "2025-04-10T05:01:04",
+    "clean_text": "GitHub - securekomodo/CVE-2025-22457: CVE-2025-22457: Python Exploit POC Scanner to Detect Ivanti Connect Secure RCE If your hunting any programs where there are Ivanti VPN appliances, this is a POC I just posted to validate if vulnerable to the buffer overflow. Shodan Query: `http.favicon.hash:-485487831` Github: [https://github.com/securekomodo/CVE-2025-22457](https://github.com/securekomodo/CVE-2025-22457) Happy hunting! Blue Team Bonus. When you run it, the appliance will generate log `ERROR31093: Program web recently failed.` and is a high fidelity log for the company to validate/determine if being exploited by CVE-2025-22457.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1424"
+    ],
+    "cve_counts": {
+      "CVE-2025-1424": 1
+    },
+    "title": "New Root Access Vulnerability For Inkpad Color 3 CVE-2025-1424",
+    "permalink": "/r/pocketbook/comments/1j8t7yw/new_root_access_vulnerability_for_inkpad_color_3/",
+    "timestamp": "2025-03-11T15:20:11",
+    "clean_text": "New Root Access Vulnerability For Inkpad Color 3 CVE-2025-1424",
+    "clean_comments": [
+      "Level 0: Hm, as far as I know, the pin code protection was added just a few moths ago. So previously anyone was able to see the on-device files by just finding the device on the street 🙂 In addition, not sure if the books on the reader are the some kind of the 'sensetive' information.",
+      "Level 1: Well they certainly could be sensitive especially with current politics Imagine being a child learning about their gender and sexuality? Or a pregnant woman trying to find out about abortion options? Finding those sorts of books on their ereaders could be problematic.",
+      "Level 2: You are right. But approx.6 month ago there was no any protection at all, and now the 'advanced' level knowledge in programming is required to find out the info about the content."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-21594"
+    ],
+    "cve_counts": {
+      "CVE-2025-21594": 1
+    },
+    "title": "CVE Alert: CVE-2025-21594",
+    "permalink": "/r/RedPacketSecurity/comments/1jw6zg3/cve_alert_cve202521594/",
+    "timestamp": "2025-04-10T19:50:20",
+    "clean_text": "CVE Alert: CVE-2025-21594 An Improper Check for Unusual or Exceptional Conditions vulnerability in the pfe (packet forwarding engine) of Juniper Networks Junos OS on MX Series causes a port within a pool to be blocked leading to Denial of Service (DoS). In a DS-Lite (Dual-Stack Lite) and NAT (Network Address Translation) scenario, when crafted IPv6 traffic is received and prefix-length is set to 56, the ports assigned to the user will not be freed. Eventually, users cannot establish new connections. Affected FPC/PIC need to be manually restarted to recover. Following is the command to identify the issue: user@host> show services nat source port-block Host_IP External_IP Port_Block Ports_Used/ Block_State/ Range Ports_Total Left_Time(s) 2001:: x.x.x.x 58880-59391 256/256*1 Active/- >>>>>>>>port still usedThis issue affects Junos OS on MX Series: * from 21.2 before 21.2R3-S8, * from 21.4 before 21.4R3-S7, * from 22.1 before 22.1R3-S6, * from 22.2 before 22.2R3-S4, * from 22.3 before 22.3R3-S3, * from 22.4 before 22.4R3-S2, * from 23.2 before 23.2R2-S1, * from 23.4 before 23.4R1-S2, 23.4R2. This issue does not affect versions before 20.2R1.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-0132"
+    ],
+    "cve_counts": {
+      "CVE-2024-0132": 1
+    },
+    "title": "Incomplete Patch in NVIDIA Toolkit Leaves CVE-2024-0132 Open to Container Escapes",
+    "permalink": "/r/InfoSecNews/comments/1jw56la/incomplete_patch_in_nvidia_toolkit_leaves/",
+    "timestamp": "2025-04-10T18:34:54",
+    "clean_text": "Incomplete Patch in NVIDIA Toolkit Leaves CVE-2024-0132 Open to Container Escapes",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2632"
+    ],
+    "cve_counts": {
+      "CVE-2025-2632": 1
+    },
+    "title": "CVE Alert: CVE-2025-2632",
+    "permalink": "/r/RedPacketSecurity/comments/1jvzsad/cve_alert_cve20252632/",
+    "timestamp": "2025-04-10T14:50:16",
+    "clean_text": "CVE Alert: CVE-2025-2632 Out of bounds write vulnerability due to improper bounds checking in NI LabVIEW reading CPU info from cache that may result in information disclosure or arbitrary code execution. Successful exploitation requires an attacker to get a user to open a specially crafted VI. This vulnerability affects NI LabVIEW 2025 Q1 and prior versions.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30655"
+    ],
+    "cve_counts": {
+      "CVE-2025-30655": 1
+    },
+    "title": "CVE Alert: CVE-2025-30655",
+    "permalink": "/r/RedPacketSecurity/comments/1jvu2j3/cve_alert_cve202530655/",
+    "timestamp": "2025-04-10T09:50:16",
+    "clean_text": "CVE Alert: CVE-2025-30655 An Improper Check for Unusual or Exceptional Conditions vulnerability in the Routing Protocol Daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows a local, low-privileged attacker to cause a Denial-of-Service (DoS). When a specific “show bgp neighbor” CLI command is run, the rpd cpu utilization rises and eventually causes a crash and restart. Repeated use of this command will cause a sustained DoS condition. The device is only affected if BGP RIB sharding and update-threading is enabled. This issue affects Junos OS: * All versions before 21.2R3-S9, * from 21.4 before 21.4R3-S8, * from 22.2 before 22.2R3-S6, * from 22.4 before 22.4R3-S2, * from 23.2 before 23.2R2-S3, * from 23.4 before 23.4R2. and Junos OS Evolved: * All versions before 21.2R3-S9-EVO, * from 21.4-EVO before 21.4R3-S8-EVO, * from 22.2-EVO before 22.2R3-S6-EVO, * from 22.4-EVO before 22.4R3-S2-EVO, * from 23.2-EVO before 23.2R2-S3-EVO, * from 23.4-EVO before 23.4R2-EVO.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30406"
+    ],
+    "cve_counts": {
+      "CVE-2025-30406": 1
+    },
+    "title": "CVE-2025-30406 - Gladinet CentreStack through 16.1.10296.56315 (fixed in 16.4.10315.56368) has a deserialization vulnerability due to the CentreStack portal's hardcoded machineKey use, as exploited in the wild in March 2025.",
+    "permalink": "/r/worldTechnology/comments/1jv227b/cve202530406_gladinet_centrestack_through/",
+    "timestamp": "2025-04-09T09:59:34",
+    "clean_text": "CVE-2025-30406 - Gladinet CentreStack through 16.1.10296.56315 (fixed in 16.4.10315.56368) has a deserialization vulnerability due to the CentreStack portal's hardcoded machineKey use, as exploited in the wild in March 2025.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1974"
+    ],
+    "cve_counts": {
+      "CVE-2025-1974": 1
+    },
+    "title": "Bitnami Ingress-nginx fix for critical CVE-2025-1974 or IngressNightmare",
+    "permalink": "/r/devsecops/comments/1jji04o/bitnami_ingressnginx_fix_for_critical_cve20251974/",
+    "timestamp": "2025-03-25T12:19:29",
+    "clean_text": "Bitnami Ingress-nginx fix for critical CVE-2025-1974 or IngressNightmare",
+    "clean_comments": [
+      "Level 0: Learn how to identify, mitigate, and patch this high-risk vulnerability today: [https://blog.abhimanyu-saharan.com/posts/ingress-nginx-cve-2025-1974-what-it-is-and-how-to-fix-it](https://blog.abhimanyu-saharan.com/posts/ingress-nginx-cve-2025-1974-what-it-is-and-how-to-fix-it)"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-48887"
+    ],
+    "cve_counts": {
+      "CVE-2024-48887": 4
+    },
+    "title": "🚨 CVE-2024-48887 Fortinet FortiSwitch GUI vuln (CVSS 9.3)",
+    "permalink": "/r/vulnintel/comments/1jv02nf/cve202448887_fortinet_fortiswitch_gui_vuln_cvss_93/",
+    "timestamp": "2025-04-09T07:30:12",
+    "clean_text": "🚨 CVE-2024-48887 Fortinet FortiSwitch GUI vuln (CVSS 9.3) CVE-2024-48887 Fortinet FortiSwitch GUI vuln (CVSS 9.3) A remote attacker can change admin passwords without authentication via the set\\_password endpoint. Unauthenticated access + no verification = full control. [https://vulmon.com/vulnerabilitydetails?qid=CVE-2024-48887](https://vulmon.com/vulnerabilitydetails?qid=CVE-2024-48887)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-0124"
+    ],
+    "cve_counts": {
+      "CVE-2025-0124": 1
+    },
+    "title": "[Palo Alto Networks Security Advisories] CVE-2025-0124 PAN-OS: Authenticated File Deletion Vulnerability on theManagement Web Interface",
+    "permalink": "/r/RedPacketSecurity/comments/1jvbe3z/palo_alto_networks_security_advisories/",
+    "timestamp": "2025-04-09T17:23:59",
+    "clean_text": "[Palo Alto Networks Security Advisories] CVE-2025-0124 PAN-OS: Authenticated File Deletion Vulnerability on theManagement Web Interface None",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1073"
+    ],
+    "cve_counts": {
+      "CVE-2025-1073": 1
+    },
+    "title": "CVE Alert: CVE-2025-1073",
+    "permalink": "/r/RedPacketSecurity/comments/1jwrqd6/cve_alert_cve20251073/",
+    "timestamp": "2025-04-11T14:50:16",
+    "clean_text": "CVE Alert: CVE-2025-1073 Panasonic IR Control Hub (IR Blaster) versions 1.17 and earlier may allow an attacker with physical access to load unauthorized firmware onto the device.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22457"
+    ],
+    "cve_counts": {
+      "CVE-2025-22457": 2
+    },
+    "title": "CVE-2025-22457: PoC for CVE-2025-22457 - A remote unauthenticated stack based buffer overflow affecting Ivanti Connect Secure, Pulse Connect Secure, Ivanti Policy Secure, and ZTA Gateway",
+    "permalink": "/r/blueteamsec/comments/1jwrm68/cve202522457_poc_for_cve202522457_a_remote/",
+    "timestamp": "2025-04-11T14:45:13",
+    "clean_text": "CVE-2025-22457: PoC for CVE-2025-22457 - A remote unauthenticated stack based buffer overflow affecting Ivanti Connect Secure, Pulse Connect Secure, Ivanti Policy Secure, and ZTA Gateway",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2018-3646"
+    ],
+    "cve_counts": {
+      "CVE-2018-3646": 1
+    },
+    "title": "PLEASE HELP, EVENT VIEWER WEIRD ERROR LOGS.",
+    "permalink": "/r/computers/comments/1jwrlgf/please_help_event_viewer_weird_error_logs/",
+    "timestamp": "2025-04-11T14:44:23",
+    "clean_text": "PLEASE HELP, EVENT VIEWER WEIRD ERROR LOGS. Please help me, I have been having so many event viewer weird errors and my mom got me this laptop I have no idea what's wrong with it, it's only 5 months old and I don't know what to do. Event viewer errors: The driver/Driver/WUDFRd failed to load. Device: ROOT\\DISPLAY\\0000 UMDF reflector is unable to connect to SCM. This is expected during boot, when csm has not started yet. Will retry when it starts. Device association detected an endpoint discovery failure. The time provider VMICTimeProvider has indicated that the current hardware and os is not supported and stopped. Unable to load pluton-windows firmware. Status code STATUS_SUCCESS. Reason: failed to apply firmware. Hypervisor configured mitigations for CVE-2018-3646 for virtual machines. Processor not affected: false Processor family not affected: false Processor supports cache flush: false Hyper threading enabled: true Parent supervisor applies mitiqations: false Mitiqations disabled by bcdedit: false Mitiqations enabled: true Cache flush needed: false Please help me, there's so many and I don't know what's wrong omg. This laptop is from Walmart and no I halvent done anything for this to happen please anyone help me out.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22457"
+    ],
+    "cve_counts": {
+      "CVE-2025-22457": 1
+    },
+    "title": "CVE-2025-22457 - Ivanti - rapid analysis",
+    "permalink": "/r/blueteamsec/comments/1jwrk87/cve202522457_ivanti_rapid_analysis/",
+    "timestamp": "2025-04-11T14:42:51",
+    "clean_text": "CVE-2025-22457 - Ivanti - rapid analysis",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2018-3646"
+    ],
+    "cve_counts": {
+      "CVE-2018-3646": 1
+    },
+    "title": "Laptop is having weird event viewer logs please help me out.",
+    "permalink": "/r/laptops/comments/1jwrear/laptop_is_having_weird_event_viewer_logs_please/",
+    "timestamp": "2025-04-11T14:35:42",
+    "clean_text": "Laptop is having weird event viewer logs please help me out. Please help me, I have been having so many event viewer weird errors and my mom got me this laptop I have no idea what's wrong with it, it's only 5 months old and I don't know what to do. Event viewer errors: The driver/Driver/WUDFRd failed to load. Device: ROOT\\DISPLAY\\0000 UMDF reflector is unable to connect to SCM. This is expected during boot, when csm has not started yet. Will retry when it starts. Device association detected an endpoint discovery failure. The time provider VMICTimeProvider has indicated that the current hardware and os is not supported and stopped. Unable to load pluton-windows firmware. Status code STATUS_SUCCESS. Reason: failed to apply firmware. Hypervisor configured mitigations for CVE-2018-3646 for virtual machines. Processor not affected: false Processor family not affected: false Processor supports cache flush: false Hyper threading enabled: true Parent supervisor applies mitiqations: false Mitiqations disabled by bcdedit: false Mitiqations enabled: true Cache flush needed: false Please help me, there's so many and I don't know what's wrong omg. This laptop is from Walmart and no I halvent done anything for this to happen please anyone help me out.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2075",
+      "CVE-2025-24813"
+    ],
+    "cve_counts": {
+      "CVE-2025-2075": 1,
+      "CVE-2025-24813": 1
+    },
+    "title": "Security Watch 4/11/25",
+    "permalink": "/r/k12sysadmin/comments/1jwr2vj/security_watch_41125/",
+    "timestamp": "2025-04-11T14:22:05",
+    "clean_text": "Security Watch 4/11/25 On K12TechPro, we've launched a weekly cyber threat intelligence and vulnerability newsletter with NTP and K12TechPro. We'll post the \"public\" news to k12sysadmin from each newsletter. For the full \"k12 techs only\" portion (no middle schoolers, bad guys, vendors, etc. allowed), log into [k12techpro.com](http://k12techpro.com) and visit the Cybersecurity Hub. **Oracle Data Breach** Oracle is quietly acknowledging aspects of their data breach incident following increased media pressure and a class action lawsuit. **Fast Flux** Fast flux attacks are using rapid DNS changes and dummy servers to evade detection and bypass domain-level blocking. With phishing campaigns and malware delivery becoming harder to stop, here is actionable guidance from CISA on how to identify and mitigate fast flux threats across your network - [https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-093a](https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-093a) **Wordpress** WordPress plugin vulnerability (CVE-2025-2075) is affecting over 50,000 sites using the Uncanny Automator plugin. This flaw allows attackers with minimal access to gain full administrative privileges. **Apache Tomcat** Apache Tomcat path equivalence vulnerability (CVE-2025-24813) is rated critical with a CVSS score of 9.8. This issue could allow attackers to bypass access controls or even execute remote code under specific conditions.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30208"
+    ],
+    "cve_counts": {
+      "CVE-2025-30208": 2
+    },
+    "title": "ViteJS CVE-2025-30208",
+    "permalink": "/r/LeakIX/comments/1jwslq4/vitejs_cve202530208/",
+    "timestamp": "2025-04-11T15:27:16",
+    "clean_text": "ViteJS CVE-2025-30208 🚨 New plugin for ViteJS's CVE-2025-30208  is up. It's dev, nothing wrong can happen right? Have fun. Source: https://x.com/phithon_xg/status/1905351732500250711",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2020-11971"
+    ],
+    "cve_counts": {
+      "CVE-2020-11971": 1
+    },
+    "title": "Apache Camel NES: Extended Support for EOL Camel 3.x Applications",
+    "permalink": "/r/OSS_EOL/comments/1jwvbap/apache_camel_nes_extended_support_for_eol_camel/",
+    "timestamp": "2025-04-11T17:20:52",
+    "clean_text": "Apache Camel NES: Extended Support for EOL Camel 3.x Applications For teams concerned about Apache Camel 3.x approaching end-of-life, I wanted to share that HeroDevs has just launched Apache Camel NES (Never-Ending Support). **What Apache Camel NES provides:** * Security patches for newly discovered vulnerabilities in Camel 3.x * Compliance documentation for SOC 2, HIPAA, and PCI-DSS * Support for specific Camel 3.x + Spring Boot combinations * Regular updates and SBOMs for security teams **Technical details:** * Version 3.22 was expected to reach EOL in December 2024 * We also support Camel 2.25.4 (last released May 28, 2021) * Support for camel-spring-boot-starter:3.22.x with Spring Boot 2.7.x * Addresses specific vulnerabilities like CVE-2020-11971 This approach lets teams maintain security while planning migrations on their own timelines. If anyone has questions about the technical aspects of maintaining EOL frameworks or wants to discuss Apache Camel migration challenges, I'm happy to chat. Have you found particular strategies effective for managing the transition?",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32242"
+    ],
+    "cve_counts": {
+      "CVE-2025-32242": 1
+    },
+    "title": "CVE Alert: CVE-2025-32242",
+    "permalink": "/r/RedPacketSecurity/comments/1jwyupl/cve_alert_cve202532242/",
+    "timestamp": "2025-04-11T19:50:15",
+    "clean_text": "CVE Alert: CVE-2025-32242 Missing Authorization vulnerability in Hive Support Hive Support allows Accessing Functionality Not Properly Constrained by ACLs. This issue affects Hive Support: from n/a through 1.2.2.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22457"
+    ],
+    "cve_counts": {
+      "CVE-2025-22457": 1
+    },
+    "title": "Is The Sofistication In The Room With Us? - X-Forwarded-For and Ivanti Connect Secure (CVE-2025-22457)",
+    "permalink": "/r/blueteamsec/comments/1jx4140/is_the_sofistication_in_the_room_with_us/",
+    "timestamp": "2025-04-11T23:44:13",
+    "clean_text": "Is The Sofistication In The Room With Us? - X-Forwarded-For and Ivanti Connect Secure (CVE-2025-22457)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-41076"
+    ],
+    "cve_counts": {
+      "CVE-2023-41076": 1
+    },
+    "title": "CVE Alert: CVE-2023-41076",
+    "permalink": "/r/RedPacketSecurity/comments/1jx9i7q/cve_alert_cve202341076/",
+    "timestamp": "2025-04-12T04:50:15",
+    "clean_text": "CVE Alert: CVE-2023-41076 An app may be able to elevate privileges. This issue is fixed in macOS 14. This issue was addressed by removing the vulnerable code.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-36347"
+    ],
+    "cve_counts": {
+      "CVE-2024-36347": 1
+    },
+    "title": "Gigabyte X870E Aorus Master F5 BIOS random 4d error after turning on secure boot",
+    "permalink": "/r/gigabyte/comments/1jxaezo/gigabyte_x870e_aorus_master_f5_bios_random_4d/",
+    "timestamp": "2025-04-12T05:49:22",
+    "clean_text": "Gigabyte X870E Aorus Master F5 BIOS random 4d error after turning on secure boot As per title. Recently updated my Gigabyte X870E Aorus Master from F5a to F5 for the \"AMD CPU microcode signature verification vulnerability (CVE-2024-36347)\" patch. Had updated AMD Chipset Driver to 7.01.08.129 before and after the F5 BIOS update. Got random 4d error on boot up, stuck on the screen with Aorus logo without the spinning wheel. Tried reset BIOS to default settings, no help. Tried turning off PSU then hold power button for 30 secs, no good. Redownload and reflash F5 bios again then turn off memory restore context. Things seems to work well. On boot up the next day, remember I haven't turn on secure boot after reflashing BIOS. Turn it back on and the random 4d boot up error start happening again. Afterwards, I noticed some of the BIOS settings was changed after secure boot changes, including memory context restore changing back to auto. Turned it off, thought everything was stable. Turned on my PC the next day and it got stuck with 4d error again. Seems like there's something wrong with secure boot or the way I turned it on. User standard/custom mode both causes 4d error randomly. But when it boot successfully, everything works fine. Did a quick 30 min CPU+RAM and RAM test via OCCT and nothing was found. Any help please?",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3422"
+    ],
+    "cve_counts": {
+      "CVE-2025-3422": 1
+    },
+    "title": "CVE Alert: CVE-2025-3422",
+    "permalink": "/r/RedPacketSecurity/comments/1jxdqs6/cve_alert_cve20253422/",
+    "timestamp": "2025-04-12T09:50:16",
+    "clean_text": "CVE Alert: CVE-2025-3422 The The Everest Forms – Contact Form, Quiz, Survey, Newsletter & Payment Form Builder for WordPress plugin for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 3.1.1. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for authenticated attackers, with Subscriber-level access and above, to execute arbitrary shortcodes.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3102"
+    ],
+    "cve_counts": {
+      "CVE-2025-3102": 1
+    },
+    "title": "Une faille critique dans le plugin WordPress OttoKit ( CVE-2025-3102)",
+    "permalink": "/r/actutech/comments/1jxhtmf/une_faille_critique_dans_le_plugin_wordpress/",
+    "timestamp": "2025-04-12T13:54:13",
+    "clean_text": "Une faille critique dans le plugin WordPress OttoKit ( CVE-2025-3102)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3434"
+    ],
+    "cve_counts": {
+      "CVE-2025-3434": 1
+    },
+    "title": "CVE Alert: CVE-2025-3434",
+    "permalink": "/r/RedPacketSecurity/comments/1jxj061/cve_alert_cve20253434/",
+    "timestamp": "2025-04-12T14:50:16",
+    "clean_text": "CVE Alert: CVE-2025-3434 The SMTP for Amazon SES – YaySMTP plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Email Logs in all versions up to, and including, 1.8 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-43102"
+    ],
+    "cve_counts": {
+      "CVE-2024-43102": 1
+    },
+    "title": "Un nuovo script python porta l'exploit UMTX2 su Set-Top Box e sistemi Armbian",
+    "permalink": "/r/BiteYourConsole/comments/1jxkkwy/un_nuovo_script_python_porta_lexploit_umtx2_su/",
+    "timestamp": "2025-04-12T16:01:00",
+    "clean_text": "Un nuovo script python porta l'exploit UMTX2 su Set-Top Box e sistemi Armbian Best curtains shop in DubaiUn nuovo script python porta l'exploit UMTX2 su Set-Top Box e sistemi Armbianhttps://www.biteyourconsole.net/wp-content/uploads/PS5Payload.webphttps://dubaicurtainshops.com/Lo sviluppatore noto come goakal-play ha realizzato una versione personalizzata di un server host per l’exploit umtx2, pensata per funzionare su dispositivi STB (Set-Top Box) o sistemi operativi basati su Armbian, con l’intento di eseguire il jailbreak della PlayStation 5 in ambienti locali o offline.\\ L’exploit umtx2, alla base del progetto, sfrutta la vulnerabilità CVE-2024-43102 nel WebKit della console per ottenere accesso al kernel e consentire l’esecuzione di codice non firmato, come payload homebrew o strumenti di debug.\\ A differenza della repository originale di idlesauce, focalizzato sull’utilizzo dell’exploit tramite browser PS5 o siti ospitati su Cloudflare, questa implementazione è ottimizzata per ambienti server alternativi, come dispositivi embedded o single-board computer, tra cui Raspberry Pi.\\ L’obiettivo è quello di fornire una soluzione autonoma e indipendente da internet, utile per chi desidera un setup permanente o privato.\\ Il server si ispira probabilmente al file host.py di umtx2, ma è stato adeguatamente adattato per l’architettura dei dispositivi STB/Armbian.\\ Include uno script HTTP locale in grado di fornire l’exploit alla console, insieme a un loader ELF attivo su porte dedicate (come la 9020), necessario per inviare payload alla PS5.\\ \\ Caratteristiche\\ \\ Avvio automatico del server all’accensione tramite systemd.\\ Spoofing DNS e gestione degli attacchi di tipo rebind.\\ Supporto HTTP per l’app esphost e HTTPS per il reindirizzamento dal menu guida utente della PS5.\\ Leggero e ottimizzato per dispositivi STB.\\ \\ Nota: Questo progetto richiede che il dispositivo STB (Set-Top Box) sia preventivamente rootato. Dopo il rooting, è necessario installare correttamente Armbian prima di procedere alla configurazione.\\ Configurazione\\ Installazione delle dipendenze\\ \\ sudo apt update\\ sudo apt install dnsmasq hostapd net-tools -y\\ Clonazione della repository di idlesauce\\ \\ git clone https://github.com/idlesauce/umtx2.git umtx2/\\ wget https://raw.githubusercontent.com/goakal-play/ps5-umtx2-server-stb/main/custom_host.py -P umtx2/\\ Arrestare systemd-resolved per evitare conflitti con il DNS personalizzato\\ sudo systemctl stop systemd-resolved\\ sudo systemctl disable systemd-resolved\\ Creare un servizio systemd per assegnare un IP statico\\ cat  /dev/null\\ \\ Description=Set Static IP Address and restart services\\ After=network-online.target hostapd.service\\ Wants=network-online.target\\ \\ \\ Type=oneshot\\ ExecStart=/usr/local/bin/set-static-ip.sh\\ RemainAfterExit=yes\\ \\ \\ WantedBy=multi-user.target\\ EOF\\ Creare uno script IP statico eseguito dal servizio sopra\\ cat  /dev/null\\ #!/bin/bash\\ for i in 1..10; do\\ if ip link show wlan0 > /dev/null 2>&1; then\\ break\\ fi\\ sleep 1\\ done\\ ip link set wlan0 up\\ ifconfig wlan0 10.1.1.1 netmask 255.255.255.0 up\\ systemctl restart hostapd\\ systemctl restart dnsmasq\\ EOF\\ Renderlo eseguibile e abilitare il servizio\\ sudo chmod +x /usr/local/bin/set-static-ip.sh\\ sudo systemctl daemon-reload\\ sudo systemctl enable static-ip.service\\ sudo systemctl start static-ip.service\\ Configurazione Hostapd (punto di accesso WiFi)\\ cat  /dev/null\\ interface=wlan0\\ ssid=PS5_UMTX2\\ hw_mode=g\\ channel=6\\ auth_algs=1\\ wpa=2\\ wpa_passphrase=12345678\\ wpa_key_mgmt=WPA-PSK\\ rsn_pairwise=CCMP\\ EOF\\ Collega il file di configurazione Hostapd\\ cat  /dev/null\\ interface=wlan0\\ bind-interfaces\\ port=0\\ dhcp-range=10.1.1.2,10.1.1.9,7d\\ dhcp-option=3,10.1.1.1\\ dhcp-option=6,10.1.1.1\\ bogus-priv\\ no-resolv\\ no-hosts\\ no-poll\\ log-dhcp\\ log-queries\\ EOF\\ Riavvio del servizio dnsmasq\\ sudo systemctl restart dnsmasq\\ Servizi Systemd per custom_host.py (Server)\\ cat  /dev/null\\ \\ Description=PS5 Exploit Host\\ After=network.target\\ \\ \\ ExecStart=/usr/bin/python3 /root/umtx2/custom_host.py\\ WorkingDirectory=/root/umtx2\\ Restart=always\\ User=root\\ \\ \\ WantedBy=multi-user.target\\ EOF\\ Servizi Systemd per FakeDNS\\ cat  /dev/null\\ \\ Description=Fake DNS Server\\ After=network.target\\ \\ \\ ExecStart=/usr/bin/python3 /root/umtx2/fakedns.py -c /root/umtx2/dns.conf\\ WorkingDirectory=/root/umtx2\\ Restart=always\\ \\ \\ WantedBy=multi-user.target\\ EOF\\ Cambia l'IP predefinito di dns.conf in IP STB statico\\ cat  /dev/null\\ A manuals.playstation.net 10.1.1.1\\ EOF\\ Abilita e avvia tutti i servizi\\ sudo systemctl daemon-reexec\\ sudo systemctl daemon-reload\\ sudo systemctl enable ps5-host.service\\ sudo systemctl enable fakedns.service\\ sudo systemctl start ps5-host.service\\ sudo systemctl start fakedns.service\\ Riavvia il sistema\\ sudo reboot\\ Controlla lo stato del servizio\\ sudo systemctl status ps5-host.service\\ sudo systemctl status fakedns.service\\ sudo systemctl status dnsmasq.service\\ sudo systemctl status static-ip.service\\ Download: PS5 UMTX2 Exploit Host Server (STB/Armbian)\\ \\ Fonte: x.com\\ \\ Discover the best curtains shop in Dubai, where style meets quality and customization. Offering a vast selection of luxurious fabrics, blackout options, and motorized systems, top curtain shops in Dubai provide tailored window treatments to match any interior. From elegant drapes to modern blinds, these stores prioritize premium craftsmanship, exceptional service, and professional installation, ensuring a perfect fit for every space. Whether you seek classic designs or contemporary aesthetics, Dubai’s curtain shops offer solutions that enhance privacy, block out light, and elevate your decor, making them the ideal choice for all your window covering needs.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-0132"
+    ],
+    "cve_counts": {
+      "CVE-2024-0132": 1
+    },
+    "title": "Incomplete NVIDIA Patch to CVE-2024-0132 Exposes AI Infrastructure and Data",
+    "permalink": "/r/worldTechnology/comments/1jxnf9n/incomplete_nvidia_patch_to_cve20240132_exposes_ai/",
+    "timestamp": "2025-04-12T18:05:45",
+    "clean_text": "Incomplete NVIDIA Patch to CVE-2024-0132 Exposes AI Infrastructure and Data",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30429"
+    ],
+    "cve_counts": {
+      "CVE-2025-30429": 1
+    },
+    "title": "CVE-2025-30429 exploit",
+    "permalink": "/r/jailbreak/comments/1jxn3rf/cve202530429_exploit/",
+    "timestamp": "2025-04-12T17:51:53",
+    "clean_text": "CVE-2025-30429 exploit what exactly does \"an app breaking out of its sandbox\" mean and what could be done with it?",
+    "clean_comments": [
+      "Level 0: It means with said exploit that apps have the advantage of being able to do things outside of its permissions. Much like Filza.",
+      "Level 1: so, can we edit files inside /var? if so, can we make a tool like MisakaX for iOS 18.1-18.3.1?",
+      "Level 2: Perhaps; but it'll require much more than just one exploit.."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-32631"
+    ],
+    "cve_counts": {
+      "CVE-2025-32631": 1
+    },
+    "title": "CVE Alert: CVE-2025-32631",
+    "permalink": "/r/RedPacketSecurity/comments/1jxprtu/cve_alert_cve202532631/",
+    "timestamp": "2025-04-12T19:50:13",
+    "clean_text": "CVE Alert: CVE-2025-32631 Improper Limitation of a Pathname to a Restricted Directory (‘Path Traversal’) vulnerability in oxygensuite Oxygen MyData for WooCommerce allows Path Traversal. This issue affects Oxygen MyData for WooCommerce: from n/a through 1.0.63.",
+    "clean_comments": []
+  }
+]
