@@ -2114,5 +2114,19 @@
     "timestamp": "2025-04-12T19:50:13",
     "article_text": "Improper Limitation of a Pathname to a Restricted Directory (‘Path Traversal’) vulnerability in oxygensuite Oxygen MyData for WooCommerce allows Path Traversal. This issue affects Oxygen MyData for WooCommerce: from n/a through 1.0.63.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30406"
+    ],
+    "cve_counts": {
+      "CVE-2025-30406": 1
+    },
+    "title": "Centrestack Folks - Update your servers IMMEDIATLEY CVE-2025-30406",
+    "text": "In case anyone missed the 4PM EST Friday email from them, it's critical to update your servers immediately. We had 3 installs get compromised by the time we'd completed our updates.\n\nHuge shout out to Huntress as usual for catching the RCE and honorary mention to defender for killing the privilege escalation.\n\nLooks like mass recon/script kid attacks right now (they escalated to Cobalt Strike which got caught by A/V) but yeah this one is bad.",
+    "permalink": "/r/msp/comments/1jy8y1k/centrestack_folks_update_your_servers_immediatley/",
+    "timestamp": "2025-04-13T14:30:29",
+    "article_text": null,
+    "comments": []
   }
 ]
