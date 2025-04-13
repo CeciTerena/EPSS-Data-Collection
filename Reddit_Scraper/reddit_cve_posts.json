@@ -2128,5 +2128,91 @@
     "timestamp": "2025-04-13T14:30:29",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-7971",
+      "CVE-2025-3102",
+      "CVE-2025-22457",
+      "CVE-2025-3248",
+      "CVE-2025-29824",
+      "CVE-2025-30406",
+      "CVE-2025-24813",
+      "CVE-2023-27997",
+      "CVE-2024-21762",
+      "CVE-2022-42475"
+    ],
+    "cve_counts": {
+      "CVE-2025-30406": 1,
+      "CVE-2024-7971": 1,
+      "CVE-2024-21762": 1,
+      "CVE-2022-42475": 1,
+      "CVE-2023-27997": 1,
+      "CVE-2025-3248": 1,
+      "CVE-2025-22457": 1,
+      "CVE-2025-3102": 1,
+      "CVE-2025-29824": 1,
+      "CVE-2025-24813": 1
+    },
+    "title": "🔥 Top 10 Trending CVEs (13/04/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities circulating today, with CVSS scores and short summaries:\n\n**1. CVE-2025-30406**\n\n- 📝 Unpatched Gladinet CentreStack versions prior to 16.4.10315.56368 contain a server-side deserialization vulnerability, enabling remote code execution. Known to have been exploited in the wild since March 2025. The hardcoded machineKey in portal\\web.config is the attack vector. Administrators are advised to manually delete this key and apply updates. (CISA KEV: true)\n\n- 📅 **Published:** 03/04/2025\n- 📈 **CVSS:** 9\n- 🛡️ **CISA KEV:** true\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H\n\n---\n\n**2. CVE-2024-7971**\n\n- 📝 Remotely exploitable, high-severity type confusion vulnerability found in V8 engine of Google Chrome (versions prior to 128.0.6613.84). The flaw allows a remote attacker to corrupt the heap via a crafted HTML page, with evidence of active exploitation reported by CISA.\n\n- 📅 **Published:** 21/08/2024\n- 📈 **CVSS:** 9.6\n- 🛡️ **CISA KEV:** true\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H\n\n---\n\n**3. CVE-2024-21762**\n\n- 📝 A critical out-of-bounds write vulnerability (CVSS 9.8) has been identified in Fortinet FortiOS versions 7.4.0-7.4.2, 7.2.0-7.2.6, 7.0.0-7.0.13, and others, as well as FortiProxy versions with similar ranges. This issue allows an unauthenticated attacker to execute arbitrary code or commands via crafted requests, and it has been exploited in the wild (CISA KEV). Immediate patching is advised for affected systems.\n\n- 📅 **Published:** 09/02/2024\n- 📈 **CVSS:** 9.8\n- 🛡️ **CISA KEV:** true\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n\n---\n\n**4. CVE-2022-42475**\n\n- 📝 A critical, remotely exploitable heap-based buffer overflow vulnerability (CWE-122) exists in multiple FortiOS SSL-VPN and FortiProxy SSL-VPN versions. This issue allows unauthenticated attackers to execute arbitrary code or commands via specially crafted requests, with this vulnerability confirmed to have been exploited in the wild. Immediate patching is advised for affected systems.\n\n- 📅 **Published:** 02/01/2023\n- 📈 **CVSS:** 9.8\n- 🛡️ **CISA KEV:** true\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n\n---\n\n**5. CVE-2023-27997**\n\n- 📝 A critical, remotely exploitable heap-based buffer overflow vulnerability (CWE-122) exists in FortiOS 7.2.4 and below, 7.0.11 and below, 6.4.12 and below, 6.0.16 and below, FortiProxy 7.2.3 and below, 7.0.9 and below, 2.0.12 and below, all versions of 1.2 and all versions of 1.1, as well as SSL-VPN. The vulnerability allows an attacker to execute arbitrary code or commands via specifically crafted requests, with the CISA KEV indicating it has been exploited in the wild. Immediate patching is advised for affected systems.\n\n- 📅 **Published:** 13/06/2023\n- 📈 **CVSS:** 9.8\n- 🛡️ **CISA KEV:** true\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n\n---\n\n**6. CVE-2025-3248**\n\n- 📝 Unauthenticated remote code execution vulnerability (CVSS 9.8) exists in Langflow versions prior to 1.3.0 via the /api/v1/validate/code endpoint, allowing an attacker to execute arbitrary code without authentication. No known exploitation in the wild reported by CISA.\n\n- 📅 **Published:** 07/04/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n\n---\n\n**7. CVE-2025-22457**\n\n- 📝 A critical, remotely exploitable stack-based buffer overflow vulnerability (stack-buffer-overflow) exists in Ivanti Connect Secure before 22.7R2.6, Ivanti Policy Secure before 22.7R1.4, and Ivanti ZTA Gateways before 22.8R2.2. This flaw allows unauthenticated attackers to execute arbitrary code (Remote Code Execution). Notably, this vulnerability has been observed in active exploitation by threat actors (CISA Known Exploited Vulnerability). Immediate patching is strongly advised.\n\n- 📅 **Published:** 03/04/2025\n- 📈 **CVSS:** 9\n- 🛡️ **CISA KEV:** true\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H\n\n---\n\n**8. CVE-2025-3102**\n\n- 📝 Unauthenticated attackers can create administrator accounts on WordPress sites using the SureTriggers plugin, version 1.0.78 and below, due to a missing empty value check on the secret_key in the authenticate_user function. This issue is remotely exploitable without requiring an API key configuration.\n\n- 📅 **Published:** 10/04/2025\n- 📈 **CVSS:** 8.1\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H\n\n---\n\n**9. CVE-2025-29824**\n\n- 📝 A use-after-free vulnerability (CVSS 7.8) exists within the Windows Common Log File System Driver, enabling locally authenticated attackers to elevate privileges. This issue has been observed being exploited in the wild (CISA KEV: true). Affected versions should be updated promptly.\n\n- 📅 **Published:** 08/04/2025\n- 📈 **CVSS:** 7.8\n- 🛡️ **CISA KEV:** true\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n\n---\n\n**10. CVE-2025-24813**\n\n- 📝 A critical (CVSS 9.8) Remote Code Execution vulnerability exists in Apache Tomcat versions from 11.0.0-M1 through 11.0.2, 10.1.0-M1 through 10.1.34, and 9.0.0.M1 through 9.0.98. This issue stems from a Path Equivalence flaw in the Default Servlet, allowing unauthorized users to disclose sensitive information, inject content into files, or perform remote code execution if specific conditions are met. CISA has acknowledged that this vulnerability has been exploited in the wild. Users are advised to upgrade to versions 11.0.3, 10.1.35, or 9.0.99 for mitigation.\n\n- 📅 **Published:** 10/03/2025\n- 📈 **CVSS:** 9.8\n- 🛡️ **CISA KEV:** true\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n\n---\n\nLet me know if you're tracking any of these or if something flew under the radar",
+    "permalink": "/r/CVEWatch/comments/1jydv1t/top_10_trending_cves_13042025/",
+    "timestamp": "2025-04-13T18:05:05",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27480"
+    ],
+    "cve_counts": {
+      "CVE-2025-27480": 1
+    },
+    "title": "Remote Desktop issues after 2025-04 CUs?",
+    "text": "Anyone having issues with Remote Desktop Connection after installing the 2025-04 Cumulative Update for Windows Server? There was a fix for a RD security flaw which is tracked as CVE-2025-27480 so I am wondering if that might be the culprit. Here are some of the issues.\n\n1. When I minimize a RD session and then go back to it, i'll get a black screen for a few seconds, before the session shows up.\n2. When I try to do something in the RD session, nothing happens. Nothing is responsive for a few seconds.\n3. I'll get a message about losing connectivity and it will retry to connect (up to five attempts). It will eventually reconnect.\n\nI'm working remotely over a VPN so am thinking of going into the office and getting on the local network to see if the issue persists. Just wondering if anyone else has seen anything like this since they installed the April CUs.",
+    "permalink": "/r/RemoteDesktopServices/comments/1jydc3k/remote_desktop_issues_after_202504_cus/",
+    "timestamp": "2025-04-13T17:42:53",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27480"
+    ],
+    "cve_counts": {
+      "CVE-2025-27480": 1
+    },
+    "title": "Remote Desktop issues after 2025-04 CUs?",
+    "text": "Anyone having issues with Remote Desktop Connection after installing the 2025-04 Cumulative Update for Windows Server? There was a fix for a RD security flaw which is tracked as CVE-2025-27480 so I am wondering if that might be the culprit. Here are some of the issues.\n\n1. When I minimize a RD session and then go back to it, i'll get a black screen for a few seconds, before the session shows up.\n2. When I try to do something in the RD session, nothing happens. Nothing is responsive for a few seconds.\n3. I'll get a message about losing connectivity and it will retry to connect (up to five attempts). It will eventually reconnect.\n\nI'm working remotely over a VPN so am thinking of going into the office and getting on the local network to see if the issue persists. Just wondering if anyone else has seen anything like this since they installed the April CUs.",
+    "permalink": "/r/WindowsServer/comments/1jydbx0/remote_desktop_issues_after_202504_cus/",
+    "timestamp": "2025-04-13T17:42:39",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "What Server version?",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-27480"
+    ],
+    "cve_counts": {
+      "CVE-2025-27480": 1
+    },
+    "title": "Remote Desktop issues after April Cumulative Updates?",
+    "text": "Anyone having issues with Remote Desktop Connection after installing the 2025-04 Cumulative Update for Windows Server?  There was a fix for a RD security flaw which is tracked as CVE-2025-27480 so I am wondering if that might be the culprit.  Here are some of the issues. \n\n1. When I minimize a RD session and then go back to it, i'll get a black screen for a few seconds, before the session shows up.\n2. When I try to do something in the RD session, nothing happens.  Nothing is responsive for a few seconds.\n3. I'll get a message about losing connectivity and it will retry to connect (up to five attempts). It will eventually reconnect.  \n\nI'm working remotely over a VPN so am thinking of going into the office and getting on the local network to see if the issue persists.  Just wondering if anyone else has seen anything like this since they installed the April CUs.",
+    "permalink": "/r/sysadmin/comments/1jydaol/remote_desktop_issues_after_april_cumulative/",
+    "timestamp": "2025-04-13T17:41:11",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "I don’t know about the issue as it pertains to that update but your issue 3 I was having where a perfectly fine and historically stable RDP session would timeout and reconnect every minute or so. I was able to fix the issue by forcing RDP to use TCP instead of it trying to switch to UDP automatically after about a minute. \n\n\nEdit or create the DWORD registry value fClientDisableUDP and set the value to 1\n\n\nThat DWORD should be located in HKLM\\software\\policies\\microsoft\\windows nt\\terminal services\\client\\\n\n\nDisconnect and reconnect the RDP session to use the new reg setting. \n\n\nHope it helps you as it did me.",
+        "level": 0
+      }
+    ]
   }
 ]
