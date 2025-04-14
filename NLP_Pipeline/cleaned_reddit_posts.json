@@ -1560,5 +1560,19 @@
     "timestamp": "2025-04-14T07:02:12",
     "clean_text": "Fortinet Devices Still Vulnerable Post-Patching – Here's Why It Matters 🧵 Fortinet has disclosed that attackers are maintaining **read-only access** to FortiGate devices **even after** patching known CVEs like: * CVE-2022-42475 * CVE-2023-27997 * CVE-2024-21762 🔍 How? By creating a **symbolic link (symlink)** between the user file system and root in the SSL-VPN language file folder. This survives patching and even persists after factory resets in some cases. 📌 Notably, devices that never enabled **SSL-VPN** are unaffected. Fortinet has rolled out updates in FortiOS (7.6.2, 7.4.7, etc.) to remove the symlink and harden SSL-VPN UI. 🛡️ Suggested Actions: * Upgrade to the latest FortiOS * Review all configurations * Treat settings as potentially compromised * Reset exposed credentials * Consider disabling SSL-VPN temporarily \\#Cybersecurity #Fortinet #CVE #NetworkSecurity #Infosec #RedTeam",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-43590"
+    ],
+    "cve_counts": {
+      "CVE-2024-43590": 8,
+      "cve-2024-43590": 4
+    },
+    "title": "CVE-2024-43590 vulnerability not detected with wazuh",
+    "permalink": "/r/Wazuh/comments/1jyv7q9/cve202443590_vulnerability_not_detected_with_wazuh/",
+    "timestamp": "2025-04-14T10:03:48",
+    "clean_text": "CVE-2024-43590 vulnerability not detected with wazuh Hello Wazuher's, see there: [https://cti.wazuh.com/vulnerabilities/cves/CVE-2024-43590](https://cti.wazuh.com/vulnerabilities/cves/CVE-2024-43590) And here: [https://nvd.nist.gov/vuln/detail/cve-2024-43590](https://nvd.nist.gov/vuln/detail/cve-2024-43590) BUT HERE (only corretly listed) as : Updated Microsoft **Visual C++ 2015-2022 Redistributable** version to 14.40.33816 with the fix for CVE-2024-43590. For more information on this vulnerability, see [CVE-2024-43590](https://www.cve.org/CVERecord?id=CVE-2024-43590). Meaning that in NVD Link [https://nvd.nist.gov/vuln/detail/cve-2024-43590](https://nvd.nist.gov/vuln/detail/cve-2024-43590) only refers to product (Name) **visual\\_studio (Visual studio) and its verions, it' the development tool / environment itself. But NOT the runtime version, for its complied (outcome), as far as i know.  So actually product visual studio is NOT the same as the** Visual C++ Redistributable Installer**.** **The cve.org link in below clearly listed all affected prodcuts and it's versions and diferrenciate them properly.** [https://www.cve.org/CVERecord?id=CVE-2024-43590](https://www.cve.org/CVERecord?id=CVE-2024-43590) [https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) only in above link from [cve.org](http://cve.org) is correct info, also seen in broadcom vmware tools rlease notes: [https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/tools/12-5-0/release-notes/vmware-tools-1251-release-notes.html](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/tools/12-5-0/release-notes/vmware-tools-1251-release-notes.html) **Would be happy to see it's fixed.  Happy to help you to make wazuh more and more better ;)** **And kindly same goes for the more often / regulary CVE CTI Database update intervall, as e. g. current Microsoft Windows CU 2025-04 CVES are not yet included..**",
+    "clean_comments": []
   }
 ]

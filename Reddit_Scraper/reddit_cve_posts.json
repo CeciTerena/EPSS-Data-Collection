@@ -2232,5 +2232,20 @@
     "timestamp": "2025-04-14T07:02:12",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-43590"
+    ],
+    "cve_counts": {
+      "CVE-2024-43590": 8,
+      "cve-2024-43590": 4
+    },
+    "title": "CVE-2024-43590 vulnerability not detected with wazuh",
+    "text": "Hello Wazuher's,\n\n  \nsee there:\n\n[https://cti.wazuh.com/vulnerabilities/cves/CVE-2024-43590](https://cti.wazuh.com/vulnerabilities/cves/CVE-2024-43590)\n\nAnd here:\n\n[https://nvd.nist.gov/vuln/detail/cve-2024-43590](https://nvd.nist.gov/vuln/detail/cve-2024-43590)\n\n  \nBUT HERE (only corretly listed) as :\n\n  \nUpdated Microsoft **Visual C++ 2015-2022 Redistributable** version to 14.40.33816 with the fix for CVE-2024-43590. For more information on this vulnerability, see [CVE-2024-43590](https://www.cve.org/CVERecord?id=CVE-2024-43590).\n\nMeaning that in NVD Link [https://nvd.nist.gov/vuln/detail/cve-2024-43590](https://nvd.nist.gov/vuln/detail/cve-2024-43590) only refers to product (Name) **visual\\_studio (Visual studio) and its verions, it' the development tool / environment itself. But NOT the runtime version, for its complied (outcome), as far as i know.  So actually product visual studio is NOT the same as the** Visual C++ Redistributable Installer**.**\n\n**The cve.org link in below clearly listed all affected prodcuts and it's versions and diferrenciate them properly.** \n\n[https://www.cve.org/CVERecord?id=CVE-2024-43590](https://www.cve.org/CVERecord?id=CVE-2024-43590)\n\n[https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022)\n\n  \nonly in above link from [cve.org](http://cve.org) is correct info, also seen in broadcom vmware tools rlease notes:\n\n[https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/tools/12-5-0/release-notes/vmware-tools-1251-release-notes.html](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/tools/12-5-0/release-notes/vmware-tools-1251-release-notes.html)\n\n  \n**Would be happy to see it's fixed.  Happy to help you to make wazuh more and more better ;)**\n\n**And kindly same goes for the more often / regulary CVE CTI Database update intervall, as e. g. current Microsoft Windows CU 2025-04 CVES are not yet included..**",
+    "permalink": "/r/Wazuh/comments/1jyv7q9/cve202443590_vulnerability_not_detected_with_wazuh/",
+    "timestamp": "2025-04-14T10:03:48",
+    "article_text": null,
+    "comments": []
   }
 ]
