@@ -1574,5 +1574,60 @@
     "timestamp": "2025-04-14T10:03:48",
     "clean_text": "CVE-2024-43590 vulnerability not detected with wazuh Hello Wazuher's, see there: [https://cti.wazuh.com/vulnerabilities/cves/CVE-2024-43590](https://cti.wazuh.com/vulnerabilities/cves/CVE-2024-43590) And here: [https://nvd.nist.gov/vuln/detail/cve-2024-43590](https://nvd.nist.gov/vuln/detail/cve-2024-43590) BUT HERE (only corretly listed) as : Updated Microsoft **Visual C++ 2015-2022 Redistributable** version to 14.40.33816 with the fix for CVE-2024-43590. For more information on this vulnerability, see [CVE-2024-43590](https://www.cve.org/CVERecord?id=CVE-2024-43590). Meaning that in NVD Link [https://nvd.nist.gov/vuln/detail/cve-2024-43590](https://nvd.nist.gov/vuln/detail/cve-2024-43590) only refers to product (Name) **visual\\_studio (Visual studio) and its verions, it' the development tool / environment itself. But NOT the runtime version, for its complied (outcome), as far as i know.  So actually product visual studio is NOT the same as the** Visual C++ Redistributable Installer**.** **The cve.org link in below clearly listed all affected prodcuts and it's versions and diferrenciate them properly.** [https://www.cve.org/CVERecord?id=CVE-2024-43590](https://www.cve.org/CVERecord?id=CVE-2024-43590) [https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022) only in above link from [cve.org](http://cve.org) is correct info, also seen in broadcom vmware tools rlease notes: [https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/tools/12-5-0/release-notes/vmware-tools-1251-release-notes.html](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/tools/12-5-0/release-notes/vmware-tools-1251-release-notes.html) **Would be happy to see it's fixed.  Happy to help you to make wazuh more and more better ;)** **And kindly same goes for the more often / regulary CVE CTI Database update intervall, as e. g. current Microsoft Windows CU 2025-04 CVES are not yet included..**",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-48795",
+      "CVE-2018-15473"
+    ],
+    "cve_counts": {
+      "CVE-2018-15473": 1,
+      "CVE-2023-48795": 1
+    },
+    "title": "Cybersecurity: SSH Hardening & Offensive Mastery by DsDSec (Free PDF)",
+    "permalink": "/r/Hacking_Tricks/comments/1jyzi61/cybersecurity_ssh_hardening_offensive_mastery_by/",
+    "timestamp": "2025-04-14T13:57:26",
+    "clean_text": "Cybersecurity: SSH Hardening & Offensive Mastery by DsDSec (Free PDF) Hello everyone, I’d like to share a resource recently published by our cybersecurity group DsDSec: \"SSH Hardening & Offensive Mastery\", a free technical book focused entirely on SSH security. SSH remains a crucial access point in modern infrastructure. Properly securing it is essential, and this book aims to provide a comprehensive understanding of both its defensive and offensive aspects, going far beyond basic configurations. 🔍 What the book covers: 1. Defensive Hardening: Secure configurations and best practices 2FA implementation Fail2Ban and Suricata (IDS/IPS) integration Practical methods to strengthen SSH servers 2. Offensive Techniques (with hands-on labs): All types of SSH tunnels (local, remote, dynamic, UDP), and how to bypass restrictions Evasion of firewalls and filtering controls SSH agent hijacking Malware propagation via dynamic tunnels, with a lab using Metasploit and BlueKeep Vulnerability analysis, including CVE-2018-15473 (user enumeration) and Terrapin (CVE-2023-48795) Environment variable abuse, such as LD\\_PRELOAD Custom tools developed in Tcl/Expect and Perl for testing and automation Although the book focuses on SSH, the knowledge and techniques can be applied more broadly to securing and attacking other services. It is intended for sysadmins, red and blue team professionals, and cybersecurity practitioners, from early learners to advanced users. 📘 Download the full PDF (free): ➡ SSH-Hardening-and-Offensive-Mastery.pdf 🔗 Follow DsDSec for future updates: 🌐 [https://dsdsec.com](https://dsdsec.com) 🐦 [https://twitter.com/dsdsec](https://twitter.com/dsdsec) 💼 [https://www.linkedin.com/company/dsdsecurity](https://www.linkedin.com/company/dsdsecurity) 📺 [https://www.youtube.com/@DSDSec](https://www.youtube.com/@DSDSec) 📷 [https://www.instagram.com/dsd.sec/](https://www.instagram.com/dsd.sec/) We are currently preparing additional content. Lab walkthroughs will be published soon on YouTube. Well, friends, I hope you enjoy the book and find it useful. 😉 Best regards to everyone, and thank you for your support!",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30406",
+      "CVE-2023-4966",
+      "CVE-2022-42475",
+      "CVE-2024-21762",
+      "CVE-2024-7971",
+      "CVE-2023-46818",
+      "CVE-2025-21204",
+      "CVE-2023-27997"
+    ],
+    "cve_counts": {
+      "CVE-2024-7971": 1,
+      "CVE-2025-21204": 1,
+      "CVE-2023-4966": 1,
+      "CVE-2025-30406": 1,
+      "CVE-2023-46818": 1,
+      "CVE-2024-21762": 1,
+      "CVE-2022-42475": 1,
+      "CVE-2023-27997": 1
+    },
+    "title": "🔥 Top 10 Trending CVEs (14/04/2025)",
+    "permalink": "/r/CVEWatch/comments/1jyz83k/top_10_trending_cves_14042025/",
+    "timestamp": "2025-04-14T13:44:37",
+    "clean_text": "🔥 Top 10 Trending CVEs (14/04/2025) Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today: **1. undefined** - 📝 Remotely Exploitable Vulnerability (CVSS Score: 9.8) in XYZ Library Version <3.2.1, as confirmed by CISA KEV. Affected systems may allow attackers to take full control, requiring immediate patching or mitigation measures. - 📅 **Published:** N/A --- **2. CVE-2024-7971** - 📝 Remotely exploitable type confusion vulnerability in V8 engine of Google Chrome versions prior to 128.0.6613.84 allows heap corruption via a crafted HTML page. This vulnerability has been classified as high severity by Chromium and was identified in the wild by CISA. - 📅 **Published:** 21/08/2024 - 📈 **CVSS:** 9.6 - 🛡️ **CISA KEV:** true - 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H --- **3. CVE-2025-21204** - 📝 A local privilege escalation vulnerability (CVE xxx) exists in Windows Update Stack, allowing authorized attackers to elevate privileges by improperly resolving links before file access. The CVSS score is 7.8, indicating high severity, and it appears to be remotely exploitable. At this time, there's no confirmation that it has been actively exploited in the wild. It affects specific versions as mentioned in the description. - 📅 **Published:** 08/04/2025 - 📈 **CVSS:** 7.8 - 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H --- **4. CVE-2023-4966** - 📝 A critical (CVSS 9.4) vulnerability has been identified in NetScaler ADC and Gateway, allowing unauthorized disclosure of sensitive information when configured as a gateway or AAA virtual server. This vulnerability has reportedly been exploited in the wild. It's crucial to verify if your deployed versions are affected. - 📅 **Published:** 10/10/2023 - 📈 **CVSS:** 9.4 - 🛡️ **CISA KEV:** true - 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L --- **5. CVE-2025-30406** - 📝 A deserialization vulnerability (CVSS v3.1: 9) exists in Gladinet CentreStack versions up to and including 16.1.10296.56315, exploited since March 2025. The flaw is due to hardcoded machineKey use, allowing remote code execution by an attacker with knowledge of the machineKey, unless manually deleted from portal\\web.config. CISA has acknowledged exploitation in the wild. Administrators are advised to update to CentreStack version 16.4.10315.56368 immediately. - 📅 **Published:** 03/04/2025 - 📈 **CVSS:** 9 - 🛡️ **CISA KEV:** true - 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H --- **6. CVE-2023-46818** - 📝 Remotely Exploitable Code Injection Vulnerability found in ISPConfig versions prior to 3.2.11p1, via PHP code injection in the language file editor when admin_allow_langedit is enabled. High severity (CVSS 7.2). Not yet observed in the wild by CISA. Mitigation: Upgrade to a patched version or disable admin_allow_langedit until patched. - 📅 **Published:** 27/10/2023 - 📈 **CVSS:** 7.2 - 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H --- **7. undefined** - 📝 Remotely Exploitable High Severity Vulnerability (CVSS 9.8) found in version X of Y software, as indicated by CISA KEV. Affected systems may experience unauthorized code execution if exploited. Mitigations and patches are available from the vendor. - 📅 **Published:** N/A --- **8. CVE-2024-21762** - 📝 A critical (CVSS 9.8) out-of-bounds write vulnerability exists in Fortinet FortiOS and FortiProxy versions as listed, enabling unauthorized code execution via crafted requests. This vulnerability has been exploited in the wild (CISA KEV: True). Immediate patching is recommended for affected systems. - 📅 **Published:** 09/02/2024 - 📈 **CVSS:** 9.8 - 🛡️ **CISA KEV:** true - 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H --- **9. CVE-2022-42475** - 📝 A critical, heap-based buffer overflow vulnerability (CWE-122) exists in FortiOS SSL-VPN 7.2.0 through 7.2.2, 7.0.0 through 7.0.8, 6.4.0 through 6.4.10, 6.2.0 through 6.2.11, and earlier versions, as well as FortiProxy SSL-VPN 7.2.0 through 7.2.1, 7.0.7 and earlier. This vulnerability is remotely exploitable by unauthenticated attackers, potentially allowing arbitrary code execution. The CISA has confirmed that it has been exploited in the wild. Immediate action is required for affected versions. - 📅 **Published:** 02/01/2023 - 📈 **CVSS:** 9.8 - 🛡️ **CISA KEV:** true - 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H --- **10. CVE-2023-27997** - 📝 A critical, remotely exploitable heap buffer overflow vulnerability (CWE-122) exists in FortiOS versions 7.2.4 and below, 7.0.11 and below, 6.4.12 and below, 6.0.16 and below, FortiProxy versions 7.2.3 and below, 7.0.9 and below, 2.0.12 and below, 1.2 all versions, 1.1 all versions, affecting SSL-VPN. This vulnerability has been exploited in the wild (CISA KEV: true). Immediate patching is advised for affected systems. - 📅 **Published:** 13/06/2023 - 📈 **CVSS:** 9.8 - 🛡️ **CISA KEV:** true - 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H --- Let me know if you're tracking any of these or if something flew under the radar",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-0010"
+    ],
+    "cve_counts": {
+      "CVE-2024-0010": 1
+    },
+    "title": "Reflected XSS",
+    "permalink": "/r/paloaltonetworks/comments/1jyypca/reflected_xss/",
+    "timestamp": "2025-04-14T13:20:31",
+    "clean_text": "Reflected XSS For those of you out there running firewalls with a GP gateway only (no portal) check for CVE-2024-0010. It appears to me this reflected XSS attack was fixed on the portals but not the gateways. Dunno if gateways are a vector for the attack, but checking with Palo. Will report back. Note, this is not reproducible on a portal running the unaffected versions noted in the CVE. You can test the vuln on your gateway by browsing to: https://your-gateway/global-protect/getconfig.esp?portal-userauthcookie=%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cscript%20type=%22text/javascript%22%3Econfirm(%22XSS%22)%3C/script%3E%3C/svg%3E I've been told some bug bounty outfit is already working with Palo. Dunno what this means for patching or mitigations in the short-term.",
+    "clean_comments": []
   }
 ]
