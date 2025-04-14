@@ -1629,5 +1629,18 @@
     "timestamp": "2025-04-14T13:20:31",
     "clean_text": "Reflected XSS For those of you out there running firewalls with a GP gateway only (no portal) check for CVE-2024-0010. It appears to me this reflected XSS attack was fixed on the portals but not the gateways. Dunno if gateways are a vector for the attack, but checking with Palo. Will report back. Note, this is not reproducible on a portal running the unaffected versions noted in the CVE. You can test the vuln on your gateway by browsing to: https://your-gateway/global-protect/getconfig.esp?portal-userauthcookie=%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cscript%20type=%22text/javascript%22%3Econfirm(%22XSS%22)%3C/script%3E%3C/svg%3E I've been told some bug bounty outfit is already working with Palo. Dunno what this means for patching or mitigations in the short-term.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-5921"
+    ],
+    "cve_counts": {
+      "CVE-2024-5921": 1
+    },
+    "title": "Good news on GP 6.2.8",
+    "permalink": "/r/paloaltonetworks/comments/1jz5jqj/good_news_on_gp_628/",
+    "timestamp": "2025-04-14T18:06:07",
+    "clean_text": "Good news on GP 6.2.8 A follow up on: https://www.reddit.com/r/paloaltonetworks/comments/1hal795/non_compliant_fipscc_mode_certificate/ GP 6.2.8 does resolve the ECC cert issue when mitigating for CVE-2024-5921. To summarize the issue, the mitigation steps for the mentioned CVE did not work with clients prior to 6.2.8 when using an ECC cert for the portal/gateway. Enabling the registry settings or updating the relevant plist would result in FIPS-CC validation errors. With the new client using ECC certs, the entire mitigation can be done for 2024-5921.",
+    "clean_comments": []
   }
 ]

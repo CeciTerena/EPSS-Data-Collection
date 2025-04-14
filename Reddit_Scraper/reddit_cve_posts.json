@@ -2305,5 +2305,19 @@
     "timestamp": "2025-04-14T13:20:31",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-5921"
+    ],
+    "cve_counts": {
+      "CVE-2024-5921": 1
+    },
+    "title": "Good news on GP 6.2.8",
+    "text": "A follow up on:\n\nhttps://www.reddit.com/r/paloaltonetworks/comments/1hal795/non_compliant_fipscc_mode_certificate/\n\nGP 6.2.8 does resolve the ECC cert issue when mitigating for CVE-2024-5921. \n\nTo summarize the issue, the mitigation steps for the mentioned CVE did not work with clients prior to 6.2.8 when using an ECC cert for the portal/gateway. Enabling the registry settings or updating the relevant plist would result in FIPS-CC validation errors. With the new client using ECC certs, the entire mitigation can be done for 2024-5921.",
+    "permalink": "/r/paloaltonetworks/comments/1jz5jqj/good_news_on_gp_628/",
+    "timestamp": "2025-04-14T18:06:07",
+    "article_text": null,
+    "comments": []
   }
 ]
