@@ -1543,5 +1543,22 @@
     "clean_comments": [
       "Level 0: I don’t know about the issue as it pertains to that update but your issue 3 I was having where a perfectly fine and historically stable RDP session would timeout and reconnect every minute or so. I was able to fix the issue by forcing RDP to use TCP instead of it trying to switch to UDP automatically after about a minute. Edit or create the DWORD registry value fClientDisableUDP and set the value to 1 That DWORD should be located in HKLM\\software\\policies\\microsoft\\windows nt\\terminal services\\client\\ Disconnect and reconnect the RDP session to use the new reg setting. Hope it helps you as it did me."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2023-27997",
+      "CVE-2024-21762",
+      "CVE-2022-42475"
+    ],
+    "cve_counts": {
+      "CVE-2022-42475": 1,
+      "CVE-2023-27997": 1,
+      "CVE-2024-21762": 1
+    },
+    "title": "Fortinet Devices Still Vulnerable Post-Patching – Here's Why It Matters 🧵",
+    "permalink": "/r/cybersecurityexams/comments/1jysr7n/fortinet_devices_still_vulnerable_postpatching/",
+    "timestamp": "2025-04-14T07:02:12",
+    "clean_text": "Fortinet Devices Still Vulnerable Post-Patching – Here's Why It Matters 🧵 Fortinet has disclosed that attackers are maintaining **read-only access** to FortiGate devices **even after** patching known CVEs like: * CVE-2022-42475 * CVE-2023-27997 * CVE-2024-21762 🔍 How? By creating a **symbolic link (symlink)** between the user file system and root in the SSL-VPN language file folder. This survives patching and even persists after factory resets in some cases. 📌 Notably, devices that never enabled **SSL-VPN** are unaffected. Fortinet has rolled out updates in FortiOS (7.6.2, 7.4.7, etc.) to remove the symlink and harden SSL-VPN UI. 🛡️ Suggested Actions: * Upgrade to the latest FortiOS * Review all configurations * Treat settings as potentially compromised * Reset exposed credentials * Consider disabling SSL-VPN temporarily \\#Cybersecurity #Fortinet #CVE #NetworkSecurity #Infosec #RedTeam",
+    "clean_comments": []
   }
 ]
