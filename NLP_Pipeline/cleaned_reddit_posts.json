@@ -1799,5 +1799,51 @@
       "Level 0: I manage 400 FortiGates and have 99% of them on 7.2.11 with no issues so far. Models range from 40F - 200E",
       "Level 1: Thanks"
     ]
+  },
+  {
+    "cves": [
+      "CVE-2024-0010"
+    ],
+    "cve_counts": {
+      "CVE-2024-0010": 1
+    },
+    "title": "Mea Culpa",
+    "permalink": "/r/paloaltonetworks/comments/1jzwhrj/mea_culpa/",
+    "timestamp": "2025-04-15T16:37:59",
+    "clean_text": "Mea Culpa Yesterday I posted information about GlobalProtect related vulnerability. I was promptly given the beans by a contributor about disclosing this information, and I promptly gave some beans back. However, I now acknowledge that poster was correct -- I should not have created that post. Kudos to you, whoever you are. Leason learned. That said, I would recommend reviewing CVE-2024-0010 and examining your devices in relation to this CVE. While the current issue is slightly different, there is impact beyond what the CVE describes. I'm sure we'll hear more about this from Palo soon.",
+    "clean_comments": [
+      "Level 0: I'll also point out, I am a customer. I do no research or hacking. If I know about this, others (including miscreants) do as well. This is/was not a reason to create the post, just to emphasize a good intention poorly executed."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-21204"
+    ],
+    "cve_counts": {
+      "CVE-2025-21204": 1
+    },
+    "title": "Discussing the New inetpub Folder in Windows 11",
+    "permalink": "/r/sysadmin/comments/1jzvvuk/discussing_the_new_inetpub_folder_in_windows_11/",
+    "timestamp": "2025-04-15T16:13:19",
+    "clean_text": "Discussing the New inetpub Folder in Windows 11 **Windows users are urged to keep the inetpub folder.** Microsoft has confirmed that the newly introduced inetpub folder is a critical security feature rather than a rogue file. Users are advised against deleting it, even if it appears empty. This measure is part of a larger effort to bolster defenses against a significant vulnerability, CVE-2025-21204, that affects system permissions. Keeping this folder is essential to maintain security integrity. Users have taken to discussions on how security measures like this can affect system administration practices and user experiences. Many share concerns about transparency in changes made by tech companies. - The inetpub folder is a part of security updates. - It prevents privilege escalation exploits. - Users without IIS are still impacted. [(View Details on PwnHub)](https://www.reddit.com/r/pwnhub/comments/1jzvuaf/microsoft_addresses_windows_11_users_concerns/)",
+    "clean_comments": [
+      "Level 0: This appears to be a bot.",
+      "Level 1: Posted under r/itcrowd as well... 😜"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-21204"
+    ],
+    "cve_counts": {
+      "CVE-2025-21204": 2
+    },
+    "title": "Microsoft Addresses Windows 11 Users' Concerns About New inetpub Folder",
+    "permalink": "/r/pwnhub/comments/1jzvuaf/microsoft_addresses_windows_11_users_concerns/",
+    "timestamp": "2025-04-15T16:11:36",
+    "clean_text": "Microsoft Addresses Windows 11 Users' Concerns About New inetpub Folder **Microsoft has reassured Windows users that the newly appeared inetpub folder is an intentional security measure following recent updates.** **Key Points:** - The inetpub folder is created as part of a security update to mitigate a significant vulnerability. - Users should not delete the inetpub folder despite its empty appearance. - The folder enhances protection against privilege escalation exploits on Windows systems. Windows 10 and 11 users have recently noticed a seemingly empty directory called 'inetpub' appearing on their systems after installing Microsoft's April 2025 Patch Tuesday updates. While many users may see this folder as unnecessary and consider deleting it, Microsoft has explicitly warned against such action, clarifying that it plays a critical role in protecting systems from exploitation of a newly patched vulnerability, CVE-2025-21204. This vulnerability poses a serious risk as it allows unauthorized users to potentially gain system-level access, posing a significant threat to the integrity of a user's system. The inetpub folder is typically associated with Microsoft's Internet Information Services (IIS) web server software. However, even users without IIS installed are affected by this change. The folder is created with specific read-only SYSTEM-level permissions, which enhances security measures against potential privilege escalation attempts. Microsoft reassures users that there is currently no evidence of active exploitation regarding CVE-2025-21204, but maintaining the folder's integrity is key to preventing future security risks. Thus, rather than being a cause for alarm, the folder signifies a proactive step by Microsoft in safeguarding Windows systems. How do you feel about Microsoft creating this folder as a security measure without prior user notification? **Learn More:** [Cyber Security News](https://cybersecuritynews.com/microsoft-asks-windows-11-users/) **Want to stay updated on the latest cyber threats?** 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "clean_comments": [
+      "Level 0: **Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.** Stay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**. Whether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead. Stay sharp. Stay secure. **[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)** *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*"
+    ]
   }
 ]
