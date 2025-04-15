@@ -1750,5 +1750,54 @@
     "timestamp": "2025-04-15T13:42:50",
     "clean_text": "Critical Apache Roller Insufficient Session Expiration on Password Change Vulnerability CVE-2025-24859 A session management vulnerability exists in Apache Roller before version 6.1.5 where active user sessions are not properly invalidated after password changes. When a user's password is changed, either by the user themselves or by an administrator, existing sessions remain active and usable. This allows continued access to the application through old sessions even after password changes, potentially enabling unauthorized access if credentials were compromised. This issue affects Apache Roller versions up to and including 6.1.4. The vulnerability is fixed in Apache Roller 6.1.5 by implementing centralized session management that properly invalidates all active sessions when passwords are changed or users are disabled. References: [https://cyberalerts.io/vulnerability/CVE-2025-24859](https://cyberalerts.io/vulnerability/CVE-2025-24859) [https://nvd.nist.gov/vuln/detail/CVE-2025-24859](https://nvd.nist.gov/vuln/detail/CVE-2025-24859) [https://lists.apache.org/thread/vxv52vdr8nhtjlj6v02w43fdvo0cxw23](https://lists.apache.org/thread/vxv52vdr8nhtjlj6v02w43fdvo0cxw23) [https://lists.apache.org/thread/4j906k16v21kdx8hk87gl7663sw7lg7f](https://lists.apache.org/thread/4j906k16v21kdx8hk87gl7663sw7lg7f)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1
+    },
+    "title": "Next.js Middleware Auth Bypass (CVE-2025-29927) and Local File Read via XXE - HackDonalds Challenge",
+    "permalink": "/r/Intigriti/comments/1jzt9og/nextjs_middleware_auth_bypass_cve202529927_and/",
+    "timestamp": "2025-04-15T14:28:09",
+    "clean_text": "Next.js Middleware Auth Bypass (CVE-2025-29927) and Local File Read via XXE - HackDonalds Challenge",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2161"
+    ],
+    "cve_counts": {
+      "CVE-2025-2161": 1
+    },
+    "title": "CVE Alert: CVE-2025-2161",
+    "permalink": "/r/RedPacketSecurity/comments/1jzsza6/cve_alert_cve20252161/",
+    "timestamp": "2025-04-15T14:16:20",
+    "clean_text": "CVE Alert: CVE-2025-2161 Pega Platform versions 7.2.1 to Infinity 24.2.1 are affected by an XSS issue with Mashup",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-21762",
+      "CVE-2022-42475",
+      "CVE-2023-27997"
+    ],
+    "cve_counts": {
+      "CVE-2022-42475": 1,
+      "cve-2022-42475": 1,
+      "CVE-2023-27997": 1,
+      "cve-2023-27997": 1,
+      "CVE-2024-21762": 1,
+      "cve-2024-21762": 1
+    },
+    "title": "FortiOS 7.2.11 & 7.4.7",
+    "permalink": "/r/fortinet/comments/1jzsu6r/fortios_7211_747/",
+    "timestamp": "2025-04-15T14:10:17",
+    "clean_text": "FortiOS 7.2.11 & 7.4.7 Due to [CVE-2022-42475](https://nvd.nist.gov/vuln/detail/cve-2022-42475?trk=article-ssr-frontend-pulse_little-text-block), [CVE-2023-27997,](https://nvd.nist.gov/vuln/detail/cve-2023-27997?trk=article-ssr-frontend-pulse_little-text-block) and [CVE-2024-21762](https://nvd.nist.gov/vuln/detail/cve-2024-21762?trk=article-ssr-frontend-pulse_little-text-block). Its recommended to upgrade to 7.2.11 and 7.4.7. Are those firmware stable? Or you guys recommend other version out of the vulnerability?",
+    "clean_comments": [
+      "Level 0: I manage 400 FortiGates and have 99% of them on 7.2.11 with no issues so far. Models range from 40F - 200E",
+      "Level 1: Thanks"
+    ]
   }
 ]

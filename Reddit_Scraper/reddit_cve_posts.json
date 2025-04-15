@@ -2439,5 +2439,65 @@
     "timestamp": "2025-04-15T13:42:50",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1
+    },
+    "title": "Next.js Middleware Auth Bypass (CVE-2025-29927) and Local File Read via XXE - HackDonalds Challenge",
+    "text": "",
+    "permalink": "/r/Intigriti/comments/1jzt9og/nextjs_middleware_auth_bypass_cve202529927_and/",
+    "timestamp": "2025-04-15T14:28:09",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2161"
+    ],
+    "cve_counts": {
+      "CVE-2025-2161": 1
+    },
+    "title": "CVE Alert: CVE-2025-2161",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1jzsza6/cve_alert_cve20252161/",
+    "timestamp": "2025-04-15T14:16:20",
+    "article_text": "Pega Platform versions 7.2.1 to Infinity 24.2.1 are affected by an XSS issue with Mashup",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-21762",
+      "CVE-2022-42475",
+      "CVE-2023-27997"
+    ],
+    "cve_counts": {
+      "CVE-2022-42475": 1,
+      "cve-2022-42475": 1,
+      "CVE-2023-27997": 1,
+      "cve-2023-27997": 1,
+      "CVE-2024-21762": 1,
+      "cve-2024-21762": 1
+    },
+    "title": "FortiOS 7.2.11 & 7.4.7",
+    "text": "Due to [CVE-2022-42475](https://nvd.nist.gov/vuln/detail/cve-2022-42475?trk=article-ssr-frontend-pulse_little-text-block), [CVE-2023-27997,](https://nvd.nist.gov/vuln/detail/cve-2023-27997?trk=article-ssr-frontend-pulse_little-text-block) and [CVE-2024-21762](https://nvd.nist.gov/vuln/detail/cve-2024-21762?trk=article-ssr-frontend-pulse_little-text-block). Its recommended to upgrade to 7.2.11 and 7.4.7. Are those firmware stable? Or you guys recommend other version out of the vulnerability?",
+    "permalink": "/r/fortinet/comments/1jzsu6r/fortios_7211_747/",
+    "timestamp": "2025-04-15T14:10:17",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 6,
+        "text": "I manage 400 FortiGates and have 99% of them on 7.2.11 with no issues so far. Models range from 40F - 200E",
+        "level": 0
+      },
+      {
+        "score": 2,
+        "text": "Thanks",
+        "level": 1
+      }
+    ]
   }
 ]
