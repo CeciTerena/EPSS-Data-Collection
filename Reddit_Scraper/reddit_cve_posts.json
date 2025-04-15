@@ -2353,5 +2353,33 @@
     "timestamp": "2025-04-15T05:48:09",
     "article_text": "IBM Aspera Console 3.4.0 through 3.4.4 allows passwords to be reused when a new user logs into the system.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30406"
+    ],
+    "cve_counts": {
+      "CVE-2025-30406": 1
+    },
+    "title": "CVE-2025-30406 - Critical Gladinet CentreStack & Triofox Vulnerability Exploited In The Wild",
+    "text": "",
+    "permalink": "/r/worldTechnology/comments/1jzmwwa/cve202530406_critical_gladinet_centrestack/",
+    "timestamp": "2025-04-15T08:39:55",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30406"
+    ],
+    "cve_counts": {
+      "CVE-2025-30406": 1
+    },
+    "title": "🚨 Just in: CVE-2025-30406 – Remote Code Execution via Hardcoded Crypto Keys in Gladinet CentreStack & Triofox",
+    "text": "Gladinet’s platforms were found with a critical RCE vulnerability (CVSS 9.0) that has already been exploited in the wild using obfuscated PowerShell + DLL sideloading.\n\nHuntress confirmed **7 orgs compromised** so far. MeshCentral, Impacket, and lateral movement tactics spotted.  \nPatch now if you're on **Triofox ≤ v16.4.10317.56372**.  \n\\#Infosec #CVE202530406 #Sysadmin #ThreatIntel",
+    "permalink": "/r/cybersecurityexams/comments/1jzmjro/just_in_cve202530406_remote_code_execution_via/",
+    "timestamp": "2025-04-15T08:14:56",
+    "article_text": null,
+    "comments": []
   }
 ]
