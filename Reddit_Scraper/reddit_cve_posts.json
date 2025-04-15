@@ -2381,5 +2381,33 @@
     "timestamp": "2025-04-15T08:14:56",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3570"
+    ],
+    "cve_counts": {
+      "CVE-2025-3570": 1
+    },
+    "title": "CVE Alert: CVE-2025-3570",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1jznf1m/cve_alert_cve20253570/",
+    "timestamp": "2025-04-15T09:16:24",
+    "article_text": "A vulnerability was found in JamesZBL/code-projects db-hospital-drug 1.0. It has been classified as problematic. This affects the function Save of the file ContentController.java. The manipulation of the argument content leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30406"
+    ],
+    "cve_counts": {
+      "CVE-2025-30406": 1
+    },
+    "title": "Gladinet flaw CVE-2025-30406 actively exploited in the wild",
+    "text": "",
+    "permalink": "/r/InfoSecNews/comments/1jzndlm/gladinet_flaw_cve202530406_actively_exploited_in/",
+    "timestamp": "2025-04-15T09:13:23",
+    "article_text": null,
+    "comments": []
   }
 ]

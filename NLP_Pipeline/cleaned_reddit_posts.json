@@ -1696,5 +1696,31 @@
     "timestamp": "2025-04-15T08:14:56",
     "clean_text": "🚨 Just in: CVE-2025-30406 – Remote Code Execution via Hardcoded Crypto Keys in Gladinet CentreStack & Triofox Gladinet’s platforms were found with a critical RCE vulnerability (CVSS 9.0) that has already been exploited in the wild using obfuscated PowerShell + DLL sideloading. Huntress confirmed **7 orgs compromised** so far. MeshCentral, Impacket, and lateral movement tactics spotted. Patch now if you're on **Triofox ≤ v16.4.10317.56372**. \\#Infosec #CVE202530406 #Sysadmin #ThreatIntel",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3570"
+    ],
+    "cve_counts": {
+      "CVE-2025-3570": 1
+    },
+    "title": "CVE Alert: CVE-2025-3570",
+    "permalink": "/r/RedPacketSecurity/comments/1jznf1m/cve_alert_cve20253570/",
+    "timestamp": "2025-04-15T09:16:24",
+    "clean_text": "CVE Alert: CVE-2025-3570 A vulnerability was found in JamesZBL/code-projects db-hospital-drug 1.0. It has been classified as problematic. This affects the function Save of the file ContentController.java. The manipulation of the argument content leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30406"
+    ],
+    "cve_counts": {
+      "CVE-2025-30406": 1
+    },
+    "title": "Gladinet flaw CVE-2025-30406 actively exploited in the wild",
+    "permalink": "/r/InfoSecNews/comments/1jzndlm/gladinet_flaw_cve202530406_actively_exploited_in/",
+    "timestamp": "2025-04-15T09:13:23",
+    "clean_text": "Gladinet flaw CVE-2025-30406 actively exploited in the wild",
+    "clean_comments": []
   }
 ]
