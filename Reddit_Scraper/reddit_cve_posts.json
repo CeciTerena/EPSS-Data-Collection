@@ -2425,5 +2425,19 @@
     "timestamp": "2025-04-15T11:56:25",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24859"
+    ],
+    "cve_counts": {
+      "CVE-2025-24859": 5
+    },
+    "title": "Critical Apache Roller Insufficient Session Expiration on Password Change Vulnerability CVE-2025-24859",
+    "text": "A session management vulnerability exists in Apache Roller before version 6.1.5 where active user sessions are not properly invalidated after password changes. When a user's password is changed, either by the user themselves or by an administrator, existing sessions remain active and usable. This allows continued access to the application through old sessions even after password changes, potentially enabling unauthorized access if credentials were compromised.\n\nThis issue affects Apache Roller versions up to and including 6.1.4.\n\nThe vulnerability is fixed in Apache Roller 6.1.5 by implementing centralized session management that properly invalidates all active sessions when passwords are changed or users are disabled.\n\nReferences:\n\n[https://cyberalerts.io/vulnerability/CVE-2025-24859](https://cyberalerts.io/vulnerability/CVE-2025-24859)\n\n[https://nvd.nist.gov/vuln/detail/CVE-2025-24859](https://nvd.nist.gov/vuln/detail/CVE-2025-24859)  \n[https://lists.apache.org/thread/vxv52vdr8nhtjlj6v02w43fdvo0cxw23](https://lists.apache.org/thread/vxv52vdr8nhtjlj6v02w43fdvo0cxw23)  \n[https://lists.apache.org/thread/4j906k16v21kdx8hk87gl7663sw7lg7f](https://lists.apache.org/thread/4j906k16v21kdx8hk87gl7663sw7lg7f)",
+    "permalink": "/r/apache/comments/1jzs7kk/critical_apache_roller_insufficient_session/",
+    "timestamp": "2025-04-15T13:42:50",
+    "article_text": null,
+    "comments": []
   }
 ]
