@@ -2636,5 +2636,19 @@
     "timestamp": "2025-04-16T12:55:53",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3155"
+    ],
+    "cve_counts": {
+      "cve-2025-3155": 1
+    },
+    "title": "It's time to retire Yelp",
+    "text": "GNOME's [Help](https://gitlab.gnome.org/GNOME/yelp) app has a lot going against it\n\n* A [dangerous critical vulnerability](https://blogs.gnome.org/mcatanzaro/2025/04/15/dangerous-arbitrary-file-read-vulnerability-in-yelp-cve-2025-3155/) that hasn't been patched in months\n* Hasn't migrated to Gtk4\n* Doesn't conform to the Human Interface Guidelines\n* And (most importantly) nobody uses it since we have Google and [Biblioteca](https://apps.gnome.org/Biblioteca/)\n\nCan we go ahead and retire it from GNOME's core apps?",
+    "permalink": "/r/gnome/comments/1k0l7cl/its_time_to_retire_yelp/",
+    "timestamp": "2025-04-16T14:03:16",
+    "article_text": null,
+    "comments": []
   }
 ]
