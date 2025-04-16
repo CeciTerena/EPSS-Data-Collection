@@ -1884,5 +1884,33 @@
     "timestamp": "2025-04-16T10:16:22",
     "clean_text": "CVE Alert: CVE-2025-27929 Unauthenticated attackers can retrieve full list of users associated with arbitrary accounts.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-35587"
+    ],
+    "cve_counts": {
+      "CVE-2021-35587": 1
+    },
+    "title": "Massive Oracle Cloud Breach: Threat Actor Sells 6M Records Exploited via Critical Vulnerability",
+    "permalink": "/r/u_Sunitha_Sundar_5980/comments/1k0k8do/massive_oracle_cloud_breach_threat_actor_sells_6m/",
+    "timestamp": "2025-04-16T13:19:09",
+    "clean_text": "Massive Oracle Cloud Breach: Threat Actor Sells 6M Records Exploited via Critical Vulnerability On March 21, 2025, CloudSEK’s XVigil uncovered a high-severity security breach involving a threat actor operating under the alias “rose87168,” who is actively selling 6 million records exfiltrated from Oracle Cloud’s SSO and LDAP systems. The leaked data includes highly sensitive assets such as JKS files, encrypted SSO passwords, key files, and enterprise manager JPS keys, affecting over 140,000 tenants. The attacker, who has been active since January 2025, is demanding payment for data removal and even incentivizing assistance in decrypting the stolen credentials. Initial analysis suggests the breach may have originated from a vulnerable Oracle login subdomain (login.\\[region\\].oraclecloud.com), possibly linked to CVE-2021-35587—a critical flaw in Oracle Fusion Middleware’s Access Manager. The affected endpoint, last updated in 2014, underscores a lack of patch management and highlights broader concerns around supply chain vulnerabilities. Though the threat actor is new with no prior history, the sophistication of the attack, combined with extortion tactics and a potentially exploited zero-day. Source: [https://www.cloudsek.com/blog/the-biggest-supply-chain-hack-of-2025-6m-records-for-sale-exfiltrated-from-oracle-cloud-affecting-over-140k-tenants?utm\\_source=chatgpt.com](https://www.cloudsek.com/blog/the-biggest-supply-chain-hack-of-2025-6m-records-for-sale-exfiltrated-from-oracle-cloud-affecting-over-140k-tenants?utm_source=chatgpt.com)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2014-0160",
+      "CVE-2017-5754"
+    ],
+    "cve_counts": {
+      "CVE-2014-0160": 2,
+      "CVE-2017-5754": 2
+    },
+    "title": "Homeland Security funding for CVE program expires",
+    "permalink": "/r/DeFranco/comments/1k0jqgm/homeland_security_funding_for_cve_program_expires/",
+    "timestamp": "2025-04-16T12:55:53",
+    "clean_text": "Homeland Security funding for CVE program expires US government funding for the world's CVE program – the centralized Common Vulnerabilities and Exposures database of product security flaws – ends Wednesday. The 25-year-old CVE program plays a huge role in vulnerability management. It is responsible overseeing the assignment and organizing of unique CVE ID numbers, such as [CVE-2014-0160](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0160) and [CVE-2017-5754](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5754), for specific vulnerabilities, in this case OpenSSL's [Heartbleed](https://www.theregister.com/2014/04/09/heartbleed_explained/) and Intel's [Meltdown](https://www.theregister.com/2018/01/02/intel_cpu_design_flaw/), so that when referring to particular flaws and patches, everyone is agreed on exactly what we're all talking about. It is used by companies big and small, developers, researchers, the public sector, and more as the primary system for identifying and squashing bugs. When multiple people find the same hole, CVEs are useful for ensuring everyone is working toward that one specific issue.",
+    "clean_comments": []
   }
 ]
