@@ -2792,5 +2792,19 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-27840"
+    ],
+    "cve_counts": {
+      "CVE-2025-27840": 1
+    },
+    "title": "Hardware Can’t Be Trusted — So We Built Around It",
+    "text": "A recent vulnerability (CVE-2025-27840) affecting the popular ESP32 microcontroller is exposing Bitcoin hardware wallets to key theft. The flaw includes:\n\n• Exploitable firmware/module updates\n• Weak RNG entropy → brute-forceable keypairs\n• Remote signature injection & transaction hijacking\n\nThis isn’t just about one chip — it’s about a fundamental design flaw:\n🔹 If trust is rooted in hardware, the system is only as strong as its weakest microcontroller.\n\nWhat We Did Instead\nWe’ve been working on an architecture that treats trust as behavior, not assumption.\n\nNo reliance on global consensus or secure hardware. Instead:\n\n• Agents validate state locally\n• Trust scores are based on entropy quality, signature patterns, and behavior\n• Adaptive PoW rejects anomalies — even if signed\n• Entropy audits detect weak randomness in real time\n• Devices that act “out of spec” are automatically isolated or demoted\n\nIf a key becomes guessable or spoofed, the system doesn’t alert — it acts.\n\nBig Picture:\nCryptography isn’t just math.\nIt’s entropy. It’s behavior. It’s architecture.\n\nThe next evolution in blockchain security won't come from stronger chips.\nIt’ll come from smarter systems that expect them to fail.\n\nLet me know if anyone’s working on similar agent-based or entropy-scoring models. Always curious to compare architectures.\n\n",
+    "permalink": "/r/CryptoTechnology/comments/1k0scrw/hardware_cant_be_trusted_so_we_built_around_it/",
+    "timestamp": "2025-04-16T18:56:54",
+    "article_text": null,
+    "comments": []
   }
 ]
