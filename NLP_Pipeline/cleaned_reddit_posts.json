@@ -2057,5 +2057,18 @@
     "timestamp": "2025-04-16T18:56:54",
     "clean_text": "Hardware Can’t Be Trusted — So We Built Around It A recent vulnerability (CVE-2025-27840) affecting the popular ESP32 microcontroller is exposing Bitcoin hardware wallets to key theft. The flaw includes: • Exploitable firmware/module updates • Weak RNG entropy → brute-forceable keypairs • Remote signature injection & transaction hijacking This isn’t just about one chip — it’s about a fundamental design flaw: 🔹 If trust is rooted in hardware, the system is only as strong as its weakest microcontroller. What We Did Instead We’ve been working on an architecture that treats trust as behavior, not assumption. No reliance on global consensus or secure hardware. Instead: • Agents validate state locally • Trust scores are based on entropy quality, signature patterns, and behavior • Adaptive PoW rejects anomalies — even if signed • Entropy audits detect weak randomness in real time • Devices that act “out of spec” are automatically isolated or demoted If a key becomes guessable or spoofed, the system doesn’t alert — it acts. Big Picture: Cryptography isn’t just math. It’s entropy. It’s behavior. It’s architecture. The next evolution in blockchain security won't come from stronger chips. It’ll come from smarter systems that expect them to fail. Let me know if anyone’s working on similar agent-based or entropy-scoring models. Always curious to compare architectures.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26870"
+    ],
+    "cve_counts": {
+      "CVE-2025-26870": 1
+    },
+    "title": "CVE Alert: CVE-2025-26870",
+    "permalink": "/r/RedPacketSecurity/comments/1k0ua4o/cve_alert_cve202526870/",
+    "timestamp": "2025-04-16T20:16:24",
+    "clean_text": "CVE Alert: CVE-2025-26870 Improper Neutralization of Input During Web Page Generation (‘Cross-site Scripting’) vulnerability in NotFound JetEngine allows DOM-Based XSS. This issue affects JetEngine: from n/a through 3.6.4.1.",
+    "clean_comments": []
   }
 ]

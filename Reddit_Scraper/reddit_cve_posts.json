@@ -2806,5 +2806,19 @@
     "timestamp": "2025-04-16T18:56:54",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26870"
+    ],
+    "cve_counts": {
+      "CVE-2025-26870": 1
+    },
+    "title": "CVE Alert: CVE-2025-26870",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k0ua4o/cve_alert_cve202526870/",
+    "timestamp": "2025-04-16T20:16:24",
+    "article_text": "Improper Neutralization of Input During Web Page Generation (‘Cross-site Scripting’) vulnerability in NotFound JetEngine allows DOM-Based XSS. This issue affects JetEngine: from n/a through 3.6.4.1.",
+    "comments": []
   }
 ]
