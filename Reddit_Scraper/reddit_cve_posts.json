@@ -2664,5 +2664,19 @@
     "timestamp": "2025-04-16T14:45:45",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27561"
+    ],
+    "cve_counts": {
+      "CVE-2025-27561": 1
+    },
+    "title": "CVE Alert: CVE-2025-27561",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k0mxgy/cve_alert_cve202527561/",
+    "timestamp": "2025-04-16T15:16:20",
+    "article_text": "Unauthenticated attackers can rename “rooms” of arbitrary users.",
+    "comments": []
   }
 ]

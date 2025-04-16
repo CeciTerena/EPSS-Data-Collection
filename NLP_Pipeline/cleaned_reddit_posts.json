@@ -1938,5 +1938,18 @@
     "timestamp": "2025-04-16T14:45:45",
     "clean_text": "CVE-2025-24054, NTLM Exploit in the Wild - Check Point Research",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27561"
+    ],
+    "cve_counts": {
+      "CVE-2025-27561": 1
+    },
+    "title": "CVE Alert: CVE-2025-27561",
+    "permalink": "/r/RedPacketSecurity/comments/1k0mxgy/cve_alert_cve202527561/",
+    "timestamp": "2025-04-16T15:16:20",
+    "clean_text": "CVE Alert: CVE-2025-27561 Unauthenticated attackers can rename “rooms” of arbitrary users.",
+    "clean_comments": []
   }
 ]
