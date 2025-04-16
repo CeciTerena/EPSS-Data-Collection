@@ -1871,5 +1871,18 @@
     "timestamp": "2025-04-16T08:41:45",
     "clean_text": "SAP Emarsys SDK for Android Sensitive Data Leak (CVE-2023-6542)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27929"
+    ],
+    "cve_counts": {
+      "CVE-2025-27929": 1
+    },
+    "title": "CVE Alert: CVE-2025-27929",
+    "permalink": "/r/RedPacketSecurity/comments/1k0gxah/cve_alert_cve202527929/",
+    "timestamp": "2025-04-16T10:16:22",
+    "clean_text": "CVE Alert: CVE-2025-27929 Unauthenticated attackers can retrieve full list of users associated with arbitrary accounts.",
+    "clean_comments": []
   }
 ]
