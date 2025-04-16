@@ -1951,5 +1951,98 @@
     "timestamp": "2025-04-16T15:16:20",
     "clean_text": "CVE Alert: CVE-2025-27561 Unauthenticated attackers can rename “rooms” of arbitrary users.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-21204",
+      "CVE-2025-0282",
+      "CVE-2025-22457",
+      "CVE-2025-30406",
+      "CVE-2025-27840",
+      "CVE-2025-24859",
+      "CVE-2025-24994",
+      "CVE-2024-26170",
+      "CVE-2025-24076",
+      "CVE-2024-50264"
+    ],
+    "cve_counts": {
+      "CVE-2025-27840": 1,
+      "CVE-2024-50264": 1,
+      "CVE-2025-24076": 1,
+      "CVE-2025-21204": 1,
+      "CVE-2025-30406": 1,
+      "CVE-2025-0282": 1,
+      "CVE-2024-26170": 1,
+      "CVE-2025-24994": 1,
+      "CVE-2025-24859": 1,
+      "CVE-2025-22457": 1
+    },
+    "title": "🔥 Top 10 Trending CVEs (16/04/2025)",
+    "permalink": "/r/CVEWatch/comments/1k0pflo/top_10_trending_cves_16042025/",
+    "timestamp": "2025-04-16T17:00:12",
+    "clean_text": "🔥 Top 10 Trending CVEs (16/04/2025) Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today: **1. CVE-2025-27840** - 📝 A potential security vulnerability affects Espressif ESP32 chips, enabling undocumented HCI commands, including 0xFC02 (Write memory). The severity is moderate (CVSS 6.8), and exploitation requires high attack complexity with no user interaction needed (AV:P/AC:H). No known instances of exploitation in the wild have been reported as of yet. - 📅 **Published:** 08/03/2025 - 📈 **CVSS:** 6.8 - 🧭 **Vector:** CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:L --- **2. CVE-2024-50264** - 📝 In the Linux Kernel, a Use-After-Free vulnerability exists within vsock/virtio. During loopback communication, a dangling pointer can be created in vsk->trans, potentially leading to memory corruption when using versions specified in the description. The severity is high due to potential code execution and data disclosure. No known exploitation has been observed in the wild. - 📅 **Published:** 19/11/2024 - 📈 **CVSS:** 7.8 - 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H --- **3. CVE-2025-24076** - 📝 A locally-exploitable privilege escalation vulnerability exists within Windows Cross Device Service. This flaw could allow an attacker with authorized access to elevate their privileges locally. No known exploitation in the wild has been reported at this time. Ensure affected systems are up-to-date. - 📅 **Published:** 11/03/2025 - 📈 **CVSS:** 7.3 - 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H --- **4. CVE-2025-21204** - 📝 A local privilege escalation vulnerability exists in Windows Update Stack, permitting authorized attackers to elevate privileges by leveraging improper link resolution prior to file access. Verify affected versions align with the description for potential mitigation or patching actions. - 📅 **Published:** 08/04/2025 - 📈 **CVSS:** 7.8 - 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H --- **5. CVE-2025-30406** - 📝 Unpatched Gladinet CentreStack versions prior to 16.4.10315.56368 contain a server-side deserialization vulnerability, enabling remote code execution. Known to have been exploited in the wild since March 2025. The hardcoded machineKey in portal\\web.config is the attack vector. Administrators are advised to manually delete this key and apply updates. - 📅 **Published:** 3/4/2025 - 📈 **CVSS:** 9 - 🛡️ **CISA KEV:** Yes - 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H --- **6. CVE-2025-0282** - 📝 A critical, remotely exploitable stack-based buffer overflow vulnerability exists in Ivanti Connect Secure before 22.7R2.5, Ivanti Policy Secure before 22.7R1.2, and Ivanti Neurons for ZTA gateways before 22.7R2.3, enabling unauthenticated attackers to execute arbitrary code. This vulnerability has been exploited in the wild according to CISA KEV. Immediate patching or mitigation measures are strongly advised. - 📅 **Published:** 08/01/2025 - 📈 **CVSS:** 9 - 🛡️ **CISA KEV:** Yes - 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H --- **7. CVE-2024-26170** - 📝 A Windows CimFS EoP vulnerability exists, allowing local attackers to elevate privileges. This issue is remotely exploitable without authentication and may result in high impact on confidentiality, integrity, and availability. Verify if affected versions match those listed in the description. - 📅 **Published:** 12/03/2024 - 📈 **CVSS:** 7.8 - 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H --- **8. CVE-2025-24994** - 📝 A locally-exploitable privilege escalation vulnerability exists in Windows Cross Device Service, enabling an authorized attacker to elevate privileges. Verify affected versions match those listed in the description for potential security impact. - 📅 **Published:** 11/03/2025 - 📈 **CVSS:** 7.3 - 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H --- **9. CVE-2025-24859** - 📝 I've identified a critical session management vulnerability in Apache Roller before version 6.1.5, specifically affecting versions up to and including 6.1.4. After password changes, active user sessions remain intact, allowing potential unauthorized access through old sessions. Implement centralized session management to mitigate this risk by updating to Apache Roller 6.1.5 or higher. - 📅 **Published:** 14/04/2025 - 📈 **CVSS:** 10 - 🧭 **Vector:** CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X --- **10. CVE-2025-22457** - 📝 A critical, remotely exploitable stack-based buffer overflow vulnerability (stack-buffer-overflow) exists in Ivanti Connect Secure before 22.7R2.6, Ivanti Policy Secure before 22.7R1.4, and Ivanti ZTA Gateways before 22.8R2.2. This flaw allows unauthenticated attackers to execute arbitrary code (Remote Code Execution). Notably, this vulnerability has been observed in active exploitation by threat actors. Immediate patching is strongly advised. - 📅 **Published:** 3/4/2025 - 📈 **CVSS:** 9 - 🛡️ **CISA KEV:** Yes - 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H --- Let me know if you're tracking any of these or if something flew under the radar 👀",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30100"
+    ],
+    "cve_counts": {
+      "CVE-2025-30100": 2
+    },
+    "title": "Critical Security Flaw in Dell Alienware Command Center Exposes Users to Privilege Escalation",
+    "permalink": "/r/pwnhub/comments/1k0ow2s/critical_security_flaw_in_dell_alienware_command/",
+    "timestamp": "2025-04-16T16:38:01",
+    "clean_text": "Critical Security Flaw in Dell Alienware Command Center Exposes Users to Privilege Escalation **Dell has issued a security update to patch a serious vulnerability in Alienware Command Center that could allow unauthorized users to gain elevated access on affected systems.** **Key Points:** - Vulnerability CVE-2025-30100 affects all versions of Alienware Command Center prior to 6.7.37.0. - Attackers with local access can exploit this flaw potentially leading to severe security compromises. - Users are urged to update immediately to the latest version to mitigate risks. Dell Technologies has released a critical update for its Alienware Command Center software due to a significant security vulnerability tracked as CVE-2025-30100. This weakness in the software could allow a low-privileged attacker with local access to exploit the system, resulting in elevated privileges that might enable them to manipulate sensitive data or disrupt operations. With a CVSS score of 6.7, this vulnerability indicates a medium-severity issue that should be taken seriously by all users of the software, especially those on Dell's gaming platforms. Since the Alienware Command Center plays an essential role in system optimization and customization for gamers, the implications of this vulnerability are far-reaching. Successful exploits could lead to unauthorized access to personal data or system disruption, raising serious concerns among users about the integrity of their systems. Researcher “bugzzzhunter,” who discovered this vulnerability, pointed out that while the exploit does require specific conditions to be met—such as user interaction and low privileges—the potential consequences are significant. Privilege escalation vulnerabilities are particularly alarming because they allow an attacker to gain a more substantial foothold in a compromised system, thus escalating their capabilities. With a history of previous vulnerabilities in Alienware's software, Dell's consistent updating and communication practices are crucial for maintaining user trust. However, given that this vulnerability has now been publicly disclosed, users need to act quickly to apply the necessary updates and protect their systems from potential exploitation. Have you updated your Alienware Command Center software since the vulnerability disclosure? **Learn More:** [Cyber Security News](https://cybersecuritynews.com/dell-alienware-command-center-vulnerability/) **Want to stay updated on the latest cyber threats?** 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "clean_comments": [
+      "Level 0: **Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.** Stay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**. Whether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead. Stay sharp. Stay secure. **[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)** *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 2
+    },
+    "title": "Cybercriminals Exploit Critical NTLM Spoofing Vulnerability in Windows Systems",
+    "permalink": "/r/pwnhub/comments/1k0ov7f/cybercriminals_exploit_critical_ntlm_spoofing/",
+    "timestamp": "2025-04-16T16:37:02",
+    "clean_text": "Cybercriminals Exploit Critical NTLM Spoofing Vulnerability in Windows Systems **Hackers are actively taking advantage of a serious vulnerability in Windows systems, CVE-2025-24054, to leak sensitive authentication data.** **Key Points:** - Vulnerability facilitates NTLM hash leakage through spoofing techniques. - Attackers can escalate privileges and move laterally within networks. - Exploitation requires minimal user interaction, increasing risk. - Recent campaigns target government and private institutions in Eastern Europe. Cybercriminals are currently exploiting a severe vulnerability identified as CVE-2025-24054, which relates to the NTLM authentication protocol used within Windows systems. This vulnerability allows attackers to manipulate file path handling in a way that triggers SMB authentication requests, revealing user NTLM hashes through unsuspecting file operations. What makes this exploit particularly concerning is its ability to occur with minimal user interaction, such as simply unzipping a ZIP file that contains a malicious .library-ms file. As soon as the file is extracted, the user's authentication data can be leaked, paving the way for further exploitation by the attackers. Recent reports indicate that threat actors began utilizing this vulnerability shortly after Microsoft's attempted patch on March 11, 2025. Campaigns observed in late March specifically targeted institutions in Poland and Romania, showcasing the vulnerability's appeal to malicious groups. By embedding harmful files in spear-phishing emails, attackers prompted unwitting users to execute the harmful ZIP archives, triggering the vulnerability and exposing their NTLM hashes. The attackers were then able to leverage these hashes for lateral movements within networks, thereby gaining unauthorized access and potentially escalating privileges, all while evading detection. What measures do you think organizations should prioritize in response to such rapidly exploited vulnerabilities? **Learn More:** [Cyber Security News](https://cybersecuritynews.com/hackers-exploiting-ntlm-spoofing-vulnerability/) **Want to stay updated on the latest cyber threats?** 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "clean_comments": [
+      "Level 0: **Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.** Stay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**. Whether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead. Stay sharp. Stay secure. **[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)** *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-24859"
+    ],
+    "cve_counts": {
+      "CVE-2025-24859": 2
+    },
+    "title": "Critical Vulnerability Exposes Apache Roller Users to Persistent Threats",
+    "permalink": "/r/pwnhub/comments/1k0omjb/critical_vulnerability_exposes_apache_roller/",
+    "timestamp": "2025-04-16T16:27:03",
+    "clean_text": "Critical Vulnerability Exposes Apache Roller Users to Persistent Threats **A newly identified vulnerability in Apache Roller could allow attackers to retain access to user accounts even after password changes.** **Key Points:** - Vulnerability allows attackers to reuse old sessions after passwords are changed. - CVE-2025-24859 has a maximum severity score of 10/10, highlighting its critical nature. - All Roller versions prior to 6.1.5 are affected by this security flaw. - Apache has issued a patch that includes improved session management to mitigate the risk. A critical cybersecurity flaw, tracked as CVE-2025-24859, has been discovered in Apache Roller, an open-source Java-based blog server. This vulnerability allows attackers to maintain access via active sessions even after users have changed their passwords. This flaw affects all versions up to 6.1.4, posing severe risks for user account integrity and application security. With a CVSS score of 10/10, the severity of this vulnerability cannot be overstated, as it could enable unauthorized access to sensitive information and continued exploitation of accounts by malicious actors. Apache has recently addressed this issue through the release of version 6.1.5, which implements improvements in session management. The update ensures that all active sessions are properly invalidated when a password is changed or an account is disabled. This response is crucial because it not only addresses the current vulnerability but also enhances the overall security framework of the platform. Such proactive measures are necessary to protect users from ongoing threats, especially in light of recent statistics showing an increase in attacks targeting session management flaws across various applications. What steps do you think organizations should take to enhance security against such vulnerabilities? **Learn More:** [Security Week](https://www.securityweek.com/critical-vulnerability-found-in-apache-roller-blog-server/) **Want to stay updated on the latest cyber threats?** 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "clean_comments": [
+      "Level 0: **Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.** Stay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**. Whether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead. Stay sharp. Stay secure. **[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)** *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-53197",
+      "CVE-2024-53150"
+    ],
+    "cve_counts": {
+      "cve-2024-53150": 1,
+      "cve-2024-53197": 1
+    },
+    "title": "M6P | C431(EU) | NEW PATCH",
+    "permalink": "/r/Honor/comments/1k0oj98/m6p_c431eu_new_patch/",
+    "timestamp": "2025-04-16T16:23:18",
+    "clean_text": "M6P | C431(EU) | NEW PATCH [9.0.0.164](http://9.0.0.164) cve-2024-53150 y cve-2024-53197 are NOT patched. https://preview.redd.it/pw4vwhnw38ve1.png?width=1255&format=png&auto=webp&s=a0c36d951623167f9e3e6912e9bb9f12ccfa28f6",
+    "clean_comments": [
+      "Level 0: Dang no ai zoom"
+    ]
   }
 ]
