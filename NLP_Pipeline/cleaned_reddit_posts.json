@@ -1925,5 +1925,18 @@
     "timestamp": "2025-04-16T14:03:16",
     "clean_text": "It's time to retire Yelp GNOME's [Help](https://gitlab.gnome.org/GNOME/yelp) app has a lot going against it * A [dangerous critical vulnerability](https://blogs.gnome.org/mcatanzaro/2025/04/15/dangerous-arbitrary-file-read-vulnerability-in-yelp-cve-2025-3155/) that hasn't been patched in months * Hasn't migrated to Gtk4 * Doesn't conform to the Human Interface Guidelines * And (most importantly) nobody uses it since we have Google and [Biblioteca](https://apps.gnome.org/Biblioteca/) Can we go ahead and retire it from GNOME's core apps?",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 1
+    },
+    "title": "CVE-2025-24054, NTLM Exploit in the Wild - Check Point Research",
+    "permalink": "/r/SecOpsDaily/comments/1k0m6wf/cve202524054_ntlm_exploit_in_the_wild_check_point/",
+    "timestamp": "2025-04-16T14:45:45",
+    "clean_text": "CVE-2025-24054, NTLM Exploit in the Wild - Check Point Research",
+    "clean_comments": []
   }
 ]
