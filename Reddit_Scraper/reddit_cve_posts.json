@@ -3001,5 +3001,77 @@
     "timestamp": "2025-04-17T13:18:42",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-50264"
+    ],
+    "cve_counts": {
+      "CVE-2024-50264": 1
+    },
+    "title": "Kernel-Hack-Drill: Environment For Developing Linux Kernel Exploits",
+    "text": "[Alexander Popov](https://x.com/a13xp0p0v) published the [slides](https://a13xp0p0v.github.io/img/Alexander_Popov-Kernel_Hack_Drill-Zer0Con.pdf) from his talk at Zer0Con 2025. In this talk, he presented the [kernel-hack-drill](https://github.com/a13xp0p0v/kernel-hack-drill) open-source project and showed how it helped him to exploit CVE-2024-50264 in the Linux kernel.",
+    "permalink": "/r/linkersec/comments/1k1eq4r/kernelhackdrill_environment_for_developing_linux/",
+    "timestamp": "2025-04-17T14:51:48",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32433",
+      "CVE-2024-50264",
+      "CVE-2025-24994",
+      "CVE-2025-21299",
+      "CVE-2025-24076",
+      "CVE-2025-27840",
+      "CVE-2025-24054",
+      "CVE-2025-31201"
+    ],
+    "cve_counts": {
+      "CVE-2025-27840": 1,
+      "CVE-2024-50264": 1,
+      "CVE-2025-31201": 2,
+      "CVE-2025-21299": 2,
+      "CVE-2025-24076": 1,
+      "CVE-2025-24054": 1,
+      "CVE-2025-32433": 1,
+      "CVE-2025-24994": 1
+    },
+    "title": "🔥 Top 10 Trending CVEs (17/04/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. CVE-2025-27840**\n\n- 📝 A potential security vulnerability affects Espressif ESP32 chips, enabling undocumented HCI commands, including 0xFC02 (Write memory). The severity is moderate (CVSS 6.8), and exploitation requires high attack complexity with no user interaction needed (AV:P/AC:H). No known instances of exploitation in the wild have been reported as of yet (CISA KEV: false).\n\n- 📅 **Published:** 08/03/2025\n- 📈 **CVSS:** 6.8\n- 🧭 **Vector:** CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:L\n\n---\n\n**2. CVE-2024-50264**\n\n- 📝 In the Linux Kernel, a Use-After-Free vulnerability (CVE xxx) exists within vsock/virtio. During loopback communication, a dangling pointer can be created in vsk->trans, potentially leading to memory corruption when using versions specified in the description. The severity is high due to potential code execution and data disclosure (CVSS: 7.8, AV:L). No known exploitation has been observed in the wild (CISA KEV: false).\n\n- 📅 **Published:** 19/11/2024\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n\n---\n\n**3. CVE-2025-31201**\n\n- 📝 A remotely exploitable code bypass vulnerability for Pointer Authentication (CVSS 6.8, AV:N/AC:H) was identified, potentially exploited in targeted attacks against iOS. The affected systems include tvOS 18.4.1, visionOS 2.4.1, iOS 18.4.1, iPadOS 18.4.1, and macOS Sequoia 15.4.1. Apply updates to mitigate risk.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 6.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N\n\n---\n\n**4. CVE-2025-21299**\n\n- 📝 A Windows Kerberos Security Feature Bypass vulnerability (CVSS 7.1, remotely exploitable) has been identified, potentially allowing elevation of privileges on affected systems running specific versions. No known active exploitation has been reported yet. It is recommended to apply relevant patches promptly for mitigation.\n\n- 📅 **Published:** 14/01/2025\n- 📈 **CVSS:** 7.1\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N\n\n---\n\n**5. CVE-2025-24076**\n\n- 📝 A locally-exploitable privilege escalation vulnerability (CVSS 7.3, L/L/L/R/U/U/H) exists within Windows Cross Device Service. This flaw could allow an attacker with authorized access to elevate their privileges locally. No known exploitation in the wild has been reported at this time. Ensure affected systems are up-to-date.\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 7.3\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H\n\n---\n\n**6. CVE-2025-21299**\n\n- 📝 A potential Windows Kerberos Security Feature Bypass vulnerability (CVSS 7.1) has been identified, allowing for local attack vectors (AV:L/AC:L). This flaw could lead to high impact on confidentiality (C:H) and integrity (I:H), but no known exploitation in the wild has been reported (KEV:false) as of yet. It's recommended to ensure affected systems are up-to-date with relevant patches to mitigate risk.\n\n- 📅 **Published:** 14/01/2025\n- 📈 **CVSS:** 7.1\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N\n\n---\n\n**7. CVE-2025-24054**\n\n- 📝 A network spoofing vulnerability (CVSS v3.1: AV:N/AC:L) exists in certain Windows NTLM implementations, with a severity score of 6.5. This issue allows an unauthorized attacker to manipulate file names or paths over a network, potentially leading to sensitive information disclosure (C:H). Currently, there is no confirmed evidence that it has been exploited in the wild. It is recommended to update affected versions as soon as possible.\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 6.5\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N\n\n---\n\n**8. CVE-2025-32433**\n\n- 📝 Remote Code Execution vulnerability in Erlang/OTP (versions prior to OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20) allows unauthenticated RCE via SSH protocol message handling. Affected systems may be compromised without valid credentials. Patch to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20 is available; temporary workarounds include disabling SSH or firewall rules.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n\n---\n\n**9. CVE-2025-31201**\n\n- 📝 A remotely exploitable bypass of Pointer Authentication was discovered in tvOS, visionOS, iOS, iPadOS, and macOS. This issue may allow an attacker with arbitrary read-write capability to potentially breach security, with Apple reporting its use in a targeted sophisticated attack against specific individuals on iOS (fixed in v18.4.1 for all mentioned platforms). CISA KEV: false, suggesting it has not been exploited in the wild beyond these targeted instances.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 6.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N\n\n---\n\n**10. CVE-2025-24994**\n\n- 📝 A locally-exploitable privilege escalation vulnerability (CVSS 7.3) exists in Windows Cross Device Service, enabling an authorized attacker to elevate privileges. Verify affected versions match those listed in the description for potential security impact.\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 7.3\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H\n\n---\n\nLet us know if you're tracking any of these or if something flew under the radar or find any issues with the provided details.",
+    "permalink": "/r/CVEWatch/comments/1k1dswv/top_10_trending_cves_17042025/",
+    "timestamp": "2025-04-17T14:12:19",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32433",
+      "CVE-2024-50264",
+      "CVE-2025-24994",
+      "CVE-2025-21299",
+      "CVE-2025-24076",
+      "CVE-2025-27840",
+      "CVE-2025-24054",
+      "CVE-2025-29809",
+      "CVE-2025-31201"
+    ],
+    "cve_counts": {
+      "CVE-2025-27840": 1,
+      "CVE-2024-50264": 1,
+      "CVE-2025-31201": 1,
+      "CVE-2025-21299": 2,
+      "CVE-2025-24076": 1,
+      "CVE-2025-24054": 1,
+      "CVE-2025-32433": 1,
+      "CVE-2025-24994": 1,
+      "CVE-2025-29809": 1
+    },
+    "title": "🔥 Top 10 Trending CVEs (17/04/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. CVE-2025-27840**\n\n- 📝 A potential security vulnerability affects Espressif ESP32 chips, enabling undocumented HCI commands, including 0xFC02 (Write memory). The severity is moderate, and exploitation requires high attack complexity with no user interaction needed. No known instances of exploitation in the wild have been reported as of yet.\n\n- 📅 **Published:** 08/03/2025\n- 📈 **CVSS:** 6.8\n- 🧭 **Vector:** CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:L\n\n---\n\n**2. CVE-2024-50264**\n\n- 📝 In the Linux Kernel, a Use-After-Free vulnerability exists within vsock/virtio. During loopback communication, a dangling pointer can be created in vsk->trans, potentially leading to memory corruption when using versions specified in the description. The severity is high due to potential code execution and data disclosure. No known exploitation has been observed in the wild.\n\n- 📅 **Published:** 19/11/2024\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n\n---\n\n**3. CVE-2025-31201**\n\n- 📝 A remotely exploitable code bypass vulnerability for Pointer Authentication was identified, potentially exploited in targeted attacks against iOS. The affected systems include tvOS 18.4.1, visionOS 2.4.1, iOS 18.4.1, iPadOS 18.4.1, and macOS Sequoia 15.4.1. Apply updates to mitigate risk.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 6.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N\n\n---\n\n**4. CVE-2025-21299**\n\n- 📝 A Windows Kerberos Security Feature Bypass vulnerability has been identified, potentially allowing elevation of privileges on affected systems running specific versions. No known active exploitation has been reported yet. It is recommended to apply relevant patches promptly for mitigation.\n\n- 📅 **Published:** 14/01/2025\n- 📈 **CVSS:** 7.1\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N\n\n---\n\n**5. CVE-2025-24076**\n\n- 📝 A locally-exploitable privilege escalation vulnerability exists within Windows Cross Device Service. This flaw could allow an attacker with authorized access to elevate their privileges locally. No known exploitation in the wild has been reported at this time. Ensure affected systems are up-to-date.\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 7.3\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H\n\n---\n\n**6. CVE-2025-21299**\n\n- 📝 A potential Windows Kerberos Security Feature Bypass vulnerability has been identified, allowing for local attack vectors. This flaw could lead to high impact on confidentiality and integrity, but no known exploitation in the wild has been reported as of yet. It's recommended to ensure affected systems are up-to-date with relevant patches to mitigate risk.\n\n- 📅 **Published:** 14/01/2025\n- 📈 **CVSS:** 7.1\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N\n\n---\n\n**7. CVE-2025-24054**\n\n- 📝 A network spoofing vulnerability exists in certain Windows NTLM implementations, with a severity score of 6.5. This issue allows an unauthorized attacker to manipulate file names or paths over a network, potentially leading to sensitive information disclosure. Currently, there is no confirmed evidence that it has been exploited in the wild. It is recommended to update affected versions as soon as possible.\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 6.5\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N\n\n---\n\n**8. CVE-2025-32433**\n\n- 📝 Remote Code Execution vulnerability in Erlang/OTP (versions prior to OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20) allows unauthenticated RCE via SSH protocol message handling. Affected systems may be compromised without valid credentials. Patch to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20 is available; temporary workarounds include disabling SSH or firewall rules.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n\n---\n\n**9. CVE-2025-24994**\n\n- 📝 A locally-exploitable privilege escalation vulnerability exists in Windows Cross Device Service, enabling an authorized attacker to elevate privileges. Verify affected versions match those listed in the description for potential security impact.\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 7.3\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H\n\n---\n\n**10. CVE-2025-29809**\n\n- 📝 A locally-exploitable vulnerability exists in Windows Kerberos due to insecure storage of sensitive information. This issue allows an authorized attacker to bypass a security feature, potentially leading to high confidentiality and integrity impacts. Currently, there is no evidence of it being exploited in the wild.\n\n- 📅 **Published:** 08/04/2025\n- 📈 **CVSS:** 7.1\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N\n\n---\n\nLet us know if you're tracking any of these or if something flew under the radar or find any issues with the provided details.",
+    "permalink": "/r/CVEWatch/comments/1k1ds1z/top_10_trending_cves_17042025/",
+    "timestamp": "2025-04-17T14:11:17",
+    "article_text": null,
+    "comments": []
   }
 ]
