@@ -2987,5 +2987,19 @@
         "level": 1
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2020-13443"
+    ],
+    "cve_counts": {
+      "CVE-2020-13443": 1
+    },
+    "title": "Trying to understand Cloudflare Managed Ruleset",
+    "text": "So while working with an error, that I tried resolving through Cloudflare Managed Ruleset, I noticed something.\n\nIssue: Blocked Content Notification displays when we upload two files with the same type through the webapp. When the user uploads two different filetypes, then the request goea through without any issues.\n\nOn inspecting the RayID in Splunk, the Security Rule Description indicated CVE-2020-13443\n\nI read through the CVE, but I couldn't understand how the issue and the rule causing the block action are related.\n\nCan someone help with this? Or tell me any appropriate community to post this in.",
+    "permalink": "/r/CloudFlare/comments/1k1ckw6/trying_to_understand_cloudflare_managed_ruleset/",
+    "timestamp": "2025-04-17T13:18:42",
+    "article_text": null,
+    "comments": []
   }
 ]
