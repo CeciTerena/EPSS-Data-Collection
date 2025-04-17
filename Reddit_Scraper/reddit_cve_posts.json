@@ -2884,5 +2884,21 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-31201",
+      "CVE-2025-31200"
+    ],
+    "cve_counts": {
+      "CVE-2025-31200": 1,
+      "CVE-2025-31201": 1
+    },
+    "title": "iOS 18.4.1 est disponible et vous devriez vous dépêcher de l’installer",
+    "text": "* Apple a publié la mise à jour iOS 18.4.1 pour corriger un bug de connexion à CarPlay et deux failles de sécurité majeures, qui étaient activement exploitées par des pirates.\n* La première faille (CVE-2025-31200) touchait CoreAudio et permettait à des attaquants d'exécuter du code arbitraire à distance via un fichier audio malveillant.\n* La seconde faille (CVE-2025-31201) concernait RPAC, un module de sécurité des puces d'Apple, permettant à un pirate d'accéder à la mémoire de l'appareil et de contourner les protections de sécurité.",
+    "permalink": "/r/actutech/comments/1k16qiv/ios_1841_est_disponible_et_vous_devriez_vous/",
+    "timestamp": "2025-04-17T07:07:41",
+    "article_text": null,
+    "comments": []
   }
 ]

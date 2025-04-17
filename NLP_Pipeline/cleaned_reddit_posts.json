@@ -2126,5 +2126,20 @@
     "clean_comments": [
       "Level 0: Scammers continuously target the Ledger subreddit. Ledger Support will never send you private messages or [call you on the phone](https://support.ledger.com/article/15839986186269-zd). Never share your 24-word secret recovery phrase with anyone or enter it anywhere, even if it appears to be from Ledger. Keep your 24-word secret recovery phrase only as a physical paper or metal backup, never as a digital copy. [Learn more about phishing attacks](https://reddit.com/r/ledgerwallet/comments/ck6o44/be_careful_phishing_attacks_in_progress/). Experiencing battery or device issues? [Check our trouble shooting guide](https://support.ledger.com/article/4409233434641-zd).If problems persist, visit the [My Order page](https://my-order.ledger.com/) for replacement or refund options. Received an unknown NFT? Don’t interact with it. [Learn more about handling unknown NFTs](https://support.ledger.com/article/6857182078749-zd). For other technical issues or bugs, see our [known issues page](https://support.ledger.com/article/15158192560157-zd) for up-to-date information and workarounds. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/ledgerwallet) if you have any questions or concerns.*"
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-31201",
+      "CVE-2025-31200"
+    ],
+    "cve_counts": {
+      "CVE-2025-31200": 1,
+      "CVE-2025-31201": 1
+    },
+    "title": "iOS 18.4.1 est disponible et vous devriez vous dépêcher de l’installer",
+    "permalink": "/r/actutech/comments/1k16qiv/ios_1841_est_disponible_et_vous_devriez_vous/",
+    "timestamp": "2025-04-17T07:07:41",
+    "clean_text": "iOS 18.4.1 est disponible et vous devriez vous dépêcher de l’installer * Apple a publié la mise à jour iOS 18.4.1 pour corriger un bug de connexion à CarPlay et deux failles de sécurité majeures, qui étaient activement exploitées par des pirates. * La première faille (CVE-2025-31200) touchait CoreAudio et permettait à des attaquants d'exécuter du code arbitraire à distance via un fichier audio malveillant. * La seconde faille (CVE-2025-31201) concernait RPAC, un module de sécurité des puces d'Apple, permettant à un pirate d'accéder à la mémoire de l'appareil et de contourner les protections de sécurité.",
+    "clean_comments": []
   }
 ]
