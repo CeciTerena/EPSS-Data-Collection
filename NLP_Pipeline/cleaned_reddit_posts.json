@@ -2098,5 +2098,18 @@
     "timestamp": "2025-04-16T22:13:24",
     "clean_text": "SSH Hardening & Offensive Mastery - Libro técnico con enfoque práctico Hola a todos, Desde el grupo **DSDSec** queremos compartir con la comunidad un libro técnico que hemos publicado recientemente: **\"SSH Hardening & Offensive Mastery\"**. Se trata de un recurso gratuito centrado exclusivamente en la seguridad del protocolo SSH, con un enfoque tanto **defensivo como ofensivo**, acompañado de múltiples laboratorios prácticos. [Portada de libro: SSH Hardening & Offensive Mastery](https://preview.redd.it/xwy0jxjpt9ve1.png?width=250&format=png&auto=webp&s=3e8fa9f45653e632b9fe48996f47e0709928da27) El libro está orientado a sysadmins, equipos red/blue, amantes de la ciberseguridad y cualquier persona interesada en fortalecer sus conocimientos técnicos, desde niveles iniciales hasta avanzados. # Algunos de los temas tratados: * Configuraciones seguras y buenas prácticas * Implementación de 2FA sobre SSH * Fail2Ban y Suricata (IDS/IPS) * Tipos de túneles SSH (local, remoto, dinámico, UDP) * Evasión de restricciones y filtrado de red * SSH agent hijacking y secuestro de sesiones * Propagación de malware a través de túneles dinámicos (con Metasploit y BlueKeep) * Análisis y mitigación de vulnerabilidades como **CVE-2018-15473** y **Terrapin (CVE-2023-48795)** * Abuso de variables de entorno * Desarrollo de herramientas personalizadas en **Tcl/Expect** y **Perl** El libro incluye laboratorios detallados, explicaciones técnicas paso a paso. 📘 **Descarga de PDF**: [https://dsdsec.com/wp-content/uploads/2025/04/SSH-Hardening-and-Offensive-Mastery.pdf](https://dsdsec.com/wp-content/uploads/2025/04/SSH-Hardening-and-Offensive-Mastery.pdf) 🌐 **Más información sobre la publicación**: [https://dsdsec.com/publications/](https://dsdsec.com/publications/) Esperamos que os guste y resulte útil. Cualquier comentario o feedback es más que bienvenido.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26746"
+    ],
+    "cve_counts": {
+      "CVE-2025-26746": 1
+    },
+    "title": "CVE Alert: CVE-2025-26746",
+    "permalink": "/r/RedPacketSecurity/comments/1k0zmxh/cve_alert_cve202526746/",
+    "timestamp": "2025-04-17T00:16:23",
+    "clean_text": "CVE Alert: CVE-2025-26746 Improper Neutralization of Input During Web Page Generation (‘Cross-site Scripting’) vulnerability in NotFound Advanced Custom Fields: Link Picker Field allows Reflected XSS. This issue affects Advanced Custom Fields: Link Picker Field: from n/a through 1.2.8.",
+    "clean_comments": []
   }
 ]

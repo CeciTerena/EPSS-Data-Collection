@@ -2850,5 +2850,19 @@
     "timestamp": "2025-04-16T22:13:24",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26746"
+    ],
+    "cve_counts": {
+      "CVE-2025-26746": 1
+    },
+    "title": "CVE Alert: CVE-2025-26746",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k0zmxh/cve_alert_cve202526746/",
+    "timestamp": "2025-04-17T00:16:23",
+    "article_text": "Improper Neutralization of Input During Web Page Generation (‘Cross-site Scripting’) vulnerability in NotFound Advanced Custom Fields: Link Picker Field allows Reflected XSS. This issue affects Advanced Custom Fields: Link Picker Field: from n/a through 1.2.8.",
+    "comments": []
   }
 ]
