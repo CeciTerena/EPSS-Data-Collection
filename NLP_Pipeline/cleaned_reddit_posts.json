@@ -2154,5 +2154,33 @@
     "timestamp": "2025-04-17T07:24:16",
     "clean_text": "Cisco Nexus Dashboard LDAP Username Enumeration Vulnerability (CVE-2025-20150)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31201"
+    ],
+    "cve_counts": {
+      "CVE-2025-31201": 1
+    },
+    "title": "Is anything known about CVE-2025-31201?",
+    "permalink": "/r/jailbreak/comments/1k18x2l/is_anything_known_about_cve202531201/",
+    "timestamp": "2025-04-17T09:50:27",
+    "clean_text": "Is anything known about CVE-2025-31201? Apple speaks of an extremely sophisticated attack. https://support.apple.com/en-us/122282 Impact: An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS",
+    "clean_comments": [
+      "Level 0: they patched it by removing the vulnerable code in IOS 18.4.1 [https://www.cve.org/CVERecord?id=CVE-2025-31201](https://www.cve.org/CVERecord?id=CVE-2025-31201)"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29306"
+    ],
+    "cve_counts": {
+      "CVE-2025-29306": 1
+    },
+    "title": "POC - CVE-2025-29306 FOXCMS /images/index.html Code Execution Vulnerability",
+    "permalink": "/r/ExploitDev/comments/1k18u26/poc_cve202529306_foxcms_imagesindexhtml_code/",
+    "timestamp": "2025-04-17T09:44:00",
+    "clean_text": "POC - CVE-2025-29306 FOXCMS /images/index.html Code Execution Vulnerability",
+    "clean_comments": []
   }
 ]
