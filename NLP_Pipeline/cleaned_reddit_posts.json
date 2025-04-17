@@ -2195,5 +2195,21 @@
     "timestamp": "2025-04-17T10:16:23",
     "clean_text": "CVE Alert: CVE-2025-32791 The Backstage Scaffolder plugin houses types and utilities for building scaffolder-related modules. A vulnerability in the Backstage permission plugin backend allows callers to extract some information about the conditional decisions returned by the permission policy installed in the permission backend. If the permission system is not in use or if the installed permission policy does not use conditional decisions, there is no impact. This issue has been patched in version 0.6.0 of the permissions backend. A workaround includes having administrators of the permission policies ensure that they are crafted in such a way that conditional decisions do not contain any sensitive information.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31201"
+    ],
+    "cve_counts": {
+      "CVE-2025-31201": 1
+    },
+    "title": "Are there unused chunks of code in macOS?  Here's why I ask…",
+    "permalink": "/r/MacOS/comments/1k1awe3/are_there_unused_chunks_of_code_in_macos_heres/",
+    "timestamp": "2025-04-17T11:54:40",
+    "clean_text": "Are there unused chunks of code in macOS?  Here's why I ask… If you read Apple's article: [About the security content of macOS Sequoia 15.4.1](https://support.apple.com/en-us/122400) You'll see this: RPAC \\ \\ Available for: macOS Sequoia \\ \\ Impact: An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS. \\ \\ Description: **This issue was addressed by removing the vulnerable code.** \\ \\ CVE-2025-31201: Apple **Just what the heck did that removed code do?** If the vulnerable code was part of some feature, them removing it would remove that feature. But the release notes made no mention of removed (or 'deprecated') features. Which makes me suspect the code didn't do anything. But code that doesn't execute can't be exploited. My only guess: Something that was added during testing/debugging, then left in because of laziness/inertia.",
+    "clean_comments": [
+      "Level 0: They most likely mean **removed vulnerable code and replaced it with secure code**. It's just the standard way to write these change notes.",
+      "Level 1: This would be my assumption.  Well, “replaced it with *hopefully* secure code” anyway."
+    ]
   }
 ]

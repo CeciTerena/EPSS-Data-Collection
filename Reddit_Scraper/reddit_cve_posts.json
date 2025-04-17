@@ -2962,5 +2962,30 @@
     "timestamp": "2025-04-17T10:16:23",
     "article_text": "The Backstage Scaffolder plugin houses types and utilities for building scaffolder-related modules. A vulnerability in the Backstage permission plugin backend allows callers to extract some information about the conditional decisions returned by the permission policy installed in the permission backend. If the permission system is not in use or if the installed permission policy does not use conditional decisions, there is no impact. This issue has been patched in version 0.6.0 of the permissions backend. A workaround includes having administrators of the permission policies ensure that they are crafted in such a way that conditional decisions do not contain any sensitive information.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31201"
+    ],
+    "cve_counts": {
+      "CVE-2025-31201": 1
+    },
+    "title": "Are there unused chunks of code in macOS?  Here's why I ask…",
+    "text": "If you read Apple's article:\n[About the security content of macOS Sequoia 15.4.1](https://support.apple.com/en-us/122400)\n\nYou'll see this:\n\n> RPAC \\\n> \\\n> Available for: macOS Sequoia \\\n> \\\n> Impact: An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS. \\\n> \\\n> Description: **This issue was addressed by removing the vulnerable code.** \\\n> \\\n> CVE-2025-31201: Apple\n\n**Just what the heck did that removed code do?**\n\nIf the vulnerable code was part of some feature, them removing it would remove that feature. But the release notes made no mention of removed (or 'deprecated') features.\n\nWhich makes me suspect the code didn't do anything. But code that doesn't execute can't be exploited.\n\nMy only guess: Something that was added during testing/debugging, then left in because of laziness/inertia.",
+    "permalink": "/r/MacOS/comments/1k1awe3/are_there_unused_chunks_of_code_in_macos_heres/",
+    "timestamp": "2025-04-17T11:54:40",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "They most likely mean **removed vulnerable code and replaced it with secure code**. It's just the standard way to write these change notes.",
+        "level": 0
+      },
+      {
+        "score": 1,
+        "text": "This would be my assumption.  Well, “replaced it with *hopefully* secure code” anyway.",
+        "level": 1
+      }
+    ]
   }
 ]
