@@ -2141,5 +2141,18 @@
     "timestamp": "2025-04-17T07:07:41",
     "clean_text": "iOS 18.4.1 est disponible et vous devriez vous dépêcher de l’installer * Apple a publié la mise à jour iOS 18.4.1 pour corriger un bug de connexion à CarPlay et deux failles de sécurité majeures, qui étaient activement exploitées par des pirates. * La première faille (CVE-2025-31200) touchait CoreAudio et permettait à des attaquants d'exécuter du code arbitraire à distance via un fichier audio malveillant. * La seconde faille (CVE-2025-31201) concernait RPAC, un module de sécurité des puces d'Apple, permettant à un pirate d'accéder à la mémoire de l'appareil et de contourner les protections de sécurité.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20150"
+    ],
+    "cve_counts": {
+      "CVE-2025-20150": 1
+    },
+    "title": "Cisco Nexus Dashboard LDAP Username Enumeration Vulnerability (CVE-2025-20150)",
+    "permalink": "/r/systemtek/comments/1k16yqw/cisco_nexus_dashboard_ldap_username_enumeration/",
+    "timestamp": "2025-04-17T07:24:16",
+    "clean_text": "Cisco Nexus Dashboard LDAP Username Enumeration Vulnerability (CVE-2025-20150)",
+    "clean_comments": []
   }
 ]

@@ -2900,5 +2900,19 @@
     "timestamp": "2025-04-17T07:07:41",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20150"
+    ],
+    "cve_counts": {
+      "CVE-2025-20150": 1
+    },
+    "title": "Cisco Nexus Dashboard LDAP Username Enumeration Vulnerability (CVE-2025-20150)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1k16yqw/cisco_nexus_dashboard_ldap_username_enumeration/",
+    "timestamp": "2025-04-17T07:24:16",
+    "article_text": null,
+    "comments": []
   }
 ]
