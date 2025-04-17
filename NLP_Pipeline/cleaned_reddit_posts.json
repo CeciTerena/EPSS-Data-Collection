@@ -2404,5 +2404,18 @@
     "clean_comments": [
       "Level 0: **Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.** Stay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**. Whether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead. Stay sharp. Stay secure. **[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)** *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*"
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-32860"
+    ],
+    "cve_counts": {
+      "CVE-2025-32860": 1
+    },
+    "title": "CVE Alert: CVE-2025-32860",
+    "permalink": "/r/RedPacketSecurity/comments/1k1mkkd/cve_alert_cve202532860/",
+    "timestamp": "2025-04-17T20:16:24",
+    "clean_text": "CVE Alert: CVE-2025-32860 A vulnerability has been identified in TeleControl Server Basic (All versions < V3.1.2.2). The affected application is vulnerable to SQL injection through the internally used 'UnlockWebServerGatewaySettings' method. This could allow an authenticated remote attacker to bypass authorization controls, to read from and write to the application's database and execute code with \"NT AUTHORITY\\NetworkService\" permissions. A successful attack requires the attacker to be able to access port 8000 on a system where a vulnerable version of the affected application is executed on.",
+    "clean_comments": []
   }
 ]
