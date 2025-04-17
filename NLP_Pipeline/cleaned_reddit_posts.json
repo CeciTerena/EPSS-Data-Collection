@@ -2182,5 +2182,18 @@
     "timestamp": "2025-04-17T09:44:00",
     "clean_text": "POC - CVE-2025-29306 FOXCMS /images/index.html Code Execution Vulnerability",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32791"
+    ],
+    "cve_counts": {
+      "CVE-2025-32791": 1
+    },
+    "title": "CVE Alert: CVE-2025-32791",
+    "permalink": "/r/RedPacketSecurity/comments/1k19adj/cve_alert_cve202532791/",
+    "timestamp": "2025-04-17T10:16:23",
+    "clean_text": "CVE Alert: CVE-2025-32791 The Backstage Scaffolder plugin houses types and utilities for building scaffolder-related modules. A vulnerability in the Backstage permission plugin backend allows callers to extract some information about the conditional decisions returned by the permission policy installed in the permission backend. If the permission system is not in use or if the installed permission policy does not use conditional decisions, there is no impact. This issue has been patched in version 0.6.0 of the permissions backend. A workaround includes having administrators of the permission policies ensure that they are crafted in such a way that conditional decisions do not contain any sensitive information.",
+    "clean_comments": []
   }
 ]

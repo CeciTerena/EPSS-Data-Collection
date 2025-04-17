@@ -2948,5 +2948,19 @@
     "timestamp": "2025-04-17T09:44:00",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32791"
+    ],
+    "cve_counts": {
+      "CVE-2025-32791": 1
+    },
+    "title": "CVE Alert: CVE-2025-32791",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k19adj/cve_alert_cve202532791/",
+    "timestamp": "2025-04-17T10:16:23",
+    "article_text": "The Backstage Scaffolder plugin houses types and utilities for building scaffolder-related modules. A vulnerability in the Backstage permission plugin backend allows callers to extract some information about the conditional decisions returned by the permission policy installed in the permission backend. If the permission system is not in use or if the installed permission policy does not use conditional decisions, there is no impact. This issue has been patched in version 0.6.0 of the permissions backend. A workaround includes having administrators of the permission policies ensure that they are crafted in such a way that conditional decisions do not contain any sensitive information.",
+    "comments": []
   }
 ]
