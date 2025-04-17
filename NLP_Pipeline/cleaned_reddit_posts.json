@@ -2111,5 +2111,20 @@
     "timestamp": "2025-04-17T00:16:23",
     "clean_text": "CVE Alert: CVE-2025-26746 Improper Neutralization of Input During Web Page Generation (‘Cross-site Scripting’) vulnerability in NotFound Advanced Custom Fields: Link Picker Field allows Reflected XSS. This issue affects Advanced Custom Fields: Link Picker Field: from n/a through 1.2.8.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27840"
+    ],
+    "cve_counts": {
+      "cve-2025-27840": 2
+    },
+    "title": "Cold wallets with ESP32 chip, are on high alert after a new critical vulnerability error",
+    "permalink": "/r/ledgerwallet/comments/1k14nk9/cold_wallets_with_esp32_chip_are_on_high_alert/",
+    "timestamp": "2025-04-17T04:46:47",
+    "clean_text": "Cold wallets with ESP32 chip, are on high alert after a new critical vulnerability error This does not concern Ledger wallets, but interesting information: \"Wallets that use the ESP32 chip, including Blockstream’s Jade wallet, are on high alert after a new critical vulnerability error\" Links: [https://securityonline.info/cve-2025-27840-how-a-tiny-esp32-chip-could-crack-open-bitcoin-wallets-worldwide/](https://securityonline.info/cve-2025-27840-how-a-tiny-esp32-chip-could-crack-open-bitcoin-wallets-worldwide/) [https://protos.com/chinese-chip-used-in-bitcoin-wallets-is-putting-traders-at-risk/](https://protos.com/chinese-chip-used-in-bitcoin-wallets-is-putting-traders-at-risk/) (hoping Ledger never has such a flaw in the future)",
+    "clean_comments": [
+      "Level 0: Scammers continuously target the Ledger subreddit. Ledger Support will never send you private messages or [call you on the phone](https://support.ledger.com/article/15839986186269-zd). Never share your 24-word secret recovery phrase with anyone or enter it anywhere, even if it appears to be from Ledger. Keep your 24-word secret recovery phrase only as a physical paper or metal backup, never as a digital copy. [Learn more about phishing attacks](https://reddit.com/r/ledgerwallet/comments/ck6o44/be_careful_phishing_attacks_in_progress/). Experiencing battery or device issues? [Check our trouble shooting guide](https://support.ledger.com/article/4409233434641-zd).If problems persist, visit the [My Order page](https://my-order.ledger.com/) for replacement or refund options. Received an unknown NFT? Don’t interact with it. [Learn more about handling unknown NFTs](https://support.ledger.com/article/6857182078749-zd). For other technical issues or bugs, see our [known issues page](https://support.ledger.com/article/15158192560157-zd) for up-to-date information and workarounds. *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/ledgerwallet) if you have any questions or concerns.*"
+    ]
   }
 ]
