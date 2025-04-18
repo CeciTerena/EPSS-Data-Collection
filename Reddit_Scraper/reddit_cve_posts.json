@@ -3275,5 +3275,34 @@
     "timestamp": "2025-04-18T05:16:22",
     "article_text": "An arbitrary file deletion vulnerability in the /post/{postTitle} component of flaskBlog v2.6.1 allows attackers to delete article titles created by other users via supplying a crafted POST request.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 1,
+      "cve-2025-24054": 2
+    },
+    "title": "CVE-2025-24054: Windows Vulnerability Exploited to Steal Credentials",
+    "text": "A recently patched Windows vulnerability is under active attack, with phishing campaigns distributing files that leak NTLM credentials upon minimal interaction. Ensure your systems are updated to protect against this threat.​\n\nFull story: [https://thehackernews.com/2025/04/cve-2025-24054-under-active.html](https://thehackernews.com/2025/04/cve-2025-24054-under-active.html)\n\n",
+    "permalink": "/r/cybersecurityexams/comments/1k1ypzn/cve202524054_windows_vulnerability_exploited_to/",
+    "timestamp": "2025-04-18T06:58:13",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 1
+    },
+    "title": "CVE-2025-24054, NTLM Exploit in the Wild",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1k1ypl1/cve202524054_ntlm_exploit_in_the_wild/",
+    "timestamp": "2025-04-18T06:57:23",
+    "article_text": null,
+    "comments": []
   }
 ]
