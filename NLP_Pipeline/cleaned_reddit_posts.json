@@ -2443,5 +2443,18 @@
     "timestamp": "2025-04-18T04:52:04",
     "clean_text": "CVE-2025-24054 Under Active Attack—Steals NTLM Credentials on File Download",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-28101"
+    ],
+    "cve_counts": {
+      "CVE-2025-28101": 1
+    },
+    "title": "CVE Alert: CVE-2025-28101",
+    "permalink": "/r/RedPacketSecurity/comments/1k1x794/cve_alert_cve202528101/",
+    "timestamp": "2025-04-18T05:16:22",
+    "clean_text": "CVE Alert: CVE-2025-28101 An arbitrary file deletion vulnerability in the /post/{postTitle} component of flaskBlog v2.6.1 allows attackers to delete article titles created by other users via supplying a crafted POST request.",
+    "clean_comments": []
   }
 ]
