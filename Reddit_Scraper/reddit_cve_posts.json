@@ -3639,5 +3639,19 @@
     "timestamp": "2025-04-18T20:03:34",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-39535"
+    ],
+    "cve_counts": {
+      "CVE-2025-39535": 1
+    },
+    "title": "CVE Alert: CVE-2025-39535",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k2ei8k/cve_alert_cve202539535/",
+    "timestamp": "2025-04-18T20:16:25",
+    "article_text": "Authentication Bypass Using an Alternate Path or Channel vulnerability in appsbd Vitepos allows Authentication Abuse. This issue affects Vitepos: from n/a through 3.1.7.",
+    "comments": []
   }
 ]
