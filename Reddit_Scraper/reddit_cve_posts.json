@@ -3428,5 +3428,66 @@
     "timestamp": "2025-04-18T14:12:34",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20236"
+    ],
+    "cve_counts": {
+      "CVE-2025-20236": 2
+    },
+    "title": "Cisco Webex Bug Exposes Users to Remote Code Execution Risks",
+    "text": "\n**A recently discovered vulnerability in Cisco Webex allows attackers to execute arbitrary code on users' devices through crafted meeting invite links.**\n\n**Key Points:**\n\n- CVE-2025-20236 allows unauthenticated attackers to exploit a flaw in Webex's URL parser.\n- Users may unknowingly download malicious files by clicking on deceptive meeting links.\n- The vulnerability affects all installations of Cisco Webex App regardless of OS.\n- Immediate software updates are required as there are no workarounds.\n- Cisco has also patched other critical vulnerabilities this week.\n\nCisco recently released a security advisory regarding a significant vulnerability identified as CVE-2025-20236 in its Webex application. This issue enables unauthenticated attackers to achieve remote code execution on user devices after tricking individuals into clicking on specially crafted meeting invite links. The situation is particularly alarming as the flaw exists due to insufficient input validation in how Cisco Webex processes these links, potentially exposing users to serious security breaches without their awareness.\n\nOnce a user clicks on a malicious meeting invite, they may be led to download harmful files, enabling the attacker to execute arbitrary commands on the victim's system. The implications are vast, as this vulnerability could affect companies of all sizes relying on Webex for communication. Users must apply the latest security patches provided by Cisco to safeguard their systems, as failing to do so could potentially lead to unauthorized access and exploitation of sensitive information. Furthermore, Cisco has addressed additional vulnerabilities simultaneously, underscoring the importance of maintaining updated software across all platforms.\n\nHow can organizations enhance their cybersecurity awareness to prevent falling victim to such vulnerabilities?\n\n**Learn More:** [Bleeping Computer](https://www.bleepingcomputer.com/news/security/cisco-webex-bug-lets-hackers-gain-code-execution-via-meeting-links/)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1k27zk9/cisco_webex_bug_exposes_users_to_remote_code/",
+    "timestamp": "2025-04-18T15:41:09",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2021-20035"
+    ],
+    "cve_counts": {
+      "CVE-2021-20035": 1
+    },
+    "title": "SonicWall SMA VPN Devices Under Active Attack Since January",
+    "text": "\n**A critical remote code execution vulnerability in SonicWall SMA VPN devices has been actively exploited since January 2025, raising concerns for organizations using these appliances.**\n\n**Key Points:**\n\n- Vulnerability CVE-2021-20035 allows remote execution of commands on SonicWall SMA VPN devices.\n- The issue impacts multiple SMA 100 series models and was first patched in September 2021.\n- Cybersecurity firm Arctic Wolf reports that attacks leveraging this flaw began as early as January 2025.\n\nThe vulnerability identified in SonicWall's Secure Mobile Access (SMA) appliances, particularly in models SMA 200, 210, 400, 410, and 500v, poses a significant threat to organizations that utilize these devices for secure remote access. Originally classified as a medium severity denial-of-service vulnerability, the flaw has been reclassified to high severity due to its potential for remote code execution, which could allow malicious actors to execute arbitrary commands with limited privileges. This change underscores the urgency for affected organizations to act swiftly to mitigate risk.\n\nCybersecurity analysts, including Arctic Wolf, have tracked the exploitation of this vulnerability since January 2025. The exploitation involves leveraging a default admin account that is widely considered insecure, which casts further doubt on the security practices of organizations using these devices. SonicWall has advised immediate action, including limiting VPN access, deactivating unnecessary accounts, enabling multi-factor authentication, and resetting all local account passwords to prevent potential breaches. Furthermore, the inclusion of this vulnerability in the CISA's Known Exploited Vulnerabilities catalog signals its severe implications for national security and the broad necessity for organizations to update their security measures.\n\nWhat steps have you taken to secure your VPN devices against known vulnerabilities?\n\n**Learn More:** [Bleeping Computer](https://www.bleepingcomputer.com/news/security/sonicwall-sma-vpn-devices-targeted-in-attacks-since-january/)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1k27ycq/sonicwall_sma_vpn_devices_under_active_attack/",
+    "timestamp": "2025-04-18T15:39:46",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 4,
+      "cve-2025-24054": 1
+    },
+    "title": "Critical Flaw CVE-2025-24054 Active—NTLM Credentials at Risk",
+    "text": "\n**A medium-severity flaw in Windows is under active attack, allowing attackers to steal NTLM credentials through minimal user interaction.**\n\n**Key Points:**\n\n- CVE-2025-24054 exploits NTLM authentication protocol, allowing credential theft.\n- Active exploitation reported since March 19, targeting institutions in Poland and Romania.\n- Attackers use phishing campaigns to deliver malicious .library-ms files for NTLM hash extraction.\n\nThe recently identified CVE-2025-24054 vulnerability in Microsoft Windows poses a significant risk by allowing unauthorized attackers to spoof NTLM credentials across networks. NTLM is an outdated authentication protocol that has been largely deprecated in favor of newer technologies like Kerberos. However, its continued presence in Windows environments presents an enduring target for cybercriminals. This flaw can be triggered with minimal user interaction, such as a simple click or file inspection, illustrating how effortless it is for attackers to exploit it. Once activated, it can lead to the extraction of NTLM hashes, which can be further leveraged in malicious campaigns to compromise systems.\n\nFollowing the initial reports of exploitation, cybersecurity firms identified numerous campaigns, particularly targeting government and private institutions in regions like Poland and Romania. Attackers have been observed distributing malicious links via emails, using trusted cloud storage platforms to evade detection. As these malicious .library-ms files take advantage of a ZIP archive format, they facilitate an SMB authentication request, enabling hash leaks with no direct execution of the files required. This seamless method of infiltration showcases the urgency for organizations to patch these vulnerabilities promptly and address the risks associated with NTLM to safeguard their networks against credential theft and further attacks.\n\nHow can organizations better protect themselves against vulnerabilities like CVE-2025-24054 in their networks?\n\n**Learn More:** [The Hacker News](https://thehackernews.com/2025/04/cve-2025-24054-under-active.html)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1k27y3f/critical_flaw_cve202524054_activentlm_credentials/",
+    "timestamp": "2025-04-18T15:39:27",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
   }
 ]
