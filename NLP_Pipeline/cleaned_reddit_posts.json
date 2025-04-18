@@ -2483,5 +2483,18 @@
     "timestamp": "2025-04-18T06:57:23",
     "clean_text": "CVE-2025-24054, NTLM Exploit in the Wild",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 1
+    },
+    "title": "CVE-2025-24054 - Exploited in the wild",
+    "permalink": "/r/CVEWatch/comments/1k1yytu/cve202524054_exploited_in_the_wild/",
+    "timestamp": "2025-04-18T07:15:34",
+    "clean_text": "CVE-2025-24054 - Exploited in the wild This is quite an interesting vulnerability with CVSS 6.5 and EPSS 0.6% it would fly under the radar for most companies. But it has already been used to target government agencies, requires almost no interaction from users (drag and drop, right click or simply navigating to a directory) and can leak user credentials. I know its Friday but you should patch now!",
+    "clean_comments": []
   }
 ]
