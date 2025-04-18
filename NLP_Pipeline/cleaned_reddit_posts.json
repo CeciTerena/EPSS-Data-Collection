@@ -2647,5 +2647,34 @@
     "clean_comments": [
       "Level 0: **Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.** Stay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**. Whether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead. Stay sharp. Stay secure. **[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)** *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*"
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-21299",
+      "CVE-2025-31200",
+      "CVE-2025-29471",
+      "CVE-2025-27840",
+      "CVE-2025-32433",
+      "CVE-2025-31201",
+      "CVE-2025-24054",
+      "CVE-2025-24859",
+      "CVE-2025-42599"
+    ],
+    "cve_counts": {
+      "CVE-2025-27840": 2,
+      "CVE-2025-31201": 1,
+      "CVE-2025-42599": 1,
+      "CVE-2025-32433": 1,
+      "CVE-2025-29471": 1,
+      "CVE-2025-31200": 1,
+      "CVE-2025-21299": 1,
+      "CVE-2025-24054": 1,
+      "CVE-2025-24859": 1
+    },
+    "title": "🔥 Top 10 Trending CVEs (18/04/2025)",
+    "permalink": "/r/CVEWatch/comments/1k29ss2/top_10_trending_cves_18042025/",
+    "timestamp": "2025-04-18T16:57:15",
+    "clean_text": "🔥 Top 10 Trending CVEs (18/04/2025) Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today: **1. CVE-2025-27840** - 📝 Espressif ESP32 chips allow 29 hidden HCI commands, such as 0xFC02 (Write memory). - 📅 **Published:** 08/03/2025 - 📈 **CVSS:** 6.8 - 🧭 **Vector:** CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:L --- **2. CVE-2025-31201** - 📝 This issue was addressed by removing the vulnerable code. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS. - 📅 **Published:** 16/04/2025 - 📈 **CVSS:** 0 - 🧭 **Vector:** n/a --- **3. CVE-2025-42599** - 📝 Active! mail 6 BuildInfo: 6.60.05008561 and earlier contains a stack-based buffer overflow vulnerability. Receiving a specially crafted request created and sent by a remote unauthenticated attacker may lead to arbitrary code execution and/or a denial-of-service (DoS) condition. - 📅 **Published:** 18/04/2025 - 📈 **CVSS:** 9.8 - 🧭 **Vector:** CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H --- **4. CVE-2025-32433** - 📝 Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules. - 📅 **Published:** 16/04/2025 - 📈 **CVSS:** 10 - 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H --- **5. CVE-2025-29471** - 📝 Cross Site Scripting vulnerability in Nagios Log Server v.2024R1.3.1 allows a remote attacker to execute arbitrary code via a payload into the Email field. - 📅 **Published:** 15/04/2025 - 📈 **CVSS:** 0 - 🧭 **Vector:** n/a --- **6. CVE-2025-31200** - 📝 A memory corruption issue was addressed with improved bounds checking. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. Processing an audio stream in a maliciously crafted media file may result in code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS. - 📅 **Published:** 16/04/2025 - 📈 **CVSS:** 0 - 🧭 **Vector:** n/a --- **7. CVE-2025-21299** - 📝 - 📅 **Published:** 14/01/2025 - 📈 **CVSS:** 7.1 - 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N/E:U/RL:O/RC:C --- **8. CVE-2025-27840** - 📝 Espressif ESP32 chips allow 29 hidden HCI commands, such as 0xFC02 (Write memory). - 📅 **Published:** 08/03/2025 - 📈 **CVSS:** 6.8 - 🧭 **Vector:** CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:L --- **9. CVE-2025-24054** - 📝 - 📅 **Published:** 11/03/2025 - 📈 **CVSS:** 6.5 - 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C --- **10. CVE-2025-24859** - 📝 A session management vulnerability exists in Apache Roller before version 6.1.5 where active user sessions are not properly invalidated after password changes. When a users password is changed, either by the user themselves or by an administrator, existing sessions remain active and usable. This allows continued access to the application through old sessions even after password changes, potentially enabling unauthorized access if credentials were compromised. This issue affects Apache Roller versions up to and including 6.1.4. The vulnerability is fixed in Apache Roller 6.1.5 by implementing centralized session management that properly invalidates all active sessions when passwords are changed or users are disabled. - 📅 **Published:** 14/04/2025 - 📈 **CVSS:** 10 - 🧭 **Vector:** CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X --- Let us know if you're tracking any of these or if something flew under the radar or find any issues with the provided details.",
+    "clean_comments": []
   }
 ]
