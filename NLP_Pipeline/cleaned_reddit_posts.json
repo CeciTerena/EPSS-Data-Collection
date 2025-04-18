@@ -2417,5 +2417,18 @@
     "timestamp": "2025-04-17T20:16:24",
     "clean_text": "CVE Alert: CVE-2025-32860 A vulnerability has been identified in TeleControl Server Basic (All versions < V3.1.2.2). The affected application is vulnerable to SQL injection through the internally used 'UnlockWebServerGatewaySettings' method. This could allow an authenticated remote attacker to bypass authorization controls, to read from and write to the application's database and execute code with \"NT AUTHORITY\\NetworkService\" permissions. A successful attack requires the attacker to be able to access port 8000 on a system where a vulnerable version of the affected application is executed on.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32858"
+    ],
+    "cve_counts": {
+      "CVE-2025-32858": 1
+    },
+    "title": "CVE Alert: CVE-2025-32858",
+    "permalink": "/r/RedPacketSecurity/comments/1k1rt3b/cve_alert_cve202532858/",
+    "timestamp": "2025-04-18T00:16:22",
+    "clean_text": "CVE Alert: CVE-2025-32858 A vulnerability has been identified in TeleControl Server Basic (All versions < V3.1.2.2). The affected application is vulnerable to SQL injection through the internally used 'UpdateWebServerGatewaySettings' method. This could allow an authenticated remote attacker to bypass authorization controls, to read from and write to the application's database and execute code with \"NT AUTHORITY\\NetworkService\" permissions. A successful attack requires the attacker to be able to access port 8000 on a system where a vulnerable version of the affected application is executed on.",
+    "clean_comments": []
   }
 ]
