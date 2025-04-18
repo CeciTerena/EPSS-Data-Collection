@@ -3247,5 +3247,19 @@
     "timestamp": "2025-04-18T00:16:22",
     "article_text": "A vulnerability has been identified in TeleControl Server Basic (All versions < V3.1.2.2). The affected application is vulnerable to SQL injection through the internally used 'UpdateWebServerGatewaySettings' method. This could allow an authenticated remote attacker to bypass authorization controls, to read from and write to the application's database and execute code with \"NT AUTHORITY\\NetworkService\" permissions. A successful attack requires the attacker to be able to access port 8000 on a system where a vulnerable version of the affected application is executed on.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 1
+    },
+    "title": "CVE-2025-24054 Under Active Attack—Steals NTLM Credentials on File Download",
+    "text": "",
+    "permalink": "/r/u_TheCyberSecurityHub/comments/1k1wtgh/cve202524054_under_active_attacksteals_ntlm/",
+    "timestamp": "2025-04-18T04:52:04",
+    "article_text": null,
+    "comments": []
   }
 ]
