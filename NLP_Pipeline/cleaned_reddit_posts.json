@@ -2777,5 +2777,18 @@
     "timestamp": "2025-04-18T18:17:10",
     "clean_text": "CVE-2025-25364: Speedify VPN MacOS privilege Escalation",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2492"
+    ],
+    "cve_counts": {
+      "CVE-2025-2492": 1
+    },
+    "title": "ASUS routers with AiCloud vulnerable to auth bypass exploit",
+    "permalink": "/r/Computersicherheit/comments/1k2e7ps/asus_routers_with_aicloud_vulnerable_to_auth/",
+    "timestamp": "2025-04-18T20:03:34",
+    "clean_text": "ASUS routers with AiCloud vulnerable to auth bypass exploit ASUS warnt vor einer Sicherheitslücke zur Umgehung der Authentifizierung in Routern mit aktivierter AiCloud, die die unbefugte Ausführung von Funktionen auf dem Gerät ermöglichen könnte. ASUS warnt vor einer Sicherheitslücke zur Umgehung der Authentifizierung (CVE-2025-2492, CVSS v4-Score: 9,2), die Router mit aktivierter AiCloud betrifft. Ein Remote-Angreifer kann die Schwachstelle ausnutzen, um unbefugte Funktionen auf dem Gerät auszuführen",
+    "clean_comments": []
   }
 ]
