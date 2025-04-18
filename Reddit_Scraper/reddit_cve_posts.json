@@ -3348,5 +3348,19 @@
     "timestamp": "2025-04-18T10:06:45",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-47671"
+    ],
+    "cve_counts": {
+      "CVE-2021-47671": 1
+    },
+    "title": "CVE Alert: CVE-2021-47671",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k21hqh/cve_alert_cve202147671/",
+    "timestamp": "2025-04-18T10:16:23",
+    "article_text": "In the Linux kernel, the following vulnerability has been resolved: can: etas_es58x: es58x_rx_err_msg(): fix memory leak in error path In es58x_rx_err_msg(), if can->do_set_mode() fails, the function directly returns without calling netif_rx(skb). This means that the skb previously allocated by alloc_can_err_skb() is not freed. In other terms, this is a memory leak. This patch simply removes the return statement in the error branch and let the function continue. Issue was found with GCC -fanalyzer, please follow the link below for details.",
+    "comments": []
   }
 ]
