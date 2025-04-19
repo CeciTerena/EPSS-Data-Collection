@@ -3853,5 +3853,19 @@
     "timestamp": "2025-04-19T14:16:22",
     "article_text": "IBM i 7.3, 7.4, 7.5, and 7.5 is vulnerable to a host header injection attack caused by improper neutralization of HTTP header content by IBM Navigator for i. An authenticated user can manipulate the host header in HTTP requests to change domain/IP address which may lead to unexpected behavior.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-20035"
+    ],
+    "cve_counts": {
+      "CVE-2021-20035": 1
+    },
+    "title": "SonicWall Authenticated SMA100 Arbitrary Command Injection Vulnerability Is Been Exploited (CVE-2021-20035)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1k2z9s7/sonicwall_authenticated_sma100_arbitrary_command/",
+    "timestamp": "2025-04-19T15:47:22",
+    "article_text": null,
+    "comments": []
   }
 ]
