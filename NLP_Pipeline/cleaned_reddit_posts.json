@@ -2924,5 +2924,20 @@
     "timestamp": "2025-04-19T09:16:20",
     "clean_text": "CVE Alert: CVE-2025-30158 NamelessMC is a free, easy to use & powerful website software for Minecraft servers. In version 2.1.4 and prior, the forum allows users to post iframe elements inside forum topics/comments/feed with no restriction on the iframe’s width and height attributes. This allows an authenticated attacker to perform a UI-based denial of service (DoS) by injecting oversized iframes that block the forum UI and disrupt normal user interactions. This issue has been patched in version 2.2.0.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2018-15473",
+      "CVE-2023-48795"
+    ],
+    "cve_counts": {
+      "CVE-2018-15473": 1,
+      "CVE-2023-48795": 1
+    },
+    "title": "SSH Hardening & Offensive Mastery – Practical SSH Cibersecurity Book",
+    "permalink": "/r/Hacking_Tutorials/comments/1k2un8a/ssh_hardening_offensive_mastery_practical_ssh/",
+    "timestamp": "2025-04-19T12:00:08",
+    "clean_text": "SSH Hardening & Offensive Mastery – Practical SSH Cibersecurity Book We recently released a technical book at DSDSec called **SSH Hardening & Offensive Mastery**, focused entirely on securing and attacking SSH environments. It's built around real-world labs and is intended for sysadmins, red/blue teams, and cybersecurity professionals. Topics covered include: * SSH hardening (2FA, Fail2Ban, Suricata) * Secure tunneling (local, remote, dynamic, UDP) * Evasion techniques and SSH agent hijacking * Malware propagation via dynamic tunnels (Metasploit + BlueKeep example) * CVE analysis: CVE-2018-15473, Terrapin (CVE-2023-48795) * LD\\_PRELOAD and other environment-based techniques * Tooling examples using Tcl/Expect and Perl * All supported by hands-on labs 📘 Free PDF: [https://dsdsec.com/wp-content/uploads/2025/04/SSH-Hardening-and-Offensive-Mastery.pdf](https://dsdsec.com/wp-content/uploads/2025/04/SSH-Hardening-and-Offensive-Mastery.pdf) More info: [https://dsdsec.com/publications/](https://dsdsec.com/publications/) Would love to hear thoughts or feedback from anyone working with SSH security.",
+    "clean_comments": []
   }
 ]
