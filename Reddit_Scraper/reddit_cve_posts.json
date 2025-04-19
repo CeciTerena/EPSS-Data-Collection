@@ -3839,5 +3839,19 @@
     "timestamp": "2025-04-19T12:38:28",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2950"
+    ],
+    "cve_counts": {
+      "CVE-2025-2950": 1
+    },
+    "title": "CVE Alert: CVE-2025-2950",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k2x8xr/cve_alert_cve20252950/",
+    "timestamp": "2025-04-19T14:16:22",
+    "article_text": "IBM i 7.3, 7.4, 7.5, and 7.5 is vulnerable to a host header injection attack caused by improper neutralization of HTTP header content by IBM Navigator for i. An authenticated user can manipulate the host header in HTTP requests to change domain/IP address which may lead to unexpected behavior.",
+    "comments": []
   }
 ]
