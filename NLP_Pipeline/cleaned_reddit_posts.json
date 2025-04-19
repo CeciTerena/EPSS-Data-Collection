@@ -2816,5 +2816,31 @@
     "timestamp": "2025-04-19T00:16:24",
     "clean_text": "CVE Alert: CVE-2025-39464 Improper Neutralization of Input During Web Page Generation (‘Cross-site Scripting’) vulnerability in rtowebsites AdminQuickbar allows Reflected XSS. This issue affects AdminQuickbar: from n/a through 1.9.1.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-30858"
+    ],
+    "cve_counts": {
+      "CVE-2021-30858": 1
+    },
+    "title": "Exploiting a Web-Based UAF",
+    "permalink": "/r/ExploitDev/comments/1k2op5m/exploiting_a_webbased_uaf/",
+    "timestamp": "2025-04-19T05:04:48",
+    "clean_text": "Exploiting a Web-Based UAF Hello! I've recently been getting into exploit dev. I am still very much a beginner to this type of stuff, however. The vulnerability I've been trying to exploit is tracked as CVE-2021-30858. (although this appears to be a completely different bug?) The successful PoC I've found is as follows: var fontFace1 = new FontFace(\"font1\", \"\", {}); var fontFaceSet = new FontFaceSet([fontFace1]); fontFace1.family = \"font2\"; My question is: How would I go about turning this into something more? What would be a good first step to turn this into an exploit? Thanks in advance! :3",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24914"
+    ],
+    "cve_counts": {
+      "CVE-2025-24914": 1
+    },
+    "title": "CVE Alert: CVE-2025-24914",
+    "permalink": "/r/RedPacketSecurity/comments/1k2nxv1/cve_alert_cve202524914/",
+    "timestamp": "2025-04-19T04:16:23",
+    "clean_text": "CVE Alert: CVE-2025-24914 When installing Nessus to a non-default location on a Windows host, Nessus versions prior to 10.8.4 did not enforce secure permissions for sub-directories. This could allow for local privilege escalation if users had not secured the directories in the non-default installation location. – CVE-2025-24914",
+    "clean_comments": []
   }
 ]
