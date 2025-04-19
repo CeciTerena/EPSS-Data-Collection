@@ -2996,5 +2996,35 @@
     "timestamp": "2025-04-19T15:47:22",
     "clean_text": "SonicWall Authenticated SMA100 Arbitrary Command Injection Vulnerability Is Been Exploited (CVE-2021-20035)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32433"
+    ],
+    "cve_counts": {
+      "CVE-2025-32433": 2
+    },
+    "title": "Critical Erlang/OTP SSH Flaw Exposed: Urgent Action Required",
+    "permalink": "/r/pwnhub/comments/1k2zwv6/critical_erlangotp_ssh_flaw_exposed_urgent_action/",
+    "timestamp": "2025-04-19T16:15:45",
+    "clean_text": "Critical Erlang/OTP SSH Flaw Exposed: Urgent Action Required **A severe vulnerability in the Erlang/OTP SSH protocol allows attackers to execute remote code without authentication, making patching essential.** **Key Points:** - Public exploits for CVE-2025-32433 are now available, posing serious risk. - Devices running Erlang/OTP, especially in telecom and databases, are vulnerable. - Previous version fixes require immediate updates, but many systems may be hard to patch quickly. - The SSH protocol is widely used, increasing the risk of widespread exploitation. Researchers have disclosed a critical SSH vulnerability in Erlang/OTP, tracked as CVE-2025-32433, which allows unauthenticated attackers to execute code remotely. This vulnerability stems from a flaw in the SSH protocol's message handling, enabling attackers to send messages prior to authentication. The flaw impacts numerous devices across telecom infrastructures, databases, and high-availability systems, drastically elevating the stakes for organizations relying on these technologies. Patch updates are available in versions 25.3.2.10 and 26.2.4, but many affected systems may face significant challenges in updating due to their entrenched positions in critical infrastructure. Researchers noted that the flaw is surprisingly easy to exploit, with multiple cybersecurity experts now having created and shared public proof-of-concept (PoC) exploits. This growing availability of exploits heightens the urgency for organizations to patch their systems swiftly, as threat actors are likely to scan for vulnerable devices imminently. Given that over 600,000 IP addresses are running Erlang/OTP, the potential for widespread compromise is considerable, particularly with targeted exploitation by state-sponsored actors becoming an ever-looming threat. What measures are you taking to ensure your systems are protected against this vulnerability? **Learn More:** [Bleeping Computer](https://www.bleepingcomputer.com/news/security/public-exploits-released-for-critical-erlang-otp-ssh-flaw-patch-now/) **Want to stay updated on the latest cyber threats?** 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "clean_comments": [
+      "Level 0: **Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.** Stay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**. Whether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead. Stay sharp. Stay secure. **[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)** *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-2492"
+    ],
+    "cve_counts": {
+      "CVE-2025-2492": 2
+    },
+    "title": "Critical Security Flaw in ASUS AiCloud Routers Exposes Users to Remote Attacks",
+    "permalink": "/r/pwnhub/comments/1k2zwqm/critical_security_flaw_in_asus_aicloud_routers/",
+    "timestamp": "2025-04-19T16:15:35",
+    "clean_text": "Critical Security Flaw in ASUS AiCloud Routers Exposes Users to Remote Attacks **ASUS has revealed a serious vulnerability in its AiCloud-enabled routers that could allow remote attackers to access and execute unauthorized functions.** **Key Points:** - Vulnerability CVE-2025-2492 has a critical score of 9.2, indicating severe risk. - Affected routers require immediate firmware updates to safeguard against exploitation. - Users are advised to create strong, unique passwords for their networks and devices. ASUS recently confirmed a critical security vulnerability affecting its AiCloud-enabled routers, identified as CVE-2025-2492. This flaw has a CVSS score of 9.2 out of 10, marking it as extremely high-risk. The vulnerability stems from improper authentication controls in specific ASUS router firmware, which can be exploited by crafted requests, potentially allowing remote attackers to execute unauthorized actions on affected devices. In response to this threat, ASUS has issued firmware updates to rectify the issue. Users with affected firmware versions, including 3.0.0.4_3823, 0.0.4_3863, 0.0.4_388, and 3.0.0.6_102, must promptly update to the latest version. Until then, users should ensure their login and Wi-Fi passwords are robust. ASUS emphasizes stronger passwords, recommending combinations of capital letters, numbers, and symbols, avoid using the same passwords across devices, and refrain from predictable patterns such as consecutive numbers or letters. Alternatively, if users are unable to apply patches immediately, disabling AiCloud and any external access services is highly recommended to reduce potential exposure. What steps are you taking to secure your devices against vulnerabilities like this? **Learn More:** [The Hacker News](https://thehackernews.com/2025/04/asus-confirms-critical-flaw-in-aicloud.html) **Want to stay updated on the latest cyber threats?** 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "clean_comments": [
+      "Level 0: **Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.** Stay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**. Whether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead. Stay sharp. Stay secure. **[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)** *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*"
+    ]
   }
 ]
