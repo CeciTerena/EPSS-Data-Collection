@@ -3907,5 +3907,19 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-3786"
+    ],
+    "cve_counts": {
+      "CVE-2025-3786": 1
+    },
+    "title": "CVE Alert: CVE-2025-3786",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k33z4t/cve_alert_cve20253786/",
+    "timestamp": "2025-04-19T19:16:22",
+    "article_text": "A vulnerability was found in Tenda AC15 up to 15.03.05.19 and classified as critical. This issue affects the function fromSetWirelessRepeat of the file /goform/WifiExtraSet. The manipulation of the argument mac leads to buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+    "comments": []
   }
 ]
