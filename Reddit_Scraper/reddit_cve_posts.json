@@ -3729,5 +3729,53 @@
     "timestamp": "2025-04-19T08:07:15",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2492"
+    ],
+    "cve_counts": {
+      "CVE-2025-2492": 1
+    },
+    "title": "ASUS Router AiCloud vulnerability - CVE-2025-2492. An improper authentication control vulnerability exists in certain ASUS router firmware series. This vulnerability can be triggered by a crafted request, potentially leading to unauthorized execution of functions.",
+    "text": "",
+    "permalink": "/r/worldTechnology/comments/1k2s43i/asus_router_aicloud_vulnerability_cve20252492_an/",
+    "timestamp": "2025-04-19T09:04:08",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-20035"
+    ],
+    "cve_counts": {
+      "CVE-2021-20035": 1
+    },
+    "title": "Credential Access Campaign Targeting SonicWall SMA Devices Linked to CVE-2021-20035 since January 2025",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1k2rf4w/credential_access_campaign_targeting_sonicwall/",
+    "timestamp": "2025-04-19T08:12:29",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "Advisory update from SonicWall: \n\"This vulnerability is believed to be actively exploited in the wild. As a precautionary measure, SonicWall PSIRT has updated the summary and revised the CVSS score to 7.2,\" SonicWall said.\n\nWas originally CVSS 6.5 \n\nArticle: https://www.bleepingcomputer.com/news/security/sonicwall-sma-vpn-devices-targeted-in-attacks-since-january/",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-32433"
+    ],
+    "cve_counts": {
+      "CVE-2025-32433": 1
+    },
+    "title": "CVE-2025-32433: Critical Erlang/OTP SSH Vulnerability (CVSS 10) - \"RCE via unauthenticated SSH messages in Erlang/OTP\" - PoC out see other post",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1k2re6a/cve202532433_critical_erlangotp_ssh_vulnerability/",
+    "timestamp": "2025-04-19T08:10:29",
+    "article_text": null,
+    "comments": []
   }
 ]
