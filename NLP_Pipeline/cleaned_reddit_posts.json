@@ -2803,5 +2803,18 @@
     "timestamp": "2025-04-18T20:16:25",
     "clean_text": "CVE Alert: CVE-2025-39535 Authentication Bypass Using an Alternate Path or Channel vulnerability in appsbd Vitepos allows Authentication Abuse. This issue affects Vitepos: from n/a through 3.1.7.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-39464"
+    ],
+    "cve_counts": {
+      "CVE-2025-39464": 1
+    },
+    "title": "CVE Alert: CVE-2025-39464",
+    "permalink": "/r/RedPacketSecurity/comments/1k2jng9/cve_alert_cve202539464/",
+    "timestamp": "2025-04-19T00:16:24",
+    "clean_text": "CVE Alert: CVE-2025-39464 Improper Neutralization of Input During Web Page Generation (‘Cross-site Scripting’) vulnerability in rtowebsites AdminQuickbar allows Reflected XSS. This issue affects AdminQuickbar: from n/a through 1.9.1.",
+    "clean_comments": []
   }
 ]
