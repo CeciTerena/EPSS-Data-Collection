@@ -3807,5 +3807,37 @@
     "timestamp": "2025-04-19T12:00:08",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32433",
+      "CVE-2025-31201",
+      "CVE-2025-27840",
+      "CVE-2024-13059",
+      "CVE-2025-31200",
+      "CVE-2025-29927",
+      "CVE-2025-42599",
+      "CVE-2025-29824",
+      "CVE-2024-53141",
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-31201": 2,
+      "CVE-2024-53141": 2,
+      "CVE-2025-29927": 2,
+      "CVE-2025-31200": 2,
+      "CVE-2025-29824": 2,
+      "CVE-2025-27840": 2,
+      "CVE-2024-13059": 2,
+      "CVE-2025-42599": 2,
+      "CVE-2025-32433": 2,
+      "CVE-2025-24054": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (19/04/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-31201](https://nvd.nist.gov/vuln/detail/CVE-2025-31201)**\n\n- 📝 This issue was addressed by removing the vulnerable code. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 6.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 24\n- ⚠️ **Priority:** 1+\n\n---\n\n**2. [CVE-2024-53141](https://nvd.nist.gov/vuln/detail/CVE-2024-53141)**\n\n- 📝 In the Linux kernel, the following vulnerability has been resolved: netfilter: ipset: add missing range check in bitmap_ip_uadt When tb[IPSET_ATTR_IP_TO] is not present but tb[IPSET_ATTR_CIDR] exists, the values of ip and ip_to are slightly swapped. Therefore, the range check for ip should be done later, but this part is missing and it seems that the vulnerability occurs. So we should add missing range checks and remove unnecessary range checks.\n\n- 📅 **Published:** 06/12/2024\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 4\n- ⚠️ **Priority:** 2\n\n---\n\n**3. [CVE-2025-29927](https://nvd.nist.gov/vuln/detail/CVE-2025-29927)**\n\n- 📝 Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.\n\n- 📅 **Published:** 21/03/2025\n- 📈 **CVSS:** 9.1\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 186\n- ⚠️ **Priority:** 2\n\n---\n\n**4. [CVE-2025-31200](https://nvd.nist.gov/vuln/detail/CVE-2025-31200)**\n\n- 📝 A memory corruption issue was addressed with improved bounds checking. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. Processing an audio stream in a maliciously crafted media file may result in code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 7.5\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 31\n- ⚠️ **Priority:** 1+\n\n---\n\n**5. [CVE-2025-29824](https://nvd.nist.gov/vuln/detail/CVE-2025-29824)**\n\n- 📝 A use-after-free vulnerability in the Windows Common Log File System Driver that allows an authenticated local attacker to elevate privileges to SYSTEM level.\n- 📈 **CVSS:** 7.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n- ⚠️ **Priority:** 1+\n\n---\n\n**6. [CVE-2025-27840](https://nvd.nist.gov/vuln/detail/CVE-2025-27840)**\n\n- 📝 Espressif ESP32 chips allow 29 hidden HCI commands, such as 0xFC02 (Write memory).\n\n- 📅 **Published:** 08/03/2025\n- 📈 **CVSS:** 6.8\n- 🧭 **Vector:** CVSS:3.1/AV:P/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:L\n- 📣 **Mentions:** 16\n- ⚠️ **Priority:** 2\n\n---\n\n**7. [CVE-2024-13059](https://nvd.nist.gov/vuln/detail/CVE-2024-13059)**\n\n- 📝 A vulnerability in mintplex-labs/anything-llm prior to version 1.3.1 allows for path traversal due to improper handling of non-ASCII filenames in the multer library. This vulnerability can lead to arbitrary file write, which can subsequently result in remote code execution. The issue arises when the filename transformation introduces ../ sequences, which are not sanitized by multer, allowing attackers with manager or admin roles to write files to arbitrary locations on the server.\n\n- 📅 **Published:** 10/02/2025\n- 📈 **CVSS:** 7.2\n- 🧭 **Vector:** CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 5\n- ⚠️ **Priority:** 2\n\n---\n\n**8. [CVE-2025-42599](https://nvd.nist.gov/vuln/detail/CVE-2025-42599)**\n\n- 📝 Active! mail 6 BuildInfo: 6.60.05008561 and earlier contains a stack-based buffer overflow vulnerability. Receiving a specially crafted request created and sent by a remote unauthenticated attacker may lead to arbitrary code execution and/or a denial-of-service (DoS) condition.\n\n- 📅 **Published:** 18/04/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 6\n- ⚠️ **Priority:** 4\n\n---\n\n**9. [CVE-2025-32433](https://nvd.nist.gov/vuln/detail/CVE-2025-32433)**\n\n- 📝 Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 44\n- ⚠️ **Priority:** 2\n\n---\n\n**10. [CVE-2025-24054](https://nvd.nist.gov/vuln/detail/CVE-2025-24054)**\n\n- 📝 NTLM Hash Disclosure Spoofing Vulnerability\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 6.5\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C\n- 📣 **Mentions:** 36\n- ⚠️ **Priority:** 1+\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from [CVE_Prioritizer](https://github.com/TURROKS/CVE_Prioritizer).",
+    "permalink": "/r/CVEWatch/comments/1k2vbuk/top_10_trending_cves_19042025/",
+    "timestamp": "2025-04-19T12:38:28",
+    "article_text": null,
+    "comments": []
   }
 ]
