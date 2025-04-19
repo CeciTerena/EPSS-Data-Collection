@@ -2842,5 +2842,33 @@
     "timestamp": "2025-04-19T04:16:23",
     "clean_text": "CVE Alert: CVE-2025-24914 When installing Nessus to a non-default location on a Windows host, Nessus versions prior to 10.8.4 did not enforce secure permissions for sub-directories. This could allow for local privilege escalation if users had not secured the directories in the non-default installation location. – CVE-2025-24914",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32433"
+    ],
+    "cve_counts": {
+      "CVE-2025-32433": 1
+    },
+    "title": "How I Used AI to Create a Working Exploit for CVE-2025-32433 Before Public PoCs Existed",
+    "permalink": "/r/blueteamsec/comments/1k2rdgy/how_i_used_ai_to_create_a_working_exploit_for/",
+    "timestamp": "2025-04-19T08:09:05",
+    "clean_text": "How I Used AI to Create a Working Exploit for CVE-2025-32433 Before Public PoCs Existed",
+    "clean_comments": [
+      "Level 0: PoC: https://github.com/ProDefense/CVE-2025-32433"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-2492"
+    ],
+    "cve_counts": {
+      "CVE-2025-2492": 1
+    },
+    "title": "CVE-2025-2492: ASUS Router AiCloud vulnerability - \"An improper authentication control vulnerability exists in certain ASUS router firmware series. This vulnerability can be triggered by a crafted request, potentially leading to unauthorized execution of functions\"",
+    "permalink": "/r/blueteamsec/comments/1k2rcjh/cve20252492_asus_router_aicloud_vulnerability_an/",
+    "timestamp": "2025-04-19T08:07:15",
+    "clean_text": "CVE-2025-2492: ASUS Router AiCloud vulnerability - \"An improper authentication control vulnerability exists in certain ASUS router firmware series. This vulnerability can be triggered by a crafted request, potentially leading to unauthorized execution of functions\"",
+    "clean_comments": []
   }
 ]
