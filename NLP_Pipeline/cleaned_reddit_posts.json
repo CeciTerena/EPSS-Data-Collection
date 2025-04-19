@@ -2911,5 +2911,18 @@
     "timestamp": "2025-04-19T08:10:29",
     "clean_text": "CVE-2025-32433: Critical Erlang/OTP SSH Vulnerability (CVSS 10) - \"RCE via unauthenticated SSH messages in Erlang/OTP\" - PoC out see other post",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30158"
+    ],
+    "cve_counts": {
+      "CVE-2025-30158": 1
+    },
+    "title": "CVE Alert: CVE-2025-30158",
+    "permalink": "/r/RedPacketSecurity/comments/1k2s9zc/cve_alert_cve202530158/",
+    "timestamp": "2025-04-19T09:16:20",
+    "clean_text": "CVE Alert: CVE-2025-30158 NamelessMC is a free, easy to use & powerful website software for Minecraft servers. In version 2.1.4 and prior, the forum allows users to post iframe elements inside forum topics/comments/feed with no restriction on the iframe’s width and height attributes. This allows an authenticated attacker to perform a UI-based denial of service (DoS) by injecting oversized iframes that block the forum UI and disrupt normal user interactions. This issue has been patched in version 2.2.0.",
+    "clean_comments": []
   }
 ]
