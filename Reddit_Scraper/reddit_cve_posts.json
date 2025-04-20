@@ -3921,5 +3921,19 @@
     "timestamp": "2025-04-19T19:16:22",
     "article_text": "A vulnerability was found in Tenda AC15 up to 15.03.05.19 and classified as critical. This issue affects the function fromSetWirelessRepeat of the file /goform/WifiExtraSet. The manipulation of the argument mac leads to buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3799"
+    ],
+    "cve_counts": {
+      "CVE-2025-3799": 1
+    },
+    "title": "CVE Alert: CVE-2025-3799",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k3ec82/cve_alert_cve20253799/",
+    "timestamp": "2025-04-20T04:16:25",
+    "article_text": "A vulnerability, which was classified as critical, was found in WCMS 11. Affected is an unknown function of the file app/controllers/AnonymousController.php. The manipulation of the argument email/username leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. Other parameters might be affected as well.",
+    "comments": []
   }
 ]
