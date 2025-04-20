@@ -3949,5 +3949,19 @@
     "timestamp": "2025-04-20T09:16:27",
     "article_text": "The Insert Headers And Footers plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.1.1. This is due to missing or incorrect nonce validation on the ‘custom_plugin_set_option’ function. This makes it possible for unauthenticated attackers to update arbitrary options on the WordPress site via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. This can be leveraged to update the default role for registration to administrator and enable user registration for attackers to gain administrative user access to a vulnerable site. The ‘WPBRIGADE_SDK__DEV_MODE’ constant must be set to ‘true’ to exploit the vulnerability.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32433"
+    ],
+    "cve_counts": {
+      "CVE-2025-32433": 1
+    },
+    "title": "NVD - CVE-2025-32433 - Fixed in OTP 27.3.3, OTP 26.2.5.11, and OTP 25.3.2.20",
+    "text": "",
+    "permalink": "/r/erlang/comments/1k3n5l8/nvd_cve202532433_fixed_in_otp_2733_otp_262511_and/",
+    "timestamp": "2025-04-20T13:59:18",
+    "article_text": null,
+    "comments": []
   }
 ]
