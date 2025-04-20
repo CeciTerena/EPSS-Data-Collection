@@ -4009,5 +4009,21 @@
     "timestamp": "2025-04-20T18:00:18",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31201",
+      "CVE-2025-31200"
+    ],
+    "cve_counts": {
+      "CVE-2025-31200": 1,
+      "CVE-2025-31201": 1
+    },
+    "title": "Alert to Apple Users on CoreAudio & RPAC",
+    "text": "Apple has urged users to immediately update their devices following the discovery of two zero-day vulnerabilities exploited in what it called an “extremely sophisticated attack.” These bugs—found in CoreAudio and RPAC—allowed attackers to execute malicious code and bypass key security protections on targeted iPhones.\n\nThe vulnerabilities, CVE-2025-31200 and CVE-2025-31201, could lead to memory corruption, surveillance, or even kernel-level compromise. The threat actors behind these attacks seem to have used advanced methods aimed at specific individuals—making this a high-risk situation for Apple device owners.\n\nApple has now issued security patches across all affected platforms, including iOS, iPadOS, macOS, tvOS, and visionOS. Devices ranging from iPhone XS to the latest iPads are impacted, showing just how widespread the risk is.\n\nThis marks the fifth zero-day patch Apple has had to push in just four months—highlighting the relentless pace of vulnerability discovery and the increasing sophistication of cyber threats. Users and businesses alike should prioritise security hygiene more than ever.\n\nRead more here: https://www.csoonline.com/article/3964668/hackers-target-apple-users-in-an-extremely-sophisticated-attack.html \n\n",
+    "permalink": "/r/u_cyberkite1/comments/1k3x2mm/alert_to_apple_users_on_coreaudio_rpac/",
+    "timestamp": "2025-04-20T21:31:43",
+    "article_text": null,
+    "comments": []
   }
 ]
