@@ -4053,5 +4053,19 @@
     "timestamp": "2025-04-21T09:16:23",
     "article_text": "In Infodraw Media Relay Service (MRS) 7.1.0.0, the MRS web server (on port 12654) allows reading arbitrary files via ../ directory traversal in the username field. Reading ServerParameters.xml may reveal administrator credentials in cleartext or with MD5 hashing.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-25364"
+    ],
+    "cve_counts": {
+      "CVE-2025-25364": 1
+    },
+    "title": "\"Speedify VPN macOS\" pažeidžiamumas",
+    "text": "\"Speedify VPN\" \"MacOS\" programoje aptikta reikšminga saugumo spraga, pažymėta kaip CVE-2025-25364, dėl kurios naudotojai gali padidinti vietines privilegijas ir visiškai sukompromituoti sistemą.  Ši spraga, kurią atskleidė \"SecureLayer7\", yra privilegijuotoje pagalbinėje priemonėje me.connectify.SMJobBlessHelper, kuri yra atsakinga už \"Speedify VPN\" kliento sistemos lygmens operacijų vykdymą su root privilegijomis.\n\nSkaitom: [https://cybersecuritynews.com/speedify-vpn-macos-vulnerability/](https://cybersecuritynews.com/speedify-vpn-macos-vulnerability/)",
+    "permalink": "/r/KibernetinisSaugumas/comments/1k4bm78/speedify_vpn_macos_pažeidžiamumas/",
+    "timestamp": "2025-04-21T11:52:31",
+    "article_text": null,
+    "comments": []
   }
 ]
