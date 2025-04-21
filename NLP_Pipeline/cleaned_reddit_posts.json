@@ -3220,5 +3220,50 @@
     "timestamp": "2025-04-21T15:21:18",
     "clean_text": "Cisco Webex App Client-Side Remote Code Execution Vulnerability (CVE-2025-20236)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32434"
+    ],
+    "cve_counts": {
+      "CVE-2025-32434": 2
+    },
+    "title": "Critical PyTorch Vulnerability Lets Attackers Run Malicious Code",
+    "permalink": "/r/pwnhub/comments/1k4ie8l/critical_pytorch_vulnerability_lets_attackers_run/",
+    "timestamp": "2025-04-21T16:57:05",
+    "clean_text": "Critical PyTorch Vulnerability Lets Attackers Run Malicious Code **A serious vulnerability in PyTorch allows attackers to execute remote code, even when using previously recommended security measures.** **Key Points:** - CVE-2025-32434 affects all PyTorch versions up to 2.5.1. - Vulnerability exists in the torch.load function with weights_only=True parameter. - Remote code execution can happen without user interaction, posing significant risks. The recently identified CVE-2025-32434 vulnerability in PyTorch is alarming for developers and organizations relying on machine learning frameworks. Discovered by researcher Ji'an Zhou, this security flaw enables remote code execution (RCE) when using the torch.load function with the weights_only=True parameter—a combination formerly recommended as a safe option for loading models. This contradiction in guidance puts many users at risk, as the vulnerability allows attackers to craft malicious model files that can execute arbitrary code on victim systems, potentially leading to catastrophic security breaches. The impact of this vulnerability is particularly stark for machine learning pipelines that automatically download models from external sources or collaborative environments. With a CVSS score of 9.3, this critical vulnerability highlights how even established security measures can have unanticipated flaws. Users are urged to update to PyTorch version 2.6.0 or later to mitigate the risks or, as an interim measure, avoid using torch.load with weights_only=True. The incident underscores the importance of maintaining up-to-date dependencies in any production environment dealing with sensitive data, reminding organizations that vulnerabilities can lurk even in features designed to enhance security. How can organizations better safeguard their machine learning pipelines against such vulnerabilities? **Learn More:** [Cyber Security News](https://cybersecuritynews.com/critical-pytorch-vulnerability/) **Want to stay updated on the latest cyber threats?** 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "clean_comments": [
+      "Level 0: **Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.** Stay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**. Whether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead. Stay sharp. Stay secure. **[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)** *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-25364"
+    ],
+    "cve_counts": {
+      "CVE-2025-25364": 2
+    },
+    "title": "Critical Speedify VPN Flaw Exposes macOS Users to Attacks",
+    "permalink": "/r/pwnhub/comments/1k4id8h/critical_speedify_vpn_flaw_exposes_macos_users_to/",
+    "timestamp": "2025-04-21T16:55:59",
+    "clean_text": "Critical Speedify VPN Flaw Exposes macOS Users to Attacks **A serious vulnerability in Speedify VPN for macOS allows local attackers to escalate privileges and gain control over systems.** **Key Points:** - CVE-2025-25364 allows local privilege escalation on Speedify VPN for macOS. - The vulnerability is caused by improper input handling in the helper tool. - Exploiting the flaw can lead to arbitrary command execution as root. - Speedify VPN has released an update addressing this critical security issue. - Users must upgrade to version 15.4.1 or higher to ensure their systems are protected. The discovered vulnerability, tracked as CVE-2025-25364, is a significant security risk for users of Speedify VPN's macOS application. It resides in the me.connectify.SMJobBlessHelper helper tool, which executes system-level operations with root privileges. The security flaw arises from improper input validation in the XPC interface of this tool, allowing local attackers to inject malicious commands that the system would execute with root privileges. Specifically, the commands can be injected through two user-controlled fields in incoming XPC messages, cmdPath and cmdBin, which are not adequately sanitized. Successful exploitation of this vulnerability can lead to local privilege escalation, allowing attackers not only to execute arbitrary commands but also to read, modify, or delete critical system files, and potentially install persistent malware. Speedify has responded to the issue with an updated version (15.4.1) that includes a complete rewrite of the flawed helper tool, eliminating the insecure handling of XPC messages and thereby closing this exploit vector. Users are strongly encouraged to update to the latest version to protect their devices from potential exploitation. What steps are you taking to ensure your VPN software is secure against vulnerabilities? **Learn More:** [Cyber Security News](https://cybersecuritynews.com/speedify-vpn-macos-vulnerability/) **Want to stay updated on the latest cyber threats?** 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "clean_comments": [
+      "Level 0: **Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.** Stay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**. Whether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead. Stay sharp. Stay secure. **[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)** *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-25364"
+    ],
+    "cve_counts": {
+      "CVE-2025-25364": 2
+    },
+    "title": "Critical Speedify VPN Flaw Exposes macOS Users to Attacks",
+    "permalink": "/r/pwnhub/comments/1k4iaeb/critical_speedify_vpn_flaw_exposes_macos_users_to/",
+    "timestamp": "2025-04-21T16:52:58",
+    "clean_text": "Critical Speedify VPN Flaw Exposes macOS Users to Attacks **A serious vulnerability in Speedify VPN for macOS allows local attackers to escalate privileges and gain control over systems.** **Key Points:** - CVE-2025-25364 allows local privilege escalation on Speedify VPN for macOS. - The vulnerability is caused by improper input handling in the helper tool. - Exploiting the flaw can lead to arbitrary command execution as root. - Speedify VPN has released an update addressing this critical security issue. - Users must upgrade to version 15.4.1 or higher to ensure their systems are protected. The discovered vulnerability, tracked as CVE-2025-25364, is a significant security risk for users of Speedify VPN's macOS application. It resides in the me.connectify.SMJobBlessHelper helper tool, which executes system-level operations with root privileges. The security flaw arises from improper input validation in the XPC interface of this tool, allowing local attackers to inject malicious commands that the system would execute with root privileges. Specifically, the commands can be injected through two user-controlled fields in incoming XPC messages, cmdPath and cmdBin, which are not adequately sanitized. Successful exploitation of this vulnerability can lead to local privilege escalation, allowing attackers not only to execute arbitrary commands but also to read, modify, or delete critical system files, and potentially install persistent malware. Speedify has responded to the issue with an updated version (15.4.1) that includes a complete rewrite of the flawed helper tool, eliminating the insecure handling of XPC messages and thereby closing this exploit vector. Users are strongly encouraged to update to the latest version to protect their devices from potential exploitation. What steps are you taking to ensure your VPN software is secure against vulnerabilities? **Learn More:** [Cyber Security News](https://cybersecuritynews.com/speedify-vpn-macos-vulnerability/) **Want to stay updated on the latest cyber threats?** 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "clean_comments": [
+      "Level 0: **Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.** Stay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**. Whether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead. Stay sharp. Stay secure. **[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)** *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*"
+    ]
   }
 ]
