@@ -3150,5 +3150,18 @@
     "timestamp": "2025-04-21T04:16:22",
     "clean_text": "CVE Alert: CVE-2025-3827 A vulnerability has been found in PHPGurukul Men Salon Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/forgot-password.php. The manipulation of the argument email leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-43928"
+    ],
+    "cve_counts": {
+      "CVE-2025-43928": 1
+    },
+    "title": "CVE Alert: CVE-2025-43928",
+    "permalink": "/r/RedPacketSecurity/comments/1k497cv/cve_alert_cve202543928/",
+    "timestamp": "2025-04-21T09:16:23",
+    "clean_text": "CVE Alert: CVE-2025-43928 In Infodraw Media Relay Service (MRS) 7.1.0.0, the MRS web server (on port 12654) allows reading arbitrary files via ../ directory traversal in the username field. Reading ServerParameters.xml may reveal administrator credentials in cleartext or with MD5 hashing.",
+    "clean_comments": []
   }
 ]
