@@ -4173,5 +4173,37 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2024-10914",
+      "CVE-2024-41713",
+      "CVE-2025-0108"
+    ],
+    "cve_counts": {
+      "CVE-2025-0108": 1,
+      "CVE-2024-41713": 1,
+      "CVE-2024-10914": 1
+    },
+    "title": "Proton66 Bulletproof Hosting Used for Global Attacks",
+    "text": "**Recent reports have exposed the abuse of Proton66, a Russian bulletproof hosting provider, by cybercriminals for mass scanning, brute-forcing, and malware delivery worldwide.** \n\nThe malicious activity, detected since January 2025, targets various vulnerabilities and attempts to exploit recent flaws like **CVE-2025-0108** (Palo Alto Networks PAN-OS), **CVE-2024-41713** (Mitel MiCollab), and **CVE-2024-10914** (D-Link NAS). The associated IP addresses have been linked to malware families like **XWorm**, **StrelaStealer**, and **WeaXor** ransomware.\n\n**Key Takeaways:**\n\n* **Proton66** has been linked to **GootLoader**, **SpyNote**, and new ransomware campaigns like **SuperBlack**.\n* Recent campaigns are exploiting CVEs, including the **Fortinet FortiOS** vulnerabilities, primarily attributed to the **Mora\\_001** threat actor.\n* Proton66 is also hosting **malicious JavaScript** to redirect Android users to phishing sites mimicking the Google Play Store.\n* **WeaXor** ransomware (a revision of Mallox) has been seen communicating with Proton66's infrastructure.\n\n**Actionable Intel:** Organizations should block all **Proton66**\\-related IP ranges (45.135.232.0/24, 45.140.17.0/24) to neutralize potential threats and avoid interaction with this bulletproof host.\n\n**Open for Discussion:**  \nWhat are your thoughts on the increasing trend of bulletproof hosting abuse and its role in the evolution of cybercrime? Have you seen similar tactics in your threat landscape?\n\nStay vigilant and share any related intel.",
+    "permalink": "/r/DarkWireSys/comments/1k4ljco/proton66_bulletproof_hosting_used_for_global/",
+    "timestamp": "2025-04-21T18:59:39",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-9142"
+    ],
+    "cve_counts": {
+      "CVE-2024-9142": 2
+    },
+    "title": "CVE-2024-9142 – Windows SMB Compression PrivEsc (Unpatched)",
+    "text": "**CVE-2024-9142** is flying under the radar—but it’s a potential SMBGhost sequel.\n\n➡️ Summary:\n\n* Exploits an overflow in Windows SMB compression when handling malformed NTFS filenames\n* Local user → SYSTEM via remote share and symlink abuse\n* No patch as of now, mitigations include disabling compression entirely\n\nProof-of-concept is being quietly traded on [Exploit.in](http://Exploit.in) and a few GitHub gists that come and go fast.\n\nCould be wormable with the right twist. Worth keeping an eye on.",
+    "permalink": "/r/DarkWireSys/comments/1k4kpjs/cve20249142_windows_smb_compression_privesc/",
+    "timestamp": "2025-04-21T18:26:59",
+    "article_text": null,
+    "comments": []
   }
 ]

@@ -3265,5 +3265,35 @@
     "clean_comments": [
       "Level 0: **Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.** Stay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**. Whether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead. Stay sharp. Stay secure. **[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)** *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*"
     ]
+  },
+  {
+    "cves": [
+      "CVE-2024-10914",
+      "CVE-2024-41713",
+      "CVE-2025-0108"
+    ],
+    "cve_counts": {
+      "CVE-2025-0108": 1,
+      "CVE-2024-41713": 1,
+      "CVE-2024-10914": 1
+    },
+    "title": "Proton66 Bulletproof Hosting Used for Global Attacks",
+    "permalink": "/r/DarkWireSys/comments/1k4ljco/proton66_bulletproof_hosting_used_for_global/",
+    "timestamp": "2025-04-21T18:59:39",
+    "clean_text": "Proton66 Bulletproof Hosting Used for Global Attacks **Recent reports have exposed the abuse of Proton66, a Russian bulletproof hosting provider, by cybercriminals for mass scanning, brute-forcing, and malware delivery worldwide.** The malicious activity, detected since January 2025, targets various vulnerabilities and attempts to exploit recent flaws like **CVE-2025-0108** (Palo Alto Networks PAN-OS), **CVE-2024-41713** (Mitel MiCollab), and **CVE-2024-10914** (D-Link NAS). The associated IP addresses have been linked to malware families like **XWorm**, **StrelaStealer**, and **WeaXor** ransomware. **Key Takeaways:** * **Proton66** has been linked to **GootLoader**, **SpyNote**, and new ransomware campaigns like **SuperBlack**. * Recent campaigns are exploiting CVEs, including the **Fortinet FortiOS** vulnerabilities, primarily attributed to the **Mora\\_001** threat actor. * Proton66 is also hosting **malicious JavaScript** to redirect Android users to phishing sites mimicking the Google Play Store. * **WeaXor** ransomware (a revision of Mallox) has been seen communicating with Proton66's infrastructure. **Actionable Intel:** Organizations should block all **Proton66**\\-related IP ranges (45.135.232.0/24, 45.140.17.0/24) to neutralize potential threats and avoid interaction with this bulletproof host. **Open for Discussion:** What are your thoughts on the increasing trend of bulletproof hosting abuse and its role in the evolution of cybercrime? Have you seen similar tactics in your threat landscape? Stay vigilant and share any related intel.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-9142"
+    ],
+    "cve_counts": {
+      "CVE-2024-9142": 2
+    },
+    "title": "CVE-2024-9142 – Windows SMB Compression PrivEsc (Unpatched)",
+    "permalink": "/r/DarkWireSys/comments/1k4kpjs/cve20249142_windows_smb_compression_privesc/",
+    "timestamp": "2025-04-21T18:26:59",
+    "clean_text": "CVE-2024-9142 – Windows SMB Compression PrivEsc (Unpatched) **CVE-2024-9142** is flying under the radar—but it’s a potential SMBGhost sequel. ➡️ Summary: * Exploits an overflow in Windows SMB compression when handling malformed NTFS filenames * Local user → SYSTEM via remote share and symlink abuse * No patch as of now, mitigations include disabling compression entirely Proof-of-concept is being quietly traded on [Exploit.in](http://Exploit.in) and a few GitHub gists that come and go fast. Could be wormable with the right twist. Worth keeping an eye on.",
+    "clean_comments": []
   }
 ]
