@@ -4067,5 +4067,51 @@
     "timestamp": "2025-04-21T11:52:31",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31201",
+      "CVE-2025-42599",
+      "CVE-2025-0108",
+      "CVE-2025-31200",
+      "CVE-2025-27889",
+      "CVE-2025-32434",
+      "CVE-2025-2492",
+      "CVE-2025-24054",
+      "CVE-2024-10095",
+      "CVE-2025-24071"
+    ],
+    "cve_counts": {
+      "CVE-2025-31201": 2,
+      "CVE-2025-2492": 2,
+      "CVE-2025-31200": 2,
+      "CVE-2025-24071": 2,
+      "CVE-2025-0108": 2,
+      "CVE-2025-32434": 2,
+      "CVE-2024-10095": 2,
+      "CVE-2025-42599": 2,
+      "CVE-2025-27889": 2,
+      "CVE-2025-24054": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (21/04/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-31201](https://nvd.nist.gov/vuln/detail/CVE-2025-31201)**\n\n- 📝 This issue was addressed by removing the vulnerable code. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 6.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 24\n- ⚠️ **Priority:** 1+\n\n---\n\n**2. [CVE-2025-2492](https://nvd.nist.gov/vuln/detail/CVE-2025-2492)**\n\n- 📝 An improper authentication control vulnerability exists in AiCloud. This vulnerability can be triggered by a crafted request, potentially leading to unauthorized execution of functions. Refer to the ASUS Router AiCloud vulnerability section on the ASUS Security Advisory for more information.\n\n- 📅 **Published:** 18/04/2025\n- 📈 **CVSS:** 9.2\n- 🧭 **Vector:** CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:L/SC:N/SI:N/SA:N\n- 📣 **Mentions:** 15\n- ⚠️ **Priority:** 0\n\n---\n\n**3. [CVE-2025-31200](https://nvd.nist.gov/vuln/detail/CVE-2025-31200)**\n\n- 📝 A memory corruption issue was addressed with improved bounds checking. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. Processing an audio stream in a maliciously crafted media file may result in code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 7.5\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 31\n- ⚠️ **Priority:** 1+\n\n---\n\n**4. [CVE-2025-24071](https://nvd.nist.gov/vuln/detail/CVE-2025-24071)**\n\n- 📝 Microsoft Windows File Explorer Spoofing Vulnerability\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 6.5\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C\n- 📣 **Mentions:** 19\n- ⚠️ **Priority:** 2\n\n---\n\n**5. [CVE-2025-0108](https://nvd.nist.gov/vuln/detail/CVE-2025-0108)**\n\n- 📝 An authentication bypass in the Palo Alto Networks PAN-OS software enables an unauthenticated attacker with network access to the management web interface to bypass the authentication otherwise required by the PAN-OS management web interface and invoke certain PHP scripts. While invoking these PHP scripts does not enable remote code execution, it can negatively impact integrity and confidentiality of PAN-OS. You can greatly reduce the risk of this issue by restricting access to the management web interface to only trusted internal IP addresses according to our recommended  best practices deployment guidelines https://live.paloaltonetworks.com/t5/community-blogs/tips-amp-tricks-how-to-secure-the-management-access-of-your-palo/ba-p/464431 . This issue does not affect Cloud NGFW or Prisma Access software.\n\n- 📅 **Published:** 12/02/2025\n- 📈 **CVSS:** 8.8\n- 🧭 **Vector:** CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:L/VA:N/SC:N/SI:N/SA:N/AU:N/R:U/V:C/RE:M/U:Red\n- 📣 **Mentions:** 225\n- ⚠️ **Priority:** 2\n\n---\n\n**6. [CVE-2025-32434](https://nvd.nist.gov/vuln/detail/CVE-2025-32434)**\n\n- 📝 PyTorch is a Python package that provides tensor computation with strong GPU acceleration and deep neural networks built on a tape-based autograd system. In version 2.5.1 and prior, a Remote Command Execution (RCE) vulnerability exists in PyTorch when loading a model using torch.load with weights_only=True. This issue has been patched in version 2.6.0.\n\n- 📅 **Published:** 18/04/2025\n- 📈 **CVSS:** 9.3\n- 🧭 **Vector:** CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N\n- 📣 **Mentions:** 6\n- ⚠️ **Priority:** 4\n\n---\n\n**7. [CVE-2024-10095](https://nvd.nist.gov/vuln/detail/CVE-2024-10095)**\n\n- 📝 In Progress Telerik UI for WPF versions prior to 2024 Q4 (2024.4.1213), a code execution attack is possible through an insecure deserialization vulnerability.\n\n- 📅 **Published:** 16/12/2024\n- 📈 **CVSS:** 8.4\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- ⚠️ **Priority:** 2\n\n---\n\n**8. [CVE-2025-42599](https://nvd.nist.gov/vuln/detail/CVE-2025-42599)**\n\n- 📝 Active! mail 6 BuildInfo: 6.60.05008561 and earlier contains a stack-based buffer overflow vulnerability. Receiving a specially crafted request created and sent by a remote unauthenticated attacker may lead to arbitrary code execution and/or a denial-of-service (DoS) condition.\n\n- 📅 **Published:** 18/04/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 6\n- ⚠️ **Priority:** 4\n\n---\n\n**9. [CVE-2025-27889](https://nvd.nist.gov/vuln/detail/CVE-2025-27889)**\n\n- 📝 Mod Note: Not a lot of details on this one, picked up by the algorith based on social media mentions and posts on different security blogs, I will update it as soon as the information becomes available.\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\n**10. [CVE-2025-24054](https://nvd.nist.gov/vuln/detail/CVE-2025-24054)**\n\n- 📝 NTLM Hash Disclosure Spoofing Vulnerability\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 6.5\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C\n- 📣 **Mentions:** 36\n- ⚠️ **Priority:** 1+\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from [CVE_Prioritizer](https://github.com/TURROKS/CVE_Prioritizer).",
+    "permalink": "/r/CVEWatch/comments/1k4gvcl/top_10_trending_cves_21042025/",
+    "timestamp": "2025-04-21T15:57:39",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20236"
+    ],
+    "cve_counts": {
+      "CVE-2025-20236": 1
+    },
+    "title": "Cisco Webex App Client-Side Remote Code Execution Vulnerability (CVE-2025-20236)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1k4g6cl/cisco_webex_app_clientside_remote_code_execution/",
+    "timestamp": "2025-04-21T15:21:18",
+    "article_text": null,
+    "comments": []
   }
 ]
