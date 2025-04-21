@@ -4025,5 +4025,19 @@
     "timestamp": "2025-04-20T21:31:43",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3827"
+    ],
+    "cve_counts": {
+      "CVE-2025-3827": 1
+    },
+    "title": "CVE Alert: CVE-2025-3827",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k44vpl/cve_alert_cve20253827/",
+    "timestamp": "2025-04-21T04:16:22",
+    "article_text": "A vulnerability has been found in PHPGurukul Men Salon Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/forgot-password.php. The manipulation of the argument email leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+    "comments": []
   }
 ]

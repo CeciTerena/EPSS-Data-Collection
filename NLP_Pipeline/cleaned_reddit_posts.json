@@ -3137,5 +3137,18 @@
     "timestamp": "2025-04-20T21:31:43",
     "clean_text": "Alert to Apple Users on CoreAudio & RPAC Apple has urged users to immediately update their devices following the discovery of two zero-day vulnerabilities exploited in what it called an “extremely sophisticated attack.” These bugs—found in CoreAudio and RPAC—allowed attackers to execute malicious code and bypass key security protections on targeted iPhones. The vulnerabilities, CVE-2025-31200 and CVE-2025-31201, could lead to memory corruption, surveillance, or even kernel-level compromise. The threat actors behind these attacks seem to have used advanced methods aimed at specific individuals—making this a high-risk situation for Apple device owners. Apple has now issued security patches across all affected platforms, including iOS, iPadOS, macOS, tvOS, and visionOS. Devices ranging from iPhone XS to the latest iPads are impacted, showing just how widespread the risk is. This marks the fifth zero-day patch Apple has had to push in just four months—highlighting the relentless pace of vulnerability discovery and the increasing sophistication of cyber threats. Users and businesses alike should prioritise security hygiene more than ever. Read more here: https://www.csoonline.com/article/3964668/hackers-target-apple-users-in-an-extremely-sophisticated-attack.html",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3827"
+    ],
+    "cve_counts": {
+      "CVE-2025-3827": 1
+    },
+    "title": "CVE Alert: CVE-2025-3827",
+    "permalink": "/r/RedPacketSecurity/comments/1k44vpl/cve_alert_cve20253827/",
+    "timestamp": "2025-04-21T04:16:22",
+    "clean_text": "CVE Alert: CVE-2025-3827 A vulnerability has been found in PHPGurukul Men Salon Management System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/forgot-password.php. The manipulation of the argument email leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+    "clean_comments": []
   }
 ]
