@@ -3362,5 +3362,33 @@
     "timestamp": "2025-04-22T10:29:30",
     "clean_text": "WinZip MotW apeiti pažeidžiamumas Kibernetinio saugumo tyrėjai aptiko svarbią \"WinZip\" pažeidžiamumą, leidžiantį įsilaužėliams apeiti \"Windows\" \"Mark-of-the-Web\" (MotW) apsaugos funkciją, todėl kenkėjiškas kodas gali būti paleistas be įspėjimo aukų kompiuteriuose. Ši rimta saugumo spraga, pažymėta kaip CVE-2025-33028, veikia \"WinZip\" iki 29.0 versijos įrenginius ir yra įvertinta dideliu CVSS balu - 7,8. Skaitom: [https://cybersecuritynews.com/winzip-motw-bypass-vulnerability/](https://cybersecuritynews.com/winzip-motw-bypass-vulnerability/)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1
+    },
+    "title": "Ghost-Route &#8211; Ghost Route Detects If A Next JS Site Is Vulnerable To The Corrupt Middleware Bypass Bug (CVE-2025-29927)",
+    "permalink": "/r/RedPacketSecurity/comments/1k561oa/ghostroute_8211_ghost_route_detects_if_a_next_js/",
+    "timestamp": "2025-04-22T13:16:19",
+    "clean_text": "Ghost-Route &#8211; Ghost Route Detects If A Next JS Site Is Vulnerable To The Corrupt Middleware Bypass Bug (CVE-2025-29927)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2019-16168"
+    ],
+    "cve_counts": {
+      "cve-2019-16168": 2
+    },
+    "title": "Problem with 'join' command",
+    "permalink": "/r/Splunk/comments/1k553sf/problem_with_join_command/",
+    "timestamp": "2025-04-22T12:30:49",
+    "clean_text": "Problem with 'join' command Hi, maybe an easy one for somebody: Doing a simple join search to get an assets vulnerability an 'enrich' that with vulnerability details from a subsearch in different index. 'join' them by vulnerability\\_id ('id' in the subsearch) works nice. *index=asset asset\\_hostname=server01 vulnerability\\_id=tlsv1\\_1-enabled OR vulnerability\\_id=jre-vuln-cve-2019-16168* *| dedup vulnerability\\_id* *| join  type=inner max=0 vulnerability\\_id  \\[ search index=vulnerability id=tlsv1\\_1-enabled OR id=jre-vuln-cve-2019-16168 | dedup id | rename id as vulnerability\\_id \\]* *| table asset\\_hostname vulnerability\\_id first\\_found description cve* Now doing the same, without specifying a vulnerability\\_id, to get all of them (there are many), returns only 3 events not containing the one from the first search (any many others). *index=asset asset\\_hostname=server01* *| dedup vulnerability\\_id* *| join  type=inner max=0 vulnerability\\_id  \\[ search index=vulnerability | dedup id | rename id as vulnerability\\_id \\]* *| table asset\\_hostname vulnerability\\_id first\\_found description cve* Any ideas ? AI only suggests using 'stats' but that doesn work either.",
+    "clean_comments": [
+      "Level 0: You say there are a lot of events in your vuln index, so are you hitting a subsearch limit (events or time)? You would get a notice above your search results if that was the case. Since you have both datasets in indexes, you are probably better off running your searches together and then using [selfjoin](https://docs.splunk.com/Documentation/SplunkCloud/latest/SearchReference/Selfjoin). i.e. (index=asset...) OR (index=vulnerability...) | rename id as vulnerability_id | selfjoin vulnerability_id"
+    ]
   }
 ]
