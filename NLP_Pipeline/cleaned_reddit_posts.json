@@ -3295,5 +3295,18 @@
     "timestamp": "2025-04-21T18:26:59",
     "clean_text": "CVE-2024-9142 – Windows SMB Compression PrivEsc (Unpatched) **CVE-2024-9142** is flying under the radar—but it’s a potential SMBGhost sequel. ➡️ Summary: * Exploits an overflow in Windows SMB compression when handling malformed NTFS filenames * Local user → SYSTEM via remote share and symlink abuse * No patch as of now, mitigations include disabling compression entirely Proof-of-concept is being quietly traded on [Exploit.in](http://Exploit.in) and a few GitHub gists that come and go fast. Could be wormable with the right twist. Worth keeping an eye on.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3841"
+    ],
+    "cve_counts": {
+      "CVE-2025-3841": 1
+    },
+    "title": "CVE Alert: CVE-2025-3841",
+    "permalink": "/r/RedPacketSecurity/comments/1k4xkqo/cve_alert_cve20253841/",
+    "timestamp": "2025-04-22T04:16:19",
+    "clean_text": "CVE Alert: CVE-2025-3841 A vulnerability, which was classified as problematic, was found in wix-incubator jam up to e87a6fd85cf8fb5ff37b62b2d68f917219d07ae9. This affects an unknown part of the file jam.py of the component Jinja2 Template Handler. The manipulation of the argument config[‘template’] leads to improper neutralization of special elements used in a template engine. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available.",
+    "clean_comments": []
   }
 ]

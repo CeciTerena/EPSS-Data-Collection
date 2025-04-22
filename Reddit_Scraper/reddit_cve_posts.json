@@ -4205,5 +4205,19 @@
     "timestamp": "2025-04-21T18:26:59",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3841"
+    ],
+    "cve_counts": {
+      "CVE-2025-3841": 1
+    },
+    "title": "CVE Alert: CVE-2025-3841",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k4xkqo/cve_alert_cve20253841/",
+    "timestamp": "2025-04-22T04:16:19",
+    "article_text": "A vulnerability, which was classified as problematic, was found in wix-incubator jam up to e87a6fd85cf8fb5ff37b62b2d68f917219d07ae9. This affects an unknown part of the file jam.py of the component Jinja2 Template Handler. The manipulation of the argument config[‘template’] leads to improper neutralization of special elements used in a template engine. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available.",
+    "comments": []
   }
 ]
