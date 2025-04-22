@@ -3390,5 +3390,35 @@
     "clean_comments": [
       "Level 0: You say there are a lot of events in your vuln index, so are you hitting a subsearch limit (events or time)? You would get a notice above your search results if that was the case. Since you have both datasets in indexes, you are probably better off running your searches together and then using [selfjoin](https://docs.splunk.com/Documentation/SplunkCloud/latest/SearchReference/Selfjoin). i.e. (index=asset...) OR (index=vulnerability...) | rename id as vulnerability_id | selfjoin vulnerability_id"
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 2
+    },
+    "title": "Report For CVE-2025-24054",
+    "permalink": "/r/Lansweeper/comments/1k56yew/report_for_cve202524054/",
+    "timestamp": "2025-04-22T13:57:22",
+    "clean_text": "Report For CVE-2025-24054 I'm trying to find a report for CVE-2025-24054, to find any vulnerability machines within our environment. Does anyone know how to build a report for a CVE or if there are already reports built for this specific one?",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3509",
+      "CVE-2025-3124",
+      "CVE-2025-3246"
+    ],
+    "cve_counts": {
+      "CVE-2025-3509": 1,
+      "CVE-2025-3124": 1,
+      "CVE-2025-3246": 1
+    },
+    "title": "GitHub patches vulnerabilities in its Enterprise Server edition that allows arbitrary code execution",
+    "permalink": "/r/GitProtect/comments/1k56gl1/github_patches_vulnerabilities_in_its_enterprise/",
+    "timestamp": "2025-04-22T13:35:14",
+    "clean_text": "GitHub patches vulnerabilities in its Enterprise Server edition that allows arbitrary code execution Recently, GitHub has released critical security updates for its Enterprise Server. In it, the service provider addresses several high-severity vulnerabilities, including a critical remote code execution flaw (CVE-2025-3509) that could allow attackers to take full control of systems. The vulnerabilities affect versions 3.13.0 to 3.16.1 and have been patched in subsequent updates, with GitHub urging immediate upgrades. Other issues include unauthorized access to private repository names (CVE-2025-3124) and a cross-site scripting (XSS) vulnerability (CVE-2025-3246) through malicious math blocks in Markdown. Exploits require specific conditions or user interactions, but still pose serious risks, particularly during hot patching. GitHub credits its Bug Bounty program for the discoveries and stresses the need for timely patching, permission audits, and proactive security practices in enterprise environments. Read more: [https://cybersecuritynews.com/github-enterprise-server-vulnerabilities/](https://cybersecuritynews.com/github-enterprise-server-vulnerabilities/)",
+    "clean_comments": []
   }
 ]

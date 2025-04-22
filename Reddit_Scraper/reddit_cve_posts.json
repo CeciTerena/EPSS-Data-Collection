@@ -4315,5 +4315,37 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 2
+    },
+    "title": "Report For CVE-2025-24054",
+    "text": "I'm trying to find a report for CVE-2025-24054, to find any vulnerability machines within our environment. Does anyone know how to build a report for a CVE or if there are already reports built for this specific one?",
+    "permalink": "/r/Lansweeper/comments/1k56yew/report_for_cve202524054/",
+    "timestamp": "2025-04-22T13:57:22",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3509",
+      "CVE-2025-3124",
+      "CVE-2025-3246"
+    ],
+    "cve_counts": {
+      "CVE-2025-3509": 1,
+      "CVE-2025-3124": 1,
+      "CVE-2025-3246": 1
+    },
+    "title": "GitHub patches vulnerabilities in its Enterprise Server edition that allows arbitrary code execution",
+    "text": "Recently, GitHub has released critical security updates for its Enterprise Server. In it, the service provider addresses several high-severity vulnerabilities, including a critical remote code execution flaw (CVE-2025-3509) that could allow attackers to take full control of systems.\n\nThe vulnerabilities affect versions 3.13.0 to 3.16.1 and have been patched in subsequent updates, with GitHub urging immediate upgrades.\n\nOther issues include unauthorized access to private repository names (CVE-2025-3124) and a cross-site scripting (XSS) vulnerability (CVE-2025-3246) through malicious math blocks in Markdown. Exploits require specific conditions or user interactions, but still pose serious risks, particularly during hot patching.\n\nGitHub credits its Bug Bounty program for the discoveries and stresses the need for timely patching, permission audits, and proactive security practices in enterprise environments.\n\nRead more: [https://cybersecuritynews.com/github-enterprise-server-vulnerabilities/](https://cybersecuritynews.com/github-enterprise-server-vulnerabilities/)",
+    "permalink": "/r/GitProtect/comments/1k56gl1/github_patches_vulnerabilities_in_its_enterprise/",
+    "timestamp": "2025-04-22T13:35:14",
+    "article_text": null,
+    "comments": []
   }
 ]
