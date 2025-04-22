@@ -3464,5 +3464,33 @@
     "timestamp": "2025-04-22T14:16:20",
     "clean_text": "CVE Alert: CVE-2025-43963 In LibRaw before 0.21.4, phase_one_correct in decoders/load_mfbacks.cpp allows out-of-buffer access because split_col and split_row values are not checked in 0x041f tag processing.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31161"
+    ],
+    "cve_counts": {
+      "CVE-2025-31161": 2
+    },
+    "title": "CVE-2025-31161 is being actively exploited and it's not getting the attention it should.",
+    "permalink": "/r/cybersecurity/comments/1k5als5/cve202531161_is_being_actively_exploited_and_its/",
+    "timestamp": "2025-04-22T16:26:44",
+    "clean_text": "CVE-2025-31161 is being actively exploited and it's not getting the attention it should. An authentication bypass vulnerability in CrushFTP (CVE-2025-31161) is currently being exploited in the wild. It affects Versions 10.0.0 to 10.8.3 and versions 11.0.0 to 11.3.0. If exploited, it can allow attackers to access sensitive files without valid credentials and gain full system control depending on configuration Active exploitation has already been confirmed, yet it's flying under the radar. Recommended mitigation would be to upgrade to 10.8.4 or 11.3.1 ASAP. If patching isn’t possible, CrushFTP’s DMZ proxy can provide a temporary buffer. If you're running CrushFTP or know someone who is, now’s the time to double-check your version and get this patched. Wouldn’t be surprised if we see this pop up in a ransomware chain soon.",
+    "clean_comments": [
+      "Level 0: I've never heard of CrushFTP, maybe that's why it's not getting attention though."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-31161"
+    ],
+    "cve_counts": {
+      "CVE-2025-31161": 2
+    },
+    "title": "CVE-2025-31161 is being actively exploited and it's not getting the attention it should.",
+    "permalink": "/r/blueteamsec/comments/1k5aix6/cve202531161_is_being_actively_exploited_and_its/",
+    "timestamp": "2025-04-22T16:23:36",
+    "clean_text": "CVE-2025-31161 is being actively exploited and it's not getting the attention it should. An authentication bypass vulnerability in CrushFTP (CVE-2025-31161) is currently being exploited in the wild. It affects Versions 10.0.0 to 10.8.3 and versions 11.0.0 to 11.3.0. If exploited, it can allow attackers to access sensitive files without valid credentials and gain full system control depending on configuration Active exploitation has already been confirmed, yet it's flying under the radar. Recommended mitigation would be to upgrade to 10.8.4 or 11.3.1 ASAP. If patching isn’t possible, CrushFTP’s DMZ proxy can provide a temporary buffer. If you're running CrushFTP or know someone who is, now’s the time to double-check your version and get this patched. Wouldn’t be surprised if we see this pop up in a ransomware chain soon.",
+    "clean_comments": []
   }
 ]
