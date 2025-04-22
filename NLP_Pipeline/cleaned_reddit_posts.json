@@ -3349,5 +3349,18 @@
     "timestamp": "2025-04-22T09:16:24",
     "clean_text": "CVE Alert: CVE-2025-29287 An arbitrary file upload vulnerability in the ueditor component of MCMS v5.4.3 allows attackers to execute arbitrary code via uploading a crafted file.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-33028"
+    ],
+    "cve_counts": {
+      "CVE-2025-33028": 1
+    },
+    "title": "WinZip MotW apeiti pažeidžiamumas",
+    "permalink": "/r/KibernetinisSaugumas/comments/1k52zgh/winzip_motw_apeiti_pažeidžiamumas/",
+    "timestamp": "2025-04-22T10:29:30",
+    "clean_text": "WinZip MotW apeiti pažeidžiamumas Kibernetinio saugumo tyrėjai aptiko svarbią \"WinZip\" pažeidžiamumą, leidžiantį įsilaužėliams apeiti \"Windows\" \"Mark-of-the-Web\" (MotW) apsaugos funkciją, todėl kenkėjiškas kodas gali būti paleistas be įspėjimo aukų kompiuteriuose. Ši rimta saugumo spraga, pažymėta kaip CVE-2025-33028, veikia \"WinZip\" iki 29.0 versijos įrenginius ir yra įvertinta dideliu CVSS balu - 7,8. Skaitom: [https://cybersecuritynews.com/winzip-motw-bypass-vulnerability/](https://cybersecuritynews.com/winzip-motw-bypass-vulnerability/)",
+    "clean_comments": []
   }
 ]
