@@ -4465,5 +4465,39 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-43967"
+    ],
+    "cve_counts": {
+      "CVE-2025-43967": 1
+    },
+    "title": "CVE Alert: CVE-2025-43967",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k5g5kl/cve_alert_cve202543967/",
+    "timestamp": "2025-04-22T20:08:18",
+    "article_text": "libheif before 1.19.6 has a NULL pointer dereference in ImageItem_Grid::get_decoder in image-items/grid.cc because a grid image can reference a nonexistent image item.",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-0840"
+    ],
+    "cve_counts": {
+      "CVE-2025-0840": 1
+    },
+    "title": "CVE checker not choosing the correct base score",
+    "text": "Not sure if this is an issue or not, but for a specific CVE: CVE-2025-0840, for CVSS 3.1, NVD has it listed as base score of 7.5. But using the Yocto CVE checker, it does not pick up the 7.5. For scorev2 it has 5.1 and score v3 has 5.0 (from CNA: VulDB).\n\nIs this a bug?",
+    "permalink": "/r/yocto/comments/1k5flwq/cve_checker_not_choosing_the_correct_base_score/",
+    "timestamp": "2025-04-22T19:46:02",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "There’s a bug where it doesn’t fetch updates that change severity properly, so try deleting CVE_CHECK in your download directory and try again.",
+        "level": 0
+      }
+    ]
   }
 ]

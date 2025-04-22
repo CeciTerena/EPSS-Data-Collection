@@ -3535,5 +3535,33 @@
     "clean_comments": [
       "Level 0: Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem. Stay updated on zero-days, exploits, hacker tools, and the latest cybersecurity drama. Whether you’re red team, blue team, or just here for the chaos—dive in and stay ahead. Stay sharp. Stay secure. Subscribe and join us for daily posts! I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-43967"
+    ],
+    "cve_counts": {
+      "CVE-2025-43967": 1
+    },
+    "title": "CVE Alert: CVE-2025-43967",
+    "permalink": "/r/RedPacketSecurity/comments/1k5g5kl/cve_alert_cve202543967/",
+    "timestamp": "2025-04-22T20:08:18",
+    "clean_text": "CVE Alert: CVE-2025-43967 libheif before 1.19.6 has a NULL pointer dereference in ImageItemGrid::getdecoder in image-items/grid.cc because a grid image can reference a nonexistent image item.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-0840"
+    ],
+    "cve_counts": {
+      "CVE-2025-0840": 1
+    },
+    "title": "CVE checker not choosing the correct base score",
+    "permalink": "/r/yocto/comments/1k5flwq/cve_checker_not_choosing_the_correct_base_score/",
+    "timestamp": "2025-04-22T19:46:02",
+    "clean_text": "CVE checker not choosing the correct base score Not sure if this is an issue or not, but for a specific CVE: CVE-2025-0840, for CVSS 3.1, NVD has it listed as base score of 7.5. But using the Yocto CVE checker, it does not pick up the 7.5. For scorev2 it has 5.1 and score v3 has 5.0 (from CNA: VulDB). Is this a bug?",
+    "clean_comments": [
+      "Level 0: There’s a bug where it doesn’t fetch updates that change severity properly, so try deleting CVE_CHECK in your download directory and try again."
+    ]
   }
 ]
