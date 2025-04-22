@@ -122,6 +122,11 @@ def update_cleaned_file(source_file, target_file):
             processed = process_post(post)
             cleaned_lookup[permalink] = processed
             new_posts.append(processed)
+    
+    # process_posts = []   #THIS IS FOR EVERYTHING
+    # for post in raw_data:
+    #     processed = process_post(post)
+    #     process_posts.append(processed)
 
     total_cleaned = list(cleaned_lookup.values())
     
@@ -132,7 +137,9 @@ def update_cleaned_file(source_file, target_file):
 
 # -----------------------------------------------------------
 source_file = "../Reddit_Scraper/reddit_cve_posts.json"  
-# cleaned_file = "cleaned_reddit_posts.json"
+
+# cleaned_file1 = "cleaned_reddit_posts.json"
 cleaned_file = "../Source_Files/cleaned_reddit_posts.json"
 
+# update_cleaned_file(source_file, cleaned_file1)
 update_cleaned_file(source_file, cleaned_file)
