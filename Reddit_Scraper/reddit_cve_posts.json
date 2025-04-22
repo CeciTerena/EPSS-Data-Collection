@@ -38,8 +38,7 @@
       "CVE-2025-29927"
     ],
     "cve_counts": {
-      "CVE-2025-29927": 1,
-      "cve-2025-29927": 1
+      "CVE-2025-29927": 2
     },
     "title": "Next.js Authentication Bypass Vulnerability (CVE-2025-29927) Explained Simply",
     "text": "I've created a beginner-friendly breakdown of this critical Next.js middleware vulnerability that affects millions of applications\n\nPlease take a look and let me know what you think 💭 \n\n📖 https://neoxs.me/blog/critical-nextjs-middleware-vulnerability-cve-2025-29927-authentication-bypass",
@@ -161,8 +160,8 @@
   },
   {
     "cves": [
-      "CVE-2025-23120",
-      "CVE-2024-29849"
+      "CVE-2024-29849",
+      "CVE-2025-23120"
     ],
     "cve_counts": {
       "CVE-2024-29849": 2,
@@ -201,7 +200,7 @@
       "CVE-2020-14979"
     ],
     "cve_counts": {
-      "cve-2020-14979": 2
+      "CVE-2020-14979": 2
     },
     "title": "Why does Defender hate Fan Control? An explanation of Windows Drivers, WinRing0.sys, and its 7.8 CVE score:",
     "text": "#TL;DR\n\n* Windows Defender is not wrong, per se. `WinRing0` DOES has a vulnerability that lets unprivileged programs *hack into Windows.\n* Fan Control is not malicious, `WinRing0` is not malicious, but a malicious program can use `WinRing0` to bypass your system's security measures because it has a vulnerability.\n* Read source 1 for the technical details.\n* You don't have to read this entire wall of text, skip to the headers that interests you.\n\n# Introduction\n\nHello everyone! As you probably found out by now, Fan Control's implementation is currently broken. This is due to the kernel driver that Fan Control uses `WinRing0` being blocked by Windows Defender.\n\nI want to clarify a few things I learned while researching this and show a bit of behind the scenes of how your computer talks to Fan Control and why Defender has blocked it.\n\n# Pet Peeve\n\nFirst off, as a computer scientist it pains me to see people's knee jerk reaction is to override their operating system's security systems. It's there to protect you, yes it can make mistakes, but you should generally wait for an official response or similar understanding and you shouldn't do it blindly. Your security means nothing if you override your security when it's inconvenient.\n\nIt's kind of like taking the carbon monoxide alarm off the wall because you don't like that it's beeping super loudly.\n\nAnyways.\n\n# What is a driver and why do we need them?\n^(skip to next header if you don't care how drivers work)\n\nTo answer why Defender has blocked fan Control, I first have to explain how Fan Control works with Windows. I'll try to keep this explanation as simple as possible. *^(Asterisks indicate an oversimplification for clarity)\n\nWindow's main job is to manage a bunch of different applications and allow them to talk to the hardware. In old times it used to be the case that a program can tell the computer to do whatever it wants. This was a problem because it could mess up other programs, crash the entire system, and do malicious things.\n\nSo to fix this, operating systems (OS) now split up the computer's memory and give a piece to each application. This application now has its own space to do things, called user-space. Each application is *only allowed to do things in its own piece of memory and nothing else. If the application crashed, the OS can throw away the application & its piece of memory and everything else on the system will be fine.\n\nThis has a big problem though: applications isolated in user-space could not talk to hardware! If you can talk to the hardware, you can do anything to the system, so it's an intentional protection. But your hardware needs to talk to the operating system to work, but there is too many pieces of hardware that all work differently. Windows doesn't know how to talk to all of them!\n\nSo we need these programs that can interface with hardware but can't live in user-space. But at the same time we want the kind of protection that user-space gives.\n\nThe solution is drivers: special programs that can receive special exceptions to live in *kernel-space. Kernel-space is the opposite of user-space. You can do anything in kernel-space! Like talk to hardware to control your fans or read your credit card number when you pay for something. Because kernel-space drivers are so high risk Microsoft gate keeps them with an iron fist, kinda like Apple's non-EU app store on iPhones.\n\n# Fan Control used a driver called `WinRing0`\n\nFan Control cannot talk directly to your hardware. It can talk to a driver, and that driver can talk to the hardware. There are a few different drivers and api's Fan Control uses, but the main one was `WinRing0`.\n\n### Who made `WinRing0`?\n\n`WinRing0` is a third party driver developed by OpenLibSys.\n\n### Who convinced Microsoft to let `WinRing0` be a driver with privileges?\n\nThe company called EVGA convinced Microsoft. Why? Because EVGA made software that used the third party driver. They don't use it anymore because it was vulnerable.\n\n# `WinRing0` is a vulnerable driver!\n\nThis is why Defender hates `WinRing0`.\n\nOn August 11th, 2020 a security researcher named Matt Hand published¹ the vulnerability report for `WinRing0` proving that it had a high-risk privilege escalation exploit. This means a user-space program can take control of this driver* and then use it to gain kernel-space privileges. This means a lowly application can take advantage of `WinRing0` to do whatever it wants to your computer!\n\nWhen this was discovered, EVGA abandoned `WinRing0` and made their own proprietary driver that they use. The developers of `WinRing0` can fix the driver, but under Microsoft's modern strict driver rules, an updated `WinRing0` won't make it past Microsoft's driver gate keepers.\n\nMany projects used and still use this driver. That's why Microsoft couldn't just cut support outright for the driver- too many things would break all at once. But `WinRing0` was on borrowed time, Microsoft planned to cut the driver in 2024, but then they pushed it back to Jan 2025. And now Microsoft seems to start following through.\n\n# What are the risks of running a vulnerable driver?\n\nWell a vulnerable driver is basically a front door to your house that you cannot lock. If everyone in town is friendly, you're good. But all it takes is one malicious actor to recognize the vulnerable door and waltz right on in.\n\nThe door still functions, and friendly programs like Fan Control are respectful when they have to go in your house through the door.\n\nBut you are less protected while having it installed. I would recommend listening to Defender. If you choose to override Defender, know that your OS's front door is open, and any program you run can use it for whatever they wish.\n\n# Sources\n1) Matt Hand (security researcher), https://medium.com/@matterpreter/cve-2020-14979-local-privilege-escalation-in-evga-precisionx1-cf63c6b95896\n2) CVE Database, https://nvd.nist.gov/vuln/detail/cve-2020-14979\n3) Related Github issue, https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/issues/984\n4) Fan Control Dev, https://www.reddit.com/r/JayzTwoCents/comments/13nwpzq/comment/jldj1o9/\n\nFeel free to ask questions, there's no such thing as a stupid question on my posts.",
@@ -336,8 +335,7 @@
       "CVE-2025-29927"
     ],
     "cve_counts": {
-      "CVE-2025-29927": 3,
-      "cve-2025-29927": 2
+      "CVE-2025-29927": 5
     },
     "title": "CVE-2025-29927: Bypass de auth no Next.js (CRÍTICA)",
     "text": "Pessoal, acabou de ser anunciado uma vulnerabilidade crítica no Nextjs. A vulnerabilidade permite que o invasor autentique no Nextjs sem precisar de credenciais. \n\nO nível de facilidade para executar é absurdo. Literalmente enviar o seguinte header:\n\n    x-middleware-subrequest: middleware\n\npermite acesso, como usuário logado, aos sites que utilizam o middleware do Nextjs para fazer autenticação e autorização.\n\n  \nPelo que entendi, o Nextjs passa o header nos request para identificar loops infinitos e interromper a execução de funções. Neste caso, é possível interromper as funções ligadas a autenticação e acessar o site como usuário logado. Muitas aplicações estão em risco e precisam corrigir a vulnerabilidade.\n\nEssa vulnerabilidade está marcada como **9.1/10 (CRÍTICA) no CVSS**\n\nAqui alguns links para mais informações sobre a vulnerabilidade:\n\n[CVE-2025-29927 | Next.js](https://nextjs.org/blog/cve-2025-29927)\n\n[Critical Next.js Vulnerability: How a Simple Header Bypasses Authentication (CVE-2025-29927) 🕵️ | Neoxs](https://www.neoxs.me/blog/critical-nextjs-middleware-vulnerability-cve-2025-29927-authentication-bypass)",
@@ -372,8 +370,7 @@
       "CVE-2025-29927"
     ],
     "cve_counts": {
-      "CVE-2025-29927": 1,
-      "cve-2025-29927": 1
+      "CVE-2025-29927": 2
     },
     "title": "Next.js Middleware Authentication Bypass Vulnerability (CVE-2025-29927) - Simplified With Working Demo 🕵️",
     "text": "I've created a comprehensive yet simple explanation of the critical Next.js middleware vulnerability that affects millions of applications.\n\nThe guide is designed for developers of ALL experience levels - because security shouldn't be gatekept behind complex terminology.\n\n📖 https://neoxs.me/blog/critical-nextjs-middleware-vulnerability-cve-2025-29927-authentication-bypass",
@@ -538,8 +535,7 @@
       "CVE-2025-29927"
     ],
     "cve_counts": {
-      "CVE-2025-29927": 1,
-      "cve-2025-29927": 1
+      "CVE-2025-29927": 2
     },
     "title": "🚨 Next.js Middleware Authentication Bypass (CVE-2025-29927) explained for all developers!",
     "text": "I've broken down this new critical security vulnerability into simple steps anyone can understand.\n\nOne HTTP header = complete authentication bypass!\n\nPlease take a look and let me know what are your thoughts 💭 \n\n📖 https://neoxs.me/blog/critical-nextjs-middleware-vulnerability-cve-2025-29927-authentication-bypass",
@@ -623,11 +619,11 @@
   },
   {
     "cves": [
+      "CVE-2025-0116",
+      "CVE-2025-0118",
       "CVE-2025-0117",
       "CVE-2025-0114",
-      "CVE-2025-0116",
-      "CVE-2025-0115",
-      "CVE-2025-0118"
+      "CVE-2025-0115"
     ],
     "cve_counts": {
       "CVE-2025-0114": 2,
@@ -659,8 +655,7 @@
       "CVE-2025-23120"
     ],
     "cve_counts": {
-      "CVE-2025-23120": 1,
-      "cve-2025-23120": 2
+      "CVE-2025-23120": 3
     },
     "title": "Veeam CVE 9.9 Alert -",
     "text": "**// Overview**\n\nOn March 19th, 2025, software vendor Veeam announced a patch to address **CVE-2025-23120,** which allows for remote code execution (RCE) by any domain authenticated users. The CVSS score is 9.9 representing a serious risk, however this impacts only AD Domain-joined backup servers.\n\nThe attack takes advantage of a deserialization vulnerability in two different .NET classes. Deserialization is a process to reassemble data after it has been broken into smaller pieces in a stream of bytes known as serialization. The vendor, watchTowr, who reported the vulnerability to Veeam, made note to mention the process of relying on deny-lists, instead of accept-lists is one of the root causes, as it allows attackers to attempt to identify other classes which are not blocked to facilitate code execution.\n\nAs Sophos has previously reported\\[1\\], Veeam backup servers are frequently targeted by financially motivated threat actors to encrypt and ransom an organization’s data. We recommend high priority be given to patching your backup servers if they meet the criteria below. In addition, Sophos does support Veeam integration to further strengthen your protections\\[2\\].\n\n**// What you should do**\n\nCustomers running Veeam Backup & Replication software products are advised to upgrade to version 12.3.1, or apply the latest hotfix 12.3 following the vendor’s specific guidance:\n\n1. 12.3.0.310 and all earlier builds of version 12 are impacted\n\nPlease be advised that application of this hotfix may overwrite previous hotfixes per Veeam’s guidance.\n\n  \n[https://www.veeam.com/kb4724](https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvd5djq9e.r.us-west-2.awstrack.me%2FL0%2Fhttps%3A%252F%252Fwww.veeam.com%252Fkb4724%2F1%2F01010195ba6e1dc2-bee103a9-f191-4ba1-a15f-643badbd5c97-000000%2FcE1OH5jf1aN1IMb1iHbmpRTfxSU%3D419&data=05%7C02%7Cjasoncohenour%40ovfcu.com%7Cdaf7a7bdfae64826d3ff08dd68b865f0%7Cf5ea2130c88948fa8b41bbb81c80157e%7C0%7C0%7C638781863399659476%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=K0kuV3JbE1IPQIegL3zU0vPOVGrB0Sv6Z6Cap0bh0Ko%3D&reserved=0)\n\nAdditional Reporting\n\n1. [https://labs.watchtowr.com/by-executive-order-we-are-banning-blacklists-domain-level-rce-in-veeam-backup-replication-cve-2025-23120/](https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvd5djq9e.r.us-west-2.awstrack.me%2FL0%2Fhttps%3A%252F%252Flabs.watchtowr.com%252Fby-executive-order-we-are-banning-blacklists-domain-level-rce-in-veeam-backup-replication-cve-2025-23120%252F%2F1%2F01010195ba6e1dc2-bee103a9-f191-4ba1-a15f-643badbd5c97-000000%2Fdb6vxeGtQee5ft54t3pL5rUDfo8%3D419&data=05%7C02%7Cjasoncohenour%40ovfcu.com%7Cdaf7a7bdfae64826d3ff08dd68b865f0%7Cf5ea2130c88948fa8b41bbb81c80157e%7C0%7C0%7C638781863399678778%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=kEMKhOLBXIiSXvlyqieJ3XmmtfZkJ7nnuVK%2FF3iYKfI%3D&reserved=0)\n2. \\[1\\] [https://news.sophos.com/en-us/2024/11/08/veeam-exploit-seen-used-again-with-a-new-ransomware-frag/](https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fvd5djq9e.r.us-west-2.awstrack.me%2FL0%2Fhttps%3A%252F%252Fnews.sophos.com%252Fen-us%252F2024%252F11%252F08%252Fveeam-exploit-seen-used-again-with-a-new-ransomware-frag%252F%2F1%2F01010195ba6e1dc2-bee103a9-f191-4ba1-a15f-643badbd5c97-000000%2F2Bz90ljGw9uqvG4GEExuhoDd9bM%3D419&data=05%7C02%7Cjasoncohenour%40ovfcu.com%7Cdaf7a7bdfae64826d3ff08dd68b865f0%7Cf5ea2130c88948fa8b41bbb81c80157e%7C0%7C0%7C638781863399694184%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=fBJv4pYTeO2KG0FHMF9S2TzFix4a636Xb86hT9q7FRc%3D&reserved=0)\n\n",
@@ -842,9 +837,9 @@
   },
   {
     "cves": [
-      "CVE-2025-24514",
-      "CVE-2025-1097",
       "CVE-2025-1974",
+      "CVE-2025-1097",
+      "CVE-2025-24514",
       "CVE-2025-1098"
     ],
     "cve_counts": {
@@ -1065,8 +1060,7 @@
       "CVE-2025-1974"
     ],
     "cve_counts": {
-      "CVE-2025-1974": 1,
-      "cve-2025-1974": 1
+      "CVE-2025-1974": 2
     },
     "title": "Ingress-nginx CVE-2025-1974",
     "text": "This CVE (https://kubernetes.io/blog/2025/03/24/ingress-nginx-cve-2025-1974/) is also affecting rancher, right?\n\nLatest image for the backend (https://hub.docker.com/r/rancher/mirrored-nginx-ingress-controller-defaultbackend/tags) seems to be from 4 months ago.\n\nI could not find any rancher-specific news regarding this CVE online.\n\nAny ideas?",
@@ -1172,13 +1166,12 @@
   },
   {
     "cves": [
-      "CVE-2025-2825",
-      "CVE-2025-31161"
+      "CVE-2025-31161",
+      "CVE-2025-2825"
     ],
     "cve_counts": {
-      "CVE-2025-31161": 10,
-      "cve-2025-31161": 2,
-      "cve-2025-2825": 2
+      "CVE-2025-31161": 12,
+      "CVE-2025-2825": 2
     },
     "title": "Critical Vulnerability: CrushFTP CVE-2025-31161 Auth Bypass and Post-Exploitation",
     "text": "**TL;DR:** CVE-2025-31161 is a critical severity vulnerability allowing attackers to control how user authentication is handled by CrushFTP managed file transfer (MFT) software. **We strongly recommend patching immediately to avoid affected versions 10.0.0 through 10.8.3 and 11.0.0 through 11.3.0.** Successful exploitation of CVE-2025-31161 would give attackers admin level access across the CrushFTP application for further compromise.\n\nOn 3 April 2025, Huntress observed in-the-wild exploitation of CVE-2025-31161, an authentication bypass vulnerability in versions of the CrushFTP software. We uncovered further post-exploitation activity leveraging the MeshCentral agent and other malware that we will discuss in [this writeup. ](https://www.huntress.com/blog/crushftp-cve-2025-31161-auth-bypass-and-post-exploitation?utm_campaign=rapid-response&utm_source=reddit&utm_medium=social) While doing some further analysis, we uncovered potential evidence of compromise as early as 30 March 2025, which seemed to be testing access, and did not spawn any external processes to CrushFTP.\n\nIn [a recent post](https://x.com/Shadowserver/status/1906753539499520064) from the ShadowServer team, they state as of March 30 there were [\\~1,500 vulnerable instances](https://dashboard.shadowserver.org/statistics/honeypot/vulnerability/time-series/?date_range=7&host_type=src&vendor=crushftp&vulnerability=cve-2025-2825&dataset=unique_ips&limit=1000&group_by=geo&style=stacked) of CrushFTP publicly exposed to the internet.\n\nWe have published a proof of concept, IOCs, and analysis on Mesh and AnyDesk post exploitations [in this blog](https://www.huntress.com/blog/crushftp-cve-2025-31161-auth-bypass-and-post-exploitation?utm_campaign=rapid-response&utm_source=reddit&utm_medium=social).\n\n# What is CVE-2025-31161? \n\n[CVE-2025-31161](https://nvd.nist.gov/vuln/detail/CVE-2025-31161) is a **9.8 CVSS** critical severity vulnerability that affects how the CrushFTP file transfer application handles user authentication. At the time of writing, the NIST NVD entry states the description:\n\n>*CrushFTP versions 10.0.0 through 10.8.3 and 11.0.0 through 11.3.0 are affected by a vulnerability in the S3 authorization header processing that allows authentication bypass. Remote and unauthenticated HTTP requests to CrushFTP with known usernames can be used to impersonate a user and conduct actions on their behalf, including administrative actions and data retrieval.*\n\nThis vulnerability [is patched](https://www.crushftp.com/crush11wiki/Wiki.jsp?page=Update) and is mitigated in CrushFTP versions 11.3.1+ and 10.8.4+. Huntress has validated and confirmed the authentication bypass is prevented in patched versions. \n\nPlease ensure your own installations of CrushFTP are updated to the latest versions. If your CrushFTP instance is publicly exposed to the open Internet, **we strongly recommend you patch immediately.**\n\nUpon successful exploitation, an adversary may gain access to the administrator user account for the CrushFTP application, and leverage this to create new backdoor accounts, access files (upload and download), obtain code execution, and achieve full control of the vulnerable server.\n\nThe vulnerability was assigned a CVE on March 26, and the Shadowserver Foundation first reported CVE-2025-31161 exploitation activity on March 31. The exploitation of CVE-2025-31161 is indicative of a concerning trend that we’ve seen [across several incidents](https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild), where threat actors are targeting MFT platforms as a way to deliver disruptive attacks. These platforms are typically external-facing and house sensitive enterprise data, making them a favorite for threat actors. As such, prompt patching is critical. Within our partner base we have seen 148 unique endpoints with the CrushFTP software installed as a service, with 95 of these running major versions 10 and 11.  Approximately 72 different companies within our customer base were currently running unpatched versions of CrushFTP.  **Customers have been notified of the urgency to upgrade.**\n\nNumerous other security firms have discussed CVE-2025-31161 (hat tip to [Rapid7 AttackerKB](https://attackerkb.com/topics/k0EgiL9Psz/cve-2025-2825/rapid7-analysis) and [Outpost24](https://outpost24.com/blog/crushftp-auth-bypass-vulnerability/) amongst others) and thanks to their shared insights, Huntress was able to recreate a proof-of-concept (PoC) with ease. The core of this vulnerability is the S3 authentication functionality included as a part of CrushFTP. Due to logic bugs in the underlying source code (which [Project Discovery did a fantastic job](https://projectdiscovery.io/blog/crushftp-authentication-bypass) outlining), a mere **Authorization** header in an HTTP request is all that is needed to bypass authentication without valid username or password credentials.\n\n# What is Huntress Doing? \n\nPost-exploitation efforts are already thoroughly covered by Huntress detection rules. In response to these intrusions specifically, [we crafted detectors to find child processes invoked underneath the CrushFTP service executable](https://gist.github.com/JohnHammond/a22bf3103eeb0f985cf1cef4d3fc849f#file-win_proc_creation_shell_child_process_crushftp-yml).\n\n\nFor community members not yet protected with Huntress, there are two Sigma rules available in the public SigmaHQ repository for:\n\n1. Detecting “[Remote Access Tool - MeshAgent Command Execution via MeshCentral](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_remote_access_tools_meshagent_exec.yml)”\n2. Detecting “[Remote Access Tool - AnyDesk Silent Installation](https://github.com/SigmaHQ/sigma/blob/master/rules/windows/process_creation/proc_creation_win_remote_access_tools_anydesk_silent_install.yml)”\n\nIf you think you could be impacted, [abuse our trial](https://www.huntress.com/start-trial?utm_campaign=rapid-response&utm_source=reddit&utm_medium=social) to quickly discover anything shady left behind.",
@@ -1192,8 +1185,7 @@
       "CVE-2025-29927"
     ],
     "cve_counts": {
-      "CVE-2025-29927": 2,
-      "cve-2025-29927": 1
+      "CVE-2025-29927": 3
     },
     "title": "Attention: Critical Next.js vulnerability CVE-2025-29927",
     "text": "Next.js released an alert for CVE-2025-29927 (CVSS: 9.1), a authorization bypass vulnerability, impacting the Next.js React framework.\n\nThe vulnerability has been addressed in versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3.The vulnerability could allow threat actors to bypass authorization checks performed in Next.js middleware, potentially allowing them to access sensitive web pages that are typically reserved for admins or other high-privileged users.\n\nA proof of concept (PoC) for the vulnerability has been released by security researcher Rachid Allam, indicating it is imperative that the vulnerability is patched quickly to prevent threat actors from using available information to exploit.\n\n🛡️Immediate Action: Update to the latest available versions.\n\nPrevent external user requests which contain the “x-middleware-subrequest” header from reaching your Next.js application. \n\nNotable Sources: \n\n[Next.js Alert](https://nextjs.org/blog/cve-2025-29927)\n\n[PoC Blog](https://zhero-web-sec.github.io/research-and-things/nextjs-and-the-corrupt-middleware)",
@@ -1240,8 +1232,8 @@
   },
   {
     "cves": [
-      "CVE-2024-40893",
-      "CVE-2024-40892"
+      "CVE-2024-40892",
+      "CVE-2024-40893"
     ],
     "cve_counts": {
       "CVE-2024-40892": 2,
@@ -1389,8 +1381,7 @@
       "CVE-2021-35587"
     ],
     "cve_counts": {
-      "CVE-2021-35587": 3,
-      "cve-2021-35587": 2
+      "CVE-2021-35587": 5
     },
     "title": "Oracle Breach - Looking Like CVE-2021-35587",
     "text": "What's up peeps.\nI want to keep this short, but here's some good info I've dug up. I hate to spam the sub with more posts about the same thing, but felt this should be shared.\n\n1) The endpoint the TA stated they compromised is currently down. But there is a recent archive of it (Feb 17th) on the Wayback Machine: [https://web.archive.org/web/20250217171149/https://login.us2.oraclecloud.com/](https://web.archive.org/web/20250217171149/https://login.us2.oraclecloud.com/)\n\n2) The alleged vulnerability is CVE-2021-35587. It relates to the OpenSSO component of OAM (Oracle Access Manager). OpenSSO was deprecated in later 12c releases, but is fully available in 11g (see the Wayback Machine title? WELCOME TO ORACLE FUSION MIDDLEWARE 11g). Fun fact, 11g was deprecated in 2020.\n\n3) An interesting PoC for CVE-2021-35587 can be found here: [https://testbnull.medium.com/oracle-access-manager-pre-auth-rce-cve-2021-35587-analysis-1302a4542316](https://testbnull.medium.com/oracle-access-manager-pre-auth-rce-cve-2021-35587-analysis-1302a4542316)\n\nHope some of this can be helpful to others. Every day is looking worse for Oracle as they keep their head buried in the sand.",
@@ -1404,8 +1395,7 @@
       "CVE-2025-29927"
     ],
     "cve_counts": {
-      "CVE-2025-29927": 1,
-      "cve-2025-29927": 1
+      "CVE-2025-29927": 2
     },
     "title": "Next.js Middleware Authentication Bypass Vulnerability (CVE-2025-29927) - Simplified With Working Demo 🕵️",
     "text": "I've created a comprehensive yet simple explanation of the critical Next.js middleware vulnerability that affects millions of applications.\n\nPlease take a look and let me know what are your thoughts 💭 \n\n📖 https://neoxs.me/blog/critical-nextjs-middleware-vulnerability-cve-2025-29927-authentication-bypass",
@@ -2131,16 +2121,16 @@
   },
   {
     "cves": [
-      "CVE-2024-7971",
+      "CVE-2025-3248",
       "CVE-2025-3102",
       "CVE-2025-22457",
-      "CVE-2025-3248",
-      "CVE-2025-29824",
-      "CVE-2025-30406",
-      "CVE-2025-24813",
-      "CVE-2023-27997",
+      "CVE-2022-42475",
       "CVE-2024-21762",
-      "CVE-2022-42475"
+      "CVE-2024-7971",
+      "CVE-2025-24813",
+      "CVE-2025-29824",
+      "CVE-2023-27997",
+      "CVE-2025-30406"
     ],
     "cve_counts": {
       "CVE-2025-30406": 1,
@@ -2217,9 +2207,9 @@
   },
   {
     "cves": [
+      "CVE-2022-42475",
       "CVE-2023-27997",
-      "CVE-2024-21762",
-      "CVE-2022-42475"
+      "CVE-2024-21762"
     ],
     "cve_counts": {
       "CVE-2022-42475": 1,
@@ -2238,8 +2228,7 @@
       "CVE-2024-43590"
     ],
     "cve_counts": {
-      "CVE-2024-43590": 8,
-      "cve-2024-43590": 4
+      "CVE-2024-43590": 12
     },
     "title": "CVE-2024-43590 vulnerability not detected with wazuh",
     "text": "Hello Wazuher's,\n\n  \nsee there:\n\n[https://cti.wazuh.com/vulnerabilities/cves/CVE-2024-43590](https://cti.wazuh.com/vulnerabilities/cves/CVE-2024-43590)\n\nAnd here:\n\n[https://nvd.nist.gov/vuln/detail/cve-2024-43590](https://nvd.nist.gov/vuln/detail/cve-2024-43590)\n\n  \nBUT HERE (only corretly listed) as :\n\n  \nUpdated Microsoft **Visual C++ 2015-2022 Redistributable** version to 14.40.33816 with the fix for CVE-2024-43590. For more information on this vulnerability, see [CVE-2024-43590](https://www.cve.org/CVERecord?id=CVE-2024-43590).\n\nMeaning that in NVD Link [https://nvd.nist.gov/vuln/detail/cve-2024-43590](https://nvd.nist.gov/vuln/detail/cve-2024-43590) only refers to product (Name) **visual\\_studio (Visual studio) and its verions, it' the development tool / environment itself. But NOT the runtime version, for its complied (outcome), as far as i know.  So actually product visual studio is NOT the same as the** Visual C++ Redistributable Installer**.**\n\n**The cve.org link in below clearly listed all affected prodcuts and it's versions and diferrenciate them properly.** \n\n[https://www.cve.org/CVERecord?id=CVE-2024-43590](https://www.cve.org/CVERecord?id=CVE-2024-43590)\n\n[https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022)\n\n  \nonly in above link from [cve.org](http://cve.org) is correct info, also seen in broadcom vmware tools rlease notes:\n\n[https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/tools/12-5-0/release-notes/vmware-tools-1251-release-notes.html](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/tools/12-5-0/release-notes/vmware-tools-1251-release-notes.html)\n\n  \n**Would be happy to see it's fixed.  Happy to help you to make wazuh more and more better ;)**\n\n**And kindly same goes for the more often / regulary CVE CTI Database update intervall, as e. g. current Microsoft Windows CU 2025-04 CVES are not yet included..**",
@@ -2250,8 +2239,8 @@
   },
   {
     "cves": [
-      "CVE-2023-48795",
-      "CVE-2018-15473"
+      "CVE-2018-15473",
+      "CVE-2023-48795"
     ],
     "cve_counts": {
       "CVE-2018-15473": 1,
@@ -2266,14 +2255,14 @@
   },
   {
     "cves": [
-      "CVE-2025-30406",
-      "CVE-2023-4966",
+      "CVE-2023-46818",
       "CVE-2022-42475",
       "CVE-2024-21762",
       "CVE-2024-7971",
-      "CVE-2023-46818",
       "CVE-2025-21204",
-      "CVE-2023-27997"
+      "CVE-2023-4966",
+      "CVE-2023-27997",
+      "CVE-2025-30406"
     ],
     "cve_counts": {
       "CVE-2024-7971": 1,
@@ -2470,17 +2459,14 @@
   },
   {
     "cves": [
-      "CVE-2024-21762",
       "CVE-2022-42475",
-      "CVE-2023-27997"
+      "CVE-2023-27997",
+      "CVE-2024-21762"
     ],
     "cve_counts": {
-      "CVE-2022-42475": 1,
-      "cve-2022-42475": 1,
-      "CVE-2023-27997": 1,
-      "cve-2023-27997": 1,
-      "CVE-2024-21762": 1,
-      "cve-2024-21762": 1
+      "CVE-2022-42475": 2,
+      "CVE-2023-27997": 2,
+      "CVE-2024-21762": 2
     },
     "title": "FortiOS 7.2.11 & 7.4.7",
     "text": "Due to [CVE-2022-42475](https://nvd.nist.gov/vuln/detail/cve-2022-42475?trk=article-ssr-frontend-pulse_little-text-block), [CVE-2023-27997,](https://nvd.nist.gov/vuln/detail/cve-2023-27997?trk=article-ssr-frontend-pulse_little-text-block) and [CVE-2024-21762](https://nvd.nist.gov/vuln/detail/cve-2024-21762?trk=article-ssr-frontend-pulse_little-text-block). Its recommended to upgrade to 7.2.11 and 7.4.7. Are those firmware stable? Or you guys recommend other version out of the vulnerability?",
@@ -2642,7 +2628,7 @@
       "CVE-2025-3155"
     ],
     "cve_counts": {
-      "cve-2025-3155": 1
+      "CVE-2025-3155": 1
     },
     "title": "It's time to retire Yelp",
     "text": "GNOME's [Help](https://gitlab.gnome.org/GNOME/yelp) app has a lot going against it\n\n* A [dangerous critical vulnerability](https://blogs.gnome.org/mcatanzaro/2025/04/15/dangerous-arbitrary-file-read-vulnerability-in-yelp-cve-2025-3155/) that hasn't been patched in months\n* Hasn't migrated to Gtk4\n* Doesn't conform to the Human Interface Guidelines\n* And (most importantly) nobody uses it since we have Google and [Biblioteca](https://apps.gnome.org/Biblioteca/)\n\nCan we go ahead and retire it from GNOME's core apps?",
@@ -2681,16 +2667,16 @@
   },
   {
     "cves": [
-      "CVE-2025-21204",
-      "CVE-2025-0282",
+      "CVE-2024-50264",
       "CVE-2025-22457",
-      "CVE-2025-30406",
-      "CVE-2025-27840",
       "CVE-2025-24859",
-      "CVE-2025-24994",
-      "CVE-2024-26170",
+      "CVE-2025-21204",
       "CVE-2025-24076",
-      "CVE-2024-50264"
+      "CVE-2025-0282",
+      "CVE-2024-26170",
+      "CVE-2025-24994",
+      "CVE-2025-30406",
+      "CVE-2025-27840"
     ],
     "cve_counts": {
       "CVE-2025-27840": 1,
@@ -2773,12 +2759,12 @@
   },
   {
     "cves": [
-      "CVE-2024-53197",
-      "CVE-2024-53150"
+      "CVE-2024-53150",
+      "CVE-2024-53197"
     ],
     "cve_counts": {
-      "cve-2024-53150": 1,
-      "cve-2024-53197": 1
+      "CVE-2024-53150": 1,
+      "CVE-2024-53197": 1
     },
     "title": "M6P | C431(EU) | NEW PATCH",
     "text": "[9.0.0.164](http://9.0.0.164)\n\ncve-2024-53150 y cve-2024-53197 are NOT patched.\n\nhttps://preview.redd.it/pw4vwhnw38ve1.png?width=1255&format=png&auto=webp&s=a0c36d951623167f9e3e6912e9bb9f12ccfa28f6\n\n  \n",
@@ -2837,8 +2823,8 @@
   },
   {
     "cves": [
-      "CVE-2023-48795",
-      "CVE-2018-15473"
+      "CVE-2018-15473",
+      "CVE-2023-48795"
     ],
     "cve_counts": {
       "CVE-2018-15473": 1,
@@ -2870,7 +2856,7 @@
       "CVE-2025-27840"
     ],
     "cve_counts": {
-      "cve-2025-27840": 2
+      "CVE-2025-27840": 2
     },
     "title": "Cold wallets with ESP32 chip, are on high alert after a new critical vulnerability error",
     "text": "This does not concern Ledger wallets, but interesting information:  \n  \n\"Wallets that use the ESP32 chip, including Blockstream’s Jade wallet, are on high alert after a new critical vulnerability error\"  \n  \nLinks:\n\n[https://securityonline.info/cve-2025-27840-how-a-tiny-esp32-chip-could-crack-open-bitcoin-wallets-worldwide/](https://securityonline.info/cve-2025-27840-how-a-tiny-esp32-chip-could-crack-open-bitcoin-wallets-worldwide/)\n\n[https://protos.com/chinese-chip-used-in-bitcoin-wallets-is-putting-traders-at-risk/](https://protos.com/chinese-chip-used-in-bitcoin-wallets-is-putting-traders-at-risk/)\n\n(hoping Ledger never has such a flaw in the future)",
@@ -2887,8 +2873,8 @@
   },
   {
     "cves": [
-      "CVE-2025-31201",
-      "CVE-2025-31200"
+      "CVE-2025-31200",
+      "CVE-2025-31201"
     ],
     "cve_counts": {
       "CVE-2025-31200": 1,
@@ -3018,14 +3004,14 @@
   },
   {
     "cves": [
-      "CVE-2025-32433",
-      "CVE-2024-50264",
-      "CVE-2025-24994",
-      "CVE-2025-21299",
-      "CVE-2025-24076",
-      "CVE-2025-27840",
       "CVE-2025-24054",
-      "CVE-2025-31201"
+      "CVE-2024-50264",
+      "CVE-2025-32433",
+      "CVE-2025-24076",
+      "CVE-2025-21299",
+      "CVE-2025-31201",
+      "CVE-2025-24994",
+      "CVE-2025-27840"
     ],
     "cve_counts": {
       "CVE-2025-27840": 1,
@@ -3046,15 +3032,15 @@
   },
   {
     "cves": [
-      "CVE-2025-32433",
-      "CVE-2024-50264",
-      "CVE-2025-24994",
-      "CVE-2025-21299",
-      "CVE-2025-24076",
-      "CVE-2025-27840",
       "CVE-2025-24054",
+      "CVE-2024-50264",
       "CVE-2025-29809",
-      "CVE-2025-31201"
+      "CVE-2025-32433",
+      "CVE-2025-24076",
+      "CVE-2025-21299",
+      "CVE-2025-31201",
+      "CVE-2025-24994",
+      "CVE-2025-27840"
     ],
     "cve_counts": {
       "CVE-2025-27840": 1,
@@ -3076,8 +3062,8 @@
   },
   {
     "cves": [
-      "CVE-2025-31201",
-      "CVE-2025-31200"
+      "CVE-2025-31200",
+      "CVE-2025-31201"
     ],
     "cve_counts": {
       "CVE-2025-31200": 1,
@@ -3198,8 +3184,8 @@
   },
   {
     "cves": [
-      "CVE-2024-57699",
       "CVE-2021-33813",
+      "CVE-2024-57699",
       "CVE-2025-20236"
     ],
     "cve_counts": {
@@ -3281,8 +3267,7 @@
       "CVE-2025-24054"
     ],
     "cve_counts": {
-      "CVE-2025-24054": 1,
-      "cve-2025-24054": 2
+      "CVE-2025-24054": 3
     },
     "title": "CVE-2025-24054: Windows Vulnerability Exploited to Steal Credentials",
     "text": "A recently patched Windows vulnerability is under active attack, with phishing campaigns distributing files that leak NTLM credentials upon minimal interaction. Ensure your systems are updated to protect against this threat.​\n\nFull story: [https://thehackernews.com/2025/04/cve-2025-24054-under-active.html](https://thehackernews.com/2025/04/cve-2025-24054-under-active.html)\n\n",
@@ -3321,15 +3306,15 @@
   },
   {
     "cves": [
-      "CVE-2025-31201",
-      "CVE-2025-27840",
-      "CVE-2025-21299",
       "CVE-2025-24054",
+      "CVE-2025-31200",
+      "CVE-2025-29809",
       "CVE-2025-24859",
       "CVE-2025-32433",
-      "CVE-2025-31200",
       "CVE-2025-29471",
-      "CVE-2025-29809"
+      "CVE-2025-21299",
+      "CVE-2025-31201",
+      "CVE-2025-27840"
     ],
     "cve_counts": {
       "CVE-2025-24054": 1,
@@ -3365,15 +3350,15 @@
   },
   {
     "cves": [
-      "CVE-2025-42599",
-      "CVE-2025-32422",
       "CVE-2025-31200",
       "CVE-2025-31201",
-      "CVE-2025-29471",
-      "CVE-2025-21299",
+      "CVE-2025-42599",
       "CVE-2025-24859",
-      "CVE-2025-27840",
-      "CVE-2025-29809"
+      "CVE-2025-29471",
+      "CVE-2025-32422",
+      "CVE-2025-21299",
+      "CVE-2025-29809",
+      "CVE-2025-27840"
     ],
     "cve_counts": {
       "CVE-2025-31200": 1,
@@ -3395,11 +3380,11 @@
   },
   {
     "cves": [
+      "CVE-2025-24054",
       "CVE-2025-32433",
       "CVE-2025-32422",
       "CVE-2025-31201",
-      "CVE-2025-27840",
-      "CVE-2025-24054"
+      "CVE-2025-27840"
     ],
     "cve_counts": {
       "CVE-2025-32422": 1,
@@ -3474,8 +3459,7 @@
       "CVE-2025-24054"
     ],
     "cve_counts": {
-      "CVE-2025-24054": 4,
-      "cve-2025-24054": 1
+      "CVE-2025-24054": 5
     },
     "title": "Critical Flaw CVE-2025-24054 Active—NTLM Credentials at Risk",
     "text": "\n**A medium-severity flaw in Windows is under active attack, allowing attackers to steal NTLM credentials through minimal user interaction.**\n\n**Key Points:**\n\n- CVE-2025-24054 exploits NTLM authentication protocol, allowing credential theft.\n- Active exploitation reported since March 19, targeting institutions in Poland and Romania.\n- Attackers use phishing campaigns to deliver malicious .library-ms files for NTLM hash extraction.\n\nThe recently identified CVE-2025-24054 vulnerability in Microsoft Windows poses a significant risk by allowing unauthorized attackers to spoof NTLM credentials across networks. NTLM is an outdated authentication protocol that has been largely deprecated in favor of newer technologies like Kerberos. However, its continued presence in Windows environments presents an enduring target for cybercriminals. This flaw can be triggered with minimal user interaction, such as a simple click or file inspection, illustrating how effortless it is for attackers to exploit it. Once activated, it can lead to the extraction of NTLM hashes, which can be further leveraged in malicious campaigns to compromise systems.\n\nFollowing the initial reports of exploitation, cybersecurity firms identified numerous campaigns, particularly targeting government and private institutions in regions like Poland and Romania. Attackers have been observed distributing malicious links via emails, using trusted cloud storage platforms to evade detection. As these malicious .library-ms files take advantage of a ZIP archive format, they facilitate an SMB authentication request, enabling hash leaks with no direct execution of the files required. This seamless method of infiltration showcases the urgency for organizations to patch these vulnerabilities promptly and address the risks associated with NTLM to safeguard their networks against credential theft and further attacks.\n\nHow can organizations better protect themselves against vulnerabilities like CVE-2025-24054 in their networks?\n\n**Learn More:** [The Hacker News](https://thehackernews.com/2025/04/cve-2025-24054-under-active.html)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
@@ -3492,15 +3476,15 @@
   },
   {
     "cves": [
-      "CVE-2025-21299",
-      "CVE-2025-31200",
-      "CVE-2025-29471",
-      "CVE-2025-27840",
-      "CVE-2025-32433",
-      "CVE-2025-31201",
       "CVE-2025-24054",
+      "CVE-2025-31200",
+      "CVE-2025-42599",
       "CVE-2025-24859",
-      "CVE-2025-42599"
+      "CVE-2025-32433",
+      "CVE-2025-29471",
+      "CVE-2025-21299",
+      "CVE-2025-31201",
+      "CVE-2025-27840"
     ],
     "cve_counts": {
       "CVE-2025-27840": 2,
@@ -3536,16 +3520,16 @@
   },
   {
     "cves": [
-      "CVE-2025-27840",
-      "CVE-2025-21299",
-      "CVE-2025-31200",
-      "CVE-2025-32422",
-      "CVE-2025-29809",
-      "CVE-2025-31201",
       "CVE-2025-24054",
+      "CVE-2025-31200",
+      "CVE-2025-29809",
+      "CVE-2025-42599",
       "CVE-2025-32433",
       "CVE-2025-29471",
-      "CVE-2025-42599"
+      "CVE-2025-32422",
+      "CVE-2025-21299",
+      "CVE-2025-31201",
+      "CVE-2025-27840"
     ],
     "cve_counts": {
       "CVE-2025-31201": 1,
@@ -3568,16 +3552,16 @@
   },
   {
     "cves": [
-      "CVE-2025-29824",
-      "CVE-2025-27840",
+      "CVE-2025-24054",
       "CVE-2025-31200",
       "CVE-2025-29809",
-      "CVE-2025-29471",
-      "CVE-2025-31201",
-      "CVE-2025-24054",
+      "CVE-2025-42599",
       "CVE-2025-32433",
+      "CVE-2025-29824",
+      "CVE-2025-29471",
       "CVE-2025-21299",
-      "CVE-2025-42599"
+      "CVE-2025-31201",
+      "CVE-2025-27840"
     ],
     "cve_counts": {
       "CVE-2025-31201": 2,
@@ -3687,7 +3671,7 @@
       "CVE-2025-24914"
     ],
     "cve_counts": {
-      "CVE-2025-24914": 1
+      "CVE-2025-24914": 2
     },
     "title": "CVE Alert: CVE-2025-24914",
     "text": "",
@@ -3810,16 +3794,16 @@
   },
   {
     "cves": [
-      "CVE-2025-32433",
-      "CVE-2025-31201",
-      "CVE-2025-27840",
-      "CVE-2024-13059",
-      "CVE-2025-31200",
       "CVE-2025-29927",
+      "CVE-2025-31200",
+      "CVE-2025-24054",
       "CVE-2025-42599",
+      "CVE-2024-13059",
+      "CVE-2025-32433",
       "CVE-2025-29824",
+      "CVE-2025-31201",
       "CVE-2024-53141",
-      "CVE-2025-24054"
+      "CVE-2025-27840"
     ],
     "cve_counts": {
       "CVE-2025-31201": 2,
@@ -3980,16 +3964,16 @@
   },
   {
     "cves": [
-      "CVE-2025-32433",
-      "CVE-2024-53141",
-      "CVE-2025-2492",
       "CVE-2025-24054",
-      "CVE-2025-27840",
-      "CVE-2025-31201",
-      "CVE-2024-13059",
-      "CVE-2025-27520",
       "CVE-2025-31200",
-      "CVE-2025-42599"
+      "CVE-2025-42599",
+      "CVE-2024-13059",
+      "CVE-2025-32433",
+      "CVE-2025-27520",
+      "CVE-2025-2492",
+      "CVE-2025-31201",
+      "CVE-2024-53141",
+      "CVE-2025-27840"
     ],
     "cve_counts": {
       "CVE-2025-31201": 2,
@@ -4012,8 +3996,8 @@
   },
   {
     "cves": [
-      "CVE-2025-31201",
-      "CVE-2025-31200"
+      "CVE-2025-31200",
+      "CVE-2025-31201"
     ],
     "cve_counts": {
       "CVE-2025-31200": 1,
@@ -4070,16 +4054,16 @@
   },
   {
     "cves": [
-      "CVE-2025-31201",
-      "CVE-2025-42599",
-      "CVE-2025-0108",
+      "CVE-2025-24054",
       "CVE-2025-31200",
+      "CVE-2024-10095",
       "CVE-2025-27889",
+      "CVE-2025-42599",
+      "CVE-2025-24071",
       "CVE-2025-32434",
       "CVE-2025-2492",
-      "CVE-2025-24054",
-      "CVE-2024-10095",
-      "CVE-2025-24071"
+      "CVE-2025-31201",
+      "CVE-2025-0108"
     ],
     "cve_counts": {
       "CVE-2025-31201": 2,
@@ -4176,9 +4160,9 @@
   },
   {
     "cves": [
-      "CVE-2024-10914",
       "CVE-2024-41713",
-      "CVE-2025-0108"
+      "CVE-2025-0108",
+      "CVE-2024-10914"
     ],
     "cve_counts": {
       "CVE-2025-0108": 1,
@@ -4301,7 +4285,7 @@
       "CVE-2019-16168"
     ],
     "cve_counts": {
-      "cve-2019-16168": 2
+      "CVE-2019-16168": 2
     },
     "title": "Problem with 'join' command",
     "text": "Hi,  \nmaybe an easy one for somebody:\n\nDoing a simple join search to get an assets vulnerability an 'enrich' that with vulnerability details from a subsearch in different index.  \n'join' them by vulnerability\\_id ('id' in the subsearch) works nice.\n\n\n\n*index=asset asset\\_hostname=server01 vulnerability\\_id=tlsv1\\_1-enabled OR vulnerability\\_id=jre-vuln-cve-2019-16168*  \n*| dedup vulnerability\\_id*\n\n*| join  type=inner max=0 vulnerability\\_id  \\[ search index=vulnerability id=tlsv1\\_1-enabled OR id=jre-vuln-cve-2019-16168 | dedup id | rename id as vulnerability\\_id \\]*\n\n*| table asset\\_hostname vulnerability\\_id first\\_found description cve*\n\n\n\nNow doing the same, without specifying a vulnerability\\_id, to get all of them (there are many), returns only 3 events not containing the one from the first search (any many others).\n\n\n\n*index=asset asset\\_hostname=server01*  \n*| dedup vulnerability\\_id*\n\n*| join  type=inner max=0 vulnerability\\_id  \\[ search index=vulnerability | dedup id | rename id as vulnerability\\_id \\]*\n\n*| table asset\\_hostname vulnerability\\_id first\\_found description cve*\n\n\n\nAny ideas ? AI only suggests using 'stats' but that doesn work either.",
@@ -4332,8 +4316,8 @@
   },
   {
     "cves": [
-      "CVE-2025-3509",
       "CVE-2025-3124",
+      "CVE-2025-3509",
       "CVE-2025-3246"
     ],
     "cve_counts": {
@@ -4350,16 +4334,16 @@
   },
   {
     "cves": [
-      "CVE-2025-31200",
-      "CVE-2025-42599",
-      "CVE-2024-53104",
-      "CVE-2025-27889",
-      "CVE-2025-32434",
-      "CVE-2025-31201",
-      "CVE-2025-2492",
-      "CVE-2025-32433",
       "CVE-2025-24054",
-      "CVE-2025-24071"
+      "CVE-2025-31200",
+      "CVE-2025-27889",
+      "CVE-2025-42599",
+      "CVE-2025-24071",
+      "CVE-2025-32434",
+      "CVE-2025-32433",
+      "CVE-2025-2492",
+      "CVE-2024-53104",
+      "CVE-2025-31201"
     ],
     "cve_counts": {
       "CVE-2025-31201": 2,
