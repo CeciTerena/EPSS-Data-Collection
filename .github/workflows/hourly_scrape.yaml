@@ -33,7 +33,7 @@ jobs:
 
       - name: Run cleaner
         working-directory: ./NLP_Pipeline
-        run: python cleaning.py
+        run: python cleaning_reddit.py
         
       - name: Commit and push results
         run: |
