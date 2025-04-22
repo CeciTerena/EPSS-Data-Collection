@@ -4253,5 +4253,19 @@
     "timestamp": "2025-04-22T06:35:39",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29287"
+    ],
+    "cve_counts": {
+      "CVE-2025-29287": 1
+    },
+    "title": "CVE Alert: CVE-2025-29287",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k51xwh/cve_alert_cve202529287/",
+    "timestamp": "2025-04-22T09:16:24",
+    "article_text": "An arbitrary file upload vulnerability in the ueditor component of MCMS v5.4.3 allows attackers to execute arbitrary code via uploading a crafted file.",
+    "comments": []
   }
 ]
