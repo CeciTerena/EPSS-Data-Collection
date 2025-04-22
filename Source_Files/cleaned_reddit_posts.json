@@ -3492,5 +3492,48 @@
     "timestamp": "2025-04-22T16:23:36",
     "clean_text": "CVE-2025-31161 is being actively exploited and it's not getting the attention it should. An authentication bypass vulnerability in CrushFTP (CVE-2025-31161) is currently being exploited in the wild. It affects Versions 10.0.0 to 10.8.3 and versions 11.0.0 to 11.3.0. If exploited, it can allow attackers to access sensitive files without valid credentials and gain full system control depending on configuration Active exploitation has already been confirmed, yet it's flying under the radar. Recommended mitigation would be to upgrade to 10.8.4 or 11.3.1 ASAP. If patching isn’t possible, CrushFTP’s DMZ proxy can provide a temporary buffer. If you're running CrushFTP or know someone who is, now’s the time to double-check your version and get this patched. Wouldn’t be surprised if we see this pop up in a ransomware chain soon.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 2
+    },
+    "title": "CVE-2025-24054: \"Challenge Accepted\"",
+    "permalink": "/r/cybersecurity/comments/1k5cdbg/cve202524054_challenge_accepted/",
+    "timestamp": "2025-04-22T17:37:37",
+    "clean_text": "CVE-2025-24054: \"Challenge Accepted\" When Microsoft Says \"Less Likely to be Exploited\" But Hackers Say \"Challenge Accepted\" Microsoft labeled CVE-2025-24054 as \"less likely to be exploited\" on Patch Tuesday. Just 8 DAYS LATER, it was weaponized against government targets in Poland and Romania. This video explains how a simple .library-ms file can leak your NTLM hash with just a single click Why these attacks went from targeted to international in under two weeks The possible connection to Russia-backed APT28 (Fancy Bear) Why relying solely on vendor exploitability ratings is a dangerous game As security professionals, we need to remember that \"less likely to be exploited\" isn't the same as \"won't be exploited\" especially when it comes to easily weaponized vulnerabilities. <URL>",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-6407"
+    ],
+    "cve_counts": {
+      "CVE-2024-6407": 1
+    },
+    "title": "Schneider Electric's Wiser Home Controller Vulnerability Exposes Sensitive Credentials",
+    "permalink": "/r/pwnhub/comments/1k5bs58/schneider_electrics_wiser_home_controller/",
+    "timestamp": "2025-04-22T17:14:13",
+    "clean_text": "Schneider Electric's Wiser Home Controller Vulnerability Exposes Sensitive Credentials Recent vulnerabilities in Schneider Electric's Wiser Home Controller WHC-5918A could allow unauthorized access to sensitive information. Key Points: - Exploitable remotely with low attack complexity. - Allows attackers to disclose sensitive credentials. - User mitigation is advised due to discontinued support. The Wiser Home Controller WHC-5918A from Schneider Electric has been reported to have a critical vulnerability (CVE-2024-6407) that permits unauthorized access to sensitive information. With a CVSS score of 9.3, this vulnerability is classified as highly severe, allowing remote attackers to exploit it through a specially crafted message. Given the widespread use of these devices in critical infrastructure sectors like energy, the implications of this security flaw are alarming. Attackers potentially gaining access to sensitive credentials could lead to further exploitation and compromise not just individual homes but also interconnected systems. What steps do you think individuals should take to secure their smart home devices from similar vulnerabilities? Learn More: CISA Want to stay updated on the latest cyber threats? Subscribe to /r/PwnHub",
+    "clean_comments": [
+      "Level 0: Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem. Stay updated on zero-days, exploits, hacker tools, and the latest cybersecurity drama. Whether you’re red team, blue team, or just here for the chaos—dive in and stay ahead. Stay sharp. Stay secure. Subscribe and join us for daily posts! I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2022-4046"
+    ],
+    "cve_counts": {
+      "CVE-2022-4046": 1
+    },
+    "title": "Critical Security Flaw in ABB MV Drives Puts Industrial Systems at Risk",
+    "permalink": "/r/pwnhub/comments/1k5brzt/critical_security_flaw_in_abb_mv_drives_puts/",
+    "timestamp": "2025-04-22T17:14:04",
+    "clean_text": "Critical Security Flaw in ABB MV Drives Puts Industrial Systems at Risk A serious vulnerability in ABB MV Drives could allow remote attackers to exploit the system, leading to potential full access or denial-of-service attacks. Key Points: - CVSS score of 8.7 indicates high severity risks. - Vulnerabilities include improper restriction of operations and input validation issues. - Firmware updates are crucial for mitigating these vulnerabilities. ABB has reported critical vulnerabilities affecting its MV Drives, specifically within the CODESYS Runtime System. These issues arise from improper restrictions and input validation flaws that, if exploited, could grant attackers full access to the drives or result in denial-of-service scenarios. The identified vulnerabilities have been classified under CVEs, with CVE-2022-4046 and several instances of CVE-2023-375XX all highlighting severe risks that could impact industrial operations worldwide. The implications of these vulnerabilities underscore the necessity for urgent action; ABB is urging users to apply the latest firmware updates to protect their systems. While these vulnerabilities pose a potent risk to critical manufacturing infrastructures, ABB has also provided guidelines for enhanced network security and operational practices, such as disabling unnecessary communication options. It is vital for facilities employing ABB MV Drives to ensure rigorous security measures are in place to safeguard against potential exploitation, particularly in environments reliant on automated control systems. What steps are you taking to secure your industrial control systems against vulnerabilities like those affecting ABB MV Drives? Learn More: CISA Want to stay updated on the latest cyber threats? Subscribe to /r/PwnHub",
+    "clean_comments": [
+      "Level 0: Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem. Stay updated on zero-days, exploits, hacker tools, and the latest cybersecurity drama. Whether you’re red team, blue team, or just here for the chaos—dive in and stay ahead. Stay sharp. Stay secure. Subscribe and join us for daily posts! I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns."
+    ]
   }
 ]
