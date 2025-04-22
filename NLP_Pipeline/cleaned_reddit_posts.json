@@ -3308,5 +3308,33 @@
     "timestamp": "2025-04-22T04:16:19",
     "clean_text": "CVE Alert: CVE-2025-3841 A vulnerability, which was classified as problematic, was found in wix-incubator jam up to e87a6fd85cf8fb5ff37b62b2d68f917219d07ae9. This affects an unknown part of the file jam.py of the component Jinja2 Template Handler. The manipulation of the argument config[‘template’] leads to improper neutralization of special elements used in a template engine. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-40547"
+    ],
+    "cve_counts": {
+      "CVE-2023-40547": 2
+    },
+    "title": "Question about shim and sbat policys in regards to vulnerability: CVE-2023-40547",
+    "permalink": "/r/linux4noobs/comments/1k504i8/question_about_shim_and_sbat_policys_in_regards/",
+    "timestamp": "2025-04-22T07:01:34",
+    "clean_text": "Question about shim and sbat policys in regards to vulnerability: CVE-2023-40547 Hello! I used to dualboot Ubuntu 24.02.4 LTS with Windows 11. Decided to completely remove Windows and was greeted with the ”Verifying shim SBAT data failed: Security Policy Violation”message. After disabling secureboot and reinstalling Ubuntu 24.02.2 LTS I was finally able to boot into linux again with secure boot enabled. Now to my question: As I understand it, Microsoft released an update to mitigate the Shim vulnerability tracked as: CVE-2023-40547 which caused many Linux distros using the vulnerable Shim version to get blocked in Shims own revocations list. I have checked my current Shim version which reports version 15.8, so far so good. (As I understand it, this is the latest version). However, I seem to still be using an old Shim revocations list. Command: mokutil —list-sbat-revocations gives me the following output: sbat,1,2023012900 shim,2 grub,3 grub.debian,4 However, Isn’t the new revocations list as follows: sbat,1,2024010900 shim,4 grub,3 grub.debian,4 How do I update the shim revocations list to the latest version? Should that not be included in the latest shim version by default?",
+    "clean_comments": [
+      "Level 0: There's a [resources page](http://www.reddit.com/r/linux4noobs/wiki/faq) in our wiki you might find useful! Try [this search](https://www.reddit.com/r/linux4noobs/search?q=flair%3A'learning%2Fresearch'&sort=new&restrict_sr=on) for more information on this topic. **✻** Smokey says: take regular backups, try stuff in a VM, and understand every command *before* you press Enter! :) ^Comments, ^questions ^or ^suggestions ^regarding ^this ^autoresponse? ^Please ^send ^them ^[here](https://www.reddit.com/message/compose/?to=Pi31415926&subject=autoresponse+tweaks+-+linux4noobs+-+research). *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/linux4noobs) if you have any questions or concerns.*"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-30406"
+    ],
+    "cve_counts": {
+      "CVE-2025-30406": 2
+    },
+    "title": "Gladinet Vulnerability Opening CenteStaack and Triofox.",
+    "permalink": "/r/msp/comments/1k4zqm4/gladinet_vulnerability_opening_centestaack_and/",
+    "timestamp": "2025-04-22T06:35:39",
+    "clean_text": "Gladinet Vulnerability Opening CenteStaack and Triofox. On April 3, 2025, Gladinet disclosed a vulnerability, CVE-2025-30406 (CVSS 9.8), impacting CentreStack and Triofox servers. The vulnerability is a deserialization vulnerability due to the CentreStack and Triofox portal's hardcoded machineKey use. The vulnerability impacts Gladinet CentreStack through version 16.1.10296.56315 and TrioFox below version 16.4.10317.56372. **Is there active exploitation at the time of writing?** At the time of writing (April 21, 2025), Blackpoint’s SOC has observed exploitation of this vulnerability against versions of CentreStack, including some that are fully patched. There is an even chance the patch for CVE-2025-30406 is failing to automatically rotate machineKey’s, which leaves these applications vulnerable. Exploitation of this deserialization vulnerability provides a threat actor remote code execution against the host running CentraStack or Triofox. Threat actors are leveraging this remote execution to enumerate the targeted host and Active Directory Environment. After enumeration, the Blackpoint SOC has observed threat actors that utilize access to remotely execute malicious payloads in memory amongst the following: * Read out /etc/hosts * Read out boot.ini * Read out configuration files * Enumerate domain computers, users, admins, trusts * Enumerate available shares * Enumerate current user and user’s role in domain * Enumerate network information * Enumerate running processes * Read out SAM Hive * Download and execute malicious stagers in memory The vulnerability has been reported to be actively exploited since at least March 2025; the vulnerability was added to the U.S. CISA’s Known Exploited Vulnerabilities (KEV) Catalog on April 08, 2025. **Indicators observed:** * portal.config * d27486c15c08cbd3ebe4de878995e4beae05f5f0824434a8bbf3a4c6362bf9a6 * 92.119.197\\[.\\]3 * c5ae011a.log.cdncache\\[.\\]rr\\[.\\]nu **Recommendations** * Immediate Action: Apply the latest CentreStack and Triofox server updates to ensure the vulnerability is patched; verify the machineKey was rotated. * If patching is not immediately available (or the patch did not rotate the machinekey), ensure to manually rotate the machineKey (Update machine Key). * Audit logs for indications of access, including logs for access to /portal/script endpoints. * Limit external access to CentreStack interfaces wherever possible. * Actively monitor for suspicious deserialization activities.",
+    "clean_comments": []
   }
 ]
