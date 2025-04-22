@@ -21,7 +21,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install praw requests beautifulsoup4
+        run: pip install praw requests beautifulsoup4 emoji
 
       - name: Run scraper
         working-directory: ./Reddit_Scraper
