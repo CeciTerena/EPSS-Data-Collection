@@ -86,8 +86,9 @@ def scrape():
         cve_pattern = re.compile(r"CVE-\d{4}-\d{4,7}", re.IGNORECASE)
         text = submission.title + " " + submission.selftext
         cve_matches = cve_pattern.findall(text)
-        cves = list(set(match.upper() for match in cve_matches))
-        cve_counts = dict(Counter(cve_matches))
+        normalized = [match.upper() for match in cve_matches]
+        cves = list(set(normalized))
+        cve_counts = dict(Counter(normalized))
         if cve_matches:
             timestamp = datetime.fromtimestamp(submission.created_utc).isoformat()
             

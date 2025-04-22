@@ -41,7 +41,7 @@ jobs:
           git config --global user.email 'actions@github.com'
           
           FILE1="Reddit_Scraper/reddit_cve_posts.json"
-          FILE2="NLP_Pipeline/cleaned_reddit_posts.json"
+          FILE2="Source_Files/cleaned_reddit_posts.json"
           CHANGED=false
 
           if [ -f "$FILE1" ]; then

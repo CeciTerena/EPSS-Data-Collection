@@ -1,9 +1,60 @@
 import json
 import os
+import re
+import html
+import emoji
+
+md_link_ref = re.compile(r"\[([^\]]+?)\]\(((?:https?://|mailto:)[^\s)]+)\)")
+url_ref = re.compile(r"(https?://\S+|www\.\S+)")
+
+cve_re = re.compile(r"\b(cve-\d{4}-\d{4,})\b", re.IGNORECASE)
+
+code_block_re = re.compile(r"```[\s\S]*?```")  
+md_punctuation_re = re.compile(r"(\*\*|\*|__|_|~~|`)(.*?)\1")
+heading_hash_re = re.compile(r"^#{1,6}\s+", re.MULTILINE) 
+excess_punctuation_re = re.compile(r"([^\w\s])\1{2,}") 
+# emoji_re = re.compile(
+#     "["                       
+#     u"\U0001F600-\U0001F64F"  
+#     u"\U0001F300-\U0001F5FF"  
+#     u"\U0001F680-\U0001F6FF"  
+#     u"\U0001F1E6-\U0001F1FF"  
+#     u"\U00002700-\U000027BF"  
+#     u"\U000024C2-\U0001F251"  
+#     u"\u2600-\u26FF"          
+#     u"\u2700-\u27BF"          
+#     "]+",
+#     re.UNICODE,
+# )
+excess_emoji_re = re.compile("[🧵🔥🚨🕵️]")
+    
+def remove_emojis(text):
+    return ''.join(char for char in text if char not in emoji.EMOJI_DATA)
+
+def normalize_extra_tokens(text: str) -> str:
+    
+    text = cve_re.sub(lambda m: m.group(1).upper(), text)  # Normalize CVE casing
+    
+    text = html.unescape(text)
+    text = code_block_re.sub(" <CODE> ", text)
+    text = md_punctuation_re.sub(r"\2", text)
+    text = heading_hash_re.sub("", text)
+    text = excess_punctuation_re.sub(r"\1", text)
+    text = remove_emojis(text)
+    text = excess_emoji_re.sub("", text)
+    
+    return re.sub(r"\s+", " ", text).strip()
+
+def strip_links(text: str) -> str:
+    text = md_link_ref.sub(r"\1", text)
+    return url_ref.sub(" <URL> ", text)
 
 def clean_text_field(text):
     if text in ["", "...", None]:
         return None
+    
+    text = strip_links(text)
+    text = normalize_extra_tokens(text)
     lines = text.splitlines()
     clean_lines = [line.lstrip("> ").strip() for line in lines if line.strip()]
     return " ".join(clean_lines)
@@ -71,7 +122,7 @@ def update_cleaned_file(source_file, target_file):
             processed = process_post(post)
             cleaned_lookup[permalink] = processed
             new_posts.append(processed)
-    
+
     total_cleaned = list(cleaned_lookup.values())
     
     with open(target_file, "w", encoding="utf-8") as f:
@@ -79,10 +130,9 @@ def update_cleaned_file(source_file, target_file):
     
     print(f"Old count: {existing_count}. Found {len(new_posts)} new posts. Total cleaned posts: {len(total_cleaned)}")
 
-
-
 # -----------------------------------------------------------
-source_file = "../Reddit_Scraper/reddit_cve_posts.json"
-cleaned_file = "cleaned_reddit_posts.json"
+source_file = "../Reddit_Scraper/reddit_cve_posts.json"  
+# cleaned_file = "cleaned_reddit_posts.json"
+cleaned_file = "../Source_Files/cleaned_reddit_posts.json"
 
 update_cleaned_file(source_file, cleaned_file)
