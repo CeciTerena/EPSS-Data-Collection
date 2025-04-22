@@ -3563,5 +3563,18 @@
     "clean_comments": [
       "Level 0: There’s a bug where it doesn’t fetch updates that change severity properly, so try deleting CVE_CHECK in your download directory and try again."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-32433"
+    ],
+    "cve_counts": {
+      "CVE-2025-32433": 1
+    },
+    "title": "Erlang/OTP SSH Server Remote Code Execution Vulnerability (CVE-2025-32433)",
+    "permalink": "/r/fofa_info/comments/1k5jt0y/erlangotp_ssh_server_remote_code_execution/",
+    "timestamp": "2025-04-22T22:42:01",
+    "clean_text": "Erlang/OTP SSH Server Remote Code Execution Vulnerability (CVE-2025-32433)",
+    "clean_comments": []
   }
 ]

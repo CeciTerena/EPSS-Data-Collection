@@ -4499,5 +4499,19 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-32433"
+    ],
+    "cve_counts": {
+      "CVE-2025-32433": 1
+    },
+    "title": "Erlang/OTP SSH Server Remote Code Execution Vulnerability (CVE-2025-32433)",
+    "text": "",
+    "permalink": "/r/fofa_info/comments/1k5jt0y/erlangotp_ssh_server_remote_code_execution/",
+    "timestamp": "2025-04-22T22:42:01",
+    "article_text": null,
+    "comments": []
   }
 ]
