@@ -4513,5 +4513,19 @@
     "timestamp": "2025-04-22T22:42:01",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1731"
+    ],
+    "cve_counts": {
+      "CVE-2025-1731": 1
+    },
+    "title": "Local privilege escalation on Zyxel USG FLEX H Series (CVE-2025-1731)",
+    "text": "",
+    "permalink": "/r/netsec/comments/1k5roqe/local_privilege_escalation_on_zyxel_usg_flex_h/",
+    "timestamp": "2025-04-23T05:37:52",
+    "article_text": null,
+    "comments": []
   }
 ]
