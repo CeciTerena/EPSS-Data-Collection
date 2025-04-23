@@ -4637,5 +4637,19 @@
     "timestamp": "2025-04-23T12:07:09",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30401"
+    ],
+    "cve_counts": {
+      "CVE-2025-30401": 2
+    },
+    "title": "WhatsApp for Windows flaw (CVE-2025-30401) allowed remote code execution via spoofed files",
+    "text": "Meta recently patched a high-severity vulnerability in WhatsApp for Windows (CVE-2025-30401) that allowed attackers to execute malicious code on a target’s machine by sending spoofed file types.  \nThe exploit didn’t require the user to do anything beyond opening what looked like a harmless file. This makes it particularly dangerous for less tech-savvy users and internal teams not trained in threat detection.  \n  \nWhat is known:  \n\\- Affected all WhatsApp for Windows versions prior to 2.2450.6  \n\\- Exploited using specially crafted files with manipulated extensions  \n\\- Meta confirmed active exploitation before the patch was issued  \n  \nIt’s a reminder that even popular desktop apps can become threat vectors when spoofing and user trust intersect.  \nWere you or someone you know affected by this?  \nOr have you seen this exploited in the wild in an org you work with?",
+    "permalink": "/r/cybersecurity/comments/1k633xx/whatsapp_for_windows_flaw_cve202530401_allowed/",
+    "timestamp": "2025-04-23T16:11:42",
+    "article_text": null,
+    "comments": []
   }
 ]
