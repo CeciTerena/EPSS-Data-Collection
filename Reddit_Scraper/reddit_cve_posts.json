@@ -4555,5 +4555,53 @@
     "timestamp": "2025-04-23T07:32:19",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32950"
+    ],
+    "cve_counts": {
+      "CVE-2025-32950": 1
+    },
+    "title": "CVE Alert: CVE-2025-32950",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k5vhug/cve_alert_cve202532950/",
+    "timestamp": "2025-04-23T10:08:20",
+    "article_text": "Jmix is a set of libraries and tools to speed up Spring Boot data-centric application development. In versions 1.0.0 to 1.6.1 and 2.0.0 to 2.3.4, attackers could manipulate the FileRef parameter to access files on the system where the Jmix application is deployed, provided the application server has the necessary permissions. This can be accomplished either by modifying the FileRef directly in the database or by supplying a harmful value in the fileRef parameter of the `/files` endpoint of the generic REST API. This issue has been patched in versions 1.6.2 and 2.4.0. A workaround is provided on the Jmix documentation website.",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27889",
+      "CVE-2025-33028",
+      "CVE-2025-24071",
+      "CVE-2025-21204",
+      "CVE-2025-32434",
+      "CVE-2025-31201",
+      "CVE-2025-2492",
+      "CVE-2025-42599",
+      "CVE-2024-8811",
+      "CVE-2024-53104",
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-31201": 2,
+      "CVE-2025-21204": 2,
+      "CVE-2025-2492": 2,
+      "CVE-2025-24071": 2,
+      "CVE-2025-32434": 2,
+      "CVE-2025-42599": 2,
+      "CVE-2025-33028": 2,
+      "CVE-2024-8811": 1,
+      "CVE-2024-53104": 2,
+      "CVE-2025-27889": 2,
+      "CVE-2025-24054": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (23/04/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-31201](https://nvd.nist.gov/vuln/detail/CVE-2025-31201)**\n\n- 📝 This issue was addressed by removing the vulnerable code. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 6.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 24\n- ⚠️ **Priority:** 1+\n\n---\n\n**2. [CVE-2025-21204](https://nvd.nist.gov/vuln/detail/CVE-2025-21204)**\n\n- 📝 Windows Process Activation Elevation of Privilege Vulnerability\n\n- 📅 **Published:** 08/04/2025\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C\n- 📣 **Mentions:** 32\n- ⚠️ **Priority:** 2\n\n---\n\n**3. [CVE-2025-2492](https://nvd.nist.gov/vuln/detail/CVE-2025-2492)**\n\n- 📝 An improper authentication control vulnerability exists in AiCloud. This vulnerability can be triggered by a crafted request, potentially leading to unauthorized execution of functions. Refer to the ASUS Router AiCloud vulnerability section on the ASUS Security Advisory for more information.\n\n- 📅 **Published:** 18/04/2025\n- 📈 **CVSS:** 9.2\n- 🧭 **Vector:** CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:L/SC:N/SI:N/SA:N\n- 📣 **Mentions:** 15\n- ⚠️ **Priority:** 0\n\n---\n\n**4. [CVE-2025-24071](https://nvd.nist.gov/vuln/detail/CVE-2025-24071)**\n\n- 📝 Microsoft Windows File Explorer Spoofing Vulnerability\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 6.5\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C\n- 📣 **Mentions:** 19\n- ⚠️ **Priority:** 2\n\n---\n\n**5. [CVE-2025-32434](https://nvd.nist.gov/vuln/detail/CVE-2025-32434)**\n\n- 📝 PyTorch is a Python package that provides tensor computation with strong GPU acceleration and deep neural networks built on a tape-based autograd system. In version 2.5.1 and prior, a Remote Command Execution (RCE) vulnerability exists in PyTorch when loading a model using torch.load with weights_only=True. This issue has been patched in version 2.6.0.\n\n- 📅 **Published:** 18/04/2025\n- 📈 **CVSS:** 9.3\n- 🧭 **Vector:** CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N\n- 📣 **Mentions:** 6\n- ⚠️ **Priority:** 4\n\n---\n\n**6. [CVE-2025-42599](https://nvd.nist.gov/vuln/detail/CVE-2025-42599)**\n\n- 📝 Active! mail 6 BuildInfo: 6.60.05008561 and earlier contains a stack-based buffer overflow vulnerability. Receiving a specially crafted request created and sent by a remote unauthenticated attacker may lead to arbitrary code execution and/or a denial-of-service (DoS) condition.\n\n- 📅 **Published:** 18/04/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 6\n- ⚠️ **Priority:** 4\n\n---\n\n**7. [CVE-2025-33028](https://nvd.nist.gov/vuln/detail/CVE-2025-33028)**\n\n- 📝 In WinZip through 29.0, there is a Mark-of-the-Web Bypass Vulnerability because of an incomplete fix for CVE-2024-8811. This vulnerability allows attackers to bypass the Mark-of-the-Web protection mechanism on affected installations of WinZip. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the handling of archived files. When extracting files from a crafted archive that bears the Mark-of-the-Web, WinZip does not propagate the Mark-of-the-Web to the extracted files. An attacker can leverage this vulnerability to execute arbitrary code in the context of the current user.\n\n- 📅 **Published:** 15/04/2025\n- 📈 **CVSS:** 6.1\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N\n- 📣 **Mentions:** 5\n- ⚠️ **Priority:** 2\n\n---\n\n**8. [CVE-2024-53104](https://nvd.nist.gov/vuln/detail/CVE-2024-53104)**\n\n- 📝 In the Linux kernel, the following vulnerability has been resolved: media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format This can lead to out of bounds writes since frames of this type were not taken into account when calculating the size of the frames buffer in uvc_parse_streaming.\n\n- 📅 **Published:** 02/12/2024\n- 📈 **CVSS:** 7.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 87\n- ⚠️ **Priority:** 1+\n\n---\n\n**9. [CVE-2025-27889](https://nvd.nist.gov/vuln/detail/CVE-2025-27889)**\n\n- 📝 n/a\n\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\n**10. [CVE-2025-24054](https://nvd.nist.gov/vuln/detail/CVE-2025-24054)**\n\n- 📝 NTLM Hash Disclosure Spoofing Vulnerability\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 6.5\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C\n- 📣 **Mentions:** 36\n- ⚠️ **Priority:** 1+\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from [CVE_Prioritizer](https://github.com/TURROKS/CVE_Prioritizer).",
+    "permalink": "/r/CVEWatch/comments/1k5ve1w/top_10_trending_cves_23042025/",
+    "timestamp": "2025-04-23T10:01:35",
+    "article_text": null,
+    "comments": []
   }
 ]
