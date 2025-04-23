@@ -3746,5 +3746,18 @@
     "timestamp": "2025-04-23T20:08:20",
     "clean_text": "CVE Alert: CVE-2024-11299 The Memberpress plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.11.37 via the WordPress core search feature. This makes it possible for unauthenticated attackers to extract sensitive data from posts that have been restricted to higher-level roles such as administrator.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2017-0144"
+    ],
+    "cve_counts": {
+      "CVE-2017-0144": 1
+    },
+    "title": "¿QUÉ ES UN #CVE? 🔓 ¿Y POR QUÉ ES CLAVE EN #CIBERSEGURIDAD ? 🌎",
+    "permalink": "/r/www_cybersecurity/comments/1k6c010/qué_es_un_cve_y_por_qué_es_clave_en_ciberseguridad/",
+    "timestamp": "2025-04-23T22:12:48",
+    "clean_text": "¿QUÉ ES UN #CVE? 🔓 ¿Y POR QUÉ ES CLAVE EN #CIBERSEGURIDAD ? 🌎 ¿Alguna vez viste un código como CVE-2017-0144 y no entendiste nada? No te preocupes, no solo a ti te pasó. En este video te explico qué es un #CVE, por qué todos los expertos en \\#ciberseguridad lo usan, y cómo puedes aprender a interpretarlos en #inglés sin fallar en el intento.",
+    "clean_comments": []
   }
 ]
