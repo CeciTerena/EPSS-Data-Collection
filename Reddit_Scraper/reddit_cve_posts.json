@@ -4603,5 +4603,39 @@
     "timestamp": "2025-04-23T10:01:35",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20109",
+      "CVE-2024-45332",
+      "CVE-2024-52880",
+      "CVE-2024-24582",
+      "CVE-2024-7344",
+      "CVE-2024-52877",
+      "CVE-2024-38796",
+      "CVE-2024-43420",
+      "CVE-2024-52878",
+      "CVE-2024-52879",
+      "CVE-2025-20047"
+    ],
+    "cve_counts": {
+      "CVE-2024-7344": 1,
+      "CVE-2024-24582": 1,
+      "CVE-2024-38796": 1,
+      "CVE-2024-52877": 1,
+      "CVE-2024-52878": 1,
+      "CVE-2024-52879": 1,
+      "CVE-2024-52880": 1,
+      "CVE-2025-20047": 1,
+      "CVE-2025-20109": 1,
+      "CVE-2024-45332": 1,
+      "CVE-2024-43420": 1
+    },
+    "title": "New BIOS update Yoga Pro 9i gen 9 - NKCN31WW",
+    "text": "TLDR : nothing amazing, CVE security updates.\n\nInfo / download here [https://pcsupport.lenovo.com/fr/en/products/laptops-and-netbooks/yoga-series/yoga-pro-9-16imh9/83dn/83dncto1ww/pf4zmrwe/downloads/ds568327-bios-update-for-windows-11-64-bit-yoga-pro-9-16imh9?category=BIOS%2FUEFI](https://pcsupport.lenovo.com/fr/en/products/laptops-and-netbooks/yoga-series/yoga-pro-9-16imh9/83dn/83dncto1ww/pf4zmrwe/downloads/ds568327-bios-update-for-windows-11-64-bit-yoga-pro-9-16imh9?category=BIOS%2FUEFI)\n\nPatch notes : \n\nVersion General Information: NKCN31WW:\n\nBIOS Notification    :\n\n\\-- 1. Fixed\n\n  1) N/A. \n\n\\-- 2. Add\n\n  1) Support 4 characters country code in SMBIOS type11. \n\n\\-- 3. Modified\n\n  1) Enhancement to address security vulnerability CVE-2024-7344.\n\n  2) Enhancement to address security vulnerability CVE-2024-24582. \n\n  3) Enhancement to address security vulnerability CVE-2024-38796. \n\n  4) Enhancement to address security vulnerability CVE-2024-52877 CVE-2024-52878 CVE-2024-52879 CVE-2024-52880.\n\n  5) Enhancement to address security vulnerability CVE-2025-20047.\n\n  6) Enhancement to address security vulnerability CVE-2025-20109 CVE-2024-45332 CVE-2024-43420. \n\n",
+    "permalink": "/r/YogaPro9i/comments/1k5xhor/new_bios_update_yoga_pro_9i_gen_9_nkcn31ww/",
+    "timestamp": "2025-04-23T12:07:09",
+    "article_text": null,
+    "comments": []
   }
 ]
