@@ -3589,5 +3589,31 @@
     "timestamp": "2025-04-23T05:37:52",
     "clean_text": "Local privilege escalation on Zyxel USG FLEX H Series (CVE-2025-1731)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32433"
+    ],
+    "cve_counts": {
+      "CVE-2025-32433": 1
+    },
+    "title": "Unauthenticated Remote Code Execution in Erlang/OTP SSH (CVE-2025-32433)",
+    "permalink": "/r/systemtek/comments/1k5teo2/unauthenticated_remote_code_execution_in/",
+    "timestamp": "2025-04-23T07:37:51",
+    "clean_text": "Unauthenticated Remote Code Execution in Erlang/OTP SSH (CVE-2025-32433)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32433"
+    ],
+    "cve_counts": {
+      "CVE-2025-32433": 1
+    },
+    "title": "Multiple Cisco Products Unauthenticated Remote Code Execution in Erlang/OTP SSH Server (CVE-2025-32433)",
+    "permalink": "/r/systemtek/comments/1k5tbxw/multiple_cisco_products_unauthenticated_remote/",
+    "timestamp": "2025-04-23T07:32:19",
+    "clean_text": "Multiple Cisco Products Unauthenticated Remote Code Execution in Erlang/OTP SSH Server (CVE-2025-32433)",
+    "clean_comments": []
   }
 ]
