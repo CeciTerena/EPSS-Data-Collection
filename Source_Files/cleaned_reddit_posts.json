@@ -3720,5 +3720,31 @@
     "timestamp": "2025-04-23T18:21:58",
     "clean_text": "CVE-2025-3248: RCE vulnerability in Langflow",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32433"
+    ],
+    "cve_counts": {
+      "CVE-2025-32433": 2
+    },
+    "title": "New Recent Threat Room! 🚨 CVE-2025-32433 in Erlang/OTP SSH = unauth RCE with a CVSS 10.0 😱",
+    "permalink": "/r/tryhackme/comments/1k69mo7/new_recent_threat_room_cve202532433_in_erlangotp/",
+    "timestamp": "2025-04-23T20:34:18",
+    "clean_text": "New Recent Threat Room! 🚨 CVE-2025-32433 in Erlang/OTP SSH = unauth RCE with a CVSS 10.0 😱 New Recent Threat Room! CVE-2025-32433 in Erlang/OTP SSH = unauth RCE with a CVSS 10.0 Learn how this vuln affects distributed systems built with Erlang - then exploit it hands-on <URL> <URL>",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-11299"
+    ],
+    "cve_counts": {
+      "CVE-2024-11299": 1
+    },
+    "title": "CVE Alert: CVE-2024-11299",
+    "permalink": "/r/RedPacketSecurity/comments/1k6901j/cve_alert_cve202411299/",
+    "timestamp": "2025-04-23T20:08:20",
+    "clean_text": "CVE Alert: CVE-2024-11299 The Memberpress plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.11.37 via the WordPress core search feature. This makes it possible for unauthenticated attackers to extract sensitive data from posts that have been restricted to higher-level roles such as administrator.",
+    "clean_comments": []
   }
 ]

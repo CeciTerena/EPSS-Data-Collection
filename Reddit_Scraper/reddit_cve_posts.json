@@ -4665,5 +4665,33 @@
     "timestamp": "2025-04-23T18:21:58",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32433"
+    ],
+    "cve_counts": {
+      "CVE-2025-32433": 2
+    },
+    "title": "New Recent Threat Room! 🚨 CVE-2025-32433 in Erlang/OTP SSH = unauth RCE with a CVSS 10.0 😱",
+    "text": "New Recent Threat Room! 🚨 CVE-2025-32433 in Erlang/OTP SSH = unauth RCE with a CVSS 10.0 😱Learn how this vuln affects distributed systems built with Erlang - then exploit it hands-on 🔍 💥\n\n[https://tryhackme.com/room/erlangotpsshcve202532433](https://tryhackme.com/room/erlangotpsshcve202532433)\n\nhttps://preview.redd.it/l08ohxelanwe1.png?width=638&format=png&auto=webp&s=7970332559fafc53deb37d668ec76d311c73aa7b",
+    "permalink": "/r/tryhackme/comments/1k69mo7/new_recent_threat_room_cve202532433_in_erlangotp/",
+    "timestamp": "2025-04-23T20:34:18",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-11299"
+    ],
+    "cve_counts": {
+      "CVE-2024-11299": 1
+    },
+    "title": "CVE Alert: CVE-2024-11299",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k6901j/cve_alert_cve202411299/",
+    "timestamp": "2025-04-23T20:08:20",
+    "article_text": "The Memberpress plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 1.11.37 via the WordPress core search feature. This makes it possible for unauthenticated attackers to extract sensitive data from posts that have been restricted to higher-level roles such as administrator.",
+    "comments": []
   }
 ]
