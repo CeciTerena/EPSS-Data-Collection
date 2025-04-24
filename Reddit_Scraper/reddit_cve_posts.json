@@ -4909,5 +4909,19 @@
     "timestamp": "2025-04-24T17:45:25",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1048"
+    ],
+    "cve_counts": {
+      "CVE-2025-1048": 1
+    },
+    "title": "CVE Alert: CVE-2025-1048",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k721gh/cve_alert_cve20251048/",
+    "timestamp": "2025-04-24T20:08:22",
+    "article_text": "Sonos Era 300 Speaker libsmb2 Use-After-Free Remote Code Execution Vulnerability. This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Sonos Era 300 speakers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the processing of SMB data. The issue results from the lack of validating the existence of an object prior to performing operations on the object. An attacker can leverage this vulnerability to execute code in the context of the anacapa user. Was ZDI-CAN-25535.",
+    "comments": []
   }
 ]
