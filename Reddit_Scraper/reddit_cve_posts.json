@@ -4867,5 +4867,47 @@
     "timestamp": "2025-04-24T16:28:34",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22234"
+    ],
+    "cve_counts": {
+      "CVE-2025-22234": 4
+    },
+    "title": "Medium Severity: Spring Security CVE-2025-22234",
+    "text": "Just wanted to give everyone a heads-up about a new Spring Security vulnerability (CVE-2025-22234) that was published on April 22nd.\n\nIt's a medium severity issue affecting the timing attack protection in Spring's authentication mechanisms. The problem happens with BCryptPasswordEncoder when processing passwords longer than 72 characters - it now throws an exception that could potentially allow attackers to determine valid usernames in your system.\n\nIf you're using Spring Security versions 5.7.16, 5.8.18, 6.0.16, 6.1.14, 6.2.10, 6.3.8, or 6.4.4, make sure to upgrade to the patched versions.\n\nStay secure, folks! \n\nLearn More here: [https://www.herodevs.com/vulnerability-directory/cve-2025-22234](https://www.herodevs.com/vulnerability-directory/cve-2025-22234)",
+    "permalink": "/r/OSS_EOL/comments/1k6z3jz/medium_severity_spring_security_cve202522234/",
+    "timestamp": "2025-04-24T18:09:41",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32818"
+    ],
+    "cve_counts": {
+      "CVE-2025-32818": 1
+    },
+    "title": "NSM 3.0 - How to get?",
+    "text": "Anyone's account show 3.0 yet?  I am still at 2.6.7.\n\nI would like to update FW's due to CVE-2025-32818, but notes say I need NSM 3.0.",
+    "permalink": "/r/sonicwall/comments/1k6yzgi/nsm_30_how_to_get/",
+    "timestamp": "2025-04-24T18:05:10",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-34028"
+    ],
+    "cve_counts": {
+      "CVE-2025-34028": 1
+    },
+    "title": "Fire In The Hole, We’re Breaching The Vault - Commvault Remote Code Execution (CVE-2025-34028)",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1k6yhjb/fire_in_the_hole_were_breaching_the_vault/",
+    "timestamp": "2025-04-24T17:45:25",
+    "article_text": null,
+    "comments": []
   }
 ]
