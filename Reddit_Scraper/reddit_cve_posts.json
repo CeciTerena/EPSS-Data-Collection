@@ -4825,5 +4825,33 @@
     "timestamp": "2025-04-24T09:43:30",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2007-4475"
+    ],
+    "cve_counts": {
+      "CVE-2007-4475": 1
+    },
+    "title": "1329703 - ECL Viewer 6.0 Patch 2 (security update)",
+    "text": "**Symptom**\n\nSecurity vulnerability in `MonikerUtil_dll.dll` which can be exploitable through `WebViewer3D.dll`. The previous security patch for ECL Viewer (see [SAP note 1153794](https://me.sap.com/notes/1153794)) did not solve the vulnerability for all potential attack vectors.\n\n**Other Terms**\n\nCVE-2007-4475, US-CERT, VU#985449, CERT/CC, Secunia, SA34559  \nECL Viewer 6.0, Security, MonikerUtil_dll.dll, WebViewer3D.dll, kill bit\n\n**Reason and Prerequisites**\n\nYou have set the kill-bits as described in [SAP note 1153794](https://me.sap.com/notes/1153794), but it has been discovered that the kill-bit is not sufficient to protect against all potential attacks. Only by patching the ECL Viewer with Patch 2 will the system be protected from any other attack vectors.\n\nWe are currently not aware of a possibility to exploit any of the other attack vectors, but due to the public knowledge about this issue, it may only be a question of time until an exploitable attack vector is discovered.  \nThe vulnerability may be exploited for anonymous remote code execution.  \nIf you are using any older version of ECL Viewer, it is suggested that you upgrade to ECL Viewer 6.0 with the latest patch (Patch #2).\n\n**Solution**\n\nThis security vulnerability has been fixed with Patch 2. You can download it from the [SAP Service Marketplace](https://me.sap.com/) using the following steps:\n\n1. Visit [SAP Service Marketplace](https://me.sap.com/).\n2. Select **Support Packages and Patches**.\n3. Navigate through the following path:\n   - Supplementary Components for Cross Industry Solutions\n   - Life-Cycle Data Management\n   - ECL VIEWER\n   - ECL VIEWER 6.0\n   - Win32\n\nHere you will find Patch 2 for ECL Viewer 6.0.  \nThe patch will replace the affected DLLs with versions that include the fix for the security vulnerability.\n\n**Download Links:**\n- [Download for SNOTE](https://notesdownloads.sap.com/note/0040000016773632017)\n- [PDF Version](https://userapps.support.sap.com/sap/support/sfm/notes/print/0001329703?language=en-US&token=6FD8F32FC52CF5FC85ABB9A99C0EA339)\n\n*Credits to [RedRays](https://redrays.io) for support to provided information.*",
+    "permalink": "/r/sap_security/comments/1k6rrkf/1329703_ecl_viewer_60_patch_2_security_update/",
+    "timestamp": "2025-04-24T13:07:47",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 2
+    },
+    "title": "🔍 Inside CVE-2025-24054: Purple Team Attack Breakdown",
+    "text": "In this week’s episode of “The Weekly Purple Team,” we deep-dive into CVE-2025-24054, which can be exploited by unzipping or touching a library-ms file. Threat actors have actively used this exploit, which is pretty novel. Check it out!",
+    "permalink": "/r/redteamsec/comments/1k6rh7x/inside_cve202524054_purple_team_attack_breakdown/",
+    "timestamp": "2025-04-24T12:54:17",
+    "article_text": null,
+    "comments": []
   }
 ]
