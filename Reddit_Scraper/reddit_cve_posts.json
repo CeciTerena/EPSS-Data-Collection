@@ -4737,5 +4737,19 @@
     "timestamp": "2025-04-24T00:08:17",
     "article_text": "Improper Neutralization of Special Elements used in an SQL Command (‘SQL Injection’) vulnerability in kofimokome Message Filter for Contact Form 7 allows SQL Injection. This issue affects Message Filter for Contact Form 7: from n/a through 1.6.3.2.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-25646"
+    ],
+    "cve_counts": {
+      "CVE-2021-25646": 1
+    },
+    "title": "Attack campaigns abusing CVE-2021-25646 to drop #cryptominers into K8s envs",
+    "text": "This CVE impacts Apache Druid, where an authenticated user can craft a request that forces the server to execute arbitrary JavaScript — even when scripting is disabled. It effectively enables remote code execution with the privileges of the Druid process.",
+    "permalink": "/r/CloudSecurityPros/comments/1k6lgs3/attack_campaigns_abusing_cve202125646_to_drop/",
+    "timestamp": "2025-04-24T06:27:58",
+    "article_text": null,
+    "comments": []
   }
 ]
