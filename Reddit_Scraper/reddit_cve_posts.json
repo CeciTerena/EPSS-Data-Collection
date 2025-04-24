@@ -4853,5 +4853,19 @@
     "timestamp": "2025-04-24T12:54:17",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22234"
+    ],
+    "cve_counts": {
+      "CVE-2025-22234": 1
+    },
+    "title": "Spring Security CVE-2025-22234 Introduces Username Enumeration Vector",
+    "text": "",
+    "permalink": "/r/netsec/comments/1k6wkya/spring_security_cve202522234_introduces_username/",
+    "timestamp": "2025-04-24T16:28:34",
+    "article_text": null,
+    "comments": []
   }
 ]

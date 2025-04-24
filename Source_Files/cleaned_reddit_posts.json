@@ -3896,5 +3896,18 @@
     "timestamp": "2025-04-24T12:54:17",
     "clean_text": "🔍 Inside CVE-2025-24054: Purple Team Attack Breakdown In this week’s episode of “The Weekly Purple Team,” we deep-dive into CVE-2025-24054, which can be exploited by unzipping or touching a library-ms file. Threat actors have actively used this exploit, which is pretty novel. Check it out!",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22234"
+    ],
+    "cve_counts": {
+      "CVE-2025-22234": 1
+    },
+    "title": "Spring Security CVE-2025-22234 Introduces Username Enumeration Vector",
+    "permalink": "/r/netsec/comments/1k6wkya/spring_security_cve202522234_introduces_username/",
+    "timestamp": "2025-04-24T16:28:34",
+    "clean_text": "Spring Security CVE-2025-22234 Introduces Username Enumeration Vector",
+    "clean_comments": []
   }
 ]
