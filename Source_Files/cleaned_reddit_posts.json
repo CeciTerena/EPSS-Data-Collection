@@ -3759,5 +3759,33 @@
     "timestamp": "2025-04-23T22:12:48",
     "clean_text": "¿QUÉ ES UN #CVE? 🔓 ¿Y POR QUÉ ES CLAVE EN #CIBERSEGURIDAD ? 🌎 ¿Alguna vez viste un código como CVE-2017-0144 y no entendiste nada? No te preocupes, no solo a ti te pasó. En este video te explico qué es un #CVE, por qué todos los expertos en \\#ciberseguridad lo usan, y cómo puedes aprender a interpretarlos en #inglés sin fallar en el intento.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1732",
+      "CVE-2025-1731"
+    ],
+    "cve_counts": {
+      "CVE-2025-1731": 1,
+      "CVE-2025-1732": 1
+    },
+    "title": "Authenticated Remote Code Execution on USG FLEX H Series (CVE-2025-1731 / CVE-2025-1732)",
+    "permalink": "/r/netsec/comments/1k6f52p/authenticated_remote_code_execution_on_usg_flex_h/",
+    "timestamp": "2025-04-24T00:39:23",
+    "clean_text": "Authenticated Remote Code Execution on USG FLEX H Series (CVE-2025-1731 / CVE-2025-1732)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-46252"
+    ],
+    "cve_counts": {
+      "CVE-2025-46252": 1
+    },
+    "title": "CVE Alert: CVE-2025-46252",
+    "permalink": "/r/RedPacketSecurity/comments/1k6eipv/cve_alert_cve202546252/",
+    "timestamp": "2025-04-24T00:08:17",
+    "clean_text": "CVE Alert: CVE-2025-46252 Improper Neutralization of Special Elements used in an SQL Command (‘SQL Injection’) vulnerability in kofimokome Message Filter for Contact Form 7 allows SQL Injection. This issue affects Message Filter for Contact Form 7: from n/a through 1.6.3.2.",
+    "clean_comments": []
   }
 ]

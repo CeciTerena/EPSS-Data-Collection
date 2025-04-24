@@ -4707,5 +4707,35 @@
     "timestamp": "2025-04-23T22:12:48",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1732",
+      "CVE-2025-1731"
+    ],
+    "cve_counts": {
+      "CVE-2025-1731": 1,
+      "CVE-2025-1732": 1
+    },
+    "title": "Authenticated Remote Code Execution on USG FLEX H Series (CVE-2025-1731 / CVE-2025-1732)",
+    "text": "",
+    "permalink": "/r/netsec/comments/1k6f52p/authenticated_remote_code_execution_on_usg_flex_h/",
+    "timestamp": "2025-04-24T00:39:23",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-46252"
+    ],
+    "cve_counts": {
+      "CVE-2025-46252": 1
+    },
+    "title": "CVE Alert: CVE-2025-46252",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k6eipv/cve_alert_cve202546252/",
+    "timestamp": "2025-04-24T00:08:17",
+    "article_text": "Improper Neutralization of Special Elements used in an SQL Command (‘SQL Injection’) vulnerability in kofimokome Message Filter for Contact Form 7 allows SQL Injection. This issue affects Message Filter for Contact Form 7: from n/a through 1.6.3.2.",
+    "comments": []
   }
 ]
