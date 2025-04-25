@@ -5083,5 +5083,63 @@
     "timestamp": "2025-04-25T13:15:19",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "Critical zero-day vulnerability in its NetWeaver platform",
+    "text": "SAP has confirmed a critical zero-day vulnerability in its NetWeaver platform, tracked as CVE-2025-31324, which is actively being exploited in the wild. This flaw allows unauthenticated attackers to upload malicious files via the /developmentserver/metadatauploader endpoint, enabling remote code execution and persistent access through JSP web shells.\n\nSecurity firm ReliaQuest observed that attackers are leveraging this vulnerability to deploy tools like the Brute Ratel C4 post-exploitation framework and techniques such as Heaven’s Gate to bypass endpoint protections. In some cases, threat actors took several days from initial access to further exploitation, suggesting the involvement of initial access brokers selling system access to other malicious groups.\n\nSAP has released a patch to address this issue, emphasizing the importance of applying updates promptly. Organizations using SAP NetWeaver are strongly advised to review their systems for signs of compromise and ensure that all security patches are up to date to mitigate potential risks. ",
+    "permalink": "/r/DarkWireSys/comments/1k7px1c/critical_zeroday_vulnerability_in_its_netweaver/",
+    "timestamp": "2025-04-25T16:57:12",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2783",
+      "CVE-2024-4671",
+      "CVE-2025-2476"
+    ],
+    "cve_counts": {
+      "CVE-2024-4671": 1,
+      "CVE-2025-2476": 1,
+      "CVE-2025-2783": 1
+    },
+    "title": "Google Chrome Faces Critical Exploits from Use-After-Free Vulnerabilities",
+    "text": "\n**Recent Use-After-Free vulnerabilities in Google Chrome have been actively exploited, posing a significant security risk to users.**\n\n**Key Points:**\n\n- Multiple Use-After-Free vulnerabilities identified in Chrome's components.\n- Active exploitation allows attackers to bypass browser defenses and execute malicious code.\n- Google has implemented new protective mechanisms, but vulnerabilities remain.\n\nGoogle Chrome has encountered serious Use-After-Free (UAF) vulnerabilities that attackers are actively exploiting in the wild. These vulnerabilities arise from improper memory management, allowing potential malicious exploitation to lead to arbitrary code execution, data leakage, or denial of service. Recent CVEs such as CVE-2024-4671, CVE-2025-2476, and CVE-2025-2783 illustrate this escalating threat, with attackers using crafted HTML or malicious webpages to trick users into compromising their systems. The implications are severe, as compromised browsers can provide unauthorized access to sensitive user data and critical system resources.\n\nIn response to these threats, Google has released urgent patches and introduced new security measures like MiraclePtr, which utilizes a smart-pointer-like strategy to prevent UAF exploitation. This approach incorporates a hidden reference counter that manages memory allocations more carefully, moving potentially dangerous areas to a quarantine space. However, it's important for users to be aware that not all components are completely safeguarded, underscoring the importance of keeping Chrome updated and practicing cautious web browsing habits. Organizations should prioritize monitoring their systems for outdated versions to mitigate risks associated with these persistent vulnerabilities.\n\nHow do you think organizations can better protect themselves from such vulnerabilities in browsers?\n\n**Learn More:** [Cyber Security News](https://cybersecuritynews.com/chrome-uaf-vulnerabilities-exploited/)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1k7p87j/google_chrome_faces_critical_exploits_from/",
+    "timestamp": "2025-04-25T16:28:38",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-0282"
+    ],
+    "cve_counts": {
+      "CVE-2025-0282": 2
+    },
+    "title": "New DslogdRAT Malware Targets Japan via Ivanti ICS Zero-Day Exploit",
+    "text": "\n**Cybersecurity experts have identified DslogdRAT malware being distributed through a newly discovered zero-day vulnerability in Ivanti Connect Secure affecting organizations in Japan.**\n\n**Key Points:**\n\n- CVE-2025-0282 is a critical vulnerability in Ivanti ICS that allowed for remote code execution.\n- DslogdRAT is being used alongside other malware in targeted espionage campaigns in Japan.\n- The exploitation of this flaw has led to a significant increase in malicious scanning activity against ICS appliances.\n\nRecently, cybersecurity researchers have raised alarms about the emergence of DslogdRAT malware, which is being deployed through a critical security flaw identified as CVE-2025-0282 in Ivanti Connect Secure. This vulnerability allowed unauthorized users to execute remote code, leading to the installation of malware and a Perl web shell within targeted systems, primarily affecting organizations in Japan in late 2024. The flaw was promptly addressed by Ivanti in January 2025, but the window of opportunity for attackers had already been exploited by cyber espionage groups, particularly a group known as UNC5337.\n\nDslogdRAT establishes communication with an external server, enabling it to send system information and execute arbitrary commands. This malware is part of a wider exploitation tactic, which has also seen other malware strains such as SPAWN being deployed. Reports indicate a surge in reconnaissance activities targeting Ivanti appliances, with suspicious scanning from over 1,000 unique IP addresses in the last 90 days, potentially indicating preparations for future attacks. The implications are severe as these attacks not only threaten the confidentiality of sensitive information but also pose a risk to the integrity of critical infrastructure in affected regions.\n\nWhat steps should organizations take to protect themselves against emerging malware threats?\n\n**Learn More:** [The Hacker News](https://thehackernews.com/2025/04/dslogdrat-malware-deployed-via-ivanti.html)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1k7p820/new_dslogdrat_malware_targets_japan_via_ivanti/",
+    "timestamp": "2025-04-25T16:28:27",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
   }
 ]
