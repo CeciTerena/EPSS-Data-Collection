@@ -4085,5 +4085,18 @@
     "timestamp": "2025-04-25T09:17:13",
     "clean_text": "DslogdRAT Malware Deployed via Ivanti ICS Zero-Day CVE-2025-0282 in Japan Attacks",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-0282"
+    ],
+    "cve_counts": {
+      "CVE-2025-0282": 1
+    },
+    "title": "DslogdRAT Malware Deployed via Ivanti ICS Zero-Day CVE-2025-0282 in Japan Attacks",
+    "permalink": "/r/InfoSecNews/comments/1k7i0k0/dslogdrat_malware_deployed_via_ivanti_ics_zeroday/",
+    "timestamp": "2025-04-25T10:54:41",
+    "clean_text": "DslogdRAT Malware Deployed via Ivanti ICS Zero-Day CVE-2025-0282 in Japan Attacks",
+    "clean_comments": []
   }
 ]
