@@ -4953,5 +4953,19 @@
     "timestamp": "2025-04-25T00:08:21",
     "article_text": "The UiCore Elements – Free Elementor widgets and templates plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the UI Counter, UI Icon Box, UI Testimonial Slider, UI Testimonial Grid, and UI Testimonial Carousel widgets in all versions up to, and including, 1.0.16 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31137"
+    ],
+    "cve_counts": {
+      "CVE-2025-31137": 1
+    },
+    "title": "React Router and the Remix’ed path",
+    "text": "Explores CVE-2025-31137 in React Router’s Express adapter, enabling cache poisoning and WAF bypass via header manipulation.\n\nhttps://zhero-web-sec.github.io/research-and-things/react-router-and-the-remixed-path\n\n\\#web #react",
+    "permalink": "/r/Kriware/comments/1k7dcsz/react_router_and_the_remixed_path/",
+    "timestamp": "2025-04-25T05:30:37",
+    "article_text": null,
+    "comments": []
   }
 ]
