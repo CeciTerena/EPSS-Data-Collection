@@ -3976,5 +3976,18 @@
     "timestamp": "2025-04-24T20:47:33",
     "clean_text": "Spring Security CVE-2025-22234 on spring-security-crypto Just saw new CVE posted and figured I'd share in case it affects any of your setups. CVE-2025-22234 (medium) dropped on April 22nd for Spring Security, and it has to do with spring-security-crypto. The fix for an earlier issue (CVE-2025-22228) broke timing attack protection in DaoAuthenticationProvider. Looks like if you’re using BCryptPasswordEncoder and a user submits a password longer than 72 characters, it now throws an exception — and that exception could potentially leak info about which users exist in your system (aka timing attack vulnerability) Versions affected: 5.7.16, 5.8.18, 6.0.16, 6.1.14, 6.2.10, 6.3.8, 6.4.4 In support versions have a patch out, but out of support versions (5.x, 6.0.x) can only get fixes from commercial support providers. More info: <URL>",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1054"
+    ],
+    "cve_counts": {
+      "CVE-2025-1054": 1
+    },
+    "title": "CVE Alert: CVE-2025-1054",
+    "permalink": "/r/RedPacketSecurity/comments/1k77f0a/cve_alert_cve20251054/",
+    "timestamp": "2025-04-25T00:08:21",
+    "clean_text": "CVE Alert: CVE-2025-1054 The UiCore Elements – Free Elementor widgets and templates plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the UI Counter, UI Icon Box, UI Testimonial Slider, UI Testimonial Grid, and UI Testimonial Carousel widgets in all versions up to, and including, 1.0.16 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+    "clean_comments": []
   }
 ]
