@@ -4098,5 +4098,18 @@
     "timestamp": "2025-04-25T10:54:41",
     "clean_text": "DslogdRAT Malware Deployed via Ivanti ICS Zero-Day CVE-2025-0282 in Japan Attacks",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-6198"
+    ],
+    "cve_counts": {
+      "CVE-2024-6198": 1
+    },
+    "title": "Remote Code Execution on Viasat Modems (CVE-2024-6198)",
+    "permalink": "/r/netsec/comments/1k7knmy/remote_code_execution_on_viasat_modems_cve20246198/",
+    "timestamp": "2025-04-25T13:15:19",
+    "clean_text": "Remote Code Execution on Viasat Modems (CVE-2024-6198)",
+    "clean_comments": []
   }
 ]
