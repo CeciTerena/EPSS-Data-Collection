@@ -4158,5 +4158,18 @@
     "clean_comments": [
       "Level 0: Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem. Stay updated on zero-days, exploits, hacker tools, and the latest cybersecurity drama. Whether you’re red team, blue team, or just here for the chaos—dive in and stay ahead. Stay sharp. Stay secure. Subscribe and join us for daily posts! I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-46520"
+    ],
+    "cve_counts": {
+      "CVE-2025-46520": 1
+    },
+    "title": "CVE Alert: CVE-2025-46520",
+    "permalink": "/r/RedPacketSecurity/comments/1k7ujf6/cve_alert_cve202546520/",
+    "timestamp": "2025-04-25T20:08:20",
+    "clean_text": "CVE Alert: CVE-2025-46520 Cross-Site Request Forgery (CSRF) vulnerability in alphasis Related Posts via Taxonomies allows Stored XSS. This issue affects Related Posts via Taxonomies: from n/a through 1.0.1.",
+    "clean_comments": []
   }
 ]
