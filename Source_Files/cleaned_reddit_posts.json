@@ -4002,5 +4002,31 @@
     "timestamp": "2025-04-25T05:30:37",
     "clean_text": "React Router and the Remix’ed path Explores CVE-2025-31137 in React Router’s Express adapter, enabling cache poisoning and WAF bypass via header manipulation. <URL> \\#web #react",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-36347"
+    ],
+    "cve_counts": {
+      "CVE-2024-36347": 2
+    },
+    "title": "New AMD AGESA Combo AM5PI v1.2.0.3c incoming (fyi)",
+    "permalink": "/r/threadripper/comments/1k7f7uo/new_amd_agesa_combo_am5pi_v1203c_incoming_fyi/",
+    "timestamp": "2025-04-25T07:38:25",
+    "clean_text": "New AMD AGESA Combo AM5PI v1.2.0.3c incoming (fyi) AMD has now begun rolling out the latest AGESA firmware, which goes by the name AMD AGESA Combo AM5PI 1.2.0.3c, in the form of BIOS updates via motherboard manufacturers. * Security In particular, this addresses the critical security vulnerability CVE-2024-36347 aka ‘EntrySign’, which threatens Ryzen and Epyc CPUs with Zen 1 to Zen 5, and more fast DDR5 RAM. The first manufacturers, such as Asus and MSI, have already released the first BIOS update.The vulnerability CVE-2024-36347 aka ‘EntrySign’ allows attackers to bypass the microcode signature check so that they can gain access to rights at management level. Until now, it was assumed that this critical vulnerability only affected the older Zen iterations (Zen 1 to Zen 4). It has now been confirmed that Ryzen and Epyc CPUs based on Zen 5 are also affected, and AMD's latest security report shows that the current Epyc 9005 (‘Turin’) series server processors, the Ryzen 9000 (‘Granite Ridge’) and Ryzen 9000X3D (‘Granite Ridge-X’) series desktop CPUs and several mobile CPUs and APUs are also at risk from the vulnerability. The firmware update closes the vulnerability and mitigates the threat. * Support for faster memory Following the release of the latest firmware, MSI has also included a memory kit with 192 GiByte DDR5-6000 in its compatibility list for the first time, which is made up of a total of four 48 GiByte memory modules and therefore combines high capacity with high memory speed. In the coming days, all relevant motherboard manufacturers are expected to roll out corresponding BIOS updates with AMD AGESA Combo AM5PI v1.2.0.3c. and Threadripper/Epyc derivatives.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32817"
+    ],
+    "cve_counts": {
+      "CVE-2025-32817": 1
+    },
+    "title": "SonicWALL Connect Tunnel Link Following Denial-of-Service Vulnerability (CVE-2025-32817)",
+    "permalink": "/r/systemtek/comments/1k7f6a6/sonicwall_connect_tunnel_link_following/",
+    "timestamp": "2025-04-25T07:35:09",
+    "clean_text": "SonicWALL Connect Tunnel Link Following Denial-of-Service Vulnerability (CVE-2025-32817)",
+    "clean_comments": []
   }
 ]
