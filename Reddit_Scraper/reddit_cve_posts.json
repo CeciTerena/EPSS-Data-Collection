@@ -5155,5 +5155,19 @@
     "timestamp": "2025-04-25T20:08:20",
     "article_text": "Cross-Site Request Forgery (CSRF) vulnerability in alphasis Related Posts via Taxonomies allows Stored XSS. This issue affects Related Posts via Taxonomies: from n/a through 1.0.1.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-46517"
+    ],
+    "cve_counts": {
+      "CVE-2025-46517": 1
+    },
+    "title": "CVE Alert: CVE-2025-46517",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1k7ztx9/cve_alert_cve202546517/",
+    "timestamp": "2025-04-26T00:08:21",
+    "article_text": "Improper Neutralization of Input During Web Page Generation (‘Cross-site Scripting’) vulnerability in wpdiscover Blog Manager WP allows Stored XSS. This issue affects Blog Manager WP: from n/a through 1.0.5.",
+    "comments": []
   }
 ]
