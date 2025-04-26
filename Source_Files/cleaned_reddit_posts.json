@@ -4271,5 +4271,31 @@
     "timestamp": "2025-04-26T15:01:46",
     "clean_text": "Summarize the vulnerability you selected, including the CVSS risk score, and recommend a mitigation strategy. Nessus plugin 50686 - IP forwarding Enabled - CVE-1999-0511(REFERENCE HELP: HTTP://NVD.NIST.GOV/VULN/SEARCH) Get this from our ScholarFriends WEBSITE study resources in the sidebar or DM",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2470"
+    ],
+    "cve_counts": {
+      "CVE-2025-2470": 1
+    },
+    "title": "CVE Alert: CVE-2025-2470",
+    "permalink": "/r/RedPacketSecurity/comments/1k8ly0a/cve_alert_cve20252470/",
+    "timestamp": "2025-04-26T20:08:19",
+    "clean_text": "CVE Alert: CVE-2025-2470 The Service Finder Bookings plugin for WordPress, used by the Service Finder – Directory and Job Board WordPress Theme, is vulnerable to privilege escalation in all versions up to, and including, 5.1. This is due to a lack of restriction on user role in the ‘nslregistrationstoreextrainput’ function. This makes it possible for unauthenticated attackers to register an account on the site with an arbitrary role, including Administrator, when registering via a social login. The Nextend Social Login plugin must be installed and configured to exploit the vulnerability.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "SAP NetWeaver Visual Composer Metadata Uploader High Risk Vulnerability (CVE-2025-31324)",
+    "permalink": "/r/systemtek/comments/1k8ktee/sap_netweaver_visual_composer_metadata_uploader/",
+    "timestamp": "2025-04-26T19:17:15",
+    "clean_text": "SAP NetWeaver Visual Composer Metadata Uploader High Risk Vulnerability (CVE-2025-31324)",
+    "clean_comments": []
   }
 ]
