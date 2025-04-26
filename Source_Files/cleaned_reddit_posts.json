@@ -4241,5 +4241,22 @@
     "timestamp": "2025-04-26T10:08:18",
     "clean_text": "CVE Alert: CVE-2025-3647 A flaw was discovered in Moodle. Additional checks were required to ensure that users can only access cohort data they are authorized to retrieve.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31201",
+      "CVE-2025-31200",
+      "CVE-2025-21204"
+    ],
+    "cve_counts": {
+      "CVE-2025-21204": 1,
+      "CVE-2025-31200": 2,
+      "CVE-2025-31201": 2
+    },
+    "title": "Security Watch 4/25/25",
+    "permalink": "/r/k12sysadmin/comments/1k8dcj0/security_watch_42525/",
+    "timestamp": "2025-04-26T13:47:31",
+    "clean_text": "Security Watch 4/25/25 On K12TechPro, we've launched a weekly cyber threat intelligence and vulnerability newsletter with NTP and K12TechPro. We'll post the \"public\" news to k12sysadmin from each newsletter. For the full \"k12 techs only\" portion (no middle schoolers, bad guys, vendors, etc. allowed), log into k12techpro.com and visit the Cybersecurity Hub. From the SOC Drawer NTP’s SOC has observed a rise in attacks targeting VPN login portals, which attackers exploit using weak or outdated credentials to access internal systems while impersonating legitimate users. Don't Delete that New Folder! In April’s Patch Tuesday, Microsoft addressed CVE-2025-21204—a vulnerability that could potentially allow authenticated attackers to perform file operations as the SYSTEM user. The fix includes creating a new %systemdrive%\\\\inetpub folder, even on systems without IIS installed. CVE-2025-31200 & CVE-2025-31201 Apple’s growing presence in corporate environments has made its devices increasingly attractive targets for attackers. Two new vulnerabilities—CVE-2025-31200 and CVE-2025-31201—highlight this shift. Google OAuth Abuse A new phishing method exploits Google OAuth and DKIM replay to send emails that appear to come directly from Google. Attackers craft a malicious Google OAuth app with a phishing message embedded in the app’s name.",
+    "clean_comments": []
   }
 ]
