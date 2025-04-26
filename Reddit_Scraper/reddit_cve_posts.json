@@ -5247,5 +5247,19 @@
     "timestamp": "2025-04-26T13:47:31",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-1999-0511"
+    ],
+    "cve_counts": {
+      "CVE-1999-0511": 1
+    },
+    "title": "Summarize the vulnerability you selected, including the CVSS risk score, and recommend a mitigation strategy. Nessus plugin 50686 - IP forwarding Enabled - CVE-1999-0511(REFERENCE HELP: HTTP://NVD.NIST.GOV/VULN/SEARCH)",
+    "text": "**Get this from our ScholarFriends WEBSITE study resources in the sidebar or DM**",
+    "permalink": "/r/courseherounlock4free/comments/1k8eyc7/summarize_the_vulnerability_you_selected/",
+    "timestamp": "2025-04-26T15:01:46",
+    "article_text": null,
+    "comments": []
   }
 ]

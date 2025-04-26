@@ -4258,5 +4258,18 @@
     "timestamp": "2025-04-26T13:47:31",
     "clean_text": "Security Watch 4/25/25 On K12TechPro, we've launched a weekly cyber threat intelligence and vulnerability newsletter with NTP and K12TechPro. We'll post the \"public\" news to k12sysadmin from each newsletter. For the full \"k12 techs only\" portion (no middle schoolers, bad guys, vendors, etc. allowed), log into k12techpro.com and visit the Cybersecurity Hub. From the SOC Drawer NTP’s SOC has observed a rise in attacks targeting VPN login portals, which attackers exploit using weak or outdated credentials to access internal systems while impersonating legitimate users. Don't Delete that New Folder! In April’s Patch Tuesday, Microsoft addressed CVE-2025-21204—a vulnerability that could potentially allow authenticated attackers to perform file operations as the SYSTEM user. The fix includes creating a new %systemdrive%\\\\inetpub folder, even on systems without IIS installed. CVE-2025-31200 & CVE-2025-31201 Apple’s growing presence in corporate environments has made its devices increasingly attractive targets for attackers. Two new vulnerabilities—CVE-2025-31200 and CVE-2025-31201—highlight this shift. Google OAuth Abuse A new phishing method exploits Google OAuth and DKIM replay to send emails that appear to come directly from Google. Attackers craft a malicious Google OAuth app with a phishing message embedded in the app’s name.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-1999-0511"
+    ],
+    "cve_counts": {
+      "CVE-1999-0511": 1
+    },
+    "title": "Summarize the vulnerability you selected, including the CVSS risk score, and recommend a mitigation strategy. Nessus plugin 50686 - IP forwarding Enabled - CVE-1999-0511(REFERENCE HELP: HTTP://NVD.NIST.GOV/VULN/SEARCH)",
+    "permalink": "/r/courseherounlock4free/comments/1k8eyc7/summarize_the_vulnerability_you_selected/",
+    "timestamp": "2025-04-26T15:01:46",
+    "clean_text": "Summarize the vulnerability you selected, including the CVSS risk score, and recommend a mitigation strategy. Nessus plugin 50686 - IP forwarding Enabled - CVE-1999-0511(REFERENCE HELP: HTTP://NVD.NIST.GOV/VULN/SEARCH) Get this from our ScholarFriends WEBSITE study resources in the sidebar or DM",
+    "clean_comments": []
   }
 ]
