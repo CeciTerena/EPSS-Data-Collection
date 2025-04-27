@@ -5337,5 +5337,21 @@
     "timestamp": "2025-04-27T10:02:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31201",
+      "CVE-2025-31200"
+    ],
+    "cve_counts": {
+      "CVE-2025-31200": 1,
+      "CVE-2025-31201": 1
+    },
+    "title": "Do recent CVEs patched in Sequoia 15.4.1 affect Sonoma ?",
+    "text": "> ### CoreAudio\n> Available for: macOS Sequoia\n> \n> Impact: Processing an audio stream in a maliciously crafted media file may result in code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.\n> \n> Description: A memory corruption issue was addressed with improved bounds checking.\n> \n> ### CVE-2025-31200: Apple and Google Threat Analysis Group\n> \n> ### RPAC\n> Available for: macOS Sequoia\n> \n> Impact: An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.\n> \n> Description: This issue was addressed by removing the vulnerable code.\n> \n> ### CVE-2025-31201: Apple\n\n\nhttps://support.apple.com/en-ca/122400\n\n(No patch released for Sonoma)\n\nhttps://support.apple.com/en-ca/100100",
+    "permalink": "/r/macsysadmin/comments/1k9e79y/do_recent_cves_patched_in_sequoia_1541_affect/",
+    "timestamp": "2025-04-27T20:52:55",
+    "article_text": null,
+    "comments": []
   }
 ]
