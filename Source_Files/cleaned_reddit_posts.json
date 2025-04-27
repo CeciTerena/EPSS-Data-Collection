@@ -4297,5 +4297,18 @@
     "timestamp": "2025-04-26T19:17:15",
     "clean_text": "SAP NetWeaver Visual Composer Metadata Uploader High Risk Vulnerability (CVE-2025-31324)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3867"
+    ],
+    "cve_counts": {
+      "CVE-2025-3867": 1
+    },
+    "title": "CVE Alert: CVE-2025-3867",
+    "permalink": "/r/RedPacketSecurity/comments/1k8r3wk/cve_alert_cve20253867/",
+    "timestamp": "2025-04-27T00:14:57",
+    "clean_text": "CVE Alert: CVE-2025-3867 The Ajax Comment Form CST plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.2. This is due to missing or incorrect nonce validation via the ‘acformcstsettings’ page. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+    "clean_comments": []
   }
 ]
