@@ -5371,5 +5371,35 @@
     "timestamp": "2025-04-27T21:44:53",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32432",
+      "CVE-2024-58136"
+    ],
+    "cve_counts": {
+      "CVE-2025-32432": 1,
+      "CVE-2024-58136": 1
+    },
+    "title": "[ALERT] Critical Craft CMS Vulnerabilities Actively Exploited (RCE + Access Flaws)\nCraft CMS is under active attack with two new vulnerabilities (CVE-2025-32432, CVE-2024-58136)",
+    "text": "* CVSS Scores: 9.0 and 10.0\n* Attackers are chaining flaws to breach servers and deploy malicious scripts.\n* \\~13,000 vulnerable instances; \\~300 already compromised. Patch immediately to 3.9.15, 4.14.15, or 5.6.17. \n\n Stay safe, folks. 🚨\n\n \\#netsec #infosec #cybersecurity #zeroday #patchmanagement",
+    "permalink": "/r/sekurenet/comments/1k9q79x/alert_critical_craft_cms_vulnerabilities_actively/",
+    "timestamp": "2025-04-28T08:00:02",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-34028"
+    ],
+    "cve_counts": {
+      "CVE-2025-34028": 1
+    },
+    "title": "Path traversal vulnerability in Commvault Command Center Innovation Release (CVE-2025-34028)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1k9pxfu/path_traversal_vulnerability_in_commvault_command/",
+    "timestamp": "2025-04-28T07:38:38",
+    "article_text": null,
+    "comments": []
   }
 ]
