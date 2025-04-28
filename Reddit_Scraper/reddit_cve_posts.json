@@ -5401,5 +5401,59 @@
     "timestamp": "2025-04-28T07:38:38",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054",
+      "CVE-2025-43864",
+      "CVE-2025-24091",
+      "CVE-2025-32432",
+      "CVE-2025-31324",
+      "CVE-2025-3914",
+      "CVE-2025-29306",
+      "CVE-2024-27876",
+      "CVE-2023-41892",
+      "CVE-2024-6198",
+      "CVE-2025-43865"
+    ],
+    "cve_counts": {
+      "CVE-2025-3914": 2,
+      "CVE-2025-43865": 2,
+      "CVE-2025-32432": 2,
+      "CVE-2023-41892": 1,
+      "CVE-2025-31324": 2,
+      "CVE-2024-6198": 2,
+      "CVE-2025-29306": 2,
+      "CVE-2025-24054": 2,
+      "CVE-2025-24091": 2,
+      "CVE-2025-43864": 2,
+      "CVE-2024-27876": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (28/04/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-3914](https://nvd.nist.gov/vuln/detail/CVE-2025-3914)**\n\n- 📝 The Aeropage Sync for Airtable plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the aeropage_media_downloader function in all versions up to, and including, 3.2.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected sites server which may make remote code execution possible.\n\n- 📅 **Published:** 26/04/2025\n- 📈 **CVSS:** 8.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 3\n- ⚠️ **Priority:** 2\n\n---\n\n**2. [CVE-2025-43865](https://nvd.nist.gov/vuln/detail/CVE-2025-43865)**\n\n- 📝 React Router is a router for React. In versions on the 7.0 branch prior to version 7.5.2, its possible to modify pre-rendered data by adding a header to the request. This allows to completely spoof its contents and modify all the values of the data object passed to the HTML. This issue has been patched in version 7.5.2.\n\n- 📅 **Published:** 25/04/2025\n- 📈 **CVSS:** 8.2\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H\n- 📣 **Mentions:** 4\n- ⚠️ **Priority:** 2\n\n---\n\n**3. [CVE-2025-32432](https://nvd.nist.gov/vuln/detail/CVE-2025-32432)**\n\n- 📝 Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.\n\n- 📅 **Published:** 25/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L\n- 📣 **Mentions:** 9\n- ⚠️ **Priority:** 2\n\n---\n\n**4. [CVE-2025-31324](https://nvd.nist.gov/vuln/detail/CVE-2025-31324)**\n\n- 📝 SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system.\n\n- 📅 **Published:** 24/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 9\n- ⚠️ **Priority:** 4\n\n---\n\n**5. [CVE-2024-6198](https://nvd.nist.gov/vuln/detail/CVE-2024-6198)**\n\n- 📝 The device exposes a web interface on ports TCP/3030 and TCP/9882. This web service runs lighttpd, which implements theSNORE interface. This interface is affected by a stack buffer overflow vulnerability due to insecure path parsing. An attacker with access to the LAN network interface could use a specially crafted HTTP request to exploit a buffer overflow on themodem.\n\n- 📅 **Published:** 25/04/2025\n- 📈 **CVSS:** 7.7\n- 🧭 **Vector:** CVSS:4.0/AV:A/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/S:N/AU:Y/R:U/V:C/RE:M/U:Red\n- 📣 **Mentions:** 5\n- ⚠️ **Priority:** 2\n\n---\n\n**6. [CVE-2025-29306](https://nvd.nist.gov/vuln/detail/CVE-2025-29306)**\n\n- 📝 An issue in FoxCMS v.1.2.5 allows a remote attacker to execute arbitrary code via the case display page in the index.html component.\n\n- 📅 **Published:** 27/03/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 5\n- ⚠️ **Priority:** 2\n\n---\n\n**7. [CVE-2025-24054](https://nvd.nist.gov/vuln/detail/CVE-2025-24054)**\n\n- 📝 NTLM Hash Disclosure Spoofing Vulnerability\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 6.5\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C\n- 📣 **Mentions:** 36\n- ⚠️ **Priority:** 1+\n\n---\n\n**8. [CVE-2025-24091](https://nvd.nist.gov/vuln/detail/CVE-2025-24091)**\n\n- 📝 n/a\n\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\n**9. [CVE-2025-43864](https://nvd.nist.gov/vuln/detail/CVE-2025-43864)**\n\n- 📝 React Router is a router for React. Starting in version 7.2.0 and prior to version 7.5.2, it is possible to force an application to switch to SPA mode by adding a header to the request. If the application uses SSR and is forced to switch to SPA, this causes an error that completely corrupts the page. If a cache system is in place, this allows the response containing the error to be cached, resulting in a cache poisoning that strongly impacts the availability of the application. This issue has been patched in version 7.5.2.\n\n- 📅 **Published:** 25/04/2025\n- 📈 **CVSS:** 7.5\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 2\n\n---\n\n**10. [CVE-2024-27876](https://nvd.nist.gov/vuln/detail/CVE-2024-27876)**\n\n- 📝 A race condition was addressed with improved locking. This issue is fixed in macOS Ventura 13.7, iOS 17.7 and iPadOS 17.7, visionOS 2, iOS 18 and iPadOS 18, macOS Sonoma 14.7, macOS Sequoia 15. Unpacking a maliciously crafted archive may allow an attacker to write arbitrary files.\n\n- 📅 **Published:** 16/09/2024\n- 📈 **CVSS:** 8.1\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 4\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from [CVE_Prioritizer](https://github.com/TURROKS/CVE_Prioritizer).",
+    "permalink": "/r/CVEWatch/comments/1k9rx34/top_10_trending_cves_28042025/",
+    "timestamp": "2025-04-28T10:07:07",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2783"
+    ],
+    "cve_counts": {
+      "CVE-2025-2783": 2
+    },
+    "title": "Built a threat search engine for cybersecurity investigations — Would love your feedback!",
+    "text": "Hey everyone,\nI recently launched a project I’ve been working on: xdscvr.com!\n\nIt’s a threat search engine that searches the web and provides a summary for each result, contextually based on your query.\n\nHere are some example use cases:\n\n\t•\tIs there a known public exploit for CVE-2025-2783?\n\n\t•\tHas the vendor released a patch or workaround for CVE-2025-2783?\n\n\t•\tThreat actor groups associated with Akira ransomware\n\n\t•\tMITRE ATT&CK mapping for the Akira threat\n\n\n\nI built it because I wanted a faster way to gather threat intel without opening 10+ tabs every time.\n\nI’m still developing and enhancing it, and I highly value your feedback:\n> Would you use it?\n\n> What features would you want added?\n\n> Any ways to make it better before turning it into a full product?\n\n\nAppreciate any thoughts or ideas!",
+    "permalink": "/r/cybersecurity/comments/1k9rs06/built_a_threat_search_engine_for_cybersecurity/",
+    "timestamp": "2025-04-28T09:57:51",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "What is this tool about? You are using SerpAPI to serve the Google Search results on your website, what is the role of AI analyzing anything here?",
+        "level": 0
+      }
+    ]
   }
 ]

@@ -4403,5 +4403,53 @@
     "timestamp": "2025-04-28T07:38:38",
     "clean_text": "Path traversal vulnerability in Commvault Command Center Innovation Release (CVE-2025-34028)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054",
+      "CVE-2025-43864",
+      "CVE-2025-24091",
+      "CVE-2025-32432",
+      "CVE-2025-31324",
+      "CVE-2025-3914",
+      "CVE-2025-29306",
+      "CVE-2024-27876",
+      "CVE-2023-41892",
+      "CVE-2024-6198",
+      "CVE-2025-43865"
+    ],
+    "cve_counts": {
+      "CVE-2025-3914": 2,
+      "CVE-2025-43865": 2,
+      "CVE-2025-32432": 2,
+      "CVE-2023-41892": 1,
+      "CVE-2025-31324": 2,
+      "CVE-2024-6198": 2,
+      "CVE-2025-29306": 2,
+      "CVE-2025-24054": 2,
+      "CVE-2025-24091": 2,
+      "CVE-2025-43864": 2,
+      "CVE-2024-27876": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (28/04/2025)",
+    "permalink": "/r/CVEWatch/comments/1k9rx34/top_10_trending_cves_28042025/",
+    "timestamp": "2025-04-28T10:07:07",
+    "clean_text": "🔥 Top 10 Trending CVEs (28/04/2025) Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today: 1. CVE-2025-3914 - The Aeropage Sync for Airtable plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the aeropagemediadownloader function in all versions up to, and including, 3.2.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected sites server which may make remote code execution possible. - Published: 26/04/2025 - CVSS: 8.8 - Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H - Mentions: 3 - Priority: 2 - 2. CVE-2025-43865 - React Router is a router for React. In versions on the 7.0 branch prior to version 7.5.2, its possible to modify pre-rendered data by adding a header to the request. This allows to completely spoof its contents and modify all the values of the data object passed to the HTML. This issue has been patched in version 7.5.2. - Published: 25/04/2025 - CVSS: 8.2 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H - Mentions: 4 - Priority: 2 - 3. CVE-2025-32432 - Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892. - Published: 25/04/2025 - CVSS: 10 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L - Mentions: 9 - Priority: 2 - 4. CVE-2025-31324 - SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system. - Published: 24/04/2025 - CVSS: 10 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H - Mentions: 9 - Priority: 4 - 5. CVE-2024-6198 - The device exposes a web interface on ports TCP/3030 and TCP/9882. This web service runs lighttpd, which implements theSNORE interface. This interface is affected by a stack buffer overflow vulnerability due to insecure path parsing. An attacker with access to the LAN network interface could use a specially crafted HTTP request to exploit a buffer overflow on themodem. - Published: 25/04/2025 - CVSS: 7.7 - Vector: CVSS:4.0/AV:A/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/S:N/AU:Y/R:U/V:C/RE:M/U:Red - Mentions: 5 - Priority: 2 - 6. CVE-2025-29306 - An issue in FoxCMS v.1.2.5 allows a remote attacker to execute arbitrary code via the case display page in the index.html component. - Published: 27/03/2025 - CVSS: 9.8 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H - Mentions: 5 - Priority: 2 - 7. CVE-2025-24054 - NTLM Hash Disclosure Spoofing Vulnerability - Published: 11/03/2025 - CVSS: 6.5 - CISA KEV: True - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C - Mentions: 36 - Priority: 1+ - 8. CVE-2025-24091 - n/a - CVSS: 0 - Vector: n/a - Priority: n/a - 9. CVE-2025-43864 - React Router is a router for React. Starting in version 7.2.0 and prior to version 7.5.2, it is possible to force an application to switch to SPA mode by adding a header to the request. If the application uses SSR and is forced to switch to SPA, this causes an error that completely corrupts the page. If a cache system is in place, this allows the response containing the error to be cached, resulting in a cache poisoning that strongly impacts the availability of the application. This issue has been patched in version 7.5.2. - Published: 25/04/2025 - CVSS: 7.5 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H - Mentions: 1 - Priority: 2 - 10. CVE-2024-27876 - A race condition was addressed with improved locking. This issue is fixed in macOS Ventura 13.7, iOS 17.7 and iPadOS 17.7, visionOS 2, iOS 18 and iPadOS 18, macOS Sonoma 14.7, macOS Sequoia 15. Unpacking a maliciously crafted archive may allow an attacker to write arbitrary files. - Published: 16/09/2024 - CVSS: 8.1 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N - Mentions: 1 - Priority: 4 - Let us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from CVE_Prioritizer.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2783"
+    ],
+    "cve_counts": {
+      "CVE-2025-2783": 2
+    },
+    "title": "Built a threat search engine for cybersecurity investigations — Would love your feedback!",
+    "permalink": "/r/cybersecurity/comments/1k9rs06/built_a_threat_search_engine_for_cybersecurity/",
+    "timestamp": "2025-04-28T09:57:51",
+    "clean_text": "Built a threat search engine for cybersecurity investigations — Would love your feedback! Hey everyone, I recently launched a project I’ve been working on: xdscvr.com! It’s a threat search engine that searches the web and provides a summary for each result, contextually based on your query. Here are some example use cases: • Is there a known public exploit for CVE-2025-2783? • Has the vendor released a patch or workaround for CVE-2025-2783? • Threat actor groups associated with Akira ransomware • MITRE ATT&CK mapping for the Akira threat I built it because I wanted a faster way to gather threat intel without opening 10+ tabs every time. I’m still developing and enhancing it, and I highly value your feedback: > Would you use it? > What features would you want added? > Any ways to make it better before turning it into a full product? Appreciate any thoughts or ideas!",
+    "clean_comments": [
+      "Level 0: What is this tool about? You are using SerpAPI to serve the Google Search results on your website, what is the role of AI analyzing anything here?"
+    ]
   }
 ]
