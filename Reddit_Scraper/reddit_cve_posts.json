@@ -5455,5 +5455,19 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2024-36347"
+    ],
+    "cve_counts": {
+      "CVE-2024-36347": 1
+    },
+    "title": "Should I update my (very old) BIOS?",
+    "text": "Hi everyone!\nIn early 2023 I built a PC from scratch by buying all the parts from Amazon/other sellers. My current setup is:\n- Gigabyte B650 Aorus Elite AX\n- Ryzen 5 7600\n- AMD RX 6750XT\n- 2x 16 GB Corsair RAM 6000 MHz (don't remember CL, but shouldn't matter right now).\n\nThe setup was smooth, everything is working fine. Let's say I'm good at following instructions.\n\nMy only issue right now is that the PC takes a little bit to boot up, more than a minute. It's not a big deal, but feels like a lot more than it would take for a modern pc running SSD.\n\nBack then I read that it was due to the early bios build.\n\nFast forward today, I somehow thought \"should I update the BIOS?\" I checked and it appears I have F1 version, released on 26/8/2022. That version is no longer even listed on the official Gigabyte download page.\n\nShould I update it? I'm not an expert, but I'm not even a complete newbie. Just to provide background I've got a MSc Degree in Computer Science Engineering and currently working in IT field. But I've never flashed a BIOS, I'm more a software guy than a hardware one, I've never worked on very low-level stuff. I've read online that the operation is recommended only if strictly required, but I've also read that it's an old thing and nowadays it's a safer operation. Also I've seen that the various BIOS versions cover at least three major security updates (Logofail, CVE-2024-36347, SMM Lock Bypass). And also implement a voltage limit on the CPU recommended by AMD.\n\nWhat would you do?",
+    "permalink": "/r/gigabyte/comments/1k9soht/should_i_update_my_very_old_bios/",
+    "timestamp": "2025-04-28T10:56:52",
+    "article_text": null,
+    "comments": []
   }
 ]
