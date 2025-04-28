@@ -28,8 +28,8 @@ excess_punctuation_re = re.compile(r"([^\w\s])\1{2,}")
 # )
 excess_emoji_re = re.compile("[🧵🔥🚨🕵️]")
     
-def remove_emojis(text):
-    return ''.join(char for char in text if char not in emoji.EMOJI_DATA)
+def remove_emoji(text: str) -> str:
+    return emoji.get_emoji_regexp().sub('', text)
 
 def normalize_extra_tokens(text: str) -> str:
     
@@ -40,7 +40,7 @@ def normalize_extra_tokens(text: str) -> str:
     text = md_punctuation_re.sub(r"\2", text)
     text = heading_hash_re.sub("", text)
     text = excess_punctuation_re.sub(r"\1", text)
-    text = remove_emojis(text)
+    text = remove_emoji(text)
     text = excess_emoji_re.sub("", text)
     
     return re.sub(r"\s+", " ", text).strip()
