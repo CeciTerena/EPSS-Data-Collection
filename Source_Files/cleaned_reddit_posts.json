@@ -4464,5 +4464,18 @@
     "timestamp": "2025-04-28T10:56:52",
     "clean_text": "Should I update my (very old) BIOS? Hi everyone! In early 2023 I built a PC from scratch by buying all the parts from Amazon/other sellers. My current setup is: - Gigabyte B650 Aorus Elite AX - Ryzen 5 7600 - AMD RX 6750XT - 2x 16 GB Corsair RAM 6000 MHz (don't remember CL, but shouldn't matter right now). The setup was smooth, everything is working fine. Let's say I'm good at following instructions. My only issue right now is that the PC takes a little bit to boot up, more than a minute. It's not a big deal, but feels like a lot more than it would take for a modern pc running SSD. Back then I read that it was due to the early bios build. Fast forward today, I somehow thought \"should I update the BIOS?\" I checked and it appears I have F1 version, released on 26/8/2022. That version is no longer even listed on the official Gigabyte download page. Should I update it? I'm not an expert, but I'm not even a complete newbie. Just to provide background I've got a MSc Degree in Computer Science Engineering and currently working in IT field. But I've never flashed a BIOS, I'm more a software guy than a hardware one, I've never worked on very low-level stuff. I've read online that the operation is recommended only if strictly required, but I've also read that it's an old thing and nowadays it's a safer operation. Also I've seen that the various BIOS versions cover at least three major security updates (Logofail, CVE-2024-36347, SMM Lock Bypass). And also implement a voltage limit on the CPU recommended by AMD. What would you do?",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 1
+    },
+    "title": "Microsoft Windows NTLM Hash Disclosure Spoofing Vulnerability (CVE-2025-24054)",
+    "permalink": "/r/systemtek/comments/1kai9u9/microsoft_windows_ntlm_hash_disclosure_spoofing/",
+    "timestamp": "2025-04-29T07:35:22",
+    "clean_text": "Microsoft Windows NTLM Hash Disclosure Spoofing Vulnerability (CVE-2025-24054)",
+    "clean_comments": []
   }
 ]

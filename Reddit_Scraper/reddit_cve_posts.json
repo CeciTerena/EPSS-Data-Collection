@@ -5469,5 +5469,19 @@
     "timestamp": "2025-04-28T10:56:52",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 1
+    },
+    "title": "Microsoft Windows NTLM Hash Disclosure Spoofing Vulnerability (CVE-2025-24054)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1kai9u9/microsoft_windows_ntlm_hash_disclosure_spoofing/",
+    "timestamp": "2025-04-29T07:35:22",
+    "article_text": null,
+    "comments": []
   }
 ]
