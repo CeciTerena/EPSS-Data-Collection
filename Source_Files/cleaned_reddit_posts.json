@@ -4490,5 +4490,18 @@
     "timestamp": "2025-04-29T11:29:25",
     "clean_text": "Local root vulnerability, CVE-2025-21756",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-21756"
+    ],
+    "cve_counts": {
+      "CVE-2025-21756": 1
+    },
+    "title": "Linux Kernel Exploitation: CVE-2025-21756",
+    "permalink": "/r/hypeurls/comments/1kbreui/linux_kernel_exploitation_cve202521756/",
+    "timestamp": "2025-04-30T21:06:33",
+    "clean_text": "Linux Kernel Exploitation: CVE-2025-21756",
+    "clean_comments": []
   }
 ]

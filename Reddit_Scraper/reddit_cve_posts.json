@@ -5497,5 +5497,19 @@
     "timestamp": "2025-04-29T11:29:25",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-21756"
+    ],
+    "cve_counts": {
+      "CVE-2025-21756": 1
+    },
+    "title": "Linux Kernel Exploitation: CVE-2025-21756",
+    "text": "",
+    "permalink": "/r/hypeurls/comments/1kbreui/linux_kernel_exploitation_cve202521756/",
+    "timestamp": "2025-04-30T21:06:33",
+    "article_text": null,
+    "comments": []
   }
 ]
