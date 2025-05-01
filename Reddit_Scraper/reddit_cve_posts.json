@@ -5525,5 +5525,19 @@
     "timestamp": "2025-05-01T07:57:32",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3928"
+    ],
+    "cve_counts": {
+      "CVE-2025-3928": 1
+    },
+    "title": "Commvault Confirms Hackers Exploited CVE-2025-3928 as Zero-Day in Azure Breach",
+    "text": "",
+    "permalink": "/r/u_TheCyberSecurityHub/comments/1kc3wly/commvault_confirms_hackers_exploited_cve20253928/",
+    "timestamp": "2025-05-01T08:39:32",
+    "article_text": null,
+    "comments": []
   }
 ]

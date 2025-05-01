@@ -4516,5 +4516,18 @@
     "timestamp": "2025-05-01T07:57:32",
     "clean_text": "Oracle VirtualBox OHCI USB Controller Race Condition Local Privilege Escalation Vulnerability (CVE-2024-21113)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3928"
+    ],
+    "cve_counts": {
+      "CVE-2025-3928": 1
+    },
+    "title": "Commvault Confirms Hackers Exploited CVE-2025-3928 as Zero-Day in Azure Breach",
+    "permalink": "/r/u_TheCyberSecurityHub/comments/1kc3wly/commvault_confirms_hackers_exploited_cve20253928/",
+    "timestamp": "2025-05-01T08:39:32",
+    "clean_text": "Commvault Confirms Hackers Exploited CVE-2025-3928 as Zero-Day in Azure Breach",
+    "clean_comments": []
   }
 ]
