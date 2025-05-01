@@ -4555,5 +4555,18 @@
     "timestamp": "2025-05-01T12:21:15",
     "clean_text": "CVE-2025-21756: Attack of the Vsock",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-30145"
+    ],
+    "cve_counts": {
+      "CVE-2024-30145": 1
+    },
+    "title": "CVE Alert: CVE-2024-30145",
+    "permalink": "/r/RedPacketSecurity/comments/1kcatms/cve_alert_cve202430145/",
+    "timestamp": "2025-05-01T14:59:29",
+    "clean_text": "CVE Alert: CVE-2024-30145 Multiple vectors in HCL Domino Volt and Domino Leap allow client-side script injection in the authoring environment and deployed applications.",
+    "clean_comments": []
   }
 ]
