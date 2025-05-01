@@ -4542,5 +4542,18 @@
     "timestamp": "2025-05-01T10:33:43",
     "clean_text": "[Palo Alto Networks Security Advisories] CVE-2024-5920 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in PAN-OSEnables Impersonation of a Legitimate Administrator",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-21756"
+    ],
+    "cve_counts": {
+      "CVE-2025-21756": 1
+    },
+    "title": "CVE-2025-21756: Attack of the Vsock",
+    "permalink": "/r/ReverseEngineering/comments/1kc7d3y/cve202521756_attack_of_the_vsock/",
+    "timestamp": "2025-05-01T12:21:15",
+    "clean_text": "CVE-2025-21756: Attack of the Vsock",
+    "clean_comments": []
   }
 ]

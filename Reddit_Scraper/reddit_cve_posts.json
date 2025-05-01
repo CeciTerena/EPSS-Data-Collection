@@ -5553,5 +5553,19 @@
     "timestamp": "2025-05-01T10:33:43",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-21756"
+    ],
+    "cve_counts": {
+      "CVE-2025-21756": 1
+    },
+    "title": "CVE-2025-21756: Attack of the Vsock",
+    "text": "",
+    "permalink": "/r/ReverseEngineering/comments/1kc7d3y/cve202521756_attack_of_the_vsock/",
+    "timestamp": "2025-05-01T12:21:15",
+    "article_text": null,
+    "comments": []
   }
 ]
