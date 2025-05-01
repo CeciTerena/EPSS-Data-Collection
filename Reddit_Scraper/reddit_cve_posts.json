@@ -5539,5 +5539,19 @@
     "timestamp": "2025-05-01T08:39:32",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-5920"
+    ],
+    "cve_counts": {
+      "CVE-2024-5920": 1
+    },
+    "title": "[Palo Alto Networks Security Advisories] CVE-2024-5920 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in PAN-OSEnables Impersonation of a Legitimate Administrator",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kc5ij8/palo_alto_networks_security_advisories/",
+    "timestamp": "2025-05-01T10:33:43",
+    "article_text": null,
+    "comments": []
   }
 ]

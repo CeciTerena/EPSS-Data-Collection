@@ -4529,5 +4529,18 @@
     "timestamp": "2025-05-01T08:39:32",
     "clean_text": "Commvault Confirms Hackers Exploited CVE-2025-3928 as Zero-Day in Azure Breach",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-5920"
+    ],
+    "cve_counts": {
+      "CVE-2024-5920": 1
+    },
+    "title": "[Palo Alto Networks Security Advisories] CVE-2024-5920 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in PAN-OSEnables Impersonation of a Legitimate Administrator",
+    "permalink": "/r/RedPacketSecurity/comments/1kc5ij8/palo_alto_networks_security_advisories/",
+    "timestamp": "2025-05-01T10:33:43",
+    "clean_text": "[Palo Alto Networks Security Advisories] CVE-2024-5920 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in PAN-OSEnables Impersonation of a Legitimate Administrator",
+    "clean_comments": []
   }
 ]
