@@ -5469,5 +5469,89 @@
     "timestamp": "2025-04-28T10:56:52",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 1
+    },
+    "title": "Microsoft Windows NTLM Hash Disclosure Spoofing Vulnerability (CVE-2025-24054)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1kai9u9/microsoft_windows_ntlm_hash_disclosure_spoofing/",
+    "timestamp": "2025-04-29T07:35:22",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-21756"
+    ],
+    "cve_counts": {
+      "CVE-2025-21756": 1
+    },
+    "title": "Local root vulnerability, CVE-2025-21756",
+    "text": "",
+    "permalink": "/r/LinuxUncensored/comments/1kallzz/local_root_vulnerability_cve202521756/",
+    "timestamp": "2025-04-29T11:29:25",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-21756"
+    ],
+    "cve_counts": {
+      "CVE-2025-21756": 1
+    },
+    "title": "Linux Kernel Exploitation: CVE-2025-21756",
+    "text": "",
+    "permalink": "/r/hypeurls/comments/1kbreui/linux_kernel_exploitation_cve202521756/",
+    "timestamp": "2025-04-30T21:06:33",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-21113"
+    ],
+    "cve_counts": {
+      "CVE-2024-21113": 1
+    },
+    "title": "Oracle VirtualBox OHCI USB Controller Race Condition Local Privilege Escalation Vulnerability (CVE-2024-21113)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1kc3cma/oracle_virtualbox_ohci_usb_controller_race/",
+    "timestamp": "2025-05-01T07:57:32",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3928"
+    ],
+    "cve_counts": {
+      "CVE-2025-3928": 1
+    },
+    "title": "Commvault Confirms Hackers Exploited CVE-2025-3928 as Zero-Day in Azure Breach",
+    "text": "",
+    "permalink": "/r/u_TheCyberSecurityHub/comments/1kc3wly/commvault_confirms_hackers_exploited_cve20253928/",
+    "timestamp": "2025-05-01T08:39:32",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-5920"
+    ],
+    "cve_counts": {
+      "CVE-2024-5920": 1
+    },
+    "title": "[Palo Alto Networks Security Advisories] CVE-2024-5920 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in PAN-OSEnables Impersonation of a Legitimate Administrator",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kc5ij8/palo_alto_networks_security_advisories/",
+    "timestamp": "2025-05-01T10:33:43",
+    "article_text": null,
+    "comments": []
   }
 ]
