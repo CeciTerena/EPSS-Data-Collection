@@ -4568,5 +4568,35 @@
     "timestamp": "2025-05-01T14:59:29",
     "clean_text": "CVE Alert: CVE-2024-30145 Multiple vectors in HCL Domino Volt and Domino Leap allow client-side script injection in the authoring environment and deployed applications.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-6029"
+    ],
+    "cve_counts": {
+      "CVE-2024-6029": 1
+    },
+    "title": "CVE Alert: CVE-2024-6029",
+    "permalink": "/r/RedPacketSecurity/comments/1kci2ns/cve_alert_cve20246029/",
+    "timestamp": "2025-05-01T19:59:27",
+    "clean_text": "CVE Alert: CVE-2024-6029 Tesla Model S Iris Modem Race Condition Firewall Bypass Vulnerability. This vulnerability allows network-adjacent attackers to bypass the firewall on the Iris modem in affected Tesla Model S vehicles. Authentication is not required to exploit this vulnerability. The specific flaw exists within the firewall service. The issue results from a failure to obtain the xtables lock. An attacker can leverage this vulnerability to bypass firewall rules. Was ZDI-CAN-23197.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24132",
+      "CVE-2025-24252"
+    ],
+    "cve_counts": {
+      "CVE-2025-24252": 1,
+      "CVE-2025-24132": 1
+    },
+    "title": "There's been yet another vulnerability on Apple devices.",
+    "permalink": "/r/teenagers/comments/1kchym6/theres_been_yet_another_vulnerability_on_apple/",
+    "timestamp": "2025-05-01T19:54:38",
+    "clean_text": "There's been yet another vulnerability on Apple devices. Don't forget to update yours if you still have one in 2025. The vulnerability spreads through virtually anything, with no actions from the victim, and allows for remote code execution. Source : CVE-2025-24252 / CVE-2025-24132",
+    "clean_comments": [
+      "Level 0: This thread has been flaired as [Serious]. Please be aware that this marks it as a place for serious discussion only and that any unserious content in this thread will result in a removal, counting towards your ban tiers. If your comment does not contribute to the discussion in a serious manner it will be removed. Please report any comments that do not respect this rule. I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/teenagers) if you have any questions or concerns."
+    ]
   }
 ]
