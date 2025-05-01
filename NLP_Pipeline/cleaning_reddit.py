@@ -6,30 +6,15 @@ import emoji
 
 md_link_ref = re.compile(r"\[([^\]]+?)\]\(((?:https?://|mailto:)[^\s)]+)\)")
 url_ref = re.compile(r"(https?://\S+|www\.\S+)")
-
 cve_re = re.compile(r"\b(cve-\d{4}-\d{4,})\b", re.IGNORECASE)
-
 code_block_re = re.compile(r"```[\s\S]*?```")  
 md_punctuation_re = re.compile(r"(\*\*|\*|__|_|~~|`)(.*?)\1")
 heading_hash_re = re.compile(r"^#{1,6}\s+", re.MULTILINE) 
 excess_punctuation_re = re.compile(r"([^\w\s])\1{2,}") 
-# emoji_re = re.compile(
-#     "["                       
-#     u"\U0001F600-\U0001F64F"  
-#     u"\U0001F300-\U0001F5FF"  
-#     u"\U0001F680-\U0001F6FF"  
-#     u"\U0001F1E6-\U0001F1FF"  
-#     u"\U00002700-\U000027BF"  
-#     u"\U000024C2-\U0001F251"  
-#     u"\u2600-\u26FF"          
-#     u"\u2700-\u27BF"          
-#     "]+",
-#     re.UNICODE,
-# )
 excess_emoji_re = re.compile("[🧵🔥🚨🕵️]")
     
 def remove_emoji(text: str) -> str:
-    return emoji.get_emoji_regexp().sub('', text)
+    return emoji.replace_emoji(text, replace='')
 
 def normalize_extra_tokens(text: str) -> str:
     
