@@ -5511,5 +5511,19 @@
     "timestamp": "2025-04-30T21:06:33",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-21113"
+    ],
+    "cve_counts": {
+      "CVE-2024-21113": 1
+    },
+    "title": "Oracle VirtualBox OHCI USB Controller Race Condition Local Privilege Escalation Vulnerability (CVE-2024-21113)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1kc3cma/oracle_virtualbox_ohci_usb_controller_race/",
+    "timestamp": "2025-05-01T07:57:32",
+    "article_text": null,
+    "comments": []
   }
 ]
