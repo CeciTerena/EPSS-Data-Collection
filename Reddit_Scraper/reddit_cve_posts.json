@@ -5771,5 +5771,35 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-24132"
+    ],
+    "cve_counts": {
+      "CVE-2025-24132": 1
+    },
+    "title": "Airplay CVE",
+    "text": "Looks like there's a Zero Click RCE that affects not only AirPlay but also anything that uses the AirPlay SDK (CVE-2025-24132). Allows the user to get remote code execution on devices with the only barrier being that the attack has to come from the same WiFi network.\n\nThere's a pretty good YouTube video on this CVE here: https://youtu.be/AZ0WM6U48lI?si=6JtBFF5L7PzF0i6d\n\nI'm guessing that Sonos would be affected by this? Any word from Sonos on an update to the AirPlay SDK used in Sonos speakers?",
+    "permalink": "/r/sonos/comments/1kd0x8i/airplay_cve/",
+    "timestamp": "2025-05-02T13:26:40",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 2,
+        "text": "This doesn’t cause me any concern due to needing to be on the same WiFi network. Still good to know about though.",
+        "level": 0
+      },
+      {
+        "score": 1,
+        "text": "There is a bit of a worry though since apparently the exploit is wormable. Meaning that if a device gets exploited elsewhere and then comes on to your network it can spread to other devices on that network.\n\nFor instance, you go to a friend's house with a Sonos system that is exploited, it exploits your iPhone if it isn't patched, and then you can bring that back to your Sonos system. Since this is zero click you might be completely unaware that anything has happened.",
+        "level": 1
+      },
+      {
+        "score": 2,
+        "text": "I was gonna say iPhone would be safe because this is only for devices capable of receiving AirPlay, but I forgot that you can now enable AirPlay receiver on iPhones recently for mirroring you Apple Vision while a guest is using it.\n\nMight be a good idea to disable AirPlay receiver on iPhone until this is patched.",
+        "level": 2
+      }
+    ]
   }
 ]
