@@ -4706,5 +4706,33 @@
     "timestamp": "2025-05-02T08:13:13",
     "clean_text": "SonicWall Confirms Active Exploitation of Flaws Affecting Multiple Appliance Models SonicWall has revealed that two now-patched security flaws impacting its SMA100 Secure Mobile Access (SMA) appliances have been exploited in the wild. The vulnerabilities in question are listed below - CVE-2023-44221* (CVSS score: 7.2) - Improper neutralization of special elements in the SMA100 SSL-VPN management interface allows a remote authenticated attacker with administrative privilege to inject arbitrary commands as a 'nobody' user, potentially leading to OS Command Injection Vulnerability CVE-2024-38475* (CVSS score: 9.8) - Improper escaping of output in mod\\_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to file system locations that are permitted to be served by the server",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4162"
+    ],
+    "cve_counts": {
+      "CVE-2025-4162": 1
+    },
+    "title": "CVE Alert: CVE-2025-4162",
+    "permalink": "/r/RedPacketSecurity/comments/1kcx6aj/cve_alert_cve20254162/",
+    "timestamp": "2025-05-02T09:59:25",
+    "clean_text": "CVE Alert: CVE-2025-4162 A vulnerability classified as critical was found in PCMan FTP Server up to 2.0.7. This vulnerability affects unknown code of the component ASCII Command Handler. The manipulation leads to buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2020-1472"
+    ],
+    "cve_counts": {
+      "CVE-2020-1472": 1
+    },
+    "title": "EEK detection, should I be worried?",
+    "permalink": "/r/antivirus/comments/1kcx4pr/eek_detection_should_i_be_worried/",
+    "timestamp": "2025-05-02T09:56:24",
+    "clean_text": "EEK detection, should I be worried? Generic.Exploit.CVE-2020-1472.2.9364262A (B) [krnl.xmd] Esmisoft Emergency kit found 4 copies in different C folders, here's the vt link, should I be worried? <URL>",
+    "clean_comments": [
+      "Level 0: No, you shouldn't worry. Remember, worrying doesn't actually solve anything. Instead, pause and take a deep breath. There might be an issue to address or some preventative steps to consider. Let's identify the next steps instead of worrying. So no, I can't advise you to be worried. *This message is for informational purposes only. Your post will not be removed for this reason, and anyone can still reply to it.* I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/antivirus) if you have any questions or concerns."
+    ]
   }
 ]

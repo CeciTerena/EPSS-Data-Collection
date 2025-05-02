@@ -5737,5 +5737,39 @@
     "timestamp": "2025-05-02T08:13:13",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4162"
+    ],
+    "cve_counts": {
+      "CVE-2025-4162": 1
+    },
+    "title": "CVE Alert: CVE-2025-4162",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kcx6aj/cve_alert_cve20254162/",
+    "timestamp": "2025-05-02T09:59:25",
+    "article_text": "A vulnerability classified as critical was found in PCMan FTP Server up to 2.0.7. This vulnerability affects unknown code of the component ASCII Command Handler. The manipulation leads to buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2020-1472"
+    ],
+    "cve_counts": {
+      "CVE-2020-1472": 1
+    },
+    "title": "EEK detection, should I be worried?",
+    "text": "Generic.Exploit.CVE-2020-1472.2.9364262A (B) [krnl.xmd]\nEsmisoft Emergency kit \n found 4 copies in different C folders, here's the vt link, should I be worried?\n\nhttps://www.virustotal.com/gui/file-analysis/ZDQ3MTNiY2FkY2MwYzYzM2MyOWRlN2M3MjQ5ZGMzNzU6MTc0NjE3OTUyNQ==",
+    "permalink": "/r/antivirus/comments/1kcx4pr/eek_detection_should_i_be_worried/",
+    "timestamp": "2025-05-02T09:56:24",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "No, you shouldn't worry. Remember, worrying doesn't actually solve anything. Instead, pause and take a deep breath.\n\nThere might be an issue to address or some preventative steps to consider. Let's identify the next steps instead of worrying.\n\nSo no, I can't advise you to be worried.\n\n***This message is for informational purposes only. Your post will not be removed for this reason, and anyone can still reply to it.***\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/antivirus) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
   }
 ]
