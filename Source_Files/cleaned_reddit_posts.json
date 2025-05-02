@@ -4764,5 +4764,49 @@
     "timestamp": "2025-05-02T14:59:26",
     "clean_text": "CVE Alert: CVE-2025-3521 The Team Members – Best WordPress Team Plugin with Team Slider, Team Showcase & Team Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Social Link icons in all versions up to, and including, 3.4.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1
+    },
+    "title": "CVE-2025-29927: Key details on the Next.js vulnerability",
+    "permalink": "/r/upsun/comments/1kd4ml6/cve202529927_key_details_on_the_nextjs/",
+    "timestamp": "2025-05-02T16:01:58",
+    "clean_text": "CVE-2025-29927: Key details on the Next.js vulnerability",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324",
+      "CVE-2025-31191",
+      "CVE-2024-38475",
+      "CVE-2023-44221",
+      "CVE-2024-10442",
+      "CVE-2025-23244",
+      "CVE-2025-3928",
+      "CVE-2025-2783",
+      "CVE-2025-29927",
+      "CVE-2024-27876"
+    ],
+    "cve_counts": {
+      "CVE-2025-31191": 2,
+      "CVE-2025-23244": 2,
+      "CVE-2025-29927": 2,
+      "CVE-2024-38475": 2,
+      "CVE-2025-2783": 2,
+      "CVE-2023-44221": 2,
+      "CVE-2024-10442": 2,
+      "CVE-2025-31324": 2,
+      "CVE-2024-27876": 2,
+      "CVE-2025-3928": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (02/05/2025)",
+    "permalink": "/r/CVEWatch/comments/1kd3xh8/top_10_trending_cves_02052025/",
+    "timestamp": "2025-05-02T15:33:31",
+    "clean_text": "🔥 Top 10 Trending CVEs (02/05/2025) Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today: 1. CVE-2025-31191 - This issue was addressed through improved state management. This issue is fixed in macOS Ventura 13.7.5, tvOS 18.4, iOS 18.4 and iPadOS 18.4, macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to access sensitive user data. - Published: 31/03/2025 - CVSS: 5.5 - Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N - Mentions: 5 - Priority: 4 - 2. CVE-2025-23244 - NVIDIA GPU Display Driver for Linux contains a vulnerability which could allow an unprivileged attacker to escalate permissions. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering. - Published: 01/05/2025 - CVSS: 7.8 - Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H - Mentions: 2 - Priority: 4 - 3. CVE-2025-29927 - Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3. - Published: 21/03/2025 - CVSS: 9.1 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N - Mentions: 186 - Priority: 2 - 4. CVE-2024-38475 - Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that arepermitted to be served by the server but are not intentionally/directly reachable by any URL, resulting in code execution or source code disclosure. Substitutions inserver context that use a backreferences or variables as the first segment of the substitution are affected. Some unsafe RewiteRules will be broken by this change and the rewrite flag UnsafePrefixStat can be used to opt back in once ensuring the substitution is appropriately constrained. - Published: 01/07/2024 - CVSS: 9.1 - CISA KEV: True - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N - Mentions: 17 - Priority: 1+ - 5. CVE-2025-2783 - Incorrect handle provided in unspecified circumstances in Mojo in Google Chrome on Windows prior to 134.0.6998.177 allowed a remote attacker to perform a sandbox escape via a malicious file. (Chromium security severity: High) - Published: 26/03/2025 - CVSS: 8.3 - CISA KEV: True - Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H - Mentions: 79 - Priority: 1+ - 6. CVE-2023-44221 - Improper neutralization of special elements in the SMA100 SSL-VPN management interface allows a remote authenticated attacker with administrative privilege to inject arbitrary commands as a nobody user, potentially leading to OS Command Injection Vulnerability. - Published: 05/12/2023 - CVSS: 0 - Vector: n/a - Mentions: 16 - Priority: 4 - 7. CVE-2024-10442 - Off-by-one error vulnerability in the transmission component in Synology Replication Service before 1.0.12-0066, 1.2.2-0353 and 1.3.0-0423 and Synology Unified Controller (DSMUC) before 3.1.4-23079 allows remote attackers to execute arbitrary code, potentially leading to a broader impact across the system via unspecified vectors. - Published: 19/03/2025 - CVSS: 10 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H - Mentions: 8 - Priority: 2 - 8. CVE-2025-31324 - SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system. - Published: 24/04/2025 - CVSS: 10 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H - Mentions: 9 - Priority: 4 - 9. CVE-2024-27876 - A race condition was addressed with improved locking. This issue is fixed in macOS Ventura 13.7, iOS 17.7 and iPadOS 17.7, visionOS 2, iOS 18 and iPadOS 18, macOS Sonoma 14.7, macOS Sequoia 15. Unpacking a maliciously crafted archive may allow an attacker to write arbitrary files. - Published: 16/09/2024 - CVSS: 8.1 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N - Mentions: 1 - Priority: 4 - 10. CVE-2025-3928 - Commvault Web Server has an unspecified vulnerability that can be exploited by a remote, authenticated attacker. According to the Commvault advisory: Webservers can be compromised through bad actors creating and executing webshells. Fixed in version 11.36.46, 11.32.89, 11.28.141, and 11.20.217 for Windows and Linux platforms. - Published: 25/04/2025 - CVSS: 8.8 - CISA KEV: True - Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H - Mentions: 11 - Priority: 1+ - Let us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from CVE_Prioritizer.",
+    "clean_comments": []
   }
 ]
