@@ -4611,5 +4611,18 @@
     "timestamp": "2025-05-01T23:59:27",
     "clean_text": "CVE Alert: CVE-2025-4135 A vulnerability was found in Netgear WG302v2 up to 5.2.9 and classified as critical. Affected by this issue is the function uigetinput_value. The manipulation of the argument host leads to command injection. The attack may be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-52976"
+    ],
+    "cve_counts": {
+      "CVE-2024-52976": 1
+    },
+    "title": "CVE Alert: CVE-2024-52976",
+    "permalink": "/r/RedPacketSecurity/comments/1kcsxhd/cve_alert_cve202452976/",
+    "timestamp": "2025-05-02T04:59:29",
+    "clean_text": "CVE Alert: CVE-2024-52976 Inclusion of functionality from an untrusted control sphere in Elastic Agent subprocess, osqueryd, allows local attackers to execute arbitrary code via parameter injection. An attacker requires local access and the ability to modify osqueryd configurations.",
+    "clean_comments": []
   }
 ]
