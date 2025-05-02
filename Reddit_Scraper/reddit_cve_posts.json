@@ -5801,5 +5801,19 @@
         "level": 2
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-3521"
+    ],
+    "cve_counts": {
+      "CVE-2025-3521": 1
+    },
+    "title": "CVE Alert: CVE-2025-3521",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kd32x3/cve_alert_cve20253521/",
+    "timestamp": "2025-05-02T14:59:26",
+    "article_text": "The Team Members – Best WordPress Team Plugin with Team Slider, Team Showcase & Team Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Social Link icons in all versions up to, and including, 3.4.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+    "comments": []
   }
 ]

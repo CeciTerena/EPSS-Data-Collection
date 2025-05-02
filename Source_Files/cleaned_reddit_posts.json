@@ -4751,5 +4751,18 @@
       "Level 1: There is a bit of a worry though since apparently the exploit is wormable. Meaning that if a device gets exploited elsewhere and then comes on to your network it can spread to other devices on that network. For instance, you go to a friend's house with a Sonos system that is exploited, it exploits your iPhone if it isn't patched, and then you can bring that back to your Sonos system. Since this is zero click you might be completely unaware that anything has happened.",
       "Level 2: I was gonna say iPhone would be safe because this is only for devices capable of receiving AirPlay, but I forgot that you can now enable AirPlay receiver on iPhones recently for mirroring you Apple Vision while a guest is using it. Might be a good idea to disable AirPlay receiver on iPhone until this is patched."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-3521"
+    ],
+    "cve_counts": {
+      "CVE-2025-3521": 1
+    },
+    "title": "CVE Alert: CVE-2025-3521",
+    "permalink": "/r/RedPacketSecurity/comments/1kd32x3/cve_alert_cve20253521/",
+    "timestamp": "2025-05-02T14:59:26",
+    "clean_text": "CVE Alert: CVE-2025-3521 The Team Members – Best WordPress Team Plugin with Team Slider, Team Showcase & Team Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Social Link icons in all versions up to, and including, 3.4.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+    "clean_comments": []
   }
 ]
