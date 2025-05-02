@@ -5617,5 +5617,19 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-4135"
+    ],
+    "cve_counts": {
+      "CVE-2025-4135": 1
+    },
+    "title": "CVE Alert: CVE-2025-4135",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kcngio/cve_alert_cve20254135/",
+    "timestamp": "2025-05-01T23:59:27",
+    "article_text": "A vulnerability was found in Netgear WG302v2 up to 5.2.9 and classified as critical. Affected by this issue is the function ui_get_input_value. The manipulation of the argument host leads to command injection. The attack may be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.",
+    "comments": []
   }
 ]
