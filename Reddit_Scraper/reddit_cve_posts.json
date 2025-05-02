@@ -5693,5 +5693,33 @@
     "timestamp": "2025-05-02T05:51:29",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-10445"
+    ],
+    "cve_counts": {
+      "CVE-2024-10445": 1
+    },
+    "title": "Synology BeeStation BST150-4T Unnecessary Privileges Remote Code Execution Vulnerability (CVE-2024-10445)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1kcvfrd/synology_beestation_bst1504t_unnecessary/",
+    "timestamp": "2025-05-02T07:52:15",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29953"
+    ],
+    "cve_counts": {
+      "CVE-2025-29953": 1
+    },
+    "title": "Apache ActiveMQ NMS Body Deserialization of Untrusted Data Remote Code Execution Vulnerability (CVE-2025-29953)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1kcvdp9/apache_activemq_nms_body_deserialization_of/",
+    "timestamp": "2025-05-02T07:48:08",
+    "article_text": null,
+    "comments": []
   }
 ]

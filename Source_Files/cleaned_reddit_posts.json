@@ -4665,5 +4665,31 @@
     "timestamp": "2025-05-02T05:51:29",
     "clean_text": "Stolen 2019 MacBook Pro – Find My “Erase Pending” but thieves reinstalled Catalina and are on the desktop. How did they bypass Activation Lock & what data did they get? So here's the situation. My 2019 16-inch Intel MacBook Pro (T2 chip) and 2017 iPad Pro were stolen a few days ago from a cafe. As soon as I realized, I logged into iCloud and triggered both “Erase Device” and “Mark As Lost” via Find My — this was within 10 minutes of the theft. The devices showed up shortly after in a place in my city that’s notorious for being where all stolen electronics go like a central market for used parts, stolen electronics, jailbroken devices, etc. Two days later, I managed to get someone with a “connection” inside that place to send me a photo of the Mac. And here’s the crazy part: it was booted up, on the macOS Catalina 10.15.7 desktop. They even sent me the About This Mac screen showing my exact serial number — no doubt it’s mine. But the OS is downgraded from Ventura 13.6.1 (what I was running) to Catalina. I can’t see the user folders or whether my desktop files are there — they only sent me the About screen — but no information in the desktop items. Meanwhile, Find My still shows the Mac as “Erase Pending”, which suggests it hasn’t gone online since the theft — or if it has, it’s on a filtered network. I’m not sure if I had FileVault enabled. I think not. (Yeah, I know.) No firmware or startup password either, but my only User (admin user) did have a 24 digit password. Find My \\was\\ enabled, and I’ve always had 2FA on my Apple ID. So… how did they pull this off? \\# What I think they did (please tell me if this sounds right or not) \\* Booted into Recovery Mode (Cmd + R). No password needed. \\* Opened Disk Utility and wiped the internal drive. \\* Reinstalled Catalina (either via Internet Recovery or a USB installer). \\* Never connected to Wi-Fi, or they blocked Apple activation servers (\\gdmf.apple.com\\, etc.). \\* During Setup Assistant, since there’s no connection, macOS never checks with Apple’s servers, so Activation Lock doesn’t kick in. \\* They create a new admin user and boot to the desktop. And now… they're just sitting on a Catalina machine, not sure if they managed to get online or not, but I would guess so, as they sell these stolen devices.* They’re known in that area for selling “unlocked” Macs, so I’m wondering if they did something more advanced — maybe some Activation Lock bypass or hardware trick? \\# Questions I’m hoping someone here can help with: 1. \\\\Does this flow sound technically correct?\\\\ Is it really this “easy” if FileVault was off and Recovery Mode isn’t locked down? 2. \\\\Is it likely they accessed my data before wiping?\\\\ Could they have just reset the password via Recovery or deleted \\.AppleSetupDone\\ to make a new admin and snoop around \\before\\ erasing? 3. \\\\Are there real-world ways to actually kill Activation Lock on T2 Macs?\\\\ Like logic board swaps, or any of those gray-market “checkm8-T2” tools? (I’ve read claims, but can’t tell what’s real.) 4. \\\\Anything else I should be doing now?\\\\ I've left the device in iCloud with Erase Pending, and I've rotated every important password and token I can think of. \\# Stuff I’ve been reading that might be relevant \\* The usual \\resetpassword\\ trick in Recovery works fine if FileVault’s off. You can reset or create users with no Apple ID needed. \\* There was CVE-2025-24200 — a USB restricted mode bypass — but it doesn’t seem needed here since FileVault was off. \\* The old “reset NVRAM to disable Find My” trick doesn’t apply anymore — Apple patched that years ago (by Catalina). \\ I’ve read rumors about checkm8-based tools unlocking T2 Macs, but haven’t seen credible confirmation that it works post-erase \\and\\* online. I’m trying to fully understand the actual limitations of Activation Lock and Find My in practice — especially when FileVault isn’t on. Apple implies “your data is safe,” but this sure feels like it’s not unless encryption is on too. Happy to answer anything that helps figure this out. I appreciate any insight — whether you've seen this before or have deeper technical knowledge about how Apple’s activation flow works. Thanks. TL;DR: My 2019 MacBook Pro (T2) was stolen. Find My shows \"Erase Pending\", but someone sent me a pic of it booted into Catalina, logged into a new user (my previous user/admin had a 24 digit password). How did they downgrade, erase, and get to the desktop without triggering Activation Lock? FileVault was likely off. Wondering if my data was accessed first — and whether they can fully bypass Activation Lock somehow.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-10445"
+    ],
+    "cve_counts": {
+      "CVE-2024-10445": 1
+    },
+    "title": "Synology BeeStation BST150-4T Unnecessary Privileges Remote Code Execution Vulnerability (CVE-2024-10445)",
+    "permalink": "/r/systemtek/comments/1kcvfrd/synology_beestation_bst1504t_unnecessary/",
+    "timestamp": "2025-05-02T07:52:15",
+    "clean_text": "Synology BeeStation BST150-4T Unnecessary Privileges Remote Code Execution Vulnerability (CVE-2024-10445)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29953"
+    ],
+    "cve_counts": {
+      "CVE-2025-29953": 1
+    },
+    "title": "Apache ActiveMQ NMS Body Deserialization of Untrusted Data Remote Code Execution Vulnerability (CVE-2025-29953)",
+    "permalink": "/r/systemtek/comments/1kcvdp9/apache_activemq_nms_body_deserialization_of/",
+    "timestamp": "2025-05-02T07:48:08",
+    "clean_text": "Apache ActiveMQ NMS Body Deserialization of Untrusted Data Remote Code Execution Vulnerability (CVE-2025-29953)",
+    "clean_comments": []
   }
 ]
