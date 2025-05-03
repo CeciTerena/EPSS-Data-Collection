@@ -1,0 +1,250 @@
+[
+  {
+    "body": "CVE-2025-4150 - Netgear EX6200 Remote Buffer Overflow May 01, 2025 at 05:15AM  https:// ift.tt/1ODvIyo   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114431001434325513",
+    "created_at": "2025-05-01T05:48:33.105Z",
+    "cve": [
+      "CVE-2025-4150"
+    ]
+  },
+  {
+    "body": "CVE-2025-3952 - Projectopia WordPress Project Management Unauthenticated Option Deletion May 01, 2025 at 05:15AM  https:// ift.tt/REJkeZt   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114431001387714484",
+    "created_at": "2025-05-01T05:48:32.393Z",
+    "cve": [
+      "CVE-2025-3952"
+    ]
+  },
+  {
+    "body": "CVE-2025-4149 - Netgear EX6200 Remote Buffer Overflow Vulnerability May 01, 2025 at 04:16AM  https:// ift.tt/qbO28VU   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114431001354642381",
+    "created_at": "2025-05-01T05:48:31.889Z",
+    "cve": [
+      "CVE-2025-4149"
+    ]
+  },
+  {
+    "body": "CVE-2025-4148 - Netgear EX6200 Remote Buffer Overflow Vulnerability May 01, 2025 at 04:16AM  https:// ift.tt/sbqXGVH   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114431001297247363",
+    "created_at": "2025-05-01T05:48:31.017Z",
+    "cve": [
+      "CVE-2025-4148"
+    ]
+  },
+  {
+    "body": "CVE-2025-1305 - NewsBlogger WordPress CSRF Remote Code Execution Vulnerability May 01, 2025 at 04:16AM  https:// ift.tt/nGogORv   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114431001227819569",
+    "created_at": "2025-05-01T05:48:29.950Z",
+    "cve": [
+      "CVE-2025-1305"
+    ]
+  },
+  {
+    "body": "CVE-2025-1304 - NewsBlogger for WordPress Arbitrary File Upload Vulnerability May 01, 2025 at 04:16AM  https:// ift.tt/t5sojuW   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114431001193499369",
+    "created_at": "2025-05-01T05:48:29.430Z",
+    "cve": [
+      "CVE-2025-1304"
+    ]
+  },
+  {
+    "body": "Investigating an in-the-wild campaign using RCE in CraftCMS Researches analyzed CVE-2025-32432, an RCE in CraftCMS exploited via image transforms, leading to file uploads and site compromise. https:// sensepost.com/blog/2025/invest igating-an-in-the-wild-campaign-using-rce-in-craftcms/ # cve   # rce",
+    "id": "114430931181090271",
+    "created_at": "2025-05-01T05:30:40.000Z",
+    "cve": [
+      "CVE-2025-32432"
+    ]
+  },
+  {
+    "body": "CVE-2025-2816 - WordPress Page View Count Unauthorized Data Modification Vulnerability May 01, 2025 at 03:15AM  https:// ift.tt/zvRWIl0   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114430529833344469",
+    "created_at": "2025-05-01T03:48:37.077Z",
+    "cve": [
+      "CVE-2025-2816"
+    ]
+  },
+  {
+    "body": "CVE-2025-4147 - Netgear EX6200 Remote Buffer Overflow Vulnerability May 01, 2025 at 02:15AM  https:// ift.tt/0unlFPE   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114430529793765709",
+    "created_at": "2025-05-01T03:48:36.440Z",
+    "cve": [
+      "CVE-2025-4147"
+    ]
+  },
+  {
+    "body": "CVE-2025-4146 - Netgear EX6200 Remote Buffer Overflow Vulnerability May 01, 2025 at 02:15AM  https:// ift.tt/nJC845G   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114430529763357297",
+    "created_at": "2025-05-01T03:48:35.974Z",
+    "cve": [
+      "CVE-2025-4146"
+    ]
+  },
+  {
+    "body": "CVE-2025-4145 - Netgear EX6200 Remote Buffer Overflow May 01, 2025 at 01:15AM  https:// ift.tt/5u7FvQA   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114430057960003343",
+    "created_at": "2025-05-01T01:48:36.828Z",
+    "cve": [
+      "CVE-2025-4145"
+    ]
+  },
+  {
+    "body": "CVE-2025-4142 - Netgear EX6200 Remote Buffer Overflow Vulnerability April 30, 2025 at 11:16PM  https:// ift.tt/uLbaBTC   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114429585881047884",
+    "created_at": "2025-04-30T23:48:33.473Z",
+    "cve": [
+      "CVE-2025-4142"
+    ]
+  },
+  {
+    "body": "CVE-2025-4141 - Netgear EX6200 Remote Buffer Overflow Vulnerability April 30, 2025 at 10:15PM  https:// ift.tt/dTAMqJx   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114429585840360844",
+    "created_at": "2025-04-30T23:48:32.853Z",
+    "cve": [
+      "CVE-2025-4141"
+    ]
+  },
+  {
+    "body": "CVE-2025-4140 - Netgear EX6120 Remote Buffer Overflow Vulnerability April 30, 2025 at 10:15PM  https:// ift.tt/LqyUdeV   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114429585785918396",
+    "created_at": "2025-04-30T23:48:32.032Z",
+    "cve": [
+      "CVE-2025-4140"
+    ]
+  },
+  {
+    "body": "CVE-2025-4139 - Netgear EX6120 Remote Buffer Overflow Vulnerability April 30, 2025 at 09:15PM  https:// ift.tt/JqNtAKc   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114429113294159822",
+    "created_at": "2025-04-30T21:48:22.371Z",
+    "cve": [
+      "CVE-2025-4139"
+    ]
+  },
+  {
+    "body": "CVE-2025-46558 - XWiki Contrib Markdown XSS April 30, 2025 at 07:15PM  https:// ift.tt/wfB0kbY   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114428642542388304",
+    "created_at": "2025-04-30T19:48:39.274Z",
+    "cve": [
+      "CVE-2025-46558"
+    ]
+  },
+  {
+    "body": "CVE-2025-30392 - Azure Bot Framework SDK Privilege Escalation Unauthorized Access April 30, 2025 at 06:15PM  https:// ift.tt/2CpV5Uw   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114428642482723437",
+    "created_at": "2025-04-30T19:48:38.367Z",
+    "cve": [
+      "CVE-2025-30392"
+    ]
+  },
+  {
+    "body": "CVE-2025-30391 - Microsoft Dynamics Information Disclosure Vulnerability April 30, 2025 at 06:15PM  https:// ift.tt/2Kt0rdU   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114428642077120482",
+    "created_at": "2025-04-30T19:48:32.170Z",
+    "cve": [
+      "CVE-2025-30391"
+    ]
+  },
+  {
+    "body": "CVE-2025-30390 - Azure AzureAD Authentication Bypass April 30, 2025 at 06:15PM  https:// ift.tt/N65krEv   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114428642039876617",
+    "created_at": "2025-04-30T19:48:31.601Z",
+    "cve": [
+      "CVE-2025-30390"
+    ]
+  },
+  {
+    "body": "CVE-2025-30389 - Azure Bot Framework SDK Authorization Bypass Vulnerability April 30, 2025 at 06:15PM  https:// ift.tt/vlTqhey   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114428641997339689",
+    "created_at": "2025-04-30T19:48:30.951Z",
+    "cve": [
+      "CVE-2025-30389"
+    ]
+  },
+  {
+    "body": "CVE-2025-21416 - Azure Virtual Desktop Privilege Escalation Vulnerability April 30, 2025 at 06:15PM  https:// ift.tt/wx5QAsY   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114428641966166283",
+    "created_at": "2025-04-30T19:48:30.476Z",
+    "cve": [
+      "CVE-2025-21416"
+    ]
+  },
+  {
+    "body": "CVE-2025-46342 - Kyverno Namespace Selector Bypass Vulnerability April 30, 2025 at 03:16PM  https:// ift.tt/lBrAV79   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114427698692598891",
+    "created_at": "2025-04-30T15:48:37.270Z",
+    "cve": [
+      "CVE-2025-46342"
+    ]
+  },
+  {
+    "body": "CVE-2025-32974 - XWiki Cross-Site Scripting (XSS) and Privilege Escalation Vulnerability April 30, 2025 at 03:16PM  https:// ift.tt/psOva7X   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114427698650906062",
+    "created_at": "2025-04-30T15:48:36.624Z",
+    "cve": [
+      "CVE-2025-32974"
+    ]
+  },
+  {
+    "body": "CVE-2025-32973 - XWiki Privilege Escalation Vulnerability April 30, 2025 at 03:16PM  https:// ift.tt/y1U0ntR   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114427698608004436",
+    "created_at": "2025-04-30T15:48:35.969Z",
+    "cve": [
+      "CVE-2025-32973"
+    ]
+  },
+  {
+    "body": "CVE-2025-27134 - Joplin Privilege Escalation Vulnerability April 30, 2025 at 03:16PM  https:// ift.tt/zhEXDve   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114427698562006042",
+    "created_at": "2025-04-30T15:48:35.271Z",
+    "cve": [
+      "CVE-2025-27134"
+    ]
+  },
+  {
+    "body": "CVE-2025-4120 - Netgear JWNR2000 Remote Buffer Overflow Vulnerability April 30, 2025 at 02:15PM  https:// ift.tt/WAaZIws   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114427698527955636",
+    "created_at": "2025-04-30T15:48:34.751Z",
+    "cve": [
+      "CVE-2025-4120"
+    ]
+  },
+  {
+    "body": "CVE-2025-4083 - Firefox JavaScript URI Isolation Bypass April 29, 2025 at 02:15PM  https:// ift.tt/a7Vtr0x   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114427698494831127",
+    "created_at": "2025-04-30T15:48:34.243Z",
+    "cve": [
+      "CVE-2025-4083"
+    ]
+  },
+  {
+    "body": "CVE-2025-4116 - Netgear JWNR2000 Buffer Overflow Vulnerability April 30, 2025 at 01:15PM  https:// ift.tt/9NKYPu5   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114427227145903094",
+    "created_at": "2025-04-30T13:48:42.032Z",
+    "cve": [
+      "CVE-2025-4116"
+    ]
+  },
+  {
+    "body": "CVE-2025-4115 - Netgear JWNR2000v2 Buffer Overflow Vulnerability April 30, 2025 at 01:15PM  https:// ift.tt/ugpawH9   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114427227091111449",
+    "created_at": "2025-04-30T13:48:41.199Z",
+    "cve": [
+      "CVE-2025-4115"
+    ]
+  },
+  {
+    "body": "CVE-2025-4114 - Netgear JWNR2000 Buffer Overflow Vulnerability April 30, 2025 at 12:15PM  https:// ift.tt/t9YsI0C   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114427227029271679",
+    "created_at": "2025-04-30T13:48:40.253Z",
+    "cve": [
+      "CVE-2025-4114"
+    ]
+  },
+  {
+    "body": "CVE-2025-24351 - CtrlX OS Remote Command Execution Vulnerability April 30, 2025 at 12:15PM  https:// ift.tt/4qUP9ws   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
+    "id": "114427226980934878",
+    "created_at": "2025-04-30T13:48:39.515Z",
+    "cve": [
+      "CVE-2025-24351"
+    ]
+  }
+]
