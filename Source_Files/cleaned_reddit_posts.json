@@ -4821,5 +4821,18 @@
     "timestamp": "2025-05-02T19:59:32",
     "clean_text": "CVE Alert: CVE-2024-13845 The Gravity Forms WebHooks plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 1.6.0 via the ‘processfeed’ method of the GFWebhooks class This makes it possible for authenticated attackers, with Administrator-level access and above, to make web requests to arbitrary locations originating from the web application and can be used to query and modify information from internal services.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4147"
+    ],
+    "cve_counts": {
+      "CVE-2025-4147": 1
+    },
+    "title": "CVE Alert: CVE-2025-4147",
+    "permalink": "/r/RedPacketSecurity/comments/1kdfnfo/cve_alert_cve20254147/",
+    "timestamp": "2025-05-02T23:59:31",
+    "clean_text": "CVE Alert: CVE-2025-4147 A vulnerability has been found in Netgear EX6200 1.0.3.94 and classified as critical. Affected by this vulnerability is the function sub_47F7C. The manipulation of the argument host leads to buffer overflow. The attack can be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.",
+    "clean_comments": []
   }
 ]
