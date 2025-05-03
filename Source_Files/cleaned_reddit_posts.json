@@ -4891,5 +4891,18 @@
     "timestamp": "2025-05-03T09:59:26",
     "clean_text": "CVE Alert: CVE-2025-1301 Improper Neutralization of Input During Web Page Generation (XSS or ‘Cross-site Scripting’) vulnerability in Yordam Informatics Library Automation System allows Reflected XSS.This issue affects Library Automation System: before 21.6.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3488"
+    ],
+    "cve_counts": {
+      "CVE-2025-3488": 1
+    },
+    "title": "CVE Alert: CVE-2025-3488",
+    "permalink": "/r/RedPacketSecurity/comments/1kduxd4/cve_alert_cve20253488/",
+    "timestamp": "2025-05-03T14:59:26",
+    "clean_text": "CVE Alert: CVE-2025-3488 The WPML plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin’s wpmllanguageswitcher shortcode in versions 3.6.0 – 4.7.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+    "clean_comments": []
   }
 ]
