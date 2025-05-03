@@ -5977,5 +5977,23 @@
     "timestamp": "2025-05-03T19:59:30",
     "article_text": "Multiple plugins and/or themes for WordPress are vulnerable to unauthorized access due to a missing capability check on several AJAX actions like ‘gsf_reset_section_options’, ‘gsf_reset_section_options’, ‘gsf_create_preset_options’ and more in various versions. This makes it possible for authenticated attackers, with Subscriber-level access and above, to reset and modify some of the plugin/theme settings. This issue was escalated to Envato over two months from the date of this disclosure and the issues, while partially patched, are still vulnerable.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24524",
+      "CVE-2025-24522",
+      "CVE-2025-32011"
+    ],
+    "cve_counts": {
+      "CVE-2025-24522": 1,
+      "CVE-2025-32011": 1,
+      "CVE-2025-24524": 1
+    },
+    "title": "CISA Warns of KUNBUS Auth Bypass Vulnerabilities Exposes Systems to Remote Attacks",
+    "text": "CISA warns of critical auth bypass vulnerabilities in KUNBUS’s Revolution Pi industrial devices, risking remote attacks in sectors like manufacturing, energy, and healthcare. Key flaws include unauthenticated Node-RED access (CVE-2025-24522), path traversal bypass (CVE-2025-32011), and SSI injection (CVE-2025-24524). Patching, enabling strong auth, and network isolation are urgently recommended to prevent sabotage or downtime.",
+    "permalink": "/r/u_WalkureARCH/comments/1ke5esq/cisa_warns_of_kunbus_auth_bypass_vulnerabilities/",
+    "timestamp": "2025-05-03T22:52:45",
+    "article_text": "CISA has issued an urgent advisory highlighting critical vulnerabilities in KUNBUS GmbH’s Revolution Pi industrial automation devices.\n\nThese flaws, which include authentication bypass and remote code execution risks, threaten sectors like manufacturing, energy, and healthcare. Attackers can disrupt operations, manipulate safety systems, or cause widespread downtime.\n\nHigh-Severity Vulnerabilities in Revolution Pi\n\nThe advisory identifies three primary vulnerabilities affecting Revolution Pi OS Bookworm (01/2025) and PiCtory software (versions 2.5.0–2.11.1):\n\n1. Missing Authentication for Critical Function (CVE-2025-24522)The Node-RED server in Revolution Pi OS lacks default authentication, allowing unauthenticated attackers to executearbitrary commandson the operating system. With a CVSS v3.1 score of 10.0, this flaw poses the highest risk, enabling full remote control of industrial systems.\n\n2. Authentication Bypass via Path Traversal (CVE-2025-32011)PiCtory’s authentication mechanism can be bypassed through path traversal, granting unauthorized access to critical functions (CVSS v3.1: 9.8). Attackers could reconfigure industrial processes or extract sensitive data.\n\n3. Server-Side Includes (SSI) Injection (CVE-2025-24524)PiCtory’s failure to sanitize filenames allows authenticated attackers to inject malicious scripts, leading tocross-site scripting (XSS)attacks (CVSS v3.1: 9.8). This could compromise user sessions or deliver payloads to control systems.\n\nAffected Systems and Global Impact\n\nRevolution Pi devices are deployed worldwide in critical infrastructure sectors, including:\n\nKUNBUS, headquartered in Germany, has acknowledged the risks and released patches, but legacy deployments in highly regulated environments remain vulnerable due to slow update cycles.\n\nCISA and KUNBUSrecommendimmediate action to mitigate risks:\n\nKUNBUS plans to release a Cockpit plugin by April 2025 to simplify secure configurations.\n\nAdam Bromiley of Pen Test Partners discovered the vulnerabilities, which were collaboratively disclosed to CISA and KUNBUS.\n\nWhile no active exploitation has been reported, CISA emphasizes the urgency of patching, noting adversaries’ historical targeting of industrial systems for sabotage or extortion.",
+    "comments": []
   }
 ]
