@@ -5963,5 +5963,19 @@
     "timestamp": "2025-05-03T14:59:26",
     "article_text": "The WPML plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin’s wpml_language_switcher shortcode in versions 3.6.0 – 4.7.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-13420"
+    ],
+    "cve_counts": {
+      "CVE-2024-13420": 1
+    },
+    "title": "CVE Alert: CVE-2024-13420",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1ke1q47/cve_alert_cve202413420/",
+    "timestamp": "2025-05-03T19:59:30",
+    "article_text": "Multiple plugins and/or themes for WordPress are vulnerable to unauthorized access due to a missing capability check on several AJAX actions like ‘gsf_reset_section_options’, ‘gsf_reset_section_options’, ‘gsf_create_preset_options’ and more in various versions. This makes it possible for authenticated attackers, with Subscriber-level access and above, to reset and modify some of the plugin/theme settings. This issue was escalated to Envato over two months from the date of this disclosure and the issues, while partially patched, are still vulnerable.",
+    "comments": []
   }
 ]
