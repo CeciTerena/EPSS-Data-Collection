@@ -5903,5 +5903,51 @@
     "timestamp": "2025-05-03T04:59:28",
     "article_text": "A vulnerability has been found in PHPGurukul Online Birth Certificate System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/search.php. The manipulation of the argument searchdata leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29927",
+      "CVE-2025-26529",
+      "CVE-2025-3928",
+      "CVE-2025-23244",
+      "CVE-2023-44221",
+      "CVE-2025-1094",
+      "CVE-2024-10442",
+      "CVE-2025-31650",
+      "CVE-2025-31191",
+      "CVE-2024-38475"
+    ],
+    "cve_counts": {
+      "CVE-2025-31191": 2,
+      "CVE-2025-23244": 2,
+      "CVE-2025-29927": 2,
+      "CVE-2024-38475": 2,
+      "CVE-2023-44221": 2,
+      "CVE-2024-10442": 2,
+      "CVE-2025-1094": 2,
+      "CVE-2025-26529": 2,
+      "CVE-2025-31650": 2,
+      "CVE-2025-3928": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (03/05/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-31191](https://nvd.nist.gov/vuln/detail/CVE-2025-31191)**\n\n- 📝 This issue was addressed through improved state management. This issue is fixed in macOS Ventura 13.7.5, tvOS 18.4, iOS 18.4 and iPadOS 18.4, macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to access sensitive user data.\n\n- 📅 **Published:** 31/03/2025\n- 📈 **CVSS:** 5.5\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N\n- 📣 **Mentions:** 5\n- ⚠️ **Priority:** 4\n\n---\n\n**2. [CVE-2025-23244](https://nvd.nist.gov/vuln/detail/CVE-2025-23244)**\n\n- 📝 NVIDIA GPU Display Driver for Linux contains a vulnerability which could allow an unprivileged attacker to escalate permissions. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.\n\n- 📅 **Published:** 01/05/2025\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 2\n- ⚠️ **Priority:** 4\n\n---\n\n**3. [CVE-2025-29927](https://nvd.nist.gov/vuln/detail/CVE-2025-29927)**\n\n- 📝 Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.\n\n- 📅 **Published:** 21/03/2025\n- 📈 **CVSS:** 9.1\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 186\n- ⚠️ **Priority:** 2\n\n---\n\n**4. [CVE-2024-38475](https://nvd.nist.gov/vuln/detail/CVE-2024-38475)**\n\n- 📝 Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that arepermitted to be served by the server but are not intentionally/directly reachable by any URL, resulting in code execution or source code disclosure.  Substitutions inserver context that use a backreferences or variables as the first segment of the substitution are affected. Some unsafe RewiteRules will be broken by this change and the rewrite flag UnsafePrefixStat can be used to opt back in once ensuring the substitution is appropriately constrained.\n\n- 📅 **Published:** 01/07/2024\n- 📈 **CVSS:** 9.1\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 17\n- ⚠️ **Priority:** 1+\n\n---\n\n**5. [CVE-2023-44221](https://nvd.nist.gov/vuln/detail/CVE-2023-44221)**\n\n- 📝 Improper neutralization of special elements in the SMA100 SSL-VPN management interface allows a remote authenticated attacker with administrative privilege to inject arbitrary commands as a nobody user, potentially leading to OS Command Injection Vulnerability.\n\n- 📅 **Published:** 05/12/2023\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- 📣 **Mentions:** 16\n- ⚠️ **Priority:** 4\n\n---\n\n**6. [CVE-2024-10442](https://nvd.nist.gov/vuln/detail/CVE-2024-10442)**\n\n- 📝 Off-by-one error vulnerability in the transmission component in Synology Replication Service before 1.0.12-0066, 1.2.2-0353 and 1.3.0-0423 and Synology Unified Controller (DSMUC) before 3.1.4-23079 allows remote attackers to execute arbitrary code, potentially leading to a broader impact across the system via unspecified vectors.\n\n- 📅 **Published:** 19/03/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 8\n- ⚠️ **Priority:** 2\n\n---\n\n**7. [CVE-2025-1094](https://nvd.nist.gov/vuln/detail/CVE-2025-1094)**\n\n- 📝 Improper neutralization of quoting syntax in PostgreSQL libpq functions PQescapeLiteral(), PQescapeIdentifier(), PQescapeString(), and PQescapeStringConn() allows a database input provider to achieve SQL injection in certain usage patterns.  Specifically, SQL injection requires the application to use the function result to construct input to psql, the PostgreSQL interactive terminal.  Similarly, improper neutralization of quoting syntax in PostgreSQL command line utility programs allows a source of command line arguments to achieve SQL injection when client_encoding is BIG5 and server_encoding is one of EUC_TW or MULE_INTERNAL.  Versions before PostgreSQL 17.3, 16.7, 15.11, 14.16, and 13.19 are affected.\n\n- 📅 **Published:** 13/02/2025\n- 📈 **CVSS:** 8.1\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 89\n- ⚠️ **Priority:** 2\n\n---\n\n**8. [CVE-2025-26529](https://nvd.nist.gov/vuln/detail/CVE-2025-26529)**\n\n- 📝 Description information displayed in the site administration live log  required additional sanitizing to prevent a stored XSS risk.\n\n- 📅 **Published:** 24/02/2025\n- 📈 **CVSS:** 8.3\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 2\n\n---\n\n**9. [CVE-2025-31650](https://nvd.nist.gov/vuln/detail/CVE-2025-31650)**\n\n- 📝 Improper Input Validation vulnerability in Apache Tomcat. Incorrect error handling for some invalid HTTP priority headers resulted in incomplete clean-up of the failed request which created a memory leak. A large number of such requests could trigger an OutOfMemoryException resulting in a denial of service. This issue affects Apache Tomcat: from 9.0.76 through 9.0.102, from 10.1.10 through 10.1.39, from 11.0.0-M2 through 11.0.5. Users are recommended to upgrade to version 9.0.104, 10.1.40 or 11.0.6 which fix the issue.\n\n- 📅 **Published:** 28/04/2025\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- 📣 **Mentions:** 4\n- ⚠️ **Priority:** 4\n\n---\n\n**10. [CVE-2025-3928](https://nvd.nist.gov/vuln/detail/CVE-2025-3928)**\n\n- 📝 Commvault Web Server has an unspecified vulnerability that can be exploited by a remote, authenticated attacker. According to the Commvault advisory: Webservers can be compromised through bad actors creating and executing webshells. Fixed in version 11.36.46, 11.32.89, 11.28.141, and 11.20.217 for Windows and Linux platforms.\n\n- 📅 **Published:** 25/04/2025\n- 📈 **CVSS:** 8.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 11\n- ⚠️ **Priority:** 1+\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from [CVE_Prioritizer](https://github.com/TURROKS/CVE_Prioritizer).",
+    "permalink": "/r/CVEWatch/comments/1kdpgnr/top_10_trending_cves_03052025/",
+    "timestamp": "2025-05-03T10:01:52",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1301"
+    ],
+    "cve_counts": {
+      "CVE-2025-1301": 1
+    },
+    "title": "CVE Alert: CVE-2025-1301",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kdpf7c/cve_alert_cve20251301/",
+    "timestamp": "2025-05-03T09:59:26",
+    "article_text": "Improper Neutralization of Input During Web Page Generation (XSS or ‘Cross-site Scripting’) vulnerability in Yordam Informatics Library Automation System allows Reflected XSS.This issue affects Library Automation System: before 21.6.",
+    "comments": []
   }
 ]
