@@ -4834,5 +4834,18 @@
     "timestamp": "2025-05-02T23:59:31",
     "clean_text": "CVE Alert: CVE-2025-4147 A vulnerability has been found in Netgear EX6200 1.0.3.94 and classified as critical. Affected by this vulnerability is the function sub_47F7C. The manipulation of the argument host leads to buffer overflow. The attack can be launched remotely. The vendor was contacted early about this disclosure but did not respond in any way.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4213"
+    ],
+    "cve_counts": {
+      "CVE-2025-4213": 1
+    },
+    "title": "CVE Alert: CVE-2025-4213",
+    "permalink": "/r/RedPacketSecurity/comments/1kdl2rk/cve_alert_cve20254213/",
+    "timestamp": "2025-05-03T04:59:28",
+    "clean_text": "CVE Alert: CVE-2025-4213 A vulnerability has been found in PHPGurukul Online Birth Certificate System 1.0 and classified as critical. This vulnerability affects unknown code of the file /admin/search.php. The manipulation of the argument searchdata leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+    "clean_comments": []
   }
 ]
