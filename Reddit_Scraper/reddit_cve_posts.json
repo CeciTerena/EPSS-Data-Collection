@@ -6149,5 +6149,25 @@
     "timestamp": "2025-05-04T10:06:55",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-43201"
+    ],
+    "cve_counts": {
+      "CVE-2024-43201": 2
+    },
+    "title": "PSA: Planet Fitness Suffered a Major Data Breach – And Never Told Anyone",
+    "text": "If you're a Planet Fitness member (or were recently), your personal data has been exposed — and the company never told you.\n\nA major security vulnerability (**CVE-2024-43201**) was publicly disclosed showing that **Planet Fitness’s mobile app allowed full unauthenticated access to sensitive user data**, including:\n\n* Names\n* Email addresses\n* Emergency contact info\n* Check-in history\n* Member ID numbers\n* Payment information\n* Account metadata\n\nThe flaw was discovered by independent researchers and logged on official databases:  \n[National Vulnerability Database](https://nvd.nist.gov/vuln/detail/CVE-2024-43201)  \n[Technical writeup](https://dontvacuum.me/bugs/pf/)\n\nDespite this, **Planet Fitness has NOT notified its customers**, which violates state and federal data breach laws. If you use their app or recently canceled, assume your data has been exposed.\n\n**What You Should Do:**\n\n* Change your PF login credentials immediately\n* Remove the PF APP from your phone\n* Freeze or monitor bank accounts linked to your PF membership\n* Consider filing a complaint with the FTC or your state’s Attorney General",
+    "permalink": "/r/PlanetFitnessMembers/comments/1kektgg/psa_planet_fitness_suffered_a_major_data_breach/",
+    "timestamp": "2025-05-04T14:15:44",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "Class action lawsuit ahead",
+        "level": 0
+      }
+    ]
   }
 ]
