@@ -26,7 +26,7 @@ def extract_cve(post):
     # Extract CVE IDs from the post content using regex
     cve_pattern = r'\b[Cc][Vv][Ee]-\d{4}-\d+\b'
     cve_ids = re.findall(cve_pattern, post)
-    return cve_ids
+    return cve_ids.upper() if cve_ids else []
 
 def parse_html_body(content):
     #parse the body of the post
@@ -52,7 +52,6 @@ for _ in range(100):
                 "created_at": t['created_at'],
                 "cve": extract_cve(t['content'])
             }
-            print(post["cve"])
             if post["cve"]:
                 cve_posts.append(post)
                 post_ids.append(post["id"])
@@ -60,17 +59,16 @@ for _ in range(100):
     time.sleep(1)  # To avoid hitting rate limits
             
 
-# for x in range(300):
-#     r = requests.get(url_timelines, params=rate_limit)
-#     post = json.loads(r.text)
-#     for t in post:
-#         if contains_cve(t['content']) and t['id'] not in post_ids:
-#             post = {"body": parse_html_body(t['content']), "id": t['id'], "created_at": t['created_at'],  "cve": extract_cve(t['content'])}
-#             if post["cve"] != []:	
-#                 cve_posts.append(post)
-#                 post_ids.append(post["id"])
-#                 print(size(post_ids))
-
+for x in range(300):
+    r = requests.get(url_timelines, params=rate_limit)
+    post = json.loads(r.text)
+    for t in post:
+        if contains_cve(t['content']) and t['id'] not in post_ids:
+            post = {"body": parse_html_body(t['content']), "id": t['id'], "created_at": t['created_at'],  "cve": extract_cve(t['content'])}
+            if post["cve"] != []:	
+                cve_posts.append(post)
+                post_ids.append(post["id"])
+    time.sleep(1)  # To avoid hitting rate limits
 
 with open("cve_posts.json", "r", encoding="utf-8") as existing_file:
     existing_data = json.load(existing_file)
