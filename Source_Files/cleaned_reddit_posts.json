@@ -5041,5 +5041,36 @@
     "timestamp": "2025-05-04T08:48:43",
     "clean_text": "SonicBoom, From Stolen Tokens to Remote Shells - SonicWall SMA (CVE-2023-44221, CVE-2024-38475)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-34028",
+      "CVE-2025-29927",
+      "CVE-2025-26529",
+      "CVE-2025-3776",
+      "CVE-2025-3928",
+      "CVE-2023-44221",
+      "CVE-2024-38475",
+      "CVE-2025-31191",
+      "CVE-2025-32433",
+      "CVE-2025-31207"
+    ],
+    "cve_counts": {
+      "CVE-2025-31191": 2,
+      "CVE-2025-29927": 2,
+      "CVE-2024-38475": 2,
+      "CVE-2023-44221": 2,
+      "CVE-2025-32433": 2,
+      "CVE-2025-31207": 2,
+      "CVE-2025-34028": 2,
+      "CVE-2025-26529": 2,
+      "CVE-2025-3776": 2,
+      "CVE-2025-3928": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (04/05/2025)",
+    "permalink": "/r/CVEWatch/comments/1kegdvw/top_10_trending_cves_04052025/",
+    "timestamp": "2025-05-04T10:06:55",
+    "clean_text": "🔥 Top 10 Trending CVEs (04/05/2025) Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today: 1. CVE-2025-31191 - This issue was addressed through improved state management. This issue is fixed in macOS Ventura 13.7.5, tvOS 18.4, iOS 18.4 and iPadOS 18.4, macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to access sensitive user data. - Published: 31/03/2025 - CVSS: 5.5 - Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N - Mentions: 5 - Priority: 4 - 2. CVE-2025-29927 - Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3. - Published: 21/03/2025 - CVSS: 9.1 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N - Mentions: 186 - Priority: 2 - 3. CVE-2024-38475 - Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that arepermitted to be served by the server but are not intentionally/directly reachable by any URL, resulting in code execution or source code disclosure. Substitutions inserver context that use a backreferences or variables as the first segment of the substitution are affected. Some unsafe RewiteRules will be broken by this change and the rewrite flag UnsafePrefixStat can be used to opt back in once ensuring the substitution is appropriately constrained. - Published: 01/07/2024 - CVSS: 9.1 - CISA KEV: True - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N - Mentions: 17 - Priority: 1+ - 4. CVE-2023-44221 - Improper neutralization of special elements in the SMA100 SSL-VPN management interface allows a remote authenticated attacker with administrative privilege to inject arbitrary commands as a nobody user, potentially leading to OS Command Injection Vulnerability. - Published: 05/12/2023 - CVSS: 0 - Vector: n/a - Mentions: 16 - Priority: 4 - 5. CVE-2025-32433 - Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules. - Published: 16/04/2025 - CVSS: 10 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H - Mentions: 44 - Priority: 2 - 6. CVE-2025-31207 - n/a - CVSS: 0 - Vector: n/a - Priority: n/a - 7. CVE-2025-34028 - A path traversal vulnerability in Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files, which, when expanded by the target server, result in Remote Code Execution. This issue affects Command Center Innovation Release: 11.38. - Published: 22/04/2025 - CVSS: 10 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:H - Mentions: 24 - Priority: 2 - 8. CVE-2025-26529 - Description information displayed in the site administration live log required additional sanitizing to prevent a stored XSS risk. - Published: 24/02/2025 - CVSS: 8.3 - Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H - Mentions: 1 - Priority: 2 - 9. CVE-2025-3776 - The Verification SMS with TargetSMS plugin for WordPress is vulnerable to limited Remote Code Execution in all versions up to, and including, 1.5 via the targetvrajaxhandler function. This is due to a lack of validation on the type of function that can be called. This makes it possible for unauthenticated attackers to execute any callable function on the site, such as phpinfo(). - Published: 24/04/2025 - CVSS: 8.3 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L - Mentions: 2 - Priority: 2 - 10. CVE-2025-3928 - Commvault Web Server has an unspecified vulnerability that can be exploited by a remote, authenticated attacker. According to the Commvault advisory: Webservers can be compromised through bad actors creating and executing webshells. Fixed in version 11.36.46, 11.32.89, 11.28.141, and 11.20.217 for Windows and Linux platforms. - Published: 25/04/2025 - CVSS: 8.8 - CISA KEV: True - Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H - Mentions: 11 - Priority: 1+ - Let us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from CVE_Prioritizer.",
+    "clean_comments": []
   }
 ]
