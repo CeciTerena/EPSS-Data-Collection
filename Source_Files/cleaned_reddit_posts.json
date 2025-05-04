@@ -4947,5 +4947,84 @@
     "timestamp": "2025-05-03T23:59:29",
     "clean_text": "CVE Alert: CVE-2025-3746 The OTP-less one tap Sign in plugin for WordPress is vulnerable to privilege escalation via account takeover in versions 2.0.14 to 2.0.59. This is due to the plugin not properly validating a user’s identity prior to updating their details, like email. This makes it possible for unauthenticated attackers to change arbitrary users’ email addresses, including administrators, and leverage that to reset the user’s password and gain access to their account. Additionally, the plugin returns authentication cookies in the response, which can be used to access the account directly.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-44221",
+      "CVE-2024-38475"
+    ],
+    "cve_counts": {
+      "CVE-2024-38475": 3,
+      "CVE-2023-44221": 3
+    },
+    "title": "SonicWall SMA 100 Devices Under Siege: Exploits in the Wild",
+    "permalink": "/r/DarkWireSys/comments/1keecu7/sonicwall_sma_100_devices_under_siege_exploits_in/",
+    "timestamp": "2025-05-04T07:41:55",
+    "clean_text": "SonicWall SMA 100 Devices Under Siege: Exploits in the Wild Cybersecurity researchers at watchTowr have uncovered active exploitation of critical vulnerabilities in SonicWall’s Secure Mobile Access (SMA) 100 series appliances. Attackers are combining two specific flaws—CVE-2024-38475 and CVE-2023-44221—to potentially gain full administrative control over affected devices. ￼ The Vulnerabilities CVE-2024-38475: A file read vulnerability in the Apache web server component allows unauthorized access to sensitive files, such as administrator session tokens. CVE-2023-44221: A command injection flaw enables attackers with some level of access to execute arbitrary commands on the system By exploiting CVE-2024-38475, attackers can extract session tokens, effectively bypassing authentication. Subsequently, CVE-2023-44221 allows them to execute commands, leading to potential full system compromise. Affected Models The vulnerabilities impact the following SMA 100 series models: SMA 200 ￼ SMA 210 ￼ SMA 400 ￼ SMA 410 ￼ SMA 500v Recommended Actions Patch Immediately: Ensure that your SMA 100 series devices are updated to the latest firmware versions that address these vulnerabilities. Monitor for Unauthorized Access: Review system logs for any unusual activity or unauthorized logins. Implement Additional Security Measures: Consider deploying network segmentation and intrusion detection systems to mitigate potential exploitation. ￼ Given the active exploitation of these vulnerabilities, immediate action is crucial to protect your systems.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-27065",
+      "CVE-2021-26855"
+    ],
+    "cve_counts": {
+      "CVE-2021-26855": 1,
+      "CVE-2021-27065": 1
+    },
+    "title": "Yemeni hacker (Rami Sanaa) Strikes with Black Kingdom: 1,500 U.S. Systems Hit via ProxyLogon Exploit",
+    "permalink": "/r/darknet/comments/1kee6yd/yemeni_hacker_rami_sanaa_strikes_with_black/",
+    "timestamp": "2025-05-04T07:30:11",
+    "clean_text": "Yemeni hacker (Rami Sanaa) Strikes with Black Kingdom: 1,500 U.S. Systems Hit via ProxyLogon Exploit A Yemeni hacker, Rami Sanaa, 36, has been formally charged with targeting more than 1,500 US systems, including schools, hospitals, and businesses, using the Black Kingdom ransomware (also known as Pydomer). The attack exploited the ProxyLogon vulnerability in Microsoft Exchange servers (CVE-2021-26855), which enables an attacker to execute commands without authentication. It is often used in conjunction with another vulnerability (CVE-2021-27065) to further enhance system access.",
+    "clean_comments": [
+      "Level 0: free him"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2021-27065",
+      "CVE-2021-26855"
+    ],
+    "cve_counts": {
+      "CVE-2021-26855": 1,
+      "CVE-2021-27065": 1
+    },
+    "title": "Yemeni hacker (Rami Sanaa) Strikes with Black Kingdom: 1,500 U.S. Systems Hit via ProxyLogon Exploit",
+    "permalink": "/r/onions/comments/1kee6ts/yemeni_hacker_rami_sanaa_strikes_with_black/",
+    "timestamp": "2025-05-04T07:29:57",
+    "clean_text": "Yemeni hacker (Rami Sanaa) Strikes with Black Kingdom: 1,500 U.S. Systems Hit via ProxyLogon Exploit A Yemeni hacker, Rami Sanaa, 36, has been formally charged with targeting more than 1,500 US systems, including schools, hospitals, and businesses, using the Black Kingdom ransomware (also known as Pydomer). The attack exploited the ProxyLogon vulnerability in Microsoft Exchange servers (CVE-2021-26855), which enables an attacker to execute commands without authentication. It is often used in conjunction with another vulnerability (CVE-2021-27065) to further enhance system access.",
+    "clean_comments": [
+      "Level 0: To stay safe, follow these rules and educate yourself about Tor and .onion urls: On DNM Safety: 1) Only use marketplaces listed on daunt, tor taxi, or dark fail. Anything else is a scam. 2) Dont use any sites listed on a \"HiddenWiki\" or some random shit you found on a search engine, a telegram channel, or website. You will be scammed. 3) Only order domestic to domestic. 4) Dont send your crypto directly from an exchange to a DNM deposit address. 5) Read the DNM bible. 6) NO DNMs operate on reddit nor have their own subs. Anything you find on reddit is a scammer. On educating yourself: 1) Read the /r/onions wiki here. 2) Read the /r/tor wiki here. 3) Read the /r/deepweb wiki here. I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/onions) if you have any questions or concerns."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2021-27065",
+      "CVE-2021-26855"
+    ],
+    "cve_counts": {
+      "CVE-2021-26855": 1,
+      "CVE-2021-27065": 1
+    },
+    "title": "Yemeni hacker (Rami Sanaa) Strikes with Black Kingdom: 1,500 U.S. Systems Hit via ProxyLogon Exploit",
+    "permalink": "/r/hacking/comments/1kee6oa/yemeni_hacker_rami_sanaa_strikes_with_black/",
+    "timestamp": "2025-05-04T07:29:38",
+    "clean_text": "Yemeni hacker (Rami Sanaa) Strikes with Black Kingdom: 1,500 U.S. Systems Hit via ProxyLogon Exploit A Yemeni hacker, Rami Sanaa, 36, has been formally charged with targeting more than 1,500 US systems, including schools, hospitals, and businesses, using the Black Kingdom ransomware (also known as Pydomer). The attack exploited the ProxyLogon vulnerability in Microsoft Exchange servers (CVE-2021-26855), which enables an attacker to execute commands without authentication. It is often used in conjunction with another vulnerability (CVE-2021-27065) to further enhance system access.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-27065",
+      "CVE-2021-26855"
+    ],
+    "cve_counts": {
+      "CVE-2021-26855": 1,
+      "CVE-2021-27065": 1
+    },
+    "title": "Yemeni hacker (Rami Sanaa) Strikes with Black Kingdom: 1,500 U.S. Systems Hit via ProxyLogon Exploit",
+    "permalink": "/r/cybersecurity/comments/1kee6f8/yemeni_hacker_rami_sanaa_strikes_with_black/",
+    "timestamp": "2025-05-04T07:29:10",
+    "clean_text": "Yemeni hacker (Rami Sanaa) Strikes with Black Kingdom: 1,500 U.S. Systems Hit via ProxyLogon Exploit A Yemeni hacker, Rami Sanaa, 36, has been formally charged with targeting more than 1,500 US systems, including schools, hospitals, and businesses, using the Black Kingdom ransomware (also known as Pydomer). The attack exploited the ProxyLogon vulnerability in Microsoft Exchange servers (CVE-2021-26855), which enables an attacker to execute commands without authentication. It is often used in conjunction with another vulnerability (CVE-2021-27065) to further enhance system access.",
+    "clean_comments": []
   }
 ]
