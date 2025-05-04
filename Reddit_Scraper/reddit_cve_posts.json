@@ -6101,5 +6101,21 @@
     "timestamp": "2025-05-04T07:29:10",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-38475",
+      "CVE-2023-44221"
+    ],
+    "cve_counts": {
+      "CVE-2023-44221": 1,
+      "CVE-2024-38475": 1
+    },
+    "title": "SonicBoom, From Stolen Tokens to Remote Shells - SonicWall SMA (CVE-2023-44221, CVE-2024-38475)",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1kefa3f/sonicboom_from_stolen_tokens_to_remote_shells/",
+    "timestamp": "2025-05-04T08:48:43",
+    "article_text": null,
+    "comments": []
   }
 ]

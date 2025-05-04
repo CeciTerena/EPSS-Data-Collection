@@ -5026,5 +5026,20 @@
     "timestamp": "2025-05-04T07:29:10",
     "clean_text": "Yemeni hacker (Rami Sanaa) Strikes with Black Kingdom: 1,500 U.S. Systems Hit via ProxyLogon Exploit A Yemeni hacker, Rami Sanaa, 36, has been formally charged with targeting more than 1,500 US systems, including schools, hospitals, and businesses, using the Black Kingdom ransomware (also known as Pydomer). The attack exploited the ProxyLogon vulnerability in Microsoft Exchange servers (CVE-2021-26855), which enables an attacker to execute commands without authentication. It is often used in conjunction with another vulnerability (CVE-2021-27065) to further enhance system access.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-38475",
+      "CVE-2023-44221"
+    ],
+    "cve_counts": {
+      "CVE-2023-44221": 1,
+      "CVE-2024-38475": 1
+    },
+    "title": "SonicBoom, From Stolen Tokens to Remote Shells - SonicWall SMA (CVE-2023-44221, CVE-2024-38475)",
+    "permalink": "/r/blueteamsec/comments/1kefa3f/sonicboom_from_stolen_tokens_to_remote_shells/",
+    "timestamp": "2025-05-04T08:48:43",
+    "clean_text": "SonicBoom, From Stolen Tokens to Remote Shells - SonicWall SMA (CVE-2023-44221, CVE-2024-38475)",
+    "clean_comments": []
   }
 ]
