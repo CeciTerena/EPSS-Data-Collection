@@ -6185,5 +6185,39 @@
     "timestamp": "2025-05-05T04:53:17",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26529",
+      "CVE-2025-31161",
+      "CVE-2025-31207",
+      "CVE-2024-4990",
+      "CVE-2025-3776",
+      "CVE-2024-58136",
+      "CVE-2025-34028",
+      "CVE-2025-2774",
+      "CVE-2025-32433",
+      "CVE-2024-38475",
+      "CVE-2025-47240"
+    ],
+    "cve_counts": {
+      "CVE-2025-31161": 2,
+      "CVE-2024-38475": 2,
+      "CVE-2025-47240": 2,
+      "CVE-2025-32433": 2,
+      "CVE-2025-31207": 2,
+      "CVE-2025-34028": 2,
+      "CVE-2024-58136": 2,
+      "CVE-2024-4990": 1,
+      "CVE-2025-26529": 2,
+      "CVE-2025-3776": 2,
+      "CVE-2025-2774": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (05/05/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-31161](https://nvd.nist.gov/vuln/detail/CVE-2025-31161)**\n\n- 📝 CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as exploited in the wild in March and April 2025, aka Unauthenticated HTTP(S) port access. A race condition exists in the AWS4-HMAC (compatible with S3) authorization method of the HTTP component of the FTP server. The server first verifies the existence of the user by performing a call to login_user_pass() with no password requirement. This will authenticate the session through the HMAC verification process and up until the server checks for user verification once more. The vulnerability can be further stabilized, eliminating the need for successfully triggering a race condition, by sending a mangled AWS4-HMAC header. By providing only the username and a following slash (/), the server will successfully find a username, which triggers the successful anypass authentication process, but the server will fail to find the expected SignedHeaders entry, resulting in an index-out-of-bounds error that stops the code from reaching the session cleanup. Together, these issues make it trivial to authenticate as any known or guessable user (e.g., crushadmin), and can lead to a full compromise of the system by obtaining an administrative account.\n\n- 📅 **Published:** 03/04/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 59\n- ⚠️ **Priority:** 2\n\n---\n\n**2. [CVE-2024-38475](https://nvd.nist.gov/vuln/detail/CVE-2024-38475)**\n\n- 📝 Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that arepermitted to be served by the server but are not intentionally/directly reachable by any URL, resulting in code execution or source code disclosure.  Substitutions inserver context that use a backreferences or variables as the first segment of the substitution are affected. Some unsafe RewiteRules will be broken by this change and the rewrite flag UnsafePrefixStat can be used to opt back in once ensuring the substitution is appropriately constrained.\n\n- 📅 **Published:** 01/07/2024\n- 📈 **CVSS:** 9.1\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 17\n- ⚠️ **Priority:** 1+\n\n---\n\n**3. [CVE-2025-47240](https://nvd.nist.gov/vuln/detail/CVE-2025-47240)**\n\n- 📝 n/a\n\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\n**4. [CVE-2025-32433](https://nvd.nist.gov/vuln/detail/CVE-2025-32433)**\n\n- 📝 Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 44\n- ⚠️ **Priority:** 2\n\n---\n\n**5. [CVE-2025-31207](https://nvd.nist.gov/vuln/detail/CVE-2025-31207)**\n\n- 📝 n/a\n\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\n**6. [CVE-2025-34028](https://nvd.nist.gov/vuln/detail/CVE-2025-34028)**\n\n- 📝 A path traversal vulnerability in Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files, which, when expanded by the target server, result in Remote Code Execution. This issue affects Command Center Innovation Release: 11.38.\n\n- 📅 **Published:** 22/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:H\n- 📣 **Mentions:** 24\n- ⚠️ **Priority:** 2\n\n---\n\n**7. [CVE-2024-58136](https://nvd.nist.gov/vuln/detail/CVE-2024-58136)**\n\n- 📝 Yii 2 before 2.0.52 mishandles the attaching of behavior that is defined by an __class array key, a CVE-2024-4990 regression, as exploited in the wild in February through April 2025.\n\n- 📅 **Published:** 10/04/2025\n- 📈 **CVSS:** 9\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 21\n- ⚠️ **Priority:** 1+\n\n---\n\n**8. [CVE-2025-26529](https://nvd.nist.gov/vuln/detail/CVE-2025-26529)**\n\n- 📝 Description information displayed in the site administration live log  required additional sanitizing to prevent a stored XSS risk.\n\n- 📅 **Published:** 24/02/2025\n- 📈 **CVSS:** 8.3\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 2\n\n---\n\n**9. [CVE-2025-3776](https://nvd.nist.gov/vuln/detail/CVE-2025-3776)**\n\n- 📝 The Verification SMS with TargetSMS plugin for WordPress is vulnerable to limited Remote Code Execution in all versions up to, and including, 1.5 via the targetvr_ajax_handler function. This is due to a lack of validation on the type of function that can be called. This makes it possible for unauthenticated attackers to execute any callable function on the site, such as phpinfo().\n\n- 📅 **Published:** 24/04/2025\n- 📈 **CVSS:** 8.3\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L\n- 📣 **Mentions:** 2\n- ⚠️ **Priority:** 2\n\n---\n\n**10. [CVE-2025-2774](https://nvd.nist.gov/vuln/detail/CVE-2025-2774)**\n\n- 📝 n/a\n\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from [CVE_Prioritizer](https://github.com/TURROKS/CVE_Prioritizer).",
+    "permalink": "/r/CVEWatch/comments/1kf7xj0/top_10_trending_cves_05052025/",
+    "timestamp": "2025-05-05T10:07:20",
+    "article_text": null,
+    "comments": []
   }
 ]
