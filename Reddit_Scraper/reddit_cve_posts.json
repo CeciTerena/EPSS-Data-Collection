@@ -6219,5 +6219,19 @@
     "timestamp": "2025-05-05T10:07:20",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4096"
+    ],
+    "cve_counts": {
+      "CVE-2025-4096": 1
+    },
+    "title": "Minor update (5) for Vivaldi Desktop Browser 7.3",
+    "text": "This update includes an important security fixes from upstream Chromium.\n\nThe following improvements were made since [the fourth 7.3 minor update](https://vivaldi.com/blog/desktop/minor-update-four-7-3/):\n\n* \\[Chromium\\] Backported upstream patch for bug (CVE-2025-4096)",
+    "permalink": "/r/vivaldibrowser/comments/1kf9skl/minor_update_5_for_vivaldi_desktop_browser_73/",
+    "timestamp": "2025-05-05T11:58:23",
+    "article_text": null,
+    "comments": []
   }
 ]
