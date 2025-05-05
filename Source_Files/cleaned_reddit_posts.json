@@ -5176,5 +5176,69 @@
     "timestamp": "2025-05-05T15:30:39",
     "clean_text": "Security Watch 5/2/25 On K12TechPro, we've launched a weekly cyber threat intelligence and vulnerability newsletter with NTP and K12TechPro. We'll post the \"public\" news to k12sysadmin from each newsletter. For the full \"k12 techs only\" portion (no middle schoolers, bad guys, vendors, etc. allowed), log into k12techpro.com and visit the Cybersecurity Hub. Baltimore City Public School District The Baltimore City Public School District (BCPSD) recently confirmed a data breach involving the unauthorized access of internal documents containing sensitive personal information such as Social Security numbers, driver’s licenses, and passport data. While the breach vector has not been disclosed, it was revealed that endpoint detection and response (EDR) solutions were not in place at the time, highlighting the need for proactive cybersecurity measures. Tools such as tabletop exercises and penetration testing are strongly recommended to identify and mitigate vulnerabilities before they are exploited. CVE-2025-24054 Separately, CVE-2025-24054 has emerged as a critical Windows vulnerability involving .library-ms files. Delivered via phishing emails, these files can trigger a system’s NTLM hash to be sent to a malicious server upon interaction—without being opened, allowing attackers to escalate privileges and move laterally within a network. Mitigation includes blocking external SMB connections, transitioning from NTLM to Kerberos, and enhancing phishing awareness training. Workaround for CVE-2025-21204 Additionally, a workaround for CVE-2025-21204, intended to enable Windows updates, has introduced a new issue where symbolic links created by non-admin users can prevent future updates. Although Microsoft has classified this as a medium-severity concern, organizations should monitor for potential exploitation. DragonForce Lastly, the ransomware group DragonForce has launched a white-label ransomware-as-a-service (RaaS) platform, reducing the technical burden for affiliates and allowing them to brand attacks independently. This development could significantly broaden participation in ransomware activity and heighten the threat landscape.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2774"
+    ],
+    "cve_counts": {
+      "CVE-2025-2774": 2
+    },
+    "title": "Critical Webmin Flaw Exposes Servers to Root Access",
+    "permalink": "/r/pwnhub/comments/1kfg4k6/critical_webmin_flaw_exposes_servers_to_root/",
+    "timestamp": "2025-05-05T16:35:05",
+    "clean_text": "Critical Webmin Flaw Exposes Servers to Root Access A critical vulnerability in Webmin allows authenticated remote attackers to escalate privileges to root-level, risking severe server compromise. Key Points: - CVE-2025-2774 enables privilege escalation for logged-in users. - Attackers can exploit improper CRLF sequence handling to execute arbitrary commands. - Webmin versions before 2.302 are at risk; an update is now available. - The vulnerability has a high CVSS score of 8.8, indicating potential for widespread damage. - No known widespread exploitation has occurred yet, but urgency is advised. Webmin, a widely utilized web-based administration tool, is facing a serious threat due to a critical vulnerability classified as CVE-2025-2774. This flaw permits authenticated remote attackers to escalate their privileges to root, enabling them to execute arbitrary code with full control over the server. The core issue resides in Webmin's mishandling of CRLF sequences in CGI requests, allowing attackers to manipulate server responses and bypass critical security measures. The ramifications of this vulnerability are immense, potentially allowing malicious actors to steal data, disrupt services, or install malware on the compromised systems. Immediate actions are necessary for administrators using affected versions of Webmin, particularly those prior to 2.302. The developers have urged users to apply the latest patch, which also addresses minor issues and enhances various functionalities. Furthermore, steps like restricting access to trusted networks and ensuring robust authentication practices are crucial to mitigate risks. As this flaw represents an ongoing vulnerability within a commonly deployed administrative tool—highlighted by its previous security concerns—administrators are strongly encouraged to stay vigilant and keep abreast of security advisories to avoid falling prey to potential attacks. What steps are you taking to secure your systems against vulnerabilities like this? Learn More: Cyber Security News Want to stay updated on the latest cyber threats? Subscribe to /r/PwnHub",
+    "clean_comments": [
+      "Level 0: Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem. Stay updated on zero-days, exploits, hacker tools, and the latest cybersecurity drama. Whether you’re red team, blue team, or just here for the chaos—dive in and stay ahead. Stay sharp. Stay secure. Subscribe and join us for daily posts! I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-46762"
+    ],
+    "cve_counts": {
+      "CVE-2025-46762": 2
+    },
+    "title": "Critical Vulnerability in Apache Parquet Java Exposes Data Pipelines to Code Execution",
+    "permalink": "/r/pwnhub/comments/1kfg4du/critical_vulnerability_in_apache_parquet_java/",
+    "timestamp": "2025-05-05T16:34:54",
+    "clean_text": "Critical Vulnerability in Apache Parquet Java Exposes Data Pipelines to Code Execution A newly discovered vulnerability in Apache Parquet Java could allow attackers to execute arbitrary code by using specially crafted Parquet files. Key Points: - The vulnerability, tracked as CVE-2025-46762, affects all versions of Apache Parquet Java through 1.15.1. - Attackers can exploit the flaw in applications using the parquet-avro module, leading to remote code execution. - Organizations are urged to upgrade to version 1.15.2 or modify configurations to ensure safety. A critical security vulnerability has been found in Apache Parquet Java that enables attackers to execute arbitrary code through specially crafted Parquet files. The flaw, identified as CVE-2025-46762, impacts all Apache Parquet Java versions up to 1.15.1, a widely used columnar storage file format essential for efficient data processing in big data environments, such as those involving Apache Hadoop, Spark, and Flink. The vulnerability centers around the parquet-avro module responsible for processing Avro schemas within the metadata of Parquet files. Despite an earlier update in version 1.15.1 intended to restrict untrusted packages, the default settings remain permissive enough that harmful classes can still be executed. This is particularly worrisome for data processing pipelines that may draw files from untrusted sources, putting any application utilizing this module at risk of remote code execution. Security experts recommend immediate audits and implementation of the latest fixes to protect against potential exploitation. What steps are you taking to secure your data pipelines against vulnerabilities like the one in Apache Parquet Java? Learn More: Cyber Security News Want to stay updated on the latest cyber threats? Subscribe to /r/PwnHub",
+    "clean_comments": [
+      "Level 0: Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem. Stay updated on zero-days, exploits, hacker tools, and the latest cybersecurity drama. Whether you’re red team, blue team, or just here for the chaos—dive in and stay ahead. Stay sharp. Stay secure. Subscribe and join us for daily posts! I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2023-44221",
+      "CVE-2024-38475"
+    ],
+    "cve_counts": {
+      "CVE-2023-44221": 2,
+      "CVE-2024-38475": 2
+    },
+    "title": "New Exploited Vulnerabilities Found in SonicWall Devices",
+    "permalink": "/r/pwnhub/comments/1kfg1u7/new_exploited_vulnerabilities_found_in_sonicwall/",
+    "timestamp": "2025-05-05T16:31:59",
+    "clean_text": "New Exploited Vulnerabilities Found in SonicWall Devices Recent proof-of-concept code reveals two significant vulnerabilities in SonicWall products that are being actively targeted by attackers. Key Points: - Two SonicWall flaws added to CISA's Known Exploited Vulnerabilities catalog. - CVE-2023-44221 and CVE-2024-38475 allow remote command execution and authentication bypass. - Patches have been available since December 2023 and 2024, but many devices remain vulnerable. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) recently included two vulnerabilities affecting SonicWall's secure remote access products in their Known Exploited Vulnerabilities (KEV) catalog. These vulnerabilities, identified as CVE-2023-44221 and CVE-2024-38475, pose severe risks as they can be exploited remotely, enabling attackers to inject operating system commands and obtain administrative access. Despite patches being available for these flaws for several months, the ongoing threat exists as many organizations have yet to implement the necessary updates. As attackers attempt to exploit these vulnerabilities, the urgency to patch is underscored by CISA's directive to federal agencies, mandating fixes by May 22. The vulnerabilities are particularly concerning, as they affect several models within SonicWall's SMA series, notably the 200, 210, 400, 410, and 500v models. Cybersecurity firm WatchTowr Labs has observed that malicious actors are likely chaining these vulnerabilities in attacks, leading to a more dangerous security landscape for organizations that rely on SonicWall’s products. With active exploitation noted, organizations are highly encouraged to prioritize remediation measures and ensure their devices are updated to the latest software versions. What steps is your organization taking to address vulnerabilities in its cybersecurity infrastructure? Learn More: Security Week Want to stay updated on the latest cyber threats? Subscribe to /r/PwnHub",
+    "clean_comments": [
+      "Level 0: Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem. Stay updated on zero-days, exploits, hacker tools, and the latest cybersecurity drama. Whether you’re red team, blue team, or just here for the chaos—dive in and stay ahead. Stay sharp. Stay secure. Subscribe and join us for daily posts! I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2023-44221",
+      "CVE-2024-38475"
+    ],
+    "cve_counts": {
+      "CVE-2023-44221": 2,
+      "CVE-2024-38475": 2
+    },
+    "title": "SonicWall exploited CVE’s",
+    "permalink": "/r/CVEWatch/comments/1kffrcq/sonicwall_exploited_cves/",
+    "timestamp": "2025-05-05T16:20:26",
+    "clean_text": "SonicWall exploited CVE’s Looks like attackers are targeting a couple of SonicWall vulns CVE-2023-44221 and CVE-2024-38475 Seems like one lets you grab valid session tokens, the other gets you to full remote code execution. So even if the system was patched, if sessions weren’t revoked or devices weren’t restarted, they might still be exposed. Do you think this is just low-hanging fruit thing or are these kinds of bugs flying under the radar because people assume patching is enough? curious how others handle stuff like this. do you go back and invalidate sessions, reboot appliances, etc? WatchTowr Article <URL>",
+    "clean_comments": [
+      "Level 0: Great catch u/vulnmaniac, we dont have any SW instances in my organisation but we usually follow the vendors recommendations. Interestingly we've noticed a recent uptick in the amount of scanning for older vulnerabilities though."
+    ]
   }
 ]
