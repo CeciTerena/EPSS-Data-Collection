@@ -5949,5 +5949,319 @@
     "timestamp": "2025-05-03T09:59:26",
     "article_text": "Improper Neutralization of Input During Web Page Generation (XSS or ‘Cross-site Scripting’) vulnerability in Yordam Informatics Library Automation System allows Reflected XSS.This issue affects Library Automation System: before 21.6.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3488"
+    ],
+    "cve_counts": {
+      "CVE-2025-3488": 1
+    },
+    "title": "CVE Alert: CVE-2025-3488",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kduxd4/cve_alert_cve20253488/",
+    "timestamp": "2025-05-03T14:59:26",
+    "article_text": "The WPML plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin’s wpml_language_switcher shortcode in versions 3.6.0 – 4.7.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-13420"
+    ],
+    "cve_counts": {
+      "CVE-2024-13420": 1
+    },
+    "title": "CVE Alert: CVE-2024-13420",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1ke1q47/cve_alert_cve202413420/",
+    "timestamp": "2025-05-03T19:59:30",
+    "article_text": "Multiple plugins and/or themes for WordPress are vulnerable to unauthorized access due to a missing capability check on several AJAX actions like ‘gsf_reset_section_options’, ‘gsf_reset_section_options’, ‘gsf_create_preset_options’ and more in various versions. This makes it possible for authenticated attackers, with Subscriber-level access and above, to reset and modify some of the plugin/theme settings. This issue was escalated to Envato over two months from the date of this disclosure and the issues, while partially patched, are still vulnerable.",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24524",
+      "CVE-2025-24522",
+      "CVE-2025-32011"
+    ],
+    "cve_counts": {
+      "CVE-2025-24522": 1,
+      "CVE-2025-32011": 1,
+      "CVE-2025-24524": 1
+    },
+    "title": "CISA Warns of KUNBUS Auth Bypass Vulnerabilities Exposes Systems to Remote Attacks",
+    "text": "CISA warns of critical auth bypass vulnerabilities in KUNBUS’s Revolution Pi industrial devices, risking remote attacks in sectors like manufacturing, energy, and healthcare. Key flaws include unauthenticated Node-RED access (CVE-2025-24522), path traversal bypass (CVE-2025-32011), and SSI injection (CVE-2025-24524). Patching, enabling strong auth, and network isolation are urgently recommended to prevent sabotage or downtime.",
+    "permalink": "/r/u_WalkureARCH/comments/1ke5esq/cisa_warns_of_kunbus_auth_bypass_vulnerabilities/",
+    "timestamp": "2025-05-03T22:52:45",
+    "article_text": "CISA has issued an urgent advisory highlighting critical vulnerabilities in KUNBUS GmbH’s Revolution Pi industrial automation devices.\n\nThese flaws, which include authentication bypass and remote code execution risks, threaten sectors like manufacturing, energy, and healthcare. Attackers can disrupt operations, manipulate safety systems, or cause widespread downtime.\n\nHigh-Severity Vulnerabilities in Revolution Pi\n\nThe advisory identifies three primary vulnerabilities affecting Revolution Pi OS Bookworm (01/2025) and PiCtory software (versions 2.5.0–2.11.1):\n\n1. Missing Authentication for Critical Function (CVE-2025-24522)The Node-RED server in Revolution Pi OS lacks default authentication, allowing unauthenticated attackers to executearbitrary commandson the operating system. With a CVSS v3.1 score of 10.0, this flaw poses the highest risk, enabling full remote control of industrial systems.\n\n2. Authentication Bypass via Path Traversal (CVE-2025-32011)PiCtory’s authentication mechanism can be bypassed through path traversal, granting unauthorized access to critical functions (CVSS v3.1: 9.8). Attackers could reconfigure industrial processes or extract sensitive data.\n\n3. Server-Side Includes (SSI) Injection (CVE-2025-24524)PiCtory’s failure to sanitize filenames allows authenticated attackers to inject malicious scripts, leading tocross-site scripting (XSS)attacks (CVSS v3.1: 9.8). This could compromise user sessions or deliver payloads to control systems.\n\nAffected Systems and Global Impact\n\nRevolution Pi devices are deployed worldwide in critical infrastructure sectors, including:\n\nKUNBUS, headquartered in Germany, has acknowledged the risks and released patches, but legacy deployments in highly regulated environments remain vulnerable due to slow update cycles.\n\nCISA and KUNBUSrecommendimmediate action to mitigate risks:\n\nKUNBUS plans to release a Cockpit plugin by April 2025 to simplify secure configurations.\n\nAdam Bromiley of Pen Test Partners discovered the vulnerabilities, which were collaboratively disclosed to CISA and KUNBUS.\n\nWhile no active exploitation has been reported, CISA emphasizes the urgency of patching, noting adversaries’ historical targeting of industrial systems for sabotage or extortion.",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3746"
+    ],
+    "cve_counts": {
+      "CVE-2025-3746": 1
+    },
+    "title": "CVE Alert: CVE-2025-3746",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1ke6r7y/cve_alert_cve20253746/",
+    "timestamp": "2025-05-03T23:59:29",
+    "article_text": "The OTP-less one tap Sign in plugin for WordPress is vulnerable to privilege escalation via account takeover in versions 2.0.14 to 2.0.59. This is due to the plugin not properly validating a user’s identity prior to updating their details, like email. This makes it possible for unauthenticated attackers to change arbitrary users’ email addresses, including administrators, and leverage that to reset the user’s password and gain access to their account. Additionally, the plugin returns authentication cookies in the response, which can be used to access the account directly.",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-44221",
+      "CVE-2024-38475"
+    ],
+    "cve_counts": {
+      "CVE-2024-38475": 3,
+      "CVE-2023-44221": 3
+    },
+    "title": "SonicWall SMA 100 Devices Under Siege: Exploits in the Wild",
+    "text": "Cybersecurity researchers at watchTowr have uncovered active exploitation of critical vulnerabilities in SonicWall’s Secure Mobile Access (SMA) 100 series appliances. Attackers are combining two specific flaws—CVE-2024-38475 and CVE-2023-44221—to potentially gain full administrative control over affected devices. ￼\n\nThe Vulnerabilities\nCVE-2024-38475: A file read vulnerability in the Apache web server component allows unauthorized access to sensitive files, such as administrator session tokens.\n\nCVE-2023-44221: A command injection flaw enables attackers with some level of access to execute arbitrary commands on the system\n\nBy exploiting CVE-2024-38475, attackers can extract session tokens, effectively bypassing authentication. Subsequently, CVE-2023-44221 allows them to execute commands, leading to potential full system compromise.\n\nAffected Models\n\nThe vulnerabilities impact the following SMA 100 series models:\n\nSMA 200 ￼\nSMA 210 ￼\nSMA 400 ￼\nSMA 410 ￼\nSMA 500v \n\nRecommended Actions\nPatch Immediately: Ensure that your SMA 100 series devices are updated to the latest firmware versions that address these vulnerabilities. \n\nMonitor for Unauthorized Access: Review system logs for any unusual activity or unauthorized logins.\nImplement Additional Security Measures: Consider deploying network segmentation and intrusion detection systems to mitigate potential exploitation. ￼\n\nGiven the active exploitation of these vulnerabilities, immediate action is crucial to protect your systems. ",
+    "permalink": "/r/DarkWireSys/comments/1keecu7/sonicwall_sma_100_devices_under_siege_exploits_in/",
+    "timestamp": "2025-05-04T07:41:55",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-27065",
+      "CVE-2021-26855"
+    ],
+    "cve_counts": {
+      "CVE-2021-26855": 1,
+      "CVE-2021-27065": 1
+    },
+    "title": "Yemeni hacker (Rami Sanaa) Strikes with Black Kingdom: 1,500 U.S. Systems Hit via ProxyLogon Exploit",
+    "text": "A Yemeni hacker, Rami Sanaa, 36, has been formally charged with targeting more than 1,500 US systems, including schools, hospitals, and businesses, using the Black Kingdom ransomware (also known as Pydomer).\n\nThe attack exploited the ProxyLogon vulnerability in Microsoft Exchange servers (CVE-2021-26855), which enables an attacker to execute commands without authentication. It is often used in conjunction with another vulnerability (CVE-2021-27065) to further enhance system access.",
+    "permalink": "/r/darknet/comments/1kee6yd/yemeni_hacker_rami_sanaa_strikes_with_black/",
+    "timestamp": "2025-05-04T07:30:11",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 4,
+        "text": "free him",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2021-27065",
+      "CVE-2021-26855"
+    ],
+    "cve_counts": {
+      "CVE-2021-26855": 1,
+      "CVE-2021-27065": 1
+    },
+    "title": "Yemeni hacker (Rami Sanaa) Strikes with Black Kingdom: 1,500 U.S. Systems Hit via ProxyLogon Exploit",
+    "text": "A Yemeni hacker, Rami Sanaa, 36, has been formally charged with targeting more than 1,500 US systems, including schools, hospitals, and businesses, using the Black Kingdom ransomware (also known as Pydomer).\n\nThe attack exploited the ProxyLogon vulnerability in Microsoft Exchange servers (CVE-2021-26855), which enables an attacker to execute commands without authentication. It is often used in conjunction with another vulnerability (CVE-2021-27065) to further enhance system access.",
+    "permalink": "/r/onions/comments/1kee6ts/yemeni_hacker_rami_sanaa_strikes_with_black/",
+    "timestamp": "2025-05-04T07:29:57",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "To stay safe, follow these rules and educate yourself about Tor and .onion urls:\n\n**On DNM Safety:**\n\n1) Only use marketplaces listed on daunt, tor taxi, or dark fail. Anything else is a scam.\n\n2) Dont use any sites listed on a \"HiddenWiki\" or some random shit you found on a search engine, a telegram channel, or website. You will be scammed.\n\n3) Only order domestic to domestic.\n\n4) Dont send your crypto directly from an exchange to a DNM deposit address.\n\n5) Read [the DNM bible](http://biblemeowimkh3utujmhm6oh2oeb3ubjw2lpgeq3lahrfr2l6ev6zgyd.onion/).\n\n6) NO DNMs operate on reddit nor have their own subs. Anything you find on reddit is a scammer.\n\n**On educating yourself:**\n\n1) Read [the /r/onions wiki here](http://www.reddit.com/r/onions/wiki/index).\n\n2) Read [the /r/tor wiki here](http://www.reddit.com/r/tor/wiki/index).\n\n3) Read [the /r/deepweb wiki here](http://www.reddit.com/r/deepweb/wiki/index).\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/onions) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2021-27065",
+      "CVE-2021-26855"
+    ],
+    "cve_counts": {
+      "CVE-2021-26855": 1,
+      "CVE-2021-27065": 1
+    },
+    "title": "Yemeni hacker (Rami Sanaa) Strikes with Black Kingdom: 1,500 U.S. Systems Hit via ProxyLogon Exploit",
+    "text": "A Yemeni hacker, Rami Sanaa, 36, has been formally charged with targeting more than 1,500 US systems, including schools, hospitals, and businesses, using the Black Kingdom ransomware (also known as Pydomer).\n\nThe attack exploited the ProxyLogon vulnerability in Microsoft Exchange servers (CVE-2021-26855), which enables an attacker to execute commands without authentication. It is often used in conjunction with another vulnerability (CVE-2021-27065) to further enhance system access.",
+    "permalink": "/r/hacking/comments/1kee6oa/yemeni_hacker_rami_sanaa_strikes_with_black/",
+    "timestamp": "2025-05-04T07:29:38",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-27065",
+      "CVE-2021-26855"
+    ],
+    "cve_counts": {
+      "CVE-2021-26855": 1,
+      "CVE-2021-27065": 1
+    },
+    "title": "Yemeni hacker (Rami Sanaa) Strikes with Black Kingdom: 1,500 U.S. Systems Hit via ProxyLogon Exploit",
+    "text": "A Yemeni hacker, Rami Sanaa, 36, has been formally charged with targeting more than 1,500 US systems, including schools, hospitals, and businesses, using the Black Kingdom ransomware (also known as Pydomer).\n\nThe attack exploited the ProxyLogon vulnerability in Microsoft Exchange servers (CVE-2021-26855), which enables an attacker to execute commands without authentication. It is often used in conjunction with another vulnerability (CVE-2021-27065) to further enhance system access.",
+    "permalink": "/r/cybersecurity/comments/1kee6f8/yemeni_hacker_rami_sanaa_strikes_with_black/",
+    "timestamp": "2025-05-04T07:29:10",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-38475",
+      "CVE-2023-44221"
+    ],
+    "cve_counts": {
+      "CVE-2023-44221": 1,
+      "CVE-2024-38475": 1
+    },
+    "title": "SonicBoom, From Stolen Tokens to Remote Shells - SonicWall SMA (CVE-2023-44221, CVE-2024-38475)",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1kefa3f/sonicboom_from_stolen_tokens_to_remote_shells/",
+    "timestamp": "2025-05-04T08:48:43",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-34028",
+      "CVE-2025-29927",
+      "CVE-2025-26529",
+      "CVE-2025-3776",
+      "CVE-2025-3928",
+      "CVE-2023-44221",
+      "CVE-2024-38475",
+      "CVE-2025-31191",
+      "CVE-2025-32433",
+      "CVE-2025-31207"
+    ],
+    "cve_counts": {
+      "CVE-2025-31191": 2,
+      "CVE-2025-29927": 2,
+      "CVE-2024-38475": 2,
+      "CVE-2023-44221": 2,
+      "CVE-2025-32433": 2,
+      "CVE-2025-31207": 2,
+      "CVE-2025-34028": 2,
+      "CVE-2025-26529": 2,
+      "CVE-2025-3776": 2,
+      "CVE-2025-3928": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (04/05/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-31191](https://nvd.nist.gov/vuln/detail/CVE-2025-31191)**\n\n- 📝 This issue was addressed through improved state management. This issue is fixed in macOS Ventura 13.7.5, tvOS 18.4, iOS 18.4 and iPadOS 18.4, macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to access sensitive user data.\n\n- 📅 **Published:** 31/03/2025\n- 📈 **CVSS:** 5.5\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N\n- 📣 **Mentions:** 5\n- ⚠️ **Priority:** 4\n\n---\n\n**2. [CVE-2025-29927](https://nvd.nist.gov/vuln/detail/CVE-2025-29927)**\n\n- 📝 Next.js is a React framework for building full-stack web applications. Starting in version 1.11.4 and prior to versions 12.3.5, 13.5.9, 14.2.25, and 15.2.3, it is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware. If patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the x-middleware-subrequest header from reaching your Next.js application. This vulnerability is fixed in 12.3.5, 13.5.9, 14.2.25, and 15.2.3.\n\n- 📅 **Published:** 21/03/2025\n- 📈 **CVSS:** 9.1\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 186\n- ⚠️ **Priority:** 2\n\n---\n\n**3. [CVE-2024-38475](https://nvd.nist.gov/vuln/detail/CVE-2024-38475)**\n\n- 📝 Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that arepermitted to be served by the server but are not intentionally/directly reachable by any URL, resulting in code execution or source code disclosure.  Substitutions inserver context that use a backreferences or variables as the first segment of the substitution are affected. Some unsafe RewiteRules will be broken by this change and the rewrite flag UnsafePrefixStat can be used to opt back in once ensuring the substitution is appropriately constrained.\n\n- 📅 **Published:** 01/07/2024\n- 📈 **CVSS:** 9.1\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 17\n- ⚠️ **Priority:** 1+\n\n---\n\n**4. [CVE-2023-44221](https://nvd.nist.gov/vuln/detail/CVE-2023-44221)**\n\n- 📝 Improper neutralization of special elements in the SMA100 SSL-VPN management interface allows a remote authenticated attacker with administrative privilege to inject arbitrary commands as a nobody user, potentially leading to OS Command Injection Vulnerability.\n\n- 📅 **Published:** 05/12/2023\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- 📣 **Mentions:** 16\n- ⚠️ **Priority:** 4\n\n---\n\n**5. [CVE-2025-32433](https://nvd.nist.gov/vuln/detail/CVE-2025-32433)**\n\n- 📝 Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 44\n- ⚠️ **Priority:** 2\n\n---\n\n**6. [CVE-2025-31207](https://nvd.nist.gov/vuln/detail/CVE-2025-31207)**\n\n- 📝 n/a\n\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\n**7. [CVE-2025-34028](https://nvd.nist.gov/vuln/detail/CVE-2025-34028)**\n\n- 📝 A path traversal vulnerability in Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files, which, when expanded by the target server, result in Remote Code Execution. This issue affects Command Center Innovation Release: 11.38.\n\n- 📅 **Published:** 22/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:H\n- 📣 **Mentions:** 24\n- ⚠️ **Priority:** 2\n\n---\n\n**8. [CVE-2025-26529](https://nvd.nist.gov/vuln/detail/CVE-2025-26529)**\n\n- 📝 Description information displayed in the site administration live log  required additional sanitizing to prevent a stored XSS risk.\n\n- 📅 **Published:** 24/02/2025\n- 📈 **CVSS:** 8.3\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 2\n\n---\n\n**9. [CVE-2025-3776](https://nvd.nist.gov/vuln/detail/CVE-2025-3776)**\n\n- 📝 The Verification SMS with TargetSMS plugin for WordPress is vulnerable to limited Remote Code Execution in all versions up to, and including, 1.5 via the targetvr_ajax_handler function. This is due to a lack of validation on the type of function that can be called. This makes it possible for unauthenticated attackers to execute any callable function on the site, such as phpinfo().\n\n- 📅 **Published:** 24/04/2025\n- 📈 **CVSS:** 8.3\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L\n- 📣 **Mentions:** 2\n- ⚠️ **Priority:** 2\n\n---\n\n**10. [CVE-2025-3928](https://nvd.nist.gov/vuln/detail/CVE-2025-3928)**\n\n- 📝 Commvault Web Server has an unspecified vulnerability that can be exploited by a remote, authenticated attacker. According to the Commvault advisory: Webservers can be compromised through bad actors creating and executing webshells. Fixed in version 11.36.46, 11.32.89, 11.28.141, and 11.20.217 for Windows and Linux platforms.\n\n- 📅 **Published:** 25/04/2025\n- 📈 **CVSS:** 8.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 11\n- ⚠️ **Priority:** 1+\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from [CVE_Prioritizer](https://github.com/TURROKS/CVE_Prioritizer).",
+    "permalink": "/r/CVEWatch/comments/1kegdvw/top_10_trending_cves_04052025/",
+    "timestamp": "2025-05-04T10:06:55",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-43201"
+    ],
+    "cve_counts": {
+      "CVE-2024-43201": 2
+    },
+    "title": "PSA: Planet Fitness Suffered a Major Data Breach – And Never Told Anyone",
+    "text": "If you're a Planet Fitness member (or were recently), your personal data has been exposed — and the company never told you.\n\nA major security vulnerability (**CVE-2024-43201**) was publicly disclosed showing that **Planet Fitness’s mobile app allowed full unauthenticated access to sensitive user data**, including:\n\n* Names\n* Email addresses\n* Emergency contact info\n* Check-in history\n* Member ID numbers\n* Payment information\n* Account metadata\n\nThe flaw was discovered by independent researchers and logged on official databases:  \n[National Vulnerability Database](https://nvd.nist.gov/vuln/detail/CVE-2024-43201)  \n[Technical writeup](https://dontvacuum.me/bugs/pf/)\n\nDespite this, **Planet Fitness has NOT notified its customers**, which violates state and federal data breach laws. If you use their app or recently canceled, assume your data has been exposed.\n\n**What You Should Do:**\n\n* Change your PF login credentials immediately\n* Remove the PF APP from your phone\n* Freeze or monitor bank accounts linked to your PF membership\n* Consider filing a complaint with the FTC or your state’s Attorney General",
+    "permalink": "/r/PlanetFitnessMembers/comments/1kektgg/psa_planet_fitness_suffered_a_major_data_breach/",
+    "timestamp": "2025-05-04T14:15:44",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "Class action lawsuit ahead",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2018-0114",
+      "CVE-2022-21449"
+    ],
+    "cve_counts": {
+      "CVE-2018-0114": 4,
+      "CVE-2022-21449": 3
+    },
+    "title": "The Ultimate Guide to JWT Vulnerabilities and Attacks (with Exploitation Examples)",
+    "text": "Published: 05 May 2025JSON Web Tokens (JWTs) are widely used for authentication, authorization, and secure information exchange in modern web applications. They're often used in OAuth2 flows, stateless session handling, API access, and SSO implementations.A JWT consists of three parts, separated by dots:HEADER.PAYLOAD.SIGNATUREHEADER: Defines the type of token and the signing algorithm (e.g. HS256).PAYLOAD: Contains claims about the user, session, or other data (e.g. {\"user\": \"user1\", \"admin\": false}).SIGNATURE: A cryptographic signature that ensures the token hasn't been tampered with.Each part is Base64URL-encoded (without padding) and concatenated with a dot:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.  \neyJzdWIiOiJ1c2VyMSIsImFkbWluIjpmYWxzZX0.  \nX5cBA0klC0df\\_vxTqM-M1WOUbE8Qzj0Kh3w\\_N6Y7LkI🧪 JSON Web Algorithms (JWA)The JWT specification supports multiple algorithms, defined in the JWA (JSON Web Algorithms) specification:Symmetric algorithms (HMAC based using a shared secret): HS256, HS384, HS512Asymmetric algorithms (public/private key): RS256 (RSA based), ES256 (Elliptic Curve based), PS256 (RSA based with MGF1 padding), etc.None: A non-algorithm that implies no signature (insecure and should never be used)When a token is issued, it’s signed by the issuer using the specified algorithm. The recipient must verify the signature before trusting the payload.The code to sign a token signs the concatenation of header + \".\" + payload based on the ALGORITHM picked by the developer:signature = ALGORITHM.Sign(header + \".\" + payload, key)In the same way the verification is done on header + \".\" + payload:ALGORITHM.Verify(signature, header + \".\" + payload, key)For the verification, there are multiple strategies developers can use to pick the ALGORITHM, they can hardcode it (safer) or use the value coming from the JWT header (attacker-controlled, not as safe).🔄 One Website, Many JWT ImplementationsIn modern architectures, a single web application can be composed of dozens of microservices. Even if they share a hostname, each service may:Use a different JWT libraryUse a different signing key or verification logicParse and validate tokens differentlyThis means every endpoint must be tested individually. Don’t assume that if the login or main API endpoint handles JWT securely, all others do too. A misconfigured service or third-party microservice might still be vulnerable.Throughout this guide, we’ll cover the most common — and most dangerous — JWT implementation flaws, how they are exploited, and how to detect or defend against them. Each section links to PentesterLab exercises so you can practice the attacks in a hands-on environment.🔓 1. Signature Not VerifiedOne of the most common and dangerous implementation mistakes when using JWTs is failing to verify the signature. JWTs are not encrypted — their purpose is to provide integrity. This means the contents of the token can be viewed by anyone, but should not be trusted unless the signature has been verified.Unfortunately, some applications skip this critical step. This often happens because developers use a library’s decode() method instead of verify(), or they temporarily disable signature verification during testing and forget to re-enable it.ExploitationIf a JWT is not verified before use, an attacker can forge arbitrary claims. The steps are trivial:Obtain a valid token (e.g., by registering or logging in as a normal user).Base64URL-decode the token to view the header and payload.Modify the payload, for example changing:{\"user\": \"bob\", \"role\": \"user\"}  \nto:{\"user\": \"admin\", \"role\": \"admin\"}  \n  \nBase64URL-encode the modified header and payload.Reassemble the token. You can:Keep the original signature (most likely to work), or  \nRemove it completely and just send header.payload. (less likely to work)  \n  \nSend the token in a request (e.g., as a cookie or Authorization header).If the server does not verify the signature, it will treat the forged claims as valid — and you’ll be authenticated as admin.Even experienced developers can make this mistake when trying to quickly inspect a token’s contents or during local testing.ImpactThis issue can lead to:Authentication bypassAuthorization bypassThis issue effectively renders JWT-based authentication useless if not properly handled.MitigationsAlways use a library’s verify() method before accessing claims.Never trust the payload until the signature is successfully validated.Add integration tests that verify signature enforcement across all endpoints.Use code reviews and static analysis to detect misuse of decode() or insecure JWT flows.Practice It 🧪You can try this exact attack in a hands-on lab:👉 PentesterLab: JWT Without Signature Verification❌ 2. None Algorithm AttackThe JWT specification allows tokens to specify the signing algorithm in their header using the \"alg\" field. Early versions of many JWT libraries accepted None or none as a valid option, meaning the token was considered valid without a signature at all. This was mostly due to developers of the library following the JWT specification and implementing all the required algorithms.This was originally intended for debugging or unsecured flows, but in practice, it opened a serious security hole when libraries did not explicitly disable or reject the none algorithm.ExploitationTo exploit a JWT implementation that allows \"none\":Obtain a valid token (e.g., login as a normal user).Base64URL-decode the JWT and modify the header:{\"alg\": \"HS256\", \"typ\": \"JWT\"}  \nbecomes:{\"alg\": \"none\", \"typ\": \"JWT\"}  \nor{\"alg\": \"None\", \"typ\": \"JWT\"}  \n  \nModify the payload to escalate privileges:{\"user\": \"admin\"}  \n  \nBase64URL-encode the new header and payload.Assemble the token with an empty signature part:base64url(header) + \".\" + base64url(payload) + \".\"  \n  \nSend the token to the application.If the backend does not reject tokens with \"alg\": \"none\", it will accept this token as valid — and you’re now admin without any cryptographic proof.ImpactThis issue can lead to:Authentication bypassAuthorization bypassThis issue effectively renders JWT-based authentication useless if not properly handled.MitigationsExplicitly disable the \"none\" algorithm in your JWT library [configuration.Do](http://configuration.Do) not rely on defaults, enforce algorithm allowlists like RS256 or HS256.Reject tokens that contain \"alg\": \"none\" at the parser level.Consider validating the algorithm independently from the token itself.Practice It 🧪Try this vulnerability in a hands-on lab:👉 PentesterLab: JWT None Algorithm🧂 3. Trivial Secret (Weak HMAC Keys)When using HMAC-based algorithms like HS256, the integrity of the JWT depends entirely on the secrecy and strength of the shared secret key. If the key is weak, guessable, or hardcoded, an attacker can brute-force it using a known JWT and use it to forge arbitrary tokens.This vulnerability can be common in poorly secured APIs and test environments, and it often affects production systems due to careless key management.ExploitationThe attacker needs just one valid token. With that, they can run an offline brute-force attack to recover the secret. Here's how:Capture a valid JWT from the application.Split it into the three parts: header.payload.signature.Use a tool like Hashcat, or a custom script to brute-force the shared secret by computing:HMAC(secret, base64url(header) + \".\" + base64url(payload)) == signature  \n  \nOnce the secret is found, modify the payload (e.g., escalate role or spoof another user).Re-sign the token using the cracked secret and send it to the application.This entire attack can be performed offline, without generating noise or alerts on the target system.Common weak secrets include:\"secret\"\"123456\"Service or project names (e.g., \"my-api\")Hardcoded defaults in open-source projectsYou can use a list of known JWT secrets like wallarm/jwt-secrets to increase your chance of recovering the secret.MitigationUse cryptographically strong secrets for HMAC algorithms (e.g., 32+ random bytes).Never hardcode secrets in source code or config files.Rotate secrets periodically and use environment-specific [secrets.Support](http://secrets.Support) for multiple secrets to enable rotation.Log and monitor token validation errors.Practice It 🧪Try this attack in a hands-on environment with a weak secret you can crack yourself:👉 PentesterLab: JWT Trivial Secret🔀 4. Algorithm Confusion (RSA to HMAC)One of the most subtle, yet devastating, JWT vulnerabilities arises from algorithm confusion. This attack exploits the fact that the JWT header includes a user-controlled \"alg\" parameter. If the server doesn’t enforce which algorithm is expected, an attacker can manipulate the header to cause the backend to verify the token using the wrong algorithm — often with catastrophic consequences.The most common variant: swapping an RS256 (RSA) token to HS256 (HMAC), and then using the RSA public key (meant only for verification) as the HMAC secret.ExploitationThis attack works because of how asymmetric (RSA) and symmetric (HMAC) algorithms function:RSA (RS256): The server signs with its private key and verifies with its public key.HMAC (HS256): The same secret is used for both signing and verification.If the server trusts the \"alg\" field from the token header and uses the public key as the HMAC secret, an attacker can:Obtain a valid JWT signed with RSA.Base64URL-decode the token and change the header from:{\"alg\": \"RS256\", \"typ\": \"JWT\"}  \nto:{\"alg\": \"HS256\", \"typ\": \"JWT\"}  \n  \nModify the payload (e.g., change user role or identity).Sign the new header.payload using HMAC with the server’s RSA public key.Send the forged token.If the server blindly uses HS256 and its public key as the HMAC secret, the forged token will validate — and the attacker can fully impersonate any user.How to Get the Public KeyThere are many ways to get access to the public key:Sometimes embedded in frontend JavaScriptHardcoded in mobile appsPublished in documentation or well-known JWK endpointsRecovered from ECDSA signatures or multiple RSA signatures using tools such as rsa\\_sign2nImpactThis issue can lead to:Authentication bypassAuthorization bypassMitigationNever trust the \"alg\" field from the JWT itself.Enforce the expected algorithm at the configuration level (e.g., alg = RS256 only).Separate token parsing from verification logic — and never auto-select algorithms.Use libraries that do not allow dynamic algorithm switching or require explicit key types.Practice It 🧪Try this exact attack by forging a token using the public key as the HMAC secret:👉 PentesterLab: JWT Algorithm Confusion and PentesterLab: JWT Algorithm Confusion with RSA Public Key Recovery🔀 4b. Algorithm Confusion (ECDSA to HMAC)This variation of the algorithm confusion attack targets applications using ECDSA (Elliptic Curve Digital Signature Algorithm), for example ES256. Just like the RSA-to-HMAC confusion, the core issue is that the application trusts the \"alg\" field from the JWT header, and uses it to select the verification method and key type dynamically.By changing the \"alg\" field from ES256 (ECDSA) to HS256 (HMAC), an attacker can trick the server into verifying the token using an HMAC signature — and use the ECDSA public key as the HMAC secret.ExploitationHere’s how the attack works:Obtain a valid JWT signed using ES256 (ECDSA).Modify the token:Change \"alg\": \"ES256\" to \"alg\": \"HS256\" in the header.  \nModify the payload (e.g., set \"user\": \"admin\").  \nBase64URL-encode the new header and payload.  \n  \nSign the header.payload using HMAC and the public ECDSA key as the secret.Send the forged token to the server.If the backend is vulnerable and uses the public key as a secret without validating the key type or the original algorithm, the forged HMAC will validate — and the attacker gains access with elevated privileges.Why This WorksECDSA is asymmetric: it uses a private key to sign and a public key to verify.HMAC is symmetric: it uses the same secret key to sign and verify.If a system allows switching from ECDSA to HMAC, and treats the public key as a secret (because it’s all it has access to), it creates an unsafe equivalence between asymmetric and symmetric cryptography — and the attacker takes full advantage of this confusion.Recovering the Public KeyAs with RSA, you can find the key in documentation, SDK or in mobile apps. Alternatively, you can programmatically recover two potential public keys from a signature. You can find more details and code to recover the ECDSA public keys in our blog: Algorithm Confusion Attacks against JWT using ECDSA.ImpactThis issue can lead to:Authentication bypassAuthorization bypassMitigationNever trust the \"alg\" field in the JWT header.Enforce algorithms server-side (e.g., alg = ES256 only).Do not allow clients to specify algorithms dynamically.Use libraries that reject unknown or unsupported algorithm types.Practice It 🧪Try this attack in a lab that walks you through recovering the ECDSA public key and forging a JWT using HMAC:👉 PentesterLab: JWT Algorithm Confusion with ECDSA Public Key Recovery🪤 5. kid Injection (Key ID Manipulation)The JWT header supports a field called \"kid\" — short for Key ID. This field allows the token to indicate which key should be used to verify the signature. It is especially useful in systems with key rotation or multiple signing keys.However, when applications dynamically fetch keys based on this field — especially from filesystems or databases — the kid value becomes a dangerous injection point. If the application uses it insecurely (e.g., directly concatenating it into a file path or SQL query), attackers can manipulate it to point to keys they control or leak internal secrets.Exploitation: Path TraversalIn file-based key lookups, the application might do something like:key\\_path = \"/keys/\" + kid  \npublic\\_key = readFile(key\\_path)An attacker can supply a JWT with:\"kid\": \"../../../../dev/null\"This results in:/keys/../../../../dev/null → /dev/nullSince reading from /dev/null will return an empty string, an attacker can forge a token and sign it with an empty string.Exploitation: SQL InjectionIf the application loads keys from a database using an unsafe query:SELECT key FROM keys WHERE kid = ''The attacker can supply:\"kid\": \"zzzz' UNION SELECT '123' --\"This causes the application to fetch and use an attacker-supplied value (123), which will successfully verify forged JWTs signed with the matching private key.ImpactThis issue can lead to:Authentication bypassAuthorization bypassRemote command executionSQL InjectionMitigationValidate kid strictly — never allow user-controlled paths or queries.Use allowlists of valid kid values with fixed file or key mappings.Sanitize and canonicalize paths before use.Use parameterized queries if accessing a database.Log and monitor invalid or unexpected kid values.Practice It 🧪Practice injecting a malicious kid to control key selection and forge tokens:👉 PentesterLab: JWT kid Injection and Directory Traversal👉 PentesterLab: JWT kid Injection and RCE👉 PentesterLab: JWT kid Injection and SQL Injection🧬 6. Embedded JWK (CVE-2018-0114)JWTs can optionally include a JWK (JSON Web Key) directly inside the token header using the jwk parameter. This is intended to allow token issuers to specify the public key that should be used to verify the token — particularly useful in distributed systems or rotating key setups.However, if the server accepts any public key supplied in the token without proper validation (such as checking the issuer, key origin, or intended usage), an attacker can embed their own public key into the header and generate tokens that validate against it.This vulnerability was publicly disclosed as CVE-2018-0114 and affected the popular PyJWT library. It allowed attackers to bypass authentication by embedding their key and signing tokens with the matching private key.ExploitationTo exploit this vulnerability, the attacker:Generates their own RSA key pair.Creates a JWT with a forged payload (e.g., \"user\": \"admin\").Includes their public key in the header under the jwk field:\"jwk\": {  \n  \"kty\": \"RSA\",  \n  \"e\": \"AQAB\",  \n  \"n\": \"...\"  \n}  \n  \nSigns the token using their private key.Sends the token to the vulnerable service.If the application naively uses the JWK from the token header, the attacker’s key is used to verify the token — making the forged token appear legitimate.ImpactThis issue can lead to:Authentication bypassAuthorization bypassMitigationNever accept keys from the token itself.If using a JWK from the header, validate:Its issuer  \nIts source (is it known/trusted?)  \nIts purpose (e.g., ensure \"use\": \"sig\" and not \"enc\")  \n  \nDisable jwk header parsing unless explicitly needed.Upgrade any libraries affected by CVE-2018-0114.Practice It 🧪Try forging a JWT using your own key and bypass verification using the embedded jwk:👉 PentesterLab: CVE-2018-0114🌐 7. JKU / X5U Header AbuseJWT supports additional headers like jku (JWK Set URL) and x5u (X.509 certificate URL) that point to external URLs where public keys can be retrieved. These fields are designed to help recipients dynamically fetch verification keys, especially in distributed or federated systems.However, if the application does not strictly control the source of these URLs, it opens the door for Server-Side Request Forgery and using an attacker-controlled key. An attacker can host their own key set or certificate and sign tokens with their private key, then instruct the server (via jku or x5u) to download and trust that key.ExploitationTo exploit this behavior, an attacker will:Generate their own RSA key [pair.Host](http://pair.Host) the public key on a server they control, either:As a JWK set (for jku)  \nAs an X.509 certificate (for x5u)  \n  \nCreate a JWT with:\"alg\": \"RS256\"  \n\"jku\": \"https://attacker.com/jwks.json\" or \"x5u\": \"https://attacker.com/cert.pem\"  \n  \nSign the token using their private key.Send the forged token to the target application.If the server accepts the remote key without validation, it will trust the token — because it successfully verifies with the attacker’s hosted key.This attack can also be exploited by leveraging a file upload, header injection or open redirectImpactThis issue can lead to:Authentication bypassAuthorization bypassServer-Side Request ForgeryMitigationDo not trust keys from arbitrary jku or x5u URLs.Implement an explicit allowlist of trusted domains for JWK and cert loading.Validate that the key downloaded from the remote URL matches expected kid values.Log and alert on unexpected external JWK or cert URLs.Prefer local key storage unless dynamic remote keys are absolutely necessary.Practice It 🧪Practice forging a token that the server will trust based on the jku or x5u field:👉 PentesterLab: JWT JKU attacks👉 PentesterLab: JWT JKU and File Upload👉 PentesterLab: JWT JKU and Open Redirect👉 PentesterLab: JWT JKU and Header Injection👉 PentesterLab: JWT JKU Injection🧙 8. CVE-2022-21449 (Psychic Signature)In 2022, a critical vulnerability was discovered in the Java JDK’s ECDSA signature verification implementation. This bug, now known as the “Psychic Signature” vulnerability — allowed attackers to bypass digital signature verification entirely by submitting an invalid signature where both values (s and r) are set to zero.Tracked as CVE-2022-21449, this bug impacted applications that used Java’s java.security.Signature class to verify ECDSA-signed JWTs, especially when using algorithms like ES256.ExploitationThe core of the vulnerability is that the Java implementation incorrectly accepted the signature with r=0 and s=0 as valid, even though these values should never occur in legitimate ECDSA signatures.To exploit the issue:Generate any JWT with \"alg\": \"ES256\" and a forged payload (e.g., \"user\": \"admin\").Base64URL-encode the header and payload.Append a forged signature consisting of r=0 and s=0: (Base64URL-encoded: MAYCAQACAQA)Send the JWT to the target Java-based service.If the backend uses a vulnerable version of Java and ECDSA verification, it will accept the forged token as valid — bypassing all authentication and allowing privilege escalation.Why This HappensECDSA signatures are composed of two integers: r and s.Java’s signature verification logic failed to reject values when both r = 0 and s = 0.Since these values were not checked properly, any JWT could be “valid” when signed with a zeroed signature.ImpactThis issue can lead to:Authentication bypassAuthorization bypassMitigationUpgrade to a patched version of Java (JDK 17.0.3+, 11.0.15+, 8u331+, etc.).Avoid using ECDSA signatures if your cryptographic library is untrusted or poorly maintained.Reject tokens with suspicious or malformed signatures — especially all-zero signatures.Write test cases that attempt to validate known-invalid JWTs.Practice It 🧪Practice crafting a forged JWT using a zeroed signature to bypass verification:👉 PentesterLab: JWT Psychic Signature aka CVE-2022-21449📚 Final Thoughts: Mastering JWT SecurityJWTs are powerful tools for stateless authentication, but they come with a complex and subtle attack surface. As you've seen throughout this guide, the most devastating JWT vulnerabilities often stem from small misconfigurations, incorrect assumptions, or over-trusting user-controlled data.And the danger is compounded in modern architectures: a single application might use JWTs in dozens of different places — APIs, microservices, SSO layers, mobile backends — all with potentially different libraries, configs, and logic.If you're auditing or pentesting an app:Test every endpoint individuallyCheck for discrepancies in JWT parsing and verificationDon’t assume one secure implementation covers the entire systemIf you're a developer or security engineer:Never trust JWT headers blindly (especially alg, kid, jku, x5u, and jwk)Use proven libraries and keep them up-to-dateEnforce strict configuration and avoid dynamic behaviors unless absolutely necessary🎯 Reading Isn’t Enough — You Have to PracticeIt’s one thing to understand an attack in theory — but another to pull it off under real-world constraints. That’s why each section of this guide links to a PentesterLab exercise where you can practice the attack in a safe, realistic environment based on real-world CVEs and misconfigurations.👉 Start practicing now on PentesterLab and level up your JWT exploitation skills — for real.🔐 About PentesterLabPentesterLab teaches web security and vulnerability discovery through hands-on exercises — based on real bugs, real CVEs, and real-world applications. It’s used by red teams, appsec teams, and security researchers around the world to build deep, practical skills.Whether you’re learning JWTs, diving into SAML, or reviewing code for subtle logic flaws — PentesterLab is where you turn knowledge into skill.https://pentesterlab.com/blog/jwt-vulnerabilities-attacks-guide",
+    "permalink": "/r/u_RazPie/comments/1kf3hjf/the_ultimate_guide_to_jwt_vulnerabilities_and/",
+    "timestamp": "2025-05-05T04:53:17",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26529",
+      "CVE-2025-31161",
+      "CVE-2025-31207",
+      "CVE-2024-4990",
+      "CVE-2025-3776",
+      "CVE-2024-58136",
+      "CVE-2025-34028",
+      "CVE-2025-2774",
+      "CVE-2025-32433",
+      "CVE-2024-38475",
+      "CVE-2025-47240"
+    ],
+    "cve_counts": {
+      "CVE-2025-31161": 2,
+      "CVE-2024-38475": 2,
+      "CVE-2025-47240": 2,
+      "CVE-2025-32433": 2,
+      "CVE-2025-31207": 2,
+      "CVE-2025-34028": 2,
+      "CVE-2024-58136": 2,
+      "CVE-2024-4990": 1,
+      "CVE-2025-26529": 2,
+      "CVE-2025-3776": 2,
+      "CVE-2025-2774": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (05/05/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-31161](https://nvd.nist.gov/vuln/detail/CVE-2025-31161)**\n\n- 📝 CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as exploited in the wild in March and April 2025, aka Unauthenticated HTTP(S) port access. A race condition exists in the AWS4-HMAC (compatible with S3) authorization method of the HTTP component of the FTP server. The server first verifies the existence of the user by performing a call to login_user_pass() with no password requirement. This will authenticate the session through the HMAC verification process and up until the server checks for user verification once more. The vulnerability can be further stabilized, eliminating the need for successfully triggering a race condition, by sending a mangled AWS4-HMAC header. By providing only the username and a following slash (/), the server will successfully find a username, which triggers the successful anypass authentication process, but the server will fail to find the expected SignedHeaders entry, resulting in an index-out-of-bounds error that stops the code from reaching the session cleanup. Together, these issues make it trivial to authenticate as any known or guessable user (e.g., crushadmin), and can lead to a full compromise of the system by obtaining an administrative account.\n\n- 📅 **Published:** 03/04/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 59\n- ⚠️ **Priority:** 2\n\n---\n\n**2. [CVE-2024-38475](https://nvd.nist.gov/vuln/detail/CVE-2024-38475)**\n\n- 📝 Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that arepermitted to be served by the server but are not intentionally/directly reachable by any URL, resulting in code execution or source code disclosure.  Substitutions inserver context that use a backreferences or variables as the first segment of the substitution are affected. Some unsafe RewiteRules will be broken by this change and the rewrite flag UnsafePrefixStat can be used to opt back in once ensuring the substitution is appropriately constrained.\n\n- 📅 **Published:** 01/07/2024\n- 📈 **CVSS:** 9.1\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 17\n- ⚠️ **Priority:** 1+\n\n---\n\n**3. [CVE-2025-47240](https://nvd.nist.gov/vuln/detail/CVE-2025-47240)**\n\n- 📝 n/a\n\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\n**4. [CVE-2025-32433](https://nvd.nist.gov/vuln/detail/CVE-2025-32433)**\n\n- 📝 Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 44\n- ⚠️ **Priority:** 2\n\n---\n\n**5. [CVE-2025-31207](https://nvd.nist.gov/vuln/detail/CVE-2025-31207)**\n\n- 📝 n/a\n\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\n**6. [CVE-2025-34028](https://nvd.nist.gov/vuln/detail/CVE-2025-34028)**\n\n- 📝 A path traversal vulnerability in Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files, which, when expanded by the target server, result in Remote Code Execution. This issue affects Command Center Innovation Release: 11.38.\n\n- 📅 **Published:** 22/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:H\n- 📣 **Mentions:** 24\n- ⚠️ **Priority:** 2\n\n---\n\n**7. [CVE-2024-58136](https://nvd.nist.gov/vuln/detail/CVE-2024-58136)**\n\n- 📝 Yii 2 before 2.0.52 mishandles the attaching of behavior that is defined by an __class array key, a CVE-2024-4990 regression, as exploited in the wild in February through April 2025.\n\n- 📅 **Published:** 10/04/2025\n- 📈 **CVSS:** 9\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 21\n- ⚠️ **Priority:** 1+\n\n---\n\n**8. [CVE-2025-26529](https://nvd.nist.gov/vuln/detail/CVE-2025-26529)**\n\n- 📝 Description information displayed in the site administration live log  required additional sanitizing to prevent a stored XSS risk.\n\n- 📅 **Published:** 24/02/2025\n- 📈 **CVSS:** 8.3\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 2\n\n---\n\n**9. [CVE-2025-3776](https://nvd.nist.gov/vuln/detail/CVE-2025-3776)**\n\n- 📝 The Verification SMS with TargetSMS plugin for WordPress is vulnerable to limited Remote Code Execution in all versions up to, and including, 1.5 via the targetvr_ajax_handler function. This is due to a lack of validation on the type of function that can be called. This makes it possible for unauthenticated attackers to execute any callable function on the site, such as phpinfo().\n\n- 📅 **Published:** 24/04/2025\n- 📈 **CVSS:** 8.3\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L\n- 📣 **Mentions:** 2\n- ⚠️ **Priority:** 2\n\n---\n\n**10. [CVE-2025-2774](https://nvd.nist.gov/vuln/detail/CVE-2025-2774)**\n\n- 📝 n/a\n\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from [CVE_Prioritizer](https://github.com/TURROKS/CVE_Prioritizer).",
+    "permalink": "/r/CVEWatch/comments/1kf7xj0/top_10_trending_cves_05052025/",
+    "timestamp": "2025-05-05T10:07:20",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4096"
+    ],
+    "cve_counts": {
+      "CVE-2025-4096": 1
+    },
+    "title": "Minor update (5) for Vivaldi Desktop Browser 7.3",
+    "text": "This update includes an important security fixes from upstream Chromium.\n\nThe following improvements were made since [the fourth 7.3 minor update](https://vivaldi.com/blog/desktop/minor-update-four-7-3/):\n\n* \\[Chromium\\] Backported upstream patch for bug (CVE-2025-4096)",
+    "permalink": "/r/vivaldibrowser/comments/1kf9skl/minor_update_5_for_vivaldi_desktop_browser_73/",
+    "timestamp": "2025-05-05T11:58:23",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4143"
+    ],
+    "cve_counts": {
+      "CVE-2025-4143": 2
+    },
+    "title": "Major vulnerability in Cloudflare MCP's workers-oauth-provider",
+    "text": "Hi, this is Matt from MCPJam. If you like articles like this, consider subscribing to the [**MCPJam newsletter**](https://mcpjam.substack.com/) for news and learnings on MCPs! \n\n# Critical Vulnerability in workers-oauth-provider\n\nIn today’s article we wanted to make sure people were aware of [CVE-2025-4143](https://nvd.nist.gov/vuln/detail/CVE-2025-4143). This is an OAuth vulnerability in the workers-oauth-provider package released by Cloudflare. For those of you using Cloudflare’s deployments for remote servers you might have set up [authorization](https://developers.cloudflare.com/agents/model-context-protocol/authorization/) based on their tutorials. In these they use [mcp-remote](https://github.com/geelen/mcp-remote) and [workers-oauth-provider](https://github.com/cloudflare/workers-oauth-provider) to implement the client and server roles of an OAuth initialization respectively.\n\nThe vulnerability in the package is that there is no validation for redirect URIs - commonly known as open redirect. Whether this was exploitable on your application depends on the implementation. If the application automatically approved previously authorized clients, and did not implement a redirect URI check, then this vulnerability was exploitable. \n\nTo illustrate the vulnerability, assume that a user was authorized on `http://mcpserver.com/mcp`which later automatically approves previously authorized clients. If the same user used a link such as [`http://mcpserver.com/mcp?url=http://maliciousserver.com`](http://mcpserver.com/mcp?url=http://maliciousserver.com) this might cause the application to automatically approve their request, and send credentials to `http://maliciousserver.com`. \n\nThis meant that whoever controlled [`http://maliciousserver.com`](http://maliciousserver.com) could finish the OAuth flow and gain credentials to the application as the user.\n\nThis has now been fixed in the latest update of workers-oauth-provider so if you’re using this package, and have a similar application setup, make sure to update the package version, and validate redirect URIs.\n\n  \n",
+    "permalink": "/r/mcp/comments/1kfes9l/major_vulnerability_in_cloudflare_mcps/",
+    "timestamp": "2025-05-05T15:41:41",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054",
+      "CVE-2025-21204"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 2,
+      "CVE-2025-21204": 2
+    },
+    "title": "Security Watch 5/2/25",
+    "text": "On K12TechPro, we've launched a weekly cyber threat intelligence and vulnerability newsletter with NTP and K12TechPro. We'll post the \"public\" news to k12sysadmin from each newsletter. For the full \"k12 techs only\" portion (no middle schoolers, bad guys, vendors, etc. allowed), log into [k12techpro.com](http://k12techpro.com) and visit the Cybersecurity Hub.\n\n**Baltimore City Public School District**\n\nThe Baltimore City Public School District (BCPSD) recently confirmed a data breach involving the unauthorized access of internal documents containing sensitive personal information such as Social Security numbers, driver’s licenses, and passport data. While the breach vector has not been disclosed, it was revealed that endpoint detection and response (EDR) solutions were not in place at the time, highlighting the need for proactive cybersecurity measures. Tools such as tabletop exercises and penetration testing are strongly recommended to identify and mitigate vulnerabilities before they are exploited.\n\n**CVE-2025-24054**\n\nSeparately, CVE-2025-24054 has emerged as a critical Windows vulnerability involving .library-ms files. Delivered via phishing emails, these files can trigger a system’s NTLM hash to be sent to a malicious server upon interaction—without being opened, allowing attackers to escalate privileges and move laterally within a network. Mitigation includes blocking external SMB connections, transitioning from NTLM to Kerberos, and enhancing phishing awareness training.\n\n**Workaround for CVE-2025-21204**\n\nAdditionally, a workaround for CVE-2025-21204, intended to enable Windows updates, has introduced a new issue where symbolic links created by non-admin users can prevent future updates. Although Microsoft has classified this as a medium-severity concern, organizations should monitor for potential exploitation.\n\n**DragonForce**\n\nLastly, the ransomware group DragonForce has launched a white-label ransomware-as-a-service (RaaS) platform, reducing the technical burden for affiliates and allowing them to brand attacks independently. This development could significantly broaden participation in ransomware activity and heighten the threat landscape.",
+    "permalink": "/r/k12sysadmin/comments/1kfei9v/security_watch_5225/",
+    "timestamp": "2025-05-05T15:30:39",
+    "article_text": null,
+    "comments": []
   }
 ]
