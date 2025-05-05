@@ -6233,5 +6233,35 @@
     "timestamp": "2025-05-05T11:58:23",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4143"
+    ],
+    "cve_counts": {
+      "CVE-2025-4143": 2
+    },
+    "title": "Major vulnerability in Cloudflare MCP's workers-oauth-provider",
+    "text": "Hi, this is Matt from MCPJam. If you like articles like this, consider subscribing to the [**MCPJam newsletter**](https://mcpjam.substack.com/) for news and learnings on MCPs! \n\n# Critical Vulnerability in workers-oauth-provider\n\nIn today’s article we wanted to make sure people were aware of [CVE-2025-4143](https://nvd.nist.gov/vuln/detail/CVE-2025-4143). This is an OAuth vulnerability in the workers-oauth-provider package released by Cloudflare. For those of you using Cloudflare’s deployments for remote servers you might have set up [authorization](https://developers.cloudflare.com/agents/model-context-protocol/authorization/) based on their tutorials. In these they use [mcp-remote](https://github.com/geelen/mcp-remote) and [workers-oauth-provider](https://github.com/cloudflare/workers-oauth-provider) to implement the client and server roles of an OAuth initialization respectively.\n\nThe vulnerability in the package is that there is no validation for redirect URIs - commonly known as open redirect. Whether this was exploitable on your application depends on the implementation. If the application automatically approved previously authorized clients, and did not implement a redirect URI check, then this vulnerability was exploitable. \n\nTo illustrate the vulnerability, assume that a user was authorized on `http://mcpserver.com/mcp`which later automatically approves previously authorized clients. If the same user used a link such as [`http://mcpserver.com/mcp?url=http://maliciousserver.com`](http://mcpserver.com/mcp?url=http://maliciousserver.com) this might cause the application to automatically approve their request, and send credentials to `http://maliciousserver.com`. \n\nThis meant that whoever controlled [`http://maliciousserver.com`](http://maliciousserver.com) could finish the OAuth flow and gain credentials to the application as the user.\n\nThis has now been fixed in the latest update of workers-oauth-provider so if you’re using this package, and have a similar application setup, make sure to update the package version, and validate redirect URIs.\n\n  \n",
+    "permalink": "/r/mcp/comments/1kfes9l/major_vulnerability_in_cloudflare_mcps/",
+    "timestamp": "2025-05-05T15:41:41",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054",
+      "CVE-2025-21204"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 2,
+      "CVE-2025-21204": 2
+    },
+    "title": "Security Watch 5/2/25",
+    "text": "On K12TechPro, we've launched a weekly cyber threat intelligence and vulnerability newsletter with NTP and K12TechPro. We'll post the \"public\" news to k12sysadmin from each newsletter. For the full \"k12 techs only\" portion (no middle schoolers, bad guys, vendors, etc. allowed), log into [k12techpro.com](http://k12techpro.com) and visit the Cybersecurity Hub.\n\n**Baltimore City Public School District**\n\nThe Baltimore City Public School District (BCPSD) recently confirmed a data breach involving the unauthorized access of internal documents containing sensitive personal information such as Social Security numbers, driver’s licenses, and passport data. While the breach vector has not been disclosed, it was revealed that endpoint detection and response (EDR) solutions were not in place at the time, highlighting the need for proactive cybersecurity measures. Tools such as tabletop exercises and penetration testing are strongly recommended to identify and mitigate vulnerabilities before they are exploited.\n\n**CVE-2025-24054**\n\nSeparately, CVE-2025-24054 has emerged as a critical Windows vulnerability involving .library-ms files. Delivered via phishing emails, these files can trigger a system’s NTLM hash to be sent to a malicious server upon interaction—without being opened, allowing attackers to escalate privileges and move laterally within a network. Mitigation includes blocking external SMB connections, transitioning from NTLM to Kerberos, and enhancing phishing awareness training.\n\n**Workaround for CVE-2025-21204**\n\nAdditionally, a workaround for CVE-2025-21204, intended to enable Windows updates, has introduced a new issue where symbolic links created by non-admin users can prevent future updates. Although Microsoft has classified this as a medium-severity concern, organizations should monitor for potential exploitation.\n\n**DragonForce**\n\nLastly, the ransomware group DragonForce has launched a white-label ransomware-as-a-service (RaaS) platform, reducing the technical burden for affiliates and allowing them to brand attacks independently. This development could significantly broaden participation in ransomware activity and heighten the threat landscape.",
+    "permalink": "/r/k12sysadmin/comments/1kfei9v/security_watch_5225/",
+    "timestamp": "2025-05-05T15:30:39",
+    "article_text": null,
+    "comments": []
   }
 ]
