@@ -5240,5 +5240,33 @@
     "clean_comments": [
       "Level 0: Great catch u/vulnmaniac, we dont have any SW instances in my organisation but we usually follow the vendors recommendations. Interestingly we've noticed a recent uptick in the amount of scanning for older vulnerabilities though."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-34028"
+    ],
+    "cve_counts": {
+      "CVE-2025-34028": 1
+    },
+    "title": "Commvault CVE-2025-34028 Added to CISA KEV After Active Exploitation Confirmed",
+    "permalink": "/r/u_TheCyberSecurityHub/comments/1kfi12s/commvault_cve202534028_added_to_cisa_kev_after/",
+    "timestamp": "2025-05-05T17:50:05",
+    "clean_text": "Commvault CVE-2025-34028 Added to CISA KEV After Active Exploitation Confirmed",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-34028"
+    ],
+    "cve_counts": {
+      "CVE-2025-34028": 3
+    },
+    "title": "Critical Commvault Vulnerability Targets Organizations",
+    "permalink": "/r/pwnhub/comments/1kfhlvn/critical_commvault_vulnerability_targets/",
+    "timestamp": "2025-05-05T17:33:15",
+    "clean_text": "Critical Commvault Vulnerability Targets Organizations A newly discovered critical vulnerability in Commvault's Command Center is now being actively exploited, posing significant risks for organizations using the platform. Key Points: - CVE-2025-34028 has a critical CVSS score of 10/10. - The flaw allows remote code execution without authentication. - Commvault versions 11.38.0 to 11.38.19 are affected. - Federal agencies must apply fixes by May 23, but all organizations should prioritize patching. - The vulnerability adds to heightened vulnerabilities flagged by CISA. CISA has identified a critical-severity vulnerability in Commvault's Command Center, tracked as CVE-2025-34028, which poses a risk of remote code execution without authentication. This flaw allows attackers to upload malicious ZIP files that the server can unpack and execute, essentially granting them control over the Command Center environment. Such an exposure can lead to severe consequences, including data breaches, loss of data integrity, and significant disruption of services. The vulnerability was added to CISA’s Known Exploited Vulnerabilities catalog just days after detailed technical information became publicly available. While Commvault has released patches in versions 11.38.20 and 11.38.25, the rapid escalation of threats indicates that many organizations may not be adequately protected. Given the urgency highlighted by the federal directive for agencies to apply fixes by late May, it is crucial for all entities using Commvault's services to review and apply the latest security updates to safeguard their systems effectively. What steps is your organization taking to address critical vulnerabilities like CVE-2025-34028? Learn More: Security Week Want to stay updated on the latest cyber threats? Subscribe to /r/PwnHub",
+    "clean_comments": [
+      "Level 0: Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem. Stay updated on zero-days, exploits, hacker tools, and the latest cybersecurity drama. Whether you’re red team, blue team, or just here for the chaos—dive in and stay ahead. Stay sharp. Stay secure. Subscribe and join us for daily posts! I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns."
+    ]
   }
 ]
