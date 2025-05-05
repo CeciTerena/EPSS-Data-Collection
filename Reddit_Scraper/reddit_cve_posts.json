@@ -6381,5 +6381,33 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-46762"
+    ],
+    "cve_counts": {
+      "CVE-2025-46762": 1
+    },
+    "title": "Apache Parquet Java - Potential malicious code execution from trusted packages (CVE-2025-46762)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1kfjdf4/apache_parquet_java_potential_malicious_code/",
+    "timestamp": "2025-05-05T18:42:56",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20169"
+    ],
+    "cve_counts": {
+      "CVE-2025-20169": 1
+    },
+    "title": "Cisco IOS XE SNMP GET-NEXT ciscoFlashFileSize Unexpected Sign Extension Denial-of-Service Vulnerability (CVE-2025-20169)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1kfj4dk/cisco_ios_xe_snmp_getnext_ciscoflashfilesize/",
+    "timestamp": "2025-05-05T18:32:51",
+    "article_text": null,
+    "comments": []
   }
 ]
