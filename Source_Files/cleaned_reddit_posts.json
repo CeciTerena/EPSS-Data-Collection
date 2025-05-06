@@ -5453,5 +5453,31 @@
     "clean_comments": [
       "Level 0: Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem. Stay updated on zero-days, exploits, hacker tools, and the latest cybersecurity drama. Whether you’re red team, blue team, or just here for the chaos—dive in and stay ahead. Stay sharp. Stay secure. Subscribe and join us for daily posts! I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-1000"
+    ],
+    "cve_counts": {
+      "CVE-2025-1000": 1
+    },
+    "title": "CVE Alert: CVE-2025-1000",
+    "permalink": "/r/RedPacketSecurity/comments/1kge87m/cve_alert_cve20251000/",
+    "timestamp": "2025-05-06T20:04:20",
+    "clean_text": "CVE Alert: CVE-2025-1000 IBM Db2 for Linux, UNIX and Windows (includes DB2 Connect Server) 11.5.0 through 11.5.9 and 12.1.0 through 12.1.1 could allow an authenticated user to cause a denial of service when connecting to a z/OS database due to improper handling of automatic client rerouting.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-46954"
+    ],
+    "cve_counts": {
+      "CVE-2024-46954": 2
+    },
+    "title": "How to get the UTF-8 Byte Width and Validate the byte sequence.",
+    "permalink": "/r/C_Programming/comments/1kgdt6b/how_to_get_the_utf8_byte_width_and_validate_the/",
+    "timestamp": "2025-05-06T19:47:38",
+    "clean_text": "How to get the UTF-8 Byte Width and Validate the byte sequence. A UTF-8 byte sequence is variable in length and may be in the range of 1 to 4 bytes. Get the UTF-8 Byte Width: <CODE> Validating the sequence is more of a challenge. But with some bitwise magic, we can get it done. <CODE> In order to catch mismatched sequences, you'd want to combine both of these function in a while loop. This becomes repetitive because the rest of the functions depend upon these in order to validate them. The best way to handle this is to abstract it into a Visitor Pattern, aka an Iterator. <CODE> This is non-trivial as an abstraction as the code base grows which is why it's best that these functions are embedded at a core level and are made opaque to the user. An excellent example of why this is the case is the Overlong Exploit. <CODE> I love this implementation because it's super simple and concise compared to most interfaces that are publicly available. I wrote this up and utilized models to help me out with unit testing these functions extensively. Here's a snippet from one of my custom test suites. <CODE> I leave it up to readers and learners as an exercise to figure out how you might go about using this. Enjoy! - Unicode Data",
+    "clean_comments": []
   }
 ]
