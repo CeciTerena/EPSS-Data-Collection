@@ -6497,5 +6497,105 @@
     "timestamp": "2025-05-06T10:02:04",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27363"
+    ],
+    "cve_counts": {
+      "CVE-2025-27363": 2
+    },
+    "title": "Critical Android Security Update Released for Exploited Vulnerability",
+    "text": "\n**Google's latest Android Security Bulletin warns users of an actively exploited high-severity vulnerability that could allow remote code execution.**\n\n**Key Points:**\n\n- CVE-2025-27363 is a high-severity vulnerability in the Android System component that allows arbitrary code execution.\n- The exploit does not require user interaction and affects devices running Android 13 and 14.\n- Google urges immediate updates to mitigate risks, as active exploitation has been confirmed.\n\nIn May 2025, Google issued an urgent security alert for a severe vulnerability tracked as CVE-2025-27363, identified in the System component of Android. This critical flaw can lead to arbitrary code execution due to an out-of-bounds write vulnerability found in the FreeType font rendering library, which is commonly employed across a multitude of devices. The grave nature of this flaw has been underscored by indications from Google that it is currently under targeted exploitation, thus demanding swift action from users to secure their devices.\n\nThe vulnerability predominantly impacts Android 13 and 14, affecting devices that utilize compromised versions of the FreeType library (versions 2.13.0 and earlier). Unlike many vulnerabilities that might require user engagement for exploitation, this flaw operates autonomously, making it particularly dangerous. To protect against possible attacks, security experts are strongly urging all Android users to check their devices and ensure they install the security patch released on May 5, 2025. Failing to do so could result in unauthorized access and control over devices, showcasing the ongoing importance of staying current with mobile security updates.\n\nHow often do you check for security updates on your Android device?\n\n**Learn More:** [Cyber Security News](https://cybersecuritynews.com/android-security-update-patch-for-vulnerability/)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1kg94wp/critical_android_security_update_released_for/",
+    "timestamp": "2025-05-06T16:39:37",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-27363"
+    ],
+    "cve_counts": {
+      "CVE-2025-27363": 2
+    },
+    "title": "Google Patches Dangerous FreeType Flaw Exploited in Attacks",
+    "text": "\n**Google has released urgent security updates to fix a critical FreeType vulnerability actively exploited in the wild.**\n\n**Key Points:**\n\n- CVE-2025-27363 is a high-severity flaw in FreeType affecting all versions up to 2.13.\n- The vulnerability allows for arbitrary code execution when processing malicious font files.\n- Google's May 2025 updates address 45 security issues, focusing primarily on Android versions 13, 14, and 15.\n\nGoogle's latest security bulletin reveals a serious vulnerability in the FreeType 2 font rendering library, designated as CVE-2025-27363. Discovered by Facebook security researchers, this flaw poses a significant risk by allowing attackers to execute arbitrary code simply by tricking devices into processing maliciously crafted TrueType fonts. FreeType is widely used across various platforms, making this vulnerability particularly critical for Android users reliant on this library for text rendering in apps and media.\n\n\n\n**Learn More:** [Bleeping Computer](https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-freetype-flaw-on-android/)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1kg92w3/google_patches_dangerous_freetype_flaw_exploited/",
+    "timestamp": "2025-05-06T16:37:19",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-3248"
+    ],
+    "cve_counts": {
+      "CVE-2025-3248": 2
+    },
+    "title": "Critical Langflow RCE Flaw Opens Doors for Hackers",
+    "text": "\n**A serious remote code execution vulnerability in Langflow has been actively exploited, putting users and organizations at risk of full server control.**\n\n**Key Points:**\n\n- CVE-2025-3248 allows unauthenticated attackers to execute code on Langflow servers via an API flaw.\n- The vulnerability affects numerous users, with at least 500 instances accessible online at the time of discovery.\n- Upgrading to Langflow version 1.3.0 or later is crucial to secure applications against potential exploits.\n\nThe U.S. Cybersecurity & Infrastructure Security Agency (CISA) has alerted organizations to a critical security flaw in Langflow, tracked as CVE-2025-3248. This vulnerability constitutes a remote code execution (RCE) threat, enabling any attacker with internet access to gain complete control over vulnerable Langflow servers. The flaw resides in an API endpoint that fails to properly validate input, making it an accessible target for hackers aiming to deploy malicious code directly on the server. Due to Langflow's popularity in the development of AI applications and workflows, immediate attention to this vulnerability is imperative.\n\nResearchers have identified this threat as particularly concerning as it is the first truly unauthenticated RCE flaw in Langflow, a tool that is highly regarded in the AI community with nearly 60,000 stars on GitHub. The lack of robust security mechanisms in its design, such as poor privilege separation and inadequate sandboxing, raises alarms about the overall security of systems that utilize Langflow. Users are urged to either upgrade to the secure version 1.3.0 released on April 1, 2025, or to implement risk mitigation strategies like restricting network access via firewalls or VPNs if an upgrade is not immediately possible. With federal agencies given a deadline to comply, the urgency for action is clear.\n\nWhat steps are you taking to ensure the security of your applications in light of this vulnerability?\n\n**Learn More:** [Bleeping Computer](https://www.bleepingcomputer.com/news/security/critical-langflow-rce-flaw-exploited-to-hack-ai-app-servers/)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1kg92jm/critical_langflow_rce_flaw_opens_doors_for_hackers/",
+    "timestamp": "2025-05-06T16:36:56",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-3248"
+    ],
+    "cve_counts": {
+      "CVE-2025-3248": 2
+    },
+    "title": "Critical Langflow Flaw Added to CISA KEV List Amid Ongoing Exploitation Evidence",
+    "text": "\n**A newly uncovered vulnerability in the open-source Langflow platform is now listed in the CISA's Known Exploited Vulnerabilities catalog due to active exploitation efforts.**\n\n**Key Points:**\n\n- CVE-2025-3248 rated 9.8 on the CVSS scale poses serious security risks.\n- Allows unauthenticated remote attackers to execute arbitrary code.\n- Affecting multiple versions, the flaw has been addressed in update 1.3.0.\n- Over 466 internet-exposed Langflow instances identified, primarily in the U.S. and other countries.\n- Exploit attempts against this vulnerability have been detected.\n\nThe vulnerability tracked as CVE-2025-3248 in the Langflow platform has raised significant concerns among cybersecurity experts and organizations. This critical flaw allows attackers to exploit the /api/v1/validate/code endpoint, which lacks proper authentication, enabling remote and unauthenticated users to execute arbitrary code on the server. The severity of this vulnerability is underscored by its high CVSS score of 9.8, indicating its potential impact on organizations using Langflow systems.\n\nThis flaw affects most versions of the Langflow tool and was publicly disclosed by Horizon3.ai, which reported the issue in February. Despite being addressed in the recent update on March 31, 2025, the availability of a proof-of-concept exploit as of April 9 has placed organizations at heightened risk. With a significant number of Langflow instances exposed online, primarily in countries such as the United States, Germany, and India, the urgency for implementation of security patches is critical. CISA has provided guidelines for Federal Civilian Executive Branch agencies to apply these fixes by May 26, 2025, to mitigate potential attacks.\n\nWhat steps should organizations take to secure their applications against such critical vulnerabilities?\n\n**Learn More:** [The Hacker News](https://thehackernews.com/2025/05/critical-langflow-flaw-added-to-cisa.html)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1kg92f5/critical_langflow_flaw_added_to_cisa_kev_list/",
+    "timestamp": "2025-05-06T16:36:48",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-3248"
+    ],
+    "cve_counts": {
+      "CVE-2025-3248": 2
+    },
+    "title": "Critical Vulnerability in AI Builder Langflow Under Attack",
+    "text": "\n**A severe vulnerability in the AI development tool Langflow is being actively exploited by attackers, prompting urgent security alerts from CISA.**\n\n**Key Points:**\n\n- CISA warns of critical-severity vulnerability CVE-2025-3248 affecting Langflow.\n- Attackers can execute arbitrary code remotely on vulnerable systems.\n- The vulnerability has been present in Langflow versions prior to 1.3.0 for two years.\n- Patches are required before May 26, with priority suggested for federal agencies.\n\nLangflow, a low-code AI builder, is facing significant security risks due to a critical vulnerability tracked as CVE-2025-3248, which boasts a CVSS score of 9.8. The flaw, identified in a code validation endpoint, allows unauthenticated remote attackers to execute arbitrary code by sending specially crafted HTTP requests. This serious oversight has raised alarms within the cybersecurity community, especially after proof-of-concept exploit code for the vulnerability was publicly released, underscoring the urgency for organizations to secure their installations against potential breaches.\n\nThe vulnerability has been present in Langflow versions dating back two years, affecting numerous installations around the globe. CISA has added this vulnerability to its Known Exploited Vulnerabilities catalog, emphasizing that all federal agencies must apply necessary patches by the approaching deadline of May 26. Unfortunately, the fix provided in version 1.3.0 does not fully eliminate risks, as it still allows for privilege escalation within the framework. Organizations are urged to restrict network access to eliminate exposure and reduce the likelihood of exploitation. Given that security firms have reported a spike in detections of attacks aimed at this vulnerability, the disregard for timely updates could have devastating consequences.\n\nHow can organizations better prioritize security updates to protect themselves from emerging vulnerabilities like this one?\n\n**Learn More:** [Security Week](https://www.securityweek.com/critical-vulnerability-in-ai-builder-langflow-under-attack/)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1kg91ia/critical_vulnerability_in_ai_builder_langflow/",
+    "timestamp": "2025-05-06T16:35:50",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
   }
 ]
