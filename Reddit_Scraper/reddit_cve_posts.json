@@ -6437,5 +6437,33 @@
     "timestamp": "2025-05-05T23:49:48",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27363"
+    ],
+    "cve_counts": {
+      "CVE-2025-27363": 1
+    },
+    "title": "Update ASAP: Google Fixes Android Flaw (CVE-2025-27363) Exploited by Attackers",
+    "text": "",
+    "permalink": "/r/InfoSecNews/comments/1kfz5nd/update_asap_google_fixes_android_flaw/",
+    "timestamp": "2025-05-06T08:08:48",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20172"
+    ],
+    "cve_counts": {
+      "CVE-2025-20172": 1
+    },
+    "title": "Cisco IOS XE SNMP OID Handling Out-Of-Bounds Read Denial-of-Service Vulnerability (CVE-2025-20172)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1kfym31/cisco_ios_xe_snmp_oid_handling_outofbounds_read/",
+    "timestamp": "2025-05-06T07:27:42",
+    "article_text": null,
+    "comments": []
   }
 ]
