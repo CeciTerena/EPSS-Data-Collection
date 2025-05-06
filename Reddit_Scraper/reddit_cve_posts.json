@@ -6465,5 +6465,37 @@
     "timestamp": "2025-05-06T07:27:42",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-21413",
+      "CVE-2025-47240",
+      "CVE-2025-34028",
+      "CVE-2025-24132",
+      "CVE-2025-24252",
+      "CVE-2025-3776",
+      "CVE-2024-38475",
+      "CVE-2025-46731",
+      "CVE-2025-31161",
+      "CVE-2025-2774"
+    ],
+    "cve_counts": {
+      "CVE-2025-31161": 2,
+      "CVE-2025-24132": 2,
+      "CVE-2024-38475": 2,
+      "CVE-2025-24252": 2,
+      "CVE-2025-47240": 2,
+      "CVE-2024-21413": 2,
+      "CVE-2025-34028": 2,
+      "CVE-2025-3776": 2,
+      "CVE-2025-46731": 2,
+      "CVE-2025-2774": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (06/05/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-31161](https://nvd.nist.gov/vuln/detail/CVE-2025-31161)**\n\n- 📝 CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as exploited in the wild in March and April 2025, aka Unauthenticated HTTP(S) port access. A race condition exists in the AWS4-HMAC (compatible with S3) authorization method of the HTTP component of the FTP server. The server first verifies the existence of the user by performing a call to login_user_pass() with no password requirement. This will authenticate the session through the HMAC verification process and up until the server checks for user verification once more. The vulnerability can be further stabilized, eliminating the need for successfully triggering a race condition, by sending a mangled AWS4-HMAC header. By providing only the username and a following slash (/), the server will successfully find a username, which triggers the successful anypass authentication process, but the server will fail to find the expected SignedHeaders entry, resulting in an index-out-of-bounds error that stops the code from reaching the session cleanup. Together, these issues make it trivial to authenticate as any known or guessable user (e.g., crushadmin), and can lead to a full compromise of the system by obtaining an administrative account.\n\n- 📅 **Published:** 03/04/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 59\n- ⚠️ **Priority:** 2\n\n---\n\n**2. [CVE-2025-24132](https://nvd.nist.gov/vuln/detail/CVE-2025-24132)**\n\n- 📝 The issue was addressed with improved memory handling. This issue is fixed in AirPlay audio SDK 2.7.1, AirPlay video SDK 3.6.0.126, CarPlay Communication Plug-in R18.1. An attacker on the local network may cause an unexpected app termination.\n\n- 📅 **Published:** 30/04/2025\n- 📈 **CVSS:** 6.5\n- 🧭 **Vector:** CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H\n- 📣 **Mentions:** 14\n- ⚠️ **Priority:** 2\n\n---\n\n**3. [CVE-2024-38475](https://nvd.nist.gov/vuln/detail/CVE-2024-38475)**\n\n- 📝 Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that arepermitted to be served by the server but are not intentionally/directly reachable by any URL, resulting in code execution or source code disclosure.  Substitutions inserver context that use a backreferences or variables as the first segment of the substitution are affected. Some unsafe RewiteRules will be broken by this change and the rewrite flag UnsafePrefixStat can be used to opt back in once ensuring the substitution is appropriately constrained.\n\n- 📅 **Published:** 01/07/2024\n- 📈 **CVSS:** 9.1\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 17\n- ⚠️ **Priority:** 1+\n\n---\n\n**4. [CVE-2025-24252](https://nvd.nist.gov/vuln/detail/CVE-2025-24252)**\n\n- 📝 A use-after-free issue was addressed with improved memory management. This issue is fixed in macOS Sequoia 15.4, tvOS 18.4, macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sonoma 14.7.5, iOS 18.4 and iPadOS 18.4, visionOS 2.4. An attacker on the local network may be able to corrupt process memory.\n\n- 📅 **Published:** 29/04/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 15\n- ⚠️ **Priority:** 2\n\n---\n\n**5. [CVE-2025-47240](https://nvd.nist.gov/vuln/detail/CVE-2025-47240)**\n\n- 📝 n/a\n\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\n**6. [CVE-2024-21413](https://nvd.nist.gov/vuln/detail/CVE-2024-21413)**\n\n- 📝 Microsoft Outlook Remote Code Execution Vulnerability\n\n- 📅 **Published:** 13/02/2024\n- 📈 **CVSS:** 9.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C\n- 📣 **Mentions:** 34\n- ⚠️ **Priority:** 1+\n\n---\n\n**7. [CVE-2025-34028](https://nvd.nist.gov/vuln/detail/CVE-2025-34028)**\n\n- 📝 A path traversal vulnerability in Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files, which, when expanded by the target server, result in Remote Code Execution. This issue affects Command Center Innovation Release: 11.38.\n\n- 📅 **Published:** 22/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:H\n- 📣 **Mentions:** 24\n- ⚠️ **Priority:** 2\n\n---\n\n**8. [CVE-2025-3776](https://nvd.nist.gov/vuln/detail/CVE-2025-3776)**\n\n- 📝 The Verification SMS with TargetSMS plugin for WordPress is vulnerable to limited Remote Code Execution in all versions up to, and including, 1.5 via the targetvr_ajax_handler function. This is due to a lack of validation on the type of function that can be called. This makes it possible for unauthenticated attackers to execute any callable function on the site, such as phpinfo().\n\n- 📅 **Published:** 24/04/2025\n- 📈 **CVSS:** 8.3\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L\n- 📣 **Mentions:** 2\n- ⚠️ **Priority:** 2\n\n---\n\n**9. [CVE-2025-46731](https://nvd.nist.gov/vuln/detail/CVE-2025-46731)**\n\n- 📝 Craft is a content management system. Versions of Craft CMS on the 4.x branch prior to 4.14.13 and on the 5.x branch prior to 5.6.16 contains a potential remote code execution vulnerability via Twig SSTI. One must have administrator access and `ALLOW_ADMIN_CHANGES` must be enabled for this to work. Users should update to the patched versions 4.14.13 or 5.6.15 to mitigate the issue.\n\n- 📅 **Published:** 05/05/2025\n- 📈 **CVSS:** 7.3\n- 🧭 **Vector:** CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 4\n\n---\n\n**10. [CVE-2025-2774](https://nvd.nist.gov/vuln/detail/CVE-2025-2774)**\n\n- 📝 n/a\n\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from [CVE_Prioritizer](https://github.com/TURROKS/CVE_Prioritizer).",
+    "permalink": "/r/CVEWatch/comments/1kg0pq8/top_10_trending_cves_06052025/",
+    "timestamp": "2025-05-06T10:02:04",
+    "article_text": null,
+    "comments": []
   }
 ]

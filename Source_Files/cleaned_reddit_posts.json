@@ -5347,5 +5347,36 @@
     "timestamp": "2025-05-06T07:27:42",
     "clean_text": "Cisco IOS XE SNMP OID Handling Out-Of-Bounds Read Denial-of-Service Vulnerability (CVE-2025-20172)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-21413",
+      "CVE-2025-47240",
+      "CVE-2025-34028",
+      "CVE-2025-24132",
+      "CVE-2025-24252",
+      "CVE-2025-3776",
+      "CVE-2024-38475",
+      "CVE-2025-46731",
+      "CVE-2025-31161",
+      "CVE-2025-2774"
+    ],
+    "cve_counts": {
+      "CVE-2025-31161": 2,
+      "CVE-2025-24132": 2,
+      "CVE-2024-38475": 2,
+      "CVE-2025-24252": 2,
+      "CVE-2025-47240": 2,
+      "CVE-2024-21413": 2,
+      "CVE-2025-34028": 2,
+      "CVE-2025-3776": 2,
+      "CVE-2025-46731": 2,
+      "CVE-2025-2774": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (06/05/2025)",
+    "permalink": "/r/CVEWatch/comments/1kg0pq8/top_10_trending_cves_06052025/",
+    "timestamp": "2025-05-06T10:02:04",
+    "clean_text": "🔥 Top 10 Trending CVEs (06/05/2025) Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today: 1. CVE-2025-31161 - CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as exploited in the wild in March and April 2025, aka Unauthenticated HTTP(S) port access. A race condition exists in the AWS4-HMAC (compatible with S3) authorization method of the HTTP component of the FTP server. The server first verifies the existence of the user by performing a call to loginuserpass() with no password requirement. This will authenticate the session through the HMAC verification process and up until the server checks for user verification once more. The vulnerability can be further stabilized, eliminating the need for successfully triggering a race condition, by sending a mangled AWS4-HMAC header. By providing only the username and a following slash (/), the server will successfully find a username, which triggers the successful anypass authentication process, but the server will fail to find the expected SignedHeaders entry, resulting in an index-out-of-bounds error that stops the code from reaching the session cleanup. Together, these issues make it trivial to authenticate as any known or guessable user (e.g., crushadmin), and can lead to a full compromise of the system by obtaining an administrative account. - Published: 03/04/2025 - CVSS: 9.8 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H - Mentions: 59 - Priority: 2 - 2. CVE-2025-24132 - The issue was addressed with improved memory handling. This issue is fixed in AirPlay audio SDK 2.7.1, AirPlay video SDK 3.6.0.126, CarPlay Communication Plug-in R18.1. An attacker on the local network may cause an unexpected app termination. - Published: 30/04/2025 - CVSS: 6.5 - Vector: CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H - Mentions: 14 - Priority: 2 - 3. CVE-2024-38475 - Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attacker to map URLs to filesystem locations that arepermitted to be served by the server but are not intentionally/directly reachable by any URL, resulting in code execution or source code disclosure. Substitutions inserver context that use a backreferences or variables as the first segment of the substitution are affected. Some unsafe RewiteRules will be broken by this change and the rewrite flag UnsafePrefixStat can be used to opt back in once ensuring the substitution is appropriately constrained. - Published: 01/07/2024 - CVSS: 9.1 - CISA KEV: True - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N - Mentions: 17 - Priority: 1+ - 4. CVE-2025-24252 - A use-after-free issue was addressed with improved memory management. This issue is fixed in macOS Sequoia 15.4, tvOS 18.4, macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sonoma 14.7.5, iOS 18.4 and iPadOS 18.4, visionOS 2.4. An attacker on the local network may be able to corrupt process memory. - Published: 29/04/2025 - CVSS: 9.8 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H - Mentions: 15 - Priority: 2 - 5. CVE-2025-47240 - n/a - CVSS: 0 - Vector: n/a - Priority: n/a - 6. CVE-2024-21413 - Microsoft Outlook Remote Code Execution Vulnerability - Published: 13/02/2024 - CVSS: 9.8 - CISA KEV: True - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C - Mentions: 34 - Priority: 1+ - 7. CVE-2025-34028 - A path traversal vulnerability in Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files, which, when expanded by the target server, result in Remote Code Execution. This issue affects Command Center Innovation Release: 11.38. - Published: 22/04/2025 - CVSS: 10 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:H - Mentions: 24 - Priority: 2 - 8. CVE-2025-3776 - The Verification SMS with TargetSMS plugin for WordPress is vulnerable to limited Remote Code Execution in all versions up to, and including, 1.5 via the targetvrajaxhandler function. This is due to a lack of validation on the type of function that can be called. This makes it possible for unauthenticated attackers to execute any callable function on the site, such as phpinfo(). - Published: 24/04/2025 - CVSS: 8.3 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L - Mentions: 2 - Priority: 2 - 9. CVE-2025-46731 - Craft is a content management system. Versions of Craft CMS on the 4.x branch prior to 4.14.13 and on the 5.x branch prior to 5.6.16 contains a potential remote code execution vulnerability via Twig SSTI. One must have administrator access and ALLOW_ADMIN_CHANGES must be enabled for this to work. Users should update to the patched versions 4.14.13 or 5.6.15 to mitigate the issue. - Published: 05/05/2025 - CVSS: 7.3 - Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P - Mentions: 1 - Priority: 4 - 10. CVE-2025-2774 - n/a - CVSS: 0 - Vector: n/a - Priority: n/a - Let us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from CVE_Prioritizer.",
+    "clean_comments": []
   }
 ]
