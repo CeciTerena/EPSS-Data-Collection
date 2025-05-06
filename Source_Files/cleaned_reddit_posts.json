@@ -5479,5 +5479,18 @@
     "timestamp": "2025-05-06T19:47:38",
     "clean_text": "How to get the UTF-8 Byte Width and Validate the byte sequence. A UTF-8 byte sequence is variable in length and may be in the range of 1 to 4 bytes. Get the UTF-8 Byte Width: <CODE> Validating the sequence is more of a challenge. But with some bitwise magic, we can get it done. <CODE> In order to catch mismatched sequences, you'd want to combine both of these function in a while loop. This becomes repetitive because the rest of the functions depend upon these in order to validate them. The best way to handle this is to abstract it into a Visitor Pattern, aka an Iterator. <CODE> This is non-trivial as an abstraction as the code base grows which is why it's best that these functions are embedded at a core level and are made opaque to the user. An excellent example of why this is the case is the Overlong Exploit. <CODE> I love this implementation because it's super simple and concise compared to most interfaces that are publicly available. I wrote this up and utilized models to help me out with unit testing these functions extensively. Here's a snippet from one of my custom test suites. <CODE> I leave it up to readers and learners as an exercise to figure out how you might go about using this. Enjoy! - Unicode Data",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-53104"
+    ],
+    "cve_counts": {
+      "CVE-2024-53104": 1
+    },
+    "title": "External fuzzing of USB drivers with syzkaller",
+    "permalink": "/r/linkersec/comments/1kgf0t8/external_fuzzing_of_usb_drivers_with_syzkaller/",
+    "timestamp": "2025-05-06T20:36:13",
+    "clean_text": "External fuzzing of USB drivers with syzkaller Slides from a talk by Andrey Konovalov on using syzkaller to externally fuzz USB drivers. Includes a demonstration of how to rediscover CVE-2024-53104, an out-of-bounds bug in the USB Video Class driver.",
+    "clean_comments": []
   }
 ]

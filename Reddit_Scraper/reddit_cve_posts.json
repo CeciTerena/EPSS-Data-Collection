@@ -6625,5 +6625,19 @@
     "timestamp": "2025-05-06T19:47:38",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-53104"
+    ],
+    "cve_counts": {
+      "CVE-2024-53104": 1
+    },
+    "title": "External fuzzing of USB drivers with syzkaller",
+    "text": "[Slides](https://docs.google.com/presentation/d/1NulLxRowsHzgcL1AFzNF_w8nh3zk2BKKPfGi_1j76A8/edit?usp=sharing) from a talk by [Andrey Konovalov](https://x.com/andreyknvl) on using syzkaller to externally fuzz USB drivers. Includes a demonstration of how to rediscover CVE-2024-53104, an out-of-bounds bug in the USB Video Class driver.",
+    "permalink": "/r/linkersec/comments/1kgf0t8/external_fuzzing_of_usb_drivers_with_syzkaller/",
+    "timestamp": "2025-05-06T20:36:13",
+    "article_text": null,
+    "comments": []
   }
 ]
