@@ -5492,5 +5492,18 @@
     "timestamp": "2025-05-06T20:36:13",
     "clean_text": "External fuzzing of USB drivers with syzkaller Slides from a talk by Andrey Konovalov on using syzkaller to externally fuzz USB drivers. Includes a demonstration of how to rediscover CVE-2024-53104, an out-of-bounds bug in the USB Video Class driver.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4283"
+    ],
+    "cve_counts": {
+      "CVE-2025-4283": 1
+    },
+    "title": "CVE Alert: CVE-2025-4283",
+    "permalink": "/r/RedPacketSecurity/comments/1kgjrf1/cve_alert_cve20254283/",
+    "timestamp": "2025-05-07T00:04:17",
+    "clean_text": "CVE Alert: CVE-2025-4283 A vulnerability was found in SourceCodester/oretnom23 Stock Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /classes/Login.php?f=login. The manipulation of the argument Username leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+    "clean_comments": []
   }
 ]

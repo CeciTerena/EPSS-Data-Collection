@@ -6639,5 +6639,19 @@
     "timestamp": "2025-05-06T20:36:13",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4283"
+    ],
+    "cve_counts": {
+      "CVE-2025-4283": 1
+    },
+    "title": "CVE Alert: CVE-2025-4283",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kgjrf1/cve_alert_cve20254283/",
+    "timestamp": "2025-05-07T00:04:17",
+    "article_text": "A vulnerability was found in SourceCodester/oretnom23 Stock Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /classes/Login.php?f=login. The manipulation of the argument Username leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+    "comments": []
   }
 ]
