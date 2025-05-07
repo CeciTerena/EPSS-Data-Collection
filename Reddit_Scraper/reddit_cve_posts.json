@@ -6879,5 +6879,33 @@
     "timestamp": "2025-05-07T15:01:25",
     "article_text": "Dell Storage Center – Dell Storage Manager, version(s) 20.0.21, contain(s) an Improper Limitation of a Pathname to a Restricted Directory (‘Path Traversal’) vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to Script injection.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29824"
+    ],
+    "cve_counts": {
+      "CVE-2025-29824": 2
+    },
+    "title": "Play Ransomware Exploited Windows CVE-2025-29824 as Zero-Day to Breach U.S. Organization",
+    "text": "Play ransomware exploited the recently patched Windows zero-day CVE-2025-29824 to breach a U.S. organization, using privilege escalation in the CLFS driver. The attack involved information stealing, privilege escalation, and Active Directory reconnaissance but no ransomware deployment. This highlights a trend of ransomware groups leveraging zero-days and targeting domain controllers for widespread impact.\n\nWould you like to know more? [https://www.perplexity.ai/search/summarize-article-in-400-chara-hPLgkoOqS1KU5qkGf\\_a1TQ?utm\\_source=copy\\_output](https://www.perplexity.ai/search/summarize-article-in-400-chara-hPLgkoOqS1KU5qkGf_a1TQ?utm_source=copy_output)",
+    "permalink": "/r/u_WalkureARCH/comments/1kh3454/play_ransomware_exploited_windows_cve202529824_as/",
+    "timestamp": "2025-05-07T17:25:13",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-46551"
+    ],
+    "cve_counts": {
+      "CVE-2025-46551": 2
+    },
+    "title": "JRuby 10.0.0.1 and 9.4.12.1 released to address CVE-2025-46551",
+    "text": "Versions of jruby-openssl prior to 0.15.4 do not verify hostname by default, which if left unchanged can lead to MITM attacks. We have released the fix in 0.15.4 as well as security updates in JRuby 10.0.0.1 and 9.4.12.1. No other changes are included in those releases and we recommend all users upgrade.\n\n* https://www.cve.org/CVERecord?id=CVE-2025-46551\n* https://www.jruby.org/2025/05/07/jruby-10-0-0-1\n* https://www.jruby.org/2025/05/07/jruby-9-4-12-1",
+    "permalink": "/r/ruby/comments/1kh2ua0/jruby_10001_and_94121_released_to_address/",
+    "timestamp": "2025-05-07T17:14:21",
+    "article_text": null,
+    "comments": []
   }
 ]

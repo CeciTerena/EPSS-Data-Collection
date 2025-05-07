@@ -5704,5 +5704,31 @@
     "timestamp": "2025-05-07T15:01:25",
     "clean_text": "CVE Alert: CVE-2025-22479 Dell Storage Center – Dell Storage Manager, version(s) 20.0.21, contain(s) an Improper Limitation of a Pathname to a Restricted Directory (‘Path Traversal’) vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to Script injection.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29824"
+    ],
+    "cve_counts": {
+      "CVE-2025-29824": 2
+    },
+    "title": "Play Ransomware Exploited Windows CVE-2025-29824 as Zero-Day to Breach U.S. Organization",
+    "permalink": "/r/u_WalkureARCH/comments/1kh3454/play_ransomware_exploited_windows_cve202529824_as/",
+    "timestamp": "2025-05-07T17:25:13",
+    "clean_text": "Play Ransomware Exploited Windows CVE-2025-29824 as Zero-Day to Breach U.S. Organization Play ransomware exploited the recently patched Windows zero-day CVE-2025-29824 to breach a U.S. organization, using privilege escalation in the CLFS driver. The attack involved information stealing, privilege escalation, and Active Directory reconnaissance but no ransomware deployment. This highlights a trend of ransomware groups leveraging zero-days and targeting domain controllers for widespread impact. Would you like to know more? <URL>",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-46551"
+    ],
+    "cve_counts": {
+      "CVE-2025-46551": 2
+    },
+    "title": "JRuby 10.0.0.1 and 9.4.12.1 released to address CVE-2025-46551",
+    "permalink": "/r/ruby/comments/1kh2ua0/jruby_10001_and_94121_released_to_address/",
+    "timestamp": "2025-05-07T17:14:21",
+    "clean_text": "JRuby 10.0.0.1 and 9.4.12.1 released to address CVE-2025-46551 Versions of jruby-openssl prior to 0.15.4 do not verify hostname by default, which if left unchanged can lead to MITM attacks. We have released the fix in 0.15.4 as well as security updates in JRuby 10.0.0.1 and 9.4.12.1. No other changes are included in those releases and we recommend all users upgrade. * <URL> * <URL> * <URL>",
+    "clean_comments": []
   }
 ]
