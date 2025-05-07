@@ -5633,5 +5633,63 @@
     "clean_comments": [
       "Level 0: Join the awesome LOQ Discord server: <URL> Get prompt support, live chats, and dive into other cool activities. I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/LenovoLOQ) if you have any questions or concerns."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-4372"
+    ],
+    "cve_counts": {
+      "CVE-2025-4372": 1
+    },
+    "title": "Critical Chrome Security Patch Fixes WebAudio Code Execution Vulnerability",
+    "permalink": "/r/pwnhub/comments/1kgv64e/critical_chrome_security_patch_fixes_webaudio/",
+    "timestamp": "2025-05-07T11:38:53",
+    "clean_text": "Critical Chrome Security Patch Fixes WebAudio Code Execution Vulnerability Google has addressed a significant vulnerability in Chrome's WebAudio component that could allow attackers to execute malicious code. Key Points: - The vulnerability, identified as CVE-2025-4372, is a Use-After-Free issue. - Exploiting this flaw enables remote attackers to manipulate memory and execute arbitrary code. - The update raises concerns due to its high CVSS rating of 9.8, indicating critical potential for exploitation. Google has rolled out a critical security update for Chrome, targeting a serious vulnerability within the WebAudio API. This flaw, labeled as Use-After-Free, allows attackers to exploit memory corruption through maliciously crafted HTML pages. Such vulnerabilities are particularly dangerous because they do not require any user privileges or extensive user interaction, making them easy targets for cybercriminals. The vulnerability was discovered by Huang Xilin from Ant Group Light-Year Security Lab, who was rewarded $7,000 for his finding as part of Google’s vulnerability rewards program. The recent patch addresses the root cause of the memory corruption by making the MediaStreamAudioDestinationNode an ActiveScriptWrappable component, ensuring that audio nodes are not prematurely destroyed while still in use by active scripts. Despite Google classifying the vulnerability as medium severity, several cybersecurity vendors have deemed it critical due to the ease of exploitation and the limited interaction required from users. This incident serves as a reminder of the persistent security challenges that arise from complex functionalities in web browsers, as similar vulnerabilities have been noted in the past. What steps do you take to ensure your online security in light of such vulnerabilities? Learn More: Cyber Security News Want to stay updated on the latest cyber threats? Subscribe to /r/PwnHub",
+    "clean_comments": [
+      "Level 0: Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem. Stay updated on zero-days, exploits, hacker tools, and the latest cybersecurity drama. Whether you’re red team, blue team, or just here for the chaos—dive in and stay ahead. Stay sharp. Stay secure. Subscribe and join us for daily posts! I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-3102",
+      "CVE-2025-27007"
+    ],
+    "cve_counts": {
+      "CVE-2025-27007": 1,
+      "CVE-2025-3102": 1
+    },
+    "title": "Severe OttoKit Vulnerability Targeting WordPress Sites",
+    "permalink": "/r/pwnhub/comments/1kgv4ua/severe_ottokit_vulnerability_targeting_wordpress/",
+    "timestamp": "2025-05-07T11:36:46",
+    "clean_text": "Severe OttoKit Vulnerability Targeting WordPress Sites A recently discovered vulnerability in the OttoKit WordPress plugin is being exploited by attackers to gain admin access to websites. Key Points: - A new high-severity bug in the OttoKit plugin poses serious security risks for WordPress sites. - Threat actors can exploit the vulnerability to connect unauthorized accounts and create admin users. - Over 100,000 installations are at risk, emphasizing the urgent need for site owners to update their plugins. Recent reports have unveiled a significant vulnerability in the OttoKit WordPress plugin, used by over 100,000 installations for automation purposes. This vulnerability, identified as CVE-2025-27007 with a CVSS score of 9.8, allows unauthenticated attackers to gain administrative privileges on affected sites. The flaw resides in the 'createwpconnection()' function, which incorrectly verifies user authentication, enabling attackers to manipulate access without requiring a known username. This vulnerability comes shortly after another critical bug (CVE-2025-3102) was exploited to seize control of compromised sites. Attackers can initially connect to vulnerable sites, allowing them to create new administrative accounts. This presents a grave concern for website security as successful interference could lead to further exploitation or data breaches. Site administrators are strongly urged to upgrade to OttoKit version 1.0.83, which contains patches addressing both vulnerabilities to protect their websites promptly. What steps can site administrators take to enhance security against such vulnerabilities in the future? Learn More: Security Week Want to stay updated on the latest cyber threats? Subscribe to /r/PwnHub",
+    "clean_comments": [
+      "Level 0: Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem. Stay updated on zero-days, exploits, hacker tools, and the latest cybersecurity drama. Whether you’re red team, blue team, or just here for the chaos—dive in and stay ahead. Stay sharp. Stay secure. Subscribe and join us for daily posts! I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-2775"
+    ],
+    "cve_counts": {
+      "CVE-2025-2775": 1
+    },
+    "title": "SysOwned, Your Friendly Support Ticket - SysAid On-Premise Pre-Auth RCE Chain (CVE-2025-2775 And Friends)",
+    "permalink": "/r/worldTechnology/comments/1kgv4pa/sysowned_your_friendly_support_ticket_sysaid/",
+    "timestamp": "2025-05-07T11:36:33",
+    "clean_text": "SysOwned, Your Friendly Support Ticket - SysAid On-Premise Pre-Auth RCE Chain (CVE-2025-2775 And Friends)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3248"
+    ],
+    "cve_counts": {
+      "CVE-2025-3248": 1
+    },
+    "title": "Critical Langflow Vulnerability (CVE-2025-3248) Actively Exploited, Warns CISA",
+    "permalink": "/r/InfoSecNews/comments/1kgv1ky/critical_langflow_vulnerability_cve20253248/",
+    "timestamp": "2025-05-07T11:31:35",
+    "clean_text": "Critical Langflow Vulnerability (CVE-2025-3248) Actively Exploited, Warns CISA",
+    "clean_comments": []
   }
 ]
