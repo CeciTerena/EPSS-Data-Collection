@@ -5564,5 +5564,74 @@
     "clean_comments": [
       "Level 0: lol'ed at that disclosure timeline"
     ]
+  },
+  {
+    "cves": [
+      "CVE-2024-39894",
+      "CVE-2024-6387"
+    ],
+    "cve_counts": {
+      "CVE-2024-6387": 1,
+      "CVE-2024-39894": 1
+    },
+    "title": "Modern sshd has arrived!",
+    "permalink": "/r/Juniper/comments/1kgujp8/modern_sshd_has_arrived/",
+    "timestamp": "2025-05-07T11:03:03",
+    "clean_text": "Modern sshd has arrived! JUNOS 22.4R3-S6.5 built 2025-01-19 02:34:07 UTC has: OpenSSH_9.7p1 with CVE-2024-6387,CVE-2024-39894 fixes, OpenSSL 1.1.1y 04 JUN 2024 . and with that, keytypes ecdsa-sk and ed25519-sk Did not bother to check exactly when Juniper upgraded sshd in Junos. But I had largely given up. Do note that the new sshd is somewhat slower to respond. So if you have an .ssh/config with a tight ConnectTimeout, you may have to adjust it slightly. * Tested sk-keys by manually editing .ssh/authorized_keys. It works. CLI does not offer these key types yet, so I assume it isn't \\supported\\*. * No idea what will trigger overwriting .ssh/authorized\\_keys.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29824"
+    ],
+    "cve_counts": {
+      "CVE-2025-29824": 1
+    },
+    "title": "Play Ransomware Exploited Windows CVE-2025-29824 as Zero-Day to Breach U.S. Organization",
+    "permalink": "/r/u_TheCyberSecurityHub/comments/1kguftt/play_ransomware_exploited_windows_cve202529824_as/",
+    "timestamp": "2025-05-07T10:57:04",
+    "clean_text": "Play Ransomware Exploited Windows CVE-2025-29824 as Zero-Day to Breach U.S. Organization",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-52879",
+      "CVE-2024-49200",
+      "CVE-2024-45332",
+      "CVE-2024-52878",
+      "CVE-2023-40238",
+      "CVE-2024-52877",
+      "CVE-2024-20103",
+      "CVE-2024-43420",
+      "CVE-2024-20054",
+      "CVE-2024-20109",
+      "CVE-2024-38796",
+      "CVE-2024-52880",
+      "CVE-2024-7344",
+      "CVE-2024-24582"
+    ],
+    "cve_counts": {
+      "CVE-2024-7344": 1,
+      "CVE-2024-24582": 1,
+      "CVE-2024-38796": 1,
+      "CVE-2024-52877": 1,
+      "CVE-2024-52878": 1,
+      "CVE-2024-52879": 1,
+      "CVE-2024-52880": 1,
+      "CVE-2024-45332": 1,
+      "CVE-2024-43420": 1,
+      "CVE-2024-20054": 1,
+      "CVE-2024-20103": 1,
+      "CVE-2024-20109": 1,
+      "CVE-2024-49200": 1,
+      "CVE-2023-40238": 1
+    },
+    "title": "New BIOS update (NECN44WW) - 07 May 2025",
+    "permalink": "/r/LenovoLOQ/comments/1kgufqq/new_bios_update_necn44ww_07_may_2025/",
+    "timestamp": "2025-05-07T10:56:56",
+    "clean_text": "New BIOS update (NECN44WW) - 07 May 2025 Summary of Changes NECN44WW(V44) \\[Added\\] \\[Modified\\] 1. Enhancement to address security vulnerability CVE-2024-7344. 2. Enhancement to address security vulnerability CVE-2024-24582. 3. Enhancement to address security vulnerability CVE-2024-38796. 4. Enhancement to address security vulnerability CVE-2024-52877. 5. Enhancement to address security vulnerability CVE-2024-52878. 6. Enhancement to address security vulnerability CVE-2024-52879. 7. Enhancement to address security vulnerability CVE-2024-52880. 8. Enhancement to address security vulnerability CVE-2024-45332. 9. Enhancement to address security vulnerability CVE-2024-43420. 10. Enhancement to address security vulnerability CVE-2024-20054. 11. Enhancement to address security vulnerability CVE-2024-20103. 12. Enhancement to address security vulnerability CVE-2024-20109. 13. Enhancement to address security vulnerability CVE-2024-49200. 14. Enhancement to address security vulnerability CVE-2023-40238. 15. Modify “Battery Drop Protection” default setting. 16. Fix Battery heart icon show/disappear delay. \\[Fixed\\] \\[Embedded Controller\\] Fixed : Workaround : Function : 1.Battery - Update night charge function, send event (0x2C) when trigger conservation mode.Summary of Changes NECN44WW(V44)",
+    "clean_comments": [
+      "Level 0: Join the awesome LOQ Discord server: <URL> Get prompt support, live chats, and dive into other cool activities. I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/LenovoLOQ) if you have any questions or concerns."
+    ]
   }
 ]
