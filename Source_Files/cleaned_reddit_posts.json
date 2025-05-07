@@ -5505,5 +5505,64 @@
     "timestamp": "2025-05-07T00:04:17",
     "clean_text": "CVE Alert: CVE-2025-4283 A vulnerability was found in SourceCodester/oretnom23 Stock Management System 1.0 and classified as critical. This issue affects some unknown processing of the file /classes/Login.php?f=login. The manipulation of the argument Username leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-46731",
+      "CVE-2025-22873",
+      "CVE-2024-21413",
+      "CVE-2025-31161",
+      "CVE-2025-24132",
+      "CVE-2025-27363",
+      "CVE-2025-3248",
+      "CVE-2025-24252",
+      "CVE-2025-2905",
+      "CVE-2025-34028"
+    ],
+    "cve_counts": {
+      "CVE-2025-31161": 2,
+      "CVE-2025-24132": 2,
+      "CVE-2025-24252": 2,
+      "CVE-2025-2905": 2,
+      "CVE-2024-21413": 2,
+      "CVE-2025-34028": 2,
+      "CVE-2025-22873": 2,
+      "CVE-2025-3248": 2,
+      "CVE-2025-27363": 2,
+      "CVE-2025-46731": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (07/05/2025)",
+    "permalink": "/r/CVEWatch/comments/1kgtntu/top_10_trending_cves_07052025/",
+    "timestamp": "2025-05-07T10:07:03",
+    "clean_text": "🔥 Top 10 Trending CVEs (07/05/2025) Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today: 1. CVE-2025-31161 - CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as exploited in the wild in March and April 2025, aka Unauthenticated HTTP(S) port access. A race condition exists in the AWS4-HMAC (compatible with S3) authorization method of the HTTP component of the FTP server. The server first verifies the existence of the user by performing a call to loginuserpass() with no password requirement. This will authenticate the session through the HMAC verification process and up until the server checks for user verification once more. The vulnerability can be further stabilized, eliminating the need for successfully triggering a race condition, by sending a mangled AWS4-HMAC header. By providing only the username and a following slash (/), the server will successfully find a username, which triggers the successful anypass authentication process, but the server will fail to find the expected SignedHeaders entry, resulting in an index-out-of-bounds error that stops the code from reaching the session cleanup. Together, these issues make it trivial to authenticate as any known or guessable user (e.g., crushadmin), and can lead to a full compromise of the system by obtaining an administrative account. - Published: 03/04/2025 - CVSS: 9.8 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H - Mentions: 59 - Priority: 2 - 2. CVE-2025-24132 - The issue was addressed with improved memory handling. This issue is fixed in AirPlay audio SDK 2.7.1, AirPlay video SDK 3.6.0.126, CarPlay Communication Plug-in R18.1. An attacker on the local network may cause an unexpected app termination. - Published: 30/04/2025 - CVSS: 6.5 - Vector: CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H - Mentions: 14 - Priority: 2 - 3. CVE-2025-24252 - A use-after-free issue was addressed with improved memory management. This issue is fixed in macOS Sequoia 15.4, tvOS 18.4, macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sonoma 14.7.5, iOS 18.4 and iPadOS 18.4, visionOS 2.4. An attacker on the local network may be able to corrupt process memory. - Published: 29/04/2025 - CVSS: 9.8 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H - Mentions: 15 - Priority: 2 - 4. CVE-2025-2905 - An XML External Entity (XXE) vulnerability exists in the gateway component of WSO2 API Manager due to insufficient validation of XML input in crafted URL paths. User-supplied XML is parsed without appropriate restrictions, enabling external entity resolution. This vulnerability can be exploited by an unauthenticated remote attacker to read files from the servers filesystem or perform denial-of-service (DoS) attacks. On systems running JDK 7 or early JDK 8, full file contents may be exposed. On later versions of JDK 8 and newer, only the first line of a file may be read, due to improvements in XML parser behavior. * DoS attacks such as Billion Laughs payloads can cause service disruption. - Published: 05/05/2025 - CVSS: 9.1 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H - Mentions: 5 - Priority: 2 - 5. CVE-2024-21413 - Microsoft Outlook Remote Code Execution Vulnerability - Published: 13/02/2024 - CVSS: 9.8 - CISA KEV: True - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C - Mentions: 34 - Priority: 1+ - 6. CVE-2025-34028 - A path traversal vulnerability in Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files, which, when expanded by the target server, result in Remote Code Execution. This issue affects Command Center Innovation Release: 11.38. - Published: 22/04/2025 - CVSS: 10 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:H - Mentions: 24 - Priority: 2 - 7. CVE-2025-22873 - n/a - CVSS: 0 - Vector: n/a - Priority: n/a - 8. CVE-2025-3248 - Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrary code. - Published: 07/04/2025 - CVSS: 9.8 - CISA KEV: True - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H - Mentions: 46 - Priority: 1+ - 9. CVE-2025-27363 - An out of bounds write exists in FreeType versions 2.13.0 and below (newer versions of FreeType are not vulnerable) when attempting to parse font subglyph structures related to TrueType GX and variable font files. The vulnerable code assigns a signed short value to an unsigned long and then adds a static value causing it to wrap around and allocate too small of a heap buffer. The code then writes up to 6 signed long integers out of bounds relative to this buffer. This may result in arbitrary code execution. This vulnerability may have been exploited in the wild. - Published: 11/03/2025 - CVSS: 8.1 - CISA KEV: True - Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:H/IR:H/AR:H/MAV:N/MAC:L/MPR:N/MUI:N/MS:U/MC:H/MI:H/MA:H - Mentions: 78 - Priority: 1+ - 10. CVE-2025-46731 - Craft is a content management system. Versions of Craft CMS on the 4.x branch prior to 4.14.13 and on the 5.x branch prior to 5.6.16 contains a potential remote code execution vulnerability via Twig SSTI. One must have administrator access and ALLOW_ADMIN_CHANGES must be enabled for this to work. Users should update to the patched versions 4.14.13 or 5.6.15 to mitigate the issue. - Published: 05/05/2025 - CVSS: 7.3 - Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P - Mentions: 1 - Priority: 4 - Let us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from CVE_Prioritizer.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-45490"
+    ],
+    "cve_counts": {
+      "CVE-2025-45490": 1
+    },
+    "title": "CVE Alert: CVE-2025-45490",
+    "permalink": "/r/RedPacketSecurity/comments/1kgtkng/cve_alert_cve202545490/",
+    "timestamp": "2025-05-07T10:01:26",
+    "clean_text": "CVE Alert: CVE-2025-45490 Linksys E5600 v1.1.0.26 was discovered to contain a command injection vulnerability in the runtime.ddnsStatus DynDNS function via the password parameter.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2775"
+    ],
+    "cve_counts": {
+      "CVE-2025-2775": 1
+    },
+    "title": "SysOwned, Your Friendly Support Ticket - SysAid On-Premise Pre-Auth RCE Chain (CVE-2025-2775 And Friends) - watchTowr Labs",
+    "permalink": "/r/netsec/comments/1kgt99x/sysowned_your_friendly_support_ticket_sysaid/",
+    "timestamp": "2025-05-07T09:39:22",
+    "clean_text": "SysOwned, Your Friendly Support Ticket - SysAid On-Premise Pre-Auth RCE Chain (CVE-2025-2775 And Friends) - watchTowr Labs",
+    "clean_comments": [
+      "Level 0: lol'ed at that disclosure timeline"
+    ]
   }
 ]
