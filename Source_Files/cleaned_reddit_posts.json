@@ -5730,5 +5730,20 @@
     "timestamp": "2025-05-07T17:14:21",
     "clean_text": "JRuby 10.0.0.1 and 9.4.12.1 released to address CVE-2025-46551 Versions of jruby-openssl prior to 0.15.4 do not verify hostname by default, which if left unchanged can lead to MITM attacks. We have released the fix in 0.15.4 as well as security updates in JRuby 10.0.0.1 and 9.4.12.1. No other changes are included in those releases and we recommend all users upgrade. * <URL> * <URL> * <URL>",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-9680"
+    ],
+    "cve_counts": {
+      "CVE-2024-9680": 1
+    },
+    "title": "ALERT: “Safest” Mode on Tails Tor Browser Doesn't Fully Disable JavaScript Until You Restart — And You Can’t Save That Setting",
+    "permalink": "/r/darknet_questions/comments/1kh4f5i/alert_safest_mode_on_tails_tor_browser_doesnt/",
+    "timestamp": "2025-05-07T18:16:46",
+    "clean_text": "ALERT: “Safest” Mode on Tails Tor Browser Doesn't Fully Disable JavaScript Until You Restart — And You Can’t Save That Setting If you're using Tails OS and think setting the Tor Browser to “Safest” mode disables JavaScript right away, think again. The Problem: Changing the security level to “Safest” does not fully disable JavaScript until you restart the browser. That means JavaScript can still be active for the rest of your session — even if you haven’t visited any websites yet. Worse, Tails does not let you save this setting, or any about:config changes (like javascript.enabled = false), even with Persistent Storage enabled. This is a huge opsec risk, especially after vulnerabilities like CVE-2024-9680, which allowed attackers to deanonymize users even in Safest mode if JavaScript wasn’t properly shut down. What You Must Do: 1. Before visiting any site, go to: about:config Set javascript.enabled = false 2. Restart the Tor Browser immediately. 3. Repeat this every single time you reboot Tails. There is no official way to automate or save this unless you build a custom Tails image (not beginner-friendly). - TL;DR: Tails resets all browser settings, and Tor’s “Safest” mode isn’t safe until after a full restart. If you’re doing anything risky, manually disable JS and restart your browser before use — every time. This problem was hidden away in a forum Tor-Project discussion a developer was talking about Tor-Project Forum discussion <URL>",
+    "clean_comments": [
+      "Level 0: Doesn't the Noscript extension do something to prevent javascript from being used at all?"
+    ]
   }
 ]
