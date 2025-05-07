@@ -5745,5 +5745,18 @@
     "clean_comments": [
       "Level 0: Doesn't the Noscript extension do something to prevent javascript from being used at all?"
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-4359"
+    ],
+    "cve_counts": {
+      "CVE-2025-4359": 1
+    },
+    "title": "CVE Alert: CVE-2025-4359",
+    "permalink": "/r/RedPacketSecurity/comments/1kh7073/cve_alert_cve20254359/",
+    "timestamp": "2025-05-07T20:01:27",
+    "clean_text": "CVE Alert: CVE-2025-4359 A vulnerability classified as critical was found in itsourcecode Gym Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /ajax.php?action=delete_member. The manipulation of the argument ID leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+    "clean_comments": []
   }
 ]
