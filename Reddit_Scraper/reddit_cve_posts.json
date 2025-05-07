@@ -6865,5 +6865,19 @@
     "timestamp": "2025-05-07T11:31:35",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22479"
+    ],
+    "cve_counts": {
+      "CVE-2025-22479": 1
+    },
+    "title": "CVE Alert: CVE-2025-22479",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kgzitu/cve_alert_cve202522479/",
+    "timestamp": "2025-05-07T15:01:25",
+    "article_text": "Dell Storage Center – Dell Storage Manager, version(s) 20.0.21, contain(s) an Improper Limitation of a Pathname to a Restricted Directory (‘Path Traversal’) vulnerability. An unauthenticated attacker with adjacent network access could potentially exploit this vulnerability, leading to Script injection.",
+    "comments": []
   }
 ]
