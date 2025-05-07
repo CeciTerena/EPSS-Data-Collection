@@ -5758,5 +5758,18 @@
     "timestamp": "2025-05-07T20:01:27",
     "clean_text": "CVE Alert: CVE-2025-4359 A vulnerability classified as critical was found in itsourcecode Gym Management System 1.0. Affected by this vulnerability is an unknown functionality of the file /ajax.php?action=delete_member. The manipulation of the argument ID leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29824"
+    ],
+    "cve_counts": {
+      "CVE-2025-29824": 1
+    },
+    "title": "Attackers Leveraged Privilege Escalation Zero-day Exploit used by Play-linked attackers targets the CVE-2025-29824 zero-day vulnerability patched on April 8.",
+    "permalink": "/r/blueteamsec/comments/1kh9k2k/attackers_leveraged_privilege_escalation_zeroday/",
+    "timestamp": "2025-05-07T21:45:55",
+    "clean_text": "Attackers Leveraged Privilege Escalation Zero-day Exploit used by Play-linked attackers targets the CVE-2025-29824 zero-day vulnerability patched on April 8.",
+    "clean_comments": []
   }
 ]
