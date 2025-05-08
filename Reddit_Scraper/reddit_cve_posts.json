@@ -7063,5 +7063,19 @@
     "timestamp": "2025-05-08T10:01:25",
     "article_text": "A vulnerability, which was classified as problematic, was found in q2apro q2apro-on-site-notifications up to 1.4.6. This affects the function process_request of the file q2apro-onsitenotifications-page.php. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. Upgrading to version 1.4.8 is able to address this issue. The patch is named 0ca85ca02f8aceb661e9b71fd229c45d388ea5b5. It is recommended to upgrade the affected component.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27363"
+    ],
+    "cve_counts": {
+      "CVE-2025-27363": 3
+    },
+    "title": "Security Patch for actively exploited CVE-2025-27363",
+    "text": "Hi everyone,\n\n  \nThere is an actively exploited security hole in the FreeType component of Android and other OSes,  Google has a patch for it in the May security update, but as Motorola users, we likely won't see this updated until sometime in June.  \n\n  \nIn the meantime, opening any affected document or app on your phone could allow an attacker full access to your device.  Not much we can do to mitigate it, really. except wait for the patch to be released to our phones.\n\n  \n[Actively exploited FreeType flaw fixed in Android (CVE-2025-27363) - Help Net Securit](https://www.helpnetsecurity.com/2025/05/07/actively-exploited-freetype-flaw-fixed-in-android-cve-2025-27363/)y",
+    "permalink": "/r/razr/comments/1khoj4a/security_patch_for_actively_exploited_cve202527363/",
+    "timestamp": "2025-05-08T12:11:39",
+    "article_text": null,
+    "comments": []
   }
 ]
