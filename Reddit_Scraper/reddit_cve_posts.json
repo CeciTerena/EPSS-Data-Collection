@@ -7201,5 +7201,33 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-46599"
+    ],
+    "cve_counts": {
+      "CVE-2025-46599": 3
+    },
+    "title": "CVE-2025-46599 - K3s 1.32 before 1.32.4-rc1+k3s1",
+    "text": "CNCF K3s 1.32 before 1.32.4-rc1+k3s1 has a Kubernetes kubelet configuration change with the unintended consequence that, in some situations, ReadOnlyPort is set to 10255. For example, the default behavior of a K3s online installation might allow unauthenticated access to this port, exposing credentials.\n\n[https://www.cve.org/CVERecord?id=CVE-2025-46599](https://www.cve.org/CVERecord?id=CVE-2025-46599)",
+    "permalink": "/r/kubernetes/comments/1khv9qx/cve202546599_k3s_132_before_1324rc1k3s1/",
+    "timestamp": "2025-05-08T17:03:08",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2775"
+    ],
+    "cve_counts": {
+      "CVE-2025-2775": 1
+    },
+    "title": "SysOwned, Your Friendly Support Ticket - SysAid On-Premise Pre-Auth RCE Chain (CVE-2025-2775 And Friends)",
+    "text": "",
+    "permalink": "/r/SecOpsDaily/comments/1khupal/sysowned_your_friendly_support_ticket_sysaid/",
+    "timestamp": "2025-05-08T16:40:18",
+    "article_text": null,
+    "comments": []
   }
 ]
