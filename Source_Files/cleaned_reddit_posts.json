@@ -5882,5 +5882,18 @@
     "timestamp": "2025-05-08T12:11:39",
     "clean_text": "Security Patch for actively exploited CVE-2025-27363 Hi everyone, There is an actively exploited security hole in the FreeType component of Android and other OSes, Google has a patch for it in the May security update, but as Motorola users, we likely won't see this updated until sometime in June. In the meantime, opening any affected document or app on your phone could allow an attacker full access to your device. Not much we can do to mitigate it, really. except wait for the patch to be released to our phones. Actively exploited FreeType flaw fixed in Android (CVE-2025-27363) - Help Net Security",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-21756"
+    ],
+    "cve_counts": {
+      "CVE-2025-21756": 1
+    },
+    "title": "CVE-2025-21756: Attack of the Vsock",
+    "permalink": "/r/linkersec/comments/1khpzhn/cve202521756_attack_of_the_vsock/",
+    "timestamp": "2025-05-08T13:22:04",
+    "clean_text": "CVE-2025-21756: Attack of the Vsock Michael Hoefler published an article about exploiting an incorrect reference counter decrement causing a UAF in the vsock subsystem. With an advice from h0mbre, the researcher used brute force to bypass KASLR and hijacked the control flow for LPE.",
+    "clean_comments": []
   }
 ]

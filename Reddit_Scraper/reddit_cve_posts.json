@@ -7077,5 +7077,19 @@
     "timestamp": "2025-05-08T12:11:39",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-21756"
+    ],
+    "cve_counts": {
+      "CVE-2025-21756": 1
+    },
+    "title": "CVE-2025-21756: Attack of the Vsock",
+    "text": "Michael Hoefler published an [article](https://hoefler.dev/articles/vsock.html) about exploiting an incorrect reference counter decrement causing a UAF in the vsock subsystem.  \n  \nWith an advice from [h0mbre](https://x.com/h0mbre_), the researcher used brute force to bypass KASLR and hijacked the control flow for LPE.",
+    "permalink": "/r/linkersec/comments/1khpzhn/cve202521756_attack_of_the_vsock/",
+    "timestamp": "2025-05-08T13:22:04",
+    "article_text": null,
+    "comments": []
   }
 ]
