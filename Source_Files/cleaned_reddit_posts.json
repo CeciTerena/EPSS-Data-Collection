@@ -5908,5 +5908,87 @@
     "timestamp": "2025-05-08T15:01:27",
     "clean_text": "CVE Alert: CVE-2025-32820 A vulnerability in SMA100 allows a remote authenticated attacker with SSLVPN user privileges can inject a path traversal sequence to make any directory on the SMA appliance writable.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-11477"
+    ],
+    "cve_counts": {
+      "CVE-2024-11477": 1
+    },
+    "title": "CVE-2024-11477- 7-Zip ZSTD Buffer Overflow Vulnerability - Crowdfense",
+    "permalink": "/r/cybersecurity/comments/1khsnbo/cve202411477_7zip_zstd_buffer_overflow/",
+    "timestamp": "2025-05-08T15:16:27",
+    "clean_text": "CVE-2024-11477- 7-Zip ZSTD Buffer Overflow Vulnerability - Crowdfense",
+    "clean_comments": [
+      "Level 0: lol highly unlikely"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-11477"
+    ],
+    "cve_counts": {
+      "CVE-2024-11477": 1
+    },
+    "title": "CVE-2024-11477- 7-Zip ZSTD Buffer Overflow Vulnerability - Crowdfense",
+    "permalink": "/r/RedSec/comments/1khsmqf/cve202411477_7zip_zstd_buffer_overflow/",
+    "timestamp": "2025-05-08T15:15:48",
+    "clean_text": "CVE-2024-11477- 7-Zip ZSTD Buffer Overflow Vulnerability - Crowdfense",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-11477"
+    ],
+    "cve_counts": {
+      "CVE-2024-11477": 1
+    },
+    "title": "CVE-2024-11477- 7-Zip ZSTD Buffer Overflow Vulnerability - Crowdfense",
+    "permalink": "/r/blueteamsec/comments/1khsme4/cve202411477_7zip_zstd_buffer_overflow/",
+    "timestamp": "2025-05-08T15:15:25",
+    "clean_text": "CVE-2024-11477- 7-Zip ZSTD Buffer Overflow Vulnerability - Crowdfense",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-11477"
+    ],
+    "cve_counts": {
+      "CVE-2024-11477": 1
+    },
+    "title": "CVE-2024-11477- 7-Zip ZSTD Buffer Overflow Vulnerability - Crowdfense",
+    "permalink": "/r/blackhat/comments/1khslqj/cve202411477_7zip_zstd_buffer_overflow/",
+    "timestamp": "2025-05-08T15:14:44",
+    "clean_text": "CVE-2024-11477- 7-Zip ZSTD Buffer Overflow Vulnerability - Crowdfense",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-11477"
+    ],
+    "cve_counts": {
+      "CVE-2024-11477": 1
+    },
+    "title": "CVE-2024-11477- 7-Zip ZSTD Buffer Overflow Vulnerability - Crowdfense",
+    "permalink": "/r/ReverseEngineering/comments/1khslm8/cve202411477_7zip_zstd_buffer_overflow/",
+    "timestamp": "2025-05-08T15:14:34",
+    "clean_text": "CVE-2024-11477- 7-Zip ZSTD Buffer Overflow Vulnerability - Crowdfense",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-11477"
+    ],
+    "cve_counts": {
+      "CVE-2024-11477": 1
+    },
+    "title": "CVE-2024-11477- 7-Zip ZSTD Buffer Overflow Vulnerability - Crowdfense",
+    "permalink": "/r/netsec/comments/1khsld0/cve202411477_7zip_zstd_buffer_overflow/",
+    "timestamp": "2025-05-08T15:14:18",
+    "clean_text": "CVE-2024-11477- 7-Zip ZSTD Buffer Overflow Vulnerability - Crowdfense",
+    "clean_comments": [
+      "Level 0: Is it just 24.05/24.06 affected? 24.09?"
+    ]
   }
 ]
