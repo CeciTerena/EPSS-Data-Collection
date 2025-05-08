@@ -7091,5 +7091,19 @@
     "timestamp": "2025-05-08T13:22:04",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32820"
+    ],
+    "cve_counts": {
+      "CVE-2025-32820": 1
+    },
+    "title": "CVE Alert: CVE-2025-32820",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1khsa13/cve_alert_cve202532820/",
+    "timestamp": "2025-05-08T15:01:27",
+    "article_text": "A vulnerability in SMA100 allows a remote authenticated attacker with SSLVPN user privileges can inject a path traversal sequence to make any directory on the SMA appliance writable.",
+    "comments": []
   }
 ]

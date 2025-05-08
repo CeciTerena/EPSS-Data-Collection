@@ -5895,5 +5895,18 @@
     "timestamp": "2025-05-08T13:22:04",
     "clean_text": "CVE-2025-21756: Attack of the Vsock Michael Hoefler published an article about exploiting an incorrect reference counter decrement causing a UAF in the vsock subsystem. With an advice from h0mbre, the researcher used brute force to bypass KASLR and hijacked the control flow for LPE.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32820"
+    ],
+    "cve_counts": {
+      "CVE-2025-32820": 1
+    },
+    "title": "CVE Alert: CVE-2025-32820",
+    "permalink": "/r/RedPacketSecurity/comments/1khsa13/cve_alert_cve202532820/",
+    "timestamp": "2025-05-08T15:01:27",
+    "clean_text": "CVE Alert: CVE-2025-32820 A vulnerability in SMA100 allows a remote authenticated attacker with SSLVPN user privileges can inject a path traversal sequence to make any directory on the SMA appliance writable.",
+    "clean_comments": []
   }
 ]
