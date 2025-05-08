@@ -7017,5 +7017,51 @@
     "timestamp": "2025-05-08T07:32:35",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-46731",
+      "CVE-2025-34028",
+      "CVE-2024-21413",
+      "CVE-2025-20188",
+      "CVE-2025-22873",
+      "CVE-2025-24252",
+      "CVE-2025-29824",
+      "CVE-2025-27363",
+      "CVE-2025-24132",
+      "CVE-2025-3248"
+    ],
+    "cve_counts": {
+      "CVE-2025-24132": 2,
+      "CVE-2025-24252": 2,
+      "CVE-2025-29824": 2,
+      "CVE-2024-21413": 2,
+      "CVE-2025-34028": 2,
+      "CVE-2025-22873": 2,
+      "CVE-2025-20188": 2,
+      "CVE-2025-3248": 2,
+      "CVE-2025-27363": 2,
+      "CVE-2025-46731": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (08/05/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-24132](https://nvd.nist.gov/vuln/detail/CVE-2025-24132)**\n\n- 📝 The issue was addressed with improved memory handling. This issue is fixed in AirPlay audio SDK 2.7.1, AirPlay video SDK 3.6.0.126, CarPlay Communication Plug-in R18.1. An attacker on the local network may cause an unexpected app termination.\n\n- 📅 **Published:** 30/04/2025\n- 📈 **CVSS:** 6.5\n- 🧭 **Vector:** CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H\n- 📣 **Mentions:** 14\n- ⚠️ **Priority:** 2\n\n---\n\n**2. [CVE-2025-24252](https://nvd.nist.gov/vuln/detail/CVE-2025-24252)**\n\n- 📝 A use-after-free issue was addressed with improved memory management. This issue is fixed in macOS Sequoia 15.4, tvOS 18.4, macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sonoma 14.7.5, iOS 18.4 and iPadOS 18.4, visionOS 2.4. An attacker on the local network may be able to corrupt process memory.\n\n- 📅 **Published:** 29/04/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 15\n- ⚠️ **Priority:** 2\n\n---\n\n**3. [CVE-2025-29824](https://nvd.nist.gov/vuln/detail/CVE-2025-29824)**\n\n- 📝 Windows Common Log File System Driver Elevation of Privilege Vulnerability\n\n- 📅 **Published:** 08/04/2025\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C\n- 📣 **Mentions:** 85\n- ⚠️ **Priority:** 2\n\n---\n\n**4. [CVE-2024-21413](https://nvd.nist.gov/vuln/detail/CVE-2024-21413)**\n\n- 📝 Microsoft Outlook Remote Code Execution Vulnerability\n\n- 📅 **Published:** 13/02/2024\n- 📈 **CVSS:** 9.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C\n- 📣 **Mentions:** 34\n- ⚠️ **Priority:** 1+\n\n---\n\n**5. [CVE-2025-34028](https://nvd.nist.gov/vuln/detail/CVE-2025-34028)**\n\n- 📝 A path traversal vulnerability in Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files, which, when expanded by the target server, result in Remote Code Execution. This issue affects Command Center Innovation Release: 11.38.\n\n- 📅 **Published:** 22/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:H\n- 📣 **Mentions:** 24\n- ⚠️ **Priority:** 2\n\n---\n\n**6. [CVE-2025-22873](https://nvd.nist.gov/vuln/detail/CVE-2025-22873)**\n\n- 📝 n/a\n\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\n**7. [CVE-2025-20188](https://nvd.nist.gov/vuln/detail/CVE-2025-20188)**\n\n- 📝 A vulnerability in the Out-of-Band Access Point (AP) Image Download feature of Cisco IOS XE Software for Wireless LAN Controllers (WLCs) could allow an unauthenticated, remote attacker to upload arbitrary files to an affected system.  This vulnerability is due to the presence of a hard-coded JSON Web Token (JWT) on an affected system. An attacker could exploit this vulnerability by sending crafted HTTPS requests to the AP image download interface. A successful exploit could allow the attacker to upload files, perform path traversal, and execute arbitrary commands with root privileges.   Note: For exploitation to be successful, the Out-of-Band AP Image Download feature must be enabled on the device. It is not enabled by default.\n\n- 📅 **Published:** 07/05/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 16\n- ⚠️ **Priority:** 4\n\n---\n\n**8. [CVE-2025-3248](https://nvd.nist.gov/vuln/detail/CVE-2025-3248)**\n\n- 📝 Langflow versions prior to 1.3.0 are susceptible to code injection in  the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrary code.\n\n- 📅 **Published:** 07/04/2025\n- 📈 **CVSS:** 9.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 46\n- ⚠️ **Priority:** 1+\n\n---\n\n**9. [CVE-2025-27363](https://nvd.nist.gov/vuln/detail/CVE-2025-27363)**\n\n- 📝 An out of bounds write exists in FreeType versions 2.13.0 and below (newer versions of FreeType are not vulnerable) when attempting to parse font subglyph structures related to TrueType GX and variable font files. The vulnerable code assigns a signed short value to an unsigned long and then adds a static value causing it to wrap around and allocate too small of a heap buffer. The code then writes up to 6 signed long integers out of bounds relative to this buffer. This may result in arbitrary code execution. This vulnerability may have been exploited in the wild.\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 8.1\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:H/IR:H/AR:H/MAV:N/MAC:L/MPR:N/MUI:N/MS:U/MC:H/MI:H/MA:H\n- 📣 **Mentions:** 78\n- ⚠️ **Priority:** 1+\n\n---\n\n**10. [CVE-2025-46731](https://nvd.nist.gov/vuln/detail/CVE-2025-46731)**\n\n- 📝 Craft is a content management system. Versions of Craft CMS on the 4.x branch prior to 4.14.13 and on the 5.x branch prior to 5.6.16 contains a potential remote code execution vulnerability via Twig SSTI. One must have administrator access and `ALLOW_ADMIN_CHANGES` must be enabled for this to work. Users should update to the patched versions 4.14.13 or 5.6.15 to mitigate the issue.\n\n- 📅 **Published:** 05/05/2025\n- 📈 **CVSS:** 7.3\n- 🧭 **Vector:** CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 4\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from [CVE_Prioritizer](https://github.com/TURROKS/CVE_Prioritizer).",
+    "permalink": "/r/CVEWatch/comments/1khmem3/top_10_trending_cves_08052025/",
+    "timestamp": "2025-05-08T10:07:05",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-7303"
+    ],
+    "cve_counts": {
+      "CVE-2023-7303": 1
+    },
+    "title": "CVE Alert: CVE-2023-7303",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1khmbhq/cve_alert_cve20237303/",
+    "timestamp": "2025-05-08T10:01:25",
+    "article_text": "A vulnerability, which was classified as problematic, was found in q2apro q2apro-on-site-notifications up to 1.4.6. This affects the function process_request of the file q2apro-onsitenotifications-page.php. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. Upgrading to version 1.4.8 is able to address this issue. The patch is named 0ca85ca02f8aceb661e9b71fd229c45d388ea5b5. It is recommended to upgrade the affected component.",
+    "comments": []
   }
 ]
