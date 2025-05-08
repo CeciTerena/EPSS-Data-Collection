@@ -6989,5 +6989,33 @@
     "timestamp": "2025-05-08T05:55:10",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27363"
+    ],
+    "cve_counts": {
+      "CVE-2025-27363": 1
+    },
+    "title": "Out of bounds write vulnerability in FreeType versions 2.13.0 and below (CVE-2025-27363)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1khkfbz/out_of_bounds_write_vulnerability_in_freetype/",
+    "timestamp": "2025-05-08T07:42:18",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20188"
+    ],
+    "cve_counts": {
+      "CVE-2025-20188": 1
+    },
+    "title": "Cisco IOS XE Wireless Controller Software Arbitrary File Upload Vulnerability (CVE-2025-20188)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1khkamw/cisco_ios_xe_wireless_controller_software/",
+    "timestamp": "2025-05-08T07:32:35",
+    "article_text": null,
+    "comments": []
   }
 ]
