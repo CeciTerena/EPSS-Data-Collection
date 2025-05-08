@@ -6955,5 +6955,25 @@
     "timestamp": "2025-05-07T21:45:55",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-23123"
+    ],
+    "cve_counts": {
+      "CVE-2025-23123": 1
+    },
+    "title": "Update your Protect version asap",
+    "text": "https://community.ui.com/releases/Security-Advisory-Bulletin-047-047/cef86c37-7421-44fd-b251-84e76475a5bc\n\nPerfect 10 scores are rare.\n\nSummary\n\nA malicious actor with access to the management network could execute a remote code execution (RCE) by exploiting a heap buffer overflow vulnerability in the UniFi Protect Cameras (Version 4.75.43 and earlier) firmware.\n\n \n\nAffected Products:\n\nUniFi Protect Cameras (Version 4.75.43 and earlier).\n\n \n\nMitigation:\n\nUpdate your UniFi Protect Cameras to Version 4.75.62 or later.\n\n \n\nImpact:\n\nCVSS v3.0 Severity and Metrics:\n\nBase Score: 10.0 Critical\n\nVector: \n\nCVSS: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n\nCVE: CVE-2025-23123 (Mathew Marcus)",
+    "permalink": "/r/Ubiquiti/comments/1khde6p/update_your_protect_version_asap/",
+    "timestamp": "2025-05-08T00:45:19",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "Hello!  Thanks for posting on r/Ubiquiti!\n\nThis subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products.  If you haven’t already been descriptive in your post, please take the time to edit it and add as many useful details as you can.\n\nUbiquiti makes a great tool to help with figuring out where to place your access points and other network design questions located at:\n\nhttps://design.ui.com\n\nIf you see people spreading misinformation or violating the \"don't be an asshole\" general rule, please report it!\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Ubiquiti) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
   }
 ]
