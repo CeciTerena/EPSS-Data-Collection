@@ -7253,5 +7253,19 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-20186"
+    ],
+    "cve_counts": {
+      "CVE-2025-20186": 1
+    },
+    "title": "CVE Alert: CVE-2025-20186",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1khzh2r/cve_alert_cve202520186/",
+    "timestamp": "2025-05-08T19:52:42",
+    "article_text": "A vulnerability in the web-based management interface of the Wireless LAN Controller feature of Cisco IOS XE Software could allow an authenticated, remote attacker with a lobby ambassador user account to perform a command injection attack against an affected device. This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted input to the web-based management interface. A successful exploit could allow the attacker to execute arbitrary Cisco IOS XE Software CLI commands with privilege level 15. Note: This vulnerability is exploitable only if the attacker obtains the credentials for a lobby ambassador account. This account is not configured by default.",
+    "comments": []
   }
 ]
