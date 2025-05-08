@@ -5786,5 +5786,18 @@
     "clean_comments": [
       "Level 0: Hello! Thanks for posting on r/Ubiquiti! This subreddit is here to provide unofficial technical support to people who use or want to dive into the world of Ubiquiti products. If you haven’t already been descriptive in your post, please take the time to edit it and add as many useful details as you can. Ubiquiti makes a great tool to help with figuring out where to place your access points and other network design questions located at: <URL> If you see people spreading misinformation or violating the \"don't be an asshole\" general rule, please report it! I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/Ubiquiti) if you have any questions or concerns."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-20188"
+    ],
+    "cve_counts": {
+      "CVE-2025-20188": 1
+    },
+    "title": "Cisco Patches CVE-2025-20188 (10.0 CVSS) in IOS XE That Enables Root Exploits via JWT",
+    "permalink": "/r/u_TheCyberSecurityHub/comments/1khiwcv/cisco_patches_cve202520188_100_cvss_in_ios_xe/",
+    "timestamp": "2025-05-08T05:55:10",
+    "clean_text": "Cisco Patches CVE-2025-20188 (10.0 CVSS) in IOS XE That Enables Root Exploits via JWT",
+    "clean_comments": []
   }
 ]

@@ -6975,5 +6975,19 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-20188"
+    ],
+    "cve_counts": {
+      "CVE-2025-20188": 1
+    },
+    "title": "Cisco Patches CVE-2025-20188 (10.0 CVSS) in IOS XE That Enables Root Exploits via JWT",
+    "text": "",
+    "permalink": "/r/u_TheCyberSecurityHub/comments/1khiwcv/cisco_patches_cve202520188_100_cvss_in_ios_xe/",
+    "timestamp": "2025-05-08T05:55:10",
+    "article_text": null,
+    "comments": []
   }
 ]
