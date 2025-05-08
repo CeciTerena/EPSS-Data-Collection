@@ -6016,5 +6016,24 @@
     "timestamp": "2025-05-08T16:40:18",
     "clean_text": "SysOwned, Your Friendly Support Ticket - SysAid On-Premise Pre-Auth RCE Chain (CVE-2025-2775 And Friends)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32819",
+      "CVE-2025-32820",
+      "CVE-2025-32821"
+    ],
+    "cve_counts": {
+      "CVE-2025-32819": 2,
+      "CVE-2025-32820": 1,
+      "CVE-2025-32821": 1
+    },
+    "title": "SonicWall SMA Appliances Face Critical Security Risks",
+    "permalink": "/r/pwnhub/comments/1khvjlr/sonicwall_sma_appliances_face_critical_security/",
+    "timestamp": "2025-05-08T17:14:23",
+    "clean_text": "SonicWall SMA Appliances Face Critical Security Risks SonicWall has issued urgent patches for severe vulnerabilities in its SMA 100 series appliances that could enable remote attackers to execute arbitrary code. Key Points: - Three critical vulnerabilities have been patched, including a potential zero-day exploit. - CVE-2025-32819 allows unauthorized file deletions, risking factory resets. - Attackers can leverage these flaws to gain elevated privileges and control sensitive directories. SonicWall has recently addressed three significant vulnerabilities in its Secure Mobile Access (SMA) 100 series appliances, crucial tools for remote access in many organizations. One of the vulnerabilities, assigned CVE-2025-32819, has garnered attention due to its high CVSS score of 8.8, indicating a severe risk. This flaw enables authenticated users to bypass security mechanisms and delete arbitrary files, which could lead to unauthorized factory resets of the appliance. Rapid7 also reported that this could be exploited as a zero-day, suggesting that it may have already been targeted by attackers. In addition to this, the other two vulnerabilities, CVE-2025-32820 and CVE-2025-32821, allow attackers to inject harmful code and overwrite critical files, potentially resulting in a lasting denial of service. These vulnerabilities can be chained together, allowing malicious actors to escalate privileges from basic authenticated user to an administrator level. This poses a substantial threat to data integrity and system availability, as attackers could execute arbitrary code with root privileges if they successfully exploit these flaws. Updating to the patched version 10.2.1.15-81sv is essential for security and protection against ongoing threats. How do you prioritize patch management in your organization to mitigate risks from vulnerabilities like these? Learn More: Security Week Want to stay updated on the latest cyber threats? Subscribe to /r/PwnHub",
+    "clean_comments": [
+      "Level 0: Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem. Stay updated on zero-days, exploits, hacker tools, and the latest cybersecurity drama. Whether you’re red team, blue team, or just here for the chaos—dive in and stay ahead. Stay sharp. Stay secure. Subscribe and join us for daily posts! I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns."
+    ]
   }
 ]
