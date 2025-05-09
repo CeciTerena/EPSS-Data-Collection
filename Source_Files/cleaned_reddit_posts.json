@@ -6185,5 +6185,18 @@
     "timestamp": "2025-05-09T10:55:30",
     "clean_text": "Kinijos įsilaužėliai išnaudoja SAP pažeidžiamumą Pastebėta, kad su Kinija susijęs neįvardytas grėsmių sukėlėjas, pavadintas Chaya\\_004, naudojasi neseniai atskleista \"SAP NetWeaver\" saugumo spraga. Paskelbtoje ataskaitoje \"Forescout Vedere Labs\" teigia, kad nuo 2025 m. balandžio 29 d. atskleidė kenkėjišką infrastruktūrą, greičiausiai susijusią su įsilaužėlių grupe. Pareidžiamumas: CVE-2025-31324 (CVSS balas: 10.0). Skaitom: <URL>",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1908"
+    ],
+    "cve_counts": {
+      "CVE-2025-1908": 1
+    },
+    "title": "DevSecOps X-Ray for GitLab Admins [May 2025]",
+    "permalink": "/r/gitlab/comments/1kihzyt/devsecops_xray_for_gitlab_admins_may_2025/",
+    "timestamp": "2025-05-09T13:04:55",
+    "clean_text": "DevSecOps X-Ray for GitLab Admins [May 2025] Good day, GitLab Community! We’re getting back with another portion of interesting blogs of the previous month and upcoming events :) News & Resources Blog Post | GitLab Patch Release: 17.11.1, 17.10.5, 17.9.7: GitLab has released patch versions 17.11.1, 17.10.5, and 17.9.7 for both Community and Enterprise Editions. These updates address critical vulnerabilities, including (among others) CVE-2025-1908, which could allow attackers to track user activities, leading to potential account takeovers. All users are advised to upgrade to mitigate these risks. Find out more Blog Post | Automate tedious coding tasks with GitLab Duo Workflow: GitLab Duo Workflow is currently in private beta and leverages agentic AI to automate repetitive coding tasks. Through understanding project structures and reading files, Duo Workflow can implement consistent changes across codebases, like applying new linting rules or even significantly reducing the time spent on mundane tasks. More information Blog Post | Solving complex challenges with GitLab Duo Workflow: A GitLab Customer Success Manager utilized Duo Workflow to address a customer's issue with hardcoded Helm chart limits in the GitLab package registry. By prompting Duo Workflow to propose a solution, they were able to implement a flexible, UI-configurable limit, enhancing the customer's workflow efficiency and satisfaction. Explore further Blog Post | How To Build Your DevOps Toolchain Effectively: In order to accelerate software delivery and upgrade processes, you shall build an effective DevOps toolchain. Be sure to identify the needs along with security and potential scalability. What you get in return is faster time-to-market, improved development speed, along with better collaboration. Find out more Upcoming events Virtual Event | Project & Portfolio Management Workshop | May 15, 2025 | 9:00am - 12:00pm PT: This workshop will focus on project and portfolio management. It is a chance for you to learn how to enhance visibility across the software development lifecycle by utilizing epics, sub-epics, issues, boards, and milestones. The key purpose of this workshop is to simplify workflows and boost team collaboration! Secure your spot Virtual Event | GitLab CI Workshop | May 20, 2025 | 2:00pm - 5:00pm CEST: With this workshop, you will learn more about advanced CI/CD practices. Bear in mind, this is specifically for experienced users. Topics covered will include enterprise agile planning, child pipelines, merge trains, and advanced job configurations. As a result, this should allow you to optimize your DevSecOps workflows using GitLab's CI features. Take part *Subscribe to GitProtect DevSecOps X-Ray Newsletter and always stay tuned for more news!*",
+    "clean_comments": []
   }
 ]
