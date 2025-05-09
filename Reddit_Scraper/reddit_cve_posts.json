@@ -7427,5 +7427,19 @@
     "timestamp": "2025-05-09T13:04:55",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1948"
+    ],
+    "cve_counts": {
+      "CVE-2025-1948": 1
+    },
+    "title": "CVE Alert: CVE-2025-1948",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kikfn3/cve_alert_cve20251948/",
+    "timestamp": "2025-05-09T14:52:40",
+    "article_text": "In Eclipse Jetty versions 12.0.0 to 12.0.16 included, an HTTP/2 client can specify a very large value for the HTTP/2 settings parameter SETTINGS_MAX_HEADER_LIST_SIZE. The Jetty HTTP/2 server does not perform validation on this setting, and tries to allocate a ByteBuffer of the specified capacity to encode HTTP responses, likely resulting in OutOfMemoryError being thrown, or even the JVM process exiting.",
+    "comments": []
   }
 ]
