@@ -6211,5 +6211,31 @@
     "timestamp": "2025-05-09T14:52:40",
     "clean_text": "CVE Alert: CVE-2025-1948 In Eclipse Jetty versions 12.0.0 to 12.0.16 included, an HTTP/2 client can specify a very large value for the HTTP/2 settings parameter SETTINGSMAXHEADERLISTSIZE. The Jetty HTTP/2 server does not perform validation on this setting, and tries to allocate a ByteBuffer of the specified capacity to encode HTTP responses, likely resulting in OutOfMemoryError being thrown, or even the JVM process exiting.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20188"
+    ],
+    "cve_counts": {
+      "CVE-2025-20188": 4
+    },
+    "title": "How the JSON Web Token exploit works in CVE-2025-20188",
+    "permalink": "/r/BarracudaNetworks/comments/1kiowat/how_the_json_web_token_exploit_works_in/",
+    "timestamp": "2025-05-09T17:57:11",
+    "clean_text": "How the JSON Web Token exploit works in CVE-2025-20188 Cisco has patched a critical security flaw that attackers could use to upload arbitrary files to a vulnerable system. The vulnerability is tracked as CVE-2025-20188 and is rated a 10.0 on the Common Vulnerability Scoring System (CVSS). The exploit takes advantage of a hard-coded JSON Web Token (JWT) for authentication in the Out-of-Band Access Point (AP) Image Download feature of Cisco IOS XE Software for Wireless LAN Controllers (WLCs). To understand how this exploit works, let’s start by looking at the JSON Web Token. The easiest way to describe a JWT is that it enables authentication by securely transmitting data between parties. We can illustrate the JWT by using the example of a user logging in to an application. The process begins with the user submitting credentials to the application server. Assuming the user is authorized and JWT is in place, the server will generate a JSON Web Token that includes the user’s authentication data. This token is sent to the client device where it will be stored. The server retains no information about the user and relies on the server-client JWT communication to grant future requests. If the client-side token holds valid credentials, the server will grant access to the permitted resources. The affected Cisco system used a hard-coded JSON Web Token in their software image. This is like using a hard-coded password in an IoT or networking device. Once someone has the image or device in hand, he can extract the password using any number of ‘hacking’ methods. If an attacker is attempting to exploit CVE-2025-20188, getting that token information is the first step. The next step is to identify vulnerable devices, probably by automated scanning or referencing earlier reconnaissance. Once the token and the targets are known, the attacker creates a custom HTTPS request that includes the hard-coded JWT information. The request can be designed to upload malicious files or directly run commands with root privileges. At this point, the attack chain could include a broad range of tactics, from deploying ransomware to stealth/passive traffic monitoring. There are no workarounds for this vulnerability, but administrators can mitigate this vulnerability by disabling the Out-of-Band AP Image Download feature. Like all workarounds and other mitigations, this method should be tested once it is in place. The security patch should be applied as soon as possible. Cisco has listed vulnerable and non-vulnerable devices here.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-38475"
+    ],
+    "cve_counts": {
+      "CVE-2024-38475": 1
+    },
+    "title": "Security Watch 5/9/25",
+    "permalink": "/r/k12sysadmin/comments/1kioaag/security_watch_5925/",
+    "timestamp": "2025-05-09T17:31:27",
+    "clean_text": "Security Watch 5/9/25 On K12TechPro, we've launched a weekly cyber threat intelligence and vulnerability newsletter with NTP and K12TechPro. We'll post the \"public\" news to k12sysadmin from each newsletter. For the full \"k12 techs only\" portion (no middle schoolers, bad guys, vendors, etc. allowed), log into k12techpro.com and visit the Cybersecurity Hub. We begin with a closer look at a deceptive new WordPress malware, “wp-antymalwary-bot”, disguised as a legitimate anti-malware plugin. This threat exploits trust and visibility gaps to provide attackers with persistent administrative access and stealth capabilities. We also examine a recent revelation from Fortinet, where legacy vulnerabilities in FortiGate VPNs were used to maintain hidden access even after patching—reminding us that remediation alone isn’t always the final step. Additionally, we touch on a temporary issue in Exchange Online that caused legitimate Gmail messages to be flagged as spam, and the implications of relying heavily on automated filtering systems. Finally, we discuss CVE-2024-38475, a critical Apache vulnerability that allows attackers to bypass authentication and access private server data through unsafe URL rewrite rules.",
+    "clean_comments": []
   }
 ]
