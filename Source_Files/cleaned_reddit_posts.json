@@ -6100,5 +6100,18 @@
     "timestamp": "2025-05-09T04:52:40",
     "clean_text": "CVE Alert: CVE-2025-47732 Microsoft Dataverse Remote Code Execution Vulnerability",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20213"
+    ],
+    "cve_counts": {
+      "CVE-2025-20213": 1
+    },
+    "title": "Cisco Catalyst SD-WAN Manager Arbitrary File Overwrite Vulnerability (CVE-2025-20213)",
+    "permalink": "/r/systemtek/comments/1kicvt1/cisco_catalyst_sdwan_manager_arbitrary_file/",
+    "timestamp": "2025-05-09T07:42:22",
+    "clean_text": "Cisco Catalyst SD-WAN Manager Arbitrary File Overwrite Vulnerability (CVE-2025-20213)",
+    "clean_comments": []
   }
 ]
