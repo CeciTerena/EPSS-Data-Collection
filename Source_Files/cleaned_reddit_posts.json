@@ -6263,5 +6263,18 @@
     "timestamp": "2025-05-09T19:39:29",
     "clean_text": "You don’t need to worry about CVE-2025-45388",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2775"
+    ],
+    "cve_counts": {
+      "CVE-2025-2775": 1
+    },
+    "title": "SysOwned, Your Friendly Support Ticket - SysAid On-Premise Pre-Auth RCE Chain (CVE-2025-2775 And Friends)",
+    "permalink": "/r/blueteamsec/comments/1kit28x/sysowned_your_friendly_support_ticket_sysaid/",
+    "timestamp": "2025-05-09T20:54:24",
+    "clean_text": "SysOwned, Your Friendly Support Ticket - SysAid On-Premise Pre-Auth RCE Chain (CVE-2025-2775 And Friends)",
+    "clean_comments": []
   }
 ]

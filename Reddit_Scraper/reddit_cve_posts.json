@@ -7497,5 +7497,19 @@
     "timestamp": "2025-05-09T19:39:29",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2775"
+    ],
+    "cve_counts": {
+      "CVE-2025-2775": 1
+    },
+    "title": "SysOwned, Your Friendly Support Ticket - SysAid On-Premise Pre-Auth RCE Chain (CVE-2025-2775 And Friends)",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1kit28x/sysowned_your_friendly_support_ticket_sysaid/",
+    "timestamp": "2025-05-09T20:54:24",
+    "article_text": null,
+    "comments": []
   }
 ]
