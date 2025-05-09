@@ -7309,5 +7309,19 @@
     "timestamp": "2025-05-09T02:39:10",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47732"
+    ],
+    "cve_counts": {
+      "CVE-2025-47732": 1
+    },
+    "title": "CVE Alert: CVE-2025-47732",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kiadwg/cve_alert_cve202547732/",
+    "timestamp": "2025-05-09T04:52:40",
+    "article_text": "Microsoft Dataverse Remote Code Execution Vulnerability",
+    "comments": []
   }
 ]

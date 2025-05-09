@@ -6087,5 +6087,18 @@
     "timestamp": "2025-05-09T02:39:10",
     "clean_text": "CVE-2024-10924, 2FA bypass report question As the title implies I found a 2FA bypass in a web app, pretty straightforward with how it works and is implemented. My question is before submitting the report should I also try session hijacking to further solidify this vulnerability, or should I submit this report and PoC using the session ID’s I collected from accounts I own and avoid potentially accessing PII from accounts I don’t own. Thank you all in advance this is my first time writing and submitting a report and I want to do this correctly",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47732"
+    ],
+    "cve_counts": {
+      "CVE-2025-47732": 1
+    },
+    "title": "CVE Alert: CVE-2025-47732",
+    "permalink": "/r/RedPacketSecurity/comments/1kiadwg/cve_alert_cve202547732/",
+    "timestamp": "2025-05-09T04:52:40",
+    "clean_text": "CVE Alert: CVE-2025-47732 Microsoft Dataverse Remote Code Execution Vulnerability",
+    "clean_comments": []
   }
 ]
