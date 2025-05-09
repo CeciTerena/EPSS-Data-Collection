@@ -6237,5 +6237,31 @@
     "timestamp": "2025-05-09T17:31:27",
     "clean_text": "Security Watch 5/9/25 On K12TechPro, we've launched a weekly cyber threat intelligence and vulnerability newsletter with NTP and K12TechPro. We'll post the \"public\" news to k12sysadmin from each newsletter. For the full \"k12 techs only\" portion (no middle schoolers, bad guys, vendors, etc. allowed), log into k12techpro.com and visit the Cybersecurity Hub. We begin with a closer look at a deceptive new WordPress malware, “wp-antymalwary-bot”, disguised as a legitimate anti-malware plugin. This threat exploits trust and visibility gaps to provide attackers with persistent administrative access and stealth capabilities. We also examine a recent revelation from Fortinet, where legacy vulnerabilities in FortiGate VPNs were used to maintain hidden access even after patching—reminding us that remediation alone isn’t always the final step. Additionally, we touch on a temporary issue in Exchange Online that caused legitimate Gmail messages to be flagged as spam, and the implications of relying heavily on automated filtering systems. Finally, we discuss CVE-2024-38475, a critical Apache vulnerability that allows attackers to bypass authentication and access private server data through unsafe URL rewrite rules.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3468"
+    ],
+    "cve_counts": {
+      "CVE-2025-3468": 1
+    },
+    "title": "CVE Alert: CVE-2025-3468",
+    "permalink": "/r/RedPacketSecurity/comments/1kirlz5/cve_alert_cve20253468/",
+    "timestamp": "2025-05-09T19:52:52",
+    "clean_text": "CVE Alert: CVE-2025-3468 The NEX-Forms – Ultimate Form Builder – Contact forms and much more plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the cleanhtml and formfields parameters in all versions up to, and including, 8.9.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Custom-level access, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-45388"
+    ],
+    "cve_counts": {
+      "CVE-2025-45388": 1
+    },
+    "title": "You don’t need to worry about CVE-2025-45388",
+    "permalink": "/r/WagtailCMS/comments/1kiraye/you_dont_need_to_worry_about_cve202545388/",
+    "timestamp": "2025-05-09T19:39:29",
+    "clean_text": "You don’t need to worry about CVE-2025-45388",
+    "clean_comments": []
   }
 ]

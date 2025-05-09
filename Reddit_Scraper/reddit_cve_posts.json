@@ -7469,5 +7469,33 @@
     "timestamp": "2025-05-09T17:31:27",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3468"
+    ],
+    "cve_counts": {
+      "CVE-2025-3468": 1
+    },
+    "title": "CVE Alert: CVE-2025-3468",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kirlz5/cve_alert_cve20253468/",
+    "timestamp": "2025-05-09T19:52:52",
+    "article_text": "The NEX-Forms – Ultimate Form Builder – Contact forms and much more plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the clean_html and form_fields parameters in all versions up to, and including, 8.9.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Custom-level access, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-45388"
+    ],
+    "cve_counts": {
+      "CVE-2025-45388": 1
+    },
+    "title": "You don’t need to worry about CVE-2025-45388",
+    "text": "",
+    "permalink": "/r/WagtailCMS/comments/1kiraye/you_dont_need_to_worry_about_cve202545388/",
+    "timestamp": "2025-05-09T19:39:29",
+    "article_text": null,
+    "comments": []
   }
 ]
