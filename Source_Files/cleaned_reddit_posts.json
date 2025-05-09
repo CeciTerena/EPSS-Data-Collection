@@ -6172,5 +6172,18 @@
     "timestamp": "2025-05-09T09:15:25",
     "clean_text": "dirtyZero: Hide Dock and Homebar on ≤iOS 18.3.2 with CVE-2025-24203 exploit",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "Kinijos įsilaužėliai išnaudoja SAP pažeidžiamumą",
+    "permalink": "/r/KibernetinisSaugumas/comments/1kiflhn/kinijos_įsilaužėliai_išnaudoja_sap_pažeidžiamumą/",
+    "timestamp": "2025-05-09T10:55:30",
+    "clean_text": "Kinijos įsilaužėliai išnaudoja SAP pažeidžiamumą Pastebėta, kad su Kinija susijęs neįvardytas grėsmių sukėlėjas, pavadintas Chaya\\_004, naudojasi neseniai atskleista \"SAP NetWeaver\" saugumo spraga. Paskelbtoje ataskaitoje \"Forescout Vedere Labs\" teigia, kad nuo 2025 m. balandžio 29 d. atskleidė kenkėjišką infrastruktūrą, greičiausiai susijusią su įsilaužėlių grupe. Pareidžiamumas: CVE-2025-31324 (CVSS balas: 10.0). Skaitom: <URL>",
+    "clean_comments": []
   }
 ]
