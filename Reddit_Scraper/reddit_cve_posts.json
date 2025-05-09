@@ -7337,5 +7337,67 @@
     "timestamp": "2025-05-09T07:42:22",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-44236",
+      "CVE-2025-25014",
+      "CVE-2023-20198",
+      "CVE-2023-20273",
+      "CVE-2025-31324",
+      "CVE-2025-27363",
+      "CVE-2025-4052",
+      "CVE-2025-20188",
+      "CVE-2025-22873",
+      "CVE-2025-3248",
+      "CVE-2025-29824"
+    ],
+    "cve_counts": {
+      "CVE-2025-25014": 2,
+      "CVE-2025-29824": 2,
+      "CVE-2025-4052": 2,
+      "CVE-2024-44236": 2,
+      "CVE-2023-20198": 4,
+      "CVE-2023-20273": 2,
+      "CVE-2025-31324": 2,
+      "CVE-2025-22873": 2,
+      "CVE-2025-20188": 2,
+      "CVE-2025-3248": 2,
+      "CVE-2025-27363": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (09/05/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-25014](https://nvd.nist.gov/vuln/detail/CVE-2025-25014)**\n\n- 📝 A Prototype pollution vulnerability in Kibana leads to arbitrary code execution via crafted HTTP requests to machine learning and reporting endpoints.\n\n- 📅 **Published:** 06/05/2025\n- 📈 **CVSS:** 9.1\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 8\n- ⚠️ **Priority:** 2\n\n---\n\n**2. [CVE-2025-29824](https://nvd.nist.gov/vuln/detail/CVE-2025-29824)**\n\n- 📝 Windows Common Log File System Driver Elevation of Privilege Vulnerability\n\n- 📅 **Published:** 08/04/2025\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C\n- 📣 **Mentions:** 85\n- ⚠️ **Priority:** 2\n\n---\n\n**3. [CVE-2025-4052](https://nvd.nist.gov/vuln/detail/CVE-2025-4052)**\n\n- 📝 Inappropriate implementation in DevTools in Google Chrome prior to 136.0.7103.59 allowed a remote attacker who convinced a user to engage in specific UI gestures to bypass discretionary access control via a crafted HTML page. (Chromium security severity: Low)\n\n- 📅 **Published:** 05/05/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 4\n- ⚠️ **Priority:** 2\n\n---\n\n**4. [CVE-2024-44236](https://nvd.nist.gov/vuln/detail/CVE-2024-44236)**\n\n- 📝 An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in macOS Ventura 13.7.1, macOS Sonoma 14.7.1. Processing a maliciously crafted file may lead to unexpected app termination.\n\n- 📅 **Published:** 28/10/2024\n- 📈 **CVSS:** 6.5\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H\n- 📣 **Mentions:** 9\n- ⚠️ **Priority:** 4\n\n---\n\n**5. [CVE-2023-20198](https://nvd.nist.gov/vuln/detail/CVE-2023-20198)**\n\n- 📝 Cisco is providing an update for the ongoing investigation into observed exploitation of the web UI feature in Cisco IOS XE Software. We are updating the list of fixed releases and adding the Software Checker. Our investigation has determined that the actors exploited two previously unknown issues. The attacker first exploited CVE-2023-20198 to gain initial access and issued a privilege 15 command to create a local user and password combination. This allowed the user to log in with normal user access. The attacker then exploited another component of the web UI feature, leveraging the new local user to elevate privilege to root and write the implant to the file system. Cisco has assigned CVE-2023-20273 to this issue. CVE-2023-20198 has been assigned a CVSS Score of 10.0. CVE-2023-20273 has been assigned a CVSS Score of 7.2. Both of these CVEs are being tracked by CSCwh87343.\n\n- 📅 **Published:** 16/10/2023\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 232\n- ⚠️ **Priority:** 2\n\n---\n\n**6. [CVE-2025-31324](https://nvd.nist.gov/vuln/detail/CVE-2025-31324)**\n\n- 📝 SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system.\n\n- 📅 **Published:** 24/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 9\n- ⚠️ **Priority:** 4\n\n---\n\n**7. [CVE-2025-22873](https://nvd.nist.gov/vuln/detail/CVE-2025-22873)**\n\n- 📝 openSUSE Tumbleweed\n\n- 📈 **CVSS:** 4.4\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N\n- ⚠️ **Priority:** 4\n\n---\n\n**8. [CVE-2025-20188](https://nvd.nist.gov/vuln/detail/CVE-2025-20188)**\n\n- 📝 A vulnerability in the Out-of-Band Access Point (AP) Image Download feature of Cisco IOS XE Software for Wireless LAN Controllers (WLCs) could allow an unauthenticated, remote attacker to upload arbitrary files to an affected system.  This vulnerability is due to the presence of a hard-coded JSON Web Token (JWT) on an affected system. An attacker could exploit this vulnerability by sending crafted HTTPS requests to the AP image download interface. A successful exploit could allow the attacker to upload files, perform path traversal, and execute arbitrary commands with root privileges.   Note: For exploitation to be successful, the Out-of-Band AP Image Download feature must be enabled on the device. It is not enabled by default.\n\n- 📅 **Published:** 07/05/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 16\n- ⚠️ **Priority:** 4\n\n---\n\n**9. [CVE-2025-3248](https://nvd.nist.gov/vuln/detail/CVE-2025-3248)**\n\n- 📝 Langflow versions prior to 1.3.0 are susceptible to code injection in  the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrary code.\n\n- 📅 **Published:** 07/04/2025\n- 📈 **CVSS:** 9.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 46\n- ⚠️ **Priority:** 1+\n\n---\n\n**10. [CVE-2025-27363](https://nvd.nist.gov/vuln/detail/CVE-2025-27363)**\n\n- 📝 An out of bounds write exists in FreeType versions 2.13.0 and below (newer versions of FreeType are not vulnerable) when attempting to parse font subglyph structures related to TrueType GX and variable font files. The vulnerable code assigns a signed short value to an unsigned long and then adds a static value causing it to wrap around and allocate too small of a heap buffer. The code then writes up to 6 signed long integers out of bounds relative to this buffer. This may result in arbitrary code execution. This vulnerability may have been exploited in the wild.\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 8.1\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C/CR:H/IR:H/AR:H/MAV:N/MAC:L/MPR:N/MUI:N/MS:U/MC:H/MI:H/MA:H\n- 📣 **Mentions:** 78\n- ⚠️ **Priority:** 1+\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from [CVE_Prioritizer](https://github.com/TURROKS/CVE_Prioritizer).",
+    "permalink": "/r/CVEWatch/comments/1kierrn/top_10_trending_cves_09052025/",
+    "timestamp": "2025-05-09T10:01:20",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-9448"
+    ],
+    "cve_counts": {
+      "CVE-2024-9448": 1
+    },
+    "title": "CVE Alert: CVE-2024-9448",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kien84/cve_alert_cve20249448/",
+    "timestamp": "2025-05-09T09:52:47",
+    "article_text": "On affected platforms running Arista EOS with Traffic Policies configured the vulnerability will cause received untagged packets not to hit Traffic Policy rules that they are expected to hit. If the rule was to drop the packet, the packet will not be dropped and instead will be forwarded as if the rule was not in place. This could lead to packets being delivered to unexpected destinations.",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24203"
+    ],
+    "cve_counts": {
+      "CVE-2025-24203": 1
+    },
+    "title": "dirtyZero: Hide Dock and Homebar on ≤iOS 18.3.2 with CVE-2025-24203 exploit",
+    "text": "",
+    "permalink": "/r/onejailbreak/comments/1kie4m9/dirtyzero_hide_dock_and_homebar_on_ios_1832_with/",
+    "timestamp": "2025-05-09T09:15:25",
+    "article_text": null,
+    "comments": []
   }
 ]
