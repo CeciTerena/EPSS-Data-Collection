@@ -7627,5 +7627,19 @@
     "timestamp": "2025-05-10T18:36:49",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4472"
+    ],
+    "cve_counts": {
+      "CVE-2025-4472": 1
+    },
+    "title": "CVE Alert: CVE-2025-4472",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kjir5h/cve_alert_cve20254472/",
+    "timestamp": "2025-05-10T19:52:43",
+    "article_text": "A vulnerability was found in code-projects Departmental Store Management System 1.0. It has been classified as critical. Affected is the function bill. The manipulation of the argument Item Code leads to stack-based buffer overflow. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used.",
+    "comments": []
   }
 ]
