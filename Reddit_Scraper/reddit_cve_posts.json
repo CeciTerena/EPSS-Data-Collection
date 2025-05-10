@@ -7511,5 +7511,19 @@
     "timestamp": "2025-05-09T20:54:24",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-13793"
+    ],
+    "cve_counts": {
+      "CVE-2024-13793": 1
+    },
+    "title": "CVE Alert: CVE-2024-13793",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kiww0s/cve_alert_cve202413793/",
+    "timestamp": "2025-05-09T23:52:38",
+    "article_text": "The Wolmart | Multi-Vendor Marketplace WooCommerce Theme theme for WordPress is vulnerable to arbitrary shortcode execution in all versions up to, and including, 1.8.11. This is due to the software allowing users to execute an action that does not properly validate a value before running do_shortcode. This makes it possible for unauthenticated attackers to execute arbitrary shortcodes.",
+    "comments": []
   }
 ]
