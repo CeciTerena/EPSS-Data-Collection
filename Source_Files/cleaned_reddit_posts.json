@@ -6398,5 +6398,18 @@
     "timestamp": "2025-05-10T19:52:43",
     "clean_text": "CVE Alert: CVE-2025-4472 A vulnerability was found in code-projects Departmental Store Management System 1.0. It has been classified as critical. Affected is the function bill. The manipulation of the argument Item Code leads to stack-based buffer overflow. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27363"
+    ],
+    "cve_counts": {
+      "CVE-2025-27363": 2
+    },
+    "title": "That new Android RCE (CVE-2025-27363) - How bad could this get?",
+    "permalink": "/r/cybersecurity/comments/1kjlxhi/that_new_android_rce_cve202527363_how_bad_could/",
+    "timestamp": "2025-05-10T22:19:09",
+    "clean_text": "That new Android RCE (CVE-2025-27363) - How bad could this get? Hey everyone, Been reading up on this CVE-2025-27363 in Android's FreeType library – the one that's apparently already being exploited in the wild. It's got me thinking. We've seen the initial reports, but what are some of the more creative or nasty ways you think this could actually be used against people before patches are widespread? Especially if attackers find clever ways to sidestep some of the built-in Android protections. Feels like this could be a pretty big deal for a lot of users. Curious to hear what the community here thinks about the potential fallout and any less-obvious attack vectors. Are we looking at something more serious than the average bug here?",
+    "clean_comments": []
   }
 ]
