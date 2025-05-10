@@ -6302,5 +6302,62 @@
     "timestamp": "2025-05-10T04:52:40",
     "clean_text": "CVE Alert: CVE-2025-4487 A vulnerability was found in itsourcecode Gym Management System 1.0. It has been classified as critical. Affected is an unknown function of the file /ajax.php?action=delete_member. The manipulation of the argument ID leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26666",
+      "CVE-2025-20188",
+      "CVE-2025-3248",
+      "CVE-2025-31324",
+      "CVE-2025-21756",
+      "CVE-2024-11477",
+      "CVE-2024-44236",
+      "CVE-2025-30147",
+      "CVE-2024-55591",
+      "CVE-2025-2563"
+    ],
+    "cve_counts": {
+      "CVE-2024-11477": 2,
+      "CVE-2025-30147": 2,
+      "CVE-2024-44236": 2,
+      "CVE-2025-2563": 2,
+      "CVE-2025-21756": 2,
+      "CVE-2025-31324": 2,
+      "CVE-2024-55591": 2,
+      "CVE-2025-20188": 2,
+      "CVE-2025-3248": 2,
+      "CVE-2025-26666": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (10/05/2025)",
+    "permalink": "/r/CVEWatch/comments/1kj6txi/top_10_trending_cves_10052025/",
+    "timestamp": "2025-05-10T10:06:12",
+    "clean_text": "🔥 Top 10 Trending CVEs (10/05/2025) Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today: 1. CVE-2024-11477 - 7-Zip Zstandard Decompression Integer Underflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of 7-Zip. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation. The specific flaw exists within the implementation of Zstandard decompression. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-24346. - Published: 22/11/2024 - CVSS: 7.8 - Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H - Mentions: 15 - Priority: 2 - 2. CVE-2025-30147 - Besu Native contains scripts and tooling that is used to build and package the native libraries used by the Ethereum client Hyperledger Besu. Besu 24.7.1 through 25.2.2, corresponding to besu-native versions 0.9.0 through 1.2.1, have a potential consensus bug for the precompiles ALTBN128ADD (0x06), ALTBN128MUL (0x07), and ALTBN128_PAIRING (0x08). These precompiles were reimplemented in besu-native using gnark-cryptos bn254 implementation, as the former implementation used a library which was no longer maintained and not sufficiently performant. The new gnark implementation was initially added in version 0.9.0 of besu-native but was not utilized by Besu until version 0.9.2 in Besu 24.7.1. The issue is that there are EC points which may be crafted which are in the correct subgroup but are not on the curve and the besu-native gnark implementation was relying on subgroup checks to perform point-on-curve checks as well. The version of gnark-crypto used at the time did not do this check when performing subgroup checks. The result is that it was possible for Besu to give an incorrect result and fall out of consensus when executing one of these precompiles against a specially crafted input point. Additionally, homogenous Besu-only networks can potentially enshrine invalid state which would be incorrect and difficult to process with patched versions of besu which handle these calls correctly. The underlying defect has been patched in besu-native release 1.3.0. The fixed version of Besu is version 25.3.0. As a workaround for versions of Besu with the problem, the native precompile for altbn128 may be disabled in favor of the pure-java implementation. The pure java implementation is significantly slower, but does not have this consensus issue. - Published: 07/05/2025 - CVSS: 8.7 - Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N - Mentions: 4 - Priority: 2 - 3. CVE-2024-44236 - An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in macOS Ventura 13.7.1, macOS Sonoma 14.7.1. Processing a maliciously crafted file may lead to unexpected app termination. - Published: 28/10/2024 - CVSS: 6.5 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H - Mentions: 9 - Priority: 4 - 4. CVE-2025-2563 - The User Registration & Membership WordPress plugin before 4.1.2 does not prevent users to set their account role when the Membership Addon is enabled, leading to a privilege escalation issue and allowing unauthenticated users to gain admin privileges - Published: 14/04/2025 - CVSS: 8.1 - Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H - Mentions: 4 - Priority: 2 - 5. CVE-2025-21756 - In the Linux kernel, the following vulnerability has been resolved: vsock: Keep the binding until socket destruction Preserve sockets bindings; this includes both resulting from an explicit bind() and those implicitly bound through autobind during connect(). - Published: 27/02/2025 - CVSS: 7.8 - Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H - Mentions: 7 - Priority: 2 - 6. CVE-2025-31324 - SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system. - Published: 24/04/2025 - CVSS: 10 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H - Mentions: 9 - Priority: 4 - 7. CVE-2024-55591 - AnAuthentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] affecting FortiOS version 7.0.0 through 7.0.16 and FortiProxy version 7.0.0 through 7.0.19 and 7.2.0 through 7.2.12 allows a remote attacker to gain super-admin privileges via crafted requests toNode.js websocket module. - Published: 14/01/2025 - CVSS: 9.6 - CISA KEV: True - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:W/RC:C - Mentions: 130 - Priority: 1+ - 8. CVE-2025-20188 - A vulnerability in the Out-of-Band Access Point (AP) Image Download feature of Cisco IOS XE Software for Wireless LAN Controllers (WLCs) could allow an unauthenticated, remote attacker to upload arbitrary files to an affected system. This vulnerability is due to the presence of a hard-coded JSON Web Token (JWT) on an affected system. An attacker could exploit this vulnerability by sending crafted HTTPS requests to the AP image download interface. A successful exploit could allow the attacker to upload files, perform path traversal, and execute arbitrary commands with root privileges. Note: For exploitation to be successful, the Out-of-Band AP Image Download feature must be enabled on the device. It is not enabled by default. - Published: 07/05/2025 - CVSS: 10 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H - Mentions: 16 - Priority: 4 - 9. CVE-2025-3248 - Langflow versions prior to 1.3.0 are susceptible to code injection in the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send crafted HTTP requests to execute arbitrary code. - Published: 07/04/2025 - CVSS: 9.8 - CISA KEV: True - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H - Mentions: 46 - Priority: 1+ - 10. CVE-2025-26666 - Windows Media Remote Code Execution Vulnerability - Published: 08/04/2025 - CVSS: 7.8 - Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C - Mentions: 1 - Priority: 2 - Let us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from CVE_Prioritizer.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "Threat Brief: CVE-2025-31324",
+    "permalink": "/r/InfoSecNews/comments/1kj6tih/threat_brief_cve202531324/",
+    "timestamp": "2025-05-10T10:05:23",
+    "clean_text": "Threat Brief: CVE-2025-31324",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1278"
+    ],
+    "cve_counts": {
+      "CVE-2025-1278": 1
+    },
+    "title": "CVE Alert: CVE-2025-1278",
+    "permalink": "/r/RedPacketSecurity/comments/1kj6mzq/cve_alert_cve20251278/",
+    "timestamp": "2025-05-10T09:52:41",
+    "clean_text": "CVE Alert: CVE-2025-1278 An issue has been discovered in GitLab CE/EE affecting all versions from 12.0 before 17.9.8, 17.10 before 17.10.6, and 17.11 before 17.11.2. Under certain conditions users could bypass IP access restrictions and view sensitive information.",
+    "clean_comments": []
   }
 ]
