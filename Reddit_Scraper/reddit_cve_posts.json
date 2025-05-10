@@ -7599,5 +7599,19 @@
     "timestamp": "2025-05-10T09:52:41",
     "article_text": "An issue has been discovered in GitLab CE/EE affecting all versions from 12.0 before 17.9.8, 17.10 before 17.10.6, and 17.11 before 17.11.2. Under certain conditions users could bypass IP access restrictions and view sensitive information.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3528"
+    ],
+    "cve_counts": {
+      "CVE-2025-3528": 1
+    },
+    "title": "CVE Alert: CVE-2025-3528",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kjc3ut/cve_alert_cve20253528/",
+    "timestamp": "2025-05-10T14:52:40",
+    "article_text": "A flaw was found in the Mirror Registry. The quay-app container shipped as part of the Mirror Registry for OpenShift has write access to the `/etc/passwd`. This flaw allows a malicious actor with access to the container to modify the passwd file and elevate their privileges to the root user within that pod.",
+    "comments": []
   }
 ]
