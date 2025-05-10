@@ -6372,5 +6372,18 @@
     "timestamp": "2025-05-10T14:52:40",
     "clean_text": "CVE Alert: CVE-2025-3528 A flaw was found in the Mirror Registry. The quay-app container shipped as part of the Mirror Registry for OpenShift has write access to the /etc/passwd. This flaw allows a malicious actor with access to the container to modify the passwd file and elevate their privileges to the root user within that pod.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2022-22620"
+    ],
+    "cve_counts": {
+      "CVE-2022-22620": 1
+    },
+    "title": "Rilasciato PSFree v1.5.0rc1: L’exploit WebKit per PS4 e PS5 si aggiorna con maggiore stabilità e supporto esteso",
+    "permalink": "/r/BiteYourConsole/comments/1kjh3mk/rilasciato_psfree_v150rc1_lexploit_webkit_per_ps4/",
+    "timestamp": "2025-05-10T18:36:49",
+    "clean_text": "Rilasciato PSFree v1.5.0rc1: L’exploit WebKit per PS4 e PS5 si aggiorna con maggiore stabilità e supporto esteso Best curtains shop in DubaiRilasciato PSFree v1.5.0rc1: L’exploit WebKit per PS4 e PS5 si aggiorna con maggiore stabilità e supporto esteso <URL> l'annuncio di Lapse Exploit, il developer Kameleon ha prontamente aggiornato la repository PSFree, l’exploit open-source basato su WebKit che consente l’esecuzione di codice non ufficiale su PlayStation 4 (firmware da 6.xx a 9.60) e PlayStation 5 (da 1.xx fino a 5.xx).\\ Questa nuova versione 1.5.0 migliora sensibilmente la stabilità complessiva, amplia il supporto a ulteriori versioni del firmware e porta avanti i lavori sul porting per console PlayStation 4 montanti firmware 9.00, attualmente ancora in fase di sviluppo.\\ <URL> PSFree sfrutta una vulnerabilità (CVE-2022-22620) nel browser integrato delle console, permettendo di ottenere accesso in lettura/scrittura arbitraria (arbitrary read/write) sul sistema, aprendo la strada a ulteriori modifiche, come l'esecuzione di codice non firmato.\\ \\ Piattaforme supportate\\ \\ PS4: Firmware dalla 6.xx alla 9.60 (testato su versioni come 6.00, 6.50, 6.72, 7.02, 8.03, 9.00, 9.60).\\ PS5: Firmware dalla 1.xx alla 5.xx (testato fino alla 5.50).\\ \\ Gli utenti possono contribuire al progetto clonando la repository, testando l'exploit su diversi firmware, o segnalando bug su GitHub.\\ Fonte: x.comDiscover the best curtains shop in Dubai, where style meets quality and customization. Offering a vast selection of luxurious fabrics, blackout options, and motorized systems, top curtain shops in Dubai provide tailored window treatments to match any interior. From elegant drapes to modern blinds, these stores prioritize premium craftsmanship, exceptional service, and professional installation, ensuring a perfect fit for every space. Whether you seek classic designs or contemporary aesthetics, Dubai’s curtain shops offer solutions that enhance privacy, block out light, and elevate your decor, making them the ideal choice for all your window covering needs.",
+    "clean_comments": []
   }
 ]
