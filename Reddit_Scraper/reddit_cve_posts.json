@@ -7655,5 +7655,37 @@
     "timestamp": "2025-05-10T22:19:09",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2563",
+      "CVE-2025-46189",
+      "CVE-2025-46193",
+      "CVE-2025-46190",
+      "CVE-2025-46191",
+      "CVE-2025-46188",
+      "CVE-2024-11477",
+      "CVE-2025-31324",
+      "CVE-2025-24203",
+      "CVE-2025-46192"
+    ],
+    "cve_counts": {
+      "CVE-2024-11477": 2,
+      "CVE-2025-46189": 2,
+      "CVE-2025-24203": 2,
+      "CVE-2025-46188": 2,
+      "CVE-2025-2563": 2,
+      "CVE-2025-46193": 2,
+      "CVE-2025-46192": 2,
+      "CVE-2025-46191": 2,
+      "CVE-2025-31324": 2,
+      "CVE-2025-46190": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (11/05/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2024-11477](https://nvd.nist.gov/vuln/detail/CVE-2024-11477)**\n\n- 📝 7-Zip Zstandard Decompression Integer Underflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of 7-Zip. Interaction with this library is required to exploit this vulnerability but attack vectors may vary depending on the implementation.\n\nThe specific flaw exists within the implementation of Zstandard decompression. The issue results from the lack of proper validation of user-supplied data, which can result in an integer underflow before writing to memory. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-24346.\n\n- 📅 **Published:** 22/11/2024\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 15\n- ⚠️ **Priority:** 2\n\n---\n\n**2. [CVE-2025-46189](https://nvd.nist.gov/vuln/detail/CVE-2025-46189)**\n\n- 📝 SourceCodester Client Database Management System 1.0 is vulnerable to SQL Injection in user_order_customer_update.php via the order_id POST parameter.\n\n- 📅 **Published:** 09/05/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 2\n\n---\n\n**3. [CVE-2025-24203](https://nvd.nist.gov/vuln/detail/CVE-2025-24203)**\n\n- 📝 The issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to modify protected parts of the file system.\n\n- 📅 **Published:** 31/03/2025\n- 📈 **CVSS:** 5\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N\n- ⚠️ **Priority:** 4\n\n---\n\n**4. [CVE-2025-46188](https://nvd.nist.gov/vuln/detail/CVE-2025-46188)**\n\n- 📝 SourceCodester Client Database Management System 1.0 is vulnerable to SQL Injection in superadmin_phpmyadmin.php.\n\n- 📅 **Published:** 09/05/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 2\n\n---\n\n**5. [CVE-2025-2563](https://nvd.nist.gov/vuln/detail/CVE-2025-2563)**\n\n- 📝 The User Registration & Membership  WordPress plugin before 4.1.2 does not prevent users to set their account role when the Membership Addon is enabled, leading to a privilege escalation issue and allowing unauthenticated users to gain admin privileges\n\n- 📅 **Published:** 14/04/2025\n- 📈 **CVSS:** 8.1\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 4\n- ⚠️ **Priority:** 2\n\n---\n\n**6. [CVE-2025-46193](https://nvd.nist.gov/vuln/detail/CVE-2025-46193)**\n\n- 📝 SourceCodester Client Database Management System 1.0 is vulnerable to Remote code execution via Arbitrary file upload in user_proposal_update_order.php.\n\n- 📅 **Published:** 09/05/2025\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 4\n\n---\n\n**7. [CVE-2025-46192](https://nvd.nist.gov/vuln/detail/CVE-2025-46192)**\n\n- 📝 SourceCodester Client Database Management System 1.0 is vulnerable to SQL Injection in user_payment_update.php via the order_id POST parameter.\n\n- 📅 **Published:** 09/05/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 2\n\n---\n\n**8. [CVE-2025-46191](https://nvd.nist.gov/vuln/detail/CVE-2025-46191)**\n\n- 📝 Arbitrary File Upload in user_payment_update.php in SourceCodester Client Database Management System 1.0 allows unauthenticated users to upload arbitrary files via the uploaded_file_cancelled field. Due to the absence of proper file extension checks, MIME type validation, and authentication, attackers can upload executable PHP files to a web-accessible directory (/files/). This allows them to execute arbitrary commands remotely by accessing the uploaded script, resulting in full Remote Code Execution (RCE) without authentication.\n\n- 📅 **Published:** 09/05/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 2\n\n---\n\n**9. [CVE-2025-31324](https://nvd.nist.gov/vuln/detail/CVE-2025-31324)**\n\n- 📝 SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system.\n\n- 📅 **Published:** 24/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 162\n- ⚠️ **Priority:** 2\n\n---\n\n**10. [CVE-2025-46190](https://nvd.nist.gov/vuln/detail/CVE-2025-46190)**\n\n- 📝 SourceCodester Client Database Management System 1.0 is vulnerable to SQL Injection in user_delivery_update.php via the order_id POST parameter.\n\n- 📅 **Published:** 09/05/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 2\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details.",
+    "permalink": "/r/CVEWatch/comments/1kjxji5/top_10_trending_cves_11052025/",
+    "timestamp": "2025-05-11T10:01:02",
+    "article_text": null,
+    "comments": []
   }
 ]
