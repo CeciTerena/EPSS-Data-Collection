@@ -7687,5 +7687,19 @@
     "timestamp": "2025-05-11T10:01:02",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26647"
+    ],
+    "cve_counts": {
+      "CVE-2025-26647": 2
+    },
+    "title": "April 2025 / CVE-2025-26647 patch is causing havoc",
+    "text": "Hello,\n\nApril 2025 patches related to CVE-2025-26647 contain a new registry key\n\nHKEY\\_LOCAL\\_MACHINE\\\\SYSTEM\\\\CurrentControlSet\\\\Services\\\\Kdc - AllowNtAuthPolicyBypass\n\nSetting this to 2, as suggested for preliminary testing, immediately causes issues left and right.\n\n`The domain controller rejected the client certificate of user @@@CN=\"CN=SRV008\", used for smart card logon. The following error was returned from the certificate validation process: A certification chain processed correctly, but one of the CA certificates is not trusted by the policy provider.`\n\n`The processing of Group Policy failed. Windows could not authenticate to the Active Directory service on a domain controller. (LDAP Bind function call failed). Look in the details tab for error code and description.`\n\n`This computer could not authenticate with \\\\srv100.domain.local, a Windows domain controller for domain DOMAIN, and therefore this computer might deny logon requests. This inability to authenticate might be caused by another computer on the same network using the same name or the password for this computer account is not recognized. If this message appears again, contact your system administrator.`\n\n`The client certificate for the user DOMAIN\\robert is not valid, and resulted in a failed smartcard logon. Please contact the user for more information about the certificate they're attempting to use for smartcard logon. The chain status was : A certification chain processed correctly, but one of the CA certificates is not trusted by the policy provider.`\n\n\n\nOne of the most noticeable effects was 802.1x WIFI no longer beeing able to connect.  \nI've reverted the setting to 1 for now and the issues are gone.\n\nIMHO this is a bug in the patch, because \"`one of the CA certificates is not trusted by the policy provider`\" is nonsense as the only certificate authority in this environment is fully trusted on all systems via dspublish / Trusted Root Certificates Store. The certificate SRV008 in the error message is chained to this CA.\n\nAnyone else with a similar expericene?",
+    "permalink": "/r/sysadmin/comments/1kjzbsg/april_2025_cve202526647_patch_is_causing_havoc/",
+    "timestamp": "2025-05-11T11:56:57",
+    "article_text": null,
+    "comments": []
   }
 ]
