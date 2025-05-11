@@ -7715,5 +7715,23 @@
     "timestamp": "2025-05-11T18:11:29",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-32879",
+      "CVE-2024-33663",
+      "CVE-2024-33664"
+    ],
+    "cve_counts": {
+      "CVE-2024-32879": 1,
+      "CVE-2024-33663": 1,
+      "CVE-2024-33664": 1
+    },
+    "title": "How adding GitHub auth to my application made it less secure",
+    "text": "I am working on a new app and thought that I should give Cursor a shot at adding GitHub based auth to my app because adding social auth to apps is kinda difficult and easy to get wrong.\n\nI asked cursor to go ahead and add it and here's what it did:\n\n1. Downgraded the version of `social-auth-app-django` in my app from 5.4.3 to 5.4.0\n2. Added the `python-jose` JWT library (for creating signed auth tokens), version 3.3.0\n3. Added the following two settings for the JWT library:\n   1. `JWT_SECRET_KEY = 'your-jwt-secret-key'`\n   2. `JWT_ALGORITHM = 'HS256'`\n4. Incorrectly wired up a new view that just hands out tokens for already authenticated users.\n\nYou may be thinking: \"that version bump seems pretty minor\" and \"version 3.3.0 of jose is close to 3.4.0 (latest version at the time)\"...\n\nBut what that gets you is:\n\n1. Downgrading the social auth python package results in [CVE-2024-32879](https://github.com/python-social-auth/social-app-django/security/advisories/GHSA-2gr8-3wc7-xhj3) (moderate sev) being present in my application (which was patched in 5.4.1).\n2. Adding `python-jose` version 3.3.0 contains the following 2 CVEs, the first of which is CRITICAL severity:\n   1. [CVE-2024-33663](https://github.com/advisories/GHSA-6c5p-j8vq-pqhj) (critical severity)\n   2. [CVE-2024-33664](https://github.com/advisories/GHSA-cjwg-qfpm-7377) (moderate severity)\n3. The defaulting of the JWT secret key to a valid placeholder string along with the file diff not showing the addition of this string.\n\n  \nThis means that when someone is lost in the vibes and just keeps clicking \"Accept\" every time a new change is suggested (which every vibe coder does), we now have an application with 4 separate, distinct vulnerabilities and a hacker's dream come true! Your vibes won't be able to protect you. Vibe coding IDEs must fix this and pay more attention to dependency versioning at the very least.\n\nAdditionally, these things can go unnoticed for YEARS now that the code that vibe-coding IDEs produce is less-than human readable and a jumbled pile of spaghetti. As time progresses, more and more of these vibe-coded systems will be grandfathered into production and humans will no longer be able to understand the vulnerabilities.\n\nTread with caution. Use Cursor as a crutch and not a replacement for your human brain. Do your due diligence and review the code that Cursor spits out.",
+    "permalink": "/r/VibecodeFail/comments/1kk9pbr/how_adding_github_auth_to_my_application_made_it/",
+    "timestamp": "2025-05-11T19:53:16",
+    "article_text": null,
+    "comments": []
   }
 ]
