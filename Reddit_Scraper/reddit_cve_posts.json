@@ -7701,5 +7701,19 @@
     "timestamp": "2025-05-11T11:56:57",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2022-22620"
+    ],
+    "cve_counts": {
+      "CVE-2022-22620": 1
+    },
+    "title": "[Scena PS4] PSFree su PS4: Al Azif porta l'exploit dal firmware 8.00 al firmware 9.60",
+    "text": "Best curtains shop in Dubai[Scena PS4] PSFree su PS4: Al Azif porta l'exploit dal firmware 8.00 al firmware 9.60https://www.biteyourconsole.net/wp-content/uploads/PS4WAR.webphttps://dubaicurtainshops.com/Lo sviluppo dell’exploit PSFree prosegue attivamente sui canali Discord, dove lo sviluppatore Al Azif ha recentemente annunciato il porting compatibile con tutti i firmware della PlayStation 4 compresi tra la versione 8.00 e la 9.60.\\\nLa notizia ha suscitato grande attenzione, soprattutto perché elimina la necessità di utilizzare un dispositivo USB formattato in exFAT, precedentemente indispensabile per attivare l’exploit pOOBs4.\\\nhttps://twitter.com/Kameleonre_/status/1921555823907516458\\\nPSFree è un exploit in modalità utente che sfrutta una vulnerabilità nel motore WebKit (CVE-2022-22620) per consentire l’esecuzione di codice non firmato all’interno del browser della console.\\\nIn origine era stato sviluppato per firmware PS4 dalla versione 6.00 alla 9.60, e per PS5 dalla 1.00 alla 5.50, offrendo così una base per eventuali accessi non ufficiali.\\\nTuttavia, è fondamentale chiarire che PSFree, da solo, non consente un jailbreak completo. L’exploit opera solo in modalità utente e non permette l’accesso ai privilegi di sistema necessari per installare homebrew o modificare profondamente il sistema.\\\nPer ottenere un jailbreak effettivo, è indispensabile un exploit di tipo kernel, che il developer Al Azif sta attualmente cercando di portare a termine.\\\nFonte: x.comDiscover the best curtains shop in Dubai, where style meets quality and customization. Offering a vast selection of luxurious fabrics, blackout options, and motorized systems, top curtain shops in Dubai provide tailored window treatments to match any interior. From elegant drapes to modern blinds, these stores prioritize premium craftsmanship, exceptional service, and professional installation, ensuring a perfect fit for every space. Whether you seek classic designs or contemporary aesthetics, Dubai’s curtain shops offer solutions that enhance privacy, block out light, and elevate your decor, making them the ideal choice for all your window covering needs.",
+    "permalink": "/r/BiteYourConsole/comments/1kk7d2s/scena_ps4_psfree_su_ps4_al_azif_porta_lexploit/",
+    "timestamp": "2025-05-11T18:11:29",
+    "article_text": null,
+    "comments": []
   }
 ]
