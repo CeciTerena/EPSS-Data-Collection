@@ -7861,5 +7861,33 @@
     "timestamp": "2025-05-12T18:22:57",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31250"
+    ],
+    "cve_counts": {
+      "CVE-2025-31250": 1
+    },
+    "title": "Can You Really Trust That Permission Pop-Up on macOS? (CVE-2025-31250)",
+    "text": "",
+    "permalink": "/r/hypeurls/comments/1kl2igg/can_you_really_trust_that_permission_popup_on/",
+    "timestamp": "2025-05-12T20:06:26",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31250"
+    ],
+    "cve_counts": {
+      "CVE-2025-31250": 1
+    },
+    "title": "Can You Really Trust That Permission Pop-Up On macOS? (CVE-2025-31250) | Watch This Space",
+    "text": "",
+    "permalink": "/r/MacOS/comments/1kl2h3q/can_you_really_trust_that_permission_popup_on/",
+    "timestamp": "2025-05-12T20:04:58",
+    "article_text": null,
+    "comments": []
   }
 ]

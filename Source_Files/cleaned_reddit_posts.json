@@ -6598,5 +6598,31 @@
     "timestamp": "2025-05-12T18:22:57",
     "clean_text": "⚠️ Vulnerability Disclosure - OPTIGO NETWORKS ONS NC600 Optigo Networks is recommending a handful of mitigations to address hard-coded credentials disclosed by #Team82 in Optigo's ONS NC600 network controller. The vulnerability (CVSS v3: 9.8) allows an attacker to establish an authenticated session to the controller and execute OS commands. Read more on Team82's Disclosure Dashboard: <URL>",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31250"
+    ],
+    "cve_counts": {
+      "CVE-2025-31250": 1
+    },
+    "title": "Can You Really Trust That Permission Pop-Up on macOS? (CVE-2025-31250)",
+    "permalink": "/r/hypeurls/comments/1kl2igg/can_you_really_trust_that_permission_popup_on/",
+    "timestamp": "2025-05-12T20:06:26",
+    "clean_text": "Can You Really Trust That Permission Pop-Up on macOS? (CVE-2025-31250)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31250"
+    ],
+    "cve_counts": {
+      "CVE-2025-31250": 1
+    },
+    "title": "Can You Really Trust That Permission Pop-Up On macOS? (CVE-2025-31250) | Watch This Space",
+    "permalink": "/r/MacOS/comments/1kl2h3q/can_you_really_trust_that_permission_popup_on/",
+    "timestamp": "2025-05-12T20:04:58",
+    "clean_text": "Can You Really Trust That Permission Pop-Up On macOS? (CVE-2025-31250) | Watch This Space",
+    "clean_comments": []
   }
 ]
