@@ -7799,5 +7799,39 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2017-7117"
+    ],
+    "cve_counts": {
+      "CVE-2017-7117": 4
+    },
+    "title": "I have created a proof of concept for WebKit CVE-2017-7117, but need help pushing it further!",
+    "text": "I am teaching myself some basics in exploit development, targeting old / obsolete versions of WebKit.\n\nCVE-2017-7117 is a type-confusion vulnerability that was patched in mid-2017. It was used, I believe, in some early Nintendo Switch exploits.\n\nI have created a proof-of-concept which allows reading the pointer of an object in memory. Currently it only works in vulnerable versions of JSC. I can only achieve a crash on iOS.\n\nBut there's a bit of a roadblock, I do not know how to push it further. I have been successful in changing the pointers in memory to point from one object to another, but I would like to be able to craft a fake object using this exploit.\n\nYou can see my work so far: [https://github.com/rebelle3/cve-2017-7117](https://github.com/rebelle3/cve-2017-7117)\n\n(LiveOverflow's series on WebKit / JIT is invaluable!)\n\nCan anyone provide any advice on where to proceed from here?",
+    "permalink": "/r/ExploitDev/comments/1kkqmra/i_have_created_a_proof_of_concept_for_webkit/",
+    "timestamp": "2025-05-12T11:56:22",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22247"
+    ],
+    "cve_counts": {
+      "CVE-2025-22247": 1
+    },
+    "title": "VMSA-2025-0007: VMware Tools update addresses an insecure file handling vulnerability (CVE-2025-22247)",
+    "text": ">**Description:**   \nVMware Tools contains an insecure file handling vulnerability. VMware has evaluated the severity of this issue to be in the [Moderate severity range](https://www.broadcom.com/support/vmware-services/security-response) with a maximum CVSSv3 base score of [6.1](https://www.first.org/cvss/calculator/3-1#CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N).\n\n>**Known Attack Vectors:**  \nA malicious actor with non-administrative privileges on a guest VM may tamper the local files to trigger insecure file operations within that VM.\n\nThis affects **all versions older than 12.5.2 on all OS (Windows, Linux, MacOS).**\n\nWhat does this \"trigger insecure file operations\" mean?\n\nThe [last VMSA for VMware Tools](https://www.reddit.com/r/vmware/comments/1jjkivb/vmsa20250005_vmware_tools_for_windows_update/) only covered Windows OSes.\n\nSource: [https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25683](https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25683)",
+    "permalink": "/r/vmware/comments/1kkqgps/vmsa20250007_vmware_tools_update_addresses_an/",
+    "timestamp": "2025-05-12T11:47:12",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "VMware Tools for Linux (linux.iso) has been discontinued in favor open-vm-tools and is no longer available beyond version 10.3.x.\n\nfor your windows servers update asap 😉",
+        "level": 0
+      }
+    ]
   }
 ]

@@ -6544,5 +6544,33 @@
     "clean_comments": [
       "Level 0: Could be it's picking up another copy of php installed, perhaps php cli or a version that came as packaged with other software installed. Or perhaps backup folders. See where on those machines you can find php manually"
     ]
+  },
+  {
+    "cves": [
+      "CVE-2017-7117"
+    ],
+    "cve_counts": {
+      "CVE-2017-7117": 4
+    },
+    "title": "I have created a proof of concept for WebKit CVE-2017-7117, but need help pushing it further!",
+    "permalink": "/r/ExploitDev/comments/1kkqmra/i_have_created_a_proof_of_concept_for_webkit/",
+    "timestamp": "2025-05-12T11:56:22",
+    "clean_text": "I have created a proof of concept for WebKit CVE-2017-7117, but need help pushing it further! I am teaching myself some basics in exploit development, targeting old / obsolete versions of WebKit. CVE-2017-7117 is a type-confusion vulnerability that was patched in mid-2017. It was used, I believe, in some early Nintendo Switch exploits. I have created a proof-of-concept which allows reading the pointer of an object in memory. Currently it only works in vulnerable versions of JSC. I can only achieve a crash on iOS. But there's a bit of a roadblock, I do not know how to push it further. I have been successful in changing the pointers in memory to point from one object to another, but I would like to be able to craft a fake object using this exploit. You can see my work so far: <URL> (LiveOverflow's series on WebKit / JIT is invaluable!) Can anyone provide any advice on where to proceed from here?",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22247"
+    ],
+    "cve_counts": {
+      "CVE-2025-22247": 1
+    },
+    "title": "VMSA-2025-0007: VMware Tools update addresses an insecure file handling vulnerability (CVE-2025-22247)",
+    "permalink": "/r/vmware/comments/1kkqgps/vmsa20250007_vmware_tools_update_addresses_an/",
+    "timestamp": "2025-05-12T11:47:12",
+    "clean_text": "VMSA-2025-0007: VMware Tools update addresses an insecure file handling vulnerability (CVE-2025-22247) Description: VMware Tools contains an insecure file handling vulnerability. VMware has evaluated the severity of this issue to be in the Moderate severity range with a maximum CVSSv3 base score of 6.1. >Known Attack Vectors: A malicious actor with non-administrative privileges on a guest VM may tamper the local files to trigger insecure file operations within that VM. This affects all versions older than 12.5.2 on all OS (Windows, Linux, MacOS). What does this \"trigger insecure file operations\" mean? The last VMSA for VMware Tools only covered Windows OSes. Source: <URL>",
+    "clean_comments": [
+      "Level 0: VMware Tools for Linux (linux.iso) has been discontinued in favor open-vm-tools and is no longer available beyond version 10.3.x. for your windows servers update asap"
+    ]
   }
 ]
