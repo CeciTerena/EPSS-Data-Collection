@@ -7779,5 +7779,25 @@
     "timestamp": "2025-05-12T09:50:38",
     "article_text": "A vulnerability, which was classified as problematic, has been found in Freeebird Hotel 酒店管理系统 API up to 1.2. Affected by this issue is some unknown functionality of the file /src/main/java/cn/mafangui/hotel/tool/SessionInterceptor.java. The manipulation leads to permissive cross-domain policy with untrusted domains. The attack may be launched remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2016-9138"
+    ],
+    "cve_counts": {
+      "CVE-2016-9138": 1
+    },
+    "title": "Wazuh Vulnerabilty Critical false positive",
+    "text": "I've searched on Google and this subreddit and can't find a solution.\n\nI have several servers monitored with Wazuh. The vulnerability section shows critical package vulnerabilities that don't match the installed version.\n\nFor example:\n\nI have PHP version 8.1.2-1ubuntu2.21, and it shows a critical vulnerability in PHP through 5.6.27 and 7.x through 7.0.12 mishandles p\\*\\*\\*\\* (CVE-2016-9138). That's almost 150 critical vulnerabilities, and thousands of high ones.\n\nhttps://preview.redd.it/2867z50hzb0f1.png?width=1158&format=png&auto=webp&s=7cab49f4b9d317e4f193049f71132ee99e41175f\n\nThis happens on Windows and Linux, but I'm most worried about Linux (Ubuntu 22LTS and 24LTS).\n\nI've already cleaned it up and reindexed it, but nothing.\n\nToday I updated it to version 4.12, and the problem continues. How can I avoid it?",
+    "permalink": "/r/Wazuh/comments/1kkpgdy/wazuh_vulnerabilty_critical_false_positive/",
+    "timestamp": "2025-05-12T10:48:52",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "Could be it's picking up another copy of php installed, perhaps php cli or a version that came as packaged with other software installed... Or perhaps backup folders... See where on those machines you can find php manually",
+        "level": 0
+      }
+    ]
   }
 ]
