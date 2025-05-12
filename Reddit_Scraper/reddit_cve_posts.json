@@ -7833,5 +7833,33 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29813"
+    ],
+    "cve_counts": {
+      "CVE-2025-29813": 1
+    },
+    "title": "Elevation of Privilege Vulnerability in Visual Studio (CVE-2025-29813)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1kl0r5g/elevation_of_privilege_vulnerability_in_visual/",
+    "timestamp": "2025-05-12T18:57:33",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4041"
+    ],
+    "cve_counts": {
+      "CVE-2025-4041": 2
+    },
+    "title": "⚠️ Vulnerability Disclosure - OPTIGO NETWORKS ONS NC600",
+    "text": "Optigo Networks is recommending a handful of mitigations to address hard-coded credentials disclosed by #Team82 in Optigo's ONS NC600 network controller. The vulnerability (CVSS v3: 9.8) allows an attacker to establish an authenticated session to the controller and execute OS commands. Read more on Team82's Disclosure Dashboard: [https://claroty.com/team82/disclosure-dashboard/cve-2025-4041](https://claroty.com/team82/disclosure-dashboard/cve-2025-4041)",
+    "permalink": "/r/askclaroty/comments/1kkzv9h/vulnerability_disclosure_optigo_networks_ons_nc600/",
+    "timestamp": "2025-05-12T18:22:57",
+    "article_text": null,
+    "comments": []
   }
 ]
