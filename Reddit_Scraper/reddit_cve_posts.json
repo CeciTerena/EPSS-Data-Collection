@@ -8147,5 +8147,33 @@
     "timestamp": "2025-05-13T20:02:41",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-37752"
+    ],
+    "cve_counts": {
+      "CVE-2025-37752": 1
+    },
+    "title": "[CVE-2025-37752] Two Bytes Of Madness: Pwning The Linux Kernel With A 0x0000 Written 262636 Bytes Out-Of-Bounds",
+    "text": "Great [article](https://syst3mfailure.io/two-bytes-of-madness/) by D3vil about exploiting a type confusion in the network scheduler subsystem and pwning all kernelCTF instances.  \n  \nAuthor exploited a severely-limited OOB side-effect of the bug to corrupt pipe\\_inode\\_info->tmp\\_page and gain a page UAF read/write primitive. Researcher then swapped the private\\_data and f\\_cred fields of a signalfd file structure and overwrote the credentials via signalfd\\_ctx.",
+    "permalink": "/r/linkersec/comments/1klwjwv/cve202537752_two_bytes_of_madness_pwning_the/",
+    "timestamp": "2025-05-13T20:31:06",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4560"
+    ],
+    "cve_counts": {
+      "CVE-2025-4560": 1
+    },
+    "title": "CVE Alert: CVE-2025-4560",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1klw1kf/cve_alert_cve20254560/",
+    "timestamp": "2025-05-13T20:10:55",
+    "article_text": "The ISOinsight from Netvision has a Missing Authentication vulnerability, allowing unauthenticated remote attackers to access certain system functions. These functions include viewing the administrator list, viewing and editing IP settings, and uploading files.",
+    "comments": []
   }
 ]
