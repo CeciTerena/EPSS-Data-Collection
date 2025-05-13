@@ -6750,5 +6750,76 @@
     "timestamp": "2025-05-13T15:37:08",
     "clean_text": "China-Linked APTs Exploit SAP CVE-2025-31324 to Breach 581 Critical Systems Worldwide",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32709",
+      "CVE-2025-30065",
+      "CVE-2025-31201",
+      "CVE-2025-30400",
+      "CVE-2025-21204",
+      "CVE-2025-27007",
+      "CVE-2025-32702",
+      "CVE-2025-31200",
+      "CVE-2025-32701",
+      "CVE-2025-30397",
+      "CVE-2025-32433",
+      "CVE-2025-32706",
+      "CVE-2025-32434",
+      "CVE-2025-26685",
+      "CVE-2024-54085"
+    ],
+    "cve_counts": {
+      "CVE-2025-32709": 1,
+      "CVE-2025-32706": 1,
+      "CVE-2025-32701": 1,
+      "CVE-2025-30400": 1,
+      "CVE-2025-30397": 1,
+      "CVE-2025-32702": 1,
+      "CVE-2025-26685": 1,
+      "CVE-2025-21204": 1,
+      "CVE-2025-27007": 1,
+      "CVE-2025-30065": 1,
+      "CVE-2025-31200": 1,
+      "CVE-2025-31201": 1,
+      "CVE-2024-54085": 1,
+      "CVE-2025-32434": 1,
+      "CVE-2025-32433": 2
+    },
+    "title": "🔥 Today’s Patch Tuesday Overview: 70 Vulnerabilities, 5 Zero-Days, 5 Critical & and two with PoCs",
+    "permalink": "/r/Action1/comments/1kls9e9/todays_patch_tuesday_overview_70_vulnerabilities/",
+    "timestamp": "2025-05-13T17:42:06",
+    "clean_text": "🔥 Today’s Patch Tuesday Overview: 70 Vulnerabilities, 5 Zero-Days, 5 Critical & and two with PoCs Microsoft has addressed 70 vulnerabilities, including five zero-days, five critical ones, and two vulnerabilities with proof-of-concept exploits. Third-Party Alerts: web browsers, WordPress, Apache Parquet, Apple, Linux, ASUS, Python, SSH, Cisco, Lantronix XPort, Windows Task Scheduler, Industrial Control Systems, and Fortinet. Navigate to Vulnerability Digest from Action1 for comprehensive summary updated in real-time: <URL> Quick Summary: Windows: 70 vulnerabilities, including five zero-days (CVE-2025-32709, CVE-2025-32706, CVE-2025-32701, CVE-2025-30400, CVE-2025-30397), five critical and two with PoCs (CVE-2025-32702, CVE-2025-26685) Microsoft: CVE-2025-21204 (link jumping in Windows Update Center), inetpub folder issue Google Chrome: 8 vulnerabilities fixed Android: 46 vulnerabilities patched Mozilla Firefox: 14 vulnerabilities in version 138 WordPress: OttoKit plugin CVE-2025-27007 (CVSS 9.8) Apache Parquet: CVE-2025-30065 Apple: Two zero-days (CVE-2025-31200, CVE-2025-31201) and AirPlay \"AirBorne\" vulnerabilities (23 vulnerabilities) Linux: io\\_uring interface vulnerability, Curing rootkit PoC released ASUS: CVE-2024-54085 (MegaRAC BMC zero-day affecting multiple server hardware models) Python: CVE-2025-32434 (Remote code execution in PyTorch) SSH (Erlang/OTP): CVE-2025-32433 (RCE with CVSS 10.0) Cisco: Multiple products affected by Erlang/OTP CVE-2025-32433 Lantronix XPort: Unauthorized access vulnerability affecting energy infrastructure Windows Task Scheduler: Privilege escalation and log scrubbing vulnerabilities in schtasks.exe ICS Systems: Siemens, Schneider, Rockwell, ABB advisories on file access, RCE, and data disclosure vulnerabilities Fortinet: 10 vulnerabilities Join Gene Moody and William Busler on May 14 at 11 AM EDT (5 PM CEST) for an expert-led briefing on this month’s most critical vulnerabilities and how to address them: <URL> ⁣ Stay ahead of evolving threats with real-time CVE tracking via our Patch Tuesday Watch: <URL> <URL>",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4428",
+      "CVE-2025-4427"
+    ],
+    "cve_counts": {
+      "CVE-2025-4427": 1,
+      "CVE-2025-4428": 1
+    },
+    "title": "Ivanti EPMM vulnerabilities exploited in the wild (CVE-2025-4427, CVE-2025-4428)",
+    "permalink": "/r/ivanti/comments/1klrz5o/ivanti_epmm_vulnerabilities_exploited_in_the_wild/",
+    "timestamp": "2025-05-13T17:31:06",
+    "clean_text": "Ivanti EPMM vulnerabilities exploited in the wild (CVE-2025-4427, CVE-2025-4428)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4428",
+      "CVE-2025-4427"
+    ],
+    "cve_counts": {
+      "CVE-2025-4427": 1,
+      "CVE-2025-4428": 1
+    },
+    "title": "Ivanti EPMM vulnerabilities exploited in the wild (CVE-2025-4427, CVE-2025-4428)",
+    "permalink": "/r/cybersecurity/comments/1klrwh7/ivanti_epmm_vulnerabilities_exploited_in_the_wild/",
+    "timestamp": "2025-05-13T17:28:07",
+    "clean_text": "Ivanti EPMM vulnerabilities exploited in the wild (CVE-2025-4427, CVE-2025-4428)",
+    "clean_comments": []
   }
 ]
