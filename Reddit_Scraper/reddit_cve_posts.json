@@ -7963,5 +7963,59 @@
     "timestamp": "2025-05-13T10:06:11",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27920"
+    ],
+    "cve_counts": {
+      "CVE-2025-27920": 2
+    },
+    "title": "Türkiye Hackers Target Kurdish Servers with Output Messenger Zero-Day Exploit",
+    "text": "\n**A Türkiye-affiliated hacking group exploited a zero-day vulnerability in Output Messenger as part of a cyber espionage campaign targeting Kurdish military entities.**\n\n**Key Points:**\n\n- The zero-day CVE-2025-27920 allows remote attackers to execute files on Output Messenger servers.\n- The Marbled Dust threat group has been active since at least 2017 and focuses on Middle Eastern and North African targets.\n- Successful exploitation enables data exfiltration through Golang backdoors hidden in legitimate applications.\n\nRecent cybersecurity developments reveal that a Türkiye-affiliated group known as Marbled Dust is exploiting a zero-day vulnerability (CVE-2025-27920) in the Output Messenger platform. This vulnerability grants remote attackers the ability to access files arbitrarily, allowing them to extract sensitive data from targets. The espionage campaign has primarily affected Kurdish military personnel operating in Iraq, showcasing a shift in targeting strategies within the ongoing geopolitical tensions in the region.\n\nThe hacking group has demonstrated a significant increase in technical capability by successfully utilizing a zero-day exploit, which reflects a maturation of their operational tactics. The attack process typically involves infiltrating the Output Messenger Server Manager with stolen credentials obtained via methods like DNS hijacking. Once inside, the attackers leverage the vulnerability to drop malicious payloads, which give them control over the affected servers through data exfiltration techniques. Such operations not only compromise individual target data but could potentially threaten wider networks and sensitive communications within the region.\n\nHow can organizations ensure their communication platforms are safeguarded against zero-day exploits like this?\n\n**Learn More:** [The Hacker News](https://thehackernews.com/2025/05/turkiye-hackers-exploited-output.html)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1klihoy/türkiye_hackers_target_kurdish_servers_with/",
+    "timestamp": "2025-05-13T10:27:56",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-47729"
+    ],
+    "cve_counts": {
+      "CVE-2025-47729": 1
+    },
+    "title": "CISA Alerts on Serious Vulnerability in TeleMessage App Used by Ex-National Security Advisor",
+    "text": "\n**A severe flaw has been identified in the TeleMessage application, raising significant data security concerns following its use by a former US national security official.**\n\n**Key Points:**\n\n- TeleMessage, used by former NSA Mike Waltz, has a critical information exposure flaw.\n- Hackers managed to access unencrypted chat logs, raising alarms about data security.\n- CISA has added this issue to its Known Exploited Vulnerabilities catalog.\n- Federal agencies must address identified vulnerabilities within three weeks, highlighting urgency.\n- Smarsh, the owner of TeleMessage, has temporarily suspended its services amid the investigation.\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) has warned of a significant vulnerability discovered in the TeleMessage application, a messaging tool recently utilized by former national security advisor Mike Waltz. This flaw allows unauthorized access to private messages and group chats that were intended to be secure, which raises the stakes for data security not only for individuals but also for government officials who may use the application. This incident underscores the broader implications of using messaging apps that claim to offer encryption but fail to deliver adequate protection against data breaches.\n\nAs part of their response, Smarsh, the parent company of TeleMessage, has suspended all services related to the app while conducting a thorough investigation into the security breach. Notably, this flaw has already been categorized under CVE-2025-47729, indicating that it has actively been exploited in the wild. Consequently, federal agencies are facing pressure to remediate reported vulnerabilities within a stringent timeframe of three weeks. For other organizations, monitoring the vulnerability database is crucial for proper risk management and ensuring that they prioritize patching their systems effectively. However, due to the server-side nature of this flaw, individual users of TeleMessage can do little aside from discontinuing its use until a permanent solution is implemented.\n\nHow can organizations better assess the security of the messaging applications they use?\n\n**Learn More:** [Security Week](https://www.securityweek.com/cisa-warns-of-flaw-in-telemessage-app-used-by-ex-national-security-advisor/)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1klihhb/cisa_alerts_on_serious_vulnerability_in/",
+    "timestamp": "2025-05-13T10:27:33",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-44830"
+    ],
+    "cve_counts": {
+      "CVE-2025-44830": 1
+    },
+    "title": "CVE Alert: CVE-2025-44830",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kli8cg/cve_alert_cve202544830/",
+    "timestamp": "2025-05-13T10:10:55",
+    "article_text": "EngineerCMS v1.02 through v.2.0.5 has a SQL injection vulnerability in the /project/addprojtemplet interface.",
+    "comments": []
   }
 ]
