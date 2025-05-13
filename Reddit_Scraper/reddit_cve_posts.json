@@ -7889,5 +7889,19 @@
     "timestamp": "2025-05-12T20:04:58",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47276"
+    ],
+    "cve_counts": {
+      "CVE-2025-47276": 1
+    },
+    "title": "Actualizer v1.2.0 Released (Security Patched)",
+    "text": "Hi all! It's me, Holloway again. My sincere apology for the frequest posting. There was security vulnerability discovered by u/apvs and I need to responsbily patch the product so that the community are safe.\n\nThis release covers the following features:\n\n1. Fixed CVE-2025-47276 (https://github.com/ChewKeanHo/Actualizer/security/advisories/GHSA-v626-chv9-v9qr) & Log (https://github.com/ChewKeanHo/Actualizer/issues/1)\n2. Product is now licensed as Zero BSD (total freedom for both commercial and non-commercial deployment).\n3. Re-implement manual bit-wiping prior to cryptsetup formatting. You will notice a long dd time against the `CORE` datastore partition for security integrity.\n4. Auto-install all its dependencies (no more manual efforts).\n\nAvailable now at: https://github.com/ChewKeanHo/Actualizer/releases/tag/v1.2.0\n\n\n\n\n## What's the CVE about?\n\nIn summary: OpenSSL's `passwd` was using `SHA512` (blatantly wrong algorithm) for password hashing. It slipped under my radar (and wasn't expect a vital network TLS tool can do such a blatant mistake). Thanks to `u/apvs` insight, the problem got fixed overnight.\n\nYes, I was disappointed as well because this simple project now have a CVE.\n\nFull story is at: https://github.com/ChewKeanHo/Actualizer/issues/1\n\n\n### What to do with existing builds?\n\nJust reset both the \"Alpha\" and \"root\" accounts to a new password. Debian OS will take over and process with the correct one. \n\nNo restart required.\n\n\n### What was Used Instead?\n\n`mkpasswd` from `whois`, with explicit method stated (https://github.com/ChewKeanHo/Actualizer/blob/main/Shell/debian-minbase-install.sh#L834).\n\n----\n\nOnce again. My apology for the frequent posting. I just want the community be safe; at least under my flag.\n\nCheers and have a happy day!",
+    "permalink": "/r/debian/comments/1klacd1/actualizer_v120_released_security_patched/",
+    "timestamp": "2025-05-13T01:56:30",
+    "article_text": null,
+    "comments": []
   }
 ]
