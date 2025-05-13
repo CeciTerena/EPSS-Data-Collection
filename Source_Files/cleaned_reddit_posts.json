@@ -6821,5 +6821,31 @@
     "timestamp": "2025-05-13T17:28:07",
     "clean_text": "Ivanti EPMM vulnerabilities exploited in the wild (CVE-2025-4427, CVE-2025-4428)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32756"
+    ],
+    "cve_counts": {
+      "CVE-2025-32756": 1
+    },
+    "title": "Zero-day exploited to compromise Fortinet FortiVoice systems (CVE-2025-32756)",
+    "permalink": "/r/fortinet/comments/1kltt7t/zeroday_exploited_to_compromise_fortinet/",
+    "timestamp": "2025-05-13T18:41:57",
+    "clean_text": "Zero-day exploited to compromise Fortinet FortiVoice systems (CVE-2025-32756)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "China-Nexus Nation State Actors Exploit SAP NetWeaver (CVE-2025-31324) to Target Critical Infrastructures",
+    "permalink": "/r/worldTechnology/comments/1kltdjh/chinanexus_nation_state_actors_exploit_sap/",
+    "timestamp": "2025-05-13T18:25:21",
+    "clean_text": "China-Nexus Nation State Actors Exploit SAP NetWeaver (CVE-2025-31324) to Target Critical Infrastructures",
+    "clean_comments": []
   }
 ]

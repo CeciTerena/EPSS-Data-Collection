@@ -8105,5 +8105,33 @@
     "timestamp": "2025-05-13T17:28:07",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32756"
+    ],
+    "cve_counts": {
+      "CVE-2025-32756": 1
+    },
+    "title": "Zero-day exploited to compromise Fortinet FortiVoice systems (CVE-2025-32756)",
+    "text": "",
+    "permalink": "/r/fortinet/comments/1kltt7t/zeroday_exploited_to_compromise_fortinet/",
+    "timestamp": "2025-05-13T18:41:57",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "China-Nexus Nation State Actors Exploit SAP NetWeaver (CVE-2025-31324) to Target Critical Infrastructures",
+    "text": "",
+    "permalink": "/r/worldTechnology/comments/1kltdjh/chinanexus_nation_state_actors_exploit_sap/",
+    "timestamp": "2025-05-13T18:25:21",
+    "article_text": null,
+    "comments": []
   }
 ]
