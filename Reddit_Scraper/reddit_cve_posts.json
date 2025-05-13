@@ -7903,5 +7903,19 @@
     "timestamp": "2025-05-13T01:56:30",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22247"
+    ],
+    "cve_counts": {
+      "CVE-2025-22247": 1
+    },
+    "title": "VMSA-2025-0007: VMware Tools update addresses an insecure file handling vulnerability (CVE-2025-22247) - \"A malicious actor with non-administrative privileges on a guest VM may tamper the local files to trigger insecure file operations within that VM\"",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1klf3jn/vmsa20250007_vmware_tools_update_addresses_an/",
+    "timestamp": "2025-05-13T06:29:41",
+    "article_text": null,
+    "comments": []
   }
 ]

@@ -6637,5 +6637,18 @@
     "timestamp": "2025-05-13T01:56:30",
     "clean_text": "Actualizer v1.2.0 Released (Security Patched) Hi all! It's me, Holloway again. My sincere apology for the frequest posting. There was security vulnerability discovered by u/apvs and I need to responsbily patch the product so that the community are safe. This release covers the following features: 1. Fixed CVE-2025-47276 ( <URL> & Log ( <URL> 2. Product is now licensed as Zero BSD (total freedom for both commercial and non-commercial deployment). 3. Re-implement manual bit-wiping prior to cryptsetup formatting. You will notice a long dd time against the CORE datastore partition for security integrity. 4. Auto-install all its dependencies (no more manual efforts). Available now at: <URL> What's the CVE about? In summary: OpenSSL's passwd was using SHA512 (blatantly wrong algorithm) for password hashing. It slipped under my radar (and wasn't expect a vital network TLS tool can do such a blatant mistake). Thanks to u/apvs insight, the problem got fixed overnight. Yes, I was disappointed as well because this simple project now have a CVE. Full story is at: <URL> What to do with existing builds? Just reset both the \"Alpha\" and \"root\" accounts to a new password. Debian OS will take over and process with the correct one. No restart required. What was Used Instead? mkpasswd from whois, with explicit method stated ( <URL> - Once again. My apology for the frequent posting. I just want the community be safe; at least under my flag. Cheers and have a happy day!",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22247"
+    ],
+    "cve_counts": {
+      "CVE-2025-22247": 1
+    },
+    "title": "VMSA-2025-0007: VMware Tools update addresses an insecure file handling vulnerability (CVE-2025-22247) - \"A malicious actor with non-administrative privileges on a guest VM may tamper the local files to trigger insecure file operations within that VM\"",
+    "permalink": "/r/blueteamsec/comments/1klf3jn/vmsa20250007_vmware_tools_update_addresses_an/",
+    "timestamp": "2025-05-13T06:29:41",
+    "clean_text": "VMSA-2025-0007: VMware Tools update addresses an insecure file handling vulnerability (CVE-2025-22247) - \"A malicious actor with non-administrative privileges on a guest VM may tamper the local files to trigger insecure file operations within that VM\"",
+    "clean_comments": []
   }
 ]
