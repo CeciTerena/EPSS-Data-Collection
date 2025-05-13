@@ -7917,5 +7917,19 @@
     "timestamp": "2025-05-13T06:29:41",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2082"
+    ],
+    "cve_counts": {
+      "CVE-2025-2082": 1
+    },
+    "title": "CVE-2025-2082: 0-click RCE on Tesla Model 3 through TPMS Sensors",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1klh3p7/cve20252082_0click_rce_on_tesla_model_3_through/",
+    "timestamp": "2025-05-13T08:52:02",
+    "article_text": null,
+    "comments": []
   }
 ]
