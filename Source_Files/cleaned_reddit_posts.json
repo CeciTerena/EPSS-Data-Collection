@@ -6737,5 +6737,18 @@
     "timestamp": "2025-05-13T10:10:55",
     "clean_text": "CVE Alert: CVE-2025-44830 EngineerCMS v1.02 through v.2.0.5 has a SQL injection vulnerability in the /project/addprojtemplet interface.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "China-Linked APTs Exploit SAP CVE-2025-31324 to Breach 581 Critical Systems Worldwide",
+    "permalink": "/r/u_TheCyberSecurityHub/comments/1klp2oc/chinalinked_apts_exploit_sap_cve202531324_to/",
+    "timestamp": "2025-05-13T15:37:08",
+    "clean_text": "China-Linked APTs Exploit SAP CVE-2025-31324 to Breach 581 Critical Systems Worldwide",
+    "clean_comments": []
   }
 ]
