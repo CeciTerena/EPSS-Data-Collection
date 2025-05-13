@@ -6847,5 +6847,18 @@
     "timestamp": "2025-05-13T18:25:21",
     "clean_text": "China-Nexus Nation State Actors Exploit SAP NetWeaver (CVE-2025-31324) to Target Critical Infrastructures",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-43859"
+    ],
+    "cve_counts": {
+      "CVE-2025-43859": 2
+    },
+    "title": "Critical CVE-2025-43859 in python3-h11 on Proxmox - Safe to remove or wait for patch?",
+    "permalink": "/r/Proxmox/comments/1klvty0/critical_cve202543859_in_python3h11_on_proxmox/",
+    "timestamp": "2025-05-13T20:02:41",
+    "clean_text": "Critical CVE-2025-43859 in python3-h11 on Proxmox - Safe to remove or wait for patch? Hello Proxmox community, I just received a Wazuh security alert for a critical vulnerability (CVE-2025-43859) in python3-h11 version 0.14.0-1, which is installed on my Proxmox server. The vulnerability apparently allows unauthenticated remote attackers to execute arbitrary code via HTTP request splitting with CRLF injection. My System Details: * Proxmox VE: 8.4.0 (running kernel: 6.8.12-10-pve) * pve-manager: 8.4.1 * Debian: 12.10 * AMD EPYC 7302P 16-Core Processor with 64GB RAM * Running 4 VMs and 26 containers After some investigation, I found: * There's no updated version available in Debian repositories or backports yet * The CVE has a 2025 date which is odd (possibly a typo?) * python3-h11 is only used by python3-httpcore and python3-httpx on my system * I couldn't find any evidence of httpx/httpcore being used by my system services or cron jobs * h11 version 0.14.0 is confirmed to be installed and loadable My questions for the community: 1. Is anyone else seeing this alert? 2. Has anyone confirmed if this vulnerability actually affects Proxmox functionality? 3. Is it safe to simply remove python3-h11 (and its dependent packages) from a Proxmox host? 4. Does the Proxmox web interface or any core Proxmox functionality actually use these Python HTTP libraries? I've run apt --simulate remove python3-h11 and it would only remove: * python3-h11 * python3-httpcore * python3-httpx I'm trying to decide between: * Removing the vulnerable package (simplest but could break something) * Waiting for an official Debian/Proxmox patch (safest but leaves vulnerability) * Manually updating with pip (risky on system Python) Any insights from others who have dealt with this would be greatly appreciated! Technical details for those interested: The vulnerability allows HTTP request splitting attacks when h11 is used with certain HTTP proxies. It's rated as Critical (CVSS 9.8) but requires a specific combination of h11 and a vulnerable proxy with certain parsing bugs. Thanks in advance for any help or insights!",
+    "clean_comments": []
   }
 ]
