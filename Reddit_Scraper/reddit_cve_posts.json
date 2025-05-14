@@ -8203,5 +8203,21 @@
     "timestamp": "2025-05-14T05:16:11",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4427",
+      "CVE-2025-4428"
+    ],
+    "cve_counts": {
+      "CVE-2025-4427": 1,
+      "CVE-2025-4428": 1
+    },
+    "title": "Security Advisory Ivanti Endpoint Manager Mobile (EPMM) May 2025 (CVE-2025-4427 and CVE-2025-4428)",
+    "text": "",
+    "permalink": "/r/worldTechnology/comments/1km950n/security_advisory_ivanti_endpoint_manager_mobile/",
+    "timestamp": "2025-05-14T07:19:57",
+    "article_text": null,
+    "comments": []
   }
 ]
