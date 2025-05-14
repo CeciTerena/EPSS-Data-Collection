@@ -8251,5 +8251,19 @@
     "timestamp": "2025-05-14T10:01:05",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-41992"
+    ],
+    "cve_counts": {
+      "CVE-2023-41992": 1
+    },
+    "title": "At long last, PoC CVE-2023-41992",
+    "text": "",
+    "permalink": "/r/jailbreak/comments/1kmbkq3/at_long_last_poc_cve202341992/",
+    "timestamp": "2025-05-14T10:16:02",
+    "article_text": null,
+    "comments": []
   }
 ]
