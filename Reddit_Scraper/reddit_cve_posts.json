@@ -8265,5 +8265,19 @@
     "timestamp": "2025-05-14T10:16:02",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47916"
+    ],
+    "cve_counts": {
+      "CVE-2025-47916": 1
+    },
+    "title": "[CVE-2025-47916] Invision Community <= 5.0.6 (customCss) Remote Code Execution",
+    "text": "",
+    "permalink": "/r/netsec/comments/1kme1li/cve202547916_invision_community_506_customcss/",
+    "timestamp": "2025-05-14T12:35:32",
+    "article_text": null,
+    "comments": []
   }
 ]

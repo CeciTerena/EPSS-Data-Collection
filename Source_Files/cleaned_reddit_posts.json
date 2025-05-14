@@ -6971,5 +6971,18 @@
     "timestamp": "2025-05-14T10:16:02",
     "clean_text": "At long last, PoC CVE-2023-41992",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47916"
+    ],
+    "cve_counts": {
+      "CVE-2025-47916": 1
+    },
+    "title": "[CVE-2025-47916] Invision Community <= 5.0.6 (customCss) Remote Code Execution",
+    "permalink": "/r/netsec/comments/1kme1li/cve202547916_invision_community_506_customcss/",
+    "timestamp": "2025-05-14T12:35:32",
+    "clean_text": "[CVE-2025-47916] Invision Community <= 5.0.6 (customCss) Remote Code Execution",
+    "clean_comments": []
   }
 ]
