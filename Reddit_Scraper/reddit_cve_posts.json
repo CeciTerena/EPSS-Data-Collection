@@ -8175,5 +8175,19 @@
     "timestamp": "2025-05-13T20:10:55",
     "article_text": "The ISOinsight from Netvision has a Missing Authentication vulnerability, allowing unauthenticated remote attackers to access certain system functions. These functions include viewing the administrator list, viewing and editing IP settings, and uploading files.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4552"
+    ],
+    "cve_counts": {
+      "CVE-2025-4552": 1
+    },
+    "title": "CVE Alert: CVE-2025-4552",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1km1m91/cve_alert_cve20254552/",
+    "timestamp": "2025-05-14T00:10:57",
+    "article_text": "A vulnerability has been found in ContiNew Admin up to 3.6.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /dev-api/system/user/1/password. The manipulation leads to unverified password change. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+    "comments": []
   }
 ]
