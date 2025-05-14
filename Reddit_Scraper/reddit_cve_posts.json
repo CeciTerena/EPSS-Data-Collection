@@ -8279,5 +8279,49 @@
     "timestamp": "2025-05-14T12:35:32",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4317",
+      "CVE-2025-4339"
+    ],
+    "cve_counts": {
+      "CVE-2025-4317": 1,
+      "CVE-2025-4339": 1
+    },
+    "title": "Over 82,000 WordPress Sites Vulnerable to Major Attacks",
+    "text": "\n**Critical vulnerabilities discovered in TheGem WordPress theme expose sites to remote code execution risks.**\n\n**Key Points:**\n\n- Two critical vulnerabilities identified in TheGem theme versions 5.10.3 and earlier.\n- Attackers can upload malicious files due to improper file validation.\n- The vulnerabilities can lead to complete site compromise if exploited.\n- A patch was released by CodexThemes to fix the identified issues.\n- Site administrators urged to act immediately to secure their websites.\n\nResearch has revealed two interconnected vulnerabilities affecting TheGem, a widely used premium WordPress theme. The first, a critical file upload vulnerability (CVE-2025-4317), arises from a failure to properly validate file types, allowing authenticated users with minimal permissions to upload potentially harmful files. The second vulnerability (CVE-2025-4339) concerns insufficient authorization checks, enabling users to modify theme settings, including the logo URL, potentially redirecting it to malicious content. This creates a scenario where an attacker can exploit one vulnerability to initiate a chain reaction that ultimately leads to remote code execution and site control.\n\nThe implications of these vulnerabilities are significant, particularly given the popularity of WordPress, powering approximately 43% of all websites. Cybercriminals can capitalize on these weaknesses to deploy attacks at scale. The security community has taken notice, and Wordfence has warned users about the risks, emphasizing the need for immediate action. Patch version 5.10.3.1 has been released to address these vulnerabilities, and users are strongly encouraged to update their sites promptly to mitigate potential threats. Additionally, adopting security measures such as web application firewalls and actively monitoring user permissions can further enhance site security in light of these vulnerabilities.\n\nWhat steps are you taking to ensure the security of your WordPress sites?\n\n**Learn More:** [Cyber Security News](https://cybersecuritynews.com/wordpress-remote-code-execution-attacks/)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1kmgj0y/over_82000_wordpress_sites_vulnerable_to_major/",
+    "timestamp": "2025-05-14T14:26:07",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-26677",
+      "CVE-2025-29831"
+    ],
+    "cve_counts": {
+      "CVE-2025-26677": 1,
+      "CVE-2025-29831": 1
+    },
+    "title": "Critical Windows Remote Desktop Gateway Vulnerability Exposes Enterprises to DoS Attacks",
+    "text": "\n**Microsoft has released urgent patches for a critical vulnerability in Windows Remote Desktop Gateway that exposes organizations to denial of service threats.**\n\n**Key Points:**\n\n- Uncontrolled resource consumption allows unauthenticated attackers to disrupt services.\n- Affected versions include Windows Server 2016, 2019, 2022, and 2025.\n- Security updates have been issued, yet immediate action is required.\n- Another related vulnerability allows remote code execution but involves user interaction.\n- Organizations could face significant disruptions if targeted by these vulnerabilities.\n\nThe recent security alerts from Microsoft regarding the Windows Remote Desktop Gateway (RD Gateway) highlight a critical vulnerability tracked as CVE-2025-26677. This vulnerability allows unauthorized attackers to exploit uncontrolled resource consumption, leading to denial of service (DoS) conditions without any user interaction. With organizations increasingly relying on remote desktop services for their operations, the implications of this flaw could lead to substantial interruptions in accessing critical resources, impacting productivity and service delivery. Microsoft has assigned a high severity rating to this vulnerability, reflecting its potential for significant impacts on service availability.\n\nIn addition to the DoS vulnerability, there is another related issue tracked as CVE-2025-29831, which enables remote code execution through a 'Use After Free' weakness. While this second vulnerability is less straightforward, requiring administrative user interaction to exploit, it underscores the pressing need for organizations to apply the security updates released by Microsoft. With multiple versions of Windows Server affected, including the latest Server 2025, it is crucial for system administrators to prioritize these patches to mitigate risks associated with these vulnerabilities.\n\nHow can organizations enhance their remote desktop security to prevent potential attacks?\n\n**Learn More:** [Cyber Security News](https://cybersecuritynews.com/windows-remote-desktop-gateway-vulnerability/)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1kmgiq2/critical_windows_remote_desktop_gateway/",
+    "timestamp": "2025-05-14T14:25:46",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
   }
 ]
