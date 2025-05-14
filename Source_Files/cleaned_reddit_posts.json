@@ -7018,5 +7018,18 @@
     "clean_comments": [
       "Level 0: Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem. Stay updated on zero-days, exploits, hacker tools, and the latest cybersecurity drama. Whether you’re red team, blue team, or just here for the chaos—dive in and stay ahead. Stay sharp. Stay secure. Subscribe and join us for daily posts! I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-4632"
+    ],
+    "cve_counts": {
+      "CVE-2025-4632": 1
+    },
+    "title": "Samsung Patches CVE-2025-4632 Used to Deploy Mirai Botnet via MagicINFO 9 Exploit",
+    "permalink": "/r/u_TheCyberSecurityHub/comments/1kmm33c/samsung_patches_cve20254632_used_to_deploy_mirai/",
+    "timestamp": "2025-05-14T18:06:34",
+    "clean_text": "Samsung Patches CVE-2025-4632 Used to Deploy Mirai Botnet via MagicINFO 9 Exploit",
+    "clean_comments": []
   }
 ]

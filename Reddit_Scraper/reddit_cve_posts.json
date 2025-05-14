@@ -8323,5 +8323,19 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-4632"
+    ],
+    "cve_counts": {
+      "CVE-2025-4632": 1
+    },
+    "title": "Samsung Patches CVE-2025-4632 Used to Deploy Mirai Botnet via MagicINFO 9 Exploit",
+    "text": "",
+    "permalink": "/r/u_TheCyberSecurityHub/comments/1kmm33c/samsung_patches_cve20254632_used_to_deploy_mirai/",
+    "timestamp": "2025-05-14T18:06:34",
+    "article_text": null,
+    "comments": []
   }
 ]
