@@ -7031,5 +7031,18 @@
     "timestamp": "2025-05-14T18:06:34",
     "clean_text": "Samsung Patches CVE-2025-4632 Used to Deploy Mirai Botnet via MagicINFO 9 Exploit",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-43859"
+    ],
+    "cve_counts": {
+      "CVE-2025-43859": 1
+    },
+    "title": "CVE-2025-43859: Critical Vulnerability in h11 Python HTTP/1.1 Implementation",
+    "permalink": "/r/ameeba/comments/1kmq99c/cve202543859_critical_vulnerability_in_h11_python/",
+    "timestamp": "2025-05-14T20:54:41",
+    "clean_text": "CVE-2025-43859: Critical Vulnerability in h11 Python HTTP/1.1 Implementation",
+    "clean_comments": []
   }
 ]
