@@ -6899,5 +6899,18 @@
     "timestamp": "2025-05-14T00:10:57",
     "clean_text": "CVE Alert: CVE-2025-4552 A vulnerability has been found in ContiNew Admin up to 3.6.0 and classified as problematic. Affected by this vulnerability is an unknown functionality of the file /dev-api/system/user/1/password. The manipulation leads to unverified password change. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32756"
+    ],
+    "cve_counts": {
+      "CVE-2025-32756": 1
+    },
+    "title": "Fortinet Patches CVE-2025-32756 Zero-Day RCE Flaw Exploited in FortiVoice Systems",
+    "permalink": "/r/u_TheCyberSecurityHub/comments/1km7af2/fortinet_patches_cve202532756_zeroday_rce_flaw/",
+    "timestamp": "2025-05-14T05:16:11",
+    "clean_text": "Fortinet Patches CVE-2025-32756 Zero-Day RCE Flaw Exploited in FortiVoice Systems",
+    "clean_comments": []
   }
 ]
