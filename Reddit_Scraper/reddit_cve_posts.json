@@ -8634,5 +8634,25 @@
     "timestamp": "2025-05-15T14:53:24",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-21833"
+    ],
+    "cve_counts": {
+      "CVE-2024-21833": 1
+    },
+    "title": "TP Link Vulnerability",
+    "text": "Comprehensive Analysis of CVE-2024-21833 Vulnerability in TP-Link Routers : Threat Landscape, Exploitation Risks, and Mitigation Strategies",
+    "permalink": "/r/nbn/comments/1knb8ox/tp_link_vulnerability/",
+    "timestamp": "2025-05-15T15:35:04",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "Anyone interested…\n\n[CYFIRMA’s Research team has conducted a thorough analysis of a critical security vulnerability, identified as CVE-2024-21833, affecting TP-Link Routers (Archer & Deco). Discovered on January 10, 2024, by JPCERT/CC, this vulnerability carries a significant CVSS score of 8.8, indicating it’s severity. The flaw exposes TP-Link Routers (Archer & Deco) to OS command injection, demanding urgent attention due to the potential risks associated with it.](https://www.cyfirma.com/research/comprehensive-analysis-of-cve-2024-21833-vulnerability-in-tp-link-routers-threat-landscape-exploitation-risks-and-mitigation-strategies/#:~:text=TP%2DLINK%20products%2C%20including%20the,through%20a%20basic%20POST%20request)",
+        "level": 0
+      }
+    ]
   }
 ]

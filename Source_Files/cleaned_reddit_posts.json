@@ -7294,5 +7294,20 @@
     "timestamp": "2025-05-15T14:53:24",
     "clean_text": "China-Nexus Nation State Actors Exploit SAP NetWeaver (CVE-2025-31324) to Target Critical Infrastructures",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-21833"
+    ],
+    "cve_counts": {
+      "CVE-2024-21833": 1
+    },
+    "title": "TP Link Vulnerability",
+    "permalink": "/r/nbn/comments/1knb8ox/tp_link_vulnerability/",
+    "timestamp": "2025-05-15T15:35:04",
+    "clean_text": "TP Link Vulnerability Comprehensive Analysis of CVE-2024-21833 Vulnerability in TP-Link Routers : Threat Landscape, Exploitation Risks, and Mitigation Strategies",
+    "clean_comments": [
+      "Level 0: Anyone interested… CYFIRMA’s Research team has conducted a thorough analysis of a critical security vulnerability, identified as CVE-2024-21833, affecting TP-Link Routers (Archer & Deco). Discovered on January 10, 2024, by JPCERT/CC, this vulnerability carries a significant CVSS score of 8.8, indicating it’s severity. The flaw exposes TP-Link Routers (Archer & Deco) to OS command injection, demanding urgent attention due to the potential risks associated with it."
+    ]
   }
 ]
