@@ -8746,5 +8746,33 @@
     "timestamp": "2025-05-15T20:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4448"
+    ],
+    "cve_counts": {
+      "CVE-2025-4448": 1
+    },
+    "title": "CVE-2025-4448: Critical Buffer Overflow Vulnerability in D-Link DIR-619L",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1knlzfm/cve20254448_critical_buffer_overflow/",
+    "timestamp": "2025-05-15T23:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-41773"
+    ],
+    "cve_counts": {
+      "CVE-2021-41773": 1
+    },
+    "title": "02- Feedback de Common Vulnerabilitiers and Exposures (CVE)",
+    "text": "Hola, como andan?  Soy yo de vuelta, Y0d4h, en el dia de hoy voy a hablar sobre Common Vulnerabilitiers and Exposures (CVE), el resumen lo queria hacer para la semana pasada pero por temas de tiempo no pude hacerlo.\n\nEmpecemos!!!\n\nPara hablar del CVE, primero hay que hablar del Open Vulnerability Assesmente Language(OVAL) y que es exactamente OVAL? Bueno es un estandar internacional de seguridad de la información disponible públicamente diseñado para evaluar el estado del sistema. Este tiene tres objetivos:\n\n\\- Identificar las configuraciones de un sistema que deben analizarse.\n\n\\- Evaluar el estado actual del sistema\n\n\\- Generar informes con la información obtenida.\n\nAdemas OVAL posee cuatro clases principales de definiciones: Identifica las vulnerabilidades del sistema,verifica el cumplimiento de configuraciones con ciertos requisitos, detecta softwares específicos instalados en el sistema y por ultimo identifica si tiene un parche adecuado.\n\nOtro tip a tener en cuenta es la sintaxis de OVAL: \n\n\"oval:Organization Domain Name:ID Type:ID Value\".\n\n\n\nBueno ahora que paso el breve resumen, que es Common Vulnerabilitiers and Exposures(CVE)? Este es un catalogo de asuntos de seguridad disponibles públicamente. Se maneja por un numero único(Como el DNI) que es asignado por la Autoridad de Numeración CVE (CNA). Consiste en información crítica sobre una vulnerabilidad o exposición, incluyendo una descripción y referencias sobre el tema. Esto permite al equipo de TI de una organización entender el impacto potencial que podría tener una vulnerabilidad sobre su infraestructura.\n\nPara poder crear un CVE, este pasa por nueve etapas:\n\n\\- La primera identifica si el problema encontrado es una vulnerabilidad y, en el caso de existir, si esa vulnerabilidad no esta registrada antes\n\n\\- La segunda etapa consiste en asegurarse de que se tomaron las medidas necesarias\n\n\\- La tercera etapa, determina quién es el responsable (una empresa o un tercero).\n\n\\- La cuarta etapa, es la solicitud y el completado del formulario para el CVE.\n\n\\- La quinta es la confirmación del formulario\n\n\\- La sexta etapa se le asigna un ID.\n\n\\- La séptima se hace un anunciado a las partes implicadas para evitar danos antes de su divulgación publica.\n\n\\- La octava etapa es el anuncio del nuevo CVE \n\n\\- La novena, y ultima etapa, el equipo de CVE pide que el investigador ayude a proporcionar información adicional para ser utilizada en el listado oficial de CVE en la página web.\n\n\n\nAhora bien, cual es la relación entre OVAL y CVE? Simple, OVAL usa los identificadores CVE como referencia para crear definiciones que permiten escanear y verificar si una vulnerabilidad afecta o no a un sistema. CVE describe el fallo y como explotarlo, luego la comunidad publica una definición OVAl. Ejemplo: un CVE que afecta a Apache 2.4.49.\n\n\"Si el sistema tiene instalada la versión 2.4.49 de Apache, entonces está afectado por el CVE-2021-41773\".\n\n\n\nEspero que les guste el pequeño resumen que hice, la próxima vez voy a traerle información sobre la herramienta con la que estuve trabajando después de este estudio: Nessus\n\nQue la fuerza los acompañe!!\n\n ",
+    "permalink": "/r/ciberseguridad/comments/1knlmx7/02_feedback_de_common_vulnerabilitiers_and/",
+    "timestamp": "2025-05-15T22:43:42",
+    "article_text": null,
+    "comments": []
   }
 ]
