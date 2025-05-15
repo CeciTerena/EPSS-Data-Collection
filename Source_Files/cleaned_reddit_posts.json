@@ -7096,5 +7096,44 @@
     "timestamp": "2025-05-15T06:38:10",
     "clean_text": "CVE-2024-12378: Unencrypted Data Transmission Vulnerability in Arista EOS",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-45846"
+    ],
+    "cve_counts": {
+      "CVE-2025-45846": 1
+    },
+    "title": "CVE-2025-45846: Authenticated Stack Overflow Vulnerability in ALFA AIP-W512 v3.2.2.2.3",
+    "permalink": "/r/ameeba/comments/1kn2pyv/cve202545846_authenticated_stack_overflow/",
+    "timestamp": "2025-05-15T08:00:04",
+    "clean_text": "CVE-2025-45846: Authenticated Stack Overflow Vulnerability in ALFA AIP-W512 v3.2.2.2.3",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-58136"
+    ],
+    "cve_counts": {
+      "CVE-2024-58136": 1
+    },
+    "title": "CVE-2024-58136: Critical Vulnerability in Yii 2 Framework Leading to Potential System Compromise",
+    "permalink": "/r/ameeba/comments/1kn2e0j/cve202458136_critical_vulnerability_in_yii_2/",
+    "timestamp": "2025-05-15T07:35:59",
+    "clean_text": "CVE-2024-58136: Critical Vulnerability in Yii 2 Framework Leading to Potential System Compromise",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3439"
+    ],
+    "cve_counts": {
+      "CVE-2025-3439": 1
+    },
+    "title": "CVE-2025-3439: PHP Object Injection Vulnerability in Everest Forms WordPress Plugin",
+    "permalink": "/r/ameeba/comments/1kn2d8p/cve20253439_php_object_injection_vulnerability_in/",
+    "timestamp": "2025-05-15T07:34:26",
+    "clean_text": "CVE-2025-3439: PHP Object Injection Vulnerability in Everest Forms WordPress Plugin",
+    "clean_comments": []
   }
 ]
