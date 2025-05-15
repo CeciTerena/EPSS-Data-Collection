@@ -8564,5 +8564,75 @@
     "timestamp": "2025-05-15T14:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4664"
+    ],
+    "cve_counts": {
+      "CVE-2025-4664": 3
+    },
+    "title": "Google Chrome Urges Users to Update: Critical 0-Day Vulnerability Under Attack",
+    "text": "\n**Google has issued an urgent security update for Chrome to address an active zero-day vulnerability being exploited by hackers.**\n\n**Key Points:**\n\n- CVE-2025-4664 allows attackers to bypass security policies in Chrome.\n- Google confirmed that the exploit is currently active in the wild.\n- The latest Chrome versions to install are 136.0.7103.113/.114 for Windows/Mac.\n- External researchers identified the flaws, demonstrating a collaborative security effort.\n- Chrome's dominant market share makes it a prime target for cyber threats.\n\nGoogle has rolled out a crucial security update to Chrome, addressing a high-severity zero-day vulnerability identified as CVE-2025-4664. This flaw exists due to insufficient policy enforcement in Chrome’s Loader, allowing hackers to conduct unauthorized code executions and leak sensitive information. As confirmed by Google, this vulnerability is actively exploited, amplifying the necessity for users to update their browsers without delay to protect against potential attacks.\n\nIn addition to CVE-2025-4664, the update also resolves another significant issue related to incorrect handling in Chrome's Mojo IPC layer, which can lead to severe vulnerabilities such as privilege escalation and memory corruption. This situation highlights the effectiveness of external researchers in identifying security flaws, a testament to Google's commitment to safety via its bug bounty program, encouraging discoveries that enhance user protection. Users are urged to verify their current versions of Chrome and implement the updates through the settings menu, emphasizing proactive measures in cybersecurity given the evolving landscape of threats.\n\nWhat additional steps should users take to secure their browsing experience against such vulnerabilities?\n\n**Learn More:** [Cyber Security News](https://cybersecuritynews.com/google-chrome-0-day-vulnerability/)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1knaj1j/google_chrome_urges_users_to_update_critical_0day/",
+    "timestamp": "2025-05-15T15:06:01",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-4664"
+    ],
+    "cve_counts": {
+      "CVE-2025-4664": 2
+    },
+    "title": "Google Addresses Chrome Vulnerability: Risk of Account Takeover",
+    "text": "\n**Google has released emergency updates to fix a significant flaw in Chrome that can potentially allow full account takeover.**\n\n**Key Points:**\n\n- The newly discovered CVE-2025-4664 vulnerability threatens user security.\n- Exploit may allow attackers to leak sensitive data via malicious HTML pages.\n- Rapid updates are rolling out across various platforms to mitigate risks.\n\nGoogle has identified and patched a critical vulnerability in the Chrome web browser, known as CVE-2025-4664, following its discovery by security researcher Vsevolod Kokorin. This issue arises from insufficient policy enforcement in Chrome's Loader component, which can allow remote attackers to leak cross-origin data by using specially crafted HTML pages. The implications of this flaw are severe, as it could lead to full account takeovers, particularly during OAuth authentication flows where query parameters might contain access tokens.\n\n\n\n**Learn More:** [Bleeping Computer](https://www.bleepingcomputer.com/news/security/google-fixes-high-severity-chrome-flaw-with-public-exploit/)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1knai8z/google_addresses_chrome_vulnerability_risk_of/",
+    "timestamp": "2025-05-15T15:05:10",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-4427",
+      "CVE-2025-4428"
+    ],
+    "cve_counts": {
+      "CVE-2025-4427": 1,
+      "CVE-2025-4428": 1
+    },
+    "title": "Expression Payloads Meet Mayhem - Ivanti EPMM Unauth RCE Chain (CVE-2025-4427 and CVE-2025-4428) - watchTowr Labs",
+    "text": "",
+    "permalink": "/r/netsec/comments/1kna9px/expression_payloads_meet_mayhem_ivanti_epmm/",
+    "timestamp": "2025-05-15T14:55:50",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "China-Nexus Nation State Actors Exploit SAP NetWeaver (CVE-2025-31324) to Target Critical Infrastructures",
+    "text": "",
+    "permalink": "/r/SecOpsDaily/comments/1kna7jh/chinanexus_nation_state_actors_exploit_sap/",
+    "timestamp": "2025-05-15T14:53:24",
+    "article_text": null,
+    "comments": []
   }
 ]
