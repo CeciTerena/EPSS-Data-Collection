@@ -7309,5 +7309,18 @@
     "clean_comments": [
       "Level 0: Anyone interested… CYFIRMA’s Research team has conducted a thorough analysis of a critical security vulnerability, identified as CVE-2024-21833, affecting TP-Link Routers (Archer & Deco). Discovered on January 10, 2024, by JPCERT/CC, this vulnerability carries a significant CVSS score of 8.8, indicating it’s severity. The flaw exposes TP-Link Routers (Archer & Deco) to OS command injection, demanding urgent attention due to the potential risks associated with it."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-3714"
+    ],
+    "cve_counts": {
+      "CVE-2025-3714": 1
+    },
+    "title": "CVE-2025-3714: Stack-based Buffer Overflow Vulnerability in LCD KVM over IP Switch CL5708IM",
+    "permalink": "/r/ameeba/comments/1kndca8/cve20253714_stackbased_buffer_overflow/",
+    "timestamp": "2025-05-15T17:00:03",
+    "clean_text": "CVE-2025-3714: Stack-based Buffer Overflow Vulnerability in LCD KVM over IP Switch CL5708IM",
+    "clean_comments": []
   }
 ]
