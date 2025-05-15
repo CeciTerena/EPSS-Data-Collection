@@ -8732,5 +8732,19 @@
     "timestamp": "2025-05-15T18:19:29",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47733"
+    ],
+    "cve_counts": {
+      "CVE-2025-47733": 1
+    },
+    "title": "CVE-2025-47733: Server-Side Request Forgery in Microsoft Power Apps Leads to Unauthorized Information Disclosure",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1knhse0/cve202547733_serverside_request_forgery_in/",
+    "timestamp": "2025-05-15T20:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]

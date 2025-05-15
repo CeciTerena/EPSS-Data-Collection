@@ -7378,5 +7378,18 @@
     "timestamp": "2025-05-15T18:19:29",
     "clean_text": "High-Assurance Remediation of CVE-2024-12248",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47733"
+    ],
+    "cve_counts": {
+      "CVE-2025-47733": 1
+    },
+    "title": "CVE-2025-47733: Server-Side Request Forgery in Microsoft Power Apps Leads to Unauthorized Information Disclosure",
+    "permalink": "/r/ameeba/comments/1knhse0/cve202547733_serverside_request_forgery_in/",
+    "timestamp": "2025-05-15T20:00:03",
+    "clean_text": "CVE-2025-47733: Server-Side Request Forgery in Microsoft Power Apps Leads to Unauthorized Information Disclosure",
+    "clean_comments": []
   }
 ]
