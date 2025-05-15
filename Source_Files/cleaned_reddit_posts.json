@@ -7322,5 +7322,48 @@
     "timestamp": "2025-05-15T17:00:03",
     "clean_text": "CVE-2025-3714: Stack-based Buffer Overflow Vulnerability in LCD KVM over IP Switch CL5708IM",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4427",
+      "CVE-2025-4428"
+    ],
+    "cve_counts": {
+      "CVE-2025-4427": 1,
+      "CVE-2025-4428": 1
+    },
+    "title": "Expression Payloads Meet Mayhem - Ivanti EPMM Unauth RCE Chain (CVE-2025-4427 and CVE-2025-4428)",
+    "permalink": "/r/blueteamsec/comments/1kney7j/expression_payloads_meet_mayhem_ivanti_epmm/",
+    "timestamp": "2025-05-15T18:03:44",
+    "clean_text": "Expression Payloads Meet Mayhem - Ivanti EPMM Unauth RCE Chain (CVE-2025-4427 and CVE-2025-4428)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "Russian RaaS Actor Qilin Exploited CVE-2025-31324 Weeks Before its Public Disclosure",
+    "permalink": "/r/cybersecurity/comments/1knep9i/russian_raas_actor_qilin_exploited_cve202531324/",
+    "timestamp": "2025-05-15T17:53:58",
+    "clean_text": "Russian RaaS Actor Qilin Exploited CVE-2025-31324 Weeks Before its Public Disclosure",
+    "clean_comments": [
+      "Level 0: Hello, everyone. Please keep all discussions focused on cybersecurity. We are implementing a zero tolerance policy on any political discussions or anything that even looks like baiting. This subreddit also does not support hacktivism of any kind. Any political discussions, any baiting, any conversations getting out of hand will be met by a swift ban. This is a trying time for many people all over the world, so please try to be civil. Remember, attack the argument, not the person. I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/cybersecurity) if you have any questions or concerns."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-49050"
+    ],
+    "cve_counts": {
+      "CVE-2024-49050": 1
+    },
+    "title": "The Hidden Security Cost of Closed Source AI Coding Assistants",
+    "permalink": "/r/kilocode/comments/1kndxnr/the_hidden_security_cost_of_closed_source_ai/",
+    "timestamp": "2025-05-15T17:23:31",
+    "clean_text": "The Hidden Security Cost of Closed Source AI Coding Assistants There's an important security consideration that isn't getting enough attention in the developer community. While many of us are racing to adopt AI-powered coding tools, there's a fundamental security trade-off happening with closed-source forks of open-source projects. The Systematic Issue Closed-source forks of open-source projects like VS Code face a structural challenge: security updates don't automatically flow downstream in a timely manner. For example, Cursor (a popular VS Code fork with AI features) has been observed running Python extension version 2024.13.0 - which remains vulnerable to CVE-2024-49050, a critical remote code execution vulnerability patched in VS Code months ago. This pattern extends beyond just one extension or vulnerability - it's inherent to the development model of closed-source forks. Why This Matters When a vulnerability is patched in VS Code (the upstream project), it essentially becomes a zero-day for unpatched forks. The exploit details are public, but the fix hasn't been applied. It's the worst of both worlds from a security perspective. Key Findings Security Debt* Forking open-source projects creates an ongoing integration burden, especially for security patches Vulnerability Window* Users of closed-source forks face an extended period of exposure to known CVEs Transparency Gap* Users often have no visibility into which extension versions they're running or how they compare to upstream versions What You Can Do If you're using Cursor or another VS Code fork: 1. Monitor security announcements for VS Code and popular extensions 2. Check your extension versions against the latest in the official marketplace 3. Consider manually installing critical updates if possible 4. Push vendors to prioritize security patch integration Looking for Discussion * Have you encountered similar security issues with VS Code forks? * How do you balance the productivity gains of AI tools with security concerns? * What responsibility do you think fork maintainers have in this ecosystem? Read our full analysis here for more details and join our Discord for further discussion.",
+    "clean_comments": []
   }
 ]
