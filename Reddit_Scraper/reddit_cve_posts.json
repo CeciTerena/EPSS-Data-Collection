@@ -8379,5 +8379,33 @@
     "timestamp": "2025-05-15T04:30:48",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4664"
+    ],
+    "cve_counts": {
+      "CVE-2025-4664": 1
+    },
+    "title": "🔐 Chrome Users: Update Required!\nA critical vulnerability (CVE-2025-4664) has been identified, allowing potential data leaks.\n\n📲 Update your browser to the latest version to secure your data.",
+    "text": "",
+    "permalink": "/r/cybersecurityexams/comments/1kn1s54/chrome_users_update_required_a_critical/",
+    "timestamp": "2025-05-15T06:53:47",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-12378"
+    ],
+    "cve_counts": {
+      "CVE-2024-12378": 1
+    },
+    "title": "CVE-2024-12378: Unencrypted Data Transmission Vulnerability in Arista EOS",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kn1k5l/cve202412378_unencrypted_data_transmission/",
+    "timestamp": "2025-05-15T06:38:10",
+    "article_text": null,
+    "comments": []
   }
 ]
