@@ -8718,5 +8718,19 @@
     "timestamp": "2025-05-15T17:23:31",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-12248"
+    ],
+    "cve_counts": {
+      "CVE-2024-12248": 1
+    },
+    "title": "High-Assurance Remediation of CVE-2024-12248",
+    "text": "",
+    "permalink": "/r/BinaryNinja/comments/1knfc45/highassurance_remediation_of_cve202412248/",
+    "timestamp": "2025-05-15T18:19:29",
+    "article_text": null,
+    "comments": []
   }
 ]
