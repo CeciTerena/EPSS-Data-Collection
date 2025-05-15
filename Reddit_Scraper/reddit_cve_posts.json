@@ -8481,5 +8481,33 @@
     "timestamp": "2025-05-15T10:06:11",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29972"
+    ],
+    "cve_counts": {
+      "CVE-2025-29972": 1
+    },
+    "title": "CVE-2025-29972: Server-Side Request Forgery Vulnerability in Azure Leading to Potential System Compromise",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kn5c9m/cve202529972_serverside_request_forgery/",
+    "timestamp": "2025-05-15T11:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4632"
+    ],
+    "cve_counts": {
+      "CVE-2025-4632": 1
+    },
+    "title": "Samsung Patches CVE-2025-4632 Used to Deploy Mirai Botnet via MagicINFO 9 Exploit",
+    "text": "",
+    "permalink": "/r/InfoSecNews/comments/1kn4owc/samsung_patches_cve20254632_used_to_deploy_mirai/",
+    "timestamp": "2025-05-15T10:18:27",
+    "article_text": null,
+    "comments": []
   }
 ]
