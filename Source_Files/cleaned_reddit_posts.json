@@ -7223,5 +7223,18 @@
       "Level 0: Not to be disrespectful but did you restart the pc’s after changing the key’s?",
       "Level 1: hahaha no worries. Yes I reboot the PC"
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-3710"
+    ],
+    "cve_counts": {
+      "CVE-2025-3710": 1
+    },
+    "title": "CVE-2025-3710: Critical Buffer Overflow Vulnerability in LCD KVM over IP Switch CL5708IM",
+    "permalink": "/r/ameeba/comments/1kn8xlx/cve20253710_critical_buffer_overflow/",
+    "timestamp": "2025-05-15T14:00:03",
+    "clean_text": "CVE-2025-3710: Critical Buffer Overflow Vulnerability in LCD KVM over IP Switch CL5708IM",
+    "clean_comments": []
   }
 ]
