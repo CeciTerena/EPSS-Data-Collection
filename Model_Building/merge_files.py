@@ -3,9 +3,30 @@ import pandas as pd
 from datetime import datetime
 import os
 
+def load_exploitdb(path):
+    df = pd.read_csv(path)
+    df['cves'] = (
+        df['cves']
+        .fillna('')
+        .astype(str)
+        .str.strip()
+        .apply(lambda s: [s] if s else [])
+    )
+    rows = []
+    for _, item in df.iterrows():
+        entry_date = datetime.fromisoformat(item['date']).strftime('%Y-%m-%d')
+        for cve in item['cves']:
+            rows.append({
+                'cve':       cve,
+                'timestamp': entry_date,
+                'source':    'exploitdb',
+                'text':      item['text']
+            })
+    return pd.DataFrame(rows)
+
 def load_mastodon(path):
     df = pd.read_csv(path)
-    df['cve'] = (
+    df['cves'] = (
         df['cve']
         .fillna('')
         .astype(str)
@@ -15,7 +36,7 @@ def load_mastodon(path):
     rows = []
     for _, item in df.iterrows():
         entry_date = datetime.fromisoformat(item['created_at']).strftime('%Y-%m-%d')
-        for cve in item['cve']:
+        for cve in item['cves']:
             rows.append({
                 'cve':       cve,
                 'timestamp': entry_date,
@@ -60,7 +81,31 @@ def load_telegram(path):
             })
     return pd.DataFrame(rows)
 
-merged_path = '../Data/merged_cve_text.csv'
+
+def load_bleepingcomputer(path):
+    df = pd.read_csv(path)
+    df['cves'] = (
+        df['cves']
+        .fillna('')
+        .astype(str)
+        .str.strip()
+        .apply(lambda s: [s] if s else [])
+    )
+    rows = []
+    for _, item in df.iterrows():
+        entry_date = datetime.fromisoformat(item['date']).strftime('%Y-%m-%d')
+        for cve in item['cves']:
+            rows.append({
+                'cve':       cve,
+                'timestamp': entry_date,
+                'source':    'bleepingcomputer',
+                'text':      item['text']
+            })
+    return pd.DataFrame(rows)
+
+# ================================================================
+
+merged_path = 'Data_Files/merged_cve_text.csv'
 
 if os.path.exists(merged_path):
     df_all = pd.read_csv(merged_path)
@@ -72,8 +117,10 @@ else:
 df_reddit   = load_reddit('../Source_Files/cleaned_reddit_posts.json')
 df_telegram = load_telegram('../Telegram/telegram_data_cleaned.csv')
 df_mastodon = load_mastodon('../Mastodon/mastodon_03_05_cleaned.csv')
+df_exploitdb = load_exploitdb('../ExploitDB_Scraper/exploitdb_03_05_cleaned_nolinks.csv')
+df_bleepingcomputer = load_bleepingcomputer('../BleepingComputer_Scraper/bleepingcomputer_scraper.csv')
 
-df_new = pd.concat([df_reddit, df_telegram, df_mastodon], ignore_index=True)
+df_new = pd.concat([df_reddit, df_telegram, df_mastodon, df_exploitdb, df_bleepingcomputer], ignore_index=True)
 
 merged_cols = ['cve', 'timestamp', 'source', 'text']
 df_combined = pd.concat([df_all, df_new], ignore_index=True)
