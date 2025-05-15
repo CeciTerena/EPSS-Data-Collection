@@ -8351,5 +8351,33 @@
     "timestamp": "2025-05-14T20:54:41",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-45843"
+    ],
+    "cve_counts": {
+      "CVE-2025-45843": 1
+    },
+    "title": "CVE-2025-45843: Authenticated Stack Overflow Vulnerability in TOTOLINK NR1800X",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kn0175/cve202545843_authenticated_stack_overflow/",
+    "timestamp": "2025-05-15T05:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-45842"
+    ],
+    "cve_counts": {
+      "CVE-2025-45842": 1
+    },
+    "title": "CVE-2025-45842: Authenticated Stack Overflow Vulnerability in TOTOLINK NR1800X",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kmzk02/cve202545842_authenticated_stack_overflow/",
+    "timestamp": "2025-05-15T04:30:48",
+    "article_text": null,
+    "comments": []
   }
 ]
