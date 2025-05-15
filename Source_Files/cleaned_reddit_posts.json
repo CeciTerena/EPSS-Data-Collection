@@ -7192,5 +7192,36 @@
     "timestamp": "2025-05-15T10:18:27",
     "clean_text": "Samsung Patches CVE-2025-4632 Used to Deploy Mirai Botnet via MagicINFO 9 Exploit",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4664",
+      "CVE-2025-4609"
+    ],
+    "cve_counts": {
+      "CVE-2025-4609": 1,
+      "CVE-2025-4664": 1
+    },
+    "title": "Minor update(6) for Vivaldi Android Browser 7.2",
+    "permalink": "/r/vivaldibrowser/comments/1kn7197/minor_update6_for_vivaldi_android_browser_72/",
+    "timestamp": "2025-05-15T12:32:57",
+    "clean_text": "Minor update(6) for Vivaldi Android Browser 7.2 This update includes important security fixes from upstream Chromium. Changelog The following is a list of changes since the fifth 7.2 stable, minor update: * Backported upstream patches for CVE-2025-4609 (issue #412578726) and CVE-2025-4664 (issue #415810136)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2013-3900"
+    ],
+    "cve_counts": {
+      "CVE-2013-3900": 3
+    },
+    "title": "Help with CVE-2013-3900 Remediation",
+    "permalink": "/r/sysadmin/comments/1kn6x8d/help_with_cve20133900_remediation/",
+    "timestamp": "2025-05-15T12:27:25",
+    "clean_text": "Help with CVE-2013-3900 Remediation Hi. My vulnerability scan report that a couple of my PC hace the CVE-2013-3900 vulnerability. I follow the recomendation on this post ( <URL> and edit the registry entry on EnableCertPaddingCheck to 1 but it still reporting that the vulnerability is still active. I edit the Computer\\\\HKEY\\LOCAL\\MACHINE\\\\SOFTWARE\\\\WOW6432Node\\\\Microsoft\\\\Cryptography\\\\Wintrust\\\\Config and Computer\\\\HKEY\\LOCAL\\MACHINE\\\\SOFTWARE\\\\Microsoft\\\\Cryptography\\\\Wintrust\\\\Config Im using CarbonBlack. I appretiate any information that you can provide. <URL>",
+    "clean_comments": [
+      "Level 0: Not to be disrespectful but did you restart the pc’s after changing the key’s?",
+      "Level 1: hahaha no worries. Yes I reboot the PC"
+    ]
   }
 ]
