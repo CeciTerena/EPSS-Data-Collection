@@ -7591,5 +7591,18 @@
     "timestamp": "2025-05-16T20:00:03",
     "clean_text": "CVE-2025-4556: Arbitrary File Upload Vulnerability in Okcat Parking Management Platform",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2020-0601"
+    ],
+    "cve_counts": {
+      "CVE-2020-0601": 1
+    },
+    "title": "M365 Defender alerts for CVE-2020-0601 - are these even relevant?",
+    "permalink": "/r/DefenderATP/comments/1kobhsi/m365_defender_alerts_for_cve20200601_are_these/",
+    "timestamp": "2025-05-16T20:50:35",
+    "clean_text": "M365 Defender alerts for CVE-2020-0601 - are these even relevant?",
+    "clean_comments": []
   }
 ]

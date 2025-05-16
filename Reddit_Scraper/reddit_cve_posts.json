@@ -8960,5 +8960,19 @@
     "timestamp": "2025-05-16T20:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2020-0601"
+    ],
+    "cve_counts": {
+      "CVE-2020-0601": 1
+    },
+    "title": "M365 Defender alerts for CVE-2020-0601 - are these even relevant?",
+    "text": "",
+    "permalink": "/r/DefenderATP/comments/1kobhsi/m365_defender_alerts_for_cve20200601_are_these/",
+    "timestamp": "2025-05-16T20:50:35",
+    "article_text": null,
+    "comments": []
   }
 ]
