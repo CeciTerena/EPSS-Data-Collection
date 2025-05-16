@@ -8802,5 +8802,47 @@
     "timestamp": "2025-05-16T05:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-45885"
+    ],
+    "cve_counts": {
+      "CVE-2025-45885": 1
+    },
+    "title": "CVE-2025-45885: Critical SQL Injection Vulnerability in PHPGURUKUL Vehicle Parking Management System",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1knvem8/cve202545885_critical_sql_injection_vulnerability/",
+    "timestamp": "2025-05-16T08:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-25254"
+    ],
+    "cve_counts": {
+      "CVE-2025-25254": 1
+    },
+    "title": "Fortinet FortiWeb cgi_httpcontentrouting_post Directory Traversal Remote Code Execution Vulnerability (CVE-2025-25254)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1knv7gm/fortinet_fortiweb_cgi_httpcontentrouting_post/",
+    "timestamp": "2025-05-16T07:45:13",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30397"
+    ],
+    "cve_counts": {
+      "CVE-2025-30397": 3
+    },
+    "title": "Does CS detect exploitation of CVE-2025-30397 if unpatched?",
+    "text": "# Actively Exploited Zero-Day Vulnerability in Microsoft Scripting Engine\n\n[CVE-2025-30397](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-30397) is an **Important** memory corruption vulnerability affecting the Microsoft Scripting Engine and has a CVSS score of **7.5**. This could allow a remote attacker to execute code if a user clicks a malicious link while using Microsoft Edge Internet Explorer mode. The attack requires user interaction and has a high attack complexity. While this vulnerability proof-of-concept has not been disclosed, Microsoft confirmed it has been actively exploited in the wild.\n\n[https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-may-2025/](https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-may-2025/)",
+    "permalink": "/r/crowdstrike/comments/1knuyrv/does_cs_detect_exploitation_of_cve202530397_if/",
+    "timestamp": "2025-05-16T07:27:03",
+    "article_text": null,
+    "comments": []
   }
 ]
