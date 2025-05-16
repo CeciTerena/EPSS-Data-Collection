@@ -8918,5 +8918,33 @@
     "timestamp": "2025-05-16T14:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-45887"
+    ],
+    "cve_counts": {
+      "CVE-2025-45887": 1
+    },
+    "title": "CVE-2025-45887: SSRF Vulnerability in Yifang CMS v2.0.2",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1ko5y5g/cve202545887_ssrf_vulnerability_in_yifang_cms_v202/",
+    "timestamp": "2025-05-16T17:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2020-0601"
+    ],
+    "cve_counts": {
+      "CVE-2020-0601": 2
+    },
+    "title": "M365 Defender alerts for CVE-2020-0601 - are these even relevant?",
+    "text": "Forgive me if this is a stupid question, but I am quite new in this field. \n\nI work in a medium sized company (200 people worldwide) and have been charged with being the main guy in charge of security. \n\nToday, in the M365 Defender portal, I saw two endpoints with alerts for \"an attempt at exploiting CVE-2020-0601 was detected\", one alert from March and the second one from today on my own PC. The events show nothing but point to a Microsoft root certificate and it's SHA1 hash.\n\nFrom my research I have found out this is related to certificate spoofing, but also that this exploit was fixed all the way back in 2020 through Windows Update. \n\nI guess I am struggling to understand what remediation steps I should take, or if I should even be taking these alerts seriously since it's already patched?\n\nI am mostly worried that this has happened twice and also somehow on my own PC, making me wonder if there could be something I am missing. \n\nWould really appreciate some thoughts or tips on this.",
+    "permalink": "/r/sysadmin/comments/1ko5h2q/m365_defender_alerts_for_cve20200601_are_these/",
+    "timestamp": "2025-05-16T16:40:30",
+    "article_text": null,
+    "comments": []
   }
 ]
