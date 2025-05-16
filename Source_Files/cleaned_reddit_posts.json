@@ -7578,5 +7578,18 @@
     "timestamp": "2025-05-16T16:40:30",
     "clean_text": "M365 Defender alerts for CVE-2020-0601 - are these even relevant? Forgive me if this is a stupid question, but I am quite new in this field. I work in a medium sized company (200 people worldwide) and have been charged with being the main guy in charge of security. Today, in the M365 Defender portal, I saw two endpoints with alerts for \"an attempt at exploiting CVE-2020-0601 was detected\", one alert from March and the second one from today on my own PC. The events show nothing but point to a Microsoft root certificate and it's SHA1 hash. From my research I have found out this is related to certificate spoofing, but also that this exploit was fixed all the way back in 2020 through Windows Update. I guess I am struggling to understand what remediation steps I should take, or if I should even be taking these alerts seriously since it's already patched? I am mostly worried that this has happened twice and also somehow on my own PC, making me wonder if there could be something I am missing. Would really appreciate some thoughts or tips on this.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4556"
+    ],
+    "cve_counts": {
+      "CVE-2025-4556": 1
+    },
+    "title": "CVE-2025-4556: Arbitrary File Upload Vulnerability in Okcat Parking Management Platform",
+    "permalink": "/r/ameeba/comments/1koaava/cve20254556_arbitrary_file_upload_vulnerability/",
+    "timestamp": "2025-05-16T20:00:03",
+    "clean_text": "CVE-2025-4556: Arbitrary File Upload Vulnerability in Okcat Parking Management Platform",
+    "clean_comments": []
   }
 ]
