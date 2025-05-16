@@ -8974,5 +8974,19 @@
     "timestamp": "2025-05-16T20:50:35",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4557"
+    ],
+    "cve_counts": {
+      "CVE-2025-4557": 1
+    },
+    "title": "CVE-2025-4557: Unauthenticated Remote Access Vulnerability in ZONG YU Parking Management System",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1koee26/cve20254557_unauthenticated_remote_access/",
+    "timestamp": "2025-05-16T23:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
