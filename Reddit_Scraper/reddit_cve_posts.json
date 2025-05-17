@@ -9157,5 +9157,19 @@
         "level": 1
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-20164"
+    ],
+    "cve_counts": {
+      "CVE-2025-20164": 1
+    },
+    "title": "CVE-2025-20164: Privilege Elevation Vulnerability in Cisco Industrial Ethernet Switch Device Manager",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kp5pcr/cve202520164_privilege_elevation_vulnerability_in/",
+    "timestamp": "2025-05-17T23:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]

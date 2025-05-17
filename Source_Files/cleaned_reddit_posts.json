@@ -7768,5 +7768,18 @@
       "Level 0: <URL> It asks for money and is probably a scam",
       "Level 1: Oh lmao, thank you so much for this"
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-20164"
+    ],
+    "cve_counts": {
+      "CVE-2025-20164": 1
+    },
+    "title": "CVE-2025-20164: Privilege Elevation Vulnerability in Cisco Industrial Ethernet Switch Device Manager",
+    "permalink": "/r/ameeba/comments/1kp5pcr/cve202520164_privilege_elevation_vulnerability_in/",
+    "timestamp": "2025-05-17T23:00:03",
+    "clean_text": "CVE-2025-20164: Privilege Elevation Vulnerability in Cisco Industrial Ethernet Switch Device Manager",
+    "clean_comments": []
   }
 ]
