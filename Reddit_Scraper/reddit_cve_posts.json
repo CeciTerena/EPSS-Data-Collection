@@ -9090,5 +9090,19 @@
     "timestamp": "2025-05-17T14:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2017-13238"
+    ],
+    "cve_counts": {
+      "CVE-2017-13238": 2
+    },
+    "title": "WhatsApp Crash after firmware update on OnePlus 9 Pro",
+    "text": "Hello everyone,  \nA few days ago I realized, using “Oxygen Updater,” that a new firmware update had come out from the manufacturer for my device which now runs LineageOS 22.2. The update, quoting the changelog, only brings the security patch update to April 2025, nothing more nothing less. So I downloaded the full package (5+Gb), followed the guide in the LineageOS wiki for \"[Update firmware on OnePlus 9 Pro](https://wiki.lineageos.org/devices/lemonadep/fw_update)\", turned on the phone and used it as usual for few days.\n\nHere comes the problem, I made two video calls on WhatsApp (in two separate days) one came to 20 min, the other to 30 min, but out of nowhere the phone crashes. It doesn't reboot, but a black screen appears with various sayings about RAM and dumps.  \nThe screen seems to be called \"**XBLRamDump**\", but online I couldn't find anything but a [CVE-2017-13238](https://www.cvedetails.com/cve/CVE-2017-13238/).\n\nI couldn't take a picture of the screen because I didn't have any other devices to do it with at the time, but if it's not a known thing and it might help, I'll try to reproduce the problem and take a picture.\n\nP.S. I checked the firmware update and all binaries are flashed without any problems.",
+    "permalink": "/r/LineageOS/comments/1kow5vg/whatsapp_crash_after_firmware_update_on_oneplus_9/",
+    "timestamp": "2025-05-17T15:51:02",
+    "article_text": null,
+    "comments": []
   }
 ]
