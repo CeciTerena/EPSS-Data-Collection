@@ -9104,5 +9104,19 @@
     "timestamp": "2025-05-17T15:51:02",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-8100"
+    ],
+    "cve_counts": {
+      "CVE-2024-8100": 1
+    },
+    "title": "CVE-2024-8100: Admin Privilege Escalation in Arista CloudVision Portal",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1koxqg3/cve20248100_admin_privilege_escalation_in_arista/",
+    "timestamp": "2025-05-17T17:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
