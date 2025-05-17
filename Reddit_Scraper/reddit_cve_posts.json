@@ -9076,5 +9076,19 @@
     "timestamp": "2025-05-17T11:00:04",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4561"
+    ],
+    "cve_counts": {
+      "CVE-2025-4561": 1
+    },
+    "title": "CVE-2025-4561: Arbitrary File Upload Vulnerability in KingFor’s KFOX",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1koto43/cve20254561_arbitrary_file_upload_vulnerability/",
+    "timestamp": "2025-05-17T14:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
