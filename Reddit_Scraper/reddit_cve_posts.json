@@ -9118,5 +9118,19 @@
     "timestamp": "2025-05-17T17:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20154"
+    ],
+    "cve_counts": {
+      "CVE-2025-20154": 1
+    },
+    "title": "CVE-2025-20154: Denial of Service Vulnerability in Cisco IOS and IOS XE Software",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kp1uzy/cve202520154_denial_of_service_vulnerability_in/",
+    "timestamp": "2025-05-17T20:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
