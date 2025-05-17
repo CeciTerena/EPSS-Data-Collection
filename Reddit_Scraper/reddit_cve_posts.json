@@ -9132,5 +9132,30 @@
     "timestamp": "2025-05-17T20:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2857"
+    ],
+    "cve_counts": {
+      "CVE-2025-2857": 2
+    },
+    "title": "About CVE-2025-2857",
+    "text": "Anyone has saved the RimaRuer repository (https://github.com/RimaRuer/CVE-2025-2857-Exploit/)? Discovered this CVE today and really want to understand how this works but the POC (and it's account) was taken down. Can't even find it by wayback machine, so, if anyone has the copy of repository or some tecnical report on it i'll appreciate.\n\nNVM, found other version, thanks to [https://github.com/nomi-sec/PoC-in-GitHub/](https://github.com/nomi-sec/PoC-in-GitHub/)",
+    "permalink": "/r/ExploitDev/comments/1kp2l1a/about_cve20252857/",
+    "timestamp": "2025-05-17T20:32:30",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 2,
+        "text": "[https://yandexwebcache.net/yandbtm?fmode=inject&tm=1747514893&tld=com&lang=en&la=1743199232&text=https%3A//github.com/RimaRuer/CVE-2025-2857-Exploit/&url=https%3A//github.com/RimaRuer/CVE-2025-2857-Exploit&l10n=en&mime=html&sign=a53ab130c00d6b4cc66a1ded381bb7ae&keyno=0](https://yandexwebcache.net/yandbtm?fmode=inject&tm=1747514893&tld=com&lang=en&la=1743199232&text=https%3A//github.com/RimaRuer/CVE-2025-2857-Exploit/&url=https%3A//github.com/RimaRuer/CVE-2025-2857-Exploit&l10n=en&mime=html&sign=a53ab130c00d6b4cc66a1ded381bb7ae&keyno=0)\n\nIt asks for money and is probably a scam",
+        "level": 0
+      },
+      {
+        "score": 1,
+        "text": "Oh lmao, thank you so much for this",
+        "level": 1
+      }
+    ]
   }
 ]

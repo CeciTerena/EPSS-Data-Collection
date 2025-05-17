@@ -7752,5 +7752,21 @@
     "timestamp": "2025-05-17T20:00:03",
     "clean_text": "CVE-2025-20154: Denial of Service Vulnerability in Cisco IOS and IOS XE Software",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2857"
+    ],
+    "cve_counts": {
+      "CVE-2025-2857": 2
+    },
+    "title": "About CVE-2025-2857",
+    "permalink": "/r/ExploitDev/comments/1kp2l1a/about_cve20252857/",
+    "timestamp": "2025-05-17T20:32:30",
+    "clean_text": "About CVE-2025-2857 Anyone has saved the RimaRuer repository ( <URL> Discovered this CVE today and really want to understand how this works but the POC (and it's account) was taken down. Can't even find it by wayback machine, so, if anyone has the copy of repository or some tecnical report on it i'll appreciate. NVM, found other version, thanks to <URL>",
+    "clean_comments": [
+      "Level 0: <URL> It asks for money and is probably a scam",
+      "Level 1: Oh lmao, thank you so much for this"
+    ]
   }
 ]
