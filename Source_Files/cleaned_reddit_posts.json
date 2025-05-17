@@ -7643,5 +7643,18 @@
     "timestamp": "2025-05-17T05:00:04",
     "clean_text": "CVE-2025-44022: Arbitrary Code Execution Vulnerability in vvveb CMS v.1.0.6",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-28203"
+    ],
+    "cve_counts": {
+      "CVE-2025-28203": 1
+    },
+    "title": "CVE-2025-28203: Command Injection Vulnerability in Victure RX1800 EN_V1.0.0_r12_110933",
+    "permalink": "/r/ameeba/comments/1konqxz/cve202528203_command_injection_vulnerability_in/",
+    "timestamp": "2025-05-17T08:00:03",
+    "clean_text": "CVE-2025-28203: Command Injection Vulnerability in Victure RX1800 EN_V1.0.0_r12_110933",
+    "clean_comments": []
   }
 ]

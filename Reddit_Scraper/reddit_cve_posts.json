@@ -9016,5 +9016,19 @@
     "timestamp": "2025-05-17T05:00:04",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-28203"
+    ],
+    "cve_counts": {
+      "CVE-2025-28203": 1
+    },
+    "title": "CVE-2025-28203: Command Injection Vulnerability in Victure RX1800 EN_V1.0.0_r12_110933",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1konqxz/cve202528203_command_injection_vulnerability_in/",
+    "timestamp": "2025-05-17T08:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
