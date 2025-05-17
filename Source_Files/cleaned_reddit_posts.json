@@ -7617,5 +7617,18 @@
     "timestamp": "2025-05-16T23:00:03",
     "clean_text": "CVE-2025-4557: Unauthenticated Remote Access Vulnerability in ZONG YU Parking Management System",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-56524"
+    ],
+    "cve_counts": {
+      "CVE-2024-56524": 1
+    },
+    "title": "CVE-2024-56524: Critical Firewall Bypass Vulnerability in Radware Cloud WAF",
+    "permalink": "/r/ameeba/comments/1kohw0z/cve202456524_critical_firewall_bypass/",
+    "timestamp": "2025-05-17T02:00:03",
+    "clean_text": "CVE-2024-56524: Critical Firewall Bypass Vulnerability in Radware Cloud WAF",
+    "clean_comments": []
   }
 ]
