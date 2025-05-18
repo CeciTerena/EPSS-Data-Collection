@@ -7807,5 +7807,18 @@
     "timestamp": "2025-05-18T05:00:04",
     "clean_text": "CVE-2025-3528: Privilege Escalation Vulnerability in Mirror Registry for OpenShift",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26169"
+    ],
+    "cve_counts": {
+      "CVE-2025-26169": 1
+    },
+    "title": "CVE-2025-26169: Local Privilege Escalation Vulnerability in IXON VPN Client on Windows",
+    "permalink": "/r/ameeba/comments/1kpesp7/cve202526169_local_privilege_escalation/",
+    "timestamp": "2025-05-18T08:00:03",
+    "clean_text": "CVE-2025-26169: Local Privilege Escalation Vulnerability in IXON VPN Client on Windows",
+    "clean_comments": []
   }
 ]
