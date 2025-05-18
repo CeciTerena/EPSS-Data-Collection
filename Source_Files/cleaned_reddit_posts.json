@@ -7877,5 +7877,18 @@
     "timestamp": "2025-05-18T14:00:03",
     "clean_text": "CVE-2025-4440: Critical Buffer Overflow Vulnerability in H3C GR-1800AX",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-51745"
+    ],
+    "cve_counts": {
+      "CVE-2023-51745": 1
+    },
+    "title": "CVE-2023-51745: Stack Overflow Vulnerability in Various Versions of Teamcenter Visualization and JT2Go",
+    "permalink": "/r/ameeba/comments/1kpopg4/cve202351745_stack_overflow_vulnerability_in/",
+    "timestamp": "2025-05-18T17:00:03",
+    "clean_text": "CVE-2023-51745: Stack Overflow Vulnerability in Various Versions of Teamcenter Visualization and JT2Go",
+    "clean_comments": []
   }
 ]
