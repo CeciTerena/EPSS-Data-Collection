@@ -7864,5 +7864,18 @@
     "timestamp": "2025-05-18T11:00:04",
     "clean_text": "CVE-2025-46739: Unauthenticated Brute-Force Attack Leads to Account Compromise",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4440"
+    ],
+    "cve_counts": {
+      "CVE-2025-4440": 1
+    },
+    "title": "CVE-2025-4440: Critical Buffer Overflow Vulnerability in H3C GR-1800AX",
+    "permalink": "/r/ameeba/comments/1kpkmtu/cve20254440_critical_buffer_overflow/",
+    "timestamp": "2025-05-18T14:00:03",
+    "clean_text": "CVE-2025-4440: Critical Buffer Overflow Vulnerability in H3C GR-1800AX",
+    "clean_comments": []
   }
 ]
