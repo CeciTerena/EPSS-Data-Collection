@@ -7781,5 +7781,18 @@
     "timestamp": "2025-05-17T23:00:03",
     "clean_text": "CVE-2025-20164: Privilege Elevation Vulnerability in Cisco Industrial Ethernet Switch Device Manager",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47269"
+    ],
+    "cve_counts": {
+      "CVE-2025-47269": 1
+    },
+    "title": "CVE-2025-47269: Session Token Exposure in code-server Prior to Version 4.99.4",
+    "permalink": "/r/ameeba/comments/1kp940n/cve202547269_session_token_exposure_in_codeserver/",
+    "timestamp": "2025-05-18T02:00:03",
+    "clean_text": "CVE-2025-47269: Session Token Exposure in code-server Prior to Version 4.99.4",
+    "clean_comments": []
   }
 ]
