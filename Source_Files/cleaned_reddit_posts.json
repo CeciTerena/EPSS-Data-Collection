@@ -7890,5 +7890,18 @@
     "timestamp": "2025-05-18T17:00:03",
     "clean_text": "CVE-2023-51745: Stack Overflow Vulnerability in Various Versions of Teamcenter Visualization and JT2Go",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-20656"
+    ],
+    "cve_counts": {
+      "CVE-2024-20656": 1
+    },
+    "title": "CVE-2024-20656: Visual Studio Elevation of Privilege Vulnerability",
+    "permalink": "/r/ameeba/comments/1kpsy1m/cve202420656_visual_studio_elevation_of_privilege/",
+    "timestamp": "2025-05-18T20:00:03",
+    "clean_text": "CVE-2024-20656: Visual Studio Elevation of Privilege Vulnerability",
+    "clean_comments": []
   }
 ]
