@@ -9185,5 +9185,19 @@
     "timestamp": "2025-05-18T02:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3528"
+    ],
+    "cve_counts": {
+      "CVE-2025-3528": 1
+    },
+    "title": "CVE-2025-3528: Privilege Escalation Vulnerability in Mirror Registry for OpenShift",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kpc5lv/cve20253528_privilege_escalation_vulnerability_in/",
+    "timestamp": "2025-05-18T05:00:04",
+    "article_text": null,
+    "comments": []
   }
 ]
