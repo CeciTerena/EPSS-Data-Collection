@@ -9459,5 +9459,19 @@
     "timestamp": "2025-05-19T13:00:02",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-32366"
+    ],
+    "cve_counts": {
+      "CVE-2023-32366": 1
+    },
+    "title": "CVE-2023-32366: Arbitrary Code Execution Vulnerability in macOS, iOS, and iPadOS",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kqcesd/cve202332366_arbitrary_code_execution/",
+    "timestamp": "2025-05-19T14:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
