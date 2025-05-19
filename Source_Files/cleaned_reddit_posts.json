@@ -7929,5 +7929,18 @@
     "timestamp": "2025-05-19T00:40:20",
     "clean_text": "Uber shout out even if it isn't completely deserved Shout out to Uber for attempting anything against the hacking of my bank. as it was used to stalk me for a year. at least recently, where Lyft gave me, like, $20 in credits, Uber has since asked if I am using it. (And when you wonder why I would still go to the level of using Uber OR Lyft--be in an unwalkable area that your job transferred you to that would take 4.5 hours to walk home from--I took the bus.. a lot.) I think the Apple security breach is CVE-2025-21391, it was January/February it was discovered, few people believed the guy who just wanted the breach to stop. But the 3 point patch Apple released only patched ONE of the problems. And I believe there were more. Basically code continuing to overwrite code due to what should have simplified actual phone use if not for bad actors. I have had issues with 5/3 bank, SoFi, my local police, Uber, Lyft, Target, Expedia. and nothing was returned. I am just lucky my job still loves me. but it might be why they are fixing certain things because. how does someone stalk you nearly daily to a place of employment?? (And when you wonder how I didn't notice--I sort of did, but 1-everything was always pending and 2-I relied on my apps, which would likely have been compromised so it wasn't until I went back to paper statements.) Anyone with advice or experience, love to hear and not feel alone (",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-21325"
+    ],
+    "cve_counts": {
+      "CVE-2024-21325": 1
+    },
+    "title": "CVE-2024-21325: Microsoft Printer Metadata Troubleshooter Tool Remote Code Execution Vulnerability",
+    "permalink": "/r/ameeba/comments/1kq0f4x/cve202421325_microsoft_printer_metadata/",
+    "timestamp": "2025-05-19T02:00:03",
+    "clean_text": "CVE-2024-21325: Microsoft Printer Metadata Troubleshooter Tool Remote Code Execution Vulnerability",
+    "clean_comments": []
   }
 ]
