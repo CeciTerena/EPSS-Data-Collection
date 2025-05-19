@@ -9403,5 +9403,47 @@
     "timestamp": "2025-05-19T10:01:06",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2022-46721"
+    ],
+    "cve_counts": {
+      "CVE-2022-46721": 1
+    },
+    "title": "CVE-2022-46721: Arbitrary Code Execution Vulnerability in macOS",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kq8t8v/cve202246721_arbitrary_code_execution/",
+    "timestamp": "2025-05-19T11:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-21297"
+    ],
+    "cve_counts": {
+      "CVE-2025-21297": 1
+    },
+    "title": "\"Windows\" nuotolinio darbalaukio pažeidžiamumas",
+    "text": "\"Microsoft Remote Desktop Gateway\" (RD Gateway) kritinė spraga, dėl kurios įsilaužėliai gali nuotoliniu būdu vykdyti kenksmingą kodą paveiktose sistemose. Pažeidžiamumą, žymimą CVE-2025-21297, \"Microsoft\" atskleidė 2025 m. sausio mėn. saugumo atnaujinimuose ir nuo to laiko juo aktyviai naudojamasi laisvėje.\n\nSkaitom: [https://cybersecuritynews.com/windows-remote-desktop-gateway-uaf-vulnerability/](https://cybersecuritynews.com/windows-remote-desktop-gateway-uaf-vulnerability/)",
+    "permalink": "/r/KibernetinisSaugumas/comments/1kq8gtk/windows_nuotolinio_darbalaukio_pažeidžiamumas/",
+    "timestamp": "2025-05-19T10:38:33",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-21762"
+    ],
+    "cve_counts": {
+      "CVE-2024-21762": 2
+    },
+    "title": "False Positive?",
+    "text": "I'm pretty new to Tenable.sc and just had what I believe is a false positive and I'm not sure how to respond to it.\n\nWe got notified that our scanner found CVE-2024-21762 on our Cisco Firepower Management Center appliance (VM).  However CVE-2024-21762 is specifically talking about a RCE on Fortinet FortiOS and the fix is to upgrade to a fixed version.\n\nOf course Cisco Firepower Management Center does not run on FortiOS, so do I just recast the risk? Is there a way to notify Tenable of a false positive?  Here is the Plugin Output if that helps anyone.  Thanks in advance for any input\n\n\n\nNessus was able to exploit the issue using the following request :\n\nPOST /remote/VULNCHECK HTTP/1.1\n\nHost: XXXXX\n\nAccept-Charset: iso-8859-1,utf-8;q=0.9,\\*;q=0.1\n\nAccept-Language: en\n\nTransfer-Encoding: chunked\n\nConnection: Keep-Alive\n\nContent-Length: 22\n\nUser-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)\n\nPragma: no-cache\n\nAccept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, \\*/\\*\n\n0000000000000000FF\n\nThis produced the following truncated output (limited to 10 lines) :\n\n\\------------------------------ snip ------------------------------\n\nNo response (expected)\n\n\\------------------------------ snip ------------------------------",
+    "permalink": "/r/tenable/comments/1kq8emv/false_positive/",
+    "timestamp": "2025-05-19T10:34:43",
+    "article_text": null,
+    "comments": []
   }
 ]
