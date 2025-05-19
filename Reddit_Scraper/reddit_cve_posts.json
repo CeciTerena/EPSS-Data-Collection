@@ -9357,5 +9357,19 @@
     "timestamp": "2025-05-19T05:00:04",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-29445"
+    ],
+    "cve_counts": {
+      "CVE-2023-29445": 1
+    },
+    "title": "CVE-2023-29445: Uncontrolled Search Path Element Vulnerability Leads to Privilege Escalation",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kq66yq/cve202329445_uncontrolled_search_path_element/",
+    "timestamp": "2025-05-19T08:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
