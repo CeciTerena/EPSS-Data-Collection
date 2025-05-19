@@ -7942,5 +7942,18 @@
     "timestamp": "2025-05-19T02:00:03",
     "clean_text": "CVE-2024-21325: Microsoft Printer Metadata Troubleshooter Tool Remote Code Execution Vulnerability",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-34332"
+    ],
+    "cve_counts": {
+      "CVE-2023-34332": 1
+    },
+    "title": "CVE-2023-34332: Critical Vulnerability in AMI’s SPx leading to Potential System Compromise",
+    "permalink": "/r/ameeba/comments/1kq3kdo/cve202334332_critical_vulnerability_in_amis_spx/",
+    "timestamp": "2025-05-19T05:00:04",
+    "clean_text": "CVE-2023-34332: Critical Vulnerability in AMI’s SPx leading to Potential System Compromise",
+    "clean_comments": []
   }
 ]
