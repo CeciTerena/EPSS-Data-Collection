@@ -8064,5 +8064,31 @@
     "timestamp": "2025-05-19T14:00:03",
     "clean_text": "CVE-2023-32366: Arbitrary Code Execution Vulnerability in macOS, iOS, and iPadOS",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "SAP Zero - Frostbite: How Russian RaaS Actor Qilin Exploited CVE-2025-31324 Weeks Before its Public Disclosure",
+    "permalink": "/r/blueteamsec/comments/1kqe1a6/sap_zero_frostbite_how_russian_raas_actor_qilin/",
+    "timestamp": "2025-05-19T15:06:47",
+    "clean_text": "SAP Zero - Frostbite: How Russian RaaS Actor Qilin Exploited CVE-2025-31324 Weeks Before its Public Disclosure",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4887"
+    ],
+    "cve_counts": {
+      "CVE-2025-4887": 1
+    },
+    "title": "CVE Alert: CVE-2025-4887",
+    "permalink": "/r/RedPacketSecurity/comments/1kqdq3r/cve_alert_cve20254887/",
+    "timestamp": "2025-05-19T14:54:24",
+    "clean_text": "CVE Alert: CVE-2025-4887 A vulnerability, which was classified as problematic, has been found in SourceCodester Online Student Clearance System 1.0. Affected by this issue is some unknown functionality. The manipulation leads to cross-site request forgery. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+    "clean_comments": []
   }
 ]
