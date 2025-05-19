@@ -9626,5 +9626,19 @@
     "timestamp": "2025-05-19T19:54:29",
     "article_text": "A vulnerability was found in Campcodes Online Shopping Portal 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /forgot-password.php. The manipulation of the argument email leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4317"
+    ],
+    "cve_counts": {
+      "CVE-2025-4317": 1
+    },
+    "title": "CVE-2025-4317: TheGem WordPress Theme Vulnerability Leading to Arbitrary File Uploads",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kqpvlc/cve20254317_thegem_wordpress_theme_vulnerability/",
+    "timestamp": "2025-05-19T23:00:04",
+    "article_text": null,
+    "comments": []
   }
 ]
