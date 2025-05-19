@@ -9543,5 +9543,60 @@
     "timestamp": "2025-05-19T16:21:27",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-1999-0524"
+    ],
+    "cve_counts": {
+      "CVE-1999-0524": 1
+    },
+    "title": "How to fix CVE-1999-0524 (\"ICMP Timestamp Request Remote Date Disclosure\")",
+    "text": "We have a bunch of machines in our network that are being flagged for this vulnerability. We are using windows defender and windows firewall. When i create the firewall rules and rescan, the vulnerability reappears.\n\nC:\\\\Windows\\\\System32>netsh advfirewall firewall add rule name=\"Block ICMPv4 Timestamp Request\" protocol=icmpv4:13,any dir=in action=block profile=any\n\nC:\\\\Windows\\\\System32>netsh advfirewall firewall add rule name=\"Block ICMPv4 Timestamp Request\" protocol=icmpv4:14,any dir=in action=block profile=any\n\nC:\\\\Windows\\\\System32>netsh advfirewall firewall add rule name=\"Block ICMPv4 Timestamp Request\" protocol=icmpv4:13,any dir=out action=block profile=any\n\nC:\\\\Windows\\\\System32>netsh advfirewall firewall add rule name=\"Block ICMPv4 Timestamp Request\" protocol=icmpv4:14,any dir=out action=block profile=any\n\nAny advice is appreciated\n\n[ICMP Timestamp Request Remote Date Disclosure | Tenable®](https://www.tenable.com/plugins/nessus/10114)",
+    "permalink": "/r/sysadmin/comments/1kqibx2/how_to_fix_cve19990524_icmp_timestamp_request/",
+    "timestamp": "2025-05-19T17:55:46",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "Your own link rates the severity as Low. Do you *need* to remediate this? It's usually unnecessary for compliance, e.g. PCI, to remediate Low issues.",
+        "level": 0
+      },
+      {
+        "score": 1,
+        "text": "While you are correct, the client has requested that we clean this up regardless of the severity. We have already moved past the identification/risk assessment of this vulnerability and are working on remediation.",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-3953"
+    ],
+    "cve_counts": {
+      "CVE-2025-3953": 1
+    },
+    "title": "FOR fun",
+    "text": "[+] URL: https://partiet-for.no/ [157(.)180(.)38(.)94]\n\nInteresting Finding(s):\n\n[+] Headers\n | Interesting Entry: Server: Apache/2.4.58 (Ubuntu)\n | Found By: Headers (Passive Detection)\n | Confidence: 100%\n\n[+] robots.txt found: https://partiet-for.no/robots.txt\n | Interesting Entries:\n |  - /wp-content/uploads/wc-logs/\n |  - /wp-content/uploads/woocommerce_transient_files/\n |  - /wp-content/uploads/woocommerce_uploads/\n |  - /wp-admin/\n |  - /?s=\n |  - /page/*/?s=\n |  - /search/\n |  - /wp-admin/admin-ajax.php\n | Found By: Robots Txt (Aggressive Detection)\n | Confidence: 100%\n\n[+] XML-RPC seems to be enabled: https://partiet-for.no/xmlrpc.php\n | Found By: Direct Access (Aggressive Detection)\n | Confidence: 100%\n | References:\n |  - http://codex.wordpress.org/XML-RPC_Pingback_API\n |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/\n |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/\n |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/\n |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/\n\n[+] WordPress readme found: https://partiet-for.no/readme.html\n | Found By: Direct Access (Aggressive Detection)\n | Confidence: 100%\n\n[+] Debug Log found: https://partiet-for.no/wp-content/debug.log\n | Found By: Direct Access (Aggressive Detection)\n | Confidence: 100%\n | Reference: https://codex.wordpress.org/Debugging_in_WordPress\n\n[+] The external WP-Cron seems to be enabled: https://partiet-for.no/wp-cron.php\n | Found By: Direct Access (Aggressive Detection)\n | Confidence: 60%\n | References:\n |  - https://www.iplocation.net/defend-wordpress-from-ddos\n |  - https://github.com/wpscanteam/wpscan/issues/1299\n\n[+] WordPress version 6.8.1 identified (Latest, released on 2025-04-30).\n | Found By: Rss Generator (Passive Detection)\n |  - https://partiet-for.no/feed/, <generator>https://wordpress.org/?v=6.8.1</generator>\n |  - https://partiet-for.no/comments/feed/, <generator>https://wordpress.org/?v=6.8.1</generator>\n\n[+] WordPress theme in use: twentytwentyfour\n | Location: https://partiet-for.no/wp-content/themes/twentytwentyfour/\n | Latest Version: 1.3 (up to date)\n | Last Updated: 2024-11-13T00:00:00.000Z\n | Readme: https://partiet-for.no/wp-content/themes/twentytwentyfour/readme.txt\n | Style URL: https://partiet-for.no/wp-content/themes/twentytwentyfour/style.css?ver=6.8.1\n | Style Name: Twenty Twenty-Four\n | Style URI: https://wordpress.org/themes/twentytwentyfour/\n | Description: Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collecti...\n | Author: the WordPress team\n | Author URI: https://wordpress.org\n |\n | Found By: Css Style In Homepage (Passive Detection)\n | Confirmed By: Css Style In 404 Page (Passive Detection)\n |\n | Version: 1.3 (80% confidence)\n | Found By: Style (Passive Detection)\n |  - https://partiet-for.no/wp-content/themes/twentytwentyfour/style.css?ver=6.8.1, Match: 'Version: 1.3'\n\n[+] Enumerating All Plugins (via Passive Methods)\n[+] Checking Plugin Versions (via Passive and Aggressive Methods)\n\n[i] Plugin(s) Identified:\n\n[+] *\n | Location: https://partiet-for.no/wp-content/plugins/*/\n |\n | Found By: Urls In Homepage (Passive Detection)\n | Confirmed By: Urls In 404 Page (Passive Detection)\n |\n | The version could not be determined.\n\n[+] complianz-gdpr\n | Location: https://partiet-for.no/wp-content/plugins/complianz-gdpr/\n | Last Updated: 2025-04-15T11:31:00.000Z\n | [!] The version is out of date, the latest version is 7.4.0.1\n |\n | Found By: Urls In Homepage (Passive Detection)\n | Confirmed By: Urls In 404 Page (Passive Detection)\n |\n | Version: 7.4.0 (100% confidence)\n | Found By: Readme - Stable Tag (Aggressive Detection)\n |  - https://partiet-for.no/wp-content/plugins/complianz-gdpr/readme.txt\n | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)\n |  - https://partiet-for.no/wp-content/plugins/complianz-gdpr/readme.txt\n\n[+] lightbox-photoswipe\n | Location: https://partiet-for.no/wp-content/plugins/lightbox-photoswipe/\n | Last Updated: 2025-04-28T20:28:00.000Z\n | [!] The version is out of date, the latest version is 5.6.2\n |\n | Found By: Urls In Homepage (Passive Detection)\n | Confirmed By: Urls In 404 Page (Passive Detection)\n |\n | Version: 5.6.1 (100% confidence)\n | Found By: Readme - Stable Tag (Aggressive Detection)\n |  - https://partiet-for.no/wp-content/plugins/lightbox-photoswipe/readme.txt\n | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)\n |  - https://partiet-for.no/wp-content/plugins/lightbox-photoswipe/readme.txt\n\n[+] page-list\n | Location: https://partiet-for.no/wp-content/plugins/page-list/\n | Latest Version: 5.7 (up to date)\n | Last Updated: 2024-09-26T21:36:00.000Z\n |\n | Found By: Urls In Homepage (Passive Detection)\n | Confirmed By: Urls In 404 Page (Passive Detection)\n |\n | Version: 5.7 (90% confidence)\n | Found By: Query Parameter (Passive Detection)\n |  - https://partiet-for.no/wp-content/plugins/page-list/css/page-list.css?ver=5.7\n | Confirmed By: Readme - Stable Tag (Aggressive Detection)\n |  - https://partiet-for.no/wp-content/plugins/page-list/readme.txt\n\n[+] simple-membership\n | Location: https://partiet-for.no/wp-content/plugins/simple-membership/\n | Last Updated: 2025-04-07T12:20:00.000Z\n | [!] The version is out of date, the latest version is 4.6.3\n |\n | Found By: Urls In Homepage (Passive Detection)\n | Confirmed By: Urls In 404 Page (Passive Detection)\n |\n | Version: 4.6.2 (100% confidence)\n | Found By: Readme - Stable Tag (Aggressive Detection)\n |  - https://partiet-for.no/wp-content/plugins/simple-membership/readme.txt\n | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)\n |  - https://partiet-for.no/wp-content/plugins/simple-membership/readme.txt\n\n[+] woo-vipps\n | Location: https://partiet-for.no/wp-content/plugins/woo-vipps/\n | Last Updated: 2025-05-19T08:04:00.000Z\n | [!] The version is out of date, the latest version is 4.0.15\n |\n | Found By: Urls In Homepage (Passive Detection)\n | Confirmed By: Urls In 404 Page (Passive Detection)\n |\n | Version: 4.0.14 (80% confidence)\n | Found By: Readme - Stable Tag (Aggressive Detection)\n |  - https://partiet-for.no/wp-content/plugins/woo-vipps/readme.txt\n\n[+] woocommerce\n | Location: https://partiet-for.no/wp-content/plugins/woocommerce/\n | Latest Version: 9.8.5 (up to date)\n | Last Updated: 2025-05-12T11:44:00.000Z\n |\n | Found By: Urls In Homepage (Passive Detection)\n | Confirmed By:\n |  Urls In 404 Page (Passive Detection)\n |  Meta Generator (Passive Detection)\n |\n | Version: 9.8.5 (100% confidence)\n | Found By: Query Parameter (Passive Detection)\n |  - https://partiet-for.no/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=9.8.5\n |  - https://partiet-for.no/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=9.8.5\n |  - https://partiet-for.no/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=9.8.5\n | Confirmed By:\n |  Meta Generator (Passive Detection)\n |   - https://partiet-for.no/, Match: 'WooCommerce 9.8.5'\n |  Readme - ChangeLog Section (Aggressive Detection)\n |   - https://partiet-for.no/wp-content/plugins/woocommerce/readme.txt\n\n[+] wp-statistics\n | Location: https://partiet-for.no/wp-content/plugins/wp-statistics/\n | Last Updated: 2025-04-29T06:10:00.000Z\n | [!] The version is out of date, the latest version is 14.13.4\n |\n | Found By: Urls In Homepage (Passive Detection)\n | Confirmed By: Urls In 404 Page (Passive Detection)\n |\n | [!] 1 vulnerability identified:\n |\n | [!] Title: WP Statistics – The Most Popular Privacy-Friendly Analytics Plugin < 14.13.4 - Subscriber+ Arbitrary Plugin Settings Update\n |     Fixed in: 14.13.4\n |     References:\n |      - https://wpscan.com/vulnerability/4783adeb-0858-4fe8-b69c-772b40a312d9\n |      - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3953\n |      - https://www.wordfence.com/threat-intel/vulnerabilities/id/07f7ef07-0f14-4b74-8d47-d5dece4954b0\n |\n | Version: 14.13.1 (100% confidence)\n | Found By: Readme - Stable Tag (Aggressive Detection)\n |  - https://partiet-for.no/wp-content/plugins/wp-statistics/readme.txt\n | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)\n |  - https://partiet-for.no/wp-content/plugins/wp-statistics/readme.txt\n\n[+] Enumerating Config Backups (via Passive and Aggressive Methods)\n Checking Config Backups - Time: 00:00:15 > (137 / 137) 100.00% Time: 00:00:15\n\n[i] No Config Backups Found.",
+    "permalink": "/r/norge/comments/1kqi089/for_fun/",
+    "timestamp": "2025-05-19T17:43:20",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 3,
+        "text": "Kan du si det om igjen på norsk?",
+        "level": 0
+      },
+      {
+        "score": 1,
+        "text": "FOR moroskyld",
+        "level": 1
+      },
+      {
+        "score": 1,
+        "text": "Takk, men det var i grunnen alt det andre jeg ikke forstod noe av ...",
+        "level": 2
+      }
+    ]
   }
 ]
