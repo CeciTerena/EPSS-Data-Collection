@@ -9598,5 +9598,33 @@
         "level": 2
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-43010"
+    ],
+    "cve_counts": {
+      "CVE-2025-43010": 1
+    },
+    "title": "CVE-2025-43010: High-Risk Vulnerability in SAP S/4HANA Cloud Private Edition",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kqljgr/cve202543010_highrisk_vulnerability_in_sap_s4hana/",
+    "timestamp": "2025-05-19T20:00:04",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4875"
+    ],
+    "cve_counts": {
+      "CVE-2025-4875": 1
+    },
+    "title": "CVE Alert: CVE-2025-4875",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kqleeo/cve_alert_cve20254875/",
+    "timestamp": "2025-05-19T19:54:29",
+    "article_text": "A vulnerability was found in Campcodes Online Shopping Portal 1.0. It has been declared as critical. This vulnerability affects unknown code of the file /forgot-password.php. The manipulation of the argument email leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+    "comments": []
   }
 ]
