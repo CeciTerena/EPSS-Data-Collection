@@ -9515,5 +9515,33 @@
     "timestamp": "2025-05-19T15:42:18",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-49641"
+    ],
+    "cve_counts": {
+      "CVE-2023-49641": 1
+    },
+    "title": "CVE-2023-49641: High-Risk SQL Injection Vulnerability in Billing Software v1.0",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kqgvm9/cve202349641_highrisk_sql_injection_vulnerability/",
+    "timestamp": "2025-05-19T17:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31200"
+    ],
+    "cve_counts": {
+      "CVE-2025-31200": 3
+    },
+    "title": "CVE-2025-31200 – Remote Code Execution in iOS CoreAudio via Malicious Media File (Disclosed & Analyzed)",
+    "text": "Published a full technical breakdown and simulated PoC for **CVE-2025-31200**, a critical RCE vulnerability in iOS’s CoreAudio framework (`AudioConverterService`). The issue allows code execution through a maliciously crafted audio stream, and was quietly patched by Apple in **iOS 18.4.1**.\n\nInitially reported to US-CERT in January, the vulnerability received no CVE assignment or acknowledgment until recently. It is now officially credited to **Apple and Google TAG**, with Apple confirming it was used in a “sophisticated attack against specific targeted individuals.”\n\nThe repository includes:\n\n* Full attack chain write-up\n* Simulated PoC (non-weaponized)\n* Decrypted token leakage analysis\n* AWDL subsystem DoS side effects\n* Timeline from disclosure to patch\n\nNo offensive code is provided — this is for documentation, transparency, and defensive posture only.\n\n**Read the technical details and disclosure here:**  \n👉 [**CVE-2025-31200 – CoreAudio Exploit Analysis**](#)\n\nDiscussion and independent validation welcome.",
+    "permalink": "/r/cybersecurity/comments/1kqfwcj/cve202531200_remote_code_execution_in_ios/",
+    "timestamp": "2025-05-19T16:21:27",
+    "article_text": null,
+    "comments": []
   }
 ]
