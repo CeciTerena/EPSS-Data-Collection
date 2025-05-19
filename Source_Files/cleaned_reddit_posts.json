@@ -8038,5 +8038,18 @@
     "timestamp": "2025-05-19T10:34:43",
     "clean_text": "False Positive? I'm pretty new to Tenable.sc and just had what I believe is a false positive and I'm not sure how to respond to it. We got notified that our scanner found CVE-2024-21762 on our Cisco Firepower Management Center appliance (VM). However CVE-2024-21762 is specifically talking about a RCE on Fortinet FortiOS and the fix is to upgrade to a fixed version. Of course Cisco Firepower Management Center does not run on FortiOS, so do I just recast the risk? Is there a way to notify Tenable of a false positive? Here is the Plugin Output if that helps anyone. Thanks in advance for any input Nessus was able to exploit the issue using the following request : POST /remote/VULNCHECK HTTP/1.1 Host: XXXXX Accept-Charset: iso-8859-1,utf-8;q=0.9,\\*;q=0.1 Accept-Language: en Transfer-Encoding: chunked Connection: Keep-Alive Content-Length: 22 User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0) Pragma: no-cache Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, \\/\\ 0000000000000000FF This produced the following truncated output (limited to 10 lines) : \\- snip - No response (expected) \\- snip -",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47946"
+    ],
+    "cve_counts": {
+      "CVE-2025-47946": 1
+    },
+    "title": "Symfony UX CVE-2025-47946: Unsanitized HTML attribute injection via ComponentAttributes",
+    "permalink": "/r/symfony/comments/1kqb2ls/symfony_ux_cve202547946_unsanitized_html/",
+    "timestamp": "2025-05-19T13:00:02",
+    "clean_text": "Symfony UX CVE-2025-47946: Unsanitized HTML attribute injection via ComponentAttributes",
+    "clean_comments": []
   }
 ]

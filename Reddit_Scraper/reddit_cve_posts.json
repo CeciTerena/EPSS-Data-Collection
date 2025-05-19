@@ -9445,5 +9445,19 @@
     "timestamp": "2025-05-19T10:34:43",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47946"
+    ],
+    "cve_counts": {
+      "CVE-2025-47946": 1
+    },
+    "title": "Symfony UX CVE-2025-47946: Unsanitized HTML attribute injection via ComponentAttributes",
+    "text": "",
+    "permalink": "/r/symfony/comments/1kqb2ls/symfony_ux_cve202547946_unsanitized_html/",
+    "timestamp": "2025-05-19T13:00:02",
+    "article_text": null,
+    "comments": []
   }
 ]
