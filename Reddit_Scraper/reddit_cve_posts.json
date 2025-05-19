@@ -9501,5 +9501,19 @@
     "timestamp": "2025-05-19T14:54:24",
     "article_text": "A vulnerability, which was classified as problematic, has been found in SourceCodester Online Student Clearance System 1.0. Affected by this issue is some unknown functionality. The manipulation leads to cross-site request forgery. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-12987"
+    ],
+    "cve_counts": {
+      "CVE-2024-12987": 1
+    },
+    "title": "Command Injection in apmcfgupload endpoint for DrayTek Gateway Devices (CVE-2024-12987)",
+    "text": "",
+    "permalink": "/r/systemtek/comments/1kqex20/command_injection_in_apmcfgupload_endpoint_for/",
+    "timestamp": "2025-05-19T15:42:18",
+    "article_text": null,
+    "comments": []
   }
 ]
