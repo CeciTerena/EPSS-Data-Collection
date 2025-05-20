@@ -8392,5 +8392,47 @@
     "timestamp": "2025-05-20T17:00:04",
     "clean_text": "CVE-2025-29840: Critical Stack-Based Buffer Overflow Vulnerability in Windows Media",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-45861"
+    ],
+    "cve_counts": {
+      "CVE-2025-45861": 1
+    },
+    "title": "CVE-2025-45861: Critical Buffer Overflow Vulnerability in TOTOLINK A3002R Router",
+    "permalink": "/r/ameeba/comments/1krelok/cve202545861_critical_buffer_overflow/",
+    "timestamp": "2025-05-20T20:00:03",
+    "clean_text": "CVE-2025-45861: Critical Buffer Overflow Vulnerability in TOTOLINK A3002R Router",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 1
+    },
+    "title": "More than 1,500 AI projects are now vulnerable to a silent exploit",
+    "permalink": "/r/AI_Agents/comments/1krei5p/more_than_1500_ai_projects_are_now_vulnerable_to/",
+    "timestamp": "2025-05-20T19:56:03",
+    "clean_text": "More than 1,500 AI projects are now vulnerable to a silent exploit According to the latest research by ARIMLABS\\[.\\]AI, a critical security vulnerability (CVE-2025-47241) has been discovered in the widely used Browser Use framework — a dependency leveraged by more than 1,500 AI projects. The issue enables zero-click agent hijacking, meaning an attacker can take control of an LLM-powered browsing agent simply by getting it to visit a malicious page — no user interaction required. This raises serious concerns about the current state of security in autonomous AI agents, especially those that interact with the web. What’s the community’s take on this? Is AI agent security getting the attention it deserves?",
+    "clean_comments": [
+      "Level 0: This feels like a ticking time bomb. Zero-click exploits on AI agents that browse? That’s like handing hackers the keys without even a password prompt. Honestly, AI security is still playing catch-up while everyone’s hyped about the flashy new features. We need more focus on defensive layers before this blows up in someone’s face.",
+      "Level 1: Yes, it seems we've granted AI more control over our data than necessary. It's clear we need a more secure and accountable infrastructure for AI agents moving forward."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-32928"
+    ],
+    "cve_counts": {
+      "CVE-2025-32928": 1
+    },
+    "title": "CVE Alert: CVE-2025-32928",
+    "permalink": "/r/RedPacketSecurity/comments/1kregud/cve_alert_cve202532928/",
+    "timestamp": "2025-05-20T19:54:36",
+    "clean_text": "CVE Alert: CVE-2025-32928 Deserialization of Untrusted Data vulnerability in ThemeGoods Altair allows Object Injection.This issue affects Altair: from n/a through 5.2.2.",
+    "clean_comments": []
   }
 ]
