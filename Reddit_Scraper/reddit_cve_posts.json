@@ -9949,5 +9949,19 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2024-24780"
+    ],
+    "cve_counts": {
+      "CVE-2024-24780": 1
+    },
+    "title": "CVE-2024-24780: Remote Code Execution Vulnerability in Apache IoTDB",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1krityi/cve202424780_remote_code_execution_vulnerability/",
+    "timestamp": "2025-05-20T23:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
