@@ -8318,5 +8318,40 @@
     "timestamp": "2025-05-20T11:00:04",
     "clean_text": "CVE-2025-45858: Critical Command Injection Vulnerability found in TOTOLINK A3002R",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4474"
+    ],
+    "cve_counts": {
+      "CVE-2025-4474": 1
+    },
+    "title": "CVE-2025-4474: Privilege Escalation Vulnerability in Frontend Dashboard Plugin for WordPress",
+    "permalink": "/r/ameeba/comments/1kr5kur/cve20254474_privilege_escalation_vulnerability_in/",
+    "timestamp": "2025-05-20T14:00:03",
+    "clean_text": "CVE-2025-4474: Privilege Escalation Vulnerability in Frontend Dashboard Plugin for WordPress",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-41227",
+      "CVE-2025-41228",
+      "CVE-2025-41226",
+      "CVE-2025-41225"
+    ],
+    "cve_counts": {
+      "CVE-2025-41225": 1,
+      "CVE-2025-41226": 1,
+      "CVE-2025-41227": 1,
+      "CVE-2025-41228": 1
+    },
+    "title": "VMSA-2025-0010 : VMware ESXi, vCenter Server, Workstation, and Fusion updates address multiple vulnerabilities (CVE-2025-41225, CVE-2025-41226, CVE-2025-41227, CVE-2025-41228)",
+    "permalink": "/r/vmware/comments/1kr4vmi/vmsa20250010_vmware_esxi_vcenter_server/",
+    "timestamp": "2025-05-20T13:28:30",
+    "clean_text": "VMSA-2025-0010 : VMware ESXi, vCenter Server, Workstation, and Fusion updates address multiple vulnerabilities (CVE-2025-41225, CVE-2025-41226, CVE-2025-41227, CVE-2025-41228) Is this actually something new? Checking in vcenter and im not seeing anything newer than 8.0 U3e - 24674464 which is what I am on",
+    "clean_comments": [
+      "Level 0: 8.0 U3e is bugfixes + security. 8.0 U3se is security only. If you have U3e you are fine. Nothing to do here.",
+      "Level 1: Cool, that's what I was thinking. Was so confused when I saw the email."
+    ]
   }
 ]
