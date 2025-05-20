@@ -9904,5 +9904,30 @@
     "timestamp": "2025-05-20T19:54:36",
     "article_text": "Deserialization of Untrusted Data vulnerability in ThemeGoods Altair allows Object Injection.This issue affects Altair: from n/a through 5.2.2.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 1
+    },
+    "title": "More than 1,500 AI projects are now vulnerable to a silent exploit",
+    "text": "According to the latest research by **ARIMLABS\\[.\\]AI**, a critical security vulnerability (**CVE-2025-47241**) has been discovered in the widely used **Browser Use** framework — a dependency leveraged by more than **1,500 AI projects**.\n\nThe issue enables **zero-click agent hijacking**, meaning an attacker can take control of an LLM-powered browsing agent simply by getting it to visit a malicious page — **no user interaction required**.\n\nThis raises serious concerns about the current state of security in autonomous AI agents, especially those that interact with the web.\n\n**What’s the community’s take on this? Is AI agent security getting the attention it deserves?**\n\n(all links in the comments)",
+    "permalink": "/r/cybersecurity/comments/1krf86d/more_than_1500_ai_projects_are_now_vulnerable_to/",
+    "timestamp": "2025-05-20T20:25:28",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 7,
+        "text": "PoC and discussion: [https://x.com/arimlabs/status/1924836858602684585](https://x.com/arimlabs/status/1924836858602684585)",
+        "level": 0
+      },
+      {
+        "score": 0,
+        "text": "> all links in the comments\n\nAnd the only link you post is one to X, which doesn't provide any more insight or extra links, and is written in the same sensational tone as your post...",
+        "level": 1
+      }
+    ]
   }
 ]
