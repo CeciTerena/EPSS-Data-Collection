@@ -8366,5 +8366,18 @@
     "timestamp": "2025-05-20T14:13:49",
     "clean_text": "🐉🔧💥 Feeling lucky? DragonForce is handing out driver-level chaos—BYOVD style Feeling lucky? DragonForce is handing out driver-level chaos—BYOVD style. Picture your pristine EDR face-planting while a bargain-bin driver steals admin keys. Why click before the smoke alarm: • RaaS affiliates are franchising faster than a bad coffee chain—manufacturing & retail are first on the menu. • CVE-2025-0289 + TrueSight.sys = stealth kills that make Scattered Spider blush. • We mapped the overlap, built a 5-step defense checklist you can deploy before Friday. Grab the blog, sharpen your CTI game, and maybe—just maybe—enjoy a weekend not spent re-imaging laptops. Ready to dragon-proof your network, or do you prefer surprise downtime? Read here ➜ <URL> #AlphaHunt #AskYourTIP #CyberSecurity #Ransomware #CTI",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4918"
+    ],
+    "cve_counts": {
+      "CVE-2025-4918": 1
+    },
+    "title": "CVE-2025-4918/19",
+    "permalink": "/r/LibreWolf/comments/1kr8mol/cve2025491819/",
+    "timestamp": "2025-05-20T16:04:01",
+    "clean_text": "CVE-2025-4918/19 Are these two vulnerabilities already patched on version 128.0.3-2?",
+    "clean_comments": []
   }
 ]
