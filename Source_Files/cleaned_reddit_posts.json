@@ -8353,5 +8353,18 @@
       "Level 0: 8.0 U3e is bugfixes + security. 8.0 U3se is security only. If you have U3e you are fine. Nothing to do here.",
       "Level 1: Cool, that's what I was thinking. Was so confused when I saw the email."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-0289"
+    ],
+    "cve_counts": {
+      "CVE-2025-0289": 1
+    },
+    "title": "🐉🔧💥 Feeling lucky? DragonForce is handing out driver-level chaos—BYOVD style",
+    "permalink": "/r/AlphaHuntIntel/comments/1kr5wk6/feeling_lucky_dragonforce_is_handing_out/",
+    "timestamp": "2025-05-20T14:13:49",
+    "clean_text": "🐉🔧💥 Feeling lucky? DragonForce is handing out driver-level chaos—BYOVD style Feeling lucky? DragonForce is handing out driver-level chaos—BYOVD style. Picture your pristine EDR face-planting while a bargain-bin driver steals admin keys. Why click before the smoke alarm: • RaaS affiliates are franchising faster than a bad coffee chain—manufacturing & retail are first on the menu. • CVE-2025-0289 + TrueSight.sys = stealth kills that make Scattered Spider blush. • We mapped the overlap, built a 5-step defense checklist you can deploy before Friday. Grab the blog, sharpen your CTI game, and maybe—just maybe—enjoy a weekend not spent re-imaging laptops. Ready to dragon-proof your network, or do you prefer surprise downtime? Read here ➜ <URL> #AlphaHunt #AskYourTIP #CyberSecurity #Ransomware #CTI",
+    "clean_comments": []
   }
 ]

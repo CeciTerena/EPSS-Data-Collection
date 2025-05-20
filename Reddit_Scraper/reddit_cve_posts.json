@@ -9809,5 +9809,19 @@
         "level": 1
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-0289"
+    ],
+    "cve_counts": {
+      "CVE-2025-0289": 1
+    },
+    "title": "🐉🔧💥 Feeling lucky? DragonForce is handing out driver-level chaos—BYOVD style",
+    "text": "🐉🔧💥 Feeling lucky? DragonForce is handing out driver-level chaos—BYOVD style. Picture your pristine EDR face-planting while a bargain-bin driver steals admin keys.\n\nWhy click before the smoke alarm:\n• RaaS affiliates are franchising faster than a bad coffee chain—manufacturing & retail are first on the menu.\n• CVE-2025-0289 + TrueSight.sys = stealth kills that make Scattered Spider blush.\n• We mapped the overlap, built a 5-step defense checklist you can deploy before Friday.\n\nGrab the blog, sharpen your CTI game, and maybe—just maybe—enjoy a weekend not spent re-imaging laptops.\n\nReady to dragon-proof your network, or do you prefer surprise downtime?\n\nRead here ➜ https://blog.alphahunt.io/dragonforce-ransomware-byovd-weaponization-affiliate-expansion-and-edr-evasion-in-2025/\n\n#AlphaHunt #AskYourTIP #CyberSecurity #Ransomware #CTI",
+    "permalink": "/r/AlphaHuntIntel/comments/1kr5wk6/feeling_lucky_dragonforce_is_handing_out/",
+    "timestamp": "2025-05-20T14:13:49",
+    "article_text": null,
+    "comments": []
   }
 ]
