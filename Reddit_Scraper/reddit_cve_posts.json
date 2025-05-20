@@ -9718,5 +9718,37 @@
     "timestamp": "2025-05-20T08:00:04",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3914",
+      "CVE-2025-4918",
+      "CVE-2025-21836",
+      "CVE-2025-4919",
+      "CVE-2025-31191",
+      "CVE-2025-31201",
+      "CVE-2025-21297",
+      "CVE-2025-24203",
+      "CVE-2025-4664",
+      "CVE-2023-41992"
+    ],
+    "cve_counts": {
+      "CVE-2025-21297": 2,
+      "CVE-2025-3914": 2,
+      "CVE-2025-31201": 2,
+      "CVE-2025-31191": 2,
+      "CVE-2025-24203": 2,
+      "CVE-2025-4919": 2,
+      "CVE-2025-4664": 2,
+      "CVE-2025-21836": 2,
+      "CVE-2023-41992": 2,
+      "CVE-2025-4918": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (20/05/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-21297](https://nvd.nist.gov/vuln/detail/CVE-2025-21297)**\n\n- 📝 Windows Remote Desktop Services Remote Code Execution Vulnerability\n\n- 📅 **Published:** 14/01/2025\n- 📈 **CVSS:** 8.1\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C\n- 📣 **Mentions:** 6\n- ⚠️ **Priority:** 2\n\n---\n\n**2. [CVE-2025-3914](https://nvd.nist.gov/vuln/detail/CVE-2025-3914)**\n\n- 📝 The Aeropage Sync for Airtable plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the 'aeropage_media_downloader' function in all versions up to, and including, 3.2.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.\n\n- 📅 **Published:** 26/04/2025\n- 📈 **CVSS:** 8.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 3\n- ⚠️ **Priority:** 2\n\n---\n\n**3. [CVE-2025-31201](https://nvd.nist.gov/vuln/detail/CVE-2025-31201)**\n\n- 📝 This issue was addressed by removing the vulnerable code. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 6.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 43\n- ⚠️ **Priority:** 1+\n\n---\n\n**4. [CVE-2025-31191](https://nvd.nist.gov/vuln/detail/CVE-2025-31191)**\n\n- 📝 This issue was addressed through improved state management. This issue is fixed in macOS Ventura 13.7.5, tvOS 18.4, iOS 18.4 and iPadOS 18.4, macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to access sensitive user data.\n\n- 📅 **Published:** 31/03/2025\n- 📈 **CVSS:** 5.5\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N\n- 📣 **Mentions:** 14\n- ⚠️ **Priority:** 4\n\n---\n\n**5. [CVE-2025-24203](https://nvd.nist.gov/vuln/detail/CVE-2025-24203)**\n\n- 📝 The issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.7.5, iPadOS 17.7.6, macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to modify protected parts of the file system.\n\n- 📅 **Published:** 31/03/2025\n- 📈 **CVSS:** 5\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 4\n\n---\n\n**6. [CVE-2025-4919](https://nvd.nist.gov/vuln/detail/CVE-2025-4919)**\n\n- 📝 An attacker was able to perform an out-of-bounds read or write on a JavaScript object by confusing array index sizes. This vulnerability affects Firefox < 138.0.4, Firefox ESR < 128.10.1, and Firefox ESR < 115.23.1.\n\n- 📅 **Published:** 17/05/2025\n- 📈 **CVSS:** 8.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 9\n- ⚠️ **Priority:** 4\n\n---\n\n**7. [CVE-2025-4664](https://nvd.nist.gov/vuln/detail/CVE-2025-4664)**\n\n- 📝 Insufficient policy enforcement in Loader in Google Chrome prior to 136.0.7103.113 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)\n\n- 📅 **Published:** 14/05/2025\n- 📈 **CVSS:** 4.3\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N\n- 📣 **Mentions:** 50\n- ⚠️ **Priority:** 4\n\n---\n\n**8. [CVE-2025-21836](https://nvd.nist.gov/vuln/detail/CVE-2025-21836)**\n\n- 📝 In the Linux kernel, the following vulnerability has been resolved: io_uring/kbuf: reallocate buf lists on upgrade IORING_REGISTER_PBUF_RING can reuse an old struct io_buffer_list if it was created for legacy selected buffer and has been emptied. It violates the requirement that most of the field should stay stable after publish. Always reallocate it instead.\n\n- 📅 **Published:** 07/03/2025\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 4\n\n---\n\n**9. [CVE-2023-41992](https://nvd.nist.gov/vuln/detail/CVE-2023-41992)**\n\n- 📝 The issue was addressed with improved checks. This issue is fixed in macOS Monterey 12.7, iOS 16.7 and iPadOS 16.7, macOS Ventura 13.6. A local attacker may be able to elevate their privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.\n\n- 📅 **Published:** 21/09/2023\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- 📣 **Mentions:** 3\n- ⚠️ **Priority:** 2\n\n---\n\n**10. [CVE-2025-4918](https://nvd.nist.gov/vuln/detail/CVE-2025-4918)**\n\n- 📝 An attacker was able to perform an out-of-bounds read or write on a JavaScript `Promise` object. This vulnerability affects Firefox < 138.0.4, Firefox ESR < 128.10.1, and Firefox ESR < 115.23.1.\n\n- 📅 **Published:** 17/05/2025\n- 📈 **CVSS:** 7.5\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N\n- 📣 **Mentions:** 10\n- ⚠️ **Priority:** 4\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details.",
+    "permalink": "/r/CVEWatch/comments/1kr1629/top_10_trending_cves_20052025/",
+    "timestamp": "2025-05-20T10:06:54",
+    "article_text": null,
+    "comments": []
   }
 ]
