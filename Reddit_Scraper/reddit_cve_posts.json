@@ -9690,5 +9690,19 @@
     "timestamp": "2025-05-20T05:00:05",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "China-Nexus Nation State Actors Exploit SAP NetWeaver (CVE-2025-31324) to Target Critical Infrastructures",
+    "text": "",
+    "permalink": "/r/fofa_info/comments/1kqy0rs/chinanexus_nation_state_actors_exploit_sap/",
+    "timestamp": "2025-05-20T06:22:50",
+    "article_text": null,
+    "comments": []
   }
 ]

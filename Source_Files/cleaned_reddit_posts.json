@@ -8248,5 +8248,18 @@
     "timestamp": "2025-05-20T05:00:05",
     "clean_text": "CVE-2025-26390: Critical SQL Injection Vulnerability in OZW672 and OZW772 Devices",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "China-Nexus Nation State Actors Exploit SAP NetWeaver (CVE-2025-31324) to Target Critical Infrastructures",
+    "permalink": "/r/fofa_info/comments/1kqy0rs/chinanexus_nation_state_actors_exploit_sap/",
+    "timestamp": "2025-05-20T06:22:50",
+    "clean_text": "China-Nexus Nation State Actors Exploit SAP NetWeaver (CVE-2025-31324) to Target Critical Infrastructures",
+    "clean_comments": []
   }
 ]
