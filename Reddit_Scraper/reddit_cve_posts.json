@@ -9704,5 +9704,19 @@
     "timestamp": "2025-05-20T06:22:50",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22462"
+    ],
+    "cve_counts": {
+      "CVE-2025-22462": 1
+    },
+    "title": "CVE-2025-22462: Authentication Bypass Vulnerability in Ivanti Neurons for ITSM",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kqze5m/cve202522462_authentication_bypass_vulnerability/",
+    "timestamp": "2025-05-20T08:00:04",
+    "article_text": null,
+    "comments": []
   }
 ]
