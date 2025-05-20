@@ -8235,5 +8235,18 @@
     "timestamp": "2025-05-20T02:00:03",
     "clean_text": "CVE-2025-32469: Command Injection Vulnerability in RUGGEDCOM ROX Series",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26390"
+    ],
+    "cve_counts": {
+      "CVE-2025-26390": 1
+    },
+    "title": "CVE-2025-26390: Critical SQL Injection Vulnerability in OZW672 and OZW772 Devices",
+    "permalink": "/r/ameeba/comments/1kqws1b/cve202526390_critical_sql_injection_vulnerability/",
+    "timestamp": "2025-05-20T05:00:05",
+    "clean_text": "CVE-2025-26390: Critical SQL Injection Vulnerability in OZW672 and OZW772 Devices",
+    "clean_comments": []
   }
 ]
