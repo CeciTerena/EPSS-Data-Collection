@@ -8730,5 +8730,18 @@
     "timestamp": "2025-05-21T14:12:01",
     "clean_text": "🚨 CVE-2025-47241: Zero-Click Vulnerability Found in Browser Use Framework – Over 1,500 AI Projects at Risk According to a new report by ARIMLABS.AI, a critical zero-click vulnerability (CVE-2025-47241) has been identified in the Browser Use framework, a dependency used in more than 1,500 AI-powered projects — many of which rely on it for LLM-based web browsing and autonomous agent tasks. What Is the Vulnerability? The flaw enables zero-click agent hijacking, a serious attack vector where a large language model (LLM)–powered browsing agent can be fully compromised simply by visiting a malicious webpage. No user interaction is required — the attacker merely needs the AI agent to browse to the page. This means that any autonomous AI tool or research agent using Browser Use and granted internet access could be silently taken over, manipulated, or exploited to exfiltrate data, propagate malware, or carry out further attacks. Why It MattersThis is not just a one-off flaw — it's a wake-up call for the entire AI development ecosystem. As autonomous agents become more powerful and capable, their security risks grow exponentially. Yet, most projects still lack even basic threat modeling. AI agents that browse the web, click links, parse dynamic content, or fill forms must be sandboxed and auditable — but many aren't. The widespread use of third-party frameworks like Browser Use without sufficient hardening exposes a massive surface area for attackers. Links & Further Reading (in comments): * Proof-of-Concept & Discussion (Twitter/X) * Technical Paper (arXiv) * GitHub Security Advisory * Original Blog Post by ARIMLABS * [Contact the Researchers]() What’s Next? We’re now at a pivotal moment for AI agent security. This exploit raises a key question for the community: > The tools we build today will power the assistants, decision-makers, and automation engines of tomorrow. We must bake in safety, accountability, and secure-by-design principles before it's too late. VCE-2020-47241",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4664"
+    ],
+    "cve_counts": {
+      "CVE-2025-4664": 1
+    },
+    "title": "Detecting Chrome CVE-2025-4664 vu",
+    "permalink": "/r/Wazuh/comments/1ks1mdn/detecting_chrome_cve20254664_vu/",
+    "timestamp": "2025-05-21T16:05:15",
+    "clean_text": "Detecting Chrome CVE-2025-4664 vu",
+    "clean_comments": []
   }
 ]

@@ -10264,5 +10264,19 @@
     "timestamp": "2025-05-21T14:12:01",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4664"
+    ],
+    "cve_counts": {
+      "CVE-2025-4664": 1
+    },
+    "title": "Detecting Chrome CVE-2025-4664 vu",
+    "text": "",
+    "permalink": "/r/Wazuh/comments/1ks1mdn/detecting_chrome_cve20254664_vu/",
+    "timestamp": "2025-05-21T16:05:15",
+    "article_text": null,
+    "comments": []
   }
 ]
