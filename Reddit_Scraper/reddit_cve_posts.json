@@ -10208,5 +10208,61 @@
         "level": 2
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2024-45641"
+    ],
+    "cve_counts": {
+      "CVE-2024-45641": 1
+    },
+    "title": "CVE Alert: CVE-2024-45641",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1krzud6/cve_alert_cve202445641/",
+    "timestamp": "2025-05-21T14:54:24",
+    "article_text": "IBM Security ReaQta EDR 3.12 could allow an attacker to perform unauthorized actions due to improper SSL certificate validation.",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "Protecting Against SAP NetWeaver Vulnerability (CVE-2025-31324) with HAProxy",
+    "text": "",
+    "permalink": "/r/haproxy/comments/1kryxr1/protecting_against_sap_netweaver_vulnerability/",
+    "timestamp": "2025-05-21T14:16:24",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 2
+    },
+    "title": "CVE-2025-47241: Zero-Click Vulnerability Found in Browser Use Framework – Over 1,500 AI Projects at Risk",
+    "text": "According to a new report by [ARIMLABS.AI](https://arimlabs.ai/news/the-hidden-dangers-of-browsing-ai-agents), a **critical zero-click vulnerability (CVE-2025-47241)** has been identified in the **Browser Use framework**, a dependency used in more than **1,500 AI-powered projects** — many of which rely on it for LLM-based web browsing and autonomous agent tasks.\n\n# 🔓 What Is the Vulnerability?\n\nThe flaw enables **zero-click agent hijacking**, a serious attack vector where a large language model (LLM)–powered browsing agent can be **fully compromised simply by visiting a malicious webpage**. No user interaction is required — the attacker merely needs the AI agent to *browse* to the page.\n\nThis means that any autonomous AI tool or research agent using Browser Use and granted internet access could be silently taken over, manipulated, or exploited to exfiltrate data, propagate malware, or carry out further attacks.\n\n# ⚠️ Why It Matters\n\nThis is not just a one-off flaw — it's a **wake-up call for the entire AI development ecosystem**. As autonomous agents become more powerful and capable, their security risks grow exponentially. Yet, most projects still lack even basic threat modeling.\n\nAI agents that browse the web, click links, parse dynamic content, or fill forms **must be sandboxed and auditable** — but many aren't. The widespread use of third-party frameworks like Browser Use without sufficient hardening exposes a massive surface area for attackers.\n\n# 🔍 Links & Further Reading (in comments):\n\n* 💣 [Proof-of-Concept & Discussion (Twitter/X)](https://x.com/arimlabs/status/1924836858602684585)\n* 📄 [Technical Paper (arXiv)](https://arxiv.org/pdf/2505.13076)\n* 🔐 [GitHub Security Advisory](https://github.com/browser-use/browser-use/security/advisories/GHSA-x39x-9qw5-ghrf)\n* 📰 [Original Blog Post by ARIMLABS](https://arimlabs.ai/news/the-hidden-dangers-of-browsing-ai-agents)\n* 📬 [Contact the Researchers]()\n\n# 🧠 What’s Next?\n\nWe’re now at a pivotal moment for **AI agent security**. This exploit raises a key question for the community:\n\n>\n\nThe tools we build today will power the assistants, decision-makers, and automation engines of tomorrow. We must **bake in safety, accountability, and secure-by-design principles** before it's too late.\n\nJoin the conversation on Reddit or X. What’s your take?",
+    "permalink": "/r/best_ai_tools_org/comments/1kryvor/cve202547241_zeroclick_vulnerability_found_in/",
+    "timestamp": "2025-05-21T14:14:02",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 2
+    },
+    "title": "🚨 CVE-2025-47241: Zero-Click Vulnerability Found in Browser Use Framework – Over 1,500 AI Projects at Risk",
+    "text": "According to a new report by [ARIMLABS.AI](https://arimlabs.ai/news/the-hidden-dangers-of-browsing-ai-agents), a **critical zero-click vulnerability (CVE-2025-47241)** has been identified in the **Browser Use framework**, a dependency used in more than **1,500 AI-powered projects** — many of which rely on it for LLM-based web browsing and autonomous agent tasks.\n\n# 🔓 What Is the Vulnerability?\n\nThe flaw enables **zero-click agent hijacking**, a serious attack vector where a large language model (LLM)–powered browsing agent can be **fully compromised simply by visiting a malicious webpage**. No user interaction is required — the attacker merely needs the AI agent to *browse* to the page.\n\nThis means that any autonomous AI tool or research agent using Browser Use and granted internet access could be silently taken over, manipulated, or exploited to exfiltrate data, propagate malware, or carry out further attacks.\n\n# ⚠️ Why It MattersThis is not just a one-off flaw — it's a wake-up call for the entire AI development ecosystem. As autonomous agents become more powerful and capable, their security risks grow exponentially. Yet, most projects still lack even basic threat modeling.\n\nAI agents that browse the web, click links, parse dynamic content, or fill forms **must be sandboxed and auditable** — but many aren't. The widespread use of third-party frameworks like Browser Use without sufficient hardening exposes a massive surface area for attackers.\n\n# 🔍 Links & Further Reading (in comments):\n\n* 💣 [Proof-of-Concept & Discussion (Twitter/X)](https://x.com/arimlabs/status/1924836858602684585)\n* 📄 [Technical Paper (arXiv)](https://arxiv.org/pdf/2505.13076)\n* 🔐 [GitHub Security Advisory](https://github.com/browser-use/browser-use/security/advisories/GHSA-x39x-9qw5-ghrf)\n* 📰 [Original Blog Post by ARIMLABS](https://arimlabs.ai/news/the-hidden-dangers-of-browsing-ai-agents)\n* 📬 [Contact the Researchers]()\n\n# 🧠 What’s Next?\n\nWe’re now at a pivotal moment for **AI agent security**. This exploit raises a key question for the community:\n\n>\n\nThe tools we build today will power the assistants, decision-makers, and automation engines of tomorrow. We must **bake in safety, accountability, and secure-by-design principles** before it's too late.\n\n[VCE-2020-47241](https://preview.redd.it/w3yxutaw752f1.png?width=1024&format=png&auto=webp&s=5fbca2cc123ce146dfab8858336472f29d0a5e06)\n\n",
+    "permalink": "/r/AIAgentBuilder/comments/1krytyw/cve202547241_zeroclick_vulnerability_found_in/",
+    "timestamp": "2025-05-21T14:12:01",
+    "article_text": null,
+    "comments": []
   }
 ]

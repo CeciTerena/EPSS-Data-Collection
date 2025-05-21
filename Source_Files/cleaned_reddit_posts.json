@@ -8678,5 +8678,57 @@
       "Level 2: Yesterday the post did not have links in the post itself. They were in a comment. People even commented on that fact and how you were linking a twitter post.",
       "Level 2: Why would having links in the post make the mods delete it?"
     ]
+  },
+  {
+    "cves": [
+      "CVE-2024-45641"
+    ],
+    "cve_counts": {
+      "CVE-2024-45641": 1
+    },
+    "title": "CVE Alert: CVE-2024-45641",
+    "permalink": "/r/RedPacketSecurity/comments/1krzud6/cve_alert_cve202445641/",
+    "timestamp": "2025-05-21T14:54:24",
+    "clean_text": "CVE Alert: CVE-2024-45641 IBM Security ReaQta EDR 3.12 could allow an attacker to perform unauthorized actions due to improper SSL certificate validation.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "Protecting Against SAP NetWeaver Vulnerability (CVE-2025-31324) with HAProxy",
+    "permalink": "/r/haproxy/comments/1kryxr1/protecting_against_sap_netweaver_vulnerability/",
+    "timestamp": "2025-05-21T14:16:24",
+    "clean_text": "Protecting Against SAP NetWeaver Vulnerability (CVE-2025-31324) with HAProxy",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 2
+    },
+    "title": "CVE-2025-47241: Zero-Click Vulnerability Found in Browser Use Framework – Over 1,500 AI Projects at Risk",
+    "permalink": "/r/best_ai_tools_org/comments/1kryvor/cve202547241_zeroclick_vulnerability_found_in/",
+    "timestamp": "2025-05-21T14:14:02",
+    "clean_text": "CVE-2025-47241: Zero-Click Vulnerability Found in Browser Use Framework – Over 1,500 AI Projects at Risk According to a new report by ARIMLABS.AI, a critical zero-click vulnerability (CVE-2025-47241) has been identified in the Browser Use framework, a dependency used in more than 1,500 AI-powered projects — many of which rely on it for LLM-based web browsing and autonomous agent tasks. What Is the Vulnerability? The flaw enables zero-click agent hijacking, a serious attack vector where a large language model (LLM)–powered browsing agent can be fully compromised simply by visiting a malicious webpage. No user interaction is required — the attacker merely needs the AI agent to browse to the page. This means that any autonomous AI tool or research agent using Browser Use and granted internet access could be silently taken over, manipulated, or exploited to exfiltrate data, propagate malware, or carry out further attacks. Why It Matters This is not just a one-off flaw — it's a wake-up call for the entire AI development ecosystem. As autonomous agents become more powerful and capable, their security risks grow exponentially. Yet, most projects still lack even basic threat modeling. AI agents that browse the web, click links, parse dynamic content, or fill forms must be sandboxed and auditable — but many aren't. The widespread use of third-party frameworks like Browser Use without sufficient hardening exposes a massive surface area for attackers. Links & Further Reading (in comments): * Proof-of-Concept & Discussion (Twitter/X) * Technical Paper (arXiv) * GitHub Security Advisory * Original Blog Post by ARIMLABS * [Contact the Researchers]() What’s Next? We’re now at a pivotal moment for AI agent security. This exploit raises a key question for the community: > The tools we build today will power the assistants, decision-makers, and automation engines of tomorrow. We must bake in safety, accountability, and secure-by-design principles before it's too late. Join the conversation on Reddit or X. What’s your take?",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 2
+    },
+    "title": "🚨 CVE-2025-47241: Zero-Click Vulnerability Found in Browser Use Framework – Over 1,500 AI Projects at Risk",
+    "permalink": "/r/AIAgentBuilder/comments/1krytyw/cve202547241_zeroclick_vulnerability_found_in/",
+    "timestamp": "2025-05-21T14:12:01",
+    "clean_text": "🚨 CVE-2025-47241: Zero-Click Vulnerability Found in Browser Use Framework – Over 1,500 AI Projects at Risk According to a new report by ARIMLABS.AI, a critical zero-click vulnerability (CVE-2025-47241) has been identified in the Browser Use framework, a dependency used in more than 1,500 AI-powered projects — many of which rely on it for LLM-based web browsing and autonomous agent tasks. What Is the Vulnerability? The flaw enables zero-click agent hijacking, a serious attack vector where a large language model (LLM)–powered browsing agent can be fully compromised simply by visiting a malicious webpage. No user interaction is required — the attacker merely needs the AI agent to browse to the page. This means that any autonomous AI tool or research agent using Browser Use and granted internet access could be silently taken over, manipulated, or exploited to exfiltrate data, propagate malware, or carry out further attacks. Why It MattersThis is not just a one-off flaw — it's a wake-up call for the entire AI development ecosystem. As autonomous agents become more powerful and capable, their security risks grow exponentially. Yet, most projects still lack even basic threat modeling. AI agents that browse the web, click links, parse dynamic content, or fill forms must be sandboxed and auditable — but many aren't. The widespread use of third-party frameworks like Browser Use without sufficient hardening exposes a massive surface area for attackers. Links & Further Reading (in comments): * Proof-of-Concept & Discussion (Twitter/X) * Technical Paper (arXiv) * GitHub Security Advisory * Original Blog Post by ARIMLABS * [Contact the Researchers]() What’s Next? We’re now at a pivotal moment for AI agent security. This exploit raises a key question for the community: > The tools we build today will power the assistants, decision-makers, and automation engines of tomorrow. We must bake in safety, accountability, and secure-by-design principles before it's too late. VCE-2020-47241",
+    "clean_comments": []
   }
 ]
