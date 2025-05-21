@@ -10139,5 +10139,74 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-29962"
+    ],
+    "cve_counts": {
+      "CVE-2025-29962": 1
+    },
+    "title": "CVE-2025-29962: Heap-Based Buffer Overflow Vulnerability in Windows Media",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kryjhy/cve202529962_heapbased_buffer_overflow/",
+    "timestamp": "2025-05-21T14:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 1
+    },
+    "title": "More than 1,500 AI projects are now vulnerable to a silent exploit",
+    "text": "According to the latest research by **ARIMLABS\\[.\\]AI**, a critical security vulnerability (**CVE-2025-47241**) has been discovered in the widely used **Browser Use** framework — a dependency leveraged by more than **1,500 AI projects**.\n\nThe issue enables **zero-click agent hijacking**, meaning an attacker can take control of an LLM-powered browsing agent simply by getting it to visit a malicious page — **no user interaction required**.\n\nThis raises serious concerns about the current state of security in autonomous AI agents, especially those that interact with the web.\n\n**What’s the community’s take on this? Is AI agent security getting the attention it deserves?**\n\n(all links in the comments)",
+    "permalink": "/r/artificial/comments/1kryama/more_than_1500_ai_projects_are_now_vulnerable_to/",
+    "timestamp": "2025-05-21T13:49:08",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "Pretty sure things like this have been known for a while, no?",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 1
+    },
+    "title": "More than 1,500 AI projects are now vulnerable to a silent exploit",
+    "text": "According to the latest research by **ARIMLABS\\[.\\]AI**, a critical security vulnerability (**CVE-2025-47241**) has been discovered in the widely used **Browser Use** framework — a dependency leveraged by more than **1,500 AI projects**.\n\nThe issue enables **zero-click agent hijacking**, meaning an attacker can take control of an LLM-powered browsing agent simply by getting it to visit a malicious page — **no user interaction required**.\n\nThis raises serious concerns about the current state of security in autonomous AI agents, especially those that interact with the web.\n\n**What’s the community’s take on this? Is AI agent security getting the attention it deserves?**  \n(all links in comments)",
+    "permalink": "/r/cybersecurity/comments/1kry5qs/more_than_1500_ai_projects_are_now_vulnerable_to/",
+    "timestamp": "2025-05-21T13:42:55",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 2,
+        "text": "You posted this same thing yesterday and it was removed by the moderators.",
+        "level": 0
+      },
+      {
+        "score": -1,
+        "text": "I accidentially added the links to the post itself :) That's why it was deleted.",
+        "level": 1
+      },
+      {
+        "score": 2,
+        "text": "Yesterday the post did not have links in the post itself. They were in a comment. People even commented on that fact and how you were linking a twitter post.",
+        "level": 2
+      },
+      {
+        "score": 1,
+        "text": "Why would having links in the post make the mods delete it?",
+        "level": 2
+      }
+    ]
   }
 ]
