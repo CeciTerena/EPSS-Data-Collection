@@ -9963,5 +9963,19 @@
     "timestamp": "2025-05-20T23:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47777"
+    ],
+    "cve_counts": {
+      "CVE-2025-47777": 1
+    },
+    "title": "CVE-2025-47777: Critical Stored Cross-Site Scripting Vulnerability in 5ire AI Assistant",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1krmgfy/cve202547777_critical_stored_crosssite_scripting/",
+    "timestamp": "2025-05-21T02:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
