@@ -53,7 +53,14 @@ def add_source(cve_list):
     for cve in cve_list:
         cve['source'] = "mastodon"
 
-add_source(cve_posts)
+
+def extract_date(cve_list):
+    # Extract the date from the created_at field
+    for cve in cve_list:
+        cve['created_at'] = cve['created_at'][:10]
+
+# add_source(cve_posts)
+extract_date(cve_posts)
 with open(cve_path, "w", encoding="utf-8") as f:
     print("Populating with CVE posts...")
     json.dump(cve_posts, f, ensure_ascii=False, indent=2)
