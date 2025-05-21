@@ -8491,5 +8491,18 @@
     "timestamp": "2025-05-21T02:00:03",
     "clean_text": "CVE-2025-47777: Critical Stored Cross-Site Scripting Vulnerability in 5ire AI Assistant",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-43560"
+    ],
+    "cve_counts": {
+      "CVE-2025-43560": 1
+    },
+    "title": "CVE-2025-43560: Improper Input Validation Vulnerability in ColdFusion Allowing Arbitrary Code Execution",
+    "permalink": "/r/ameeba/comments/1krpp64/cve202543560_improper_input_validation/",
+    "timestamp": "2025-05-21T05:00:04",
+    "clean_text": "CVE-2025-43560: Improper Input Validation Vulnerability in ColdFusion Allowing Arbitrary Code Execution",
+    "clean_comments": []
   }
 ]
