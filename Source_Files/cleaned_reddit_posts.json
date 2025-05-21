@@ -8756,5 +8756,18 @@
     "timestamp": "2025-05-21T17:00:03",
     "clean_text": "CVE-2025-4564: Arbitrary File Deletion Vulnerability in TicketBAI Facturas para WooCommerce Plugin",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26147"
+    ],
+    "cve_counts": {
+      "CVE-2025-26147": 1
+    },
+    "title": "CVE-2025-26147: Authenticated RCE In Denodo Scheduler",
+    "permalink": "/r/netsec/comments/1ks3o5z/cve202526147_authenticated_rce_in_denodo_scheduler/",
+    "timestamp": "2025-05-21T17:26:30",
+    "clean_text": "CVE-2025-26147: Authenticated RCE In Denodo Scheduler",
+    "clean_comments": []
   }
 ]
