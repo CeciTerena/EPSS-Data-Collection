@@ -10306,5 +10306,33 @@
     "timestamp": "2025-05-21T17:26:30",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29964"
+    ],
+    "cve_counts": {
+      "CVE-2025-29964": 1
+    },
+    "title": "CVE-2025-29964: Heap-based Buffer Overflow Vulnerability in Windows Media",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1ks7ihj/cve202529964_heapbased_buffer_overflow/",
+    "timestamp": "2025-05-21T20:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47936"
+    ],
+    "cve_counts": {
+      "CVE-2025-47936": 1
+    },
+    "title": "CVE Alert: CVE-2025-47936",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1ks7dft/cve_alert_cve202547936/",
+    "timestamp": "2025-05-21T19:54:28",
+    "article_text": "TYPO3 is an open source, PHP based web content management system. In versions on the 12.x branch prior to 12.4.31 LTS and the 13.x branch prior to 13.4.2 LTS, Webhooks are inherently vulnerable to Cross-Site Request Forgery (CSRF), which can be exploited by adversaries to target internal resources (e.g., localhost or other services on the local network). While this is not a vulnerability in TYPO3 itself, it may enable attackers to blindly access systems that would otherwise be inaccessible. An administrator-level backend user account is required to exploit this vulnerability. Users should update to TYPO3 version 12.4.31 LTS or 13.4.12 LTS to fix the problem.",
+    "comments": []
   }
 ]
