@@ -10005,5 +10005,59 @@
     "timestamp": "2025-05-21T05:57:33",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 1
+    },
+    "title": "More than 1,500 AI projects are now vulnerable to a silent exploit",
+    "text": "According to the latest research by **ARIMLABS\\[.\\]AI**, a critical security vulnerability (**CVE-2025-47241**) has been discovered in the widely used **Browser Use** framework — a dependency leveraged by more than **1,500 AI projects**.\n\nThe issue enables **zero-click agent hijacking**, meaning an attacker can take control of an LLM-powered browsing agent simply by getting it to visit a malicious page — **no user interaction required**.\n\nThis raises serious concerns about the current state of security in autonomous AI agents, especially those that interact with the web.\n\n**What’s the community’s take on this? Is AI agent security getting the attention it deserves?**\n\n(all links in the comments)",
+    "permalink": "/r/artificial/comments/1krrgiq/more_than_1500_ai_projects_are_now_vulnerable_to/",
+    "timestamp": "2025-05-21T06:55:56",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "The CVE-2025-47241 vulnerability in the Browser Use framework allows attackers to bypass domain whitelisting controls, potentially leading to unauthorized access to internal services, highlighting significant security concerns for AI agents interacting with the web. This flaw, disclosed by ARIMLABS.AI, disables security protections and affects over 1,500 AI projects, emphasizing the need for urgent security updates and mitigations.\n\n* [CVE-2025-47241 Detail - NVD](https://nvd.nist.gov/vuln/detail/CVE-2025-47241)\n* [Browser Use is hacked... More than 1,500 AI projects are ... - Reddit](https://www.reddit.com/r/ClaudeAI/comments/1krf0oa/browser_use_is_hacked_more_than_1500_ai_projects/)\n* [CVE-2025-47241 - Red Hat Customer Portal](https://access.redhat.com/security/cve/cve-2025-47241)\n\n^(This is a bot made by [Critique AI](https://critique-labs.ai). If you want vetted information like this on all content you browse, [download our extension](https://critiquebrowser.app).)",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 1
+    },
+    "title": "More than 1,500 AI projects are now vulnerable to a silent exploit",
+    "text": "According to the latest research by **ARIMLABS\\[.\\]AI**, a critical security vulnerability (**CVE-2025-47241**) has been discovered in the widely used **Browser Use** framework — a dependency leveraged by more than **1,500 AI projects**.\n\nThe issue enables **zero-click agent hijacking**, meaning an attacker can take control of an LLM-powered browsing agent simply by getting it to visit a malicious page — **no user interaction required**.\n\nThis raises serious concerns about the current state of security in autonomous AI agents, especially those that interact with the web.\n\n**What’s the community’s take on this? Is AI agent security getting the attention it deserves?**\n\n(all links in the comments)",
+    "permalink": "/r/ControlProblem/comments/1krrfpk/more_than_1500_ai_projects_are_now_vulnerable_to/",
+    "timestamp": "2025-05-21T06:54:26",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 2,
+        "text": "(сompiled links)  \nPoC and discussion: [https://x.com/arimlabs/status/1924836858602684585](https://x.com/arimlabs/status/1924836858602684585)  \nPaper: [https://arxiv.org/pdf/2505.13076](https://arxiv.org/pdf/2505.13076)  \nGHSA: [https://github.com/browser-use/browser-use/security/advisories/GHSA-x39x-9qw5-ghrf](https://github.com/browser-use/browser-use/security/advisories/GHSA-x39x-9qw5-ghrf)  \nBlog Post: [https://arimlabs.ai/news/the-hidden-dangers-of-browsing-ai-agents](https://arimlabs.ai/news/the-hidden-dangers-of-browsing-ai-agents)  \nEmail: [research@arimlabs.ai](mailto:research@arimlabs.ai)",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 1
+    },
+    "title": "More than 1,500 AI projects are now vulnerable to a silent exploit",
+    "text": "According to the latest research by **ARIMLABS\\[.\\]AI**, a critical security vulnerability (**CVE-2025-47241**) has been discovered in the widely used **Browser Use** framework — a dependency leveraged by more than **1,500 AI projects**.\n\nThe issue enables **zero-click agent hijacking**, meaning an attacker can take control of an LLM-powered browsing agent simply by getting it to visit a malicious page — **no user interaction required**.\n\nThis raises serious concerns about the current state of security in autonomous AI agents, especially those that interact with the web.\n\n**What’s the community’s take on this? Is AI agent security getting the attention it deserves?**\n\n(all links in the comments)",
+    "permalink": "/r/PromptEngineering/comments/1krreej/more_than_1500_ai_projects_are_now_vulnerable_to/",
+    "timestamp": "2025-05-21T06:51:55",
+    "article_text": null,
+    "comments": []
   }
 ]

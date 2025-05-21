@@ -8517,5 +8517,48 @@
     "timestamp": "2025-05-21T05:57:33",
     "clean_text": "CVE-2025-4372 still showing as unpatched So for about the last week, this CVE has been showing as an unpatched vulnerability for all my endpoints running MS Edge. However Edge is reporting as v136.0.240.76, and this was apparently patched in v136.0.3240.64. How should I proceed? Will it eventually clear by itself? Should I mark it as Compensating Controls or Remove From List? I feel this just hides the issue .",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 1
+    },
+    "title": "More than 1,500 AI projects are now vulnerable to a silent exploit",
+    "permalink": "/r/artificial/comments/1krrgiq/more_than_1500_ai_projects_are_now_vulnerable_to/",
+    "timestamp": "2025-05-21T06:55:56",
+    "clean_text": "More than 1,500 AI projects are now vulnerable to a silent exploit According to the latest research by ARIMLABS\\[.\\]AI, a critical security vulnerability (CVE-2025-47241) has been discovered in the widely used Browser Use framework — a dependency leveraged by more than 1,500 AI projects. The issue enables zero-click agent hijacking, meaning an attacker can take control of an LLM-powered browsing agent simply by getting it to visit a malicious page — no user interaction required. This raises serious concerns about the current state of security in autonomous AI agents, especially those that interact with the web. What’s the community’s take on this? Is AI agent security getting the attention it deserves? (all links in the comments)",
+    "clean_comments": [
+      "Level 0: The CVE-2025-47241 vulnerability in the Browser Use framework allows attackers to bypass domain whitelisting controls, potentially leading to unauthorized access to internal services, highlighting significant security concerns for AI agents interacting with the web. This flaw, disclosed by ARIMLABS.AI, disables security protections and affects over 1,500 AI projects, emphasizing the need for urgent security updates and mitigations. * CVE-2025-47241 Detail - NVD * Browser Use is hacked. More than 1,500 AI projects are . - Reddit * CVE-2025-47241 - Red Hat Customer Portal ^(This is a bot made by Critique AI. If you want vetted information like this on all content you browse, download our extension.)"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 1
+    },
+    "title": "More than 1,500 AI projects are now vulnerable to a silent exploit",
+    "permalink": "/r/ControlProblem/comments/1krrfpk/more_than_1500_ai_projects_are_now_vulnerable_to/",
+    "timestamp": "2025-05-21T06:54:26",
+    "clean_text": "More than 1,500 AI projects are now vulnerable to a silent exploit According to the latest research by ARIMLABS\\[.\\]AI, a critical security vulnerability (CVE-2025-47241) has been discovered in the widely used Browser Use framework — a dependency leveraged by more than 1,500 AI projects. The issue enables zero-click agent hijacking, meaning an attacker can take control of an LLM-powered browsing agent simply by getting it to visit a malicious page — no user interaction required. This raises serious concerns about the current state of security in autonomous AI agents, especially those that interact with the web. What’s the community’s take on this? Is AI agent security getting the attention it deserves? (all links in the comments)",
+    "clean_comments": [
+      "Level 0: (сompiled links) PoC and discussion: <URL> Paper: <URL> GHSA: <URL> Blog Post: <URL> Email: research@arimlabs.ai"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 1
+    },
+    "title": "More than 1,500 AI projects are now vulnerable to a silent exploit",
+    "permalink": "/r/PromptEngineering/comments/1krreej/more_than_1500_ai_projects_are_now_vulnerable_to/",
+    "timestamp": "2025-05-21T06:51:55",
+    "clean_text": "More than 1,500 AI projects are now vulnerable to a silent exploit According to the latest research by ARIMLABS\\[.\\]AI, a critical security vulnerability (CVE-2025-47241) has been discovered in the widely used Browser Use framework — a dependency leveraged by more than 1,500 AI projects. The issue enables zero-click agent hijacking, meaning an attacker can take control of an LLM-powered browsing agent simply by getting it to visit a malicious page — no user interaction required. This raises serious concerns about the current state of security in autonomous AI agents, especially those that interact with the web. What’s the community’s take on this? Is AI agent security getting the attention it deserves? (all links in the comments)",
+    "clean_comments": []
   }
 ]
