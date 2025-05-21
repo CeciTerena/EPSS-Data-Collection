@@ -10059,5 +10059,19 @@
     "timestamp": "2025-05-21T06:51:55",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-43562"
+    ],
+    "cve_counts": {
+      "CVE-2025-43562": 1
+    },
+    "title": "CVE-2025-43562: High-Severity OS Command Injection Vulnerability in ColdFusion",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1krscv2/cve202543562_highseverity_os_command_injection/",
+    "timestamp": "2025-05-21T08:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]

@@ -8560,5 +8560,18 @@
     "timestamp": "2025-05-21T06:51:55",
     "clean_text": "More than 1,500 AI projects are now vulnerable to a silent exploit According to the latest research by ARIMLABS\\[.\\]AI, a critical security vulnerability (CVE-2025-47241) has been discovered in the widely used Browser Use framework — a dependency leveraged by more than 1,500 AI projects. The issue enables zero-click agent hijacking, meaning an attacker can take control of an LLM-powered browsing agent simply by getting it to visit a malicious page — no user interaction required. This raises serious concerns about the current state of security in autonomous AI agents, especially those that interact with the web. What’s the community’s take on this? Is AI agent security getting the attention it deserves? (all links in the comments)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-43562"
+    ],
+    "cve_counts": {
+      "CVE-2025-43562": 1
+    },
+    "title": "CVE-2025-43562: High-Severity OS Command Injection Vulnerability in ColdFusion",
+    "permalink": "/r/ameeba/comments/1krscv2/cve202543562_highseverity_os_command_injection/",
+    "timestamp": "2025-05-21T08:00:03",
+    "clean_text": "CVE-2025-43562: High-Severity OS Command Injection Vulnerability in ColdFusion",
+    "clean_comments": []
   }
 ]
