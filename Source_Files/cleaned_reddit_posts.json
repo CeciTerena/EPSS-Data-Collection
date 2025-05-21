@@ -8504,5 +8504,18 @@
     "timestamp": "2025-05-21T05:00:04",
     "clean_text": "CVE-2025-43560: Improper Input Validation Vulnerability in ColdFusion Allowing Arbitrary Code Execution",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4372"
+    ],
+    "cve_counts": {
+      "CVE-2025-4372": 1
+    },
+    "title": "CVE-2025-4372 still showing as unpatched",
+    "permalink": "/r/Action1/comments/1krqm0v/cve20254372_still_showing_as_unpatched/",
+    "timestamp": "2025-05-21T05:57:33",
+    "clean_text": "CVE-2025-4372 still showing as unpatched So for about the last week, this CVE has been showing as an unpatched vulnerability for all my endpoints running MS Edge. However Edge is reporting as v136.0.240.76, and this was apparently patched in v136.0.3240.64. How should I proceed? Will it eventually clear by itself? Should I mark it as Compensating Controls or Remove From List? I feel this just hides the issue .",
+    "clean_comments": []
   }
 ]
