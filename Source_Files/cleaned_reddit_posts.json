@@ -8743,5 +8743,18 @@
     "timestamp": "2025-05-21T16:05:15",
     "clean_text": "Detecting Chrome CVE-2025-4664 vu",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4564"
+    ],
+    "cve_counts": {
+      "CVE-2025-4564": 1
+    },
+    "title": "CVE-2025-4564: Arbitrary File Deletion Vulnerability in TicketBAI Facturas para WooCommerce Plugin",
+    "permalink": "/r/ameeba/comments/1ks2zvb/cve20254564_arbitrary_file_deletion_vulnerability/",
+    "timestamp": "2025-05-21T17:00:03",
+    "clean_text": "CVE-2025-4564: Arbitrary File Deletion Vulnerability in TicketBAI Facturas para WooCommerce Plugin",
+    "clean_comments": []
   }
 ]
