@@ -10480,5 +10480,19 @@
     "timestamp": "2025-05-22T10:27:50",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26651"
+    ],
+    "cve_counts": {
+      "CVE-2025-26651": 1
+    },
+    "title": "Automating MS-RPC vulnerability research",
+    "text": "Microsoft Remote Procedure Call (MS-RPC) is a protocol used within Windows operating systems to enable inter-process communication, both locally and across networks.\n\nResearching MS-RPC interfaces, however, poses several challenges. Manually analyzing RPC services can be time-consuming, especially when faced with hundreds of interfaces spread across different processes, services and accessible through various endpoints.\n\nToday, I am publishing a White paper about automating MS-RPC vulnerability research. This white paper will describe how MS-RPC security research can be automated using a fuzzing methodology to identify interesting RPC interfaces and procedures.\n\n  \nBy following this approach, a security researcher will hopefully identify interesting RPC services in such a time that would take a manual approach significantly more. And so, the tool was put to the test. Using the tool, I was able to discover 9 new vulnerabilities within the Windows operating system. One of the vulnerabilities (CVE-2025-26651), allowed crashing the Local Session Manager service remotely. \n\n  \n",
+    "permalink": "/r/netsec/comments/1ksp4m2/automating_msrpc_vulnerability_research/",
+    "timestamp": "2025-05-22T12:12:46",
+    "article_text": null,
+    "comments": []
   }
 ]

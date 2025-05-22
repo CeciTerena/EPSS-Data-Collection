@@ -8927,5 +8927,18 @@
     "timestamp": "2025-05-22T10:27:50",
     "clean_text": "High-Severity Flaws Fixed in Latest GitLab and Atlassian Security Updates This week was rich for patch releases - both Atlassian and GitLab released patches for over a dozen vulnerabilities across their products. Atlassian addressed six high-severity flaws in Bamboo, Confluence, Jira, and Fisheye/Crucible, mostly stemming from third-party components. GitLab fixed 10 bugs, including a high-severity DoS vulnerability (CVE-2025-0993) and several medium-severity issues affecting security features. Both service providers mentioned that the patched vulnerabilities weren’t used in the wild, and strongly advised their users to update to the latest versions to mitigate risks. Read more: <URL>",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26651"
+    ],
+    "cve_counts": {
+      "CVE-2025-26651": 1
+    },
+    "title": "Automating MS-RPC vulnerability research",
+    "permalink": "/r/netsec/comments/1ksp4m2/automating_msrpc_vulnerability_research/",
+    "timestamp": "2025-05-22T12:12:46",
+    "clean_text": "Automating MS-RPC vulnerability research Microsoft Remote Procedure Call (MS-RPC) is a protocol used within Windows operating systems to enable inter-process communication, both locally and across networks. Researching MS-RPC interfaces, however, poses several challenges. Manually analyzing RPC services can be time-consuming, especially when faced with hundreds of interfaces spread across different processes, services and accessible through various endpoints. Today, I am publishing a White paper about automating MS-RPC vulnerability research. This white paper will describe how MS-RPC security research can be automated using a fuzzing methodology to identify interesting RPC interfaces and procedures. By following this approach, a security researcher will hopefully identify interesting RPC services in such a time that would take a manual approach significantly more. And so, the tool was put to the test. Using the tool, I was able to discover 9 new vulnerabilities within the Windows operating system. One of the vulnerabilities (CVE-2025-26651), allowed crashing the Local Session Manager service remotely.",
+    "clean_comments": []
   }
 ]
