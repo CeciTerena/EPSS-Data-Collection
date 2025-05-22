@@ -9025,5 +9025,18 @@
     "clean_comments": [
       "Level 0: This type of shit is what turns me off from ever using a company's product."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2024-11267"
+    ],
+    "cve_counts": {
+      "CVE-2024-11267": 1
+    },
+    "title": "CVE-2024-11267: SQL Injection Vulnerability in JSP Store Locator WordPress Plugin",
+    "permalink": "/r/ameeba/comments/1ksvvdn/cve202411267_sql_injection_vulnerability_in_jsp/",
+    "timestamp": "2025-05-22T17:00:03",
+    "clean_text": "CVE-2024-11267: SQL Injection Vulnerability in JSP Store Locator WordPress Plugin",
+    "clean_comments": []
   }
 ]
