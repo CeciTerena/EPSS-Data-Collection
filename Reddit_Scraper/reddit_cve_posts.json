@@ -10611,5 +10611,47 @@
     "timestamp": "2025-05-22T17:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3623"
+    ],
+    "cve_counts": {
+      "CVE-2025-3623": 1
+    },
+    "title": "CVE-2025-3623: PHP Object Injection Vulnerability in Uncanny Automator WordPress Plugin",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kt0cap/cve20253623_php_object_injection_vulnerability_in/",
+    "timestamp": "2025-05-22T20:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20246"
+    ],
+    "cve_counts": {
+      "CVE-2025-20246": 1
+    },
+    "title": "CVE Alert: CVE-2025-20246",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kt07e4/cve_alert_cve202520246/",
+    "timestamp": "2025-05-22T19:54:24",
+    "article_text": "A vulnerability in Cisco Webex could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack. A vulnerability is due to improper filtering of user-supplied input. An attacker could exploit this vulnerability by persuading a user to follow a malicious link. A successful exploit could allow the attacker to conduct a cross-site scripting attack against the targeted user.",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32756"
+    ],
+    "cve_counts": {
+      "CVE-2025-32756": 1
+    },
+    "title": "CVE-2025-32756: Write-Up of a Buffer Overflow in Various Fortinet Products",
+    "text": "",
+    "permalink": "/r/netsec/comments/1kszzx6/cve202532756_writeup_of_a_buffer_overflow_in/",
+    "timestamp": "2025-05-22T19:45:42",
+    "article_text": null,
+    "comments": []
   }
 ]
