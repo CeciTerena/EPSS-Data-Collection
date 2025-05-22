@@ -10653,5 +10653,19 @@
     "timestamp": "2025-05-22T19:45:42",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-37899"
+    ],
+    "cve_counts": {
+      "CVE-2025-37899": 1
+    },
+    "title": "How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel’s SMB implementation",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1kt1t02/how_i_used_o3_to_find_cve202537899_a_remote/",
+    "timestamp": "2025-05-22T20:58:44",
+    "article_text": null,
+    "comments": []
   }
 ]
