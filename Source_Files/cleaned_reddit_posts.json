@@ -8940,5 +8940,34 @@
     "timestamp": "2025-05-22T12:12:46",
     "clean_text": "Automating MS-RPC vulnerability research Microsoft Remote Procedure Call (MS-RPC) is a protocol used within Windows operating systems to enable inter-process communication, both locally and across networks. Researching MS-RPC interfaces, however, poses several challenges. Manually analyzing RPC services can be time-consuming, especially when faced with hundreds of interfaces spread across different processes, services and accessible through various endpoints. Today, I am publishing a White paper about automating MS-RPC vulnerability research. This white paper will describe how MS-RPC security research can be automated using a fuzzing methodology to identify interesting RPC interfaces and procedures. By following this approach, a security researcher will hopefully identify interesting RPC services in such a time that would take a manual approach significantly more. And so, the tool was put to the test. Using the tool, I was able to discover 9 new vulnerabilities within the Windows operating system. One of the vulnerabilities (CVE-2025-26651), allowed crashing the Local Session Manager service remotely.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20018"
+    ],
+    "cve_counts": {
+      "CVE-2025-20018": 1
+    },
+    "title": "CVE-2025-20018: Privilege Escalation Vulnerability in Intel Graphics Drivers",
+    "permalink": "/r/ameeba/comments/1ksrfoq/cve202520018_privilege_escalation_vulnerability/",
+    "timestamp": "2025-05-22T14:00:03",
+    "clean_text": "CVE-2025-20018: Privilege Escalation Vulnerability in Intel Graphics Drivers",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31200"
+    ],
+    "cve_counts": {
+      "CVE-2025-31200": 3
+    },
+    "title": "CVE-2025-31200: Possible attack vector?",
+    "permalink": "/r/jailbreak/comments/1ksre2g/cve202531200_possible_attack_vector/",
+    "timestamp": "2025-05-22T13:58:09",
+    "clean_text": "CVE-2025-31200: Possible attack vector? Can we use CVE-2025-31200 to get a step further into jailbreaking. I am not saying that jailbreaking is possible on this, because you can execute \"malicious\" code. It is a high complexity execution tho, but is it theoretically a step in the right direction?",
+    "clean_comments": [
+      "Level 0: Nothing is a step in the right direction if it doesn’t get published. We have so many exploits right now but they are private.",
+      "Level 1: Sadly, and this one doesn't have an code example either."
+    ]
   }
 ]

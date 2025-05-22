@@ -10494,5 +10494,44 @@
     "timestamp": "2025-05-22T12:12:46",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20018"
+    ],
+    "cve_counts": {
+      "CVE-2025-20018": 1
+    },
+    "title": "CVE-2025-20018: Privilege Escalation Vulnerability in Intel Graphics Drivers",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1ksrfoq/cve202520018_privilege_escalation_vulnerability/",
+    "timestamp": "2025-05-22T14:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31200"
+    ],
+    "cve_counts": {
+      "CVE-2025-31200": 3
+    },
+    "title": "CVE-2025-31200: Possible attack vector?",
+    "text": "Can we use [CVE-2025-31200](https://www.cve.org/CVERecord?id=CVE-2025-31200) to get a step further into jailbreaking. I am not saying that jailbreaking is possible on this, because you can execute \"malicious\" code. It is a high complexity execution tho, but is it theoretically a step in the right direction?",
+    "permalink": "/r/jailbreak/comments/1ksre2g/cve202531200_possible_attack_vector/",
+    "timestamp": "2025-05-22T13:58:09",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 2,
+        "text": "Nothing is a step in the right direction if it doesn’t get published. We have so many exploits right now but they are private.",
+        "level": 0
+      },
+      {
+        "score": 1,
+        "text": "Sadly, and this one doesn't have an code example either.",
+        "level": 1
+      }
+    ]
   }
 ]
