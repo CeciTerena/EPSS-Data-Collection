@@ -10396,5 +10396,47 @@
     "timestamp": "2025-05-22T05:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26817"
+    ],
+    "cve_counts": {
+      "CVE-2025-26817": 1
+    },
+    "title": "Authenticated Remote Code Execution in Netwrix Password Secure (CVE-2025-26817)",
+    "text": "",
+    "permalink": "/r/netsec/comments/1kslcpa/authenticated_remote_code_execution_in_netwrix/",
+    "timestamp": "2025-05-22T08:09:13",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24022"
+    ],
+    "cve_counts": {
+      "CVE-2025-24022": 1
+    },
+    "title": "CVE-2025-24022: Critical Server Code Execution Vulnerability in iTop IT Service Management Tool",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1ksl848/cve202524022_critical_server_code_execution/",
+    "timestamp": "2025-05-22T08:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4428"
+    ],
+    "cve_counts": {
+      "CVE-2025-4428": 1
+    },
+    "title": "BugCrowd Bug Bounty Disclosure: P2 &#8211; Unauthenticated Remote Code Execution (CVE-2025-4428) &#8211; Ironsoul74",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1ksl5ar/bugcrowd_bug_bounty_disclosure_p2_8211/",
+    "timestamp": "2025-05-22T07:54:25",
+    "article_text": null,
+    "comments": []
   }
 ]
