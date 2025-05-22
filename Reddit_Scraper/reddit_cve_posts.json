@@ -10382,5 +10382,19 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-27523"
+    ],
+    "cve_counts": {
+      "CVE-2025-27523": 1
+    },
+    "title": "CVE-2025-27523: XXE Vulnerability in Hitachi JP1/IT Desktop Management 2 – Smart Device Manager on Windows",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1ksil0o/cve202527523_xxe_vulnerability_in_hitachi_jp1it/",
+    "timestamp": "2025-05-22T05:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
