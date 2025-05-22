@@ -8888,5 +8888,18 @@
     "timestamp": "2025-05-22T07:54:25",
     "clean_text": "BugCrowd Bug Bounty Disclosure: P2 &#8211; Unauthenticated Remote Code Execution (CVE-2025-4428) &#8211; Ironsoul74",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-48069"
+    ],
+    "cve_counts": {
+      "CVE-2025-48069": 1
+    },
+    "title": "CVE Alert: CVE-2025-48069",
+    "permalink": "/r/RedPacketSecurity/comments/1ksmt36/cve_alert_cve202548069/",
+    "timestamp": "2025-05-22T09:54:27",
+    "clean_text": "CVE Alert: CVE-2025-48069 ejson2env allows users to decrypt EJSON secrets and export them as environment variables. Prior to version 2.0.8, the ejson2env tool has a vulnerability related to how it writes to stdout. Specifically, the tool is intended to write an export statement for environment variables and their values. However, due to inadequate output sanitization, there is a potential risk where variable names or values may include malicious content, resulting in additional unintended commands being output to stdout. If this output is improperly utilized in further command execution, it could lead to command injection, allowing an attacker to execute arbitrary commands on the host system. Version 2.0.8 sanitizes output during decryption. Other mitigations involve avoiding use of ejson2env to decrypt untrusted user secrets and/or avoiding evaluating or executing the direct output from ejson2env without removing nonprintable characters.",
+    "clean_comments": []
   }
 ]
