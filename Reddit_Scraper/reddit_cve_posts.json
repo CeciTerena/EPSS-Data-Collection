@@ -10362,5 +10362,25 @@
     "timestamp": "2025-05-22T02:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2857"
+    ],
+    "cve_counts": {
+      "CVE-2025-2857": 3
+    },
+    "title": "ABOUT CVE-2025-2857",
+    "text": "Anyone has saved the repository ([https://github.com/ubisoftinc/CVE-2025-2857](https://github.com/ubisoftinc/CVE-2025-2857))? Discovered this CVE today and really want to understand how this works but the POC (and it's account) was taken down. Can't even find it by wayback machine, so, if anyone has the copy of repository or some tecnical report on it i'll appreciate.",
+    "permalink": "/r/ExploitDev/comments/1ksgqdl/about_cve20252857/",
+    "timestamp": "2025-05-22T03:12:31",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "Wtf is this weird bot?\n\n\nhttps://www.reddit.com/r/ExploitDev/comments/1kp2l1a/about_cve20252857/",
+        "level": 0
+      }
+    ]
   }
 ]

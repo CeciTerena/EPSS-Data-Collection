@@ -8821,5 +8821,20 @@
     "timestamp": "2025-05-22T02:00:03",
     "clean_text": "CVE-2025-30663: Escalation of Privilege Vulnerability in Zoom Workplace Apps",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2857"
+    ],
+    "cve_counts": {
+      "CVE-2025-2857": 3
+    },
+    "title": "ABOUT CVE-2025-2857",
+    "permalink": "/r/ExploitDev/comments/1ksgqdl/about_cve20252857/",
+    "timestamp": "2025-05-22T03:12:31",
+    "clean_text": "ABOUT CVE-2025-2857 Anyone has saved the repository ( <URL> Discovered this CVE today and really want to understand how this works but the POC (and it's account) was taken down. Can't even find it by wayback machine, so, if anyone has the copy of repository or some tecnical report on it i'll appreciate.",
+    "clean_comments": [
+      "Level 0: Wtf is this weird bot? <URL>"
+    ]
   }
 ]
