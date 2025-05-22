@@ -9090,5 +9090,33 @@
     "timestamp": "2025-05-22T20:58:44",
     "clean_text": "How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel’s SMB implementation",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47916"
+    ],
+    "cve_counts": {
+      "CVE-2025-47916": 1
+    },
+    "title": "CVE-2025-47916: Critical Remote Code Execution Vulnerability in Invision Community 5.0.0",
+    "permalink": "/r/ameeba/comments/1kt4keu/cve202547916_critical_remote_code_execution/",
+    "timestamp": "2025-05-22T23:00:03",
+    "clean_text": "CVE-2025-47916: Critical Remote Code Execution Vulnerability in Invision Community 5.0.0",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-37899"
+    ],
+    "cve_counts": {
+      "CVE-2025-37899": 1
+    },
+    "title": "How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel’s SMB implementation",
+    "permalink": "/r/ReverseEngineering/comments/1kt3mwn/how_i_used_o3_to_find_cve202537899_a_remote/",
+    "timestamp": "2025-05-22T22:16:25",
+    "clean_text": "How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel’s SMB implementation",
+    "clean_comments": [
+      "Level 0: (not the author)"
+    ]
   }
 ]
