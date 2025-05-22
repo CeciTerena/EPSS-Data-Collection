@@ -8808,5 +8808,18 @@
     "timestamp": "2025-05-21T23:00:02",
     "clean_text": "CVE-2024-54780: Critical Command Injection Vulnerability in Netgate pfSense CE and Plus Builds",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30663"
+    ],
+    "cve_counts": {
+      "CVE-2025-30663": 1
+    },
+    "title": "CVE-2025-30663: Escalation of Privilege Vulnerability in Zoom Workplace Apps",
+    "permalink": "/r/ameeba/comments/1ksfd5i/cve202530663_escalation_of_privilege/",
+    "timestamp": "2025-05-22T02:00:03",
+    "clean_text": "CVE-2025-30663: Escalation of Privilege Vulnerability in Zoom Workplace Apps",
+    "clean_comments": []
   }
 ]
