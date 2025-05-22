@@ -8901,5 +8901,31 @@
     "timestamp": "2025-05-22T09:54:27",
     "clean_text": "CVE Alert: CVE-2025-48069 ejson2env allows users to decrypt EJSON secrets and export them as environment variables. Prior to version 2.0.8, the ejson2env tool has a vulnerability related to how it writes to stdout. Specifically, the tool is intended to write an export statement for environment variables and their values. However, due to inadequate output sanitization, there is a potential risk where variable names or values may include malicious content, resulting in additional unintended commands being output to stdout. If this output is improperly utilized in further command execution, it could lead to command injection, allowing an attacker to execute arbitrary commands on the host system. Version 2.0.8 sanitizes output during decryption. Other mitigations involve avoiding use of ejson2env to decrypt untrusted user secrets and/or avoiding evaluating or executing the direct output from ejson2env without removing nonprintable characters.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30377"
+    ],
+    "cve_counts": {
+      "CVE-2025-30377": 1
+    },
+    "title": "CVE-2025-30377: Code Execution Vulnerability in Microsoft Office via Use After Free",
+    "permalink": "/r/ameeba/comments/1ksntpd/cve202530377_code_execution_vulnerability_in/",
+    "timestamp": "2025-05-22T11:00:03",
+    "clean_text": "CVE-2025-30377: Code Execution Vulnerability in Microsoft Office via Use After Free",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-0993"
+    ],
+    "cve_counts": {
+      "CVE-2025-0993": 1
+    },
+    "title": "High-Severity Flaws Fixed in Latest GitLab and Atlassian Security Updates",
+    "permalink": "/r/GitProtect/comments/1ksnb7z/highseverity_flaws_fixed_in_latest_gitlab_and/",
+    "timestamp": "2025-05-22T10:27:50",
+    "clean_text": "High-Severity Flaws Fixed in Latest GitLab and Atlassian Security Updates This week was rich for patch releases - both Atlassian and GitLab released patches for over a dozen vulnerabilities across their products. Atlassian addressed six high-severity flaws in Bamboo, Confluence, Jira, and Fisheye/Crucible, mostly stemming from third-party components. GitLab fixed 10 bugs, including a high-severity DoS vulnerability (CVE-2025-0993) and several medium-severity issues affecting security features. Both service providers mentioned that the patched vulnerabilities weren’t used in the wild, and strongly advised their users to update to the latest versions to mitigate risks. Read more: <URL>",
+    "clean_comments": []
   }
 ]
