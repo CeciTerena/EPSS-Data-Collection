@@ -10561,5 +10561,41 @@
     "timestamp": "2025-05-22T14:28:09",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4427",
+      "CVE-2025-4428"
+    ],
+    "cve_counts": {
+      "CVE-2025-4427": 1,
+      "CVE-2025-4428": 1
+    },
+    "title": "Live Forensic Collection from Ivanti EPMM Appliances (CVE-2025-4427 & CVE-2025-4428)",
+    "text": "",
+    "permalink": "/r/netsec/comments/1ksufxv/live_forensic_collection_from_ivanti_epmm/",
+    "timestamp": "2025-05-22T16:02:46",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1974"
+    ],
+    "cve_counts": {
+      "CVE-2025-1974": 1
+    },
+    "title": "Calling out Traefik Labs for FUD",
+    "text": "I've experienced some dirty advertising in this space (I was on k8s Slack before Slack could hide emails - still circulating), but this is just dirty, wrong, lying by omission, and by the least correct ingress implementation that's widely used. It almost wants me to do some security search on Traefik.\n\nIf you were wondering why so many people where were moving to \"Gateway API\" without understanding that it's simply a different API standard and not an implementation, because \"ingress-nginx is insecure\", and why they aren't aware of InGate, the official successor - this kind of marketing is where they're coming from. CVE-2025-1974 is pretty bad, but it's not log4j. It requires you to be able to craft an HTTP request inside the Pod network.\n\nDon't reward them by switching to Traefik. There's enough better controllers around.",
+    "permalink": "/r/kubernetes/comments/1kstf6h/calling_out_traefik_labs_for_fud/",
+    "timestamp": "2025-05-22T15:21:25",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 11,
+        "text": "This type of shit is what turns me off from *ever* using a company's product.",
+        "level": 0
+      }
+    ]
   }
 ]

@@ -8995,5 +8995,35 @@
     "timestamp": "2025-05-22T14:28:09",
     "clean_text": "⚡ The AI Renaissance Is Real – But Are We Ready for What’s Coming? Hey folks We’re living in what can only be described as an AI renaissance. New tools drop daily, models are evolving at breakneck speed, and even hardware giants are jumping on the AI train. But here’s the million-dollar question: > Let’s unpack some of the biggest shifts happening right now — and what they might mean for devs, startups, and society at large: Search Is Dead. Long Live AI Interfaces. Google just unveiled its AI Mode in Search, and it's a sign of the times. Traditional 10-blue-links search is being replaced by generative, contextual results. That means: * Less SEO reliance * More content summarization A future where clicking links may be optional* Are content creators and site owners prepared for this shift? <URL> Hardware Gets an AI Upgrade OpenAI's $6.5B acquisition of Jony Ive's AI startup signals a pivot to AI-first devices. Think beyond smartphones — we're talking about: * Wearables that think with you * Always-on AI assistants Smart home interfaces that don’t feel dumb* Will these replace phones? Or just make them smarter? Autonomous Agents Need Real Security The recent discovery of CVE-2025-47241, a zero-click exploit in Browser Use frameworks, shows how vulnerable today's LLM-powered agents are. If AI agents are: * Browsing the web * Making decisions * Acting on your behalf… .then sandboxing, threat modeling, and auditing must become default — not an afterthought. AI Is Tackling Climate, Medicine, and More Not all news is scary. Some of the most inspiring updates this week: Aurora*, a weather AI by Penn & Microsoft, outperforms traditional forecasts Persist AI* raised $12M to streamline drug development Bezos Earth Fund* is backing AI for conservation and climate This is the kind of tech we need more of — real-world, high-impact AI. Final Thought The AI hype is justified. But it’s time we stop treating AI tools like toys and start thinking like architects of the future. So — what do you think? * Are we innovating responsibly? * Which tool or breakthrough impressed you most this week? What hasn’t* been built yet that we desperately need? Let's chat For more tools, trends & deep dives soon: <URL> Follow us here for daily updates!",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4427",
+      "CVE-2025-4428"
+    ],
+    "cve_counts": {
+      "CVE-2025-4427": 1,
+      "CVE-2025-4428": 1
+    },
+    "title": "Live Forensic Collection from Ivanti EPMM Appliances (CVE-2025-4427 & CVE-2025-4428)",
+    "permalink": "/r/netsec/comments/1ksufxv/live_forensic_collection_from_ivanti_epmm/",
+    "timestamp": "2025-05-22T16:02:46",
+    "clean_text": "Live Forensic Collection from Ivanti EPMM Appliances (CVE-2025-4427 & CVE-2025-4428)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1974"
+    ],
+    "cve_counts": {
+      "CVE-2025-1974": 1
+    },
+    "title": "Calling out Traefik Labs for FUD",
+    "permalink": "/r/kubernetes/comments/1kstf6h/calling_out_traefik_labs_for_fud/",
+    "timestamp": "2025-05-22T15:21:25",
+    "clean_text": "Calling out Traefik Labs for FUD I've experienced some dirty advertising in this space (I was on k8s Slack before Slack could hide emails - still circulating), but this is just dirty, wrong, lying by omission, and by the least correct ingress implementation that's widely used. It almost wants me to do some security search on Traefik. If you were wondering why so many people where were moving to \"Gateway API\" without understanding that it's simply a different API standard and not an implementation, because \"ingress-nginx is insecure\", and why they aren't aware of InGate, the official successor - this kind of marketing is where they're coming from. CVE-2025-1974 is pretty bad, but it's not log4j. It requires you to be able to craft an HTTP request inside the Pod network. Don't reward them by switching to Traefik. There's enough better controllers around.",
+    "clean_comments": [
+      "Level 0: This type of shit is what turns me off from ever using a company's product."
+    ]
   }
 ]
