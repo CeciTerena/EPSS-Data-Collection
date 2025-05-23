@@ -11041,5 +11041,19 @@
     "timestamp": "2025-05-23T20:19:19",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4824"
+    ],
+    "cve_counts": {
+      "CVE-2025-4824": 1
+    },
+    "title": "CVE-2025-4824: Critical Buffer Overflow Vulnerability in TOTOLINK Routers",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1ktx3oo/cve20254824_critical_buffer_overflow/",
+    "timestamp": "2025-05-23T23:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]

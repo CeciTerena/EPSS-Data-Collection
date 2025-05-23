@@ -9432,5 +9432,18 @@
     "timestamp": "2025-05-23T20:19:19",
     "clean_text": "Live Forensic Collection from Ivanti EPMM Appliances (CVE-2025-4427 & CVE-2025-4428)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4824"
+    ],
+    "cve_counts": {
+      "CVE-2025-4824": 1
+    },
+    "title": "CVE-2025-4824: Critical Buffer Overflow Vulnerability in TOTOLINK Routers",
+    "permalink": "/r/ameeba/comments/1ktx3oo/cve20254824_critical_buffer_overflow/",
+    "timestamp": "2025-05-23T23:00:03",
+    "clean_text": "CVE-2025-4824: Critical Buffer Overflow Vulnerability in TOTOLINK Routers",
+    "clean_comments": []
   }
 ]
