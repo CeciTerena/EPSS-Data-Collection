@@ -10701,5 +10701,19 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-4731"
+    ],
+    "cve_counts": {
+      "CVE-2025-4731": 1
+    },
+    "title": "CVE-2025-4731: Critical Buffer Overflow Vulnerability in TOTOLINK Routers",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kt855a/cve20254731_critical_buffer_overflow/",
+    "timestamp": "2025-05-23T02:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
