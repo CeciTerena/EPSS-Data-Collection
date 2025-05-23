@@ -10771,5 +10771,19 @@
     "timestamp": "2025-05-23T08:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-13955"
+    ],
+    "cve_counts": {
+      "CVE-2024-13955": 1
+    },
+    "title": "CVE Alert: CVE-2024-13955",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1ktfmgo/cve_alert_cve202413955/",
+    "timestamp": "2025-05-23T09:54:25",
+    "article_text": "2nd Order SQL injection vulnerabilities in ASPECT allow unintended access and manipulation of database repositories if administrator credentials become compromised.This issue affects ASPECT-Enterprise: through 3.*; NEXUS Series: through 3.*; MATRIX Series: through 3.*.",
+    "comments": []
   }
 ]
