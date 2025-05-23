@@ -10939,5 +10939,19 @@
     "timestamp": "2025-05-23T16:36:44",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4428"
+    ],
+    "cve_counts": {
+      "CVE-2025-4428": 1
+    },
+    "title": "China-Nexus Threat Actor Actively Exploiting Ivanti Endpoint Manager Mobile (CVE-2025-4428) Vulnerability",
+    "text": "",
+    "permalink": "/r/SecOpsDaily/comments/1ktp9f3/chinanexus_threat_actor_actively_exploiting/",
+    "timestamp": "2025-05-23T17:23:26",
+    "article_text": null,
+    "comments": []
   }
 ]

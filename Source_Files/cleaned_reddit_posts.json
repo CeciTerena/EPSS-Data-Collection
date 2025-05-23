@@ -9337,5 +9337,18 @@
     "timestamp": "2025-05-23T16:36:44",
     "clean_text": "More than 1,500 AI projects are now vulnerable to a silent exploit According to the latest research by ARIMLABS\\[.\\]AI, a critical security vulnerability (CVE-2025-47241) has been discovered in the widely used Browser Use framework — a dependency leveraged by more than 1,500 AI projects. The issue enables zero-click agent hijacking, meaning an attacker can take control of an LLM-powered browsing agent simply by getting it to visit a malicious page — no user interaction required. This raises serious concerns about the current state of security in autonomous AI agents, especially those that interact with the web. What’s the community’s take on this? Is AI agent security getting the attention it deserves? (сompiled links) PoC and discussion: <URL> Paper: <URL> GHSA: <URL> Blog Post: <URL> Email: research@arimlabs.ai",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4428"
+    ],
+    "cve_counts": {
+      "CVE-2025-4428": 1
+    },
+    "title": "China-Nexus Threat Actor Actively Exploiting Ivanti Endpoint Manager Mobile (CVE-2025-4428) Vulnerability",
+    "permalink": "/r/SecOpsDaily/comments/1ktp9f3/chinanexus_threat_actor_actively_exploiting/",
+    "timestamp": "2025-05-23T17:23:26",
+    "clean_text": "China-Nexus Threat Actor Actively Exploiting Ivanti Endpoint Manager Mobile (CVE-2025-4428) Vulnerability",
+    "clean_comments": []
   }
 ]
