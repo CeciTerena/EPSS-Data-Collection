@@ -10785,5 +10785,19 @@
     "timestamp": "2025-05-23T09:54:25",
     "article_text": "2nd Order SQL injection vulnerabilities in ASPECT allow unintended access and manipulation of database repositories if administrator credentials become compromised.This issue affects ASPECT-Enterprise: through 3.*; NEXUS Series: through 3.*; MATRIX Series: through 3.*.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31640"
+    ],
+    "cve_counts": {
+      "CVE-2025-31640": 1
+    },
+    "title": "CVE-2025-31640: SQL Injection Vulnerability in LambertGroup Magic Responsive Slider and Carousel WordPress Plugin",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1ktgnv0/cve202531640_sql_injection_vulnerability_in/",
+    "timestamp": "2025-05-23T11:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
