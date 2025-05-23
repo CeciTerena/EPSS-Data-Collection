@@ -9170,5 +9170,18 @@
     "timestamp": "2025-05-23T04:37:11",
     "clean_text": "China-Nexus Threat Actor Actively Exploiting Ivanti Endpoint Manager Mobile (CVE-2025-4428) Vulnerability",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32310"
+    ],
+    "cve_counts": {
+      "CVE-2025-32310": 1
+    },
+    "title": "CVE-2025-32310: Privilege Escalation Vulnerability in ThemeMove QuickCal due to CSRF",
+    "permalink": "/r/ameeba/comments/1kte1gb/cve202532310_privilege_escalation_vulnerability/",
+    "timestamp": "2025-05-23T08:00:03",
+    "clean_text": "CVE-2025-32310: Privilege Escalation Vulnerability in ThemeMove QuickCal due to CSRF",
+    "clean_comments": []
   }
 ]
