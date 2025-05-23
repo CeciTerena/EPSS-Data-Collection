@@ -10911,5 +10911,33 @@
     "timestamp": "2025-05-23T15:36:32",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4810"
+    ],
+    "cve_counts": {
+      "CVE-2025-4810": 1
+    },
+    "title": "CVE-2025-4810: Critical Remote Buffer Overflow Vulnerability in Tenda AC7",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1ktontd/cve20254810_critical_remote_buffer_overflow/",
+    "timestamp": "2025-05-23T17:00:04",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 1
+    },
+    "title": "More than 1,500 AI projects are now vulnerable to a silent exploit",
+    "text": "According to the latest research by **ARIMLABS\\[.\\]AI**, a critical security vulnerability (**CVE-2025-47241**) has been discovered in the widely used **Browser Use** framework — a dependency leveraged by more than **1,500 AI projects**.\n\nThe issue enables **zero-click agent hijacking**, meaning an attacker can take control of an LLM-powered browsing agent simply by getting it to visit a malicious page — **no user interaction required**.\n\nThis raises serious concerns about the current state of security in autonomous AI agents, especially those that interact with the web.\n\n**What’s the community’s take on this? Is AI agent security getting the attention it deserves?**\n\n(сompiled links)  \nPoC and discussion: [https://x.com/arimlabs/status/1924836858602684585](https://x.com/arimlabs/status/1924836858602684585)  \nPaper: [https://arxiv.org/pdf/2505.13076](https://arxiv.org/pdf/2505.13076)  \nGHSA: [https://github.com/browser-use/browser-use/security/advisories/GHSA-x39x-9qw5-ghrf](https://github.com/browser-use/browser-use/security/advisories/GHSA-x39x-9qw5-ghrf)  \nBlog Post: [https://arimlabs.ai/news/the-hidden-dangers-of-browsing-ai-agents](https://arimlabs.ai/news/the-hidden-dangers-of-browsing-ai-agents)  \nEmail: [research@arimlabs.ai](mailto:research@arimlabs.ai)",
+    "permalink": "/r/ycombinator/comments/1kto3bd/more_than_1500_ai_projects_are_now_vulnerable_to/",
+    "timestamp": "2025-05-23T16:36:44",
+    "article_text": null,
+    "comments": []
   }
 ]
