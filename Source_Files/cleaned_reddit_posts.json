@@ -9350,5 +9350,33 @@
     "timestamp": "2025-05-23T17:23:26",
     "clean_text": "China-Nexus Threat Actor Actively Exploiting Ivanti Endpoint Manager Mobile (CVE-2025-4428) Vulnerability",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20113",
+      "CVE-2025-20114"
+    ],
+    "cve_counts": {
+      "CVE-2025-20113": 1,
+      "CVE-2025-20114": 1
+    },
+    "title": "Cisco Unified Intelligence Center Privilege Escalation Vulnerabilities (CVE-2025-20113 & CVE-2025-20114)",
+    "permalink": "/r/systemtek/comments/1ktrkd4/cisco_unified_intelligence_center_privilege/",
+    "timestamp": "2025-05-23T18:57:27",
+    "clean_text": "Cisco Unified Intelligence Center Privilege Escalation Vulnerabilities (CVE-2025-20113 & CVE-2025-20114)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20152"
+    ],
+    "cve_counts": {
+      "CVE-2025-20152": 1
+    },
+    "title": "Cisco Identity Services Engine RADIUS Denial of Service Vulnerability (CVE-2025-20152)",
+    "permalink": "/r/systemtek/comments/1ktr70c/cisco_identity_services_engine_radius_denial_of/",
+    "timestamp": "2025-05-23T18:42:15",
+    "clean_text": "Cisco Identity Services Engine RADIUS Denial of Service Vulnerability (CVE-2025-20152)",
+    "clean_comments": []
   }
 ]
