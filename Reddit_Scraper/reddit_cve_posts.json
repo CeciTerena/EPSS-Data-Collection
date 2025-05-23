@@ -10983,5 +10983,47 @@
     "timestamp": "2025-05-23T18:42:15",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-48187"
+    ],
+    "cve_counts": {
+      "CVE-2025-48187": 1
+    },
+    "title": "CVE-2025-48187: RAGFlow Account Takeover Due to Brute-Force Attack Vulnerability",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1ktt1cr/cve202548187_ragflow_account_takeover_due_to/",
+    "timestamp": "2025-05-23T20:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-13930"
+    ],
+    "cve_counts": {
+      "CVE-2024-13930": 1
+    },
+    "title": "CVE Alert: CVE-2024-13930",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1ktswsy/cve_alert_cve202413930/",
+    "timestamp": "2025-05-23T19:54:26",
+    "article_text": "An Unchecked Loop Condition in ASPECT provides an attacker the ability to maliciously consume system resources if session administrator credentials become compromised This issue affects ASPECT-Enterprise: through 3.08.03; NEXUS Series: through 3.08.03; MATRIX Series: through 3.08.03.",
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32756"
+    ],
+    "cve_counts": {
+      "CVE-2025-32756": 1
+    },
+    "title": "Security Watch 5/23/25",
+    "text": "On K12TechPro, we've launched a weekly cyber threat intelligence and vulnerability newsletter with NTP and K12TechPro. We'll post the \"public\" news to k12sysadmin from each newsletter. For the full \"k12 techs only\" portion (no middle schoolers, bad guys, vendors, etc. allowed), log into [k12techpro.com](http://k12techpro.com) and visit the Cybersecurity Hub.\n\n**Pearson** confirms a serious data breach that started with a small Git misstep and ended in large-scale cloud infiltration. Meanwhile, **Android 16** is set to debut powerful new protections that elevate mobile security to enterprise-grade levels.\n\nWe also dive into the clever **ClickFix attack on iClicker** that weaponized a fake CAPTCHA to silently deliver PowerShell payloads. Then, there’s **Hazy Hawk**, a threat actor hijacking subdomains through forgotten DNS records—and succeeding against major institutions.\n\nFinally, learn about **CVE-2025-32756**, a buffer overflow vulnerability in Fortinet products that could open the door to remote code execution across multiple devices.",
+    "permalink": "/r/k12sysadmin/comments/1ktscq2/security_watch_52325/",
+    "timestamp": "2025-05-23T19:30:21",
+    "article_text": null,
+    "comments": []
   }
 ]
