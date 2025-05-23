@@ -10799,5 +10799,57 @@
     "timestamp": "2025-05-23T11:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-42509",
+      "CVE-2024-47461",
+      "CVE-2024-47460"
+    ],
+    "cve_counts": {
+      "CVE-2024-42509": 1,
+      "CVE-2024-47460": 1,
+      "CVE-2024-47461": 1
+    },
+    "title": "Is it possible to request a firmware update file on this subreddit ?",
+    "text": "If it is possible, could someone help me with the file ArubaInstant\\_Hercules\\_8.12.0.5\\_92330 ?  I'd like to test/compare the Security Cluster feature on my home lab from that patched version vs the old versions that are affected by CVEs CVE-2024-42509, CVE-2024-47460, CVE-2024-47461 on this advisor:\n\n  \n[https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw04722en\\_us&docLocale=en\\_US](https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw04722en_us&docLocale=en_US)\n\n  \nAnd im no longer able to download directly from HPE due to a generic non explicit error on the support portal. \n\n  \nThank you very much.",
+    "permalink": "/r/ArubaNetworks/comments/1kthyzk/is_it_possible_to_request_a_firmware_update_file/",
+    "timestamp": "2025-05-23T12:11:20",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 2
+    },
+    "title": "NTLM Hash Disclosure Spoofing Vulnerability - CVE-2025-24054",
+    "text": "\n\nHi,\n\n\n\n\n\nIs there a way to mitigate NTLM Hash Disclosure Spoofing Vulnerability - CVE-2025-24054 ? \n\n\n\nIs it enough to just install the latest path? Are there any extra steps?\n\n\n\nAnyone her has some knowledge to share on the subject?\n\n\n\n\n\nThanks,\n\n",
+    "permalink": "/r/activedirectory/comments/1kthxwe/ntlm_hash_disclosure_spoofing_vulnerability/",
+    "timestamp": "2025-05-23T12:09:52",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "Welcome to /r/ActiveDirectory! Please read the following information.\n\nIf you are looking for more resources on learning and building AD, see the following sticky for resources, recommendations, and guides!\n- [AD Resources Pinned Thread](https://www.reddit.com/r/activedirectory/comments/1iyaf9d/active_directory_resources/)\n- [AD Wiki](https://www.reddit.com/r/activedirectory/wiki/index/)\n\nWhen asking questions make sure you provide enough information. Posts with inadequate details may be removed without warning.\n- What version of Windows Server are you running?\n- Are there any specific error messages you're receiving? \n- What have you done to troubleshoot the issue? \n\nMake sure to sanitize any private information, posts with too much personal or environment information will be removed. See Rule 6. \n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/activedirectory) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-24054"
+    ],
+    "cve_counts": {
+      "CVE-2025-24054": 2
+    },
+    "title": "NTLM Hash Disclosure Spoofing Vulnerability - CVE-2025-24054",
+    "text": "Hi,\n\n\n\n\n\nIs there a way to mitigate NTLM Hash Disclosure Spoofing Vulnerability - CVE-2025-24054 ? \n\n\n\nIs it enough to just install the latest path? Are there any extra steps?\n\n\n\nAnyone her has some knowledge to share on the subject?\n\n\n\n\n\nThanks,",
+    "permalink": "/r/sysadmin/comments/1kthxnz/ntlm_hash_disclosure_spoofing_vulnerability/",
+    "timestamp": "2025-05-23T12:09:32",
+    "article_text": null,
+    "comments": []
   }
 ]
