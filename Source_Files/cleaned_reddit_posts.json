@@ -9131,5 +9131,44 @@
     "timestamp": "2025-05-23T02:00:03",
     "clean_text": "CVE-2025-4731: Critical Buffer Overflow Vulnerability in TOTOLINK Routers",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-39481"
+    ],
+    "cve_counts": {
+      "CVE-2025-39481": 1
+    },
+    "title": "CVE-2025-39481: Blind SQL Injection Vulnerability in imithemes Eventer",
+    "permalink": "/r/ameeba/comments/1ktbd7s/cve202539481_blind_sql_injection_vulnerability_in/",
+    "timestamp": "2025-05-23T05:00:03",
+    "clean_text": "CVE-2025-39481: Blind SQL Injection Vulnerability in imithemes Eventer",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47949"
+    ],
+    "cve_counts": {
+      "CVE-2025-47949": 1
+    },
+    "title": "CVE-2025-47949 Reveals Flaw in samlify That Opens Door to SAML Single Sign-On Bypass | Blog",
+    "permalink": "/r/blueteamsec/comments/1ktb0k9/cve202547949_reveals_flaw_in_samlify_that_opens/",
+    "timestamp": "2025-05-23T04:38:02",
+    "clean_text": "CVE-2025-47949 Reveals Flaw in samlify That Opens Door to SAML Single Sign-On Bypass | Blog",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4428"
+    ],
+    "cve_counts": {
+      "CVE-2025-4428": 1
+    },
+    "title": "China-Nexus Threat Actor Actively Exploiting Ivanti Endpoint Manager Mobile (CVE-2025-4428) Vulnerability",
+    "permalink": "/r/blueteamsec/comments/1ktb00q/chinanexus_threat_actor_actively_exploiting/",
+    "timestamp": "2025-05-23T04:37:11",
+    "clean_text": "China-Nexus Threat Actor Actively Exploiting Ivanti Endpoint Manager Mobile (CVE-2025-4428) Vulnerability",
+    "clean_comments": []
   }
 ]
