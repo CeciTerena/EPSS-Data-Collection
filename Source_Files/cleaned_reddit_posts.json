@@ -9254,5 +9254,18 @@
     "timestamp": "2025-05-23T12:09:32",
     "clean_text": "NTLM Hash Disclosure Spoofing Vulnerability - CVE-2025-24054 Hi, Is there a way to mitigate NTLM Hash Disclosure Spoofing Vulnerability - CVE-2025-24054 ? Is it enough to just install the latest path? Are there any extra steps? Anyone her has some knowledge to share on the subject? Thanks,",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31928"
+    ],
+    "cve_counts": {
+      "CVE-2025-31928": 1
+    },
+    "title": "CVE-2025-31928: SQL Injection Vulnerability in LambertGroup Multimedia Responsive Carousel",
+    "permalink": "/r/ameeba/comments/1ktkajx/cve202531928_sql_injection_vulnerability_in/",
+    "timestamp": "2025-05-23T14:00:03",
+    "clean_text": "CVE-2025-31928: SQL Injection Vulnerability in LambertGroup Multimedia Responsive Carousel",
+    "clean_comments": []
   }
 ]
