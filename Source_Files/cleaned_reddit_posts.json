@@ -9417,5 +9417,20 @@
     "timestamp": "2025-05-23T19:30:21",
     "clean_text": "Security Watch 5/23/25 On K12TechPro, we've launched a weekly cyber threat intelligence and vulnerability newsletter with NTP and K12TechPro. We'll post the \"public\" news to k12sysadmin from each newsletter. For the full \"k12 techs only\" portion (no middle schoolers, bad guys, vendors, etc. allowed), log into k12techpro.com and visit the Cybersecurity Hub. Pearson confirms a serious data breach that started with a small Git misstep and ended in large-scale cloud infiltration. Meanwhile, Android 16 is set to debut powerful new protections that elevate mobile security to enterprise-grade levels. We also dive into the clever ClickFix attack on iClicker that weaponized a fake CAPTCHA to silently deliver PowerShell payloads. Then, there’s Hazy Hawk, a threat actor hijacking subdomains through forgotten DNS records—and succeeding against major institutions. Finally, learn about CVE-2025-32756, a buffer overflow vulnerability in Fortinet products that could open the door to remote code execution across multiple devices.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4428",
+      "CVE-2025-4427"
+    ],
+    "cve_counts": {
+      "CVE-2025-4427": 1,
+      "CVE-2025-4428": 1
+    },
+    "title": "Live Forensic Collection from Ivanti EPMM Appliances (CVE-2025-4427 & CVE-2025-4428)",
+    "permalink": "/r/blueteamsec/comments/1ktthwv/live_forensic_collection_from_ivanti_epmm/",
+    "timestamp": "2025-05-23T20:19:19",
+    "clean_text": "Live Forensic Collection from Ivanti EPMM Appliances (CVE-2025-4427 & CVE-2025-4428)",
+    "clean_comments": []
   }
 ]

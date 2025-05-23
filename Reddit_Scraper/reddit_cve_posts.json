@@ -11025,5 +11025,21 @@
     "timestamp": "2025-05-23T19:30:21",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4428",
+      "CVE-2025-4427"
+    ],
+    "cve_counts": {
+      "CVE-2025-4427": 1,
+      "CVE-2025-4428": 1
+    },
+    "title": "Live Forensic Collection from Ivanti EPMM Appliances (CVE-2025-4427 & CVE-2025-4428)",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1ktthwv/live_forensic_collection_from_ivanti_epmm/",
+    "timestamp": "2025-05-23T20:19:19",
+    "article_text": null,
+    "comments": []
   }
 ]
