@@ -9267,5 +9267,18 @@
     "timestamp": "2025-05-23T14:00:03",
     "clean_text": "CVE-2025-31928: SQL Injection Vulnerability in LambertGroup Multimedia Responsive Carousel",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2410"
+    ],
+    "cve_counts": {
+      "CVE-2025-2410": 1
+    },
+    "title": "CVE Alert: CVE-2025-2410",
+    "permalink": "/r/RedPacketSecurity/comments/1ktlkxf/cve_alert_cve20252410/",
+    "timestamp": "2025-05-23T14:54:25",
+    "clean_text": "CVE Alert: CVE-2025-2410 Port manipulation vulnerabilities in ASPECT provide attackers with the ability to con-trol TCP/IP port access if session administrator credentials become compromised. This issue affects ASPECT-Enterprise: through 3.08.03; NEXUS Series: through 3.08.03; MATRIX Series: through 3.08.03.",
+    "clean_comments": []
   }
 ]
