@@ -12177,5 +12177,18 @@
     "timestamp": "2025-05-24T15:22:45",
     "clean_text": "Bypassing MTE with CVE-2025-0072",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32290"
+    ],
+    "cve_counts": {
+      "CVE-2025-32290": 1
+    },
+    "title": "CVE-2025-32290: SQL Injection Vulnerability in LambertGroup Sticky HTML5 Music Player",
+    "permalink": "/r/ameeba/comments/1kugcxd/cve202532290_sql_injection_vulnerability_in/",
+    "timestamp": "2025-05-24T17:00:04",
+    "clean_text": "CVE-2025-32290: SQL Injection Vulnerability in LambertGroup Sticky HTML5 Music Player",
+    "clean_comments": []
   }
 ]
