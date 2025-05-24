@@ -11171,5 +11171,19 @@
     "timestamp": "2025-05-24T09:54:24",
     "article_text": "An access control vulnerability was discovered in Grafana OSS where an Organization administrator could permanently delete the Server administrator account. This vulnerability exists in the DELETE /api/org/users/ endpoint. The vulnerability can be exploited when: 1. An Organization administrator exists 2. The Server administrator is either: – Not part of any organization, or – Part of the same organization as the Organization administrator Impact: – Organization administrators can permanently delete Server administrator accounts – If the only Server administrator is deleted, the Grafana instance becomes unmanageable – No super-user permissions remain in the system – Affects all users, organizations, and teams managed in the instance The vulnerability is particularly serious as it can lead to a complete loss of administrative control over the Grafana instance.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4841"
+    ],
+    "cve_counts": {
+      "CVE-2025-4841": 1
+    },
+    "title": "CVE-2025-4841: Critical Buffer Overflow Vulnerability in D-Link DCS-932L 2.18.01",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1ku8yez/cve20254841_critical_buffer_overflow/",
+    "timestamp": "2025-05-24T11:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
