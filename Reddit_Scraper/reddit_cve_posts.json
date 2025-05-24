@@ -11661,5 +11661,19 @@
         "level": 1
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-48286"
+    ],
+    "cve_counts": {
+      "CVE-2025-48286": 1
+    },
+    "title": "CVE Alert: CVE-2025-48286",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kudh8c/cve_alert_cve202548286/",
+    "timestamp": "2025-05-24T14:54:24",
+    "article_text": "Improper Neutralization of Input During Web Page Generation (‘Cross-site Scripting’) vulnerability in catkin ReDi Restaurant Reservation allows Reflected XSS. This issue affects ReDi Restaurant Reservation: from n/a through 24.1209.",
+    "comments": []
   }
 ]
