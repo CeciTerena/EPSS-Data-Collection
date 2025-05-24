@@ -9471,5 +9471,18 @@
     "timestamp": "2025-05-24T05:00:03",
     "clean_text": "CVE-2025-4831: Critical Buffer Overflow Vulnerability in TOTOLINK Routers",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26817"
+    ],
+    "cve_counts": {
+      "CVE-2025-26817": 1
+    },
+    "title": "CVE-2025-26817 Netwrix password manager authenticated remote code execution",
+    "permalink": "/r/blueteamsec/comments/1ku5ch5/cve202526817_netwrix_password_manager/",
+    "timestamp": "2025-05-24T06:48:14",
+    "clean_text": "CVE-2025-26817 Netwrix password manager authenticated remote code execution",
+    "clean_comments": []
   }
 ]
