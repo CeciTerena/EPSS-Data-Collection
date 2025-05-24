@@ -17712,5 +17712,25 @@
     "timestamp": "2025-05-24T17:00:04",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-37899"
+    ],
+    "cve_counts": {
+      "CVE-2025-37899": 3
+    },
+    "title": "o3 for finding a security vulnerability in the Linux kernel",
+    "text": "[https://sean.heelan.io/2025/05/22/how-i-used-o3-to-find-cve-2025-37899-a-remote-zeroday-vulnerability-in-the-linux-kernels-smb-implementation/](https://sean.heelan.io/2025/05/22/how-i-used-o3-to-find-cve-2025-37899-a-remote-zeroday-vulnerability-in-the-linux-kernels-smb-implementation/)\n\nSecurity researcher Sean Heelan discovered a critical 0-day vulnerability (CVE-2025-37899) in the Linux kernel’s ksmbd module, which implements the SMB3 protocol. The bug is a use-after-free triggered during concurrent SMB logoff requests: one thread can free `sess->user` while another thread still accesses it.\n\nWhat makes this unique is that the vulnerability was found using OpenAI's o3 language model, no static analysis tools, no fuzzers. Just prompting the AI to reason through the logic of the kernel code.",
+    "permalink": "/r/singularity/comments/1kuijjw/o3_for_finding_a_security_vulnerability_in_the/",
+    "timestamp": "2025-05-24T18:35:14",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "It'd be so cool if all software in the near future is mathematically perfect and optimized.",
+        "level": 0
+      }
+    ]
   }
 ]

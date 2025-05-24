@@ -12190,5 +12190,20 @@
     "timestamp": "2025-05-24T17:00:04",
     "clean_text": "CVE-2025-32290: SQL Injection Vulnerability in LambertGroup Sticky HTML5 Music Player",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-37899"
+    ],
+    "cve_counts": {
+      "CVE-2025-37899": 3
+    },
+    "title": "o3 for finding a security vulnerability in the Linux kernel",
+    "permalink": "/r/singularity/comments/1kuijjw/o3_for_finding_a_security_vulnerability_in_the/",
+    "timestamp": "2025-05-24T18:35:14",
+    "clean_text": "o3 for finding a security vulnerability in the Linux kernel <URL> Security researcher Sean Heelan discovered a critical 0-day vulnerability (CVE-2025-37899) in the Linux kernel’s ksmbd module, which implements the SMB3 protocol. The bug is a use-after-free triggered during concurrent SMB logoff requests: one thread can free sess->user while another thread still accesses it. What makes this unique is that the vulnerability was found using OpenAI's o3 language model, no static analysis tools, no fuzzers. Just prompting the AI to reason through the logic of the kernel code.",
+    "clean_comments": [
+      "Level 0: It'd be so cool if all software in the near future is mathematically perfect and optimized."
+    ]
   }
 ]
