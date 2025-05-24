@@ -9484,5 +9484,31 @@
     "timestamp": "2025-05-24T06:48:14",
     "clean_text": "CVE-2025-26817 Netwrix password manager authenticated remote code execution",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-41992"
+    ],
+    "cve_counts": {
+      "CVE-2023-41992": 1
+    },
+    "title": "PoC for CVE-2023-41992 have been released, is there hope for installing TrollStore on iOS 17.0 through safari?",
+    "permalink": "/r/jailbreak/comments/1ku6id5/poc_for_cve202341992_have_been_released_is_there/",
+    "timestamp": "2025-05-24T08:09:47",
+    "clean_text": "PoC for CVE-2023-41992 have been released, is there hope for installing TrollStore on iOS 17.0 through safari? My phone is restricted by the company's device management policy from pairing with a computer, so I can't use TrollRestore to install TrollStore. I really hope there's a new method to install TrollStore.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4834"
+    ],
+    "cve_counts": {
+      "CVE-2025-4834": 1
+    },
+    "title": "CVE-2025-4834: Critical Buffer Overflow Vulnerability in TOTOLINK Routers",
+    "permalink": "/r/ameeba/comments/1ku6dd8/cve20254834_critical_buffer_overflow/",
+    "timestamp": "2025-05-24T08:00:03",
+    "clean_text": "CVE-2025-4834: Critical Buffer Overflow Vulnerability in TOTOLINK Routers",
+    "clean_comments": []
   }
 ]
