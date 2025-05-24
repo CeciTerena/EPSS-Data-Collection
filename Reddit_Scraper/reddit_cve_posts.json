@@ -17780,5 +17780,19 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-4759"
+    ],
+    "cve_counts": {
+      "CVE-2025-4759": 1
+    },
+    "title": "CVE-2025-4759: Incorrect Behavior Order in Lockfile-lint-api Package Potentially Leading to System Compromise",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kuo7xl/cve20254759_incorrect_behavior_order_in/",
+    "timestamp": "2025-05-24T23:00:04",
+    "article_text": null,
+    "comments": []
   }
 ]

@@ -12246,5 +12246,18 @@
     "clean_comments": [
       "Level 0: Anecdotally, I have found that this last generation of models (o3 specifically) has a certain cleverness to it that I don't really know how to articulate, or is really strongly represented in any benchmarks. This isn't present with 4o, and there was hints of it in o1. I can't wait to get our hands on o3-pro and GPT-5."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-4759"
+    ],
+    "cve_counts": {
+      "CVE-2025-4759": 1
+    },
+    "title": "CVE-2025-4759: Incorrect Behavior Order in Lockfile-lint-api Package Potentially Leading to System Compromise",
+    "permalink": "/r/ameeba/comments/1kuo7xl/cve20254759_incorrect_behavior_order_in/",
+    "timestamp": "2025-05-24T23:00:04",
+    "clean_text": "CVE-2025-4759: Incorrect Behavior Order in Lockfile-lint-api Package Potentially Leading to System Compromise",
+    "clean_comments": []
   }
 ]
