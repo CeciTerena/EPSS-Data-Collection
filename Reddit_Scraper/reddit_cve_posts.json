@@ -11379,5 +11379,287 @@
         "level": 1
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-30147"
+    ],
+    "cve_counts": {
+      "CVE-2025-30147": 1
+    },
+    "title": "ETHEREUM WEEKLY — 13 MAY 2025",
+    "text": "\nHey Reddit — we're **LatestBlock**, a new service curating essential Ethereum dev news every Tuesday: protocol upgrades, L2s, EIPs, audits, and more.\n\n**Follow us for updates:**\nWebsite: [https://latestblock.net](https://latestblock.net)\nTelegram: [https://t.me/latestblocknews](https://t.me/latestblocknews)\nTwitter: [https://twitter.com/latestblocknews](https://twitter.com/latestblocknews)\n\n---\n\n**Protocol Upgrades**\n\n* Delayed Execution + zkVMs proposed to scale Ethereum’s gas limit\n\n**CLZ Opcode Update**\n\n* EIP-7939 updated with SP1 examples; CLZ cheaper to prove than addition\n\n**Layer 2 & Scaling**\n\n* Tether launches USDT0 with zero-fee, gasless cross-chain transfers\n\n**EIPs & Standards**\n\n* EIP Office Hour #60 covers ERC-7743, margin tokens, and DeFi solvency proofs\n* EIP-5920: PAY Opcode debate heats up over gas cost and CALL behavior\n\n**Security**\n\n* CVE-2025-30147: Subgroup check bug patched in Besu client\n\n**Audits**\n\n* OpenZeppelin audits Linea CCTP; minor bugs and doc issues found\n\n**Staking & Recovery**\n\n* Proposal to deprecate 0x00 BLS creds with 0x03 post-quantum key\n\n**Gas Costs**\n\n* EIP-7883 & 7823 reviewed for ModExp cost modeling and byte limits\n\n**MEV & Consensus**\n\n* Proposal to reduce builder centralization with one-time randomness\n\n**Tooling & Compilers**\n\n* Solidity 0.8.30 released; default EVM shifts to Prague for Pectra fork\n\n---\n\nFull breakdown: [https://latestblock.net](https://latestblock.net)\nTelegram: [https://t.me/latestblocknews](https://t.me/latestblocknews)\nTwitter: [https://twitter.com/latestblocknews](https://twitter.com/latestblocknews)\n\nSee you next Tuesday!\n",
+    "permalink": "/r/ethereum/comments/1klt6hi/ethereum_weekly_13_may_2025/",
+    "timestamp": "2025-05-13T18:17:44",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "WARNING ABOUT SCAMS:  Recently there have been a lot of convincing-looking scams posted on crypto-related reddits including fake NFTs, fake credit cards, fake exchanges, fake mixing services, fake airdrops, fake MEV bots, fake ENS sites and scam sites claiming to help you revoke approvals to prevent fake hacks. These are typically upvoted by bots and seen before moderators can remove them. Do not click on these links and always be wary of anything that tries to rush you into sending money or approving contracts.\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/ethereum) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-38475",
+      "CVE-2023-44221"
+    ],
+    "cve_counts": {
+      "CVE-2023-44221": 1,
+      "CVE-2024-38475": 1
+    },
+    "title": "SonicBoom, From Stolen Tokens to Remote Shells - SonicWall SMA100 (CVE-2023-44221, CVE-2024-38475) - watchTowr Labs",
+    "text": "",
+    "permalink": "/r/netsec/comments/1kclo6p/sonicboom_from_stolen_tokens_to_remote_shells/",
+    "timestamp": "2025-05-01T22:34:41",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-25234"
+    ],
+    "cve_counts": {
+      "CVE-2025-25234": 1
+    },
+    "title": "UAG Vulnerability OMSA-2025-0002 CVE-2025-25234",
+    "text": "Hey all\n\nIn a bit of a jam with a customer regarding this vulnerability that came out recently.\n\nWe're using Horizon 2212.2 and UAG 2312.\n\nThe only remediation available for this CVE is to update the UAG to 2503.\n\nAccording to the interop matrix, UAG 2503 is not supported with Horizon 2212.2. We have a constraint in that we're still running some server 2012 RDSH farms (Yes i know, i know. We are actively working to remove these but the timeline for completion is months out).\n\nWe cannot roll forward the UAG to the fixed vesion because that is not supported with our Horizon version.\n\nWe cannot roll forward to a newer horizon version because they don't support server 2012 rdsh farms.\n\nGiven 2212.2 is still under support, should Omnissa not be providing a solution for this?\n\nUPDATE: Looks like Omnissa have updated the interop matrix over the weekend and it now shows 2212.2 is supported with 2503. I haven't yet had a meaningful response to my support ticket but I suspect I don't really need one now. We're going to go ahead with deploying the new UAG.",
+    "permalink": "/r/VMwareHorizon/comments/1kbzh4y/uag_vulnerability_omsa20250002_cve202525234/",
+    "timestamp": "2025-05-01T03:42:11",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 3,
+        "text": "Horizon 2212.2 is still under support but Windows Server 2012 is not.  I know that's not a helpful answer but that is likely Omnissa's take on this.\n\n\nYou might be in luck though.  I have seen in the past when new versions are released the interoperability matrix will start off showing very little compatibility with older solutions but then gets updated later to include more. Almost as if omnissa starts off only verifying the new product with similarly aged components and then expands the interoperability as time passes.",
+        "level": 0
+      },
+      {
+        "score": 1,
+        "text": "Yea the server 2012 part is a bit beside the point actually. We deploy ESB with the idea that we have support for 3 years, but then this happens and they're essentially forcing our hand to do a major update much sooner than planned.",
+        "level": 1
+      },
+      {
+        "score": 2,
+        "text": "I would open up a support ticket and/or ask your account manager if you have one.\n\n\nAccording to the interop matrix UAG 2503 is compatible with Horizon 2212.  The checkbox is missing for 2212.1 and 2212.2 but those are just patch releases of the same core component version.  That is to say, if it's compatible with 2212 it makes no sense that it wouldn't be compatible with the patch versions.  I think it's just an oversight from whoever is responsible for updating the interop matrix.",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-24524",
+      "CVE-2025-32011",
+      "CVE-2025-24522"
+    ],
+    "cve_counts": {
+      "CVE-2025-24522": 1,
+      "CVE-2025-32011": 1,
+      "CVE-2025-24524": 1
+    },
+    "title": "CISA Alerts on KUNBUS Vulnerabilities That Could Endanger Critical Infrastructure",
+    "text": "\n**Serious authentication bypass vulnerabilities in KUNBUS's Revolution Pi devices could allow remote attackers to take control of industrial systems.**\n\n**Key Points:**\n\n- KUNBUS Revolution Pi devices face critical authentication bypass vulnerabilities.\n- Attackers can exploit these flaws to execute commands remotely, compromising safety systems.\n- Recommendations include immediate software updates and network isolation to mitigate risks.\n\nCISA has issued a critical advisory regarding alarming vulnerabilities found in KUNBUS GmbH’s Revolution Pi industrial automation devices. These vulnerabilities, specifically an authentication bypass and remote code execution risks, could expose vital sectors like manufacturing, energy, and healthcare to severe threats. The potential for attackers to disrupt essential operations, manipulate safety systems, or inflict widespread downtime serves as a stark reminder of the urgency of cybersecurity measures in industrial settings.\n\nThe advisory outlines three significant vulnerabilities with extremely high severity scores. The most concerning, CVE-2025-24522, highlights a lack of default authentication in the Node-RED server, enabling unauthenticated attackers to execute arbitrary commands with complete control over the industrial systems. Other vulnerabilities, such as CVE-2025-32011 and CVE-2025-24524, allow attackers to bypass authentication mechanisms and inject scripts, respectively, potentially leading to devastating consequences. Even though KUNBUS has acknowledged these risks and released patches, many organizations remain vulnerable due to slow update cycles, particularly in regulated environments where legacy systems are still in use.\n\nWhat steps is your organization taking to address potential vulnerabilities in industrial control systems?\n\n**Learn More:** [Cyber Security News](https://cybersecuritynews.com/kunbus-auth-bypass-vulnerabilities/)\n\n**Want to stay updated on the latest cyber threats?** \n\n 👉 **[Subscribe to /r/PwnHub](https://www.reddit.com/r/pwnhub)**",
+    "permalink": "/r/pwnhub/comments/1ke8ax4/cisa_alerts_on_kunbus_vulnerabilities_that_could/",
+    "timestamp": "2025-05-04T01:23:38",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "**Welcome to r/pwnhub – Your hub for hacking news, breach reports, and cyber mayhem.**  \n\nStay updated on **zero-days, exploits, hacker tools, and the latest cybersecurity drama**.  \n\nWhether you’re **red team, blue team, or just here for the chaos**—dive in and stay ahead.  \n\nStay sharp. Stay secure.  \n\n**[Subscribe and join us for daily posts!](https://www.reddit.com/r/pwnhub/)**\n\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/pwnhub) if you have any questions or concerns.*",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-43865",
+      "CVE-2025-43864"
+    ],
+    "cve_counts": {
+      "CVE-2025-43864": 3,
+      "CVE-2025-43865": 1
+    },
+    "title": "Remix vulnerabilities CVE-2025-43864 and CVE-2025-43865",
+    "text": "Strongly recommend you update your Remix / React Router apps if you are at v7. There's two high severity CVEs that were found.\n\n[https://x.com/zhero\\_\\_\\_/status/1915555220165107916](https://x.com/zhero___/status/1915555220165107916)\n\n[https://vercel.com/changelog/protection-against-react-router-and-remix-vulnerabilities-cve-2025-43864](https://vercel.com/changelog/protection-against-react-router-and-remix-vulnerabilities-cve-2025-43864)",
+    "permalink": "/r/remixrun/comments/1k8rryn/remix_vulnerabilities_cve202543864_and/",
+    "timestamp": "2025-04-27T00:50:13",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "updated, thank you for the heads up",
+        "level": 0
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-2783",
+      "CVE-2025-21756",
+      "CVE-2025-31324",
+      "CVE-2025-3928",
+      "CVE-2025-29824",
+      "CVE-2025-32433",
+      "CVE-2025-42599",
+      "CVE-2025-31650",
+      "CVE-2024-27876",
+      "CVE-2025-1976"
+    ],
+    "cve_counts": {
+      "CVE-2025-29824": 2,
+      "CVE-2025-2783": 2,
+      "CVE-2025-21756": 2,
+      "CVE-2025-42599": 2,
+      "CVE-2025-32433": 2,
+      "CVE-2025-31324": 2,
+      "CVE-2025-31650": 2,
+      "CVE-2025-1976": 2,
+      "CVE-2024-27876": 2,
+      "CVE-2025-3928": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (01/05/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-29824](https://nvd.nist.gov/vuln/detail/CVE-2025-29824)**\n\n- 📝 Windows Common Log File System Driver Elevation of Privilege Vulnerability\n\n- 📅 **Published:** 08/04/2025\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C\n- 📣 **Mentions:** 85\n- ⚠️ **Priority:** 2\n\n---\n\n**2. [CVE-2025-2783](https://nvd.nist.gov/vuln/detail/CVE-2025-2783)**\n\n- 📝 Incorrect handle provided in unspecified circumstances in Mojo in Google Chrome on Windows prior to 134.0.6998.177 allowed a remote attacker to perform a sandbox escape via a malicious file. (Chromium security severity: High)\n\n- 📅 **Published:** 26/03/2025\n- 📈 **CVSS:** 8.3\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 79\n- ⚠️ **Priority:** 1+\n\n---\n\n**3. [CVE-2025-21756](https://nvd.nist.gov/vuln/detail/CVE-2025-21756)**\n\n- 📝 In the Linux kernel, the following vulnerability has been resolved: vsock: Keep the binding until socket destruction Preserve sockets bindings; this includes both resulting from an explicit bind() and those implicitly bound through autobind during connect().\n- 📅 **Published:** 27/02/2025\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 7\n- ⚠️ **Priority:** 2\n\n---\n\n**4. [CVE-2025-42599](https://nvd.nist.gov/vuln/detail/CVE-2025-42599)**\n\n- 📝 Active! mail 6 BuildInfo: 6.60.05008561 and earlier contains a stack-based buffer overflow vulnerability. Receiving a specially crafted request created and sent by a remote unauthenticated attacker may lead to arbitrary code execution and/or a denial-of-service (DoS) condition.\n\n- 📅 **Published:** 18/04/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 6\n- ⚠️ **Priority:** 4\n\n---\n\n**5. [CVE-2025-32433](https://nvd.nist.gov/vuln/detail/CVE-2025-32433)**\n\n- 📝 Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 44\n- ⚠️ **Priority:** 2\n\n---\n\n**6. [CVE-2025-31324](https://nvd.nist.gov/vuln/detail/CVE-2025-31324)**\n\n- 📝 SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system.\n\n- 📅 **Published:** 24/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 9\n- ⚠️ **Priority:** 4\n\n---\n\n**7. [CVE-2025-31650](https://nvd.nist.gov/vuln/detail/CVE-2025-31650)**\n\n- 📝 Improper Input Validation vulnerability in Apache Tomcat. Incorrect error handling for some invalid HTTP priority headers resulted in incomplete clean-up of the failed request which created a memory leak. A large number of such requests could trigger an OutOfMemoryException resulting in a denial of service. This issue affects Apache Tomcat: from 9.0.76 through 9.0.102, from 10.1.10 through 10.1.39, from 11.0.0-M2 through 11.0.5. Users are recommended to upgrade to version 9.0.104, 10.1.40 or 11.0.6 which fix the issue.\n\n- 📅 **Published:** 28/04/2025\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- 📣 **Mentions:** 4\n- ⚠️ **Priority:** 4\n\n---\n\n**8. [CVE-2025-1976](https://nvd.nist.gov/vuln/detail/CVE-2025-1976)**\n\n- 📝 Brocade Fabric OS versions starting with 9.1.0 have root access removed, however, a local user with admin privilege can potentially execute arbitrary code with full root privileges on Fabric OS versions 9.1.0 through 9.1.1d6.\n\n- 📅 **Published:** 24/04/2025\n- 📈 **CVSS:** 8.6\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:4.0/AV:A/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N\n- 📣 **Mentions:** 13\n- ⚠️ **Priority:** 1+\n\n---\n\n**9. [CVE-2024-27876](https://nvd.nist.gov/vuln/detail/CVE-2024-27876)**\n\n- 📝 A race condition was addressed with improved locking. This issue is fixed in macOS Ventura 13.7, iOS 17.7 and iPadOS 17.7, visionOS 2, iOS 18 and iPadOS 18, macOS Sonoma 14.7, macOS Sequoia 15. Unpacking a maliciously crafted archive may allow an attacker to write arbitrary files.\n\n- 📅 **Published:** 16/09/2024\n- 📈 **CVSS:** 8.1\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 4\n\n---\n\n**10. [CVE-2025-3928](https://nvd.nist.gov/vuln/detail/CVE-2025-3928)**\n\n- 📝 Commvault Web Server has an unspecified vulnerability that can be exploited by a remote, authenticated attacker. According to the Commvault advisory: Webservers can be compromised through bad actors creating and executing webshells. Fixed in version 11.36.46, 11.32.89, 11.28.141, and 11.20.217 for Windows and Linux platforms.\n\n- 📅 **Published:** 25/04/2025\n- 📈 **CVSS:** 8.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 11\n- ⚠️ **Priority:** 1+\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from [CVE_Prioritizer](https://github.com/TURROKS/CVE_Prioritizer).",
+    "permalink": "/r/CVEWatch/comments/1kc51ep/top_10_trending_cves_01052025/",
+    "timestamp": "2025-05-01T10:01:56",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-0582"
+    ],
+    "cve_counts": {
+      "CVE-2024-0582": 2
+    },
+    "title": "Exploiting CVE-2024-0582 via the Dirty Pagetable Method",
+    "text": "[Kuzey Arda Bulut](https://x.com/kuzeyardabulut) posted an [article](https://kuzey.rs/posts/Dirty_Page_Table/) about exploiting CVE-2024-0582 in io\\_uring using the Dirty Pagetable technique.  \n  \nThis bug was previously [reported](https://project-zero.issues.chromium.org/issues/42451653) by [Jann Horn](https://infosec.exchange/@jann) and [exploited](https://blog.exodusintel.com/2024/03/27/mind-the-patch-gap-exploiting-an-io_uring-vulnerability-in-ubuntu/) by Oriol Castejón.",
+    "permalink": "/r/linkersec/comments/1ka0x08/exploiting_cve20240582_via_the_dirty_pagetable/",
+    "timestamp": "2025-04-28T17:13:28",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2783",
+      "CVE-2025-24091",
+      "CVE-2025-21756",
+      "CVE-2025-31324",
+      "CVE-2025-3928",
+      "CVE-2025-29824",
+      "CVE-2025-42599",
+      "CVE-2025-31650",
+      "CVE-2024-27876",
+      "CVE-2025-1976"
+    ],
+    "cve_counts": {
+      "CVE-2025-29824": 2,
+      "CVE-2025-2783": 2,
+      "CVE-2025-21756": 2,
+      "CVE-2025-42599": 2,
+      "CVE-2025-31324": 2,
+      "CVE-2025-31650": 2,
+      "CVE-2025-1976": 2,
+      "CVE-2025-24091": 2,
+      "CVE-2024-27876": 2,
+      "CVE-2025-3928": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (30/04/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-29824](https://nvd.nist.gov/vuln/detail/CVE-2025-29824)**\n\n- 📝 Windows Common Log File System Driver Elevation of Privilege Vulnerability\n\n- 📅 **Published:** 08/04/2025\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C\n- 📣 **Mentions:** 85\n- ⚠️ **Priority:** 2\n\n---\n\n**2. [CVE-2025-2783](https://nvd.nist.gov/vuln/detail/CVE-2025-2783)**\n\n- 📝 Incorrect handle provided in unspecified circumstances in Mojo in Google Chrome on Windows prior to 134.0.6998.177 allowed a remote attacker to perform a sandbox escape via a malicious file. (Chromium security severity: High)\n\n- 📅 **Published:** 26/03/2025\n- 📈 **CVSS:** 8.3\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 79\n- ⚠️ **Priority:** 1+\n\n---\n\n**3. [CVE-2025-21756](https://nvd.nist.gov/vuln/detail/CVE-2025-21756)**\n\n- 📝 In the Linux kernel, the following vulnerability has been resolved: vsock: Keep the binding until socket destruction Preserve sockets bindings; this includes both resulting from an explicit bind() and those implicitly bound through autobind during connect().\n- 📅 **Published:** 27/02/2025\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 7\n- ⚠️ **Priority:** 2\n\n---\n\n**4. [CVE-2025-42599](https://nvd.nist.gov/vuln/detail/CVE-2025-42599)**\n\n- 📝 Active! mail 6 BuildInfo: 6.60.05008561 and earlier contains a stack-based buffer overflow vulnerability. Receiving a specially crafted request created and sent by a remote unauthenticated attacker may lead to arbitrary code execution and/or a denial-of-service (DoS) condition.\n\n- 📅 **Published:** 18/04/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 6\n- ⚠️ **Priority:** 4\n\n---\n\n**5. [CVE-2025-31324](https://nvd.nist.gov/vuln/detail/CVE-2025-31324)**\n\n- 📝 SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system.\n\n- 📅 **Published:** 24/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 9\n- ⚠️ **Priority:** 4\n\n---\n\n**6. [CVE-2025-31650](https://nvd.nist.gov/vuln/detail/CVE-2025-31650)**\n\n- 📝 Improper Input Validation vulnerability in Apache Tomcat. Incorrect error handling for some invalid HTTP priority headers resulted in incomplete clean-up of the failed request which created a memory leak. A large number of such requests could trigger an OutOfMemoryException resulting in a denial of service. This issue affects Apache Tomcat: from 9.0.76 through 9.0.102, from 10.1.10 through 10.1.39, from 11.0.0-M2 through 11.0.5. Users are recommended to upgrade to version 9.0.104, 10.1.40 or 11.0.6 which fix the issue.\n\n- 📅 **Published:** 28/04/2025\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- 📣 **Mentions:** 4\n- ⚠️ **Priority:** 4\n\n---\n\n**7. [CVE-2025-1976](https://nvd.nist.gov/vuln/detail/CVE-2025-1976)**\n\n- 📝 Brocade Fabric OS versions starting with 9.1.0 have root access removed, however, a local user with admin privilege can potentially execute arbitrary code with full root privileges on Fabric OS versions 9.1.0 through 9.1.1d6.\n\n- 📅 **Published:** 24/04/2025\n- 📈 **CVSS:** 8.6\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:4.0/AV:A/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N\n- 📣 **Mentions:** 13\n- ⚠️ **Priority:** 1+\n\n---\n\n**8. [CVE-2025-24091](https://nvd.nist.gov/vuln/detail/CVE-2025-24091)**\n\n- 📝 n/a\n\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\n**9. [CVE-2024-27876](https://nvd.nist.gov/vuln/detail/CVE-2024-27876)**\n\n- 📝 A race condition was addressed with improved locking. This issue is fixed in macOS Ventura 13.7, iOS 17.7 and iPadOS 17.7, visionOS 2, iOS 18 and iPadOS 18, macOS Sonoma 14.7, macOS Sequoia 15. Unpacking a maliciously crafted archive may allow an attacker to write arbitrary files.\n\n- 📅 **Published:** 16/09/2024\n- 📈 **CVSS:** 8.1\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 4\n\n---\n\n**10. [CVE-2025-3928](https://nvd.nist.gov/vuln/detail/CVE-2025-3928)**\n\n- 📝 Commvault Web Server has an unspecified vulnerability that can be exploited by a remote, authenticated attacker. According to the Commvault advisory: Webservers can be compromised through bad actors creating and executing webshells. Fixed in version 11.36.46, 11.32.89, 11.28.141, and 11.20.217 for Windows and Linux platforms.\n\n- 📅 **Published:** 25/04/2025\n- 📈 **CVSS:** 8.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 11\n- ⚠️ **Priority:** 1+\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from [CVE_Prioritizer](https://github.com/TURROKS/CVE_Prioritizer).",
+    "permalink": "/r/CVEWatch/comments/1kbctbk/top_10_trending_cves_30042025/",
+    "timestamp": "2025-04-30T10:07:14",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24132"
+    ],
+    "cve_counts": {
+      "CVE-2025-24132": 1
+    },
+    "title": "Disable Airplay on Denon AVR",
+    "text": "With the recent discovery of a zero click code execution exploit on airplay devices. I wanted to disable airplay on a denon AVR X4500H. Unfortunately I did not find any such settings, even after updating the firmware to the latest to date.\n\nvulnerability source: www.oligo.security/blog/airborne\nCVE-2025-24132\n\nWhat I did find though was that although there are no airplay settings visible in the setup menu. If you download the heos app for mobile devices, there is a hidden \"settings -> advanced\" setting that lets you set a password for any airplay connection.\n\nThough I don't know if this would prevent the exploit, I think its worth sharing. And if any of you find a way to disable airplay, let the community know please.",
+    "permalink": "/r/hometheater/comments/1kcy9am/disable_airplay_on_denon_avr/",
+    "timestamp": "2025-05-02T11:08:58",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 3,
+        "text": "In the web interface (in a browser), if it has “CI Settings” on the bottom right, then click on that and accept the acknowledgement.\n\nIt’s a settings menu meant for custom integrators, and I work in the industry - if you toggle CI Mode on, it will disable pretty much everything in that menu - so unless you want this, leave that setting off and you can just disable airplay.\n\nIt’s not designed for end users - but it won’t cause any issues with warranty, and you can always go back in and re-enable it once / if they release a patched firmware update",
+        "level": 0
+      },
+      {
+        "score": 1,
+        "text": "Many thanks! Thats perfect!",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-23016",
+      "CVE-2025-32432",
+      "CVE-2025-24091",
+      "CVE-2025-31324",
+      "CVE-2025-43865",
+      "CVE-2025-3928",
+      "CVE-2025-42599",
+      "CVE-2023-41892",
+      "CVE-2025-43864",
+      "CVE-2024-27876",
+      "CVE-2025-1976"
+    ],
+    "cve_counts": {
+      "CVE-2025-43865": 2,
+      "CVE-2025-32432": 2,
+      "CVE-2023-41892": 1,
+      "CVE-2025-23016": 2,
+      "CVE-2025-42599": 2,
+      "CVE-2025-31324": 2,
+      "CVE-2025-1976": 2,
+      "CVE-2025-24091": 2,
+      "CVE-2025-43864": 2,
+      "CVE-2024-27876": 2,
+      "CVE-2025-3928": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (29/04/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-43865](https://nvd.nist.gov/vuln/detail/CVE-2025-43865)**\n\n- 📝 React Router is a router for React. In versions on the 7.0 branch prior to version 7.5.2, its possible to modify pre-rendered data by adding a header to the request. This allows to completely spoof its contents and modify all the values of the data object passed to the HTML. This issue has been patched in version 7.5.2.\n\n- 📅 **Published:** 25/04/2025\n- 📈 **CVSS:** 8.2\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H\n- 📣 **Mentions:** 4\n- ⚠️ **Priority:** 2\n\n---\n\n**2. [CVE-2025-32432](https://nvd.nist.gov/vuln/detail/CVE-2025-32432)**\n\n- 📝 Craft is a flexible, user-friendly CMS for creating custom digital experiences on the web and beyond. Starting from version 3.0.0-RC1 to before 3.9.15, 4.0.0-RC1 to before 4.14.15, and 5.0.0-RC1 to before 5.6.17, Craft is vulnerable to remote code execution. This is a high-impact, low-complexity attack vector. This issue has been patched in versions 3.9.15, 4.14.15, and 5.6.17, and is an additional fix for CVE-2023-41892.\n\n- 📅 **Published:** 25/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L\n- 📣 **Mentions:** 9\n- ⚠️ **Priority:** 2\n\n---\n\n**3. [CVE-2025-23016](https://nvd.nist.gov/vuln/detail/CVE-2025-23016)**\n\n- 📝 FastCGI fcgi2 (aka fcgi) 2.x through 2.4.4 has an integer overflow (and resultant heap-based buffer overflow) via crafted nameLen or valueLen values in data to the IPC socket. This occurs in ReadParams in fcgiapp.c.\n\n- 📅 **Published:** 10/01/2025\n- 📈 **CVSS:** 9.3\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 11\n- ⚠️ **Priority:** 2\n\n---\n\n**4. [CVE-2025-42599](https://nvd.nist.gov/vuln/detail/CVE-2025-42599)**\n\n- 📝 Active! mail 6 BuildInfo: 6.60.05008561 and earlier contains a stack-based buffer overflow vulnerability. Receiving a specially crafted request created and sent by a remote unauthenticated attacker may lead to arbitrary code execution and/or a denial-of-service (DoS) condition.\n\n- 📅 **Published:** 18/04/2025\n- 📈 **CVSS:** 9.8\n- 🧭 **Vector:** CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 6\n- ⚠️ **Priority:** 4\n\n---\n\n**5. [CVE-2025-31324](https://nvd.nist.gov/vuln/detail/CVE-2025-31324)**\n\n- 📝 SAP NetWeaver Visual Composer Metadata Uploader is not protected with a proper authorization, allowing unauthenticated agent to upload potentially malicious executable binaries that could severely harm the host system. This could significantly affect the confidentiality, integrity, and availability of the targeted system.\n\n- 📅 **Published:** 24/04/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 9\n- ⚠️ **Priority:** 4\n\n---\n\n**6. [CVE-2025-1976](https://nvd.nist.gov/vuln/detail/CVE-2025-1976)**\n\n- 📝 Brocade Fabric OS versions starting with 9.1.0 have root access removed, however, a local user with admin privilege can potentially execute arbitrary code with full root privileges on Fabric OS versions 9.1.0 through 9.1.1d6.\n\n- 📅 **Published:** 24/04/2025\n- 📈 **CVSS:** 8.6\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:4.0/AV:A/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N\n- 📣 **Mentions:** 13\n- ⚠️ **Priority:** 1+\n\n---\n\n**7. [CVE-2025-24091](https://nvd.nist.gov/vuln/detail/CVE-2025-24091)**\n\n- 📝 n/a\n\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- ⚠️ **Priority:** n/a\n\n---\n\n**8. [CVE-2025-43864](https://nvd.nist.gov/vuln/detail/CVE-2025-43864)**\n\n- 📝 React Router is a router for React. Starting in version 7.2.0 and prior to version 7.5.2, it is possible to force an application to switch to SPA mode by adding a header to the request. If the application uses SSR and is forced to switch to SPA, this causes an error that completely corrupts the page. If a cache system is in place, this allows the response containing the error to be cached, resulting in a cache poisoning that strongly impacts the availability of the application. This issue has been patched in version 7.5.2.\n\n- 📅 **Published:** 25/04/2025\n- 📈 **CVSS:** 7.5\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 2\n\n---\n\n**9. [CVE-2024-27876](https://nvd.nist.gov/vuln/detail/CVE-2024-27876)**\n\n- 📝 A race condition was addressed with improved locking. This issue is fixed in macOS Ventura 13.7, iOS 17.7 and iPadOS 17.7, visionOS 2, iOS 18 and iPadOS 18, macOS Sonoma 14.7, macOS Sequoia 15. Unpacking a maliciously crafted archive may allow an attacker to write arbitrary files.\n\n- 📅 **Published:** 16/09/2024\n- 📈 **CVSS:** 8.1\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 4\n\n---\n\n**10. [CVE-2025-3928](https://nvd.nist.gov/vuln/detail/CVE-2025-3928)**\n\n- 📝 Commvault Web Server has an unspecified vulnerability that can be exploited by a remote, authenticated attacker. According to the Commvault advisory: Webservers can be compromised through bad actors creating and executing webshells. Fixed in version 11.36.46, 11.32.89, 11.28.141, and 11.20.217 for Windows and Linux platforms.\n\n- 📅 **Published:** 25/04/2025\n- 📈 **CVSS:** 8.8\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 11\n- ⚠️ **Priority:** 1+\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details, priority scores come from [CVE_Prioritizer](https://github.com/TURROKS/CVE_Prioritizer).",
+    "permalink": "/r/CVEWatch/comments/1kakbfz/top_10_trending_cves_29042025/",
+    "timestamp": "2025-04-29T10:07:09",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-22225",
+      "CVE-2025-29824",
+      "CVE-2025-22224",
+      "CVE-2025-22226",
+      "CVE-2025-20236"
+    ],
+    "cve_counts": {
+      "CVE-2025-29824": 2,
+      "CVE-2025-22224": 3,
+      "CVE-2025-22225": 3,
+      "CVE-2025-22226": 3,
+      "CVE-2025-20236": 1
+    },
+    "title": "Intel for the day. I am going to start posting these a few times a week.",
+    "text": "# 🔐 Microsoft\n\n* **April 2025 Patch Tuesday**: Microsoft addressed 121 vulnerabilities, including 11 rated as critical and one actively exploited zero-day (CVE-2025-29824). The critical flaws impact components such as Windows, Azure, Office, and Kerberos. Organizations are advised to prioritize patching these vulnerabilities to mitigate potential risks. ([Microsoft's April 2025 Patch Tuesday Addresses 121 CVEs (CVE ...](https://www.tenable.com/blog/microsofts-april-2025-patch-tuesday-addresses-121-cves-cve-2025-29824?utm_source=chatgpt.com), [The April 2025 Security Update Review - Zero Day Initiative](https://www.zerodayinitiative.com/blog/2025/4/8/the-april-2025-security-update-review?utm_source=chatgpt.com))\n* **Windows Server 2025 Hotpatching Subscription**: Starting July 1, 2025, Microsoft will introduce a paid subscription model for hotpatching in Windows Server 2025, aiming to reduce the need for system reboots during updates. ([Microsoft pitches pay-to-patch reboot reduction subscription for Windows Server 2025](https://www.theregister.com/2025/04/28/windows_server_2025_hotpatching_subscription/?utm_source=chatgpt.com))\n\n# 🔐 Cisco\n\n* **Unauthenticated Remote Code Execution Vulnerability**: Cisco disclosed a critical vulnerability in multiple products related to the Erlang/OTP SSH server, allowing unauthenticated remote code execution. Administrators should apply the provided patches promptly. ([Multiple Cisco Products Unauthenticated Remote Code Execution in ...](https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-erlang-otp-ssh-xyZZy?utm_source=chatgpt.com), [Zero-Day Vulnerabilities in VMware ESXi, Workstation ... - Tenable](https://www.tenable.com/blog/cve-2025-22224-cve-2025-22225-cve-2025-22226-zero-day-vulnerabilities-in-vmware-esxi?utm_source=chatgpt.com))\n* **Webex App Vulnerability (CVE-2025-20236)**: A high-severity vulnerability in Cisco Webex App versions 44.6 and 44.7 could enable attackers to execute remote code via malicious meeting invites. Users are urged to update to the latest versions immediately. ([High-Severity Vulnerability in Cisco Webex App](https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2025-037?utm_source=chatgpt.com))\n\n# 🔐 Qualys\n\n* **Policy Audit Feature Release**: Qualys introduced a new Policy Audit feature designed to streamline compliance monitoring by generating multiple reports from a single data collection. This enhancement aims to simplify the tracking of compliance trends across organizations. ([Qualys unveils Policy Audit to streamline compliance](https://www.internationalaccountingbulletin.com/news/qualys-policy-audit-compliance/?utm_source=chatgpt.com))\n\n# 🔐 Adobe\n\n* **April 2025 Security Updates**: Adobe released 10 security advisories addressing 47 vulnerabilities across products including ColdFusion, Photoshop, and Premiere Pro. Notably, 24 of these vulnerabilities are rated as critical, with potential impacts such as arbitrary code execution and security feature bypasses. ([Microsoft and Adobe Patch Tuesday, April 2025 Security Update ...](https://blog.qualys.com/vulnerabilities-threat-research/2025/04/08/microsoft-patch-tuesday-april-2025-security-update-review?utm_source=chatgpt.com))\n\n# 🔐 VMware\n\n* **Zero-Day Vulnerabilities Patched**: VMware addressed three zero-day vulnerabilities (CVE-2025-22224, CVE-2025-22225, CVE-2025-22226) affecting ESXi, Workstation, and Fusion. These vulnerabilities, which were exploited in the wild, could lead to heap overflows and information disclosure. Patches have been released, and immediate application is recommended. ([Zero-Day Vulnerabilities in VMware ESXi, Workstation ... - Tenable](https://www.tenable.com/blog/cve-2025-22224-cve-2025-22225-cve-2025-22226-zero-day-vulnerabilities-in-vmware-esxi?utm_source=chatgpt.com), [Microsoft and Adobe Patch Tuesday, April 2025 Security Update ...](https://blog.qualys.com/vulnerabilities-threat-research/2025/04/08/microsoft-patch-tuesday-april-2025-security-update-review?utm_source=chatgpt.com))\n\n",
+    "permalink": "/r/cybersecurity/comments/1kaeuac/intel_for_the_day_i_am_going_to_start_posting/",
+    "timestamp": "2025-04-29T03:49:30",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 4,
+        "text": "?utm_source=chatgpt.com",
+        "level": 0
+      },
+      {
+        "score": 5,
+        "text": "It takes me 15 seconds to post and if it helps 1 person it's worth it!",
+        "level": 1
+      }
+    ]
   }
 ]
