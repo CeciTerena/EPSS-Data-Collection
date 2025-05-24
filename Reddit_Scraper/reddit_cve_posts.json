@@ -17760,5 +17760,25 @@
     "timestamp": "2025-05-24T19:54:24",
     "article_text": "Unrestricted Upload of File with Dangerous Type vulnerability in ELEXtensions ELEX WordPress HelpDesk & Customer Ticketing System allows Upload a Web Shell to a Web Server. This issue affects ELEX WordPress HelpDesk & Customer Ticketing System: from n/a through 3.2.7.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-37899"
+    ],
+    "cve_counts": {
+      "CVE-2025-37899": 1
+    },
+    "title": "o3 is one of the most \"emergent\" model after GPT-4",
+    "text": "I really wanted to draft up a post on this with my personal experiences of o3. It has truly been a model that has well, blew my mind, in my opinion, model-wise; this was the biggest release after GPT-4. I do lots of technical low-level coding work for my job, most of the models after GPT-4 felt like incremental increasements. \n\nCan you feel like GPT-4o is better than GPT-4 by a lot? Of course yes, can it do some work that I have to think through an hour to solve? There isn't even a chance.\n\no3 has felt like a model that is at the borderline of innovators ([L4 by OpenAI's official AI Stages Definition](https://briansolis.com/wp-content/uploads/2024/08/450569783_841433614166911_6534768519297976338_n.jpg)). I have been working on a very low-level program written in Rust to build a compression algorithm on my own for fun. I got stuck with a bug for around a couple hours straight and the program just kept bugging out during compression. I passed the code to o3 and **o3 asked me for the initial couple hundred raw bytes (1s and 0s in regular ppl terms) of the produced compressed file**, i was very confused as I don't think you can really read raw bytes and find something useful. \n\nIt turned out that there was a really minor mistake I made that caused the produced compressed to be offset by a couple bytes, therefore the decompression program fails to read it. I would have personally never noticed this mistake without o3.\n\nThere has been lots of other similar experiences, such as [a programmer using o3 to test it accidentally found a Linux vulnerability](https://sean.heelan.io/2025/05/22/how-i-used-o3-to-find-cve-2025-37899-a-remote-zeroday-vulnerability-in-the-linux-kernels-smb-implementation/), lots of my friends working in other technical fields has noted that o3 is more of an \"partner\" than work assitant.\n\n**I would argue this one fact to conclude: The difference between a regular human and 110 IQ human is simply one is more efficient than the other. Yet the difference between a 110 IQ human and a 160 IQ is one of them can began to innovate and discover new knowledge.**\n\n  \n**With AI, we are getting close to crossing that boundary, so now we began to see some sparks happening:**\n\nhttps://preview.redd.it/d9yx4dswws2f1.png?width=2006&format=png&auto=webp&s=be412232f6183338303a1a63080495579c41ea03",
+    "permalink": "/r/singularity/comments/1kumuox/o3_is_one_of_the_most_emergent_model_after_gpt4/",
+    "timestamp": "2025-05-24T21:53:40",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 1,
+        "text": "Anecdotally, I have found that this last generation of models (o3 specifically) has a certain cleverness to it that I don't really know how to articulate, or is really strongly represented in any benchmarks. This isn't present with 4o, and there was hints of it in o1. I can't wait to get our hands on o3-pro and GPT-5.",
+        "level": 0
+      }
+    ]
   }
 ]
