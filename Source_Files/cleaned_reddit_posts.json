@@ -12164,5 +12164,18 @@
     "timestamp": "2025-04-26T05:08:21",
     "clean_text": "CVE Alert: CVE-2025-2070 An improper XML parsing vulnerability was reported in the FileZ client that could allow arbitrary file reads on the system if a crafted url is visited by a local user.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-0072"
+    ],
+    "cve_counts": {
+      "CVE-2025-0072": 1
+    },
+    "title": "Bypassing MTE with CVE-2025-0072",
+    "permalink": "/r/blueteamsec/comments/1kue4g4/bypassing_mte_with_cve20250072/",
+    "timestamp": "2025-05-24T15:22:45",
+    "clean_text": "Bypassing MTE with CVE-2025-0072",
+    "clean_comments": []
   }
 ]
