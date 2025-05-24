@@ -32,7 +32,7 @@ jobs:
         run: python reddit_scrapper.py
 
       - name: Run cleaner
-        working-directory: ./NLP_Pipeline
+        working-directory: ./Reddit_Scraper
         run: python cleaning_reddit.py
         
       - name: Commit and push results
