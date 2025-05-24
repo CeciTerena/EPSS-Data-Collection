@@ -11465,5 +11465,704 @@
       "Level 2: Generally not. Most criticals are remote code execution (RCE) vulns.",
       "Level 1: Everything the other commenter said, plus - this is illustrative of why not to use cvss scores as you sole determinant of risk/patching order."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2024-38063"
+    ],
+    "cve_counts": {
+      "CVE-2024-38063": 4
+    },
+    "title": "FYI: CVE-2024-38063",
+    "permalink": "/r/sysadmin/comments/1es09xf/fyi_cve202438063/",
+    "timestamp": "2024-08-14T12:26:17",
+    "clean_text": "FYI: CVE-2024-38063 Microsoft has published its monthly security updates. There are a total of 186 bulletins, of which 9 are rated as critical by Microsoft. There is a critical vulnerability in the TCP/IP implementation of Windows. The vulnerability allows an unauthenticated attacker to execute arbitrary code. The vulnerability can be exploited by sending specially crafted IPv6 packets to a Windows machine. Most Windows versions are affected. The vulnerability is assigned CVE-2024-38063. The vulnerability can be mitigated by turning off IPv6 on vulnerable machines or blocking incoming IPv6 traffic in the firewall. Businesses should consider implementing one of these measures until vulnerable machines are patched. Servers accessible from the Internet should be given priority Link: CVE-2024-38063 - Security Update Guide - Microsoft - Windows TCP/IP Remote Code Execution Vulnerability",
+    "clean_comments": [
+      "Level 0: Oh wow another gigantic issue with windows IPv6 implementation",
+      "Level 1: Oh, what was the last one? Microsoft is a huge user of IPv6 due to IPv4 address overlap with partners.",
+      "Level 2: [deleted]",
+      "Level 2: Unconfigured IPv6 in business networks can be easily coaxed with WPAD queries to MiTM and is a gateway to kerberosting.",
+      "Level 2: There was another RCE in 2020: <URL>",
+      "Level 1: people actually use ipv6? /s",
+      "Level 2: Yup",
+      "Level 2: V4 4ever! Even IPV6 routing protocols use ipv4 address scheme for router-ids.",
+      "Level 1: Thankfully, I've already disabled IPv6 across the landscape because of the previous 10 or 12 unrelated issues."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-3400"
+    ],
+    "cve_counts": {
+      "CVE-2024-3400": 4
+    },
+    "title": "Warning about CVE-2024-3400 remediation",
+    "permalink": "/r/paloaltonetworks/comments/1cd64yv/warning_about_cve20243400_remediation/",
+    "timestamp": "2024-04-25T23:26:56",
+    "clean_text": "Warning about CVE-2024-3400 remediation Hi everyone, I'm a security researcher and I just wanted to give everyone a heads up who doesn't already know that if you had confirmed RCE (or were vulnerable at any point), you may not be safe. The only option to guarantee you're free and clear is to do a full physical swap or send it off to a specialist who can do a full offline firmware & bios validation. We were able to craft a payload in a few hours that not only fully covered its tracks, but the rootkit also survives a full factory reset. I've been doing PA reverse engineering for some time now, and honestly the level of skill needed to write a persistent rootkit is extremely low. A disk swap is also not enough, although the bios vector requires a much more sophisticated attacker. Edit: PSIRT has updated guidance on CVE-2024-3400 to acknowledge that persistence through updates & factory resets are possible. Please be aware that if you patched early on, it is highly unlikely that you've been targeted by a attacker who was able to enable the persistence of any malware, or further, would have been able to implement the mechanisms necessary for it to evade all detection. Please see official guidance for more information: <URL> Edit 2: If you need help or if you have any questions, please feel free to reach out to me directly over chat or by sending me a message and I'll give you my signal contact information, I likely won't see most replies on this thread.",
+    "clean_comments": [
+      "Level 0: This thread has been locked as it seems people are using it for attacks than anything else. Please be adults here, we deal with enough children or child-like people in our lives."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-2550",
+      "CVE-2024-3393"
+    ],
+    "cve_counts": {
+      "CVE-2024-2550": 2,
+      "CVE-2024-3393": 2
+    },
+    "title": "CVE-2024-2550 and now CVE-2024-3393",
+    "permalink": "/r/paloaltonetworks/comments/1hn5bcg/cve20242550_and_now_cve20243393/",
+    "timestamp": "2024-12-27T03:01:42",
+    "clean_text": "CVE-2024-2550 and now CVE-2024-3393 I cannot even enjoy the one week off a year I get thanks to this nonsense. We just upgraded to 10.2.10-h10 for CVE-2024-2550 PAN-OS: Firewall Denial of Service (DoS) in GlobalProtect Gateway Using a Specially Crafted Packet Now I need to do an emergency change for CVE-2024-3393 PAN-OS: Firewall Denial of Service (DoS) in DNS Security Using a Specially Crafted Packet Looks like 10.2.10-h12 now I guess… Are they going to get this under control?",
+    "clean_comments": [
+      "Level 0: This will never stop, with any software. That's why we have a job.",
+      "Level 1: I mean you are correct but at the same time. They seem to be opening up vulnerabilities with every hotfix for the last 6 months. Obviously, that just comes with the territory. However, the coding seems to be taking a nosedive as of late.",
+      "Level 1: Sure, but there are differences with different vendors over time. Noone is flawless, but PA has been setting the bar high for the last year or two on how bad QA can get.",
+      "Level 1: No true. Never had issues like then 9yrs running with or Cisco Pix before that. Then we moved to Palo and it’s been a weekly dumpster fire of issues. The product is a mess and not even “secure” in anyway seemingly. Probably 50 other zero days that haven’t been discovered or is next to be zero dayed yet."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2023-23397"
+    ],
+    "cve_counts": {
+      "CVE-2023-23397": 4
+    },
+    "title": "Microsoft Outlook CVE-2023-23397 - Elevation of Privilege Vulnerability",
+    "permalink": "/r/sysadmin/comments/11rssg1/microsoft_outlook_cve202323397_elevation_of/",
+    "timestamp": "2023-03-15T10:46:59",
+    "clean_text": "Microsoft Outlook CVE-2023-23397 - Elevation of Privilege Vulnerability <URL> With CVE-2023-23397, the attacker sends a message with an extended MAPI-property with a UNC-path to a SMB-share on the attacker-controlled server. No user interaction is required. The exploitation can be triggered as soon as the client receives the email. The connection to the remote SMB-server sends the user's NTLM negotiation message, which will leak the NTLM hash of the victim to the attacker who can then relay this for authentication against other systems as the victim. Exploitation has been seen in the wild. This should be patched in the latest release but if needed, the following workarounds are available: * Add users to the Protected Users Security Group. This prevents the use of NTLM as an authentication mechanism. NOTE: this may cause impact to applications that require NTLM. * Block TCP 445/SMB outbound form your network by using a Firewall and via your VPN settings. This will prevent the sending of NTLM authentication messages to remote file shares. If you're on 2019 or later, the patches are provided through the click-and-run update CDN. For 2016 and older, patches are provided through windows update and are available from the CVE page.",
+    "clean_comments": [
+      "Level 0: if your mailboxes are in Exchange Online or on Exchange Server, after installing the Outlook update, you can use a script we created to see if any of your users have been targeted using the Outlook vulnerability. The script will tell you if any users have been targeted by potentially malicious messages and allow you to modify or delete those messages if any are found. <URL>",
+      "Level 1: CVE-2023-23397 Is there an advanced hunting query for MS 365 defender yet?",
+      "Level 2: based on poc analysis, this should detect the execution: Azure Sentinel: DeviceProcessEvents | where InitiatingProcessParentFileName == \"svchost.exe\" | where ProcessCommandLine contains \"rundll32.exe\" or InitiatingProcessCommandLine contains \"rundll32.exe\" | project InitiatingProcessParentFileName, InitiatingProcessFileName, InitiatingProcessCommandLine, FileName, ProcessCommandLine | where ProcessCommandLine contains \"davclnt.dll\" or InitiatingProcessCommandLine contains \"davclnt.dll\"",
+      "Level 1: according to <URL> Office 365 isnt effected, right? > Online services such as Microsoft 365 do not support NTLM authentication and are not vulnerable to being attacked by these messages. Yet they provide steps and a script to check your EXO environment to see if you have been impacted, is that just a precaution?",
+      "Level 2: The connection to the remote SMB-server sends the user's NTLM negotiation message, M365 services won't reply to an NTLM negotiation, but this exploit can send that negotiation elsewhere. This is just Microsoft saying their services can't be leveraged in this.",
+      "Level 2: Yeah I really want to know this - Do I need to worry about my 365 environment or not?!",
+      "Level 2: I'm assuming they meant maybe Outlook on the Web or the likes. The CVE reports \"Microsoft 365 Apps for Enterprise for 64-bit Systems\" is affected, which would be the locally installed Office Suite. We're going ahead with mitigations, nonetheless."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-0012",
+      "CVE-2024-9474"
+    ],
+    "cve_counts": {
+      "CVE-2024-0012": 3,
+      "CVE-2024-9474": 3
+    },
+    "title": "CVE-2024-0012 & CVE-2024-9474 ",
+    "permalink": "/r/paloaltonetworks/comments/1gu66x7/cve20240012_cve20249474/",
+    "timestamp": "2024-11-18T14:39:22",
+    "clean_text": "CVE-2024-0012 & CVE-2024-9474 <URL> <URL> CVEs used for the recent attacks to management interfaces published online.",
+    "clean_comments": [
+      "Level 0: They can pry 10.1 from my dead cold hands.",
+      "Level 1: Same.",
+      "Level 1: * 10.1 is unaffected by CVE-2024-0012. * Additional PAN-OS 10.1 fixes (for CVE-2024-9474): * 10.1.9-h14 * 10.1.10-h9 * 10.1.11-h10 * 10.1.12-h3 * 10.1.13-h5 * 10.1.14-h6 <- now preferred for 10.1",
+      "Level 2: Support PAN-OS Software Release Guidance says: 10.1.14-h4 is preferred not h6",
+      "Level 1: Same. Until I am forced to buy Gen 4 hardware. Maybe they will have a stable PAN-OS by then. It used to take about 18 months for a new major release to stabilize to the point of usability. 10.2 has never stabilized and 11.1 hasn’t either. I’d hate to try 11.2. What are these guys doing? I love them but the wheels are coming off the bus. Big time. Not sure Fortinet is any better. They have had 6 critical CVEs this year to Palo Alto Networks having 2. But the Palo Alto Networks ones have been very impactful."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-3400"
+    ],
+    "cve_counts": {
+      "CVE-2024-3400": 1
+    },
+    "title": "CVE 10 - Command injection vuln in GlobalProtect Gateway",
+    "permalink": "/r/paloaltonetworks/comments/1c234wt/cve_10_command_injection_vuln_in_globalprotect/",
+    "timestamp": "2024-04-12T07:31:30",
+    "clean_text": "CVE 10 - Command injection vuln in GlobalProtect Gateway <URL> Anyone on 10.2.x or above recommend looking at this ASAP.",
+    "clean_comments": [
+      "Level 0: Disable telemetry, then sit back and let people test the new releases for a week. I thank you all for the work you will put in to test the new releases for me. :p",
+      "Level 1: Hahaha",
+      "Level 1: I just updated to 10.2.8 and was content to have encountered no bugs yet then this bomb drops.",
+      "Level 2: Murphy’s law",
+      "Level 1: Disabling telemetry is not enough, apparently. I think Palo changed the security advisory. Currently it shows: \"Device telemetry does not need to be enabled for PAN-OS firewalls to be exposed to attacks related to this vulnerability\"",
+      "Level 2: This!",
+      "Level 1: Palo support told me the patch is still needed in case they figure out another feature with the same vulnerability. That said, I did the threat ID and telemetry off, but waiting to see what everyone says",
+      "Level 2: Problem is, it wouldn’t be the first time a patch for a security issue saw out and a few days down the road someone finds out it’s only a partial fix."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-55591"
+    ],
+    "cve_counts": {
+      "CVE-2024-55591": 2
+    },
+    "title": "Mass exploitation of CVE-2024-55591",
+    "permalink": "/r/fortinet/comments/1i3j7u1/mass_exploitation_of_cve202455591/",
+    "timestamp": "2025-01-17T15:44:30",
+    "clean_text": "Mass exploitation of CVE-2024-55591 We are seeing mass exploitation of CVE-2024-55591 now. Please update or perform remediation steps. <URL> <URL>",
+    "clean_comments": [
+      "Level 0: People who have their management services available on public interfaces deserve to be hacked. These same people probably have VIPs to their vCenter, SAN management GUI, WLCs, and NMS.\"because we need to get to it remotely.\"",
+      "Level 1: Moreso even than people who don't patch their firewalls regularly.",
+      "Level 2: ah, but you need to wait until version 7.2.319 then it might be release candidate level",
+      "Level 1: A bunch of people have management services available (HTTPS and Ping) on the public interfaces, but they use local-in policies to restrict who can connect to those services.",
+      "Level 2: Still a bad idea. While using local-in is better than just having it wide open, it's still an attack vector that could be abused. There are so many other ways to manage a remote device that are SECURE. I don't understand why this is still a thing.",
+      "Level 2: No Management on Extertal Interface, with or without local-in policy. For Management from remote use remote Access like ipsec.",
+      "Level 2: Ping? maybe pieces of it but don’t fuck up Path MTU discovery.",
+      "Level 2: [deleted]",
+      "Level 1: \"Im skilled enough to be responsible for all these things, but I have no idea how to configure a VPN through which to do all of it.\"",
+      "Level 1: Firewalls are the cornerstone of your network’s security posture. Exposing their management services, whether HTTPS, SSH, or even ping, is like leaving your vault door wide open. For those relying on local-in policies to “restrict” access, it’s not the safeguard you think it is. While it’s better than leaving it completely open, it’s still a vulnerable attack surface. Local-in policies aren’t bulletproof. What happens when a zero-day exploit targets the logic of those policies? What if an attacker spoofs an allowed IP? You’re gambling with your entire network’s security…for the sake of convenience. We’ve been in this industry long enough to know that “convenience” is not a valid excuse for poor security hygiene. The argument of “needing remote access” doesn’t hold water anymore when secure, scalable solutions exist to address this need. Vendors like Fortinet take heat when these types of vulns are exploited but let’s not ignore the bigger picture, the end-user’s responsibility to follow basic cybersecurity best practices. Vendors provide recommendations, secure configurations, and clear documentation on how to manage devices safely. Ignoring these guidelines and exposing management interfaces to the internet is reckless and amplifies the damage when vulnerabilities inevitably arise. It’s 2025. We know better. Stop publishing firewall management interfaces to the public internet. Use secure methods to manage your devices. It’s not hard, it’s just good security hygiene. Let’s stop making excuses and start holding ourselves accountable. If you’re still doing this, fix it now.",
+      "Level 2: Spot on. Reducing your security footprint is as important as hardening it.",
+      "Level 1: I wouldn't say deserve. I would say they are in need of guidance from qualified professionals.",
+      "Level 2: Many of the guilty ARE qualified professionals. MSSPs commonly do this to be able to remotely manage a customer’s environment without needing to license FMG.",
+      "Level 1: [deleted]",
+      "Level 2: Every web GUI known to man has security bugs. We don’t trust any of them. We keep them on a special vlan with limited access. If I were in a critical industry I’d put an internal VPN or similar in front of them.",
+      "Level 1: While yes this is true, this is a \"hardened\" network security device that should be up to the riggers of being directly attached to the internet unlike your other examples. I think we give fortinet way to much slack and leaway on these cve's.",
+      "Level 2: Rigors, not riggers. Way TOO much slack and LEEWAY. OK, now that the basic grammar lesson is done, hardened or not, there are still some basic expectations around hygiene. My house is pretty secure, with an alarm system, security cameras inside and out, but I don't leave the front door unlocked or the key under the mat. One basic tenet of good security practice is \"minimize the attack surface\". Part of that, in this case, is not openly publishing your management services to non-trusted networks. There isn't any excuse for this, and it's time we stop giving companies a free pass when they do. Yeah, Fortinet is at fault for producing a faulty product, and they HAVE paid for it in the media and stock market. However, the real-world effects of those faults are maximized by lazy / inept management of those devices by the end-users and MSSPs.",
+      "Level 2: the cult downvoted you, I upvoted you as I'm not a Jim Jones follower"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2018-17144"
+    ],
+    "cve_counts": {
+      "CVE-2018-17144": 1
+    },
+    "title": "600 Microseconds - How CVE-2018-17144 was discovered",
+    "permalink": "/r/btc/comments/9huu11/600_microseconds_how_cve201817144_was_discovered/",
+    "timestamp": "2018-09-21T22:48:02",
+    "clean_text": "600 Microseconds - How CVE-2018-17144 was discovered <URL>",
+    "clean_comments": [
+      "Level 0: Great read but just too kind to blockstream/core for my liking. You are a gentleman and blockstream/core play dirty. You make me proud to be a Bitcoin Casher. u/chaintip",
+      "Level 1: Wow, and thank you for this VERY generous tip!",
+      "Level 2: Many awe's with awemany. This man's destiny was written in his name!",
+      "Level 1: * u/awemany has claimed the 1. BCH| ~ 474.86 USD sent by u/where-is-satoshi via chaintip. *",
+      "Level 2: 1. BCH",
+      "Level 2: good bot",
+      "Level 1: Thank you!",
+      "Level 1: Man that is so awesome of you!",
+      "Level 1: You are a gentleman and blockstream/core play dirty. Well said!",
+      "Level 1: wow, very generous!",
+      "Level 1: OMG :)"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2023-23397"
+    ],
+    "cve_counts": {
+      "CVE-2023-23397": 2
+    },
+    "title": "CVE-2023-23397",
+    "permalink": "/r/sysadmin/comments/11rycl4/cve202323397/",
+    "timestamp": "2023-03-15T14:39:19",
+    "clean_text": "CVE-2023-23397 „It gets worse: The victim doesn’t even need to open the malicious email: As Microsoft notes in its own guidance for the Microsoft 365 vulnerability: “[The email] triggers automatically when it is retrieved and processed by the Outlook client. This could lead to exploitation BEFORE the email is viewed in the Preview Pane.”“ <URL>",
+    "clean_comments": [
+      "Level 0: Nobody: Microsoft: Blindly process code in emails before even requested",
+      "Level 1: This is how Microsoft enabled the first email virus. It doesn't look at email: it tastes email. This has been the case since 1997.",
+      "Level 2: *Melissa has entered the chat",
+      "Level 1: And people still have to ask this question: <URL> Ask yourself, how many times out of a million, does an email client, (you know, that piece of software designed to facilitate communication between people) need to execute code it's receiving? Zero. The answer is zero. Never, ever, ever ever ever ever, should an email client, execute an email, or it's attachments, as code, ever. But here we are. the company, which you'll never get fired for using, has been doing this since 1997!",
+      "Level 2: Outlook needs to download images to cache the message for offline access. Obviously it shouldn't be using a credentialed SMB call to the internet to ask for images. That seems like a fairly obvious thing in retrospect but look at the giant whole that was Log4J that existed for almost a decade visible to everyone. This isn't only a Microsoft issue, every major vendor has these style of issues.",
+      "Level 1: Okay, but Zimbra had an exploit that allowed RCE when their antivirus tried to scan zipped attachments sent through email. Like, their entire job is to make sure that what's being sent isn't malicious, so being able to execute malicious code during that check is really bad.",
+      "Level 1: [deleted]",
+      "Level 2: It's not SaaS It's the client"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-54772"
+    ],
+    "cve_counts": {
+      "CVE-2024-54772": 2
+    },
+    "title": "MikroTik Advisory: CVE-2024-54772",
+    "permalink": "/r/mikrotik/comments/1ix7z7l/mikrotik_advisory_cve202454772/",
+    "timestamp": "2025-02-24T17:43:51",
+    "clean_text": "MikroTik Advisory: CVE-2024-54772 Please see link below for MikroTik CVE as of the 18th February 2025. Affected Versions: RouterOS versions prior to 6.49.18 and 7.18. Recommended Actions: Update RouterOS – Upgrade to 6.49.18, 7.18 Additional security actions to assist mitigate available. <URL>",
+    "clean_comments": [
+      "Level 0: They gonna guess my \\admin\\",
+      "Level 1: hopefully not"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2019-13000",
+      "CVE-2019-12999",
+      "CVE-2019-12998"
+    ],
+    "cve_counts": {
+      "CVE-2019-12998": 1,
+      "CVE-2019-12999": 1,
+      "CVE-2019-13000": 1
+    },
+    "title": "Lightning Network Vulnerability Full Disclosure: CVE-2019-12998 / CVE-2019-12999 / CVE-2019-13000",
+    "permalink": "/r/CryptoCurrency/comments/da3eci/lightning_network_vulnerability_full_disclosure/",
+    "timestamp": "2019-09-27T17:09:07",
+    "clean_text": "Lightning Network Vulnerability Full Disclosure: CVE-2019-12998 / CVE-2019-12999 / CVE-2019-13000",
+    "clean_comments": [
+      "Level 0: Luckily this vulnerability is relatively benign since nobody uses LN",
+      "Level 1: If LN was a shitcoin it wont be even in the top 100. Can they just wind up this grand scale disaster already?!!",
+      "Level 2: You mean in the top 200 shitcoins even the worst one doesn't have these issues that Lightning has: - Both parties need to be online to transact, sending or receiving - Merchants accepting LN payments need to periodically keep topping up their side of the channel just to be able to keep receiving payments from customers. - when Bitcoin onchain fee's rise, LN balance goes down as you must reserve the onchain fee in each Ln transaction. When Bitcoin fees hit $2, 40% of the LN network capacity dropped. - LN is centralizing around LNBig which at one point had 80% of the whole LN network's liquidity.",
+      "Level 2: Lol, what an incoherent statement.",
+      "Level 2: Hyperbolic bullshit.",
+      "Level 2: Nobody uses shitcoins either so what's the argument here? Id much rather have the ability to transact over LN With the only coin that matter vs some centralized shitcoin.",
+      "Level 1: I hate LN as much as the next guy but we shouldn't shame a project for being open and honest. Assuming this wasn't just damage control and they were forced to tell people",
+      "Level 2: It's open source so theres no profit to be made from hiding vulnerabilities.",
+      "Level 1: Or Nano judging by the plummeting price. The CEO of Twitteer uses Lightning.",
+      "Level 2: Those sure are some sentences."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2023-23397"
+    ],
+    "cve_counts": {
+      "CVE-2023-23397": 7
+    },
+    "title": "Everything We Know About CVE-2023-23397",
+    "permalink": "/r/msp/comments/11tt3bc/everything_we_know_about_cve202323397/",
+    "timestamp": "2023-03-17T14:44:32",
+    "clean_text": "Everything We Know About CVE-2023-23397 UPDATE 03/20/2023 1647 ET: Noted by John Hammond and outside validation from Will Dormann, at least in our testing, turning off the \"Show reminders\" setting in Outlook prevents the leak of NTLM credentials. Special thanks to Tony Francisco with the MSP Media Network for asking the \"what if\" question. UPDATE 03/17/2023 1316 ET: To clarify, the CVE-2023-23397 vulnerability relies on *what application the user is utilizing to check their email (namely, Outlook.exe) -- it is irrelevant of where the email is hosted. Please refer to Microsoft's official advisory for the list of security updates that need to be installed on end user systems.* UPDATE 03/17/2023 1112 ET: Security researchers Will Dormann and Dominic Chell have reported that this vulnerability can still be used as a privilege escalation method even after the patch, but the adversary must trigger it via a local hostname in the network. Our team is currently tracking CVE-2023-23397, a critical vulnerability in Microsoft Outlook that requires no user interaction. To mitigate this threat, please patch your systems, as a patch was released earlier this week on Patch Tuesday. What It Does Threat actors are exploiting this vulnerability by sending a malicious email—which, again, *does not need to be opened*. From here, attackers capture Net-NTLMv2 hashes, which enable authentication in Windows environments. This allows threat actors to potentially authenticate themselves as the victims, escalate privileges, or further compromise the environment. What You Should Do At the risk of sounding like a broken record, *patch. This past Tuesday, Microsoft released a patch that mitigates the vulnerability, so it’s critical* that you patch your systems. We’re already monitoring our Huntress partners for signs of this CVE being exploited on their systems, but please patch as soon as possible. For those who are not Huntress partners, a potential detector to help you get started is published here. You can check out our security researchers’ proof-of-concept and deep-dive over on our blog: <URL>",
+    "clean_comments": [
+      "Level 0: Oh my god. That bug is so stupid. You can send a meeting invite that is allowed to specify a custom wave file as the notification sound, and that wave file can be hosted anywhere, and outlook will automatically add the invite to your callendar and play the sound? I’m honestly shocked no one thought of this until now.",
+      "Level 1: Reproducing it was a bit challenging though early when we didn't have much info to work off of",
+      "Level 2: Might be a cool blog to do after one of these where we share the internal process the team goes through when we're trying to reproduce one of these exploits from scratch!",
+      "Level 1: WTF. Who thought a custom notification sound capability was a must-have for calendar invites?",
+      "Level 2: HR. It's always HR."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2015-7358"
+    ],
+    "cve_counts": {
+      "CVE-2015-7358": 1
+    },
+    "title": "Truecrypt Critical Vulnerability, Patched in Veracrypt, CVE-2015-7358,7359",
+    "permalink": "/r/netsec/comments/3mvhck/truecrypt_critical_vulnerability_patched_in/",
+    "timestamp": "2015-09-29T19:53:05",
+    "clean_text": "Truecrypt Critical Vulnerability, Patched in Veracrypt, CVE-2015-7358,7359",
+    "clean_comments": [
+      "Level 0: tl;dr still no breakage of the containers or any backdoors.",
+      "Level 1: Wait, privilege escalation via the TrueCrypt client isn't considered a backdoor? edit oh, backdoor into the volume, not backdoor into the local system",
+      "Level 2: It doesn't decrypt the data, though.",
+      "Level 2: Note that it's not a backdoor. a backdoor is a flaw that is designed on purpose. There's no evidence it is the case here.",
+      "Level 1: Give it time. Don't want to squander a good thing."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-45489"
+    ],
+    "cve_counts": {
+      "CVE-2024-45489": 1
+    },
+    "title": "CVE-2024-45489 Incident Response",
+    "permalink": "/r/ArcBrowser/comments/1flf5d6/cve202445489_incident_response/",
+    "timestamp": "2024-09-20T15:44:35",
+    "clean_text": "CVE-2024-45489 Incident Response",
+    "clean_comments": [
+      "Level 0: <URL>"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2022-3786",
+      "CVE-2022-3602"
+    ],
+    "cve_counts": {
+      "CVE-2022-3786": 1,
+      "CVE-2022-3602": 1
+    },
+    "title": "CVE-2022-3786 and CVE-2022-3602: X.509 Email Address Buffer Overflows",
+    "permalink": "/r/programming/comments/yjcu8j/cve20223786_and_cve20223602_x509_email_address/",
+    "timestamp": "2022-11-01T16:12:26",
+    "clean_text": "CVE-2022-3786 and CVE-2022-3602: X.509 Email Address Buffer Overflows",
+    "clean_comments": [
+      "Level 0: [deleted]",
+      "Level 1: Or be rewritten in a language that doesn't put the onus on humans to catch buffer overflows.",
+      "Level 2: Let's rewrite it in JS. It's memory safe and somewhat fast after the JIT kicks in /s",
+      "Level 2: [deleted]",
+      "Level 2: [deleted]",
+      "Level 1: OpenSSL is one of the best-funded projects of the core infrastructure initiative, it’s just that the codebase is (still) a giant mess.",
+      "Level 2: [deleted]",
+      "Level 1: You would think that in perfect world enssl would be",
+      "Level 1: Make it happen then :)",
+      "Level 2: Go TLS stack is written in go. There are similar implementations for rust too"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-5921"
+    ],
+    "cve_counts": {
+      "CVE-2024-5921": 1
+    },
+    "title": "CVE-2024-5921",
+    "permalink": "/r/paloaltonetworks/comments/1h5k6kv/cve20245921/",
+    "timestamp": "2024-12-03T10:08:11",
+    "clean_text": "CVE-2024-5921 Has anyone managed to implement the remediation for this CVE? We have tested 6.2.6 and made the required registry changes and ensured our full cert chain is installed in the root cert directory, however this then breaks our Global Protect. The client logs show OSCP failure: (P7200-T11152)Debug( 231): 12/02/24 11:35:55:684 Error querying OCSP responder (P7200-T11152)Error( 279): 12/02/24 11:35:55:684 Failed to query OCSP responsder (P7200-T11152)Error( 296): 12/02/24 11:35:55:684 \\[OCSP\\] The result of Certificate status query is unavailable I'm wondering because we run always on VPN, are there certain destinations we need to whitelist for these checks?",
+    "clean_comments": [
+      "Level 0: Saw same thing, I ended up trying several variations before finally succeeded by loading all certs in chain to endpoint trusted root store first.",
+      "Level 1: So, you got it finally working? I have the intermediate CA and issuing root CA both added to machine/user trusted root store, but still having the same error described on this post.",
+      "Level 2: Yeah, took some trial and error. I thought I had them all loaded too. Turns out I had another (2nd) intermediary ca I was missing. I used ssllabs ssl server test to sanity check my full cert chain. Look hard at the \"certification paths\" under \"windows\"(or whatever your endpoint is)."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-0012",
+      "CVE-2024-9474"
+    ],
+    "cve_counts": {
+      "CVE-2024-0012": 2,
+      "CVE-2024-9474": 2
+    },
+    "title": "Palo Alto PAN-OS CVE-2024-0012 and CVE-2024-9474 attack write up",
+    "permalink": "/r/paloaltonetworks/comments/1gvsh60/palo_alto_panos_cve20240012_and_cve20249474/",
+    "timestamp": "2024-11-20T15:46:32",
+    "clean_text": "Palo Alto PAN-OS CVE-2024-0012 and CVE-2024-9474 attack write up There is a write up on the auth bypass and the priv escalation cves here: <URL> Indeed low effort is very apt.",
+    "clean_comments": [
+      "Level 0: [deleted]",
+      "Level 1: It’s definitely worse if your management network is exposed to the internet, but the vulnerability would still exist even if your management interface is not exposed to the internet. In other words, you have a risk score in either situation, jut one is worse than the other :)",
+      "Level 2: [deleted]"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2014-8485"
+    ],
+    "cve_counts": {
+      "CVE-2014-8485": 1
+    },
+    "title": "PSA: don't run 'strings' on untrusted files (CVE-2014-8485)",
+    "permalink": "/r/programming/comments/5yrzr0/psa_dont_run_strings_on_untrusted_files/",
+    "timestamp": "2017-03-11T09:54:02",
+    "clean_text": "PSA: don't run 'strings' on untrusted files (CVE-2014-8485)",
+    "clean_comments": [
+      "Level 0: How the hell do you fuck up strings.",
+      "Level 1: 0. NULL-Termination. 0. \"Formatting Characters\". 0. Escape Characters. (1) introduces a lot of manual management, which is easy to screw up. (2/3) Are essentially the same problem: parsing/interpreting. The parsing/interpreting is particularly interesting because so many programmers haven't been taught that text-string manipulation is usually not so straightforward/simple. [Consider the CSV format and how many people try to use RegEx for it, which is provably impossible.]",
+      "Level 2: I still don't get it. I bet you could re-create a basic \"strings\" in twenty-ish lines of C without any issues. Just read bytes one by one, if they are in the printable range as them to your buffer, if not or the buffer is full, print the buffer. Why would you bring ELF specifics into it if it is supposed to be a general purpose tool?",
+      "Level 2: Its provably impossible? Could you elaborate? Edit: probably to provably",
+      "Level 2: [Consider the CSV format and how many people try to use RegEx for it, which is provably impossible.] o.0 really? This doesn't sound correct but I don't know enough about regex to know for sure either way",
+      "Level 2: This is wrong. It's using libbfd to try to load the file as an object file, and binutils is the source of the bugs here.",
+      "Level 1: By trying to be too clever",
+      "Level 1: By looking in specific sections of an executable, and doing that wrong.",
+      "Level 1: This kind of bug is extremely common in C programs between manual memory management, lack of iterators, pointer arithmetic, lack of bounds checking or any sugar that'd make writing better code simple. You forget a +1 in your for loop or typo the condition in while and voila.",
+      "Level 1: By using an unsafe language like C.",
+      "Level 1: The same way you introduce easily-exploitable security holes into any program: write it in C/C++ and use pointers for everything.",
+      "Level 1: [deleted]",
+      "Level 2: Yes, let me get out my time machine and port MEM-SAFE 2017 to the 1990s.",
+      "Level 2: [deleted]",
+      "Level 2: This isn't the language's fault. File access isn't part of the language. Memory mapped file access isn't even part of the standard library.",
+      "Level 2: It isn't a bad language, its an extremely low level language that also allows some high level looking abstractions. Its memory unsafe, but only because computers are memory unsafe. Memory safety means bounds checking, and that's not a concept that the computers understands unless we tell it to.",
+      "Level 2: Explain how using a new hip language would itself save you from following an address past the end of the file.",
+      "Level 2: [deleted]"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-1094"
+    ],
+    "cve_counts": {
+      "CVE-2025-1094": 2
+    },
+    "title": "CVE-2025-1094",
+    "permalink": "/r/Veeam/comments/1jzqgap/cve20251094/",
+    "timestamp": "2025-04-15T12:20:04",
+    "clean_text": "CVE-2025-1094 Running 12.3.1.1139 on prem. Crowdstrike is letting us know our main backup server and remote hosts are vulnerable to CVE-2025-1094 . Has anyone successfully patched this? I saw this article: <URL> Was curious if anyone followed it.",
+    "clean_comments": [
+      "Level 0: Hi. We have patched around 6 servers to 15.11 and then 15.12 a few days later when they patched the patch . Only one problem found where someone had left the services window open for the prosgres service.",
+      "Level 1: Thanks! Found the official procedure: <URL> Updated with no issues."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2018-8475"
+    ],
+    "cve_counts": {
+      "CVE-2018-8475": 2
+    },
+    "title": "CVE-2018-8475 | Windows Remote Code Execution Vulnerability",
+    "permalink": "/r/sysadmin/comments/9f1q8d/cve20188475_windows_remote_code_execution/",
+    "timestamp": "2018-09-11T21:50:13",
+    "clean_text": "CVE-2018-8475 | Windows Remote Code Execution Vulnerability Heads up! Microsoft is patching a critical vulnerability where an attacker can run code by just having an user open an image file. Affects all versions of Windows. <URL> This is part of the 09-2018 monthly cumulative updates.",
+    "clean_comments": [
+      "Level 0: This is so exhausting.",
+      "Level 1: It turns out that people aren't perfect, and software, being made by people, isn't perfect either. Until someone radically changes the fundamentals of computing, this is something that will be happening every month (if not more often) until the heat death of the universe.",
+      "Level 2: Nah, buggy code is why the AI will decide to cleanse us from existence, and it will write perfect code until entropy consumes everything",
+      "Level 2: Seems like this agile development process is just a good way to cut QA.",
+      "Level 2: “. the Matrix was redesigned to this, the peak of your civilization. I say your civilization because as soon as we started thinking for you, it really became our civilization, which is, of course, what this is all about: Evolution, Morpheus, evolution. Like the dinosaur. Look out that window. You had your time. The future is our world, Morpheus. The future is our time.” I can just imagine Alexa or Google saying this in 20 years.",
+      "Level 2: Very true. This wouldn’t be such a big deal if ill-informed people would vote with their wallets to bring about the change you speak of. Instead, many of them place the blame at the easiest targets most of whom are completely innocent. And people wonder why sysadmins are depressed.",
+      "Level 2: Lol just build everything in rust and avoid all overflow problems but have everything cost 2X as much and take 2X as long.",
+      "Level 2: Until someone radically changes the fundamentals of computing ^write ^everything ^in ^rust",
+      "Level 2: \\ Laughs in Linux \\",
+      "Level 1: [deleted]",
+      "Level 2: i think more people have more access to greater ability to fuzz things, which is producing more 0days.",
+      "Level 2: it seems like they are coming faster and faster recently. or are we just being better at security awareness? Tinfoil time: cooperating with Microsoft and Intel is no longer providing useful intelligence to the CIA, NSA, etc. so we're getting mass backhand disclosure of all the backdoors.",
+      "Level 1: Don't worry. After all the recent issues I'm sure the patch quality will be extremely high.",
+      "Level 2: No worries! They have Apu Ackbar on it. He'll have it fixed in no time.",
+      "Level 1: You read the TOS that comes with that link before accepting, right? >6 Warranties >EXCEPT AS WARRANTED IN ACCOMPANYING TERMS, MICROSOFT AND ITS RESPECTIVE SUPPLIERS PROVIDE THE SERVICES (INCLUDING THE MICROSOFT CONTENT AND MICROSOFT SOFTWARE) “AS IS,” “WITH ALL FAULTS” AND “AS AVAILABLE.” YOU BEAR THE RISK OF USING IT. WE PROVIDE NO WARRANTIES, GUARANTEES OR CONDITIONS, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. YOU MAY HAVE ADDITIONAL RIGHTS UNDER YOUR LOCAL LAWS WHICH THIS AGREEMENT CANNOT CHANGE. THESE DISCLAIMERS WILL APPLY TO THE FULLEST EXTENT PERMITTED UNDER APPLICABLE LAW, INCLUDING APPLICATION TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.",
+      "Level 1: I'm going to need to start using a better naming system for all the vulnerability reports I have in Lansweeper.",
+      "Level 1: Meh, keeps me in the job."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2018-0101"
+    ],
+    "cve_counts": {
+      "CVE-2018-0101": 3
+    },
+    "title": "*New* Update From Cisco - Regarding CVE-2018-0101",
+    "permalink": "/r/sysadmin/comments/7vfssy/new_update_from_cisco_regarding_cve20180101/",
+    "timestamp": "2018-02-05T16:16:20",
+    "clean_text": "*New* Update From Cisco - Regarding CVE-2018-0101 UPDATED 2/5/2018: After further investigation, Cisco has identified additional attack vectors and features that are affected by this vulnerability. In addition, it was also found that the original fix was incomplete so new fixed code versions are now available. Please see the [Fixed Software] ( <URL> section for more information. New blog post: <URL> <URL> Previous threads about this vulnerability: * <URL> * <URL> CVE-2018-0101 NCC presentation[direct pdf]: <URL> Edit 1 - 20180221: fixed the presentation slides PDF URL.",
+    "clean_comments": [
+      "Level 0: [deleted]",
+      "Level 1: We are very sorry. We discovered the additional issues internally in the code reviews and testing of the original disclosure.",
+      "Level 2: [deleted]",
+      "Level 2: [deleted]",
+      "Level 2: Apology accepted, but don't let it happen again.",
+      "Level 2: Why does Firepower suck so bad even years after it's been out?",
+      "Level 2: Hey David, this article shows that ASDM is an attack vector. Will the ASA update resolve that issue, or does ASDM need to be updated as well? I'm not seeing any recent ASDM updates on the downloads page.",
+      "Level 2: Apologies for perceived tone--this isn't snark--but wouldn't code review and testing against acceptance criteria be part of your release process to begin with?",
+      "Level 1: fuck shit balls!",
+      "Level 1: So did we, AND it broke one of our VPNs, so we had to revert.",
+      "Level 2: You did the needful.",
+      "Level 2: What code did you migrate too and which kind of vpn ?",
+      "Level 1: We spent all of last week doing unplanned patches for unhappy clients. Can't wait to tell them we have to do it again.",
+      "Level 1: I lucked out and delayed patching until end of February. Sorry friend",
+      "Level 1: bit of a harsh statement ;]"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2022-29154"
+    ],
+    "cve_counts": {
+      "CVE-2022-29154": 1
+    },
+    "title": "RSYNC CVE-2022-29154 Bullseye",
+    "permalink": "/r/debian/comments/1i2pne5/rsync_cve202229154_bullseye/",
+    "timestamp": "2025-01-16T14:06:16",
+    "clean_text": "RSYNC CVE-2022-29154 Bullseye Hi, Do you know when or if Debian is planning on releasing a patch for Rsync vulnerability? I ran an update this morning and this is what I got: rsync/oldstable-security 3.2.3-4+deb11u2 amd64 [upgradable from: 3.2.3-4+deb11u1] However, after the update, the version number did not change: rsync version 3.2.3 protocol version 31 The security tracker for this CVE still shows Rsync is vulnerable on Bullseye and there is no DSA. Please advise. Thank you! EDIT1: My apologies all. I mistakenly provided the wrong CVE. My question was for the vulnerability that was discovered recently: <URL>",
+    "clean_comments": [
+      "Level 0: [removed]",
+      "Level 1: because version 3.2.3 is vulnerable.. but I just found out the below: > >",
+      "Level 2: Because that's not how Debian handles things. When fixing such a bug, they'll most likely just port that fix back to the version they ship. So the package version name will reflect the change as something like 3.2.3-4+deb11u1. So if you have a CVE that you want to check for fixes, you'll need to look at a packages Debian changelog or <URL> to find out if the fix has been applied already. That's because updating to a newer version can break stuff. Debian stable - and especially oldstable - is meant to be stable and not breaking left and right."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-3393"
+    ],
+    "cve_counts": {
+      "CVE-2024-3393": 3
+    },
+    "title": "Palo CVE-2024-3393 CVE 8.7",
+    "permalink": "/r/sysadmin/comments/1hnmt4j/palo_cve20243393_cve_87/",
+    "timestamp": "2024-12-27T19:30:56",
+    "clean_text": "Palo CVE-2024-3393 CVE 8.7 I'm sure many of you have seen this CVE: <URL> At the high level, a crafted packet can reboot your firewall and eventually put it in maintenance mode. The workaround is to disable your anti-spyware DNS policies so that they do not log events. They do not mention that you cannot change the predefined default value for the spyware policy. So, if you update all your other profiles, make sure to update all your policies not to use your default policy. Happy patching!",
+    "clean_comments": [
+      "Level 0: I know it's how you respond to a security issue, but I need to do a firewall refresh in the new year and every time a CVE drops it doesn't help! Lol"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2013-3900"
+    ],
+    "cve_counts": {
+      "CVE-2013-3900": 2
+    },
+    "title": "Spotlight's CVE-2013-3900 Is back Again",
+    "permalink": "/r/crowdstrike/comments/1hcw175/spotlights_cve20133900_is_back_again/",
+    "timestamp": "2024-12-12T21:33:39",
+    "clean_text": "Spotlight's CVE-2013-3900 Is back Again Hello all and g'day. I'm seeing CVE-2013-3900 show up on all of our Windows hosts again (or at least on all that applied the 2024-12 Windows CU's from this past Tuesday) after having been resolved for a few years. It appears the test evaluation is now expecting a DWORD registry entry instead of REG\\SZ, which is strange as from what I can tell, Microsoft clarified that it should be a REG\\SZ value. \\*\\*EDIT - 13 DEC 2024 at 8:50 A.M. CST: I discovered that Microsoft changed their statements twice on what type of registry data type should be used. Referring to this URL, scroll toward the bottom and review the 'Revisions' section. It does like the registry entries should be of type DWORD. Here's how it went: \" 2.2 Apr 11, 2024 Updated FAQs to inform customers that EnableCertPaddingCheck is data type REG\\_SZ (a string value) and not data type dword. When you specify 'EnableCertPaddingCheck\" as in \"DataItemName1\"=\"DataType1:DataValue1\" do not include the date type value or colon. This is an informational change only. \" Then more recently, they went back on that again: \" 2.3 Nov 12, 2024 Corrected Correcting the published information from the previous revision. EnableCertPaddingCheck is data type REG\\_DWORD (an integer value) and not data type string: \"EnableCertPaddingCheck\"=dword:1. The FAQ section has been updated accordingly. This is an informational change only. \" The page is indeed corrected to show the proper registry entries to enable the mitigation for 32-bit and 64-bit Windows systems. My request to CrowdStrike: please release a Tech Alert when Spotlight test evaluations change due to technical changes required to remedy a CVE.",
+    "clean_comments": [
+      "Level 0: [deleted]",
+      "Level 1: Is spotlight different from exposure management?",
+      "Level 2: Spotlight is just the host-based portion of Exposure Management, not external surface scanning.",
+      "Level 2: Spotlight overview and datasheet: CrowdStrike Falcon Spotlight: Vulnerability Management | Falcon Spotlight Data Sheet"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2023-36884"
+    ],
+    "cve_counts": {
+      "CVE-2023-36884": 2
+    },
+    "title": "PSA: Unpatched Windows/Office CVE-2023-36884",
+    "permalink": "/r/sysadmin/comments/14xuk8z/psa_unpatched_windowsoffice_cve202336884/",
+    "timestamp": "2023-07-12T17:12:10",
+    "clean_text": "PSA: Unpatched Windows/Office CVE-2023-36884 Looks like there's a new Windows/Office CVE in the wild that is already being exploited. <URL> <URL> There's currently no patch available, but a few mitigations: * Customers who use Microsoft Defender for Office are protected from attachments that attempt to exploit this vulnerability. * In current attack chains, the use of the Block all Office applications from creating child processes Attack Surface Reduction Rule will prevent the vulnerability from being exploited. * Organizations who cannot take advantage of these protections can set the FEATUREBLOCKCROSSPROTOCOLFILENAVIGATION registry key to avoid exploitation. Please note that while these registry settings would mitigate exploitation of this issue, it could affect regular functionality for certain use cases related to these applications. Add the following application names to this registry key as values of type REGDWORD with data 1.: > Computer\\HKEYLOCALMACHINE\\SOFTWARE\\Policies\\Microsoft\\Internet Explorer\\Main\\FeatureControl\\FEATUREBLOCKCROSSPROTOCOLFILE_NAVIGATION * Excel.exe * Graph.exe * MSAccess.exe * MSPub.exe * PowerPnt.exe * Visio.exe * WinProj.exe * WinWord.exe * Wordpad.exe The question is what \"certain use cases\" the registry entries above could actually affect. Anyone got any insights on this? Edit: Microsoft sneakily changed \"Powerpoint.exe\" to \"Powerpnt.exe\" in the MSRC post. Edit 2: Found what the registry key actually does: <URL>",
+    "clean_comments": [
+      "Level 0: In case it's helpful for any folks going down the registry key mitigation path, we created a script anyone can use (not just Ninja users) that you can find here: <URL> We've asked our customers to share info if they see it breaking anything. Will pass along!",
+      "Level 1: Your script has the wrong key for powerpoint. As of Office 16 it needs to be powerpnt.exe ( check the msrc entry)",
+      "Level 2: Thanks for the head's up! We'll update that asap.",
+      "Level 1: We've asked our customers to share info if they see it breaking anything. Will pass along! I deployed that script today to perhaps like thousand machines (around different ten companies) and no one complained.",
+      "Level 2: Great to hear and thanks for sharing! No reports of anything breaking from our end yet, either.",
+      "Level 1: Might want to update your script a little. See <URL>",
+      "Level 2: Updated. Thanks again!",
+      "Level 1: Anyone get this script to work? I am getting unexpected attribute ‘CmdletBinding’",
+      "Level 2: I copy/pasted it into a text editor and then removed the blank lines."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2023-2640",
+      "CVE-2023-32629"
+    ],
+    "cve_counts": {
+      "CVE-2023-2640": 3,
+      "CVE-2023-32629": 3
+    },
+    "title": "Ubuntu Local Privilege Escalation (CVE-2023-2640 & CVE-2023-32629)",
+    "permalink": "/r/selfhosted/comments/15ecpck/ubuntu_local_privilege_escalation_cve20232640/",
+    "timestamp": "2023-07-31T10:46:42",
+    "clean_text": "Ubuntu Local Privilege Escalation (CVE-2023-2640 & CVE-2023-32629) If you run Ubuntu OS, make sure to update your system and especially your kernel. Researchers have identified a critical privilege escalation vulnerability in the Ubuntu kernel regarding OverlayFS. It basically allows a low privileged user account on your system to obtain root privileges. Public exploit code was published already. The LPE is quite easy to exploit. If you want to test whether your system is affected, you may execute the following PoC code from a low privileged user account on your Ubuntu system. If you get an output, telling you the root account's id, then you are affected. # original poc payload unshare -rm sh -c \"mkdir l u w m && cp /u/b/p*3 l/; setcap cap_setuid+eip l/python3;mount -t overlay overlay -o rw,lowerdir=l,upperdir=u,workdir=w m && touch m/*;\" && u/python3 -c 'import os;os.setuid(0);os.system(\"id\")' # adjusted poc payload by twitter user; likely false positive unshare -rm sh -c \"mkdir l u w m && cp /u/b/p*3 l/; setcap cap_setuid+eip l/python3;mount -t overlay overlay -o rw,lowerdir=l,upperdir=u,workdir=w m && touch m/*; u/python3 -c 'import os;os.setuid(0);os.system(\\\"id\\\")'\" If you are unable to upgrade your kernel version or Ubuntu distro, you can alternatively adjust the permissions and deny low priv users from using the OverlayFS feature. Following commands will do this: # change permissions on the fly, won't persist reboots sudo sysctl -w kernel.unprivilegedusernsclone=0 # change permissions permanently; requires reboot echo kernel.unprivilegedusernsclone=0 | sudo tee /etc/sysctl.d/99-disable-unpriv-userns.conf If you then try the PoC exploit command from above, you will receive a permission denied error. Keep patching and stay secure! References: * <URL> * <URL> * <URL> * <URL> * <URL> Edit: There are reports of Debian users that the above PoC command also yields the root account's id. I've also tested some Debian machines and can confirm the behaviour. This is a bit strange, will have a look into it more. Edit2: I've anylized the adjusted PoC command, which was taken from Twitter. It seems that the adjusted payload by a Twitter user is a false positive. The original payload was adjusted and led to an issue where the python os command id is executed during namespace creation via unshare. However, this does not reflect the actual issue. The python binary must be copied from OverlayFS with SUID permissions afterwards. I've adjusted the above PoC command to hold the original and adjusted payloads.",
+    "clean_comments": [
+      "Level 0: thanks, updated"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2022-0847"
+    ],
+    "cve_counts": {
+      "CVE-2022-0847": 1
+    },
+    "title": "What is the name of the CVE-2022-0847 vulnerability?",
+    "permalink": "/r/hackthebox/comments/1kbpqep/what_is_the_name_of_the_cve20220847_vulnerability/",
+    "timestamp": "2025-04-30T19:55:24",
+    "clean_text": "What is the name of the CVE-2022-0847 vulnerability? I need some help on this Dirty pipe is wrong",
+    "clean_comments": [
+      "Level 0: Dirty cow , dirty sock , i dunno",
+      "Level 1: Thanks"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-4462"
+    ],
+    "cve_counts": {
+      "CVE-2025-4462": 1
+    },
+    "title": "CVE Alert: CVE-2025-4462",
+    "permalink": "/r/RedPacketSecurity/comments/1kjngsm/cve_alert_cve20254462/",
+    "timestamp": "2025-05-10T23:35:41",
+    "clean_text": "CVE Alert: CVE-2025-4462 A vulnerability, which was classified as critical, has been found in TOTOLINK N150RT 3.4.0-B20190525. This issue affects some unknown processing of the file /boafrm/formWsc. The manipulation of the argument localPin leads to buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-3400"
+    ],
+    "cve_counts": {
+      "CVE-2024-3400": 1
+    },
+    "title": "CVE-2024-3400",
+    "permalink": "/r/paloaltonetworks/comments/1cbwi3u/cve20243400/",
+    "timestamp": "2024-04-24T12:08:30",
+    "clean_text": "CVE-2024-3400 This is the death nailor me, time to look for a new VPN solution. I have defended GP from my Director of Cybersecurity for two years and now he is demanding change. We use MIST to manage are switches so more than likely it will be the MIST SRX’s. I’m pretty sure we will just overlay are Palo Alto’s with the SRX’s. An inner and outer firewall is not terrible just more layers to manage and troubleshoot. Anyway, anybody else having those frank conversations?",
+    "clean_comments": [
+      "Level 0: You calling them Mist SRXs shows you do not have a strong understanding or a large amount of exposure in this space. If you are talking about Global Protect specifically, Juniper SRXs are not going to be a solution for you, whether you manage them through Mist or not."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-12356"
+    ],
+    "cve_counts": {
+      "CVE-2024-12356": 3
+    },
+    "title": "BeyondTrust 9.8 CVE - CVE-2024-12356",
+    "permalink": "/r/sysadmin/comments/1hgm37o/beyondtrust_98_cve_cve202412356/",
+    "timestamp": "2024-12-17T22:02:21",
+    "clean_text": "BeyondTrust 9.8 CVE - CVE-2024-12356 Just sharing for all of you out there: BT24-10 | BeyondTrust CVE-2024-12356 | CVE",
+    "clean_comments": [
+      "Level 0: Still not seeing an update available for the on-prem appliances yet.",
+      "Level 1: Released yesterday, try refreshing",
+      "Level 2: Not seeing it, also not seeing any indication that the patch automatically installed."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-5921"
+    ],
+    "cve_counts": {
+      "CVE-2024-5921": 1
+    },
+    "title": "Globalprotect CVE-2024-5921 question",
+    "permalink": "/r/paloaltonetworks/comments/1hc0pcj/globalprotect_cve20245921_question/",
+    "timestamp": "2024-12-11T18:45:31",
+    "clean_text": "Globalprotect CVE-2024-5921 question Since it appears that I need to run a CLI for the install, I can't just slap 6.2.6 on the firewalls installed from Panorama. Stop me if I'm wrong. If that IS the case, we will deploy from Intune or something similar. My question is about the timing. If I am correct in everything I've said above, we would have to deply from someplace other than Pano first and then I can use Pano to put 6.2.6 on the firewalls, yes? Is there any concerns about that?",
+    "clean_comments": [
+      "Level 0: There are several ways you could deploy 6.2.6 and get to the correct end result. 1.) Do a fresh install of 6.2.6 with the full cert chain check verify parameter. 2.) Update any current GP Clients to 6.2.6 from Firewalls, then use GPO, Intune, or other 3rd party method to push the registry keys. 3.) Push the full install to machines through 3rd party method with the full chain cert verify parameter, and have them upgrade to 6.2.6 that way.",
+      "Level 1: Yeah. no. There are several people seeing this same problem. GP client fails to connect claiming the portal cert isn't FIPS compliant.",
+      "Level 2: I had this problem myself and it turned out I needed to use the cert that had the full chain in it on tbe firewalls. Once I did that GP worked without issue and I was able to push it through using PDQ Deploy with the Full Cert Chain Verify flag to existing users and change the script in my deployment to add the flag."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2024-6387"
+    ],
+    "cve_counts": {
+      "CVE-2024-6387": 5
+    },
+    "title": "CVE-2024-6387 - RegreSSHion vulnerability",
+    "permalink": "/r/redhat/comments/1dsqikf/cve20246387_regresshion_vulnerability/",
+    "timestamp": "2024-07-01T11:19:49",
+    "clean_text": "CVE-2024-6387 - RegreSSHion vulnerability Hi everyone. From the Qualys analysis document of this CVE, the current versions of RHEL 7 and RHEL 8 are safe. Only the RHEL 9 is vulnerable. This is a CRITICAL privilege escalation and RCE vulnerability! Source: <URL> TLDR: * OpenSSH < 4.4p1 and >= 8.5p1 are vulnerable Edit: Official Red Hat page - <URL>",
+    "clean_comments": [
+      "Level 0: Get the official info here <URL>",
+      "Level 1: What is the typical response time for RH to provide a fixed package for a critical vulnerability? PS: It seems RH is having some issue with their Security page. 404.",
+      "Level 2: Sorry for the slow reply. I think the response time depends on the complexity of the fix and the risk associated with implementing the change. I honestly do not know if there's a committed SLA towards customers and haven't been able to find info online.",
+      "Level 1: Thank you! I couldn't find Red Hat page on this this morning due to this being just released to public.",
+      "Level 2: No worries, I couldn't either. I just edited the URL for another CVE :)"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-32045"
+    ],
+    "cve_counts": {
+      "CVE-2025-32045": 1
+    },
+    "title": "CVE Alert: CVE-2025-32045",
+    "permalink": "/r/RedPacketSecurity/comments/1k8f3pi/cve_alert_cve202532045/",
+    "timestamp": "2025-04-26T15:08:20",
+    "clean_text": "CVE Alert: CVE-2025-32045 A flaw has been identified in Moodle where insufficient capability checks in certain grade reports allowed users without the necessary permissions to access hidden grades.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-43468"
+    ],
+    "cve_counts": {
+      "CVE-2024-43468": 3
+    },
+    "title": "CVE-2024-43468 on MECM 2409",
+    "permalink": "/r/SCCM/comments/1i6kkjt/cve202443468_on_mecm_2409/",
+    "timestamp": "2025-01-21T15:04:39",
+    "clean_text": "CVE-2024-43468 on MECM 2409 Hi all i find some info about critical vulnerability and public exploit of this CV. But when i check <URL> hotfix is only for 2303,2039,2403. We are on 2409 so what now?",
+    "clean_comments": [
+      "Level 0: 2409 was released after this… it is not vulnerable",
+      "Level 1: But console still show notification about required KB.",
+      "Level 2: If it’s still showing… you aren’t on 2409 yet",
+      "Level 2: What do you mean? What console? What notification?"
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-2070"
+    ],
+    "cve_counts": {
+      "CVE-2025-2070": 1
+    },
+    "title": "CVE Alert: CVE-2025-2070",
+    "permalink": "/r/RedPacketSecurity/comments/1k858z0/cve_alert_cve20252070/",
+    "timestamp": "2025-04-26T05:08:21",
+    "clean_text": "CVE Alert: CVE-2025-2070 An improper XML parsing vulnerability was reported in the FileZ client that could allow arbitrary file reads on the system if a crafted url is visited by a local user.",
+    "clean_comments": []
   }
 ]
