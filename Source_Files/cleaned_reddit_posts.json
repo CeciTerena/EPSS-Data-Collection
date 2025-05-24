@@ -12205,5 +12205,31 @@
     "clean_comments": [
       "Level 0: It'd be so cool if all software in the near future is mathematically perfect and optimized."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-32307"
+    ],
+    "cve_counts": {
+      "CVE-2025-32307": 1
+    },
+    "title": "CVE-2025-32307: SQL Injection Vulnerability in LambertGroup Chameleon HTML5 Audio Player With/Without Playlist",
+    "permalink": "/r/ameeba/comments/1kukemu/cve202532307_sql_injection_vulnerability_in/",
+    "timestamp": "2025-05-24T20:00:03",
+    "clean_text": "CVE-2025-32307: SQL Injection Vulnerability in LambertGroup Chameleon HTML5 Audio Player With/Without Playlist",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47658"
+    ],
+    "cve_counts": {
+      "CVE-2025-47658": 1
+    },
+    "title": "CVE Alert: CVE-2025-47658",
+    "permalink": "/r/RedPacketSecurity/comments/1kukae2/cve_alert_cve202547658/",
+    "timestamp": "2025-05-24T19:54:24",
+    "clean_text": "CVE Alert: CVE-2025-47658 Unrestricted Upload of File with Dangerous Type vulnerability in ELEXtensions ELEX WordPress HelpDesk & Customer Ticketing System allows Upload a Web Shell to a Web Server. This issue affects ELEX WordPress HelpDesk & Customer Ticketing System: from n/a through 3.2.7.",
+    "clean_comments": []
   }
 ]
