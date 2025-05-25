@@ -12272,5 +12272,18 @@
     "timestamp": "2025-05-24T23:54:24",
     "clean_text": "CVE Alert: CVE-2025-47641 Unrestricted Upload of File with Dangerous Type vulnerability in printcart Printcart Web to Print Product Designer for WooCommerce allows Upload a Web Shell to a Web Server. This issue affects Printcart Web to Print Product Designer for WooCommerce: from n/a through 2.3.8.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-58101"
+    ],
+    "cve_counts": {
+      "CVE-2024-58101": 1
+    },
+    "title": "CVE-2024-58101: Unprotected Bluetooth Pairing in Samsung Galaxy Buds",
+    "permalink": "/r/ameeba/comments/1kurjvj/cve202458101_unprotected_bluetooth_pairing_in/",
+    "timestamp": "2025-05-25T02:00:03",
+    "clean_text": "CVE-2024-58101: Unprotected Bluetooth Pairing in Samsung Galaxy Buds",
+    "clean_comments": []
   }
 ]
