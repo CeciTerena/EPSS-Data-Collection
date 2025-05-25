@@ -12337,5 +12337,18 @@
     "timestamp": "2025-05-25T08:21:54",
     "clean_text": "LLMs Spot Subtle Linux Kernel Bugs Through Code Alone OpenAI's o3 model has demonstrated its potential in vulnerability research by identifying CVE-2025-37899, a previously unknown use-after-free flaw in the Linux kernel's ksmbd subsystem, through static code analysis. Without human guidance or external tools, o3 pinpointed the vulnerability by analyzing the SMB2 logoff handler's C code. Despite challenges like false positives, o3's nuanced understanding of complex code interactions and mitigation implications highlights its emerging role in program analysis, offering a creative and flexible approach that complements traditional methods like symbolic execution and fuzzing. Read more.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20618"
+    ],
+    "cve_counts": {
+      "CVE-2025-20618": 1
+    },
+    "title": "CVE-2025-20618: Stack-Based Buffer Overflow in Intel PROSet/Wireless Software",
+    "permalink": "/r/ameeba/comments/1kuzv9g/cve202520618_stackbased_buffer_overflow_in_intel/",
+    "timestamp": "2025-05-25T11:00:03",
+    "clean_text": "CVE-2025-20618: Stack-Based Buffer Overflow in Intel PROSet/Wireless Software",
+    "clean_comments": []
   }
 ]
