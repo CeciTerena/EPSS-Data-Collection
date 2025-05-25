@@ -12298,5 +12298,18 @@
     "timestamp": "2025-05-25T05:00:04",
     "clean_text": "CVE-2025-3812: Critical Arbitrary File Deletion Vulnerability in WPBot Pro WordPress Chatbot Plugin",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-43000"
+    ],
+    "cve_counts": {
+      "CVE-2025-43000": 1
+    },
+    "title": "CVE-2025-43000: High-Risk Conditional Access Vulnerability in Promotion Management Wizard",
+    "permalink": "/r/ameeba/comments/1kux9rc/cve202543000_highrisk_conditional_access/",
+    "timestamp": "2025-05-25T08:00:03",
+    "clean_text": "CVE-2025-43000: High-Risk Conditional Access Vulnerability in Promotion Management Wizard",
+    "clean_comments": []
   }
 ]
