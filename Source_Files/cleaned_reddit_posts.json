@@ -12259,5 +12259,18 @@
     "timestamp": "2025-05-24T23:00:04",
     "clean_text": "CVE-2025-4759: Incorrect Behavior Order in Lockfile-lint-api Package Potentially Leading to System Compromise",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47641"
+    ],
+    "cve_counts": {
+      "CVE-2025-47641": 1
+    },
+    "title": "CVE Alert: CVE-2025-47641",
+    "permalink": "/r/RedPacketSecurity/comments/1kupafp/cve_alert_cve202547641/",
+    "timestamp": "2025-05-24T23:54:24",
+    "clean_text": "CVE Alert: CVE-2025-47641 Unrestricted Upload of File with Dangerous Type vulnerability in printcart Printcart Web to Print Product Designer for WooCommerce allows Upload a Web Shell to a Web Server. This issue affects Printcart Web to Print Product Designer for WooCommerce: from n/a through 2.3.8.",
+    "clean_comments": []
   }
 ]
