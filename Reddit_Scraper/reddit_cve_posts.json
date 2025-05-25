@@ -17850,5 +17850,33 @@
     "timestamp": "2025-05-25T08:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-37899"
+    ],
+    "cve_counts": {
+      "CVE-2025-37899": 1
+    },
+    "title": "LLMs Spot Subtle Linux Kernel Bugs Through Code Alone",
+    "text": "OpenAI's o3 model has demonstrated its potential in vulnerability research by identifying CVE-2025-37899, a previously unknown use-after-free flaw in the Linux kernel's ksmbd subsystem, through static code analysis. Without human guidance or external tools, o3 pinpointed the vulnerability by analyzing the SMB2 logoff handler's C code. Despite challenges like false positives, o3's nuanced understanding of complex code interactions and mitigation implications highlights its emerging role in program analysis, offering a creative and flexible approach that complements traditional methods like symbolic execution and fuzzing.  \n[Read more...](https://www.emsi.me/tech/ai-ml/llms-spot-subtle-linux-kernel-bugs-through-code-alone/2025-05-25/083a15)",
+    "permalink": "/r/EmsisFeed/comments/1kuxoag/llms_spot_subtle_linux_kernel_bugs_through_code/",
+    "timestamp": "2025-05-25T08:28:01",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-37899"
+    ],
+    "cve_counts": {
+      "CVE-2025-37899": 1
+    },
+    "title": "LLMs Spot Subtle Linux Kernel Bugs Through Code Alone",
+    "text": "OpenAI's o3 model has demonstrated its potential in vulnerability research by identifying CVE-2025-37899, a previously unknown use-after-free flaw in the Linux kernel's ksmbd subsystem, through static code analysis. Without human guidance or external tools, o3 pinpointed the vulnerability by analyzing the SMB2 logoff handler's C code. Despite challenges like false positives, o3's nuanced understanding of complex code interactions and mitigation implications highlights its emerging role in program analysis, offering a creative and flexible approach that complements traditional methods like symbolic execution and fuzzing.  \n[Read more...](https://www.emsi.me/tech/ai-ml/llms-spot-subtle-linux-kernel-bugs-through-code-alone/2025-05-25/083a15)",
+    "permalink": "/r/EmsisFeed/comments/1kuxl7a/llms_spot_subtle_linux_kernel_bugs_through_code/",
+    "timestamp": "2025-05-25T08:21:54",
+    "article_text": null,
+    "comments": []
   }
 ]
