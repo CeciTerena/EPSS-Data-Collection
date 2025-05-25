@@ -12363,5 +12363,18 @@
     "timestamp": "2025-05-25T14:00:03",
     "clean_text": "CVE-2025-48236: Cross-Site Scripting Vulnerability in Bunny.net",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-42826"
+    ],
+    "cve_counts": {
+      "CVE-2023-42826": 1
+    },
+    "title": "CVE-2023-42826: Arbitrary Code Execution Vulnerability in macOS Sonoma 14",
+    "permalink": "/r/ameeba/comments/1kv7cta/cve202342826_arbitrary_code_execution/",
+    "timestamp": "2025-05-25T17:00:03",
+    "clean_text": "CVE-2023-42826: Arbitrary Code Execution Vulnerability in macOS Sonoma 14",
+    "clean_comments": []
   }
 ]
