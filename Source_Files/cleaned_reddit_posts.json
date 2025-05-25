@@ -12389,5 +12389,18 @@
     "timestamp": "2025-05-25T20:00:03",
     "clean_text": "CVE-2023-42871: Critical Memory Handling Vulnerability Enabling Arbitrary Code Execution",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-50671"
+    ],
+    "cve_counts": {
+      "CVE-2023-50671": 1
+    },
+    "title": "CVE-2023-50671: Heap-Based Buffer Overflow Vulnerability in Exiftags 1.01",
+    "permalink": "/r/ameeba/comments/1kvfik2/cve202350671_heapbased_buffer_overflow/",
+    "timestamp": "2025-05-25T23:00:03",
+    "clean_text": "CVE-2023-50671: Heap-Based Buffer Overflow Vulnerability in Exiftags 1.01",
+    "clean_comments": []
   }
 ]
