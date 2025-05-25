@@ -12376,5 +12376,18 @@
     "timestamp": "2025-05-25T17:00:03",
     "clean_text": "CVE-2023-42826: Arbitrary Code Execution Vulnerability in macOS Sonoma 14",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-42871"
+    ],
+    "cve_counts": {
+      "CVE-2023-42871": 1
+    },
+    "title": "CVE-2023-42871: Critical Memory Handling Vulnerability Enabling Arbitrary Code Execution",
+    "permalink": "/r/ameeba/comments/1kvbkua/cve202342871_critical_memory_handling/",
+    "timestamp": "2025-05-25T20:00:03",
+    "clean_text": "CVE-2023-42871: Critical Memory Handling Vulnerability Enabling Arbitrary Code Execution",
+    "clean_comments": []
   }
 ]
