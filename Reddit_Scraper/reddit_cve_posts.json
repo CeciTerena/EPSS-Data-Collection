@@ -18164,5 +18164,19 @@
     "timestamp": "2025-05-26T20:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32756"
+    ],
+    "cve_counts": {
+      "CVE-2025-32756": 1
+    },
+    "title": "PoC Published For Fortinet 0-Day Vulnerability That Being Exploited in the Wild",
+    "text": "Researchers released a proof-of-concept for CVE-2025-32756, a critical Fortinet 0-day (CVSS 9.6) affecting FortiVoice, FortiMail, FortiNDR, FortiRecorder, and FortiCamera. The stack buffer overflow allows remote code execution and is actively exploited. Immediate patching is urged; CISA added it to the KEV list, highlighting urgent risk.\n\nWould you like to know more? [https://www.perplexity.ai/search/summarize-article-in-400-chara-wHxnTEb4SqeOR3NXE446vg](https://www.perplexity.ai/search/summarize-article-in-400-chara-wHxnTEb4SqeOR3NXE446vg)",
+    "permalink": "/r/u_WalkureARCH/comments/1kw4z9u/poc_published_for_fortinet_0day_vulnerability/",
+    "timestamp": "2025-05-26T20:42:19",
+    "article_text": "Error fetching article: 403 Client Error: Forbidden for url: https://cybersecuritynews.com/fortinet-0-day-vulnerability-poc/",
+    "comments": []
   }
 ]

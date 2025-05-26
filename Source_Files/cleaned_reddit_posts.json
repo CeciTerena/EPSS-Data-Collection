@@ -12599,5 +12599,18 @@
     "timestamp": "2025-05-26T20:00:03",
     "clean_text": "CVE-2025-26872: Critical Vulnerability of Unrestricted File Upload in dkszone Eximius",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32756"
+    ],
+    "cve_counts": {
+      "CVE-2025-32756": 1
+    },
+    "title": "PoC Published For Fortinet 0-Day Vulnerability That Being Exploited in the Wild",
+    "permalink": "/r/u_WalkureARCH/comments/1kw4z9u/poc_published_for_fortinet_0day_vulnerability/",
+    "timestamp": "2025-05-26T20:42:19",
+    "clean_text": "PoC Published For Fortinet 0-Day Vulnerability That Being Exploited in the Wild Researchers released a proof-of-concept for CVE-2025-32756, a critical Fortinet 0-day (CVSS 9.6) affecting FortiVoice, FortiMail, FortiNDR, FortiRecorder, and FortiCamera. The stack buffer overflow allows remote code execution and is actively exploited. Immediate patching is urged; CISA added it to the KEV list, highlighting urgent risk. Would you like to know more? <URL> Error fetching article: 403 Client Error: Forbidden for url: <URL>",
+    "clean_comments": []
   }
 ]
