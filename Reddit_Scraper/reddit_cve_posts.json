@@ -17948,5 +17948,19 @@
     "timestamp": "2025-05-25T23:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-42137"
+    ],
+    "cve_counts": {
+      "CVE-2023-42137": 1
+    },
+    "title": "CVE-2023-42137: High Privilege Command Execution Vulnerability in PAX Android POS Devices",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kvixqr/cve202342137_high_privilege_command_execution/",
+    "timestamp": "2025-05-26T02:00:02",
+    "article_text": null,
+    "comments": []
   }
 ]
