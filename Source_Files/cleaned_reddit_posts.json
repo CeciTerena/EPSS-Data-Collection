@@ -12456,5 +12456,18 @@
     "clean_comments": [
       "Level 0: Are you working in a company ? if yes - then work on whatever they wants Are you a freelancer or do you have your own company - then do whatever appease you Simple as that. there are people who are still on laravel, php, just because the company for which they work, still relies on it, and dont want to invest time to upgrade."
     ]
+  },
+  {
+    "cves": [
+      "CVE-2022-3604"
+    ],
+    "cve_counts": {
+      "CVE-2022-3604": 1
+    },
+    "title": "CVE-2022-3604: Data Validation Vulnerability in Contact Form Entries WordPress Plugin",
+    "permalink": "/r/ameeba/comments/1kvowid/cve20223604_data_validation_vulnerability_in/",
+    "timestamp": "2025-05-26T08:00:03",
+    "clean_text": "CVE-2022-3604: Data Validation Vulnerability in Contact Form Entries WordPress Plugin",
+    "clean_comments": []
   }
 ]

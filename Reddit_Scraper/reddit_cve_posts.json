@@ -18010,5 +18010,19 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2022-3604"
+    ],
+    "cve_counts": {
+      "CVE-2022-3604": 1
+    },
+    "title": "CVE-2022-3604: Data Validation Vulnerability in Contact Form Entries WordPress Plugin",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kvowid/cve20223604_data_validation_vulnerability_in/",
+    "timestamp": "2025-05-26T08:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
