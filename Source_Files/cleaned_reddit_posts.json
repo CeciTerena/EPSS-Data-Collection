@@ -12428,5 +12428,18 @@
     "timestamp": "2025-05-26T03:59:49",
     "clean_text": "Is this vulnerability useful for jb? windz3r0day/CVE-2025-24085：CVE-2025-24085 Apple CoreMedia",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-7206"
+    ],
+    "cve_counts": {
+      "CVE-2023-7206": 1
+    },
+    "title": "CVE-2023-7206: Arbitrary Code Execution Vulnerability in Horner Automation Cscape",
+    "permalink": "/r/ameeba/comments/1kvm3tm/cve20237206_arbitrary_code_execution/",
+    "timestamp": "2025-05-26T05:00:03",
+    "clean_text": "CVE-2023-7206: Arbitrary Code Execution Vulnerability in Horner Automation Cscape",
+    "clean_comments": []
   }
 ]
