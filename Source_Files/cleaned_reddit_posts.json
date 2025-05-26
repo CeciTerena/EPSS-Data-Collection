@@ -12586,5 +12586,18 @@
     "timestamp": "2025-05-26T17:00:03",
     "clean_text": "CVE-2025-47577: Severe Unrestricted File Upload Vulnerability in TI WooCommerce Wishlist",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26872"
+    ],
+    "cve_counts": {
+      "CVE-2025-26872": 1
+    },
+    "title": "CVE-2025-26872: Critical Vulnerability of Unrestricted File Upload in dkszone Eximius",
+    "permalink": "/r/ameeba/comments/1kw3y4l/cve202526872_critical_vulnerability_of/",
+    "timestamp": "2025-05-26T20:00:03",
+    "clean_text": "CVE-2025-26872: Critical Vulnerability of Unrestricted File Upload in dkszone Eximius",
+    "clean_comments": []
   }
 ]
