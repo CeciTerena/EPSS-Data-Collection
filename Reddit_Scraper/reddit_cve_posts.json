@@ -18178,5 +18178,19 @@
     "timestamp": "2025-05-26T20:42:19",
     "article_text": "Error fetching article: 403 Client Error: Forbidden for url: https://cybersecuritynews.com/fortinet-0-day-vulnerability-poc/",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47582"
+    ],
+    "cve_counts": {
+      "CVE-2025-47582": 1
+    },
+    "title": "CVE-2025-47582: Critical Deserialization of Untrusted Data Vulnerability in WPBot Pro WordPress Chatbot",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kw85mg/cve202547582_critical_deserialization_of/",
+    "timestamp": "2025-05-26T23:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]

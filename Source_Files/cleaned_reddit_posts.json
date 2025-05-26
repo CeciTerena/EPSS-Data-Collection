@@ -12612,5 +12612,18 @@
     "timestamp": "2025-05-26T20:42:19",
     "clean_text": "PoC Published For Fortinet 0-Day Vulnerability That Being Exploited in the Wild Researchers released a proof-of-concept for CVE-2025-32756, a critical Fortinet 0-day (CVSS 9.6) affecting FortiVoice, FortiMail, FortiNDR, FortiRecorder, and FortiCamera. The stack buffer overflow allows remote code execution and is actively exploited. Immediate patching is urged; CISA added it to the KEV list, highlighting urgent risk. Would you like to know more? <URL> Error fetching article: 403 Client Error: Forbidden for url: <URL>",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47582"
+    ],
+    "cve_counts": {
+      "CVE-2025-47582": 1
+    },
+    "title": "CVE-2025-47582: Critical Deserialization of Untrusted Data Vulnerability in WPBot Pro WordPress Chatbot",
+    "permalink": "/r/ameeba/comments/1kw85mg/cve202547582_critical_deserialization_of/",
+    "timestamp": "2025-05-26T23:00:03",
+    "clean_text": "CVE-2025-47582: Critical Deserialization of Untrusted Data Vulnerability in WPBot Pro WordPress Chatbot",
+    "clean_comments": []
   }
 ]
