@@ -12482,5 +12482,57 @@
     "timestamp": "2025-05-26T11:00:03",
     "clean_text": "CVE-2024-21338: Windows Kernel Elevation of Privilege Vulnerability",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 1
+    },
+    "title": "Zero-Click Agent Hijacking in LLM Browsing Frameworks (CVE-2025-47241)",
+    "permalink": "/r/AdversarialML/comments/1kvtuuj/zeroclick_agent_hijacking_in_llm_browsing/",
+    "timestamp": "2025-05-26T13:04:50",
+    "clean_text": "Zero-Click Agent Hijacking in LLM Browsing Frameworks (CVE-2025-47241) Researchers found a critical flaw in Browser Use, a framework powering 1,500+ AI projects. The vulnerability enables zero-click hijacking of LLM-based browsing agents — just visiting a malicious page is enough. The attack bypasses domain checks, injects prompts, and exfiltrates credentials. <URL>",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4008"
+    ],
+    "cve_counts": {
+      "CVE-2025-4008": 1
+    },
+    "title": "Unauthenticated RCE on Smartbedded MeteoBridge (CVE-2025-4008)",
+    "permalink": "/r/netsec/comments/1kvtr2i/unauthenticated_rce_on_smartbedded_meteobridge/",
+    "timestamp": "2025-05-26T13:00:15",
+    "clean_text": "Unauthenticated RCE on Smartbedded MeteoBridge (CVE-2025-4008)",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-26633"
+    ],
+    "cve_counts": {
+      "CVE-2025-26633": 2
+    },
+    "title": "Micropatches Released for Microsoft Management Console Security Feature Bypass Vulnerability (CVE-2025-26633)",
+    "permalink": "/r/micropatching/comments/1kvtpen/micropatches_released_for_microsoft_management/",
+    "timestamp": "2025-05-26T12:58:04",
+    "clean_text": "Micropatches Released for Microsoft Management Console Security Feature Bypass Vulnerability (CVE-2025-26633) Micropatches Released by 0patch for Microsoft Management Console Security Feature Bypass Vulnerability (CVE-2025-26633) <URL>",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32756"
+    ],
+    "cve_counts": {
+      "CVE-2025-32756": 1
+    },
+    "title": "Researchers Drop PoC for Fortinet CVE-2025-32756, Urging Quick Patching",
+    "permalink": "/r/InfoSecNews/comments/1kvt9ks/researchers_drop_poc_for_fortinet_cve202532756/",
+    "timestamp": "2025-05-26T12:36:01",
+    "clean_text": "Researchers Drop PoC for Fortinet CVE-2025-32756, Urging Quick Patching",
+    "clean_comments": []
   }
 ]
