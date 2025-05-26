@@ -12547,5 +12547,18 @@
     "timestamp": "2025-05-26T14:00:03",
     "clean_text": "CVE-2024-46687: Critical Use-After-Free Vulnerability in Linux Kernel Btrfs File System",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47241"
+    ],
+    "cve_counts": {
+      "CVE-2025-47241": 1
+    },
+    "title": "Zero-Click Agent Hijacking in LLM Browsing Frameworks (CVE-2025-47241)",
+    "permalink": "/r/cybersecurity/comments/1kvvvza/zeroclick_agent_hijacking_in_llm_browsing/",
+    "timestamp": "2025-05-26T14:33:53",
+    "clean_text": "Zero-Click Agent Hijacking in LLM Browsing Frameworks (CVE-2025-47241)",
+    "clean_comments": []
   }
 ]
