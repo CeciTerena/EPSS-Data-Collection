@@ -12573,5 +12573,18 @@
     "timestamp": "2025-05-26T15:57:32",
     "clean_text": "Adobe Dreamweaver V8 Remote Code Execution Vulnerability (CVE-2025-30310)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47577"
+    ],
+    "cve_counts": {
+      "CVE-2025-47577": 1
+    },
+    "title": "CVE-2025-47577: Severe Unrestricted File Upload Vulnerability in TI WooCommerce Wishlist",
+    "permalink": "/r/ameeba/comments/1kvzhkk/cve202547577_severe_unrestricted_file_upload/",
+    "timestamp": "2025-05-26T17:00:03",
+    "clean_text": "CVE-2025-47577: Severe Unrestricted File Upload Vulnerability in TI WooCommerce Wishlist",
+    "clean_comments": []
   }
 ]

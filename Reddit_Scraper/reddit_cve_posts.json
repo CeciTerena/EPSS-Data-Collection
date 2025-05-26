@@ -18136,5 +18136,19 @@
     "timestamp": "2025-05-26T15:57:32",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47577"
+    ],
+    "cve_counts": {
+      "CVE-2025-47577": 1
+    },
+    "title": "CVE-2025-47577: Severe Unrestricted File Upload Vulnerability in TI WooCommerce Wishlist",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kvzhkk/cve202547577_severe_unrestricted_file_upload/",
+    "timestamp": "2025-05-26T17:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
