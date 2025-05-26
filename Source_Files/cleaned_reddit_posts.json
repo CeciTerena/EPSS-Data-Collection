@@ -12534,5 +12534,18 @@
     "timestamp": "2025-05-26T12:36:01",
     "clean_text": "Researchers Drop PoC for Fortinet CVE-2025-32756, Urging Quick Patching",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-46687"
+    ],
+    "cve_counts": {
+      "CVE-2024-46687": 1
+    },
+    "title": "CVE-2024-46687: Critical Use-After-Free Vulnerability in Linux Kernel Btrfs File System",
+    "permalink": "/r/ameeba/comments/1kvv2bk/cve202446687_critical_useafterfree_vulnerability/",
+    "timestamp": "2025-05-26T14:00:03",
+    "clean_text": "CVE-2024-46687: Critical Use-After-Free Vulnerability in Linux Kernel Btrfs File System",
+    "clean_comments": []
   }
 ]
