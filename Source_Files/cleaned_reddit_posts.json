@@ -12560,5 +12560,18 @@
     "timestamp": "2025-05-26T14:33:53",
     "clean_text": "Zero-Click Agent Hijacking in LLM Browsing Frameworks (CVE-2025-47241)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30310"
+    ],
+    "cve_counts": {
+      "CVE-2025-30310": 1
+    },
+    "title": "Adobe Dreamweaver V8 Remote Code Execution Vulnerability (CVE-2025-30310)",
+    "permalink": "/r/systemtek/comments/1kvxx4b/adobe_dreamweaver_v8_remote_code_execution/",
+    "timestamp": "2025-05-26T15:57:32",
+    "clean_text": "Adobe Dreamweaver V8 Remote Code Execution Vulnerability (CVE-2025-30310)",
+    "clean_comments": []
   }
 ]
