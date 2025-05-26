@@ -17990,5 +17990,25 @@
     "timestamp": "2025-05-26T05:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1
+    },
+    "title": "What’s your thought on Next.js nowadays? Are you open to trying new frameworks?",
+    "text": "Hey everyone,\n\nI've been reflecting on my experience with Next.js, especially after watching [this video](https://www.youtube.com/watch?v=3metqgO-kFg) titled *\"Is Everyone Ditching NextJS Now?\"* — and I gotta say, it hit a few nerves.\n\nThe video raises some valid critiques that I’ve also felt while working with Next.js. Two major issues stood out:\n\n**Middleware Vulnerability (CVE-2025-29927):**  \nRecently, Next.js had a serious vulnerability where attackers could potentially bypass **authentication and authorization**. While patches have been released, it took nearly a **month** for the team to fully address all supported versions. That lag is... concerning, especially when security is at stake.\n\n**Caching is a Nightmare:**  \nNext.js has multiple layers of caching, and it’s not always clear **where** caching is happening or **how** to properly invalidate it. I’ve personally run into situations where UI updates didn’t reflect properly, and I had to dig into documentation and trial-and-error debugging just to fix stale content.\n\n  \nWhat's your thought?   \n  \n***\\*You should always provide fair comments and conduct your own due diligence.***",
+    "permalink": "/r/nextjs/comments/1kvngwy/whats_your_thought_on_nextjs_nowadays_are_you/",
+    "timestamp": "2025-05-26T06:25:42",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 3,
+        "text": "Are you working in a company ? if yes - then work on whatever they wants \n\nAre you a freelancer or do you have your own company - then do whatever appease you\n\nSimple as that. there are people who are still on laravel, php, just because the company for which they work, still relies on it, and dont want to invest time to upgrade.",
+        "level": 0
+      }
+    ]
   }
 ]

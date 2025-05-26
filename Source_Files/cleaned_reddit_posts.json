@@ -12441,5 +12441,20 @@
     "timestamp": "2025-05-26T05:00:03",
     "clean_text": "CVE-2023-7206: Arbitrary Code Execution Vulnerability in Horner Automation Cscape",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29927"
+    ],
+    "cve_counts": {
+      "CVE-2025-29927": 1
+    },
+    "title": "What’s your thought on Next.js nowadays? Are you open to trying new frameworks?",
+    "permalink": "/r/nextjs/comments/1kvngwy/whats_your_thought_on_nextjs_nowadays_are_you/",
+    "timestamp": "2025-05-26T06:25:42",
+    "clean_text": "What’s your thought on Next.js nowadays? Are you open to trying new frameworks? Hey everyone, I've been reflecting on my experience with Next.js, especially after watching this video titled \"Is Everyone Ditching NextJS Now?\" — and I gotta say, it hit a few nerves. The video raises some valid critiques that I’ve also felt while working with Next.js. Two major issues stood out: Middleware Vulnerability (CVE-2025-29927): Recently, Next.js had a serious vulnerability where attackers could potentially bypass authentication and authorization. While patches have been released, it took nearly a month for the team to fully address all supported versions. That lag is. concerning, especially when security is at stake. Caching is a Nightmare: Next.js has multiple layers of caching, and it’s not always clear where caching is happening or how to properly invalidate it. I’ve personally run into situations where UI updates didn’t reflect properly, and I had to dig into documentation and trial-and-error debugging just to fix stale content. What's your thought? *\\*You should always provide fair comments and conduct your own due diligence.*",
+    "clean_comments": [
+      "Level 0: Are you working in a company ? if yes - then work on whatever they wants Are you a freelancer or do you have your own company - then do whatever appease you Simple as that. there are people who are still on laravel, php, just because the company for which they work, still relies on it, and dont want to invest time to upgrade."
+    ]
   }
 ]
