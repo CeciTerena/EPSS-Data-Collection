@@ -18312,5 +18312,19 @@
     "timestamp": "2025-05-27T11:00:04",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-48057"
+    ],
+    "cve_counts": {
+      "CVE-2025-48057": 1
+    },
+    "title": "Important Icinga 2 Security Fix! Releases 2.14.6, 2.13.12, and 2.12.12 ready.",
+    "text": "A critical bug allowed attackers to get valid certificates if Icinga 2 runs with OpenSSL < 1.1.0 (e.g. on RHEL 7, Amazon Linux 2).\n\nFixed in: 2.14.6  \nAnd backported to: 2.13.12 and 2.12.12\n\nCheck your OpenSSL version with `icinga2 --version | grep OpenSSL` and update Icinga 2 now if affected.\n\nLearn more about the issue [here](https://icinga.com/blog/cve-2025-48057/).",
+    "permalink": "/r/icinga/comments/1kwld5r/important_icinga_2_security_fix_releases_2146/",
+    "timestamp": "2025-05-27T11:56:50",
+    "article_text": null,
+    "comments": []
   }
 ]

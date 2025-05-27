@@ -12733,5 +12733,18 @@
     "timestamp": "2025-05-27T11:00:04",
     "clean_text": "CVE-2025-4322: Privilege Escalation Vulnerability in Motors Theme for WordPress",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-48057"
+    ],
+    "cve_counts": {
+      "CVE-2025-48057": 1
+    },
+    "title": "Important Icinga 2 Security Fix! Releases 2.14.6, 2.13.12, and 2.12.12 ready.",
+    "permalink": "/r/icinga/comments/1kwld5r/important_icinga_2_security_fix_releases_2146/",
+    "timestamp": "2025-05-27T11:56:50",
+    "clean_text": "Important Icinga 2 Security Fix! Releases 2.14.6, 2.13.12, and 2.12.12 ready. A critical bug allowed attackers to get valid certificates if Icinga 2 runs with OpenSSL < 1.1.0 (e.g. on RHEL 7, Amazon Linux 2). Fixed in: 2.14.6 And backported to: 2.13.12 and 2.12.12 Check your OpenSSL version with icinga2 --version | grep OpenSSL and update Icinga 2 now if affected. Learn more about the issue here.",
+    "clean_comments": []
   }
 ]
