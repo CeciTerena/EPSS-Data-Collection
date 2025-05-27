@@ -18527,5 +18527,19 @@
     "timestamp": "2025-05-27T20:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-5174"
+    ],
+    "cve_counts": {
+      "CVE-2025-5174": 1
+    },
+    "title": "CVE Alert: CVE-2025-5174",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kwxif3/cve_alert_cve20255174/",
+    "timestamp": "2025-05-27T20:13:10",
+    "article_text": "A vulnerability was found in erdogant pypickle up to 1.1.5 and classified as problematic. Affected by this issue is the function load of the file pypickle/pypickle.py. The manipulation leads to deserialization. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used. Upgrading to version 2.0.0 is able to address this issue. The patch is identified as 14b4cae704a0bb4eb6723e238f25382d847a1917. It is recommended to upgrade the affected component.",
+    "comments": []
   }
 ]
