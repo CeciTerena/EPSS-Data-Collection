@@ -18340,5 +18340,100 @@
     "timestamp": "2025-05-27T14:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-0994"
+    ],
+    "cve_counts": {
+      "CVE-2025-0994": 1
+    },
+    "title": "Chinese Hackers Exploited a Major Flaw in US Local Gov Software Before It Was Patched",
+    "text": "Recent research from Talos revealed that Chinese-speaking hackers exploited a high-severity vulnerability (CVE-2025-0994) in Trimble Cityworks, a system used by local governments and utilities in the US.\n\nThis flaw allowed remote code execution on Microsoft IIS servers, letting attackers run malicious code and maintain access inside the affected systems. The attacks started in January 2025 and involved advanced tools like Cobalt Strike and VShell.\n\nTrimble released patches in January to fix the issue, but scans showed many public installations were still vulnerable as of February. The hackers appear to have targeted systems related to utilities management.",
+    "permalink": "/r/Cybersecurity_advices/comments/1kwqqmg/chinese_hackers_exploited_a_major_flaw_in_us/",
+    "timestamp": "2025-05-27T15:50:31",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4427",
+      "CVE-2025-4428",
+      "CVE-2025-24085",
+      "CVE-2025-5138",
+      "CVE-2025-32756",
+      "CVE-2025-31200",
+      "CVE-2025-48708",
+      "CVE-2025-2760",
+      "CVE-2025-24813",
+      "CVE-2025-37899"
+    ],
+    "cve_counts": {
+      "CVE-2025-5138": 2,
+      "CVE-2025-24813": 2,
+      "CVE-2025-24085": 2,
+      "CVE-2025-2760": 2,
+      "CVE-2025-48708": 2,
+      "CVE-2025-4427": 2,
+      "CVE-2025-4428": 2,
+      "CVE-2025-31200": 2,
+      "CVE-2025-32756": 2,
+      "CVE-2025-37899": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (27/05/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-5138](https://nvd.nist.gov/vuln/detail/CVE-2025-5138)**\n\n- 📝 A vulnerability was found in Bitwarden up to 2.25.1. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the component PDF File Handler. The manipulation leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n\n- 📅 **Published:** 25/05/2025\n- 📈 **CVSS:** 5.1\n- 🧭 **Vector:** CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N\n- 📣 **Mentions:** 2\n- ⚠️ **Priority:** 4\n\n---\n\n**2. [CVE-2025-24813](https://nvd.nist.gov/vuln/detail/CVE-2025-24813)**\n\n- 📝 Path Equivalence: file.Name (Internal Dot) leading toRemote Code Execution and/or Information disclosureand/or malicious content added to uploaded files via write enabledDefault Servletin Apache Tomcat. This issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.2, from 10.1.0-M1 through 10.1.34, from 9.0.0.M1 through 9.0.98. If all of the following were true, a malicious user was able to view       security sensitive files and/or inject content into those files: -writes enabled for the default servlet (disabled by default) - support for partial PUT (enabled by default) - a target URL for security sensitive uploads that was a sub-directory ofa target URL for public uploads -attacker knowledge of the names of security sensitive files beinguploaded -the security sensitive files also being uploaded via partial PUT If all of the following were true, a malicious user was able to       perform remote code execution: - writes enabled for the default servlet (disabled by default) -support for partial PUT (enabled by default) -application was using Tomcats file based session persistence with thedefault storage location -application included a library that may be leveraged in adeserialization attack Users are recommended to upgrade to version 11.0.3, 10.1.35 or 9.0.99, which fixes the issue.\n\n- 📅 **Published:** 10/03/2025\n- 📈 **CVSS:** 0\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** n/a\n- 📣 **Mentions:** 157\n- ⚠️ **Priority:** 1+\n\n---\n\n**3. [CVE-2025-24085](https://nvd.nist.gov/vuln/detail/CVE-2025-24085)**\n\n- 📝 A use after free issue was addressed with improved memory management. This issue is fixed in visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. A malicious application may be able to elevate privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 17.2.\n\n- 📅 **Published:** 27/01/2025\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 99\n- ⚠️ **Priority:** 2\n\n---\n\n**4. [CVE-2025-2760](https://nvd.nist.gov/vuln/detail/CVE-2025-2760)**\n\n- 📝 GIMP XWD File Parsing Integer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XWD files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-25082.\n\n- 📅 **Published:** 23/04/2025\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 2\n\n---\n\n**5. [CVE-2025-48708](https://nvd.nist.gov/vuln/detail/CVE-2025-48708)**\n\n- 📝 gs_lib_ctx_stash_sanitized_arg in base/gslibctx.c in Artifex Ghostscript before 10.05.1 lacks argument sanitization for the # case. A created PDF document includes its password in cleartext.\n\n- 📅 **Published:** 23/05/2025\n- 📈 **CVSS:** 4\n- 🧭 **Vector:** CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 4\n\n---\n\n**6. [CVE-2025-4427](https://nvd.nist.gov/vuln/detail/CVE-2025-4427)**\n\n- 📝 An authentication bypass in the API component of Ivanti Endpoint Manager Mobile 12.5.0.0 and prior allows attackers to access protected resources without proper credentials via the API.\n\n- 📅 **Published:** 13/05/2025\n- 📈 **CVSS:** 5.3\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N\n- 📣 **Mentions:** 136\n- ⚠️ **Priority:** 4\n\n---\n\n**7. [CVE-2025-4428](https://nvd.nist.gov/vuln/detail/CVE-2025-4428)**\n\n- 📝 Remote Code Execution in API component in Ivanti Endpoint Manager Mobile 12.5.0.0 and prior on unspecified platforms allows authenticated attackers to execute arbitrary code via crafted API requests.\n\n- 📅 **Published:** 13/05/2025\n- 📈 **CVSS:** 7.2\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 106\n- ⚠️ **Priority:** 2\n\n---\n\n**8. [CVE-2025-31200](https://nvd.nist.gov/vuln/detail/CVE-2025-31200)**\n\n- 📝 A memory corruption issue was addressed with improved bounds checking. This issue is fixed in tvOS 18.4.1, visionOS 2.4.1, iOS iOS 18.4.1 and iPadOS 18.4.1, macOS Sequoia 15.4.1. Processing an audio stream in a maliciously crafted media file may result in code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on iOS.\n\n- 📅 **Published:** 16/04/2025\n- 📈 **CVSS:** 7.5\n- 🛡️ **CISA KEV:** True\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 61\n- ⚠️ **Priority:** 1+\n\n---\n\n**9. [CVE-2025-32756](https://nvd.nist.gov/vuln/detail/CVE-2025-32756)**\n\n- 📝 A stack-based buffer overflow vulnerability [CWE-121] in Fortinet FortiVoice versions 7.2.0, 7.0.0 through 7.0.6, 6.4.0 through 6.4.10, FortiRecorder versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.5, 6.4.0 through 6.4.5, FortiMail versions 7.6.0 through 7.6.2, 7.4.0 through 7.4.4, 7.2.0 through 7.2.7, 7.0.0 through 7.0.8, FortiNDR versions 7.6.0, 7.4.0 through 7.4.7, 7.2.0 through 7.2.4, 7.0.0 through 7.0.6, FortiCamera versions 2.1.0 through 2.1.3, 2.0 all versions, 1.1 all versions, allows a remote unauthenticated attacker to execute arbitrary code or commands via sending HTTP requests with specially crafted hash cookie.\n\n- 📅 **Published:** 13/05/2025\n- 📈 **CVSS:** 9.6\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:C\n- 📣 **Mentions:** 59\n- ⚠️ **Priority:** 2\n\n---\n\n**10. [CVE-2025-37899](https://nvd.nist.gov/vuln/detail/CVE-2025-37899)**\n\n- 📝 In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix use-after-free in session logoff\n\nThe sess->user object can currently be in use by another thread, for\nexample if another connection has sent a session setup request to\nbind to the session being free'd. The handler for that connection could\nbe in the smb2_sess_setup function which makes use of sess->user.\n\n- 📅 **Published:** 20/05/2025\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- 📣 **Mentions:** 64\n- ⚠️ **Priority:** 4\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details.",
+    "permalink": "/r/CVEWatch/comments/1kwqn3j/top_10_trending_cves_27052025/",
+    "timestamp": "2025-05-27T15:46:38",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-39338"
+    ],
+    "cve_counts": {
+      "CVE-2024-39338": 2
+    },
+    "title": "Need help with CVE-2024-39338",
+    "text": "I found an app which is vulnerable to [CVE-2024-39338](https://github.com/advisories/GHSA-8hc4-vh64-cxmj) . The app do not have a direct parameter to inject SSRF payload. But the app is vulnerable. How do I exploit this? I looked for Nuclei template but no luck. Need help!",
+    "permalink": "/r/bugbounty/comments/1kwqf1i/need_help_with_cve202439338/",
+    "timestamp": "2025-05-27T15:37:59",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 2,
+        "text": "Looks like very specific pre-conditions. Do you have access to the source code?",
+        "level": 0
+      },
+      {
+        "score": 1,
+        "text": "Well, one of the js endpoint shows its using deprecated version.",
+        "level": 1
+      },
+      {
+        "score": 2,
+        "text": ">Well, one of the js endpoint shows its using deprecated version. \n\nYes. But if the vulnerable code is never called, nothing happens.",
+        "level": 2
+      },
+      {
+        "score": 2,
+        "text": "Not guaranteed that they also use it on the backend. What you can do is try to test all parameters. But I would guess that the probability to find something is very low",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-5177"
+    ],
+    "cve_counts": {
+      "CVE-2025-5177": 1
+    },
+    "title": "CVE Alert: CVE-2025-5177",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kwpsim/cve_alert_cve20255177/",
+    "timestamp": "2025-05-27T15:13:10",
+    "article_text": "A vulnerability was found in Realce Tecnologia Queue Ticket Kiosk up to 20250517. It has been rated as problematic. This issue affects some unknown processing of the file /adm/index.php of the component Admin Login Page. The manipulation of the argument Usuário leads to cross site scripting. The attack may be initiated remotely. The vendor was contacted early about this disclosure but did not respond in any way.",
+    "comments": []
   }
 ]
