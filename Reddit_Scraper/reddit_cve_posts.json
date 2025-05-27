@@ -18270,5 +18270,19 @@
     "timestamp": "2025-05-27T05:23:09",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-39354"
+    ],
+    "cve_counts": {
+      "CVE-2025-39354": 1
+    },
+    "title": "CVE-2025-39354: Critical Deserialization of Untrusted Data Vulnerability in ThemeGoods Grand Conference",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kwhozm/cve202539354_critical_deserialization_of/",
+    "timestamp": "2025-05-27T08:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
