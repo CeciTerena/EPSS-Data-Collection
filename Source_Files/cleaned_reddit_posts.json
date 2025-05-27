@@ -12655,5 +12655,18 @@
     "timestamp": "2025-05-27T02:00:03",
     "clean_text": "CVE-2025-47581: High-Risk Deserialization Vulnerability in Elbisnero WordPress Events Calendar Registration & Tickets Plugin",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32928"
+    ],
+    "cve_counts": {
+      "CVE-2025-32928": 1
+    },
+    "title": "CVE-2025-32928: Critical Deserialization Vulnerability in ThemeGoods Altair",
+    "permalink": "/r/ameeba/comments/1kwezb3/cve202532928_critical_deserialization/",
+    "timestamp": "2025-05-27T05:00:03",
+    "clean_text": "CVE-2025-32928: Critical Deserialization Vulnerability in ThemeGoods Altair",
+    "clean_comments": []
   }
 ]
