@@ -18214,5 +18214,19 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-47581"
+    ],
+    "cve_counts": {
+      "CVE-2025-47581": 1
+    },
+    "title": "CVE-2025-47581: High-Risk Deserialization Vulnerability in Elbisnero WordPress Events Calendar Registration & Tickets Plugin",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kwbqy7/cve202547581_highrisk_deserialization/",
+    "timestamp": "2025-05-27T02:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
