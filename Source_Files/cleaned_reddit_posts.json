@@ -12875,5 +12875,18 @@
     "timestamp": "2025-05-27T16:18:49",
     "clean_text": "How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel’s SMB implementation",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-38314"
+    ],
+    "cve_counts": {
+      "CVE-2021-38314": 1
+    },
+    "title": "what is impact of CVE-2021-38314?",
+    "permalink": "/r/bugbounty/comments/1kwsv2q/what_is_impact_of_cve202138314/",
+    "timestamp": "2025-05-27T17:12:49",
+    "clean_text": "what is impact of CVE-2021-38314? I found this vulnerability in a special program on a bug bounty platform, there is only one md5 token, when I sent it they said they wanted more information, how can I turn this into a practical attack theater?",
+    "clean_comments": []
   }
 ]
