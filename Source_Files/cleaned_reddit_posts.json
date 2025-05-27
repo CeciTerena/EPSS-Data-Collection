@@ -12888,5 +12888,20 @@
     "timestamp": "2025-05-27T17:12:49",
     "clean_text": "what is impact of CVE-2021-38314? I found this vulnerability in a special program on a bug bounty platform, there is only one md5 token, when I sent it they said they wanted more information, how can I turn this into a practical attack theater?",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31200"
+    ],
+    "cve_counts": {
+      "CVE-2025-31200": 2
+    },
+    "title": "iOS 18 jailbreak potential with CVE-2025-31200?",
+    "permalink": "/r/jailbreak/comments/1kwv4se/ios_18_jailbreak_potential_with_cve202531200/",
+    "timestamp": "2025-05-27T18:40:31",
+    "clean_text": "iOS 18 jailbreak potential with CVE-2025-31200? I’ve recently heard about the new CVE-2025-31200 vulnerability. According to the description: “Processing an audio stream in a maliciously crafted media file may result in code execution”. I’ve seen a post on X that the vulnerability is being researched as of now by a developer with there already being something on GitHub. Do you think there’s a jailbreak potential if the exploit is documented or it’s not enough? GitHub",
+    "clean_comments": [
+      "Level 0: You hear a lot of things everyday"
+    ]
   }
 ]

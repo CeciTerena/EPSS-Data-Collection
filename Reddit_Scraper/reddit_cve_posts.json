@@ -18493,5 +18493,25 @@
     "timestamp": "2025-05-27T17:12:49",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31200"
+    ],
+    "cve_counts": {
+      "CVE-2025-31200": 2
+    },
+    "title": "iOS 18 jailbreak potential with CVE-2025-31200?",
+    "text": "I’ve recently heard about the new CVE-2025-31200 vulnerability. According to the description: “Processing an audio stream in a maliciously crafted media file may result in code execution”. I’ve seen a post on X that the vulnerability is being researched as of now by a developer with there already being something on GitHub. Do you think there’s a jailbreak potential if the exploit is documented or it’s not enough?\n[GitHub](https://github.com/zhuowei/apple-positional-audio-codec-invalid-header)",
+    "permalink": "/r/jailbreak/comments/1kwv4se/ios_18_jailbreak_potential_with_cve202531200/",
+    "timestamp": "2025-05-27T18:40:31",
+    "article_text": null,
+    "comments": [
+      {
+        "score": 6,
+        "text": "You hear a lot of things everyday",
+        "level": 0
+      }
+    ]
   }
 ]
