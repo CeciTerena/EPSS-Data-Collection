@@ -12903,5 +12903,18 @@
     "clean_comments": [
       "Level 0: You hear a lot of things everyday"
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-48200"
+    ],
+    "cve_counts": {
+      "CVE-2025-48200": 1
+    },
+    "title": "CVE-2025-48200: TYPO3 sr_feuser_register Extension Vulnerability Leading to Remote Code Execution",
+    "permalink": "/r/ameeba/comments/1kwx62u/cve202548200_typo3_sr_feuser_register_extension/",
+    "timestamp": "2025-05-27T20:00:03",
+    "clean_text": "CVE-2025-48200: TYPO3 sr_feuser_register Extension Vulnerability Leading to Remote Code Execution",
+    "clean_comments": []
   }
 ]
