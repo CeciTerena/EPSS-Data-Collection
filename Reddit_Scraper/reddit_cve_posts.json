@@ -18435,5 +18435,49 @@
     "timestamp": "2025-05-27T15:13:10",
     "article_text": "A vulnerability was found in Realce Tecnologia Queue Ticket Kiosk up to 20250517. It has been rated as problematic. This issue affects some unknown processing of the file /adm/index.php of the component Admin Login Page. The manipulation of the argument Usuário leads to cross site scripting. The attack may be initiated remotely. The vendor was contacted early about this disclosure but did not respond in any way.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-44084"
+    ],
+    "cve_counts": {
+      "CVE-2025-44084": 1
+    },
+    "title": "CVE-2025-44084: Command Injection Vulnerability in D-link DI-8100",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kwsisx/cve202544084_command_injection_vulnerability_in/",
+    "timestamp": "2025-05-27T17:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-46724",
+      "CVE-2025-47277"
+    ],
+    "cve_counts": {
+      "CVE-2025-47277": 1,
+      "CVE-2025-46724": 1
+    },
+    "title": "Two New CVEs in LLM Tools (RCE & Code Injection)",
+    "text": "Published in CISA’s latest [Vulnerability Summary for the Week of May 19, 2025](https://www.cisa.gov/news-events/bulletins/sb25-147).\n\n**CVE-2025-47277 (vLLM RCE via PyNcclPipe)**\n\n* Affects vLLM 0.6.5–0.8.4\n* RCE possible due to `TCPStore` listening on all interfaces\n* Root cause — deserialization of untrusted data\n* Fixed in v0.8.5 by binding to private IP\n\n**CVE-2025-46724 (Langroid Code Injection)**\n\n* Affects Langroid <0.53.15\n* `TableChatAgent` used `pandas.eval()` on unsanitized input\n* Fixed in 0.53.15 with input sanitization",
+    "permalink": "/r/AdversarialML/comments/1kwrsg5/two_new_cves_in_llm_tools_rce_code_injection/",
+    "timestamp": "2025-05-27T16:31:12",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-37899"
+    ],
+    "cve_counts": {
+      "CVE-2025-37899": 1
+    },
+    "title": "How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel’s SMB implementation",
+    "text": "",
+    "permalink": "/r/devopsish/comments/1kwrh1a/how_i_used_o3_to_find_cve202537899_a_remote/",
+    "timestamp": "2025-05-27T16:18:49",
+    "article_text": null,
+    "comments": []
   }
 ]
