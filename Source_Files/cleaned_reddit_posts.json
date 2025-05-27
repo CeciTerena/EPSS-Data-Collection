@@ -12929,5 +12929,18 @@
     "timestamp": "2025-05-27T20:13:10",
     "clean_text": "CVE Alert: CVE-2025-5174 A vulnerability was found in erdogant pypickle up to 1.1.5 and classified as problematic. Affected by this issue is the function load of the file pypickle/pypickle.py. The manipulation leads to deserialization. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used. Upgrading to version 2.0.0 is able to address this issue. The patch is identified as 14b4cae704a0bb4eb6723e238f25382d847a1917. It is recommended to upgrade the affected component.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-44885"
+    ],
+    "cve_counts": {
+      "CVE-2025-44885": 1
+    },
+    "title": "CVE-2025-44885: Critical Stack Overflow Vulnerability in FW-WGS-804HPT",
+    "permalink": "/r/ameeba/comments/1kx1k9v/cve202544885_critical_stack_overflow/",
+    "timestamp": "2025-05-27T23:00:03",
+    "clean_text": "CVE-2025-44885: Critical Stack Overflow Vulnerability in FW-WGS-804HPT",
+    "clean_comments": []
   }
 ]
