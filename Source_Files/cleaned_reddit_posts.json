@@ -12625,5 +12625,22 @@
     "timestamp": "2025-05-26T23:00:03",
     "clean_text": "CVE-2025-47582: Critical Deserialization of Untrusted Data Vulnerability in WPBot Pro WordPress Chatbot",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-7264",
+      "CVE-2025-0167"
+    ],
+    "cve_counts": {
+      "CVE-2025-0167": 1,
+      "CVE-2024-7264": 1
+    },
+    "title": "How to deal with Curl vulnerabilities in Microsoft products",
+    "permalink": "/r/cybersecurity/comments/1kw9spd/how_to_deal_with_curl_vulnerabilities_in/",
+    "timestamp": "2025-05-27T00:19:26",
+    "clean_text": "How to deal with Curl vulnerabilities in Microsoft products Hi everyone, Just wanted to pick your brain on how your security team is dealing with these types of vulnerabilities. E.g. CVE-2025-0167 (netrc and default credential leak) CVE-2024-7264 (ASN.1 date parser overread). The vulnerable curl binary is bundled with either Microsoft SQL Management Studio or resides in System32. I've read online that you shouldn't be messing with System32 binaries unless it comes in the form of official Microsoft updates. So my question is for people handling vulnerability management within their org, how do you usually deal with these types of vulnerabilities? The endpoints I'm dealing with are not exposed to the internet, so exploitation isn't likely. Would you set an exception for these vulnerabilities?",
+    "clean_comments": [
+      "Level 0: Thats the neat part, you don't! You wait until MS fix it"
+    ]
   }
 ]
