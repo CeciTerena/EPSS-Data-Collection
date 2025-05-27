@@ -12746,5 +12746,18 @@
     "timestamp": "2025-05-27T11:56:50",
     "clean_text": "Important Icinga 2 Security Fix! Releases 2.14.6, 2.13.12, and 2.12.12 ready. A critical bug allowed attackers to get valid certificates if Icinga 2 runs with OpenSSL < 1.1.0 (e.g. on RHEL 7, Amazon Linux 2). Fixed in: 2.14.6 And backported to: 2.13.12 and 2.12.12 Check your OpenSSL version with icinga2 --version | grep OpenSSL and update Icinga 2 now if affected. Learn more about the issue here.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-39386"
+    ],
+    "cve_counts": {
+      "CVE-2025-39386": 1
+    },
+    "title": "CVE-2025-39386: SQL Injection Vulnerability in mojoomla Hospital Management System",
+    "permalink": "/r/ameeba/comments/1kwnzw7/cve202539386_sql_injection_vulnerability_in/",
+    "timestamp": "2025-05-27T14:00:03",
+    "clean_text": "CVE-2025-39386: SQL Injection Vulnerability in mojoomla Hospital Management System",
+    "clean_comments": []
   }
 ]
