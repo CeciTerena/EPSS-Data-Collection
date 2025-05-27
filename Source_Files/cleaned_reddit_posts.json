@@ -12707,5 +12707,18 @@
     "timestamp": "2025-05-27T08:00:03",
     "clean_text": "CVE-2025-39354: Critical Deserialization of Untrusted Data Vulnerability in ThemeGoods Grand Conference",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-46804"
+    ],
+    "cve_counts": {
+      "CVE-2025-46804": 1
+    },
+    "title": "CVE Alert: CVE-2025-46804",
+    "permalink": "/r/RedPacketSecurity/comments/1kwj5f9/cve_alert_cve202546804/",
+    "timestamp": "2025-05-27T09:42:25",
+    "clean_text": "CVE Alert: CVE-2025-46804 A minor information leak when running Screen with setuid-root privileges allosw unprivileged users to deduce information about a path that would otherwise not be available. Affected are older Screen versions, as well as version 5.0.0.",
+    "clean_comments": []
   }
 ]

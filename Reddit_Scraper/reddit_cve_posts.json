@@ -18284,5 +18284,19 @@
     "timestamp": "2025-05-27T08:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-46804"
+    ],
+    "cve_counts": {
+      "CVE-2025-46804": 1
+    },
+    "title": "CVE Alert: CVE-2025-46804",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kwj5f9/cve_alert_cve202546804/",
+    "timestamp": "2025-05-27T09:42:25",
+    "article_text": "A minor information leak when running Screen with setuid-root privileges allosw unprivileged users to deduce information about a path that would otherwise not be available. Affected are older Screen versions, as well as version 5.0.0.",
+    "comments": []
   }
 ]
