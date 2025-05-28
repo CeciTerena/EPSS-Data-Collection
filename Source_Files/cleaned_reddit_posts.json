@@ -13115,5 +13115,31 @@
     "timestamp": "2025-05-28T11:21:35",
     "clean_text": "Mimo Hackers Exploit CVE-2025-32432 in Craft CMS to Deploy Cryptominer and Proxyware",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-44898"
+    ],
+    "cve_counts": {
+      "CVE-2025-44898": 1
+    },
+    "title": "CVE-2025-44898: Critical Stack Overflow Vulnerability in FW-WGS-804HPT Resulting in Potential System Compromise",
+    "permalink": "/r/ameeba/comments/1kxhtul/cve202544898_critical_stack_overflow/",
+    "timestamp": "2025-05-28T14:00:03",
+    "clean_text": "CVE-2025-44898: Critical Stack Overflow Vulnerability in FW-WGS-804HPT Resulting in Potential System Compromise",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "Threat Brief: CVE-2025-31324 (Updated May 23)",
+    "permalink": "/r/worldTechnology/comments/1kxhm0q/threat_brief_cve202531324_updated_may_23/",
+    "timestamp": "2025-05-28T13:50:41",
+    "clean_text": "Threat Brief: CVE-2025-31324 (Updated May 23)",
+    "clean_comments": []
   }
 ]

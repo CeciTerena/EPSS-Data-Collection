@@ -18741,5 +18741,33 @@
     "timestamp": "2025-05-28T11:21:35",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-44898"
+    ],
+    "cve_counts": {
+      "CVE-2025-44898": 1
+    },
+    "title": "CVE-2025-44898: Critical Stack Overflow Vulnerability in FW-WGS-804HPT Resulting in Potential System Compromise",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kxhtul/cve202544898_critical_stack_overflow/",
+    "timestamp": "2025-05-28T14:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31324"
+    ],
+    "cve_counts": {
+      "CVE-2025-31324": 1
+    },
+    "title": "Threat Brief: CVE-2025-31324 (Updated May 23)",
+    "text": "",
+    "permalink": "/r/worldTechnology/comments/1kxhm0q/threat_brief_cve202531324_updated_may_23/",
+    "timestamp": "2025-05-28T13:50:41",
+    "article_text": null,
+    "comments": []
   }
 ]
