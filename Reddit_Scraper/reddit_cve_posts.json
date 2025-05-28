@@ -18803,5 +18803,19 @@
     "timestamp": "2025-05-28T14:57:29",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32432"
+    ],
+    "cve_counts": {
+      "CVE-2025-32432": 2
+    },
+    "title": "Alerta en España: Hackers Explotan CVE-2025-32432 en Craft CMS para Cripto y Proxyware",
+    "text": "Un grupo de ciberdelincuentes ha comenzado a aprovechar la vulnerabilidad CVE-2025-32432 en Craft CMS, un popular sistema de gestión de contenido, para instalar mineros de criptomonedas y software de proxyware, afectando a numerosos sitios web en España y Latinoamérica. Esta vulnerabilidad, clasificada como crítica, permite la ejecución remota de código, lo que facilita a los atacantes realizar diversas actividades maliciosas sin necesidad de credenciales previas.\n\nLos atacantes, conocidos como \"Mimo Hackers\", están utilizando esta brecha de seguridad para cargar varios tipos de malware en los servidores comprometidos. Estos incluyen mineros que utilizan los recursos de los sistemas para generar criptomonedas de manera encubierta, el Mimo Loader, que descarga y ejecuta módulos adicionales de forma dinámica, y proxyware que convierte los dispositivos infectados en proxies para actividades ilegales.\n\nAnte esta situación, se ha recomendado a los administradores de sitios web que actualicen inmediatamente Craft CMS a la versión más reciente y realicen auditorías de seguridad con herramientas como OpenVAS o Nessus. También se sugiere implementar sistemas de detección de intrusos y monitorear el tráfico de red en busca de actividades sospechosas.\n\nLa amenaza es significativa para la infraestructura digital en España, donde el uso de CMS personalizados está en aumento. Instituciones como el Instituto Nacional de Ciberseguridad (INCIBE) están alertando a empresas sobre la necesidad de adoptar buenas prácticas de seguridad para cerrar estas brechas y proteger sus sistemas. \n\nSi conoces a alguien que utilice Craft CMS, es crucial que compartas esta información y que tomen las medidas necesarias para resguardar sus sitios ante este tipo de amenazas.",
+    "permalink": "/r/SonOfTheYear/comments/1kxkz6k/alerta_en_españa_hackers_explotan_cve202532432_en/",
+    "timestamp": "2025-05-28T16:06:09",
+    "article_text": null,
+    "comments": []
   }
 ]
