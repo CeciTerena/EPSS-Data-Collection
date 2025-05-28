@@ -18615,5 +18615,19 @@
     "timestamp": "2025-05-28T05:00:04",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31200"
+    ],
+    "cve_counts": {
+      "CVE-2025-31200": 1
+    },
+    "title": "Arbitrary write achieved iOS 18 - 18.4",
+    "text": "So with the APAC decoder (CVE-2025-31200) bug, it seems the developer working on the POC has managed to achieve an arbitrary write and has made a pull request around 20 minutes ago to add the new changes! Who knows if it’ll prove to be useful for jailbreak or not but nonetheless it’s still cool, thought people would wanna check it out :)\n\nhttps://github.com/zhuowei/apple-positional-audio-codec-invalid-header/tree/arb-write",
+    "permalink": "/r/jailbreak/comments/1kx9q5n/arbitrary_write_achieved_ios_18_184/",
+    "timestamp": "2025-05-28T06:02:39",
+    "article_text": null,
+    "comments": []
   }
 ]
