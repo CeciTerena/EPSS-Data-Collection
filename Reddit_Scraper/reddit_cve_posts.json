@@ -18643,5 +18643,19 @@
     "timestamp": "2025-05-28T07:02:41",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-44883"
+    ],
+    "cve_counts": {
+      "CVE-2025-44883": 1
+    },
+    "title": "CVE-2025-44883: Stack Overflow Vulnerability in FW-WGS-804HPT v1.305b241111",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kxbhfg/cve202544883_stack_overflow_vulnerability_in/",
+    "timestamp": "2025-05-28T08:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
