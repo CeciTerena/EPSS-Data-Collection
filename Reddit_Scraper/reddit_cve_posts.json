@@ -18873,5 +18873,19 @@
     "timestamp": "2025-05-28T20:13:10",
     "article_text": "The Property plugin for WordPress is vulnerable to Privilege Escalation due to a missing capability check on the use of the property_package_user_role metadata in versions 1.0.5 to 1.0.6. This makes it possible for authenticated attackers, with Author‐level access and above, to elevate their privileges to that of an administrator by creating a package post whose property_package_user_role is set to administrator and then submitting the PayPal registration form.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2409"
+    ],
+    "cve_counts": {
+      "CVE-2025-2409": 1
+    },
+    "title": "CVE-2025-2409: File Corruption Vulnerability in ASPECT with Potential for System Compromise",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kxv9n3/cve20252409_file_corruption_vulnerability_in/",
+    "timestamp": "2025-05-28T23:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
