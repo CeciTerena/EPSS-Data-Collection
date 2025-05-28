@@ -12985,5 +12985,18 @@
     "timestamp": "2025-05-28T02:00:03",
     "clean_text": "CVE-2025-44887: Critical Stack Overflow Vulnerability in FW-WGS-804HPT",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-44893"
+    ],
+    "cve_counts": {
+      "CVE-2025-44893": 1
+    },
+    "title": "CVE-2025-44893: High-Risk Stack Overflow Vulnerability in FW-WGS-804HPT",
+    "permalink": "/r/ameeba/comments/1kx8opk/cve202544893_highrisk_stack_overflow/",
+    "timestamp": "2025-05-28T05:00:04",
+    "clean_text": "CVE-2025-44893: High-Risk Stack Overflow Vulnerability in FW-WGS-804HPT",
+    "clean_comments": []
   }
 ]
