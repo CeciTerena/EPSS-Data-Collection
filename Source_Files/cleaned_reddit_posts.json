@@ -13141,5 +13141,33 @@
     "timestamp": "2025-05-28T13:50:41",
     "clean_text": "Threat Brief: CVE-2025-31324 (Updated May 23)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4009"
+    ],
+    "cve_counts": {
+      "CVE-2025-4009": 1
+    },
+    "title": "Remote Code Execution on Evertz SDVN (CVE-2025-4009 - Full Disclosure)",
+    "permalink": "/r/broadcastengineering/comments/1kxj8z8/remote_code_execution_on_evertz_sdvn_cve20254009/",
+    "timestamp": "2025-05-28T14:58:03",
+    "clean_text": "Remote Code Execution on Evertz SDVN (CVE-2025-4009 - Full Disclosure)",
+    "clean_comments": [
+      "Level 0: For those who don't speak CVE: a vulnerability has been discovered in the web interface on a number of Evertz switchers that basically allow an attacker to take control of the unit with minimal effort. Evertz has not responded to warnings about this issue, so if you're worried about this your only option is to isolate the network it is on from the LAN and Internet."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-37899"
+    ],
+    "cve_counts": {
+      "CVE-2025-37899": 1
+    },
+    "title": "How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel’s SMB implementation",
+    "permalink": "/r/worldTechnology/comments/1kxj8h9/how_i_used_o3_to_find_cve202537899_a_remote/",
+    "timestamp": "2025-05-28T14:57:29",
+    "clean_text": "How I used o3 to find CVE-2025-37899, a remote zeroday vulnerability in the Linux kernel’s SMB implementation",
+    "clean_comments": []
   }
 ]
