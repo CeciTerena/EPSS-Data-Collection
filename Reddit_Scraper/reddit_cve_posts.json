@@ -18713,5 +18713,33 @@
     "timestamp": "2025-05-28T10:13:10",
     "article_text": "In the function process_crypto_cmd, the values of ptrs[i] can be potentially equal to NULL which is valid value after calling slice_map_array(). Later this values will be derefenced without prior NULL check, which can lead to local Temporary DoS or OOB Read, leading to information disclosure.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47577"
+    ],
+    "cve_counts": {
+      "CVE-2025-47577": 4
+    },
+    "title": "Vulnerabilità critica non corretta nel plugin TI WooCommerce Wishlist (CVE-2025-47577)",
+    "text": "L'articolo dal titolo Vulnerabilità critica non corretta nel plugin TI WooCommerce Wishlist (CVE-2025-47577) è stato pubblicato per la prima volta a questo indirizzo.  \n  \nvia [https://www.insicurezzadigitale.com/vulnerabilita-critica-non-corretta-nel-plugin-ti-woocommerce-wishlist-cve-2025-47577/](https://www.insicurezzadigitale.com/vulnerabilita-critica-non-corretta-nel-plugin-ti-woocommerce-wishlist-cve-2025-47577/)",
+    "permalink": "/r/DFnetwork/comments/1kxeusb/vulnerabilità_critica_non_corretta_nel_plugin_ti/",
+    "timestamp": "2025-05-28T11:39:24",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32432"
+    ],
+    "cve_counts": {
+      "CVE-2025-32432": 1
+    },
+    "title": "Mimo Hackers Exploit CVE-2025-32432 in Craft CMS to Deploy Cryptominer and Proxyware",
+    "text": "",
+    "permalink": "/r/u_TheCyberSecurityHub/comments/1kxej8q/mimo_hackers_exploit_cve202532432_in_craft_cms_to/",
+    "timestamp": "2025-05-28T11:21:35",
+    "article_text": null,
+    "comments": []
   }
 ]
