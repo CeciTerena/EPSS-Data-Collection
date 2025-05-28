@@ -1,0 +1,472 @@
+[
+  {
+    "cves": [
+      "CVE-2023-45853"
+    ],
+    "cve_counts": {
+      "CVE-2023-45853": 1
+    },
+    "date": "2025-04-15",
+    "title": "Issue with zlib Vulnerability in CI/CD Pipeline (GitLab)",
+    "link": "https://stackoverflow.com/questions/79575571/issue-with-zlib-vulnerability-in-ci-cd-pipeline-gitlab",
+    "text": "Problem: Im encountering an issue in my GitLab CI/CD pipeline related to a critical vulnerability in the zlib1g library (CVE-2023-45853). The vulnerability was flagged during the container security scan. \nEnvironment: CI/CD Pipeline: GitLab CI. Vulnerable Library: zlib1g (version 1:1.2.13.dfsg-1). Vulnerability Status: will_not_fix.\nWhat I've Tried So Far: Upgrading zlib1g: Tried apt-get upgrade -y zlib1g, but no fix is available since the package status is 'will_not_fix'. Documentation Check: Reviewed Librem5 zlib1g documentation. Python Upgrade: Updated Python to 3.11, but issue persists. Dependency Review: No direct dependencies found. Exploring Alternatives: Looked into patched versions but no success.\nQuestion: How can I resolve or mitigate this issue? Is there a way to patch manually, or must I wait for an official update? Any strategies for CI/CD pipelines?\nAdditional Details: Base Image: debian:12. Security Scanner: Trivy, GitLab's scanner. Steps Taken: Investigated patched versions or backports but found none."
+  },
+  {
+    "cves": [
+      "CVE-2024-53677"
+    ],
+    "cve_counts": {
+      "CVE-2024-53677": 1
+    },
+    "date": "2025-04-11",
+    "title": "Apache Struts 6 file upload returns null",
+    "link": "https://stackoverflow.com/questions/79567876/apache-struts-6-file-upload-returns-null",
+    "text": "I am upgrading our legacy application from Apache Struts 2.5.33 to 6.7.0 to remediate the file upload vulnerability CVE-2024-53677. I have reviewed the following guides: https://cwiki.apache.org/confluence/display/WW/Struts+2.5+to+6.0.0+migration and https://struts.apache.org/core-developers/action-file-upload-interceptor. The below struts.xml content works with fileUpload interceptor but fails with actionFileUpload as the form content values are coming back null after the file is selected. I am not familiar with Struts and not sure where to begin so just seeking advice on some things I should check."
+  },
+  {
+    "cves": [
+      "CVE-2025-24813"
+    ],
+    "cve_counts": {
+      "CVE-2025-24813": 1
+    },
+    "date": "2025-04-09",
+    "title": "CVE-2025-24813- is applicable for Spring boot Embedded tomcat",
+    "link": "https://stackoverflow.com/questions/79540436/cve-2025-24813-is-applicable-for-spring-boot-embedded-tomcat",
+    "text": "Can you please let me know if following are enabled by default?\n\nPartial PUT Requests\nWrites enabled for the default servlet\nDefaultServlet\n\nIf so how to disable this through configuration?"
+  },
+  {
+    "cves": [
+      "CVE-2022-21658"
+    ],
+    "cve_counts": {
+      "CVE-2022-21658": 1
+    },
+    "date": "2025-03-27",
+    "title": "How to prevent time-of-check-to-time-of-use bug when recursively deleting directories in Windows",
+    "link": "https://stackoverflow.com/questions/79539882/how-to-prevent-time-of-check-to-time-of-use-bug-when-recursively-deleting-direct",
+    "text": "Recursive deletion of directories can suffer from a time-of-check to time-of-use (TOCTTOU) vulnerability. Assuming `isDir` returns false for symlinks, the problem is that an attacker may be able to change the meaning of either `dirname` or `filename` after `isDir` returns true, resulting in some component in the path becoming a symlink. The process is therefore tricked into removing files at a location determined by the attacker. On Unix-like systems, the fix involves using `open` with `O_NOFOLLOW`, `fdopendir`, and `unlinkat`. I've glossed over a bunch of details on purpose, so please don't criticize the pseudocode. I'm trying to figure out whether there's any similar way to harden a Windows implementation. On Windows, symlinks can ordinarily be created only by a process with administrative privileges, but unprivileged users can create them if Developer Mode is enabled. This suggests a Windows box with Developer Mode enabled is vulnerable to CVE-2022-21658. I have not been able to find a way to fix it. While Windows may have something like `openat`, it lacks a function that, given a directory handle, returns the next entry. Instead, it relies on `FindFirstFile*` and `FindNextFile*`, which work on path strings and therefore cannot avoid the TOCTTOU issue. A Windows equivalent of `unlinkat` also appears to be missing."
+  },
+  {
+    "cves": [
+      "CVE-2024-13176",
+      "CVE-2024-9143",
+      "CVE-2025-26466",
+      "CVE-2025-26465"
+    ],
+    "cve_counts": {
+      "CVE-2024-13176": 2,
+      "CVE-2024-9143": 2,
+      "CVE-2025-26466": 2,
+      "CVE-2025-26465": 2
+    },
+    "date": "2025-03-26",
+    "title": "Match pattern by passing a variable to awk as an alternative to grep -B",
+    "link": "https://stackoverflow.com/questions/79537453/match-pattern-by-passing-a-variable-to-awk-as-an-alternative-to-grep-b",
+    "text": "grep -B does not work on AIX so the user seeks an alternative with awk. They have a file containing lines annotating vulnerabilities including CVE-2024-13176 and CVE-2024-9143 for openssl.base, and CVE-2025-26466 and CVE-2025-26465 for openssh.base.server and openssh.base.client. The goal is to extract only the matching package entry and the preceding line using awk by passing the package name as a variable. Their attempted command was: pkg=\\\"openssl.base\\\"; awk -v var1=\\\"$pkg\\\" '/var1/{for(i=1;i<=x;)print a[i++];print}{for(i=1;i<x;i++)a[i]=a[i+1];a[x]=$0;}' x=1 file. They referenced another question on finding lines before a match without grep -B: https://stackoverflow.com/questions/24058278/how-can-i-find-lines-before-my-match-if-my-grep-doesnt-support-the-b-option/24075152."
+  },
+  {
+    "cves": [
+      "CVE-2025-1974"
+    ],
+    "cve_counts": {
+      "CVE-2025-1974": 1
+    },
+    "date": "2025-03-27",
+    "title": "Broken nginx-ingress redirect flow from external Github OAuth provider",
+    "link": "https://stackoverflow.com/questions/79539608/broken-nginx-ingress-redirect-flow-from-external-github-oauth-provider",
+    "text": "After upgrading the ingress-nginx controller from v1.8.0 to v1.12.1 to address CVE-2025-1974, the user is now receiving 401 Unauthorized responses from the GitHub external OAuth provider. They provided kubernetes ingress annotations for auth-url and auth-signin, and logs showing the /oauth2/auth endpoint returning 401 before and after the upgrade, with the /oauth2/start redirect no longer occurring. They are using oauth2-proxy version 6.18.0."
+  },
+  {
+    "cves": [
+      "CVE-2025-24813"
+    ],
+    "cve_counts": {
+      "CVE-2025-24813": 1
+    },
+    "date": "2025-03-18",
+    "title": "Detect if CVE-2025-24813 applies to spring boot",
+    "link": "https://stackoverflow.com/questions/79517178/detect-if-cve-2025-24813-applies-to-spring-boot",
+    "text": "CVE-2025-24813 is a remote code execution vulnerability in apache tomcat. In https://www.petefreitag.com/blog/tomcat-writes-enabled/, the author writes that checking the web.xml files can show whether it applies. How can this be found out in spring boot, if there are no web.xml files in the resulting jar?"
+  },
+  {
+    "cves": [
+      "CVE-2021-44228",
+      "CVE-2021-45046"
+    ],
+    "cve_counts": {
+      "CVE-2021-44228": 1,
+      "CVE-2021-45046": 1
+    },
+    "date": "2025-02-19",
+    "title": "Rundeck log4j Vulnerability",
+    "link": "https://stackoverflow.com/questions/79451917/rundeck-log4j-vulnerability",
+    "text": "I recently updated my Rundeck version to 3.4.10-20220118. According to the release notes this version should be clear of CVE-2021-44228 & CVE-2021-45046. However, I am still seeing them show up in a Rapid 7 report. It looks like the 3.4.10-20220118 version of Rundeck is still using log4j versions 2.13.2. Is there a way I can update the version of log4j to 2.17.0?"
+  },
+  {
+    "cves": [
+      "CVE-2012-1823"
+    ],
+    "cve_counts": {
+      "CVE-2012-1823": 2
+    },
+    "date": "2025-02-12",
+    "title": "ZAP how do I enable skipped tests",
+    "link": "https://stackoverflow.com/questions/79433475/zap-how-do-i-enable-skipped-tests",
+    "text": "We are running ZAP in a azure release pipeline once a week, below is the actual code used in the pipeline.\n\n```yaml\nsteps:\n- bash: |\n      mkdir wrk\n      chmod 777 wrk\n      docker run \\\n      --volume $(Agent.ReleaseDirectory)/wrk:/output:rw \\\n      --volume $(Agent.ReleaseDirectory)/wrk:/zap/wrk:rw \\\n      registry.gitlab.com/gitlab-org/security-products/dast:latest /analyze -t ${target} \\\n      --full-scan True \\\n  displayName: 'Run ZAP scan'\n  continueOnError: true\n  env:\n    target: https://www.kevsbox.com\n```\n\nSo when the run is complete we are seeing this summary -\n\n```text\nSUMMARY - PASS: 106 | WARN: 4 | SKIP: 27\n```\n\nAnd these are the skipped tests:\n\n```text\n2025-02-12T10:36:47.9655769Z SKIP: Content Cacheability [10049]\n2025-02-12T10:36:47.9656116Z SKIP: Dangerous JS Functions [10110]\n2025-02-12T10:36:47.9656463Z SKIP: Permissions Policy Header Not Set [10063]\n2025-02-12T10:36:47.9656631Z SKIP: HTTP Parameter Override [10026]\n2025-02-12T10:36:47.9657478Z SKIP: Anti-clickjacking Header [10020]\n2025-02-12T10:36:47.9657834Z SKIP: Big Redirect Detected (Potential Sensitive Information Leak) [10044]\n2025-02-12T10:36:47.9658019Z SKIP: Re-examine Cache-control Directives [10015]\n2025-02-12T10:36:47.9662689Z SKIP: Information Disclosure - Suspicious Comments [10027]\n2025-02-12T10:36:47.9663969Z SKIP: Modern Web Application [10109]\n2025-02-12T10:36:47.9664285Z SKIP: Retrieved from Cache [10050]\n2025-02-12T10:36:47.9664775Z SKIP: Timestamp Disclosure [10096]\n2025-02-12T10:36:47.9666422Z SKIP: X-ChromeLogger-Data (XCOLD) Header Information Leak [10052]\n2025-02-12T10:3668676Z SKIP: Source Code Disclosure - CVE-2012-1823 [20017]\n2025-02-12T10:9668844Z SKIP: Remote Code Execution - CVE-2012-1823 [20018]\n2025-02-12T10:9671863Z SKIP: Server Side Include [40009]\n2025-02-12T10:9672031Z SKIP: Generic Padding Oracle [90024]\n2025-02-12T10:9672723Z SKIP: Cloud Metadata Potentially Exposed [90034]\n2025-02-12T10:9672872Z SKIP: Buffer Overflow [30001]\n2025-02-12T10:9673316Z SKIP: Format String Error [30002]\n2025-02-12T10:9677801Z SKIP: ELMAH Information Leak [40028]\n2025-02-12T10:9678121Z SKIP: Trace.axd Information Leak [40029]\n2025-02-12T10:9678888Z SKIP: .env Information Leak [40034]\n2025-02-12T10:9679718Z SKIP: User Agent Fuzzer [10104]\n2025-02-12T10:9722507Z SKIP: Source Code Disclosure - File Inclusion [43]\n2025-02-12T10:9725122Z SKIP: Integer Overflow Error [30003]\n2025-02-12T10:9725284Z SKIP: Possible Username Enumeration [40023]\n2025-02-12T10:9725284Z SKIP: Cookie Slack Detector [90027]\n```\n\nMy question is, how do I have these steps enabled so they are not skipped?\n\nThanks in advance for any good advise"
+  },
+  {
+    "cves": [
+      "CVE-2024-38819",
+      "CVE-2024-12798"
+    ],
+    "cve_counts": {
+      "CVE-2024-38819": 1,
+      "CVE-2024-12798": 1
+    },
+    "date": "2025-02-06",
+    "title": "maven-shade-plugin dependency issue: Invisible vulnerabilities in Trivy scan due to missing pom.properties",
+    "link": "https://stackoverflow.com/questions/79418517/maven-shade-plugin-dependency-issue-invisible-vulnerabilities-in-trivy-scan-due",
+    "text": "I'm currently working on a build pipeline to package a Java Maven application into a Docker image and scan it using Trivy. The JAR is built using the maven-shade-plugin:\n\n```xml\n<plugin>\n    <groupId>org.apache.maven.plugins</groupId>\n    <artifactId>maven-shade-plugin</artifactId>\n    <configuration>\n        <transformers>\n            <transformer \n                implementation=\"org.apache.maven.plugins.shade.resource.ManifestResourceTransformer\">\n                <mainClass>x.y.z.SomeClass</mainClass>\n            </transformer>\n            <transformer implementation=\"org.apache.maven.plugins.shade.resource.ServicesResourceTransformer\"/>\n        </transformers>\n    </configuration>\n    <executions>\n        <execution>\n            <phase>package</phase>\n            <goals>\n                <goal>shade</goal>\n            </goals>\n            <configuration>\n                <shadedArtifactAttached>true</shadedArtifactAttached>\n            </configuration>\n        </execution>\n    </executions>\n</plugin>\n```\n\nTo test the Trivy scan, I purposely included the dependency `org.springframework:spring-webmvc:6.1.13` (which contains CVE-2024-38819), but Trivy didn’t detect it.\n\nWhile researching how Trivy scans a JAR file, I found in the documentation:\n\n> To find information about your JAR file, Trivy parses pom.properties and MANIFEST.MF files in your JAR file and takes required properties.\n\nAfter inspecting the JAR, I discovered there is no `org.springframework` directory with a corresponding `pom.properties` under `/META-INF/maven/`; instead it appears under `/META-INF/native-image/` without a `pom.properties` file. When I added `ch.qos.logback:logback-core:1.5.11` (CVE-2024-12798), which did end up in `/META-INF/maven`, Trivy detected the logback vulnerability.\n\nWould anyone know why this package is placed under the native-image directory rather than maven, and how to ensure that a `pom.properties` file is always generated for each dependency so Trivy can detect them regardless of location?"
+  },
+  {
+    "cves": [
+      "CVE-2024-38816",
+      "CVE-2024-38810",
+      "CVE-2024-7254",
+      "CVE-2021-47621",
+      "CVE-2024-47561",
+      "CVE-2024-38821",
+      "CVE-2024-47535",
+      "CVE-2024-52317",
+      "CVE-2024-38820",
+      "CVE-2024-38827"
+    ],
+    "cve_counts": {
+      "CVE-2024-38816": 1,
+      "CVE-2024-38810": 1,
+      "CVE-2024-7254": 1,
+      "CVE-2021-47621": 1,
+      "CVE-2024-47561": 1,
+      "CVE-2024-38821": 1,
+      "CVE-2024-47535": 1,
+      "CVE-2024-52317": 1,
+      "CVE-2024-38820": 1,
+      "CVE-2024-38827": 1
+    },
+    "date": "2025-02-06",
+    "title": "Test Class failure with Spring 3.4.2 version",
+    "link": "https://stackoverflow.com/questions/79417565/test-class-failure-with-spring-3-4-2-version",
+    "text": "Upgraded my Spring Boot version to `org.springframework.boot:3.4.2` and all dependencies accordingly, but my test cases are now failing with a `NoSuchMethodError`:\n\n```text\njava.lang.NoSuchMethodError: 'java.util.LinkedHashSet org.springframework.util.CollectionUtils.newLinkedHashSet(int)'\n    at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:95)\n    at org.springframework.test.context.junit.jupiter.SpringExtension.getTestContextManager(SpringExtension.java:363)\n    ...\n```\n\nMy `build.gradle` contains the following dependencies (with comments indicating CVEs they address):\n\n```groovy\nplugins {\n    id 'org.springframework.boot' version '3.4.2'\n    id 'io.spring.dependency-management' version '1.1.6'\n    // ...\n}\n\ndependencies {\n    implementation 'org.springframework:spring-webmvc:7.0.0-M1'\n    implementation \"org.springframework:spring-webflux:7.0.0-M1\"        // Fix CVE-2024-38816\n\n    // CVE-2024-38810\n    implementation 'org.springframework.security:spring-security-core:6.4.2'\n\n    // Needed to patch snakeyaml:1.3.3 vulnerability\n    implementation 'org.yaml:snakeyaml:2.3'\n    // Needed to patch json-smart vulnerability\n    implementation 'com.jayway.jsonpath:json-path:2.9.0'\n    implementation 'com.nimbusds:oauth2-oidc-sdk:11.21.3'\n    implementation 'io.netty:netty-handler:5.0.0.Alpha2'\n    implementation 'io.netty:netty-codec:5.0.0.Alpha2'\n    implementation 'io.netty:netty-codec-http2:5.0.0.Alpha2'\n    implementation 'org.xerial.snappy:snappy-java:1.1.10.5'\n    implementation 'io.projectreactor.netty:reactor-netty-http:1.1.13'\n\n    // CVE-2024-7254\n    implementation 'com.google.protobuf:protobuf-java:4.27.5'\n    // CVE-2021-47621\n    implementation 'io.github.classgraph:classgraph:4.8.112'\n\n    // CVE-2024-47561 (avro)\n    // implementation 'org.apache.avro:avro:1.11.4'\n\n    // CVE-2024-38821\n    implementation 'org.springframework.security:spring-security-web:6.3.4'\n    // CVE-2024-47535\n    implementation 'io.netty:netty-common:4.1.115.Final'\n    // CVE-2024-52317\n    implementation 'org.apache.tomcat.embed:tomcat-embed-core:11.0.2'\n\n    // CVE-2024-38820\n    implementation 'org.springframework:spring-context:6.1.14'\n    implementation 'org.springframework:spring-web:6.1.14'\n    implementation 'org.springframework:spring-core:6.1.14'\n\n    // CVE-2024-38827\n    implementation 'org.springframework:spring-expression:6.1.14'\n    implementation 'org.springframework:spring-beans:6.1.14'\n\n    // ... other dependencies ...\n}\n```"
+  },
+  {
+    "cves": [
+      "CVE-2024-50379"
+    ],
+    "cve_counts": {
+      "CVE-2024-50379": 1
+    },
+    "date": "2025-01-27",
+    "title": "vulnerable Tomcat 10.1.31 embedded in Artifactory 7.98.13",
+    "link": "https://stackoverflow.com/questions/79390838/vulnerable-tomcat-10-1-31-embedded-in-artifactory-7-98-13",
+    "text": "Tenable Nessus reports a vulnerable Tomcat 10.1.31 on the path `/opt/jfrog/artifactory/app/access/`.\nThis looks like an embedded Tomcat instance.\nThe JFrog Artifactory package installed is `jfrog-artifactory-oss 7.98.13`.\nOfficial release notes show an incremental patch version 7.98.14, but no hint about a Tomcat upgrade.\nThe vulnerability in question is CVE-2024-50379. It is fixed in Tomcat 10.1.34.\nI did not find any information on whether JFrog Artifactory is affected by this vulnerability, nor any recommended solution, patch, or mitigation.\n(I presume that touching the embedded Tomcat is not a good idea.)\nWhat is JFrog's official position on this specific CVE?"
+  },
+  {
+    "cves": [
+      "CVE-2022-1292",
+      "CVE-2022-2068",
+      "CVE-2024-5535"
+    ],
+    "cve_counts": {
+      "CVE-2022-1292": 1,
+      "CVE-2022-2068": 1,
+      "CVE-2024-5535": 2
+    },
+    "date": "2025-01-23",
+    "title": "Build Spring Boot native images with Paketo buildpacks yields CVE for openssl (baked inside the base image)",
+    "link": "https://stackoverflow.com/questions/79381884/build-spring-boot-native-images-with-paketo-buildpacks-yields-cve-for-openssl-b",
+    "text": "When building a native image via `mvn -Pnative spring-boot:build-image`, Spring Boot pulls the `paketobuildpacks/builder-jammy-java-tiny` base image which includes OpenSSL 3.0.2 flagged with CVE‑2022‑1292, CVE‑2022‑2068, and CVE‑2024‑5535. Switching to the `paketobuildpacks/builder-noble-java-tiny` still yields OpenSSL 3.0.13 with CVE‑2024‑5535. Since these base images can’t be modified directly, is there any way to build native images without bundling OpenSSL, or is there an alternative Paketo base image that avoids these known vulnerabilities?"
+  },
+  {
+    "cves": [
+      "CVE-2024-49761"
+    ],
+    "cve_counts": {
+      "CVE-2024-49761": 1
+    },
+    "date": "2025-01-14",
+    "title": "Github workflow - Trivy action - Rexml3.28 vulnerability",
+    "link": "https://stackoverflow.com/questions/79354948/github-workflow-trivy-action-rexml3-28-vulnerability",
+    "text": "In a Ruby on Rails project, the Aquasecurity Trivy scanner in GitHub Actions flags a rexml‑3.2.8 vulnerability (CVE‑2024‑49761) when scanning the built container image, even though the repo specifies rexml ≥ 3.4.0 and no 3.2.8 appears in Gemfile.lock. Running Trivy locally on the same branch shows no issues. The user suspects the pipeline is scanning an old or cached image and needs guidance on how to find or clear those cached containers in GitHub Actions."
+  },
+  {
+    "cves": [
+      "CVE-2022-24434",
+      "CVE-2021-3765",
+      "CVE-2021-43138"
+    ],
+    "cve_counts": {
+      "CVE-2022-24434": 2,
+      "CVE-2021-3765": 1,
+      "CVE-2021-43138": 1
+    },
+    "date": "2024-12-23",
+    "title": "Need to remove or update vulnerable dependencies in a NodeJS API",
+    "link": "https://stackoverflow.com/questions/79303750/need-to-remove-or-update-vulnerable-dependencies-in-a-nodejs-api",
+    "text": "In a NodeJS API, the user depends on `swagger-express-mw-updated-dependencies` (v0.7.0), which wraps `swagger-express-mw` and ultimately `swagger-node-runner`. A SonarQube scan reports high‑severity vulnerabilities in its transitives—busboy and dicer (CVE‑2022‑24434), validator.js (CVE‑2021‑3765), and async (CVE‑2021‑43138). Removing the package breaks endpoints, and migrating to alternatives like express‑openapi would require a large rewrite. Overrides or forced resolutions haven’t helped. The user seeks advice on eliminating these vulnerabilities without disrupting production."
+  },
+  {
+    "cves": [
+      "CVE-2024-47554"
+    ],
+    "cve_counts": {
+      "CVE-2024-47554": 2
+    },
+    "date": "2024-12-05",
+    "title": "Overriding Maven plugins with vulnerable dependencies - Nexus Quarantine",
+    "link": "https://stackoverflow.com/questions/79254953/overriding-maven-plugins-with-vulnerable-dependencies-nexus-quarantine",
+    "text": "When running `mvn validate` on ProjectX, the Maven Enforcer plugin (3.4.1) transitively uses `commons-io:2.13.0`, which Nexus IQ quarantines due to CVE‑2024‑47554. The build fails with a 403 and ‘requested item is quarantined’. The user added a `dependencyManagement` entry for `commons-io:2.16.0` in their POM, but Maven still resolves the plugin’s vulnerable dependency. They seek a way to force the plugin to use a non‑vulnerable version without disabling the quarantine."
+  },
+  {
+    "cves": [
+      "CVE-2024-47535"
+    ],
+    "cve_counts": {
+      "CVE-2024-47535": 2
+    },
+    "date": "2024-12-01",
+    "title": "CVE-2024-47535: io.netty/netty-common",
+    "link": "https://stackoverflow.com/questions/79242398/cve-2024-47535-io-netty-netty-common",
+    "text": "I have a spring boot application which includes the `springdoc-openapi-webflux-core` dependency.  When I run the code through Docker Desktop’s vulnerability scanner I see CVE‑2024‑47535 reported against `io.netty:netty-common`.  To try to resolve it I added a whole suite of Netty 4.1.115.Final dependencies (http, http2, dns, transport, etc.), but on re‑scanning I still get the same warning.  Any ideas how to fix this?"
+  },
+  {
+    "cves": [
+      "CVE-2024-4577"
+    ],
+    "cve_counts": {
+      "CVE-2024-4577": 1
+    },
+    "date": "2024-12-01",
+    "title": "CVE-2024-4577: Antivirus catches vulnerability despite no PHP code",
+    "link": "https://stackoverflow.com/questions/79233899/antivirus-catches-cve-2024-4577-vulnerability-even-though-there-is-no-php-in-m",
+    "text": "I have a web project with Svelte and the antivirus application throws such an error even though there is no PHP related code block in it. Under node_modules, there is only one PHP file in the “flat...”"
+  },
+  {
+    "cves": [
+      "CVE-2024-38828"
+    ],
+    "cve_counts": {
+      "CVE-2024-38828": 1
+    },
+    "date": "2025-05-03",
+    "title": "CVE-2024-38828 in Spring Framework: what's the root cause?",
+    "link": "https://stackoverflow.com/questions/79214998/cve-2024-38828-in-spring-framework-whats-the-root-cause",
+    "text": "I heard about this vulnerability (CVE-2024-38828) and tried to seek for details, but couldn't find anything useful. I could imagine why it may cause a DoS: sending too much data may cause a denial of service..."
+  },
+  {
+    "cves": [
+      "CVE-2024-38828"
+    ],
+    "cve_counts": {
+      "CVE-2024-38828": 1
+    },
+    "date": "2024-05-01",
+    "title": "Timeline for new version of spring-boot-starter-web library",
+    "link": "https://stackoverflow.com/questions/79198979/timeline-for-new-version-of-spring-boot-starter-web-library",
+    "text": "Understand that there has been a fix for CVE-2024-38828 as per the Spring team's article here. Latest version 3.3.5 of spring-boot-starter-web still uses 6.1.14 spring-web which has the flagged CVE.\n\nExpected behavior: The next release of spring-boot-starter-web should bump spring-web to a patched version.\n\nCurrent behavior: 3.3.5 still depends on spring-web 6.1.14 which contains the CVE."
+  },
+  {
+    "cves": [
+      "CVE-2024-38816"
+    ],
+    "cve_counts": {
+      "CVE-2024-38816": 2
+    },
+    "date": "2025-05-02",
+    "title": "Error occurred while calling a method on a Groovy class from classpath.: InvocationTargetException",
+    "link": "https://stackoverflow.com/questions/79181639/error-occurred-while-calling-a-method-on-a-groovy-class-from-classpath-invocat",
+    "text": "I am working on vulnerabilities and have upgraded spring-webmvc version to 6.1.13 to resolve them\nHere is my pom (omitted the dependencies which are not important in this context)\n<parent>...\n<dependencyManagement>...\n<dependencies>...\nAfter running `mvn clean package`, I am getting the following error:\n\n```\nFailed to execute goal org.codehaus.gmavenplus:gmavenplus-plugin:1.13.1:compileTests (default) on project a-services: Error occurred while calling a method on a Groovy class from classpath.: InvocationTargetException: org.springframework.web.method.annotation.HandlerMethodValidationException -> [Help 1]\n```\n\nStacktrace shows `java.lang.NoClassDefFoundError: org.springframework.web.method.annotation.HandlerMethodValidationException`.\nI tried upgrading gmavenplus-plugin to newer versions but the issue persists. Do I need to upgrade groovy or any other dependencies to match with 6.1.13 spring-webmvc?"
+  },
+  {
+    "cves": [
+      "CVE-2023-48795"
+    ],
+    "cve_counts": {
+      "CVE-2023-48795": 3
+    },
+    "date": "2024-10-23",
+    "title": "WinSCP .NET assembly error on SFTP connection \"The client-to-server cipher ChaCha20-Poly1305 was not verified!\"",
+    "link": "https://stackoverflow.com/questions/79116557/winscp-net-assembly-error-on-sftp-connection-the-client-to-server-cipher-chach",
+    "text": "I am using WinSCP .NET assembly to connect with one SFTP and getting error on Session.Open\n\nThe client-to-server cipher ChaCha20-Poly1305 was not verified!\n\nSame connection is working when I am using WinSCP application with one warning. I am using WinSCP 6.3.5.\n\n// Setup session options\nSessionOptions sessionOptions = new SessionOptions \n{ \n    Protocol = Protocol.Sftp, \n    HostName = _Host, \n    UserName = _Username, \n    Password = _Password, \n    PortNumber = _Port, \n    SshHostKeyFingerprint = \"ssh-rsa 4096 ***************************\" \n}; \nusing (Session session = new Session()) \n{ \n    session.SessionLogPath = \"text.log\"; \n\n    // On below line I am getting error\n    session.Open(sessionOptions); \n}\n\n...\n\n2024-10-23 10:34:05.362 SSH connection is vulnerable to 'Terrapin' attack (CVE-2023-48795)\n...\n2024-10-23 10:34:05.369 The client-to-server cipher ChaCha20-Poly1305 was not verified!\nClosing connection."
+  },
+  {
+    "cves": [
+      "CVE-2004-0230"
+    ],
+    "cve_counts": {
+      "CVE-2004-0230": 1
+    },
+    "date": "2024-10-23",
+    "title": "LwIP RST not accepted socket close blocks for several minutes",
+    "link": "https://stackoverflow.com/questions/79116517/lwip-rst-not-accepted-socket-close-blocks-for-several-minutes",
+    "text": "On an embedded system (STM32) running FreeRTOS + LwIP 2.1.2 we use the socket API. We have a desktop application running on Windows or Mac and we can connect to the embedded device using socket to communicate and get status information or send control messages. After connecting and disconnecting to the embedded device several times, so the socket is closed on the desktop side, the embedded device is still sending messages to the closed port. It takes about 18 minutes, till the device closes the socket and can accept a new connection.\n\nWe found out, that this only happens when we use a windows PC with firewall on. On Mac or Windows with firewall off, everything works well.\n\nLooking on the Wireshark traces when using Windows, I see that the seq numbers do not match and the device keeps sending challenge ACK, but with firewall on the PC does not react on them and does not send a RST again.\n\nOn the LwIP side I see that in tcp_in.c in tcp_process:\n\n```\n/* Process incoming RST segments. */\n  if (flags & TCP_RST) {\n    /* First, determine if the reset is acceptable. */\n    if (pcb->state == SYN_SENT) {\n      /* \"In the SYN-SENT state (a RST received in response to an initial SYN),\n          the RST is acceptable if the ACK field acknowledges the SYN.\" */\n      if (ackno == pcb->snd_nxt) {\n        acceptable = 1;\n      }\n    } else {\n      /* \"In all states except SYN-SENT, all reset (RST) segments are validated\n          by checking their SEQ-fields.\" */\n      if (seqno == pcb->rcv_nxt) {\n        acceptable = 1;\n      } else if (TCP_SEQ_BETWEEN(seqno, pcb->rcv_nxt,\n                                 pcb->rcv_nxt + pcb->rcv_wnd)) {\n        /* If the sequence number is inside the window, we send a challenge ACK\n           and wait for a re-send with matching sequence number.\n           This follows RFC 5961 section 3.2 and addresses CVE-2004-0230\n           (RST spoofing attack), which is present in RFC 793 RST handling. */\n        tcp_ack_now(pcb);\n      }\n    }\n```\n\nWhen firewall is off we get:\n```\nif (seqno == pcb->rcv_nxt) { acceptable = 1; }\n```\nBut with firewall on we get:\n```\nelse if (TCP_SEQ_BETWEEN(seqno, pcb->rcv_nxt, pcb->rcv_nxt + pcb->rcv_wnd)) tcp_ack_now(pcb);\n```\n\nThe thing is on our other devices running Linux this problem does not occur.\nCan anybody help?\n\nTried to set `acceptable = 1` in the else-if clause (TCP_SEQ_BETWEEN...), which works, but makes the device more vulnerable to an RST spoofing attack."
+  },
+  {
+    "cves": [
+      "CVE-2024-38095"
+    ],
+    "cve_counts": {
+      "CVE-2024-38095": 1
+    },
+    "date": "2024-10-21",
+    "title": "Vulnerability in ASP.NET Core 6.0 Web API when the library is not directly installed?",
+    "link": "https://stackoverflow.com/questions/79110328/vulnerability-in-asp-net-core-6-0-web-api-when-the-library-is-not-directly-insta",
+    "text": "I have an ASP.NET Core 6.0 Web API. I have implemented CI/CD to release changes and also integrated a vulnerability scanning tool (tviry) into the project to check for vulnerabilities in the code. Today, I came across a strange vulnerability in a library that is not installed in the project.\n\nTo fix the vulnerability, Of course, I can install the updated version (6.0.1), but I am unsure why this issue is being flagged in the code if this library is no longer present. Is it possible that this library, System.Formats.Asn1, System.IO.Packaging, NuGet.Protocol, SortedList is being used internally by the .NET 6.0 framework?\n\nLibrary: System.Formats.Asn1\nVulnerability: CVE-2024-38095\nSeverity: HIGH\nInstalled Version: 6.0.0\nFixed Version: 6.0.1, 8.0.1\n\nTitle: dotnet: DoS when parsing X.509 Content and ObjectIdentifiers\n\nhttps://avd.aquasec.com/nvd/cve-2024-38095"
+  },
+  {
+    "cves": [
+      "CVE-2024-32655",
+      "CVE-2024-30105"
+    ],
+    "cve_counts": {
+      "CVE-2024-32655": 1,
+      "CVE-2024-30105": 1
+    },
+    "date": "2024-10-21",
+    "title": "Set NuGet package versions of runtime components, to prevent vulnerable dependencies?",
+    "permalink": "https://stackoverflow.com/questions/79109904/set-nuget-package-versions-of-runtime-components-to-prevent-vulnerable-dependen",
+    "text": "In order to prevent vulnerable, transitive dependencies, I added guard versions to the Directory.Packages.props file, used for Central Package Management (CPM) in Visual Studio 2022. Transitive pinning is enabled, of course:\n\n<PackageVersion Include=\"Npgsql\" Version=\"8.0.3\" />\n<PackageVersion Include=\"System.Runtime.Caching\" Version=\"8.0.0\" />\n<PackageVersion Include=\"System.Text.Json\" Version=\"8.0.4\" />\n\nNow, the System.Text.Json package version 8.0.4 has got another vulnerability and should be updated to 8.0.5.\n\nI also noticed that System.Text.Json is now part of the .NET runtime (I think since .NET 8. Edit: No, already .NET Core 3.x).\n\n1. Specifying a PackageVersion no longer makes the build deliver a System.Text.Json.dll, so is the version now ignored?\n2. I get a warning when I specify the package with version 8.0.4. But as I see, under .NET 8, it solely depends on the runtime version—so is the warning just in case that older .NET versions are used?\n3. After removing the PackageVersion, the vulnerable version 8.0.4 still appears as a dependency of a 3rd party component, but without warning. Is this due to an outdated runtime on my DEV machine?\n4. If it's best not to set PackageVersion for runtime components, how can I find out which components have moved to the runtime?\n\nEDIT: Related discussion here: https://stackoverflow.com/questions/78736219/mitigating-vulnerability-in-runtime-libraries"
+  },
+  {
+    "cves": [
+      "CVE-2023-2976"
+    ],
+    "cve_counts": {
+      "CVE-2023-2976": 1
+    },
+    "date": "2024-10-16",
+    "title": "Issues with Guava upgrade",
+    "link": "https://stackoverflow.com/questions/79093844/issues-with-guava-upgrade",
+    "text": "Recently upgraded the google guava jar from version 30.1.1.jre to version 33.3.0.jre to avoid CVE-2023-2976. This resulted in failure of some very old Selenium. What next steps can I take to fix this?\n\nerror: method until in class FluentWait<T> cannot be applied to given types;\n      wait.until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));\n         ^\n required: Function<? super WebDriver,V>\n found:    ExpectedCondition<WebElement>\n reason: cannot infer type-variable(s) V\n   (argument mismatch; ExpectedCondition<WebElement> cannot be converted to Function<? super WebDriver,V>)\n where V,T are type‑variables:\n   V extends Object declared in method <V> until(Function<? super T,V>)\n   T extends Object declared in class FluentWait"
+  },
+  {
+    "cves": [
+      "CVE-2011-3374",
+      "CVE-2019-18276",
+      "CVE-2017-13716",
+      "CVE-2018-1000876"
+    ],
+    "cve_counts": {
+      "CVE-2011-3374": 1,
+      "CVE-2019-18276": 1,
+      "CVE-2017-13716": 1,
+      "CVE-2018-1000876": 1
+    },
+    "date": "2024-10-11",
+    "title": "Reading a table from a txt file in pandas",
+    "link": "https://stackoverflow.com/questions/79079770/reading-a-table-from-a-txt-file-in-pandas",
+    "text": "It is not possible to display the table correctly\n\n┌───────────────────────────┬─────────────────────┬──────────┬──────────────┬────────────────────────────────────────┬─────────────────────────┬──────────────────────────────────────────────────────────────┐\n│          Library          │    Vulnerability    │ Severity │    Status    │           Installed Version            │      Fixed Version      │                            Title                             │\n├───────────────────────────┼─────────────────────┼──────────┼──────────────┼────────────────────────────────────────┼─────────────────────────┼──────────────────────────────────────────────────────────────┤\n│ apt                       │ CVE-2011-3374       │ LOW      │ affected     │ 1.8.2.3+ci202206080010+linux           │                         │ It was found, do not                                         │\n│                           │                     │          │              │                                        │                         │ correctly...                                                 │\n│                           │                     │          │              │                                        │                         │ https://avd.aquasec.com/nvd/cve-2011-3374                    │\n├───────────────────────────┼─────────────────────┤          │              ├────────────────────────────────────────┼─────────────────────────┼──────────────────────────────────────────────────────────────┤\n│ bash                      │ CVE-2019-18276      │          │              │ 1.0-2.linux                            │                         │ bash: when effective                                       │\n│                           │                     │          │              │                                        │                         │ the...                                                       │\n│                           ├─────────────────────┤          │              │                                        ├─────────────────────────┼──────────────────────────────────────────────────────────────┤\n│                           │ TEMP-0841856-B18BAF │          │              │                                        │                         │ [Privilege  ]                                                │\n│                           │                     │          │              │                                        │                         │ https://security-tracker.debian.org/tracker/TEMP-0841856-B1- │\n│                           │                     │          │              │                                        │                         │ 8BAF                                                         │\n├───────────────────────────┼─────────────────────┤          │              ├────────────────────────────────────────┼─────────────────────────┼──────────────────────────────────────────────────────────────┤\n│ binutils                  │ CVE-2017-13716      │          │              │ 2.31.1-16+ci202206301611+linux         │                         │ binutils: Memory demangler routine                           │\n│                           │                     │          │              │                                        │                         │ in libiberty                                                 │\n│                           │                     │          │              │                                        │                         │ https://avd.aquasec.com/nvd/cve-2017-13716                   │\n│                           ├─────────────────────┤          │              │                                        ├─────────────────────────┼──────────────────────────────────────────────────────────────┤\n│                           │ CVE-2018-1000876    │          │              │                                        │                         │ leads to heap-based buffer                                  │\n│                           │                     │          │              │                                        │                         │ overflow in objdump                                          │\n│                           │                     │          │              │                                        │                         │ https://avd.aquasec.com/nvd/cve-2018-1000876                 │\n└───────────────────────────┴─────────────────────┴──────────┴──────────────┴────────────────────────────────────────┴─────────────────────────┴──────────────────────────────────────────────────────────────┘\n\ndata = pd.read_csv('/data.txt', sep='|', skiprows=[1],\n                   names=['Library','Vulnerability','Severity','Status','Installed Version','Fixed Version','Title'], encoding='utf-8')\ndata.head(10)"
+  },
+  {
+    "cves": [
+      "CVE-2024-47220"
+    ],
+    "cve_counts": {
+      "CVE-2024-47220": 1
+    },
+    "date": "2024-10-01",
+    "title": "Why is Bundler ignoring Gemfile.lock in GitHub actions?",
+    "link": "https://stackoverflow.com/questions/79041372/why-is-bundler-ignoring-gemfile-lock-in-github-actions",
+    "text": "I have a GitHub Actions workflow for auditing my gem bundle on every PR. It looks like this:\n\n```yaml\nname: \"Audit\"\non:\n  push:\n    branches: '*'\n  pull_request_target:\n    branches: '*'\njobs:\n  lint:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout code\n        uses: actions/checkout@v4\n      - name: Install Ruby (without caching)\n        uses: ruby/setup-ruby@v1\n      - name: Install dependencies\n        run: bundle install\n      - name: Security audit dependencies\n        run: bundle exec bundler-audit --update\n```\n\nWhen Dependabot opens a PR to bump `webrick` from 1.8.1 to 1.8.2, the workflow still installs 1.8.1, causing the audit to fail. The relevant GitHub Actions log shows:\n\n```\nName: webrick\nVersion: 1.8.1\nCVE: CVE-2024-47220\nGHSA: GHSA-6f62-3596-g6w7\nCriticality: High\nURL: https://github.com/advisories/GHSA-6f62-3596-g6w7\nTitle: HTTP Request Smuggling in ruby webrick\nSolution: upgrade to '>= 1.8.2'\nVulnerabilities found!\n```"
+  },
+  {
+    "cves": [
+      "CVE-2024-38816"
+    ],
+    "cve_counts": {
+      "CVE-2024-38816": 1
+    },
+    "date": "2024-09-19",
+    "title": "Vulnerabilities in spring-webmvc-5.3.39 to 5.3.40",
+    "link": "https://stackoverflow.com/questions/79001971/vulnerabilities-in-spring-webmvc-5-3-39-to-5-3-40",
+    "text": "I'm using Spring Web MVC v5.3.39 and I'm affected by vulnerability CVE-2024-38816. According to the advisory message of GitHub, I should update to Spring Web MVC v5.3.40. However, I can't find the artifact for Spring Web MVC v5.3.40. Neither can I find it on mvnrepository.com. Maven (pom.xml) <dependency> <groupId>org.springframework</groupId> <artifactId>spring-webmvc</artifactId> <version>5.3.40</version> <!-- This fails --> </dependency> Gradle (build.gradle) implementation 'org.springframework:spring-webmvc:5.3.40' //This fails How should this issue be resolved?"
+  },
+  {
+    "cves": [
+      "CVE-2024-45490",
+      "CVE-2024-45491",
+      "CVE-2024-45492"
+    ],
+    "cve_counts": {
+      "CVE-2024-45490": 1,
+      "CVE-2024-45491": 1,
+      "CVE-2024-45492": 1
+    },
+    "date": "2024-09-19",
+    "title": "Libexpat Vulnerabilities exists in python:3.11-slim Docker Image",
+    "link": "https://stackoverflow.com/questions/79001148/libexpat-vulnerabilities-exists-in-python3-11-slim-docker-image",
+    "text": "There are three vulnerabilities: CVE-2024-45490, CVE-2024-45491 and CVE-2024-45492). It looks, these vulnerabilities get fixed as part of https://github.com/python/cpython/issues/123678. But when I pull the latest python:3.11-slim image (docker pull python:3.11-slim) it still shows vulnerabilities. Any suggestion would be recommended. I am using the latest SHA version (both from AWS ECR and Docker Hub) and both have the same digest (sha256:669bbd08353610485a94d5d0c976b4b6498c55280fe42c00f7581f85ee9f3121)."
+  },
+  {
+    "cves": [
+      "CVE-2022-24196",
+      "CVE-2022-24197"
+    ],
+    "cve_counts": {
+      "CVE-2022-24196": 1,
+      "CVE-2022-24197": 1
+    },
+    "date": "2024-09-14",
+    "title": "Itextpdf5 Security vulnerabilities",
+    "link": "https://stackoverflow.com/questions/78984095/itextpdf5-security-vulnerabilities",
+    "text": "The following vulnerabilities occur after running a dependency check scan: CVE-2022-24196 and CVE-2022-24197. \n\nI am using the following iText dependencies:\n<dependency>\n    <groupId>com.itextpdf</groupId>\n    <artifactId>itextpdf</artifactId>\n    <version>5.5.13.4</version>\n</dependency>\n<dependency>\n    <groupId>com.itextpdf</groupId>\n    <artifactId>itext-asian</artifactId>\n    <version>5.2.0</version>\n</dependency>\n<dependency>\n    <groupId>com.itextpdf.tool</groupId>\n    <artifactId>xmlworker</artifactId>\n    <version>5.5.13.4</version>\n</dependency>\n\nI upgraded itextpdf to 5.5.13.4 but the vulnerabilities are still reported. Will there be an official fix for iText 5?"
+  },
+  {
+    "cves": [
+      "CVE-2019-12415"
+    ],
+    "cve_counts": {
+      "CVE-2019-12415": 1
+    },
+    "date": "2024-09-11",
+    "title": "Apache POI, export empty excel after upgrading from 3.17 to 4.1.2",
+    "link": "https://stackoverflow.com/questions/78971822/apache-poi-export-empty-excel-after-upgrading-from-3-17-to-4-1-2",
+    "text": "Recently, I updated Apache POI from 3.17 to 4.1.2 to address the XSSFExportToXml XXE vulnerability (CVE-2019-12415). No code changes were required, but every Excel file exported after the upgrade is completely empty. Has anyone encountered—and solved—this issue?"
+  },
+  {
+    "cves": [
+      "CVE-2019-16869"
+    ],
+    "cve_counts": {
+      "CVE-2019-16869": 1
+    },
+    "date": "2024-09-07",
+    "title": "bomber sbom scan generates warnings for older versions of 3rd party libraries",
+    "link": "https://stackoverflow.com/questions/78959492/bomber-sbom-scan-generates-warnings-for-older-versions-of-3rd-party-libraries",
+    "text": "Im analysing the CycloneDX SBOM produced by a multimodule Spring Boot project. Each modules build (CycloneDX Maven plugin v2.8.1, schema 1.5, goal makeAggregateBom, output json) generates a bom.json. When I run Bomber (\"bomber scan --output html target/bom.json\") the resulting HTML lists five HIGH-severity vulnerabilities that reference older Netty releases, even though every bom.json entry shows netty-all 4.1.112.Final. One example is an HTTP request-smuggling issue (incomplete fix for CVE-2019-16869). Similar warnings appear for SnakeYAML versions prior to 1.31. Im looking for guidance on why Bomber flags these and how to resolve the mismatch."
+  },
+  {
+    "cves": [
+      "CVE-2023-52323"
+    ],
+    "cve_counts": {
+      "CVE-2023-52323": 1
+    },
+    "date": "2024-09-06",
+    "title": "How to update pycryptodomex?",
+    "link": "https://stackoverflow.com/questions/78958113/how-to-update-pycryptodomex",
+    "text": "Three Ubuntu 22.04.4 LTS EC2 instances are flagged by AWS Inspector for vulnerability CVE-2023-52323 affecting pycryptodomex. Running 'apt list --upgradeable' shows no updates, and 'pip3 install pycryptodomex' (with or without sudo) reports that version 3.11.0 is already installed. The poster is asking how to update the package and eliminate the security warning."
+  },
+  {
+    "cves": [
+      "CVE-2024-38809"
+    ],
+    "cve_counts": {
+      "CVE-2024-38809": 2
+    },
+    "date": "2024-08-27",
+    "title": "CVE-2024-38809: Spring Framework DoS via conditional HTTP request [closed]",
+    "link": "https://stackoverflow.com/questions/78917297/cve-2024-38809-spring-framework-dos-via-conditional-http-request",
+    "text": "The question references the Spring advisory for CVE-2024-38809 (https://spring.io/security/cve-2024-38809) and notes that mitigation options are either upgrading Spring or adding a filter. Because the application is locked to an older, unsupported Spring version that cannot be upgraded easily, the author wants to implement a filter that rejects oversized \"If-Match\" or \"If-None-Match\" HTTP headers. They ask: (1) what an appropriate size limit for those headers would be, (2) how limiting header size mitigates the issue, and (3) how an attacker can exploit the vulnerability through those headers. They also mention the lack of documentation or examples for older Spring versions."
+  }
+]
