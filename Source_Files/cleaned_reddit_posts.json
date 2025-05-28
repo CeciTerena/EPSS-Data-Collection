@@ -13011,5 +13011,18 @@
     "timestamp": "2025-05-28T06:02:39",
     "clean_text": "Arbitrary write achieved iOS 18 - 18.4 So with the APAC decoder (CVE-2025-31200) bug, it seems the developer working on the POC has managed to achieve an arbitrary write and has made a pull request around 20 minutes ago to add the new changes! Who knows if it’ll prove to be useful for jailbreak or not but nonetheless it’s still cool, thought people would wanna check it out :) <URL>",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-4034"
+    ],
+    "cve_counts": {
+      "CVE-2021-4034": 1
+    },
+    "title": "I need help with the Titanic machine",
+    "permalink": "/r/hackthebox/comments/1kxamwk/i_need_help_with_the_titanic_machine/",
+    "timestamp": "2025-05-28T07:02:41",
+    "clean_text": "I need help with the Titanic machine Hi, I've already managed to get to the user flag, however I can't find the root flag. I've already hashed the users and I'm trying with developer@titanic, but it won't let me access root.txt. I've already tried the CVE-2021-4034 exploit, but it doesn't work. Can someone help me please?",
+    "clean_comments": []
   }
 ]

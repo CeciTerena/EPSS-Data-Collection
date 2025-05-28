@@ -18629,5 +18629,19 @@
     "timestamp": "2025-05-28T06:02:39",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2021-4034"
+    ],
+    "cve_counts": {
+      "CVE-2021-4034": 1
+    },
+    "title": "I need help with the Titanic machine",
+    "text": "Hi, I've already managed to get to the user flag, however I can't find the root flag. I've already hashed the users and I'm trying with developer@titanic, but it won't let me access root.txt. I've already tried the CVE-2021-4034 exploit, but it doesn't work. Can someone help me please?",
+    "permalink": "/r/hackthebox/comments/1kxamwk/i_need_help_with_the_titanic_machine/",
+    "timestamp": "2025-05-28T07:02:41",
+    "article_text": null,
+    "comments": []
   }
 ]
