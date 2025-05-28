@@ -18657,5 +18657,33 @@
     "timestamp": "2025-05-28T08:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-21413"
+    ],
+    "cve_counts": {
+      "CVE-2024-21413": 4
+    },
+    "title": "Moniker Link (CVE-2024-21413) | TryHackMe Walkthrough",
+    "text": "A newly discovered vulnerability in Microsoft Outlook, known as CVE-2024-21413, allows attackers to bypass Outlook's Protected View using specially crafted Moniker Links. This exploit can lead to the leakage of NTLMv2 hashes, posing significant security risks.\n\n**Key Highlights:**\n\n* Bypasses Outlook’s Protected View using `file://` links with a `!` character.\n* Leads to the capture of NTLMv2 hashes via SMB requests.\n* Demonstrated in a detailed TryHackMe walkthrough, showcasing the exploitation process and mitigation strategies.\n\nFor a comprehensive walkthrough and deeper understanding, check out the detailed guide here: [Moniker Link (CVE-2024-21413) TryHackMe Walkthrough](https://motasem-notes.net/moniker-link-cve-2024-21413-tryhackme-walkthrough/)\n\nStay vigilant and ensure your systems are updated to protect against this critical vulnerability. ",
+    "permalink": "/r/u_MotasemHa/comments/1kxd4ai/moniker_link_cve202421413_tryhackme_walkthrough/",
+    "timestamp": "2025-05-28T09:53:21",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4009"
+    ],
+    "cve_counts": {
+      "CVE-2025-4009": 1
+    },
+    "title": "Remote Code Execution on Evertz SDVN (CVE-2025-4009 - Full Disclosure)",
+    "text": "",
+    "permalink": "/r/netsec/comments/1kxcit3/remote_code_execution_on_evertz_sdvn_cve20254009/",
+    "timestamp": "2025-05-28T09:12:46",
+    "article_text": null,
+    "comments": []
   }
 ]
