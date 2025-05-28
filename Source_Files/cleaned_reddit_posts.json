@@ -13208,5 +13208,18 @@
     "timestamp": "2025-05-28T17:00:03",
     "clean_text": "CVE-2025-44083: Administrator Login Authentication Bypass Vulnerability in D-Link DI-8100 16.07.26A1",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32814"
+    ],
+    "cve_counts": {
+      "CVE-2025-32814": 1
+    },
+    "title": "CVE-2025-32814: Unauthenticated SQL Injection Vulnerability in Infoblox NETMRI",
+    "permalink": "/r/ameeba/comments/1kxqw15/cve202532814_unauthenticated_sql_injection/",
+    "timestamp": "2025-05-28T20:00:03",
+    "clean_text": "CVE-2025-32814: Unauthenticated SQL Injection Vulnerability in Infoblox NETMRI",
+    "clean_comments": []
   }
 ]
