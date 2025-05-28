@@ -13063,5 +13063,31 @@
     "timestamp": "2025-05-28T09:12:46",
     "clean_text": "Remote Code Execution on Evertz SDVN (CVE-2025-4009 - Full Disclosure)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-44894"
+    ],
+    "cve_counts": {
+      "CVE-2025-44894": 1
+    },
+    "title": "CVE-2025-44894: Critical Stack Overflow Vulnerability in FW-WGS-804HPT",
+    "permalink": "/r/ameeba/comments/1kxe5lp/cve202544894_critical_stack_overflow/",
+    "timestamp": "2025-05-28T11:00:03",
+    "clean_text": "CVE-2025-44894: Critical Stack Overflow Vulnerability in FW-WGS-804HPT",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27701"
+    ],
+    "cve_counts": {
+      "CVE-2025-27701": 1
+    },
+    "title": "CVE Alert: CVE-2025-27701",
+    "permalink": "/r/RedPacketSecurity/comments/1kxdf6p/cve_alert_cve202527701/",
+    "timestamp": "2025-05-28T10:13:10",
+    "clean_text": "CVE Alert: CVE-2025-27701 In the function processcryptocmd, the values of ptrs[i] can be potentially equal to NULL which is valid value after calling slicemaparray(). Later this values will be derefenced without prior NULL check, which can lead to local Temporary DoS or OOB Read, leading to information disclosure.",
+    "clean_comments": []
   }
 ]

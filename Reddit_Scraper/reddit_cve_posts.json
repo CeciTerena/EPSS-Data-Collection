@@ -18685,5 +18685,33 @@
     "timestamp": "2025-05-28T09:12:46",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-44894"
+    ],
+    "cve_counts": {
+      "CVE-2025-44894": 1
+    },
+    "title": "CVE-2025-44894: Critical Stack Overflow Vulnerability in FW-WGS-804HPT",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kxe5lp/cve202544894_critical_stack_overflow/",
+    "timestamp": "2025-05-28T11:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27701"
+    ],
+    "cve_counts": {
+      "CVE-2025-27701": 1
+    },
+    "title": "CVE Alert: CVE-2025-27701",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kxdf6p/cve_alert_cve202527701/",
+    "timestamp": "2025-05-28T10:13:10",
+    "article_text": "In the function process_crypto_cmd, the values of ptrs[i] can be potentially equal to NULL which is valid value after calling slice_map_array(). Later this values will be derefenced without prior NULL check, which can lead to local Temporary DoS or OOB Read, leading to information disclosure.",
+    "comments": []
   }
 ]
