@@ -13182,5 +13182,31 @@
     "timestamp": "2025-05-28T16:06:09",
     "clean_text": "Alerta en España: Hackers Explotan CVE-2025-32432 en Craft CMS para Cripto y Proxyware Un grupo de ciberdelincuentes ha comenzado a aprovechar la vulnerabilidad CVE-2025-32432 en Craft CMS, un popular sistema de gestión de contenido, para instalar mineros de criptomonedas y software de proxyware, afectando a numerosos sitios web en España y Latinoamérica. Esta vulnerabilidad, clasificada como crítica, permite la ejecución remota de código, lo que facilita a los atacantes realizar diversas actividades maliciosas sin necesidad de credenciales previas. Los atacantes, conocidos como \"Mimo Hackers\", están utilizando esta brecha de seguridad para cargar varios tipos de malware en los servidores comprometidos. Estos incluyen mineros que utilizan los recursos de los sistemas para generar criptomonedas de manera encubierta, el Mimo Loader, que descarga y ejecuta módulos adicionales de forma dinámica, y proxyware que convierte los dispositivos infectados en proxies para actividades ilegales. Ante esta situación, se ha recomendado a los administradores de sitios web que actualicen inmediatamente Craft CMS a la versión más reciente y realicen auditorías de seguridad con herramientas como OpenVAS o Nessus. También se sugiere implementar sistemas de detección de intrusos y monitorear el tráfico de red en busca de actividades sospechosas. La amenaza es significativa para la infraestructura digital en España, donde el uso de CMS personalizados está en aumento. Instituciones como el Instituto Nacional de Ciberseguridad (INCIBE) están alertando a empresas sobre la necesidad de adoptar buenas prácticas de seguridad para cerrar estas brechas y proteger sus sistemas. Si conoces a alguien que utilice Craft CMS, es crucial que compartas esta información y que tomen las medidas necesarias para resguardar sus sitios ante este tipo de amenazas.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32432"
+    ],
+    "cve_counts": {
+      "CVE-2025-32432": 1
+    },
+    "title": "Mimo Hackers Exploit CVE-2025-32432 in Craft CMS to Deploy Cryptominer and Proxyware",
+    "permalink": "/r/InfoSecNews/comments/1kxmf2v/mimo_hackers_exploit_cve202532432_in_craft_cms_to/",
+    "timestamp": "2025-05-28T17:02:58",
+    "clean_text": "Mimo Hackers Exploit CVE-2025-32432 in Craft CMS to Deploy Cryptominer and Proxyware",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-44083"
+    ],
+    "cve_counts": {
+      "CVE-2025-44083": 1
+    },
+    "title": "CVE-2025-44083: Administrator Login Authentication Bypass Vulnerability in D-Link DI-8100 16.07.26A1",
+    "permalink": "/r/ameeba/comments/1kxmc6k/cve202544083_administrator_login_authentication/",
+    "timestamp": "2025-05-28T17:00:03",
+    "clean_text": "CVE-2025-44083: Administrator Login Authentication Bypass Vulnerability in D-Link DI-8100 16.07.26A1",
+    "clean_comments": []
   }
 ]
