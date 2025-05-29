@@ -13475,5 +13475,18 @@
     "timestamp": "2025-05-29T20:00:03",
     "clean_text": "CVE-2025-31069: Critical Deserialization of Untrusted Data Vulnerability in HotStar Business Theme",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-5082"
+    ],
+    "cve_counts": {
+      "CVE-2025-5082": 1
+    },
+    "title": "CVE Alert: CVE-2025-5082",
+    "permalink": "/r/RedPacketSecurity/comments/1kykwi4/cve_alert_cve20255082/",
+    "timestamp": "2025-05-29T20:13:10",
+    "clean_text": "CVE Alert: CVE-2025-5082 The WP Attachments plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘attachment_id’ parameter in all versions up to, and including, 5.0.12 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
+    "clean_comments": []
   }
 ]
