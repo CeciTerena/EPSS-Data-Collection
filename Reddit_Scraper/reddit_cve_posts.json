@@ -19145,5 +19145,19 @@
     "timestamp": "2025-05-29T20:13:10",
     "article_text": "The WP Attachments plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘attachment_id’ parameter in all versions up to, and including, 5.0.12 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31430"
+    ],
+    "cve_counts": {
+      "CVE-2025-31430": 1
+    },
+    "title": "CVE-2025-31430: Critical Deserialization of Untrusted Data Vulnerability in The Business Software",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kyoul8/cve202531430_critical_deserialization_of/",
+    "timestamp": "2025-05-29T23:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
