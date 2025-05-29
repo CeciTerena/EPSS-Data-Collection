@@ -13312,5 +13312,70 @@
     "timestamp": "2025-05-29T08:00:03",
     "clean_text": "CVE-2025-45471: Insecure Permissions Vulnerability in measure-cold-start v1.4.1",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-45472"
+    ],
+    "cve_counts": {
+      "CVE-2025-45472": 1
+    },
+    "title": "CVE-2025-45472: Cloud Account Compromise via Privilege Escalation in Autodeploy-layer v1.2.0",
+    "permalink": "/r/ameeba/comments/1ky7vtk/cve202545472_cloud_account_compromise_via/",
+    "timestamp": "2025-05-29T11:00:03",
+    "clean_text": "CVE-2025-45472: Cloud Account Compromise via Privilege Escalation in Autodeploy-layer v1.2.0",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2017-5705"
+    ],
+    "cve_counts": {
+      "CVE-2017-5705": 1
+    },
+    "title": "Deguard: turning a T480 into a coreboot laptop (10-min talk + live demo)",
+    "permalink": "/r/netsec/comments/1ky7bng/deguard_turning_a_t480_into_a_coreboot_laptop/",
+    "timestamp": "2025-05-29T10:25:23",
+    "clean_text": "Deguard: turning a T480 into a coreboot laptop (10-min talk + live demo) Intel BootGuard has kept most Skylake/Kaby-Lake/Coffee-Lake laptops locked away from coreboot – until now. At the end of 2024, Ubuntu developer Mate Kukri introduced deguard, a small utility that leverages CVE-2017-5705 inside ME 11.x to disable BootGuard fuses in SRAM. The result: previously “un-coreboot-able” machines – e.g. Lenovo T480/T480s and Dell OptiPlex 3050 – can boot unsigned firmware again. It has been presented and discussed at the Dasharo Developers vPub 0xE, you can watch the presentation and look through the slides below. What deguard does * \"Downgrades ME via SPI flash overwrite\" * \"Patches BootGuard fuses on-the-fly\" * \"Lets you sign nothing at all – coreboot just runs\" Why it matters * \"Opens the door for community coreboot ports on 8th-gen Intel laptops\" * \"Gives Libreboot & vendors like NovaCustom a path to newer hardware\" * \"Great teaching example of how not to design a root-of-trust\" 10-min talk + live demo video / slides (free): <URL> Slides direct PDF: <URL> Happy to answer questions, share flashing notes, or compare against other BootGuard work-arounds.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2017-5705"
+    ],
+    "cve_counts": {
+      "CVE-2017-5705": 1
+    },
+    "title": "Deguard: turning a T480 into a coreboot laptop (10-min talk + live demo)",
+    "permalink": "/r/coreboot/comments/1ky78il/deguard_turning_a_t480_into_a_coreboot_laptop/",
+    "timestamp": "2025-05-29T10:19:46",
+    "clean_text": "Deguard: turning a T480 into a coreboot laptop (10-min talk + live demo) Intel BootGuard has kept most Skylake/Kaby-Lake/Coffee-Lake laptops locked away from coreboot – until now. At the end of 2024, Ubuntu developer Mate Kukri introduced deguard, a small utility that leverages CVE-2017-5705 inside ME 11.x to disable BootGuard fuses in SRAM. The result: previously “un-coreboot-able” machines – e.g. Lenovo T480/T480s and Dell OptiPlex 3050 – can boot unsigned firmware again. It has been presented and discussed at the Dasharo Developers vPub 0xE, you can watch the presentation and look through the slides below. What deguard does * \"Downgrades ME via SPI flash overwrite\" * \"Patches BootGuard fuses on-the-fly\" * \"Lets you sign nothing at all – coreboot just runs\" Why it matters * \"Opens the door for community coreboot ports on 8th-gen Intel laptops\" * \"Gives Libreboot & vendors like NovaCustom a path to newer hardware\" * \"Great teaching example of how not to design a root-of-trust\" 10-min talk + live demo video / slides (free): <URL> Slides direct PDF: <URL> Happy to answer questions, share flashing notes, or compare against other BootGuard work-arounds.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2017-5705"
+    ],
+    "cve_counts": {
+      "CVE-2017-5705": 1
+    },
+    "title": "Deguard: turning a T480 into a coreboot laptop (10-min talk + live demo)",
+    "permalink": "/r/linuxhardware/comments/1ky77un/deguard_turning_a_t480_into_a_coreboot_laptop/",
+    "timestamp": "2025-05-29T10:18:33",
+    "clean_text": "Deguard: turning a T480 into a coreboot laptop (10-min talk + live demo) Intel BootGuard has kept most Skylake/Kaby-Lake/Coffee-Lake laptops locked away from coreboot – until now. At the end of 2024, Ubuntu developer Mate Kukri introduced deguard, a small utility that leverages CVE-2017-5705 inside ME 11.x to disable BootGuard fuses in SRAM. The result: previously “un-coreboot-able” machines – e.g. Lenovo T480/T480s and Dell OptiPlex 3050 – can boot unsigned firmware again. It has been presented and discussed at the Dasharo Developers vPub 0xE, you can watch the presentation and look through the slides below. What deguard does * \"Downgrades ME via SPI flash overwrite\" * \"Patches BootGuard fuses on-the-fly\" * \"Lets you sign nothing at all – coreboot just runs\" Why it matters * \"Opens the door for community coreboot ports on 8th-gen Intel laptops\" * \"Gives Libreboot & vendors like NovaCustom a path to newer hardware\" * \"Great teaching example of how not to design a root-of-trust\" 10-min talk + live demo video / slides (free): <URL> Slides direct PDF: <URL> Happy to answer questions, share flashing notes, or compare against other BootGuard work-arounds.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-36572"
+    ],
+    "cve_counts": {
+      "CVE-2025-36572": 1
+    },
+    "title": "CVE Alert: CVE-2025-36572",
+    "permalink": "/r/RedPacketSecurity/comments/1ky74q3/cve_alert_cve202536572/",
+    "timestamp": "2025-05-29T10:13:11",
+    "clean_text": "CVE Alert: CVE-2025-36572 Dell PowerStore, version(s) 4.0.0.0, contain(s) an Use of Hard-coded Credentials vulnerability in the PowerStore image file. A low privileged attacker with remote access, with the knowledge of the hard-coded credentials, could potentially exploit this vulnerability to gain unauthorized access based on the hardcoded account’s privileges.",
+    "clean_comments": []
   }
 ]

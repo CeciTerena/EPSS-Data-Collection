@@ -18957,5 +18957,75 @@
     "timestamp": "2025-05-29T08:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-45472"
+    ],
+    "cve_counts": {
+      "CVE-2025-45472": 1
+    },
+    "title": "CVE-2025-45472: Cloud Account Compromise via Privilege Escalation in Autodeploy-layer v1.2.0",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1ky7vtk/cve202545472_cloud_account_compromise_via/",
+    "timestamp": "2025-05-29T11:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2017-5705"
+    ],
+    "cve_counts": {
+      "CVE-2017-5705": 1
+    },
+    "title": "Deguard: turning a T480 into a coreboot laptop (10-min talk + live demo)",
+    "text": "Intel BootGuard has kept most Skylake/Kaby-Lake/Coffee-Lake laptops locked away from coreboot – until now.\n\nAt the end of 2024, Ubuntu developer Mate Kukri introduced **deguard**, a small utility that leverages **CVE-2017-5705** inside ME 11.x to *disable* BootGuard fuses in SRAM. The result: previously “un-coreboot-able” machines – e.g. **Lenovo T480/T480s** and **Dell OptiPlex 3050** – can boot unsigned firmware again. It has been presented and discussed at the **Dasharo Developers vPub 0xE**, you can watch the presentation and look through the slides below.\n\n🔹 What deguard does\n\n* \"Downgrades ME via SPI flash overwrite\"\n* \"Patches BootGuard fuses on-the-fly\"\n* \"Lets you sign nothing at all – coreboot just runs\"\n\n🔹 Why it matters\n\n* \"Opens the door for community coreboot ports on 8th-gen Intel laptops\"\n* \"Gives Libreboot & vendors like NovaCustom a path to newer hardware\"\n* \"Great teaching example of how not to design a root-of-trust\"\n\n▶ **10-min talk + live demo video / slides** (free):  \n[https://cfp.3mdeb.com/developers-vpub-0xe-2025/talk/WVJFQD/](https://cfp.3mdeb.com/developers-vpub-0xe-2025/talk/WVJFQD/)\n\nSlides direct PDF: [https://dl.3mdeb.com/dasharo/dug/9/7.introduction-to-deguard.pdf](https://dl.3mdeb.com/dasharo/dug/9/7.introduction-to-deguard.pdf)\n\nHappy to answer questions, share flashing notes, or compare against other BootGuard work-arounds.",
+    "permalink": "/r/netsec/comments/1ky7bng/deguard_turning_a_t480_into_a_coreboot_laptop/",
+    "timestamp": "2025-05-29T10:25:23",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2017-5705"
+    ],
+    "cve_counts": {
+      "CVE-2017-5705": 1
+    },
+    "title": "Deguard: turning a T480 into a coreboot laptop (10-min talk + live demo)",
+    "text": "Intel BootGuard has kept most Skylake/Kaby-Lake/Coffee-Lake laptops locked away from coreboot – until now.\n\nAt the end of 2024, Ubuntu developer Mate Kukri introduced **deguard**, a small utility that leverages **CVE-2017-5705** inside ME 11.x to *disable* BootGuard fuses in SRAM. The result: previously “un-coreboot-able” machines – e.g. **Lenovo T480/T480s** and **Dell OptiPlex 3050** – can boot unsigned firmware again. It has been presented and discussed at the **Dasharo Developers vPub 0xE**, you can watch the presentation and look through the slides below.\n\n🔹 What deguard does\n\n* \"Downgrades ME via SPI flash overwrite\"\n* \"Patches BootGuard fuses on-the-fly\"\n* \"Lets you sign nothing at all – coreboot just runs\"\n\n🔹 Why it matters\n\n* \"Opens the door for community coreboot ports on 8th-gen Intel laptops\"\n* \"Gives Libreboot & vendors like NovaCustom a path to newer hardware\"\n* \"Great teaching example of how not to design a root-of-trust\"\n\n▶ **10-min talk + live demo video / slides** (free):  \n[https://cfp.3mdeb.com/developers-vpub-0xe-2025/talk/WVJFQD/](https://cfp.3mdeb.com/developers-vpub-0xe-2025/talk/WVJFQD/)\n\nSlides direct PDF: [https://dl.3mdeb.com/dasharo/dug/9/7.introduction-to-deguard.pdf](https://dl.3mdeb.com/dasharo/dug/9/7.introduction-to-deguard.pdf)\n\nHappy to answer questions, share flashing notes, or compare against other BootGuard work-arounds.",
+    "permalink": "/r/coreboot/comments/1ky78il/deguard_turning_a_t480_into_a_coreboot_laptop/",
+    "timestamp": "2025-05-29T10:19:46",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2017-5705"
+    ],
+    "cve_counts": {
+      "CVE-2017-5705": 1
+    },
+    "title": "Deguard: turning a T480 into a coreboot laptop (10-min talk + live demo)",
+    "text": "Intel BootGuard has kept most Skylake/Kaby-Lake/Coffee-Lake laptops locked away from coreboot – until now.\n\nAt the end of 2024, Ubuntu developer Mate Kukri introduced **deguard**, a small utility that leverages **CVE-2017-5705** inside ME 11.x to *disable* BootGuard fuses in SRAM. The result: previously “un-coreboot-able” machines – e.g. **Lenovo T480/T480s** and **Dell OptiPlex 3050** – can boot unsigned firmware again. It has been presented and discussed at the **Dasharo Developers vPub 0xE**, you can watch the presentation and look through the slides below.\n\n🔹 What deguard does\n\n* \"Downgrades ME via SPI flash overwrite\"\n* \"Patches BootGuard fuses on-the-fly\"\n* \"Lets you sign nothing at all – coreboot just runs\"\n\n🔹 Why it matters\n\n* \"Opens the door for community coreboot ports on 8th-gen Intel laptops\"\n* \"Gives Libreboot & vendors like NovaCustom a path to newer hardware\"\n* \"Great teaching example of how not to design a root-of-trust\"\n\n▶ **10-min talk + live demo video / slides** (free):   \n[https://cfp.3mdeb.com/developers-vpub-0xe-2025/talk/WVJFQD/](https://cfp.3mdeb.com/developers-vpub-0xe-2025/talk/WVJFQD/)\n\nSlides direct PDF: [https://dl.3mdeb.com/dasharo/dug/9/7.introduction-to-deguard.pdf](https://dl.3mdeb.com/dasharo/dug/9/7.introduction-to-deguard.pdf)\n\nHappy to answer questions, share flashing notes, or compare against other BootGuard work-arounds.",
+    "permalink": "/r/linuxhardware/comments/1ky77un/deguard_turning_a_t480_into_a_coreboot_laptop/",
+    "timestamp": "2025-05-29T10:18:33",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-36572"
+    ],
+    "cve_counts": {
+      "CVE-2025-36572": 1
+    },
+    "title": "CVE Alert: CVE-2025-36572",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1ky74q3/cve_alert_cve202536572/",
+    "timestamp": "2025-05-29T10:13:11",
+    "article_text": "Dell PowerStore, version(s) 4.0.0.0, contain(s) an Use of Hard-coded Credentials vulnerability in the PowerStore image file. A low privileged attacker with remote access, with the knowledge of the hard-coded credentials, could potentially exploit this vulnerability to gain unauthorized access based on the hardcoded account’s privileges.",
+    "comments": []
   }
 ]
