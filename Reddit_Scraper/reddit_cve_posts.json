@@ -18887,5 +18887,19 @@
     "timestamp": "2025-05-28T23:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-5232"
+    ],
+    "cve_counts": {
+      "CVE-2025-5232": 1
+    },
+    "title": "CVE Alert: CVE-2025-5232",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kxwvkh/cve_alert_cve20255232/",
+    "timestamp": "2025-05-29T00:13:10",
+    "article_text": "A vulnerability, which was classified as critical, has been found in PHPGurukul Student Study Center Management System 1.0. This issue affects some unknown processing of the file /admin/report.php. The manipulation of the argument fromdate/todate leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+    "comments": []
   }
 ]
