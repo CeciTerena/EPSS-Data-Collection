@@ -18929,5 +18929,19 @@
     "timestamp": "2025-05-29T05:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-37899"
+    ],
+    "cve_counts": {
+      "CVE-2025-37899": 3
+    },
+    "title": "How to use o3 to Find CVE-2025-37899",
+    "text": "Researcher used OpenAI’s o3 model to discover CVE-2025-37899, a use-after-free bug in Linux.\n\nhttps://sean.heelan.io/2025/05/22/how-i-used-o3-to-find-cve-2025-37899-a-remote-zeroday-vulnerability-in-the-linux-kernels-smb-implementation/\n\n\\#Linux #SMB",
+    "permalink": "/r/Kriware/comments/1ky2vs7/how_to_use_o3_to_find_cve202537899/",
+    "timestamp": "2025-05-29T05:30:09",
+    "article_text": null,
+    "comments": []
   }
 ]

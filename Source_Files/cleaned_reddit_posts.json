@@ -13286,5 +13286,18 @@
     "timestamp": "2025-05-29T05:00:03",
     "clean_text": "CVE-2025-39366: Incorrect Privilege Assignment Vulnerability in Rocket Apps wProject",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-37899"
+    ],
+    "cve_counts": {
+      "CVE-2025-37899": 3
+    },
+    "title": "How to use o3 to Find CVE-2025-37899",
+    "permalink": "/r/Kriware/comments/1ky2vs7/how_to_use_o3_to_find_cve202537899/",
+    "timestamp": "2025-05-29T05:30:09",
+    "clean_text": "How to use o3 to Find CVE-2025-37899 Researcher used OpenAI’s o3 model to discover CVE-2025-37899, a use-after-free bug in Linux. <URL> \\#Linux #SMB",
+    "clean_comments": []
   }
 ]
