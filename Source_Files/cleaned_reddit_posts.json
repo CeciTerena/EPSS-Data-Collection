@@ -13377,5 +13377,31 @@
     "timestamp": "2025-05-29T10:13:11",
     "clean_text": "CVE Alert: CVE-2025-36572 Dell PowerStore, version(s) 4.0.0.0, contain(s) an Use of Hard-coded Credentials vulnerability in the PowerStore image file. A low privileged attacker with remote access, with the knowledge of the hard-coded credentials, could potentially exploit this vulnerability to gain unauthorized access based on the hardcoded account’s privileges.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-41196"
+    ],
+    "cve_counts": {
+      "CVE-2024-41196": 1
+    },
+    "title": "CVE-2024-41196: Critical Authentication Bypass Vulnerability in Ocuco Innovation’s REPORTSERVER.EXE",
+    "permalink": "/r/ameeba/comments/1kybiuc/cve202441196_critical_authentication_bypass/",
+    "timestamp": "2025-05-29T14:00:03",
+    "clean_text": "CVE-2024-41196: Critical Authentication Bypass Vulnerability in Ocuco Innovation’s REPORTSERVER.EXE",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2019-1367"
+    ],
+    "cve_counts": {
+      "CVE-2019-1367": 4
+    },
+    "title": "Microsoft Update causing Print Spooler Problems - CVE-2019-1367",
+    "permalink": "/r/officialtgh/comments/1kyav8w/microsoft_update_causing_print_spooler_problems/",
+    "timestamp": "2025-05-29T13:31:21",
+    "clean_text": "Microsoft Update causing Print Spooler Problems - CVE-2019-1367 Microsoft released an emergency update last week under CVE-2019-1367 which claimed to fix an Internet Explorer exploit. If you are now reading this post, I’m assuming that you have already noticed that having installed these set of updates, you now have print spooler problems?! CVE-2019-1367 v1.0 As most businesses probably have, we urgently rushed out […]\\ \\ Read More. <URL>",
+    "clean_comments": []
   }
 ]
