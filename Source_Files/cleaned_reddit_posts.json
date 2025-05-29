@@ -13403,5 +13403,51 @@
     "timestamp": "2025-05-29T13:31:21",
     "clean_text": "Microsoft Update causing Print Spooler Problems - CVE-2019-1367 Microsoft released an emergency update last week under CVE-2019-1367 which claimed to fix an Internet Explorer exploit. If you are now reading this post, I’m assuming that you have already noticed that having installed these set of updates, you now have print spooler problems?! CVE-2019-1367 v1.0 As most businesses probably have, we urgently rushed out […]\\ \\ Read More. <URL>",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-29957"
+    ],
+    "cve_counts": {
+      "CVE-2025-29957": 2
+    },
+    "title": "Micropatches Released for Preauth DoS on Windows Deployment Service (CVE-2025-29957)",
+    "permalink": "/r/micropatching/comments/1kycnc4/micropatches_released_for_preauth_dos_on_windows/",
+    "timestamp": "2025-05-29T14:46:11",
+    "clean_text": "Micropatches Released for Preauth DoS on Windows Deployment Service (CVE-2025-29957) Micropatches Released for Preauth DoS on Windows Deployment Service (CVE-2025-29957) <URL>",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-4990",
+      "CVE-2025-48827",
+      "CVE-2025-2761",
+      "CVE-2025-32756",
+      "CVE-2025-5124",
+      "CVE-2025-37899",
+      "CVE-2023-36845",
+      "CVE-2025-5138",
+      "CVE-2024-58136",
+      "CVE-2025-4919",
+      "CVE-2025-2760"
+    ],
+    "cve_counts": {
+      "CVE-2023-36845": 2,
+      "CVE-2025-48827": 2,
+      "CVE-2025-5124": 2,
+      "CVE-2024-58136": 2,
+      "CVE-2024-4990": 1,
+      "CVE-2025-4919": 2,
+      "CVE-2025-32756": 2,
+      "CVE-2025-37899": 2,
+      "CVE-2025-5138": 2,
+      "CVE-2025-2760": 2,
+      "CVE-2025-2761": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (29/05/2025)",
+    "permalink": "/r/CVEWatch/comments/1kycf61/top_10_trending_cves_29052025/",
+    "timestamp": "2025-05-29T14:36:58",
+    "clean_text": "🔥 Top 10 Trending CVEs (29/05/2025) Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today: 1. CVE-2023-36845 - A PHP External Variable Modification vulnerability in J-Web of Juniper Networks Junos OS on EX Series and SRX Series allows an unauthenticated, network-based attacker to remotely execute code. Using a crafted request which sets the variable PHPRC an attacker is able to modify the PHP execution environment allowing the injection und execution of code. This issue affects Juniper Networks Junos OS on EX Series and SRX Series: All versions prior to 20.4R3-S9; 21.1 versions 21.1R1 and later; 21.2 versions prior to21.2R3-S7; 21.3 versions prior to21.3R3-S5; 21.4 versions prior to 21.4R3-S5; 22.1 versions prior to 22.1R3-S4; 22.2 versions prior to 22.2R3-S2; 22.3 versions prior to 22.3R2-S2, 22.3R3-S1; 22.4 versions prior to 22.4R2-S1, 22.4R3; 23.2 versions prior to 23.2R1-S1, 23.2R2. - Published: 17/08/2023 - CVSS: 9.8 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H - Mentions: 7 - Priority: 2 - 2. CVE-2025-48827 - vBulletin 5.0.0 through 5.7.5 and 6.0.0 through 6.0.3 allows unauthenticated users to invoke protected API controllers methods when running on PHP 8.1 or later, as demonstrated by the /api.php?method=protectedMethod pattern, as exploited in the wild in May 2025. - Published: 27/05/2025 - CVSS: 10 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H - Mentions: 7 - Priority: 2 - 3. CVE-2025-5124 - A vulnerability classified as critical has been found in Sony SNC-M1, SNC-M3, SNC-RZ25N, SNC-RZ30N, SNC-DS10, SNC-CS3N and SNC-RX570N up to 1.30. This affects an unknown part of the component Administrative Interface. The manipulation leads to use of default credentials. It is possible to initiate the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. The real existence of this vulnerability is still doubted at the moment. It is recommended to change the configuration settings. The vendor was contacted early about this issue. They confirmed the existence but pointed out that they have published the Hardening Guide on the Web from July 2018 to January 2025 and have thoroughly informed customers of the recommendation to change their initial passwords. - Published: 24/05/2025 - CVSS: 9.2 - Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N - Mentions: 7 - Priority: 4 - 4. CVE-2024-58136 - Yii 2 before 2.0.52 mishandles the attaching of behavior that is defined by an class array key, a CVE-2024-4990 regression, as exploited in the wild in February through April 2025. - Published: 10/04/2025 - CVSS: 9 - Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H - Mentions: 25 - Priority: 9 - 5. CVE-2025-4919 - An attacker was able to perform an out-of-bounds read or write on a JavaScript object by confusing array index sizes. This vulnerability affects Firefox < 138.0.4, Firefox ESR < 128.10.1, Firefox ESR < 115.23.1, Thunderbird < 128.10.2, and Thunderbird < 138.0.2. - Published: 17/05/2025 - CVSS: 8.8 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H - Mentions: 20 - Priority: 8.8 - 6. CVE-2025-32756 - A stack-based buffer overflow vulnerability [CWE-121] in Fortinet FortiVoice versions 7.2.0, 7.0.0 through 7.0.6, 6.4.0 through 6.4.10, FortiRecorder versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.5, 6.4.0 through 6.4.5, FortiMail versions 7.6.0 through 7.6.2, 7.4.0 through 7.4.4, 7.2.0 through 7.2.7, 7.0.0 through 7.0.8, FortiNDR versions 7.6.0, 7.4.0 through 7.4.7, 7.2.0 through 7.2.4, 7.0.0 through 7.0.6, FortiCamera versions 2.1.0 through 2.1.3, 2.0 all versions, 1.1 all versions, allows a remote unauthenticated attacker to execute arbitrary code or commands via sending HTTP requests with specially crafted hash cookie. - Published: 13/05/2025 - CVSS: 9.6 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:C - Mentions: 81 - Priority: 9.6 - 7. CVE-2025-37899 - In the Linux kernel, the following vulnerability has been resolved: ksmbd: fix use-after-free in session logoff The sess->user object can currently be in use by another thread, for example if another connection has sent a session setup request to bind to the session being freed. The handler for that connection could be in the smb2sesssetup function which makes use of sess->user. - Published: 20/05/2025 - CVSS: 0 - Vector: n/a - Mentions: 127 - 8. CVE-2025-5138 - A vulnerability was found in Bitwarden up to 2.25.1. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the component PDF File Handler. The manipulation leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way. - Published: 25/05/2025 - CVSS: 5.1 - Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N - Mentions: 2 - Priority: 5.1 - 9. CVE-2025-2760 - GIMP XWD File Parsing Integer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XWD files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-25082. - Published: 23/04/2025 - CVSS: 7.8 - Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H - Mentions: 1 - Priority: 7.8 - 10. CVE-2025-2761 - GIMP FLI File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of FLI files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-25100. - Published: 23/04/2025 - CVSS: 7.8 - Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H - Mentions: 2 - Priority: 7.8 - Let us know if you're tracking any of these or if you find any issues with the provided details.",
+    "clean_comments": []
   }
 ]
