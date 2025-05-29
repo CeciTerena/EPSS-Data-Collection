@@ -19117,5 +19117,19 @@
     "timestamp": "2025-05-29T17:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31069"
+    ],
+    "cve_counts": {
+      "CVE-2025-31069": 1
+    },
+    "title": "CVE-2025-31069: Critical Deserialization of Untrusted Data Vulnerability in HotStar Business Theme",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kykko3/cve202531069_critical_deserialization_of/",
+    "timestamp": "2025-05-29T20:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]

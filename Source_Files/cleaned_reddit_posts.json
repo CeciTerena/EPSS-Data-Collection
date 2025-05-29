@@ -13462,5 +13462,18 @@
     "timestamp": "2025-05-29T17:00:03",
     "clean_text": "CVE-2024-6914: Critical Authorization Vulnerability in WSO2 Products",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31069"
+    ],
+    "cve_counts": {
+      "CVE-2025-31069": 1
+    },
+    "title": "CVE-2025-31069: Critical Deserialization of Untrusted Data Vulnerability in HotStar Business Theme",
+    "permalink": "/r/ameeba/comments/1kykko3/cve202531069_critical_deserialization_of/",
+    "timestamp": "2025-05-29T20:00:03",
+    "clean_text": "CVE-2025-31069: Critical Deserialization of Untrusted Data Vulnerability in HotStar Business Theme",
+    "clean_comments": []
   }
 ]
