@@ -18943,5 +18943,19 @@
     "timestamp": "2025-05-29T05:30:09",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-45471"
+    ],
+    "cve_counts": {
+      "CVE-2025-45471": 1
+    },
+    "title": "CVE-2025-45471: Insecure Permissions Vulnerability in measure-cold-start v1.4.1",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1ky54z0/cve202545471_insecure_permissions_vulnerability/",
+    "timestamp": "2025-05-29T08:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]
