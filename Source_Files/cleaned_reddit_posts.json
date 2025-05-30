@@ -13679,5 +13679,18 @@
     "timestamp": "2025-05-30T15:15:29",
     "clean_text": "🚨 CVE-2024-22257: Spring Security Authorization Bypass - Patch Now TL;DR: Spring Security has an auth bypass vulnerability affecting multiple versions. If you're using AuthenticatedVoter directly with null parameters, you might be letting attackers waltz right past your access controls. What's Affected: * Spring Security versions 5.7.0-5.7.11, 5.8.0-5.8.10, 6.0.0-6.0.9, 6.1.0-6.1.7, 6.2.0-6.2.2 * Specifically the spring-security-core package The Problem: When AuthenticatedVoter#vote gets called with a null authentication parameter, it incorrectly returns true instead of denying access. Classic \"fail open\" security antipattern. Am I Vulnerable? Only if you're directly calling AuthenticatedVoter#vote and passing null values. Most apps using Spring Security's standard config are probably fine, but definitely worth checking.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-51101"
+    ],
+    "cve_counts": {
+      "CVE-2024-51101": 1
+    },
+    "title": "CVE-2024-51101: Critical SQL Injection Vulnerability in PHPGURUKUL Restaurant Table Booking System",
+    "permalink": "/r/ameeba/comments/1kz9fq8/cve202451101_critical_sql_injection_vulnerability/",
+    "timestamp": "2025-05-30T17:00:03",
+    "clean_text": "CVE-2024-51101: Critical SQL Injection Vulnerability in PHPGURUKUL Restaurant Table Booking System",
+    "clean_comments": []
   }
 ]
