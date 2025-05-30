@@ -19235,5 +19235,39 @@
         "level": 0
       }
     ]
+  },
+  {
+    "cves": [
+      "CVE-2025-5138",
+      "CVE-2025-4919",
+      "CVE-2025-2761",
+      "CVE-2025-47577",
+      "CVE-2025-32756",
+      "CVE-2025-40775",
+      "CVE-2024-4990",
+      "CVE-2025-20188",
+      "CVE-2025-0655",
+      "CVE-2025-2760",
+      "CVE-2024-58136"
+    ],
+    "cve_counts": {
+      "CVE-2025-47577": 2,
+      "CVE-2025-0655": 2,
+      "CVE-2024-58136": 2,
+      "CVE-2024-4990": 1,
+      "CVE-2025-4919": 2,
+      "CVE-2025-20188": 2,
+      "CVE-2025-32756": 2,
+      "CVE-2025-40775": 2,
+      "CVE-2025-5138": 2,
+      "CVE-2025-2760": 2,
+      "CVE-2025-2761": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (30/05/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-47577](https://nvd.nist.gov/vuln/detail/CVE-2025-47577)**\n\n- 📝 Unrestricted Upload of File with Dangerous Type vulnerability in TemplateInvaders TI WooCommerce Wishlist allows Upload a Web Shell to a Web Server.This issue affects TI WooCommerce Wishlist: from n/a through 2.9.2.\n\n- 📅 **Published:** 19/05/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 6\n- ⚠️ **Priority:** 2\n\n---\n\n**2. [CVE-2025-0655](https://nvd.nist.gov/vuln/detail/CVE-2025-0655)**\n\n- 📝 No description available.\n\n- 📅 **Published:** 20/03/2025\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- 📣 **Mentions:** 6\n- ⚠️ **Priority:** 4\n\n---\n\n**3. [CVE-2024-58136](https://nvd.nist.gov/vuln/detail/CVE-2024-58136)**\n\n- 📝 Yii 2 before 2.0.52 mishandles the attaching of behavior that is defined by an __class array key, a CVE-2024-4990 regression, as exploited in the wild in February through April 2025.\n\n- 📅 **Published:** 10/04/2025\n- 📈 **CVSS:** 9\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 25\n- ⚠️ **Priority:** 9\n\n---\n\n**4. [CVE-2025-4919](https://nvd.nist.gov/vuln/detail/CVE-2025-4919)**\n\n- 📝 An attacker was able to perform an out-of-bounds read or write on a JavaScript object by confusing array index sizes. This vulnerability affects Firefox < 138.0.4, Firefox ESR < 128.10.1, Firefox ESR < 115.23.1, Thunderbird < 128.10.2, and Thunderbird < 138.0.2.\n\n- 📅 **Published:** 17/05/2025\n- 📈 **CVSS:** 8.8\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 20\n- ⚠️ **Priority:** 8.8\n\n---\n\n**5. [CVE-2025-20188](https://nvd.nist.gov/vuln/detail/CVE-2025-20188)**\n\n- 📝 A vulnerability in the Out-of-Band Access Point (AP) Image Download feature of Cisco IOS XE Software for Wireless LAN Controllers (WLCs) could allow an unauthenticated, remote attacker to upload arbitrary files to an affected system.  This vulnerability is due to the presence of a hard-coded JSON Web Token (JWT) on an affected system. An attacker could exploit this vulnerability by sending crafted HTTPS requests to the AP image download interface. A successful exploit could allow the attacker to upload files, perform path traversal, and execute arbitrary commands with root privileges.   Note: For exploitation to be successful, the Out-of-Band AP Image Download feature must be enabled on the device. It is not enabled by default.\n\n- 📅 **Published:** 07/05/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 60\n- ⚠️ **Priority:** 10\n\n---\n\n**6. [CVE-2025-32756](https://nvd.nist.gov/vuln/detail/CVE-2025-32756)**\n\n- 📝 A stack-based buffer overflow vulnerability [CWE-121] in Fortinet FortiVoice versions 7.2.0, 7.0.0 through 7.0.6, 6.4.0 through 6.4.10, FortiRecorder versions 7.2.0 through 7.2.3, 7.0.0 through 7.0.5, 6.4.0 through 6.4.5, FortiMail versions 7.6.0 through 7.6.2, 7.4.0 through 7.4.4, 7.2.0 through 7.2.7, 7.0.0 through 7.0.8, FortiNDR versions 7.6.0, 7.4.0 through 7.4.7, 7.2.0 through 7.2.4, 7.0.0 through 7.0.6, FortiCamera versions 2.1.0 through 2.1.3, 2.0 all versions, 1.1 all versions, allows a remote unauthenticated attacker to execute arbitrary code or commands via sending HTTP requests with specially crafted hash cookie.\n\n- 📅 **Published:** 13/05/2025\n- 📈 **CVSS:** 9.6\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:C\n- 📣 **Mentions:** 83\n- ⚠️ **Priority:** 9.6\n\n---\n\n**7. [CVE-2025-40775](https://nvd.nist.gov/vuln/detail/CVE-2025-40775)**\n\n- 📝 When an incoming DNS protocol message includes a Transaction Signature (TSIG), BIND always checks it.  If the TSIG contains an invalid value in the algorithm field, BIND immediately aborts with an assertion failure. This issue affects BIND 9 versions 9.20.0 through 9.20.8 and 9.21.0 through 9.21.7.\n\n- 📅 **Published:** 21/05/2025\n- 📈 **CVSS:** 7.5\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H\n- 📣 **Mentions:** 14\n- ⚠️ **Priority:** 7.5\n\n---\n\n**8. [CVE-2025-5138](https://nvd.nist.gov/vuln/detail/CVE-2025-5138)**\n\n- 📝 A vulnerability was found in Bitwarden up to 2.25.1. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the component PDF File Handler. The manipulation leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.\n\n- 📅 **Published:** 25/05/2025\n- 📈 **CVSS:** 5.1\n- 🧭 **Vector:** CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N\n- 📣 **Mentions:** 2\n- ⚠️ **Priority:** 5.1\n\n---\n\n**9. [CVE-2025-2760](https://nvd.nist.gov/vuln/detail/CVE-2025-2760)**\n\n- 📝 GIMP XWD File Parsing Integer Overflow Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of XWD files. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-25082.\n\n- 📅 **Published:** 23/04/2025\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 1\n- ⚠️ **Priority:** 7.8\n\n---\n\n**10. [CVE-2025-2761](https://nvd.nist.gov/vuln/detail/CVE-2025-2761)**\n\n- 📝 GIMP FLI File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability. This vulnerability allows remote attackers to execute arbitrary code on affected installations of GIMP. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The specific flaw exists within the parsing of FLI files. The issue results from the lack of proper validation of user-supplied data, which can result in a write past the end of an allocated buffer. An attacker can leverage this vulnerability to execute code in the context of the current process. Was ZDI-CAN-25100.\n\n- 📅 **Published:** 23/04/2025\n- 📈 **CVSS:** 7.8\n- 🧭 **Vector:** CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H\n- 📣 **Mentions:** 2\n- ⚠️ **Priority:** 7.8\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details.",
+    "permalink": "/r/CVEWatch/comments/1kz0f80/top_10_trending_cves_30052025/",
+    "timestamp": "2025-05-30T10:03:46",
+    "article_text": null,
+    "comments": []
   }
 ]
