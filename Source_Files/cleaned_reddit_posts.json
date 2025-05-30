@@ -13666,5 +13666,18 @@
     "timestamp": "2025-05-30T14:47:18",
     "clean_text": "Blackmagic Design DaVinci Resolve TCC Bypass via Dylib Substitution Vulnerability (CVE-2025-4081)",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-22257"
+    ],
+    "cve_counts": {
+      "CVE-2024-22257": 1
+    },
+    "title": "🚨 CVE-2024-22257: Spring Security Authorization Bypass - Patch Now",
+    "permalink": "/r/OSS_EOL/comments/1kz6sxe/cve202422257_spring_security_authorization_bypass/",
+    "timestamp": "2025-05-30T15:15:29",
+    "clean_text": "🚨 CVE-2024-22257: Spring Security Authorization Bypass - Patch Now TL;DR: Spring Security has an auth bypass vulnerability affecting multiple versions. If you're using AuthenticatedVoter directly with null parameters, you might be letting attackers waltz right past your access controls. What's Affected: * Spring Security versions 5.7.0-5.7.11, 5.8.0-5.8.10, 6.0.0-6.0.9, 6.1.0-6.1.7, 6.2.0-6.2.2 * Specifically the spring-security-core package The Problem: When AuthenticatedVoter#vote gets called with a null authentication parameter, it incorrectly returns true instead of denying access. Classic \"fail open\" security antipattern. Am I Vulnerable? Only if you're directly calling AuthenticatedVoter#vote and passing null values. Most apps using Spring Security's standard config are probably fine, but definitely worth checking.",
+    "clean_comments": []
   }
 ]
