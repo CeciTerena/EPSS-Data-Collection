@@ -13627,5 +13627,18 @@
     "timestamp": "2025-05-30T10:13:11",
     "clean_text": "CVE Alert: CVE-2023-41591 An issue in Open Network Foundation ONOS v2.7.0 allows attackers to create fake IP/MAC addresses and potentially execute a man-in-the-middle attack on communications between fake and real hosts.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-1051"
+    ],
+    "cve_counts": {
+      "CVE-2025-1051": 1
+    },
+    "title": "Sonos Era 300 Heap-based Buffer Overflow Remote Code Execution Vulnerability (CVE-2025-1051)",
+    "permalink": "/r/systemtek/comments/1kz3cg7/sonos_era_300_heapbased_buffer_overflow_remote/",
+    "timestamp": "2025-05-30T12:47:33",
+    "clean_text": "Sonos Era 300 Heap-based Buffer Overflow Remote Code Execution Vulnerability (CVE-2025-1051)",
+    "clean_comments": []
   }
 ]
