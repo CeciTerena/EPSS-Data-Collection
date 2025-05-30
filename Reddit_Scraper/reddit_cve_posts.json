@@ -19269,5 +19269,33 @@
     "timestamp": "2025-05-30T10:03:46",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-46468"
+    ],
+    "cve_counts": {
+      "CVE-2025-46468": 1
+    },
+    "title": "CVE-2025-46468: High Severity PHP Local File Inclusion Vulnerability in WPFable Fable Extra",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kz1by5/cve202546468_high_severity_php_local_file/",
+    "timestamp": "2025-05-30T11:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2023-41591"
+    ],
+    "cve_counts": {
+      "CVE-2023-41591": 1
+    },
+    "title": "CVE Alert: CVE-2023-41591",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kz0kk6/cve_alert_cve202341591/",
+    "timestamp": "2025-05-30T10:13:11",
+    "article_text": "An issue in Open Network Foundation ONOS v2.7.0 allows attackers to create fake IP/MAC addresses and potentially execute a man-in-the-middle attack on communications between fake and real hosts.",
+    "comments": []
   }
 ]
