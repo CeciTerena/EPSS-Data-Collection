@@ -19409,5 +19409,19 @@
     "timestamp": "2025-05-30T19:41:58",
     "article_text": "Exposure of private personal information to an unauthorized actor in the user vaults component of Devolutions Remote Desktop Manager allows an authenticated user to gain unauthorized access to private personal information. Under specific circumstances, entries may be unintentionally moved from user vaults to shared vaults when edited by their owners, making them accessible to other users. This issue affects the following versions : * Remote Desktop Manager Windows 2025.1.34.0 and earlier",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31056"
+    ],
+    "cve_counts": {
+      "CVE-2025-31056": 1
+    },
+    "title": "CVE-2025-31056: SQL Injection Vulnerability in Techspawn WhatsCart for WooCommerce",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kzi4kw/cve202531056_sql_injection_vulnerability_in/",
+    "timestamp": "2025-05-30T23:00:02",
+    "article_text": null,
+    "comments": []
   }
 ]
