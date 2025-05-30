@@ -19159,5 +19159,19 @@
     "timestamp": "2025-05-29T23:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4947"
+    ],
+    "cve_counts": {
+      "CVE-2025-4947": 1
+    },
+    "title": "CVE Alert: CVE-2025-4947",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kyqeuo/cve_alert_cve20254947/",
+    "timestamp": "2025-05-30T00:13:14",
+    "article_text": "libcurl accidentally skips the certificate verification for QUIC connections when connecting to a host specified as an IP address in the URL. Therefore, it does not detect impostors or man-in-the-middle attacks.",
+    "comments": []
   }
 ]

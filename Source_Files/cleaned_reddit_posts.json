@@ -13501,5 +13501,18 @@
     "timestamp": "2025-05-29T23:00:03",
     "clean_text": "CVE-2025-31430: Critical Deserialization of Untrusted Data Vulnerability in The Business Software",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4947"
+    ],
+    "cve_counts": {
+      "CVE-2025-4947": 1
+    },
+    "title": "CVE Alert: CVE-2025-4947",
+    "permalink": "/r/RedPacketSecurity/comments/1kyqeuo/cve_alert_cve20254947/",
+    "timestamp": "2025-05-30T00:13:14",
+    "clean_text": "CVE Alert: CVE-2025-4947 libcurl accidentally skips the certificate verification for QUIC connections when connecting to a host specified as an IP address in the URL. Therefore, it does not detect impostors or man-in-the-middle attacks.",
+    "clean_comments": []
   }
 ]
