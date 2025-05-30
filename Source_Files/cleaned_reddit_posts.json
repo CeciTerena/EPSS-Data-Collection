@@ -13692,5 +13692,44 @@
     "timestamp": "2025-05-30T17:00:03",
     "clean_text": "CVE-2024-51101: Critical SQL Injection Vulnerability in PHPGURUKUL Restaurant Table Booking System",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2146"
+    ],
+    "cve_counts": {
+      "CVE-2025-2146": 1
+    },
+    "title": "CVE-2025-2146: Critical Buffer Overflow Vulnerability in Multifunction Printers",
+    "permalink": "/r/ameeba/comments/1kzdvpp/cve20252146_critical_buffer_overflow/",
+    "timestamp": "2025-05-30T20:00:03",
+    "clean_text": "CVE-2025-2146: Critical Buffer Overflow Vulnerability in Multifunction Printers",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4664"
+    ],
+    "cve_counts": {
+      "CVE-2025-4664": 1
+    },
+    "title": "Security Watch 5/30/25",
+    "permalink": "/r/k12sysadmin/comments/1kzdjgd/security_watch_53025/",
+    "timestamp": "2025-05-30T19:45:58",
+    "clean_text": "Security Watch 5/30/25 On K12TechPro, we've launched a weekly cyber threat intelligence and vulnerability newsletter with NTP and K12TechPro. We'll post the \"public\" news to k12sysadmin from each newsletter. For the full \"k12 techs only\" portion (no middle schoolers, bad guys, vendors, etc. allowed), log into k12techpro.com and visit the Cybersecurity Hub. The 3AM ransomware group has emerged with a sophisticated combination of email bombing and vishing, leveraging legitimate tools like Microsoft Quick Assist to gain remote access to victims’ machines. By conducting extensive reconnaissance, spoofing IT contact details, and manipulating victims with convincing narratives, these attackers demonstrate the growing complexity of ransomware delivery methods. A separate campaign, dubbed ClickFix, highlights how social engineering is spreading through platforms like TikTok. Attackers use AI-generated videos to convince users to run scripts that disable security tools, install information stealers like Vidar and StealC, and establish persistence on systems. This method underscores the expanding use of social media as a cyberattack vector and the need for robust endpoint protection. In another development, the Bumblebee malware is being distributed through SEO poisoning, where fake websites for legitimate software tools trick users—particularly IT professionals—into downloading infected applications. This approach preys on trust in well-known utilities, reinforcing the need for vigilant source verification when installing software. Lastly, CVE-2025-4664, a high-risk Chrome vulnerability being exploited in the wild. This flaw in Chromium-based browsers allows attackers to steal session tokens through manipulated headers, underscoring the critical importance of timely patching and browser security.",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-5334"
+    ],
+    "cve_counts": {
+      "CVE-2025-5334": 1
+    },
+    "title": "CVE Alert: CVE-2025-5334",
+    "permalink": "/r/RedPacketSecurity/comments/1kzdg1v/cve_alert_cve20255334/",
+    "timestamp": "2025-05-30T19:41:58",
+    "clean_text": "CVE Alert: CVE-2025-5334 Exposure of private personal information to an unauthorized actor in the user vaults component of Devolutions Remote Desktop Manager allows an authenticated user to gain unauthorized access to private personal information. Under specific circumstances, entries may be unintentionally moved from user vaults to shared vaults when edited by their owners, making them accessible to other users. This issue affects the following versions : * Remote Desktop Manager Windows 2025.1.34.0 and earlier",
+    "clean_comments": []
   }
 ]
