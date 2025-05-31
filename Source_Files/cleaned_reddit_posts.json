@@ -13839,5 +13839,20 @@
     "timestamp": "2025-05-31T10:56:11",
     "clean_text": "Qualys TRU Discovers Two Local Information Disclosure Vulnerabilities in Apport and systemd-coredump: CVE-2025-5054 and CVE-2025-4598",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4598",
+      "CVE-2025-5054"
+    ],
+    "cve_counts": {
+      "CVE-2025-5054": 1,
+      "CVE-2025-4598": 1
+    },
+    "title": "De nouvelles failles Linux permettent le vol de hachage de mot de passe via des vidages de mémoire dans Ubuntu, RHEL, Fedora",
+    "permalink": "/r/actutech/comments/1kzvyk6/de_nouvelles_failles_linux_permettent_le_vol_de/",
+    "timestamp": "2025-05-31T12:30:06",
+    "clean_text": "De nouvelles failles Linux permettent le vol de hachage de mot de passe via des vidages de mémoire dans Ubuntu, RHEL, Fedora Deux failles de divulgation d’informations ont été identifiées dans apport et systemd-coredump, les gestionnaires de vidage de noyau dans Ubuntu, Red Hat Enterprise Linux et Fedora, selon l’unité de recherche sur les menaces (TRU) de Qualys. Suivies sous les noms de CVE-2025-5054 et CVE-2025-4598, les deux vulnérabilités sont des bogues de conditions de concurrence qui pourraient permettre à un attaquant local d’obtenir l’accès à des informations sensibles.",
+    "clean_comments": []
   }
 ]
