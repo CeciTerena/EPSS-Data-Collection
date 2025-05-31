@@ -13867,5 +13867,18 @@
     "timestamp": "2025-05-31T14:00:03",
     "clean_text": "CVE-2025-32284: Untrusted Data Deserialization Vulnerability in Pet World",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4989"
+    ],
+    "cve_counts": {
+      "CVE-2025-4989": 1
+    },
+    "title": "CVE Alert: CVE-2025-4989",
+    "permalink": "/r/RedPacketSecurity/comments/1kzyp4e/cve_alert_cve20254989/",
+    "timestamp": "2025-05-31T14:41:58",
+    "clean_text": "CVE Alert: CVE-2025-4989 A stored Cross-site Scripting (XSS) vulnerability affecting Requirements in Product Manager from Release 3DEXPERIENCE R2022x through Release 3DEXPERIENCE R2025x allows an attacker to execute arbitrary script code in user’s browser session.",
+    "clean_comments": []
   }
 ]
