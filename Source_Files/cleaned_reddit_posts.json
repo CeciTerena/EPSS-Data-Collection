@@ -13744,5 +13744,31 @@
     "timestamp": "2025-05-30T23:00:02",
     "clean_text": "CVE-2025-31056: SQL Injection Vulnerability in Techspawn WhatsCart for WooCommerce",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-46460"
+    ],
+    "cve_counts": {
+      "CVE-2025-46460": 1
+    },
+    "title": "CVE-2025-46460: SQL Injection Vulnerability in Detheme Easy Guide",
+    "permalink": "/r/ameeba/comments/1kzp0a4/cve202546460_sql_injection_vulnerability_in/",
+    "timestamp": "2025-05-31T05:00:04",
+    "clean_text": "CVE-2025-46460: SQL Injection Vulnerability in Detheme Easy Guide",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-2501"
+    ],
+    "cve_counts": {
+      "CVE-2025-2501": 1
+    },
+    "title": "CVE Alert: CVE-2025-2501",
+    "permalink": "/r/RedPacketSecurity/comments/1kzop8k/cve_alert_cve20252501/",
+    "timestamp": "2025-05-31T04:41:58",
+    "clean_text": "CVE Alert: CVE-2025-2501 An untrusted search path vulnerability was reported in Lenovo PC Manager that could allow a local attacker to elevate privileges.",
+    "clean_comments": []
   }
 ]
