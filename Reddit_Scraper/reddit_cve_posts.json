@@ -19569,5 +19569,19 @@
     "timestamp": "2025-05-31T14:41:58",
     "article_text": "A stored Cross-site Scripting (XSS) vulnerability affecting Requirements in Product Manager from Release 3DEXPERIENCE R2022x through Release 3DEXPERIENCE R2025x allows an attacker to execute arbitrary script code in user’s browser session.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47631"
+    ],
+    "cve_counts": {
+      "CVE-2025-47631": 1
+    },
+    "title": "CVE-2025-47631: Incorrect Privilege Assignment Leading to Privilege Escalation in Hospital Management System",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1l01x75/cve202547631_incorrect_privilege_assignment/",
+    "timestamp": "2025-05-31T17:00:04",
+    "article_text": null,
+    "comments": []
   }
 ]
