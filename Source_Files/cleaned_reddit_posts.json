@@ -13811,5 +13811,33 @@
     "timestamp": "2025-05-31T09:41:58",
     "clean_text": "CVE Alert: CVE-2024-42190 HCL Traveler for Microsoft Outlook (HTMO) is susceptible to a DLL hijacking vulnerability which could allow an attacker to modify or replace the application with malicious content.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-13955"
+    ],
+    "cve_counts": {
+      "CVE-2024-13955": 1
+    },
+    "title": "CVE-2024-13955: SQL Injection Vulnerability in ASPECT, NEXUS, and MATRIX Series",
+    "permalink": "/r/ameeba/comments/1kzue4i/cve202413955_sql_injection_vulnerability_in/",
+    "timestamp": "2025-05-31T11:00:03",
+    "clean_text": "CVE-2024-13955: SQL Injection Vulnerability in ASPECT, NEXUS, and MATRIX Series",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4598",
+      "CVE-2025-5054"
+    ],
+    "cve_counts": {
+      "CVE-2025-5054": 1,
+      "CVE-2025-4598": 1
+    },
+    "title": "Qualys TRU Discovers Two Local Information Disclosure Vulnerabilities in Apport and systemd-coredump: CVE-2025-5054 and CVE-2025-4598",
+    "permalink": "/r/worldTechnology/comments/1kzuc0s/qualys_tru_discovers_two_local_information/",
+    "timestamp": "2025-05-31T10:56:11",
+    "clean_text": "Qualys TRU Discovers Two Local Information Disclosure Vulnerabilities in Apport and systemd-coredump: CVE-2025-5054 and CVE-2025-4598",
+    "clean_comments": []
   }
 ]
