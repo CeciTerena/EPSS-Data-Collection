@@ -13893,5 +13893,60 @@
     "timestamp": "2025-05-31T17:00:04",
     "clean_text": "CVE-2025-47631: Incorrect Privilege Assignment Leading to Privilege Escalation in Hospital Management System",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30066"
+    ],
+    "cve_counts": {
+      "CVE-2025-30066": 1
+    },
+    "title": "update-action-pins -- a simple CLI tool for updating pinned action versions in your Github Action workflows from tags to SHAs",
+    "permalink": "/r/devops/comments/1l067g9/updateactionpins_a_simple_cli_tool_for_updating/",
+    "timestamp": "2025-05-31T20:04:33",
+    "clean_text": "update-action-pins -- a simple CLI tool for updating pinned action versions in your Github Action workflows from tags to SHAs <URL> Hi everyone! In light of the tj-actions supply chain attack ( <URL> I recently made this simple executable that updates referenced Github Actions in your workflow files to use commit SHAs to pin the version instead of the tag name or branch. I found it real tedious to go through each referenced action, go to its repository, find the SHA the tag corresponds to, and then update it in our workflows. This tool alleviates that. I thought it would be useful to everyone else so I open-sourced it and advertised it here. I am also willing to support the tool in the near-long-term. Let me know if it helps (or doesn't) and don't be afraid to post an issue on the repo if you find any bugs. Cheers!",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-5215"
+    ],
+    "cve_counts": {
+      "CVE-2025-5215": 1
+    },
+    "title": "CVE-2025-5215: Stack-Based Buffer Overflow Vulnerability in D-Link DCS-5020L 1.01_B2",
+    "permalink": "/r/ameeba/comments/1l063on/cve20255215_stackbased_buffer_overflow/",
+    "timestamp": "2025-05-31T20:00:03",
+    "clean_text": "CVE-2025-5215: Stack-Based Buffer Overflow Vulnerability in D-Link DCS-5020L 1.01_B2",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-37899"
+    ],
+    "cve_counts": {
+      "CVE-2025-37899": 1
+    },
+    "title": "CMV:  The vast majority of people have no idea how AI works and people who say they do are lying.",
+    "permalink": "/r/changemyview/comments/1l05zs2/cmv_the_vast_majority_of_people_have_no_idea_how/",
+    "timestamp": "2025-05-31T19:55:09",
+    "clean_text": "CMV:  The vast majority of people have no idea how AI works and people who say they do are lying. I've heard it time and time again: \"AI is just autocorrect/auto-complete,\" \"This technology has existed for decades,\" \"These are just simple algorithms,\" and even absurd claims like \"This isn't even AI\" (what?). Are people being purposely obtuse because of the negative attention surrounding AI?The AI we have today has not existed for decades, and these algorithms are far from simple-in fact, they're at the cutting edge of computer science and computer engineering. People seriously underestimate how complex this technology is. I ask: how do you think ChatGPT is able to analyze images and video, tell you what's going on, use tools, solve complicated math problems, remember context, talk, sing, and generate entirely new images? I've even seen YouTube comments and Reddit posts claiming these systems \"aren't real AI\" because they're not neural networks (come on.). Here are the facts: 1. AI has absorbed everything it’s learned from the internet-text, video, sound-yes (though still far less than the total amount of data a human takes in from birth, far less). In fact, there are new architectures that allow the model to self-play on tasks like mathematics, meaning it doesn't even need external data-and the performance boost is incredible. <URL> 2. AI does “just” regurgitate what it’s learned from the internet-and yes, it also creates new things. In fact, large language models (LLMs) have come up with entirely new algorithms and solutions to math problems that had gone unsolved for over 50 years (source). These were models anyone could have used (Gemini 2.0), but they were integrated into a more advanced framework. Even more impressively, O3 discovered a zero-day vulnerability in the Linux kernel-an actual remote exploit (source). 3. These models (yes using the same technology around llms) can perform actions in the real world like folding laundry, cleaning dishes(even without any data, just by practicing) <URL> Thinking AI is just marketing hype is one thing-but spreading misinformation about something you clearly don't understand is insane to me. In my opinion, this isn't hype. It's real, it's here, and it's here to stay.",
+    "clean_comments": [
+      "Level 0: Thinking AI is just marketing hype is one thing-but spreading misinformation about something you clearly don't understand is insane So I can think it's just marketing hype, but ever saying it is insane?",
+      "Level 1: Thats not what I said at all. I'm talking about minimizing the technology. You can say what the ceos are saying is market hype \"ai will take all jobs\". Thats understandable."
+    ]
+  },
+  {
+    "cves": [
+      "CVE-2025-2571"
+    ],
+    "cve_counts": {
+      "CVE-2025-2571": 1
+    },
+    "title": "CVE Alert: CVE-2025-2571",
+    "permalink": "/r/RedPacketSecurity/comments/1l05p1w/cve_alert_cve20252571/",
+    "timestamp": "2025-05-31T19:41:59",
+    "clean_text": "CVE Alert: CVE-2025-2571 Mattermost versions 10.7.x <= 10.7.0, 10.6.x <= 10.6.2, 10.5.x <= 10.5.3, 9.11.x <= 9.11.12 fail to clear Google OAuth credentials when converting user accounts to bot accounts, allowing attackers to gain unauthorized access to bot accounts via the Google OAuth signup flow.",
+    "clean_comments": []
   }
 ]
