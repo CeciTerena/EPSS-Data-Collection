@@ -7,7 +7,7 @@ from numpy import size
 import requests
 import json
 import os
-from cleaning_data_mastodon import remove_emojis
+# from cleaning_data_mastodon import remove_emojis
 
 url_timelines = 'https://mastodon.social/api/v1/timelines/public'
 url_for_hashtags = 'https://mastodon.social/api/v1/timelines/tag/cve'
@@ -43,33 +43,33 @@ def parse_html_body(content):
     # Get all visible text
     return soup.get_text(separator=" ")
 
-# max_id = None
+max_id = None
 
-# print("Starting to scrape posts...")
-# print("Scraping posts by hashtags...")
-# for _ in range(100):  
-#     params = rate_limit.copy()
-#     if max_id:
-#         params["max_id"] = max_id
-#     r = requests.get(url_for_hashtags, params=params)
-#     posts = r.json()
-#     if not posts:
-#         break
-#     for t in posts:
-#         if contains_cve(t['content']) and t['id'] not in post_ids:
-#             post = {
-#                 "body": parse_html_body(t['content']),
-#                 "id": t['id'],
-#                 "created_at": t['created_at'],
-#                 "cve": extract_cve(t['content'])
-#             }
-#             if post["cve"]:
-#                 cve_posts.append(post)
-#                 post_ids.append(post["id"])
-#                 print("post found")
+print("Starting to scrape posts...")
+print("Scraping posts by hashtags...")
+for _ in range(100):  
+    params = rate_limit.copy()
+    if max_id:
+        params["max_id"] = max_id
+    r = requests.get(url_for_hashtags, params=params)
+    posts = r.json()
+    if not posts:
+        break
+    for t in posts:
+        if contains_cve(t['content']) and t['id'] not in post_ids:
+            post = {
+                "body": parse_html_body(t['content']),
+                "id": t['id'],
+                "created_at": t['created_at'],
+                "cve": extract_cve(t['content'])
+            }
+            if post["cve"]:
+                cve_posts.append(post)
+                post_ids.append(post["id"])
+                print("post found")
 
-#     max_id = posts[-1]['id']
-#     time.sleep(1)  # To avoid hitting rate limits
+    max_id = posts[-1]['id']
+    time.sleep(1)  # To avoid hitting rate limits
             
 
 print("Scraping posts by timelines...")
@@ -95,9 +95,9 @@ for x in range(100):
 
 with open(cve_path, "r", encoding="utf-8") as existing_file:
     existing_data = json.load(existing_file)
-    if cve_posts: 
-        for post in cve_posts:
-            remove_emojis(post["body"])
+    # if cve_posts: 
+    #     for post in cve_posts:
+    #         remove_emojis(post["body"])
     cve_posts.extend(existing_data)
 with open(cve_path, "w", encoding="utf-8") as f:
     print("Saving posts to cve_posts...")

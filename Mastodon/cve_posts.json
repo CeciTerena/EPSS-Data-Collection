@@ -1,5 +1,662 @@
 [
   {
+    "body": "Masz router Asusa? Sprawdź czy nie została wydana aktualizacja Firma GreyNoise (wykorzystując AI) natrafiła na aktywną kampanię nieznanej grupy cyberprzestępców, która wykorzystuje kilka podatności do przejęcia kontroli nad routerami firmy Asus. Kampania śledzona jest pod nazwą ViciousTrap.  Wśród wykorzystywanych luk możemy znaleźć, załataną niedawno podatność CVE-2023-39780 czyli command injection, która pozwala na wykonywanie poleceń systemowych. Oprócz tego, w atakach,... # WBiegu   # Apt   # Asus   # Ataki   # Cve   # Iot   # Router https:// sekurak.pl/masz-router-asusa-s prawdz-czy-nie-zostala-wydana-aktualizacja/",
+    "id": "114596720281360456",
+    "created_at": "2025-05-30T12:13:00.000Z",
+    "cve": [
+      "CVE-2023-39780"
+    ]
+  },
+  {
+    "body": "CVE-2020-36084 – SourceCodester Responsive E-Learning System SQL Injection \n\nCVE ID : CVE-2020-36084\n\nPublished :  Feb. 5, 2025, 10:15 p.m. | 21 hours, 50 minutes ago\n\nDescription : SQL Injection vulnerability in SourceCodester Responsive E-Learning System 1.0 allows remote attackers to inject sql query in /elearning/delete_teacher_students.php?id= parameter via id field.\n\nSeverity: 9.8 | CRITICAL\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to Source\n\n https:// whalers.ir/blog/cve-2020-36084 -sourcecodester-responsive-e-learning-system-sql-injection/6270/",
+    "id": "114593578431189413",
+    "created_at": "2025-02-06T20:26:27.000Z",
+    "cve": [
+      "CVE-2020-36084",
+      "CVE-2020-36084",
+      "cve-2020-36084",
+      "cve-2020-36084"
+    ]
+  },
+  {
+    "body": "CVE-2024-57077 – Apache utils-Extend Prototype Pollution \n\nCVE ID : CVE-2024-57077\n\nPublished :  Feb. 5, 2025, 10:15 p.m. | 21 hours, 50 minutes ago\n\nDescription : The latest version of utils-extend (1.0.8) is vulnerable to Prototype Pollution through the entry function(s) lib.extend. An attacker can supply a payload with Object.prototype setter to introduce or modify properties within the global prototype chain, causing denial of service (DoS) a the minimum consequence.\n\nSeverity: 9.1 | CRITICAL\n\nVisit the link for more details, such as CVSS […]\n\n https:// whalers.ir/blog/cve-2024-57077 -apache-utils-extend-prototype-pollution/6273/",
+    "id": "114593578361292699",
+    "created_at": "2025-02-06T20:26:28.000Z",
+    "cve": [
+      "CVE-2024-57077",
+      "CVE-2024-57077",
+      "cve-2024-57077",
+      "cve-2024-57077"
+    ]
+  },
+  {
+    "body": "CVE-2024-57520 – Asterisk Unix Secure Permissions Vulnerability   CVE ID :  CVE-2024-57520 Published :   Feb. 5, 2025, 10:15 p.m. | 21 hours, 50 minutes ago Description :  Insecure Permissions vulnerability in asterisk v22 allows a remote attacker to execute arbitrary code via the action_createconfig function Severity:  9.8 | CRITICAL Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source",
+    "id": "114593578268559400",
+    "created_at": "2025-02-06T20:26:29.000Z",
+    "cve": [
+      "CVE-2024-57520",
+      "CVE-2024-57520",
+      "CVE-2024-57520"
+    ]
+  },
+  {
+    "body": "CVE-2025-1066 – OpenPLC remote File Inclusion Vulnerability   CVE ID :  CVE-2025-1066 Published :   Feb. 6, 2025, 12:15 a.m. | 19 hours, 50 minutes ago Description :  OpenPLC_V3 contains an arbitrary file upload vulnerability, which could be leveraged for malvertising or phishing campaigns. Severity:  9.8 | CRITICAL Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source",
+    "id": "114593578205131111",
+    "created_at": "2025-02-06T20:26:29.000Z",
+    "cve": [
+      "CVE-2025-1066",
+      "CVE-2025-1066",
+      "CVE-2025-1066"
+    ]
+  },
+  {
+    "body": "CVE-2024-51450 – IBM Security Verify Directory Command Injection \n\nCVE ID : CVE-2024-51450\n\nPublished :  Feb. 6, 2025, 1:15 a.m. | 18 hours, 50 minutes ago\n\nDescription : IBM Security Verify Directory 10.0.0 through 10.0.3 could allow a remote authenticated attacker to execute arbitrary commands on the system by sending a specially crafted request.\n\nSeverity: 9.1 | CRITICAL\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to Source\n\n https:// whalers.ir/blog/cve-2024-51450 -ibm-security-verify-directory-command-injection/6282/",
+    "id": "114593349809960783",
+    "created_at": "2025-02-06T20:26:30.000Z",
+    "cve": [
+      "CVE-2024-51450",
+      "CVE-2024-51450",
+      "cve-2024-51450",
+      "cve-2024-51450"
+    ]
+  },
+  {
+    "body": "CVE-2024-51547 – ABB ASPECT-Enterprise/NEXUS Series/MATRIX Series Hard-coded Credentials Vulnerability \n\nCVE ID : CVE-2024-51547\n\nPublished :  Feb. 6, 2025, 5:15 a.m. | 14 hours, 50 minutes ago\n\nDescription : Use of Hard-coded Credentials vulnerability in ABB ASPECT-Enterprise, ABB NEXUS Series, ABB MATRIX Series.This issue affects ASPECT-Enterprise: through 3.08.03; NEXUS Series: through 3.08.03; MATRIX Series: through 3.08.03.\n\nSeverity: 9.8 | CRITICAL\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to Source\n\n https:// whalers.ir/blog/cve-2024-51547 -abb-aspect-enterprise-nexus-series-matrix-series-hard-coded-credentials-vulnerability/6285/",
+    "id": "114593349698805468",
+    "created_at": "2025-02-06T20:26:30.000Z",
+    "cve": [
+      "CVE-2024-51547",
+      "CVE-2024-51547",
+      "cve-2024-51547",
+      "cve-2024-51547"
+    ]
+  },
+  {
+    "body": "CVE-2025-20094 – Microsoft Defense Platform Windows RCE (Shatter) \n\nCVE ID : CVE-2025-20094\n\nPublished :  Feb. 6, 2025, 8:15 a.m. | 11 hours, 50 minutes ago\n\nDescription : Unprotected Windows messaging channel ('Shatter') issue exists in Defense Platform Home Edition Ver.3.9.51.x and earlier. If an attacker sends a specially crafted message to the specific process of the Windows system where the product is running, arbitrary code may be executed with SYSTEM privilege.\n\nSeverity: 8.8 | HIGH\n\nVisit the link for more details, such as CVSS details, affected […]\n\n https:// whalers.ir/blog/cve-2025-20094 -microsoft-defense-platform-windows-rce-shatter/6288/",
+    "id": "114593349618551841",
+    "created_at": "2025-02-06T20:26:31.000Z",
+    "cve": [
+      "CVE-2025-20094",
+      "CVE-2025-20094",
+      "cve-2025-20094",
+      "cve-2025-20094"
+    ]
+  },
+  {
+    "body": "CVE-2025-23236 – Cisco Defense Platform Home Edition Buffer Overflow Elevates Privileges \n\nCVE ID : CVE-2025-23236\n\nPublished :  Feb. 6, 2025, 8:15 a.m. | 11 hours, 50 minutes ago\n\nDescription : Buffer overflow vulnerability exists in Defense Platform Home Edition Ver.3.9.51.x and earlier. If an attacker performs a specific operation, SYSTEM privilege of the Windows system where the product is running may be obtained.\n\nSeverity: 8.8 | HIGH\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to Source\n\n https:// whalers.ir/blog/cve-2025-23236 -cisco-defense-platform-home-edition-buffer-overflow-elevates-privileges/6291/",
+    "id": "114593349541733224",
+    "created_at": "2025-02-06T20:26:31.000Z",
+    "cve": [
+      "CVE-2025-23236",
+      "CVE-2025-23236",
+      "cve-2025-23236",
+      "cve-2025-23236"
+    ]
+  },
+  {
+    "body": "CVE-2024-37358 – Apache James IMAP Denial of Service Vulnerability \n\nCVE ID : CVE-2024-37358\n\nPublished :  Feb. 6, 2025, 12:15 p.m. | 7 hours, 50 minutes ago\n\nDescription : Similarly to CVE-2024-34055, Apache James is vulnerable to denial of service through the abuse of IMAP literals from both authenticated and unauthenticated users, which could be used to cause unbounded memory allocation and very long computations\n\nVersion 3.7.6 and 3.8.2 restrict such illegitimate use of IMAP literals.\n\nSeverity: 8.6 | HIGH\n\nVisit the link for more details, such as CVSS […]\n\n https:// whalers.ir/blog/cve-2024-37358 -apache-james-imap-denial-of-service-vulnerability/6294/",
+    "id": "114593349453088805",
+    "created_at": "2025-02-06T20:26:32.000Z",
+    "cve": [
+      "CVE-2024-37358",
+      "CVE-2024-37358",
+      "CVE-2024-34055",
+      "cve-2024-37358",
+      "cve-2024-37358"
+    ]
+  },
+  {
+    "body": "CVE-2022-31764 – Apache ShardingSphere ElasticJob-UI H2 DB RCE Vulnerability \n\nCVE ID : CVE-2022-31764\n\nPublished :  Feb. 6, 2025, 3:15 p.m. | 4 hours, 50 minutes ago\n\nDescription : The Lite UI of Apache ShardingSphere ElasticJob-UI allows an attacker to perform RCE by constructing a special JDBC URL of H2 database. This issue affects Apache ShardingSphere ElasticJob-UI version 3.0.1 and prior versions. This vulnerability has been fixed in ElasticJob-UI 3.0.2.\n\nThe premise of this attack is that the attacker has obtained the account and password. Otherwise, the […]\n\n https:// whalers.ir/blog/cve-2022-31764 -apache-shardingsphere-elasticjob-ui-h2-db-rce-vulnerability/6297/",
+    "id": "114593109436196400",
+    "created_at": "2025-02-06T20:26:32.000Z",
+    "cve": [
+      "CVE-2022-31764",
+      "CVE-2022-31764",
+      "cve-2022-31764",
+      "cve-2022-31764"
+    ]
+  },
+  {
+    "body": "CVE-2023-5878 – Honeywell OneWireless Wireless Command Injection Vulnerability \n\nCVE ID : CVE-2023-5878\n\nPublished :  Feb. 6, 2025, 3:15 p.m. | 4 hours, 50 minutes ago\n\nDescription : Honeywell OneWireless \n\nWireless Device Manager (WDM) for the following versions R310.x, R320.x, R321.x, R322.1, R322.2, R323.x, R330.1 contains a command injection vulnerability. An attacker who is authenticated could use the firmware update process to potentially exploit the vulnerability, leading to a command injection. Honeywell recommends updating to \n\n R322.3, R330.2 or the most […]\n\n https:// whalers.ir/blog/cve-2023-5878- honeywell-onewireless-wireless-command-injection-vulnerability/6300/",
+    "id": "114593109374176932",
+    "created_at": "2025-02-06T20:26:33.000Z",
+    "cve": [
+      "CVE-2023-5878",
+      "CVE-2023-5878",
+      "cve-2023-5878",
+      "cve-2023-5878"
+    ]
+  },
+  {
+    "body": "CVE-2024-39272 – ClearML Enterprise Server Cross-Site Scripting \n\nCVE ID : CVE-2024-39272\n\nPublished :  Feb. 6, 2025, 5:15 p.m. | 2 hours, 50 minutes ago\n\nDescription : A cross-site scripting (xss) vulnerability exists in the dataset upload functionality of ClearML Enterprise Server 3.22.5-1533. A specially crafted HTTP request can lead to an arbitrary html code. An attacker can send a series of HTTP requests to trigger this vulnerability.\n\nSeverity: 9.0 | CRITICAL\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and […]\n\n https:// whalers.ir/blog/cve-2024-39272 -clearml-enterprise-server-cross-site-scripting/6303/",
+    "id": "114593109315080457",
+    "created_at": "2025-02-06T20:26:33.000Z",
+    "cve": [
+      "CVE-2024-39272",
+      "CVE-2024-39272",
+      "cve-2024-39272",
+      "cve-2024-39272"
+    ]
+  },
+  {
+    "body": "CVE-2025-24981 – Vue Markdown Converter (MDC) Angular JavaScript XSS \n\nCVE ID : CVE-2025-24981\n\nPublished :  Feb. 6, 2025, 6:15 p.m. | 1 hour, 50 minutes ago\n\nDescription : MDC is a tool to take regular Markdown and write documents interacting deeply with a Vue component. In affected versions unsafe parsing logic of the URL from markdown can lead to arbitrary JavaScript code due to a bypass to the existing guards around the `javascript:` protocol scheme in the URL. The parsing logic implement in `props.ts` maintains a deny-list approach to filtering […]\n\n https:// whalers.ir/blog/cve-2025-24981 -vue-markdown-converter-mdc-angular-javascript-xss/6306/",
+    "id": "114593109238172840",
+    "created_at": "2025-02-06T20:26:34.000Z",
+    "cve": [
+      "CVE-2025-24981",
+      "CVE-2025-24981",
+      "cve-2025-24981",
+      "cve-2025-24981"
+    ]
+  },
+  {
+    "body": "CVE-2025-24786 – WhoDB Path Traversal SQL Injection Vulnerability \n\nCVE ID : CVE-2025-24786\n\nPublished :  Feb. 6, 2025, 7:15 p.m. | 50 minutes ago\n\nDescription : WhoDB is an open source database management tool. While the application only displays Sqlite3 databases present in the directory `/db`, there is no path traversal prevention in place. This allows an unauthenticated attacker to open any Sqlite3 database present on the host machine that the application is running on. Affected versions of WhoDB allow users to connect to Sqlite3 databases. By default, […]\n\n https:// whalers.ir/blog/cve-2025-24786 -whodb-path-traversal-sql-injection-vulnerability/6309/",
+    "id": "114593109162334216",
+    "created_at": "2025-02-06T20:26:34.000Z",
+    "cve": [
+      "CVE-2025-24786",
+      "CVE-2025-24786",
+      "cve-2025-24786",
+      "cve-2025-24786"
+    ]
+  },
+  {
+    "body": "CVE-2025-24787 – WhoDB MySQL File Disclosure Vulnerability \n\nCVE ID : CVE-2025-24787\n\nPublished :  Feb. 6, 2025, 7:15 p.m. | 50 minutes ago\n\nDescription : WhoDB is an open source database management tool. In affected versions the application is vulnerable to parameter injection in database connection strings, which allows an attacker to read local files on the machine the application is running on. The application uses string concatenation to build database connection URIs which are then passed to corresponding libraries responsible for setting up […]\n\n https:// whalers.ir/blog/cve-2025-24787 -whodb-mysql-file-disclosure-vulnerability/6312/",
+    "id": "114592869070723884",
+    "created_at": "2025-02-06T20:26:35.000Z",
+    "cve": [
+      "CVE-2025-24787",
+      "CVE-2025-24787",
+      "cve-2025-24787",
+      "cve-2025-24787"
+    ]
+  },
+  {
+    "body": "CVE-2025-5320 – Gradio CORS Handler Origin Validation Bypass Vulnerability \n\nCVE ID : CVE-2025-5320\n\nPublished :  May 29, 2025, 2:15 p.m. | 52 minutes ago\n\nDescription : A vulnerability classified as problematic has been found in gradio-app gradio up to 5.29.1. This affects the function is_valid_origin of the component CORS Handler. The manipulation of the argument localhost_aliases leads to origin validation error. It is possible to initiate the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has […]\n\n https:// whalers.ir/blog/cve-2025-5320- gradio-cors-handler-origin-validation-bypass-vulnerability/6739/",
+    "id": "114591784543195868",
+    "created_at": "2025-05-29T15:10:46.000Z",
+    "cve": [
+      "CVE-2025-5320",
+      "CVE-2025-5320",
+      "cve-2025-5320",
+      "cve-2025-5320"
+    ]
+  },
+  {
+    "body": "CVE-2025-46080 – HuoCMS File Upload Bypass Vulnerability \n\nCVE ID : CVE-2025-46080\n\nPublished :  May 29, 2025, 2:15 p.m. | 52 minutes ago\n\nDescription : HuoCMS V3.5.1 has a File Upload Vulnerability. An attacker can exploit this flaw to bypass whitelist restrictions and craft malicious files with specific suffixes, thereby gaining control of the server.\n\nSeverity: 0.0 | NA\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to Source\n\n https:// whalers.ir/blog/cve-2025-46080 -huocms-file-upload-bypass-vulnerability/6736/",
+    "id": "114591784235037597",
+    "created_at": "2025-05-29T15:10:43.000Z",
+    "cve": [
+      "CVE-2025-46080",
+      "CVE-2025-46080",
+      "cve-2025-46080",
+      "cve-2025-46080"
+    ]
+  },
+  {
+    "body": "CVE-2025-46078 – HuoCMS Remote Code Execution   CVE ID :  CVE-2025-46078 Published :   May 29, 2025, 2:15 p.m. | 52 minutes ago Description :  HuoCMS V3.5.1 and before is vulnerable to file upload, which allows attackers to take control of the target server Severity:  5.3 | MEDIUM Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source",
+    "id": "114591783937980627",
+    "created_at": "2025-05-29T15:10:40.000Z",
+    "cve": [
+      "CVE-2025-46078",
+      "CVE-2025-46078",
+      "CVE-2025-46078"
+    ]
+  },
+  {
+    "body": "CVE-2025-37998 – Openvswitch Netlink Attribute Parsing Vulnerability \n\nCVE ID : CVE-2025-37998\n\nPublished :  May 29, 2025, 2:15 p.m. | 52 minutes ago\n\nDescription : In the Linux kernel, the following vulnerability has been resolved:\n\nopenvswitch: Fix unsafe attribute parsing in output_userspace()\n\nThis patch replaces the manual Netlink attribute iteration in\n\noutput_userspace() with nla_for_each_nested(), which ensures that only\n\nwell-formed attributes are processed.\n\nSeverity: 0.0 | NA\n\nVisit the link for more details, such as CVSS details, affected […]\n\n https:// whalers.ir/blog/cve-2025-37998 -openvswitch-netlink-attribute-parsing-vulnerability/6727/",
+    "id": "114591783668178191",
+    "created_at": "2025-05-29T15:10:34.000Z",
+    "cve": [
+      "CVE-2025-37998",
+      "CVE-2025-37998",
+      "cve-2025-37998",
+      "cve-2025-37998"
+    ]
+  },
+  {
+    "body": "CVE-2025-37997 – Netfilter Ipset Region Locking Vulnerability \n\nCVE ID : CVE-2025-37997\n\nPublished :  May 29, 2025, 2:15 p.m. | 52 minutes ago\n\nDescription : In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: ipset: fix region locking in hash types\n\nRegion locking introduced in v5.6-rc4 contained three macros to handle\n\nthe region locks: ahash_bucket_start(), ahash_bucket_end() which gave\n\nback the start and end hash bucket values belonging to a given region\n\nlock and ahash_region() which should give back the region lock […]\n\n https:// whalers.ir/blog/cve-2025-37997 -netfilter-ipset-region-locking-vulnerability/6724/",
+    "id": "114591783588825292",
+    "created_at": "2025-05-29T15:10:31.000Z",
+    "cve": [
+      "CVE-2025-37997",
+      "CVE-2025-37997",
+      "cve-2025-37997",
+      "cve-2025-37997"
+    ]
+  },
+  {
+    "body": "CVE-2025-37996 – KVM arm64 Uninitialized Pointer Vulnerability \n\nCVE ID : CVE-2025-37996\n\nPublished :  May 29, 2025, 2:15 p.m. | 52 minutes ago\n\nDescription : In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: arm64: Fix uninitialized memcache pointer in user_mem_abort()\n\nCommit fce886a60207 (\"KVM: arm64: Plumb the pKVM MMU in KVM\") made the\n\ninitialization of the local memcache variable in user_mem_abort()\n\nconditional, leaving a codepath where it is used uninitialized via\n\nkvm_pgtable_stage2_map().\n\nThis can fail on any path […]\n\n https:// whalers.ir/blog/cve-2025-37996 -kvm-arm64-uninitialized-pointer-vulnerability/6721/",
+    "id": "114591783508353467",
+    "created_at": "2025-05-29T15:10:28.000Z",
+    "cve": [
+      "CVE-2025-37996",
+      "CVE-2025-37996",
+      "cve-2025-37996",
+      "cve-2025-37996"
+    ]
+  },
+  {
+    "body": "CVE-2025-37995 – Linux Kernel Kobject Put Vulnerability \n\nCVE ID : CVE-2025-37995\n\nPublished :  May 29, 2025, 2:15 p.m. | 52 minutes ago\n\nDescription : In the Linux kernel, the following vulnerability has been resolved:\n\nmodule: ensure that kobject_put() is safe for module type kobjects\n\nIn 'lookup_or_create_module_kobject()', an internal kobject is created\n\nusing 'module_ktype'. So call to 'kobject_put()' on error handling\n\npath causes an attempt to use an uninitialized completion pointer in\n\n'module_kobject_release()'. In this scenario, we just […]\n\n https:// whalers.ir/blog/cve-2025-37995 -linux-kernel-kobject-put-vulnerability/6718/",
+    "id": "114591783398635922",
+    "created_at": "2025-05-29T15:10:25.000Z",
+    "cve": [
+      "CVE-2025-37995",
+      "CVE-2025-37995",
+      "cve-2025-37995",
+      "cve-2025-37995"
+    ]
+  },
+  {
+    "body": "CVE-2025-37994 – “Linux Kernel USB TypeC UCSI NULL Pointer Access Vulnerability” \n\nCVE ID : CVE-2025-37994\n\nPublished :  May 29, 2025, 2:15 p.m. | 52 minutes ago\n\nDescription : In the Linux kernel, the following vulnerability has been resolved:\n\nusb: typec: ucsi: displayport: Fix NULL pointer access\n\nThis patch ensures that the UCSI driver waits for all pending tasks in the\n\nucsi_displayport_work workqueue to finish executing before proceeding with\n\nthe partner removal.\n\nSeverity: 0.0 | NA\n\nVisit the link for more details, such as CVSS details, affected products, […]\n\n https:// whalers.ir/blog/cve-2025-37994 -linux-kernel-usb-typec-ucsi-null-pointer-access-vulnerability/6715/",
+    "id": "114591783213876879",
+    "created_at": "2025-05-29T15:10:21.000Z",
+    "cve": [
+      "CVE-2025-37994",
+      "CVE-2025-37994",
+      "cve-2025-37994",
+      "cve-2025-37994"
+    ]
+  },
+  {
+    "body": "CVE-2025-37993 – Linux Kernel: CAN: Uninitialized Spin Lock in m_can_class_allocate_dev \n\nCVE ID : CVE-2025-37993\n\nPublished :  May 29, 2025, 2:15 p.m. | 52 minutes ago\n\nDescription : In the Linux kernel, the following vulnerability has been resolved:\n\ncan: m_can: m_can_class_allocate_dev(): initialize spin lock on device probe\n\nThe spin lock tx_handling_spinlock in struct m_can_classdev is not\n\nbeing initialized. This leads the following spinlock bad magic\n\ncomplaint from the kernel, eg. when trying to send CAN frames with\n\ncansend from can-utils:\n\n| BUG: spinlock bad magic on […]\n\n https:// whalers.ir/blog/cve-2025-37993 -linux-kernel-can-uninitialized-spin-lock-in-m_can_class_allocate_dev/6712/",
+    "id": "114591783080614970",
+    "created_at": "2025-05-29T15:10:17.000Z",
+    "cve": [
+      "CVE-2025-37993",
+      "CVE-2025-37993",
+      "cve-2025-37993",
+      "cve-2025-37993"
+    ]
+  },
+  {
+    "body": "CVE-2025-33043 – APTIOV BIOS Improper Input Validation Vulnerability \n\nCVE ID : CVE-2025-33043\n\nPublished :  May 29, 2025, 2:15 p.m. | 52 minutes ago\n\nDescription : APTIOV contains a vulnerability in BIOS where an attacker may cause an Improper Input Validation locally. Successful exploitation of this vulnerability can potentially impact of integrity.\n\nSeverity: 5.8 | MEDIUM\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to Source\n\n https:// whalers.ir/blog/cve-2025-33043 -aptiov-bios-improper-input-validation-vulnerability/6709/",
+    "id": "114591782764724749",
+    "created_at": "2025-05-29T15:10:14.000Z",
+    "cve": [
+      "CVE-2025-33043",
+      "CVE-2025-33043",
+      "cve-2025-33043",
+      "cve-2025-33043"
+    ]
+  },
+  {
+    "body": "CVE-2025-48047 – NetFax Server Command Injection Vulnerability   CVE ID :  CVE-2025-48047 Published :   May 29, 2025, 1:15 p.m. | 1 hour, 52 minutes ago Description :  An authenticated user can perform command injection via unsanitized input to the NetFax Server’s ping functionality via the /test.php endpoint. Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source",
+    "id": "114591782564247612",
+    "created_at": "2025-05-29T15:10:11.000Z",
+    "cve": [
+      "CVE-2025-48047",
+      "CVE-2025-48047",
+      "CVE-2025-48047"
+    ]
+  },
+  {
+    "body": "CVE-2025-48046 – Apache HTTP Server SMTP Server Password Disclosure Vulnerability   CVE ID :  CVE-2025-48046 Published :   May 29, 2025, 1:15 p.m. | 1 hour, 52 minutes ago Description :  An authenticated user can disclose the cleartext password of a configured SMTP server via an HTTP GET request to the /config.php endpoint. Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source",
+    "id": "114591782387506933",
+    "created_at": "2025-05-29T15:10:07.000Z",
+    "cve": [
+      "CVE-2025-48046",
+      "CVE-2025-48046",
+      "CVE-2025-48046"
+    ]
+  },
+  {
+    "body": "CVE-2025-48045 – Apache Client Default Admin Credentials Disclosure   CVE ID :  CVE-2025-48045 Published :   May 29, 2025, 1:15 p.m. | 1 hour, 52 minutes ago Description :  An unauthenticated HTTP GET request to the /client.php endpoint will disclose the default administrator user credentials. Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source",
+    "id": "114591782175828760",
+    "created_at": "2025-05-29T15:10:04.000Z",
+    "cve": [
+      "CVE-2025-48045",
+      "CVE-2025-48045",
+      "CVE-2025-48045"
+    ]
+  },
+  {
+    "body": "CVE-2025-48388 – FreeScout Format String Vulnerability \n\nCVE ID : CVE-2025-48388\n\nPublished :  May 29, 2025, 10:15 a.m. | 4 hours, 52 minutes ago\n\nDescription : FreeScout is a free self-hosted help desk and shared mailbox. Prior to version 1.8.178, the application performs insufficient validation of user-supplied data, which is used as arguments to string formatting functions. As a result, an attacker can pass a string containing special symbols (r, n, t)to the application. This issue has been patched in version 1.8.178.\n\nSeverity: 0.0 | […]\n\n https:// whalers.ir/blog/cve-2025-48388 -freescout-format-string-vulnerability/6697/",
+    "id": "114591765334077544",
+    "created_at": "2025-05-29T15:10:01.000Z",
+    "cve": [
+      "CVE-2025-48388",
+      "CVE-2025-48388",
+      "cve-2025-48388",
+      "cve-2025-48388"
+    ]
+  },
+  {
+    "body": "CVE-2025-3755 – Mitsubishi Electric Corporation MELSEC iQ-F Series CPU modules Index Validation Bypass \n\nCVE ID : CVE-2025-3755\n\nPublished :  May 29, 2025, 5:15 a.m. | 8 hours, 7 minutes ago\n\nDescription : Improper Validation of Specified Index, Position, or Offset in Input vulnerability in Mitsubishi Electric Corporation MELSEC iQ-F Series CPU modules allows a remote unauthenticated attacker to read information in the product, to cause a Denial-of-Service (DoS) condition in MELSOFT connection, or to stop the operation of the CPU module (causing a DoS condtion on the CPU module), by sending […]\n\n https:// whalers.ir/blog/cve-2025-3755- mitsubishi-electric-corporation-melsec-iq-f-series-cpu-modules-index-validation-bypass/6694/",
+    "id": "114591765042788806",
+    "created_at": "2025-05-29T15:09:51.000Z",
+    "cve": [
+      "CVE-2025-3755",
+      "CVE-2025-3755",
+      "cve-2025-3755",
+      "cve-2025-3755"
+    ]
+  },
+  {
+    "body": "CVE-2025-48749 – Netwrix Directory Manager Data Exfiltration Vulnerability   CVE ID :  CVE-2025-48749 Published :   May 28, 2025, 6:15 p.m. | 19 hours, 7 minutes ago Description :  Netwrix Directory Manager (formerly Imanami GroupID) v11.0.0.0 and before & after v.11.1.25134.03 inserts Sensitive Information into Sent Data. Severity:  9.1 | CRITICAL Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source",
+    "id": "114591764691121349",
+    "created_at": "2025-05-29T15:09:48.000Z",
+    "cve": [
+      "CVE-2025-48749",
+      "CVE-2025-48749",
+      "CVE-2025-48749"
+    ]
+  },
+  {
+    "body": "CVE-2025-45343 – Tenda W18E Remote Code Execution Vulnerability \n\nCVE ID : CVE-2025-45343\n\nPublished :  May 28, 2025, 4:15 p.m. | 21 hours, 7 minutes ago\n\nDescription : An issue in Tenda W18E v.2.0 v.16.01.0.11 allows an attacker to execute arbitrary code via the editing functionality of the account module in the goform/setmodules route.\n\nSeverity: 9.8 | CRITICAL\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to Source\n\n https:// whalers.ir/blog/cve-2025-45343 -tenda-w18e-remote-code-execution-vulnerability/6688/",
+    "id": "114591764609371796",
+    "created_at": "2025-05-29T15:09:45.000Z",
+    "cve": [
+      "CVE-2025-45343",
+      "CVE-2025-45343",
+      "cve-2025-45343",
+      "cve-2025-45343"
+    ]
+  },
+  {
+    "body": "CVE-2025-3357 – IBM Tivoli Monitoring Array Index Validation Buffer Overflow \n\nCVE ID : CVE-2025-3357\n\nPublished :  May 28, 2025, 3:15 p.m. | 22 hours, 7 minutes ago\n\nDescription : IBM Tivoli Monitoring 6.3.0.7 through 6.3.0.7 Service Pack 19 could allow a remote attacker to execute arbitrary code due to improper validation of an index value of a dynamically allocated array.\n\nSeverity: 9.8 | CRITICAL\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to Source\n\n https:// whalers.ir/blog/cve-2025-3357- ibm-tivoli-monitoring-array-index-validation-buffer-overflow/6685/",
+    "id": "114591764275945459",
+    "created_at": "2025-05-29T15:09:42.000Z",
+    "cve": [
+      "CVE-2025-3357",
+      "CVE-2025-3357",
+      "cve-2025-3357",
+      "cve-2025-3357"
+    ]
+  },
+  {
+    "body": "CVE-2025-5277 – Amazon Web Services (AWS) MCP-Server Command Injection Vulnerability \n\nCVE ID : CVE-2025-5277\n\nPublished :  May 28, 2025, 2:15 p.m. | 23 hours, 7 minutes ago\n\nDescription : aws-mcp-server MCP server is vulnerable to command injection. An attacker can craft a prompt that once accessed by the MCP client will run arbitrary commands on the host system.\n\nSeverity: 9.6 | CRITICAL\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to Source\n\n https:// whalers.ir/blog/cve-2025-5277- amazon-web-services-aws-mcp-server-command-injection-vulnerability/6682/",
+    "id": "114591763982731626",
+    "created_at": "2025-05-29T15:09:38.000Z",
+    "cve": [
+      "CVE-2025-5277",
+      "CVE-2025-5277",
+      "cve-2025-5277",
+      "cve-2025-5277"
+    ]
+  },
+  {
+    "body": "CVE-2025-48734 – Apache Commons BeanUtils Uncontrolled Enum Property Access Vulnerability \n\nCVE ID : CVE-2025-48734\n\nPublished :  May 28, 2025, 2:15 p.m. | 23 hours, 7 minutes ago\n\nDescription : Improper Access Control vulnerability in Apache Commons.\n\nA special BeanIntrospector class was added in version 1.9.2. This can be used to stop attackers from using the declared class property of Java enum objects to get access to the classloader. However this protection was not enabled by default. PropertyUtilsBean (and consequently BeanUtilsBean) now disallows declared class level […]\n\n https:// whalers.ir/blog/cve-2025-48734 -apache-commons-beanutils-uncontrolled-enum-property-access-vulnerability/6679/",
+    "id": "114591763893487716",
+    "created_at": "2025-05-29T15:09:35.000Z",
+    "cve": [
+      "CVE-2025-48734",
+      "CVE-2025-48734",
+      "cve-2025-48734",
+      "cve-2025-48734"
+    ]
+  },
+  {
+    "body": "CVE-2025-45997 – Sourcecodester Web-based Pharmacy Product Management System File Upload Vulnerability \n\nCVE ID : CVE-2025-45997\n\nPublished :  May 28, 2025, 2:15 p.m. | 23 hours, 7 minutes ago\n\nDescription : Sourcecodester Web-based Pharmacy Product Management System v.1.0 has a file upload vulnerability. An attacker can upload a PHP file disguised as an image by modifying the Content-Type header to image/jpg.\n\nSeverity: 8.6 | HIGH\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to Source\n\n https:// whalers.ir/blog/cve-2025-45997 -sourcecodester-web-based-pharmacy-product-management-system-file-upload-vulnerability/6676/",
+    "id": "114591763694174187",
+    "created_at": "2025-05-29T15:09:32.000Z",
+    "cve": [
+      "CVE-2025-45997",
+      "CVE-2025-45997",
+      "cve-2025-45997",
+      "cve-2025-45997"
+    ]
+  },
+  {
+    "body": "CVE-2025-5298 – Campcodes Online Hospital Management System SQL Injection Vulnerability \n\nCVE ID : CVE-2025-5298\n\nPublished :  May 28, 2025, 12:15 p.m. | 1 day, 1 hour ago\n\nDescription : A vulnerability, which was classified as critical, was found in Campcodes Online Hospital Management System 1.0. Affected is an unknown function of the file /admin/betweendates-detailsreports.php. The manipulation of the argument fromdate/todate leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.\n\nSeverity: 9.8 | […]\n\n https:// whalers.ir/blog/cve-2025-5298- campcodes-online-hospital-management-system-sql-injection-vulnerability/6673/",
+    "id": "114591763624388980",
+    "created_at": "2025-05-29T15:09:29.000Z",
+    "cve": [
+      "CVE-2025-5298",
+      "CVE-2025-5298",
+      "cve-2025-5298",
+      "cve-2025-5298"
+    ]
+  },
+  {
+    "body": "CVE-2025-27528 – Apache InLong Deserialization of Untrusted Data Remote File Read Vulnerability \n\nCVE ID : CVE-2025-27528\n\nPublished :  May 28, 2025, 8:15 a.m. | 1 day, 5 hours ago\n\nDescription : Deserialization of Untrusted Data vulnerability in Apache InLong.\n\nThis issue affects Apache InLong: from 1.13.0 through 2.1.0. \n\nThis\n\nvulnerability allows attackers to bypass the security mechanisms of InLong\n\nJDBC and leads to arbitrary file reading. Users are advised to upgrade to Apache InLong's 2.2.0 or cherry-pick [1] to solve it.\n\n[1]  […]\n\n https:// whalers.ir/blog/cve-2025-27528 -apache-inlong-deserialization-of-untrusted-data-remote-file-read-vulnerability/6670/",
+    "id": "114591763547189390",
+    "created_at": "2025-05-29T15:09:26.000Z",
+    "cve": [
+      "CVE-2025-27528",
+      "CVE-2025-27528",
+      "cve-2025-27528",
+      "cve-2025-27528"
+    ]
+  },
+  {
+    "body": "CVE-2025-22252 – Fortinet FortiProxy Authentication Bypass Vulnerability \n\nCVE ID : CVE-2025-22252\n\nPublished :  May 28, 2025, 8:15 a.m. | 1 day, 5 hours ago\n\nDescription : A missing authentication for critical function in Fortinet FortiProxy versions 7.6.0 through 7.6.1, FortiSwitchManager version 7.2.5, and FortiOS versions 7.4.4 through 7.4.6 and version 7.6.0 may allow an attacker with knowledge of an existing admin account to access the device as a valid admin via an authentication bypass.\n\nSeverity: 9.8 | CRITICAL\n\nVisit the link for more details, such as […]\n\n https:// whalers.ir/blog/cve-2025-22252 -fortinet-fortiproxy-authentication-bypass-vulnerability/6667/",
+    "id": "114591763472628667",
+    "created_at": "2025-05-29T15:09:23.000Z",
+    "cve": [
+      "CVE-2025-22252",
+      "CVE-2025-22252",
+      "cve-2025-22252",
+      "cve-2025-22252"
+    ]
+  },
+  {
+    "body": "CVE-2025-4800 – WordPress MasterStudy LMS Pro Arbitrary File Upload Vulnerability \n\nCVE ID : CVE-2025-4800\n\nPublished :  May 28, 2025, 6:15 a.m. | 1 day, 7 hours ago\n\nDescription : The MasterStudy LMS Pro plugin for WordPress is vulnerable to arbitrary file uploads due to a missing file type validation in the stm_lms_add_assignment_attachment function in all versions up to, and including, 4.7.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server, which may make remote code […]\n\n https:// whalers.ir/blog/cve-2025-4800- wordpress-masterstudy-lms-pro-arbitrary-file-upload-vulnerability/6664/",
+    "id": "114591763394747601",
+    "created_at": "2025-05-29T15:09:20.000Z",
+    "cve": [
+      "CVE-2025-4800",
+      "CVE-2025-4800",
+      "cve-2025-4800",
+      "cve-2025-4800"
+    ]
+  },
+  {
+    "body": "CVE-2025-32440 – NetAlertX Authentication Bypass Vulnerability \n\nCVE ID : CVE-2025-32440\n\nPublished :  May 27, 2025, 10:15 p.m. | 1 day, 15 hours ago\n\nDescription : NetAlertX is a network, presence scanner and alert framework. Prior to version 25.4.14, it is possible to bypass the authentication mechanism of NetAlertX to update settings without authentication. An attacker can trigger sensitive functions within util.php by sending crafted requests to /index.php. This issue has been patched in version 25.4.14.\n\nSeverity: 10.0 | CRITICAL\n\nVisit the link […]\n\n https:// whalers.ir/blog/cve-2025-32440 -netalertx-authentication-bypass-vulnerability/6661/",
+    "id": "114591763315535047",
+    "created_at": "2025-05-29T15:09:17.000Z",
+    "cve": [
+      "CVE-2025-32440",
+      "CVE-2025-32440",
+      "cve-2025-32440",
+      "cve-2025-32440"
+    ]
+  },
+  {
+    "body": "CVE-2025-5280 – Google Chrome V8 Out-of-Bounds Heap Corruption Vulnerability \n\nCVE ID : CVE-2025-5280\n\nPublished :  May 27, 2025, 9:15 p.m. | 1 day, 16 hours ago\n\nDescription : Out of bounds write in V8 in Google Chrome prior to 137.0.7151.55 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)\n\nSeverity: 8.8 | HIGH\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to Source\n\n https:// whalers.ir/blog/cve-2025-5280- google-chrome-v8-out-of-bounds-heap-corruption-vulnerability/6658/",
+    "id": "114591763165510087",
+    "created_at": "2025-05-29T15:09:14.000Z",
+    "cve": [
+      "CVE-2025-5280",
+      "CVE-2025-5280",
+      "cve-2025-5280",
+      "cve-2025-5280"
+    ]
+  },
+  {
+    "body": "CVE-2025-5063 – Google Chrome Use After Free in Compositing Vulnerability \n\nCVE ID : CVE-2025-5063\n\nPublished :  May 27, 2025, 9:15 p.m. | 1 day, 16 hours ago\n\nDescription : Use after free in Compositing in Google Chrome prior to 137.0.7151.55 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)\n\nSeverity: 8.8 | HIGH\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to Source\n\n https:// whalers.ir/blog/cve-2025-5063- google-chrome-use-after-free-in-compositing-vulnerability/6655/",
+    "id": "114591763075741145",
+    "created_at": "2025-05-29T15:09:11.000Z",
+    "cve": [
+      "CVE-2025-5063",
+      "CVE-2025-5063",
+      "cve-2025-5063",
+      "cve-2025-5063"
+    ]
+  },
+  {
+    "body": "CVE-2025-27700 – “Qualcomm Carrier Restrictions Bypass Local Privilege Escalation” \n\nCVE ID : CVE-2025-27700\n\nPublished :  May 27, 2025, 4:15 p.m. | 1 day, 21 hours ago\n\nDescription : There is a possible bypass of carrier restrictions due to an unusual root cause. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.\n\nSeverity: 8.4 | HIGH\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to Source\n\n https:// whalers.ir/blog/cve-2025-27700 -qualcomm-carrier-restrictions-bypass-local-privilege-escalation/6652/",
+    "id": "114591762997955801",
+    "created_at": "2025-05-29T15:09:08.000Z",
+    "cve": [
+      "CVE-2025-27700",
+      "CVE-2025-27700",
+      "cve-2025-27700",
+      "cve-2025-27700"
+    ]
+  },
+  {
+    "body": "Chinese Hackers Exploit SAP RCE Flaw CVE-2025-31324, Deploy Golang-Based SuperShell \n\nChinese Hackers Exploit SAP RCE Flaw CVE-2025-31324, Deploy Golang-Based SuperShell\n\n    \n\n        \n\n            \n\n        \n\n    \n\n    \n\n        \n\n            Vulnerability / Industrial Security\n\nA China-linked unnamed threat actor dubbed Chaya_004 has been observed exploiting a recently disclosed security flaw in SAP NetWeaver.\n\nForescout Vedere Labs, in a r ... \n\n            Read more\n\n        \n\n        \n\n        \n\n            \n\n                 Published Date: \n\n                    May […]\n\n https:// whalers.ir/blog/chinese-hacker s-exploit-sap-rce-flaw-cve-2025-31324-deploy-golang-based-supershell/6646/",
+    "id": "114591762760909036",
+    "created_at": "2025-05-29T15:08:49.000Z",
+    "cve": [
+      "CVE-2025-31324",
+      "CVE-2025-31324",
+      "cve-2025-31324",
+      "cve-2025-31324"
+    ]
+  },
+  {
+    "body": "Arista Fixes Critical CloudVision Portal Vulnerability with CVSS 10 Score \n\nArista Fixes Critical CloudVision Portal Vulnerability with CVSS 10 Score\n\n    \n\n        \n\n            \n\n        \n\n    \n\n    \n\n        \n\n            Arista Networks has released a critical security advisory detailing a severe vulnerability in its CloudVision Portal (CVP) software, tracked as CVE-2024-11186, carrying the highest possible CVSS score ... \n\n            Read more\n\n        \n\n        \n\n        \n\n            \n\n                 Published Date: \n\n                    May 09, 2025 […]\n\n https:// whalers.ir/blog/arista-fixes-c ritical-cloudvision-portal-vulnerability-with-cvss-10-score/6643/",
+    "id": "114591762646670114",
+    "created_at": "2025-05-29T15:08:46.000Z",
+    "cve": [
+      "CVE-2024-11186"
+    ]
+  },
+  {
+    "body": "CVE-2025-46337: Critical SQL Injection Vulnerability in ADOdb PHP Library \n\nCVE-2025-46337: Critical SQL Injection Vulnerability in ADOdb PHP Library\n\n    \n\n        \n\n            \n\n        \n\n    \n\n    \n\n        \n\n            CVE-2025-46337 is a high-severity SQL injection vulnerability affecting the ADOdb PHP database abstraction library, which is widely used in web applications for managing database queries across multip ... \n\n            Read more\n\n        \n\n        \n\n        \n\n            \n\n                 Published Date: \n\n                    May 09, 2025 […]\n\n https:// whalers.ir/blog/cve-2025-46337 -critical-sql-injection-vulnerability-in-adodb-php-library/6637/",
+    "id": "114591761490388068",
+    "created_at": "2025-05-29T15:08:39.000Z",
+    "cve": [
+      "CVE-2025-46337",
+      "CVE-2025-46337",
+      "CVE-2025-46337",
+      "cve-2025-46337",
+      "cve-2025-46337"
+    ]
+  },
+  {
+    "body": "Radware Cloud WAF Vulnerable to Filter Bypass via Crafted Requests \n\nRadware Cloud WAF Vulnerable to Filter Bypass via Crafted Requests\n\n    \n\n        \n\n            \n\n        \n\n    \n\n    \n\n        \n\n            A newly disclosed vulnerability note by CERT/CC reveals two security flaws (CVE-2024-56523, CVE-2024-56524) in the Radware Cloud Web Application Firewall (WAF) that allow attackers to bypass its filte ... \n\n            Read more\n\n        \n\n        \n\n        \n\n            \n\n                 Published Date: \n\n                    May 09, 2025 (2 weeks, […]\n\n https:// whalers.ir/blog/radware-cloud- waf-vulnerable-to-filter-bypass-via-crafted-requests/6631/",
+    "id": "114591760875370674",
+    "created_at": "2025-05-29T15:08:33.000Z",
+    "cve": [
+      "CVE-2024-56523",
+      "CVE-2024-56524"
+    ]
+  },
+  {
+    "body": "IXON VPN Client Vulnerability Let Attackers Escalate Privileges \n\nIXON VPN Client Vulnerability Let Attackers Escalate Privileges\n\n    \n\n        \n\n            \n\n        \n\n    \n\n    \n\n        \n\n            Significant vulnerabilities in the IXON VPN Client allow local attackers to gain system-level privileges on Windows, Linux, and macOS systems.\n\nThe flaws, tracked as CVE-2025-26168 and CVE-2025-26169,  ... \n\n            Read more\n\n        \n\n        \n\n        \n\n            \n\n                 Published Date: \n\n                    May 08, 2025 (3 weeks […]\n\n https:// whalers.ir/blog/ixon-vpn-clien t-vulnerability-let-attackers-escalate-privileges/6610/",
+    "id": "114591759481667667",
+    "created_at": "2025-05-29T15:08:10.000Z",
+    "cve": [
+      "CVE-2025-26168",
+      "CVE-2025-26169"
+    ]
+  },
+  {
+    "body": "Fun fact! Janet Jackson is still the only pop star with a CVE to her credits.  The cybersecurity vulnerability is linked to her 1989 song \"Rhythm Nation\", which was found to crash certain models of laptops. The issue arose because the song contained a resonant frequency that matched the natural frequency of some 5400 RPM hard disk drives used in laptops around 2005. When played near these laptops, the song could cause the hard drive to malfunction, leading to a system crash. This unusual vulnerability was officially registered as CVE-2022-38392. https:// nvd.nist.gov/vuln/detail/CVE-2 022-38392#vulnCurrentDescriptionTitle # security   # cve   # funfact",
+    "id": "114584248145132260",
+    "created_at": "2025-05-28T07:21:11.000Z",
+    "cve": [
+      "CVE-2022-38392",
+      "CVE-2022-38392"
+    ]
+  },
+  {
+    "body": "# OT   # Advisory  VDE-2025-044 Weidmueller: Industrial ethernet switches are affected by multiple vulnerabilities # CVE  CVE-2025-41651, CVE-2025-41652, CVE-2025-41649, CVE-2025-41650, CVE-2025-41653 https:// certvde.com/en/advisories/VDE- 2025-044 # CSAF   https:// weidmueller.csaf-tp.certvde.co m/.well-known/csaf/white/2025/vde-2025-044.json",
+    "id": "114578985214702327",
+    "created_at": "2025-05-27T09:02:46.000Z",
+    "cve": [
+      "CVE-2025-41651",
+      "CVE-2025-41652",
+      "CVE-2025-41649",
+      "CVE-2025-41650",
+      "CVE-2025-41653"
+    ]
+  },
+  {
+    "body": "# OT   # Advisory  VDE-2025-042 Lenze: VPN Client Privilege Escalation in combination with Lenze x500 IoT Gateway # CVE  CVE-2025-26168, CVE-2025-26169 https:// certvde.com/en/advisories/VDE- 2025-042 # CSAF   https:// lenze.csaf-tp.certvde.com/.wel l-known/csaf/white/2025/vde-2025-042.json",
+    "id": "114578980214498571",
+    "created_at": "2025-05-27T09:01:29.000Z",
+    "cve": [
+      "CVE-2025-26168",
+      "CVE-2025-26169"
+    ]
+  },
+  {
+    "body": "CVE-2024-4367 (PDF.js) is gaining traction in some exploitation-focused Telegram channels... https:// vulnerability.circl.lu/cve/CVE -2024-4367 seen via  @ ail_project   # vulnerability   # opensource   # threatintelligence   # cve   # exploit",
+    "id": "114575915292912554",
+    "created_at": "2025-05-26T20:02:02.000Z",
+    "cve": [
+      "CVE-2024-4367",
+      "CVE-2024-4367"
+    ]
+  },
+  {
+    "body": "ENISA launched the European Vulnerability Database (EUVD or EU Vulnerability Database), as mandated by the NIS2 Directive. There is the Cyber resilience act (CRA) incoming as well, on increasing the security standards on IoT products (like this one in the screenshot :/ ) https:// euvd.enisa.europa.eu/vulnerabi lity/CVE-2025-2233 # IoT   # SmartHome   # cybersecurity   # CRA   # enisa   # EUVD   # CVE   # Mitre",
+    "id": "114574834533820578",
+    "created_at": "2025-05-26T15:27:12.030Z",
+    "cve": [
+      "CVE-2025-2233",
+      "CVE-2025-2233"
+    ]
+  },
+  {
+    "body": "# OT   # Advisory  VDE-2025-011 PEPPERL+FUCHS: Profinet Gateway LB8122A.1.EL – Device is affected by XSS vulnerability and information disclosure # CVE  CVE-2025-41654, CVE-2025-41655, CVE-2025-1985 https:// certvde.com/en/advisories/VDE- 2025-011 # CSAF   https:// pepperl-fuchs.csaf-tp.certvde. com/.well-known/csaf/white/2025/vde-2025-011.json",
+    "id": "114573955113356359",
+    "created_at": "2025-05-26T11:43:32.000Z",
+    "cve": [
+      "CVE-2025-41654",
+      "CVE-2025-41655",
+      "CVE-2025-1985"
+    ]
+  },
+  {
+    "body": "Bypassing MTE with CVE-2025-0072: https:// github.blog/security/vulnerabi lity-research/bypassing-mte-with-cve-2025-0072/ # mte   # android   # cve   # exploitation   # vulnerability",
+    "id": "114560215848411682",
+    "created_at": "2025-05-24T01:29:27.000Z",
+    "cve": [
+      "CVE-2025-0072",
+      "cve-2025-0072",
+      "cve-2025-0072"
+    ]
+  },
+  {
+    "body": "Bypassing MTE with CVE-2025-0072: https:// github.blog/security/vulnerabi lity-research/bypassing-mte-with-cve-2025-0072/ # mte   # android   # cve   # exploitation   # vulnerability",
+    "id": "114560214722887515",
+    "created_at": "2025-05-24T01:29:11.414Z",
+    "cve": [
+      "CVE-2025-0072",
+      "cve-2025-0072",
+      "cve-2025-0072"
+    ]
+  },
+  {
+    "body": "Just posted my new article on another client-side remote code execution bug I found in Google Web Designer back in February, tracked as CVE-2025-4613, fixed in an April release. Enjoy the write-up! https:// bm.gy/gwdrce2 # Cybersecurity   # Security   # InfoSec   # IndieSec   # Vulnerability   # CVE",
+    "id": "114553962575071799",
+    "created_at": "2025-05-22T22:59:11.211Z",
+    "cve": [
+      "CVE-2025-4613"
+    ]
+  },
+  {
+    "body": "“How I used  # OpenAI   # o3  to find  # CVE -2025-37899, a remote  # zeroday  vulnerability in the  # Linux   # kernel ’s  # SMB  implementation” by Sean Heelan https:// sean.heelan.io/2025/05/22/how- i-used-o3-to-find-cve-2025-37899-a-remote-zeroday-vulnerability-in-the-linux-kernels-smb-implementation/",
+    "id": "114553510823601722",
+    "created_at": "2025-05-22T21:04:17.000Z",
+    "cve": [
+      "cve-2025-37899",
+      "cve-2025-37899"
+    ]
+  },
+  {
+    "body": "https:// wardenshield.com/cve-2025-2992 7-cracks-nextjs-wide-open-middleware-meltdown # CVE   # ThreatHunting   # threatintelligence   # ThreatDetection   # threats   # Bugs   # BugBounty   # bugbountytips",
+    "id": "114550909123964626",
+    "created_at": "2025-05-22T10:02:39.246Z",
+    "cve": [
+      "cve-2025-29927",
+      "cve-2025-2992"
+    ]
+  },
+  {
+    "body": "And another:  CVE-2025-4918  (associated with the other Firefox 0day exploited at Pwn2Own) also has a new exploit repo created  today  (5/21/2025) with a single README.md containing an obfuscated tiny URL (when moused over) link with text \"Download\".  https:// github.com/hendrewna/CVE-2025- 4918 # CVE   # Pwn2Own",
+    "id": "114548110813877960",
+    "created_at": "2025-05-21T22:11:00.000Z",
+    "cve": [
+      "CVE-2025-4918",
+      "CVE-2025-4918"
+    ]
+  },
+  {
+    "body": "Please be careful  looking for the Pwn2Own Firefox 0day exploits on GitHub. It may be malware. Just ran across a GitHub repo advertising an exploit associated with  CVE-2025-4919  in a recently created account (5/19/2025): https:// github.com/HExploited/CVE-2025 -4919-Exploit The repo contains a single README.md file with an obfuscated shortened URL link (when moused over) with text \"Download here\" to the alleged exploit. Please don't click the link. # CVE   # Pwn2Own",
+    "id": "114547990658099738",
+    "created_at": "2025-05-21T21:40:26.000Z",
+    "cve": [
+      "CVE-2025-4919",
+      "CVE-2025-4919"
+    ]
+  },
+  {
     "body": " New HIGH CVE detected in AWS Lambda  CVE-2025-47273 impacts setuptools in 3 Lambda base images. Details:  https:// github.com/aws/aws-lambda-base -images/issues/269 More:  https:// lambdawatchdog.com/ # AWS   # Lambda   # CVE   # CloudSecurity   # Serverless",
     "id": "114540049514541934",
     "created_at": "2025-05-20",
@@ -34377,15 +35034,6 @@
     "source": "mastodon"
   },
   {
-    "body": "CVE-2025-23088 – Node.js Unmaintained Third-Party Components Vulnerability (CWE-1104) \n\nCVE ID : CVE-2025-23088\n\nPublished :  Jan. 22, 2025, 2:15 a.m. | 14 hours, 14 minutes ago\n\nDescription : This CVE has been issued to inform users that they are using End-of-Life (EOL) versions of Node.js. These versions are no longer supported and do not receive updates, including security patches. The continued use of EOL versions may expose systems to potential security risks due to unaddressed software vulnerabilities or dependencies (CWE-1104: Use of Unmaintained Third-Party […]\n\n https:// whalers.ir/blog/cve-2025-23088 -node-js-unmaintained-third-party-components-vulnerability-cwe-1104/4705/",
-    "id": "113872997481424158",
-    "created_at": "2025-01-22",
-    "cve": [
-      "cve-2025-23088"
-    ],
-    "source": "mastodon"
-  },
-  {
     "body": "CVE-2025-22912 – Reolink CMD Injection Vulnerability   CVE ID :  CVE-2025-22912 Published :   Jan. 16, 2025, 3:15 a.m. |  1  day, 2 hours ago Description :  RE11S v1.11 was discovered to contain a command injection vulnerability via the component /goform/formAccept. Severity:  9.8 | CRITICAL Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source",
     "id": "113842192504762848",
     "created_at": "2025-01-17",
@@ -34400,42 +35048,6 @@
     "created_at": "2025-01-17",
     "cve": [
       "CVE-2025-22912"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2025-22912 – Reolink CMD Injection Vulnerability   CVE ID :  CVE-2025-22912 Published :   Jan. 16, 2025, 3:15 a.m. |  1  day, 2 hours ago Description :  RE11S v1.11 was discovered to contain a command injection vulnerability via the component /goform/formAccept. Severity:  9.8 | CRITICAL Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source",
-    "id": "113842192504762848",
-    "created_at": "2025-01-17",
-    "cve": [
-      "CVE-2025-22912"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-57902 – Linux Kernel af_packet: VLAN Get TCI Vulnerability \n\nCVE ID : CVE-2024-57902\n\nPublished :  Jan. 15, 2025, 1:15 p.m. | 1 hour, 2 minutes ago\n\nDescription : In the Linux kernel, the following vulnerability has been resolved:\n\naf_packet: fix vlan_get_tci() vs MSG_PEEK\n\nBlamed commit forgot MSG_PEEK case, allowing a crash [1] as found\n\nby syzbot.\n\nRework vlan_get_tci() to not touch skb at all,\n\nso that it can be used from many cpus on the same skb.\n\nAdd a const qualifier to skb argument.\n\n[1]\n\nskbuff: skb_under_panic: text:ffffffff8a8da482 […]\n\n https:// whalers.ir/blog/cve-2024-57902 -linux-kernel-af_packet-vlan-get-tci-vulnerability/3965/",
-    "id": "113832802713178062",
-    "created_at": "2025-01-15",
-    "cve": [
-      "CVE-2024-57902"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-57902 – Linux Kernel af_packet: VLAN Get TCI Vulnerability \n\nCVE ID : CVE-2024-57902\n\nPublished :  Jan. 15, 2025, 1:15 p.m. | 1 hour, 2 minutes ago\n\nDescription : In the Linux kernel, the following vulnerability has been resolved:\n\naf_packet: fix vlan_get_tci() vs MSG_PEEK\n\nBlamed commit forgot MSG_PEEK case, allowing a crash [1] as found\n\nby syzbot.\n\nRework vlan_get_tci() to not touch skb at all,\n\nso that it can be used from many cpus on the same skb.\n\nAdd a const qualifier to skb argument.\n\n[1]\n\nskbuff: skb_under_panic: text:ffffffff8a8da482 […]\n\n https:// whalers.ir/blog/cve-2024-57902 -linux-kernel-af_packet-vlan-get-tci-vulnerability/3965/",
-    "id": "113832802713178062",
-    "created_at": "2025-01-15",
-    "cve": [
-      "CVE-2024-57902"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-57902 – Linux Kernel af_packet: VLAN Get TCI Vulnerability \n\nCVE ID : CVE-2024-57902\n\nPublished :  Jan. 15, 2025, 1:15 p.m. | 1 hour, 2 minutes ago\n\nDescription : In the Linux kernel, the following vulnerability has been resolved:\n\naf_packet: fix vlan_get_tci() vs MSG_PEEK\n\nBlamed commit forgot MSG_PEEK case, allowing a crash [1] as found\n\nby syzbot.\n\nRework vlan_get_tci() to not touch skb at all,\n\nso that it can be used from many cpus on the same skb.\n\nAdd a const qualifier to skb argument.\n\n[1]\n\nskbuff: skb_under_panic: text:ffffffff8a8da482 […]\n\n https:// whalers.ir/blog/cve-2024-57902 -linux-kernel-af_packet-vlan-get-tci-vulnerability/3965/",
-    "id": "113832802713178062",
-    "created_at": "2025-01-15",
-    "cve": [
-      "cve-2024-57902"
     ],
     "source": "mastodon"
   },
@@ -34462,24 +35074,6 @@
     "id": "113832802492372956",
     "created_at": "2025-01-15",
     "cve": [
-      "CVE-2024-57892"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-57892 – Linux Kernel Ocfs2 Slab-Use-After-Free Vulnerability \n\nCVE ID : CVE-2024-57892\n\nPublished :  Jan. 15, 2025, 1:15 p.m. | 1 hour, 2 minutes ago\n\nDescription : In the Linux kernel, the following vulnerability has been resolved:\n\nocfs2: fix slab-use-after-free due to dangling pointer dqi_priv\n\nWhen mounting ocfs2 and then remounting it as read-only, a\n\nslab-use-after-free occurs after the user uses a syscall to\n\nquota_getnextquota.  Specifically, sb_dqinfo(sb, type)->dqi_priv is the\n\ndangling pointer.\n\nDuring the remounting process, the pointer […]\n\n https:// whalers.ir/blog/cve-2024-57892 -linux-kernel-ocfs2-slab-use-after-free-vulnerability/3945/",
-    "id": "113832802492372956",
-    "created_at": "2025-01-15",
-    "cve": [
-      "cve-2024-57892"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-57892 – Linux Kernel Ocfs2 Slab-Use-After-Free Vulnerability \n\nCVE ID : CVE-2024-57892\n\nPublished :  Jan. 15, 2025, 1:15 p.m. | 1 hour, 2 minutes ago\n\nDescription : In the Linux kernel, the following vulnerability has been resolved:\n\nocfs2: fix slab-use-after-free due to dangling pointer dqi_priv\n\nWhen mounting ocfs2 and then remounting it as read-only, a\n\nslab-use-after-free occurs after the user uses a syscall to\n\nquota_getnextquota.  Specifically, sb_dqinfo(sb, type)->dqi_priv is the\n\ndangling pointer.\n\nDuring the remounting process, the pointer […]\n\n https:// whalers.ir/blog/cve-2024-57892 -linux-kernel-ocfs2-slab-use-after-free-vulnerability/3945/",
-    "id": "113832802492372956",
-    "created_at": "2025-01-15",
-    "cve": [
       "cve-2024-57892"
     ],
     "source": "mastodon"
@@ -34498,34 +35092,7 @@
     "id": "113831134519672400",
     "created_at": "2025-01-15",
     "cve": [
-      "CVE-2024-54142"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-54142 – “Discourse AI HTML Entity Leaking Vulnerability” \n\nCVE ID : CVE-2024-54142\n\nPublished :  Jan. 14, 2025, 11:15 p.m. | 7 hours, 53 minutes ago\n\nDescription : Discourse AI is a Discourse plugin which provides a number of AI features. When sharing Discourse AI Bot conversations into posts, if the conversation had HTML entities those could leak into the Discourse application when a user visited a post with a onebox to said conversation. This issue has been addressed in commit `92f122c`. Users are advised to update. Users unable to update may […]\n\n https:// whalers.ir/blog/cve-2024-54142 -discourse-ai-html-entity-leaking-vulnerability/3729/",
-    "id": "113831134519672400",
-    "created_at": "2025-01-15",
-    "cve": [
       "cve-2024-54142"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-54142 – “Discourse AI HTML Entity Leaking Vulnerability” \n\nCVE ID : CVE-2024-54142\n\nPublished :  Jan. 14, 2025, 11:15 p.m. | 7 hours, 53 minutes ago\n\nDescription : Discourse AI is a Discourse plugin which provides a number of AI features. When sharing Discourse AI Bot conversations into posts, if the conversation had HTML entities those could leak into the Discourse application when a user visited a post with a onebox to said conversation. This issue has been addressed in commit `92f122c`. Users are advised to update. Users unable to update may […]\n\n https:// whalers.ir/blog/cve-2024-54142 -discourse-ai-html-entity-leaking-vulnerability/3729/",
-    "id": "113831134519672400",
-    "created_at": "2025-01-15",
-    "cve": [
-      "cve-2024-54142"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2025-21409 – Windows Telephony Service RCE   CVE ID :  CVE-2025-21409 Published :   Jan. 14, 2025, 6:16 p.m. | 12 hours, 53 minutes ago Description :  Windows Telephony Service Remote Code Execution Vulnerability Severity:  8.8 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more…  Go to Source",
-    "id": "113831134365707014",
-    "created_at": "2025-01-15",
-    "cve": [
-      "CVE-2025-21409"
     ],
     "source": "mastodon"
   },
@@ -34566,24 +35133,6 @@
     "source": "mastodon"
   },
   {
-    "body": "CVE-2024-53995 – SickChill Open Redirect Vulnerability \n\nCVE ID : CVE-2024-53995\n\nPublished :  Jan. 8, 2025, 9:15 p.m. | 29 minutes ago\n\nDescription : SickChill is an automatic video library manager for TV shows. A user-controlled `login` endpoint's `next_` parameter takes arbitrary content. Prior to commit c7128a8946c3701df95c285810eb75b2de18bf82, an authenticated attacker may use this to redirect the user to arbitrary destinations, leading to open redirect. Commit c7128a8946c3701df95c285810eb75b2de18bf82 changes the login page to redirect to […]\n\n https:// whalers.ir/blog/cve-2024-53995 -sickchill-open-redirect-vulnerability/2823/",
-    "id": "113794919336195037",
-    "created_at": "2025-01-08",
-    "cve": [
-      "cve-2024-53995"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-53995 – SickChill Open Redirect Vulnerability \n\nCVE ID : CVE-2024-53995\n\nPublished :  Jan. 8, 2025, 9:15 p.m. | 29 minutes ago\n\nDescription : SickChill is an automatic video library manager for TV shows. A user-controlled `login` endpoint's `next_` parameter takes arbitrary content. Prior to commit c7128a8946c3701df95c285810eb75b2de18bf82, an authenticated attacker may use this to redirect the user to arbitrary destinations, leading to open redirect. Commit c7128a8946c3701df95c285810eb75b2de18bf82 changes the login page to redirect to […]\n\n https:// whalers.ir/blog/cve-2024-53995 -sickchill-open-redirect-vulnerability/2823/",
-    "id": "113794919336195037",
-    "created_at": "2025-01-08",
-    "cve": [
-      "cve-2024-53995"
-    ],
-    "source": "mastodon"
-  },
-  {
     "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
     "id": "113794918984427096",
     "created_at": "2025-01-08",
@@ -34607,15 +35156,6 @@
     "created_at": "2025-01-08",
     "cve": [
       "CVE-2024-45342"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
-      "cve-2025-22145"
     ],
     "source": "mastodon"
   },
@@ -34633,25 +35173,7 @@
     "id": "113794918984427096",
     "created_at": "2025-01-08",
     "cve": [
-      "cve-2025-22143"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
       "CVE-2025-22143"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
-      "cve-2025-22141"
     ],
     "source": "mastodon"
   },
@@ -34669,25 +35191,7 @@
     "id": "113794918984427096",
     "created_at": "2025-01-08",
     "cve": [
-      "cve-2025-22140"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
       "CVE-2025-22140"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
-      "cve-2025-22137"
     ],
     "source": "mastodon"
   },
@@ -34705,25 +35209,7 @@
     "id": "113794918984427096",
     "created_at": "2025-01-08",
     "cve": [
-      "cve-2025-0291"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
       "CVE-2025-0291"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
-      "cve-2025-0282"
     ],
     "source": "mastodon"
   },
@@ -34741,25 +35227,7 @@
     "id": "113794918984427096",
     "created_at": "2025-01-08",
     "cve": [
-      "cve-2025-0194"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
       "CVE-2025-0194"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
-      "cve-2024-55656"
     ],
     "source": "mastodon"
   },
@@ -34777,25 +35245,7 @@
     "id": "113794918984427096",
     "created_at": "2025-01-08",
     "cve": [
-      "cve-2024-55517"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
       "CVE-2024-55517"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
-      "cve-2024-54818"
     ],
     "source": "mastodon"
   },
@@ -34808,30 +35258,13 @@
     ],
     "source": "mastodon"
   },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
-      "cve-2024-53995"
-    ],
-    "source": "mastodon"
-  },
+
   {
     "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
     "id": "113794918984427096",
     "created_at": "2025-01-08",
     "cve": [
       "CVE-2024-53995"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
-      "cve-2024-52869"
     ],
     "source": "mastodon"
   },
@@ -34849,25 +35282,7 @@
     "id": "113794918984427096",
     "created_at": "2025-01-08",
     "cve": [
-      "cve-2024-51442"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
       "CVE-2024-51442"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
-      "cve-2024-45345"
     ],
     "source": "mastodon"
   },
@@ -34885,15 +35300,6 @@
     "id": "113794918984427096",
     "created_at": "2025-01-08",
     "cve": [
-      "cve-2024-45344"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
       "CVE-2024-45344"
     ],
     "source": "mastodon"
@@ -34903,25 +35309,7 @@
     "id": "113794918984427096",
     "created_at": "2025-01-08",
     "cve": [
-      "cve-2024-45343"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
       "CVE-2024-45343"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-45342 – Cisco Router Denial of Service   CVE ID :  CVE-2024-45342 Published :   Jan. 8, 2025, 8:15 p.m. | 1 hour, 28 minutes ago Description :  Rejected reason: reserved but not needed Severity:  0.0 | NA Visit the link for more details, such as CVSS details, affected products, timeline, and more…   Go to Source   Tags:   #cve ,  #cybersecurity ,  #go ,  #security   Related Posts   SonicWall urges admins to patch exploitable SSLVPN bug immediately CVE-2025-22145 – Carbon PHP DateTime Remote File Include Vulnerability CVE-2025-22143 – WeGIA Web Manager Reflected Cross-Site Scripting CVE-2025-22141 – WeGIA Web Manager SQL Injection Vulnerability CVE-2025-22140 – WeGIA SQL Injection Vulnerability (Authenticated) CVE-2025-22137 – Pingvin Share File Traversal CVE-2025-0291 – Google Chrome Type Confusion Vulnerability CVE-2025-0282 (CVSS 9.0): Ivanti Confirms Active Exploitation of Critical Flaw CVE-2025-0194 – GitLab Information Disclosure CVE-2024-55656 – Redis RedisBloom Probabilistic Data Structures Integer Overflow Information Leak Out-of-Bounds Write CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection CVE-2024-54818 – SourceCodester Computer Laboratory Management System Unauthenticated Remote OS Command Injection CVE-2024-53995 – SickChill Open Redirect Vulnerability CVE-2024-52869 – Teradata SUSE Enterprise Linux Server Elevated Privilege Group Misassignment CVE-2024-51442 – Minidlna Command Injection Vulnerability CVE-2024-45345 – Cisco WebEx Data Placeholder Command Injection Vulnerability CVE-2024-45344 – Apache HTTPd Denial of Service CVE-2024-45343 – Adobe Flash PathTraversal CVE-2024-12431 – GitLab Unauthorized Issue Status Manipulation Windows 11’s TPM 2.0: Free Software Foundation Fights Forced Upgrades and E-Waste  ",
-    "id": "113794918984427096",
-    "created_at": "2025-01-08",
-    "cve": [
-      "cve-2024-12431"
     ],
     "source": "mastodon"
   },
@@ -34953,33 +35341,6 @@
     "source": "mastodon"
   },
   {
-    "body": "CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection \n\nCVE ID : CVE-2024-55517\n\nPublished :  Jan. 8, 2025, 4:15 p.m. | 5 hours, 28 minutes ago\n\nDescription : An issue was discovered in the Interllect Core Search in Polaris FT Intellect Core Banking 9.5. Input passed through the groupType parameter in /SCGController is mishandled before being used in SQL queries, allowing SQL injection in an authenticated session.\n\nSeverity: 8.8 | HIGH\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to […]\n\n https:// whalers.ir/blog/cve-2024-55517 -polaris-ft-intellect-core-banking-sql-injection/2787/",
-    "id": "113794918420266885",
-    "created_at": "2025-01-08",
-    "cve": [
-      "cve-2024-55517"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-55517 – Polaris FT Intellect Core Banking SQL Injection \n\nCVE ID : CVE-2024-55517\n\nPublished :  Jan. 8, 2025, 4:15 p.m. | 5 hours, 28 minutes ago\n\nDescription : An issue was discovered in the Interllect Core Search in Polaris FT Intellect Core Banking 9.5. Input passed through the groupType parameter in /SCGController is mishandled before being used in SQL queries, allowing SQL injection in an authenticated session.\n\nSeverity: 8.8 | HIGH\n\nVisit the link for more details, such as CVSS details, affected products, timeline, and more...\n\nGo to […]\n\n https:// whalers.ir/blog/cve-2024-55517 -polaris-ft-intellect-core-banking-sql-injection/2787/",
-    "id": "113794918420266885",
-    "created_at": "2025-01-08",
-    "cve": [
-      "cve-2024-55517"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2024-52779 - DCME-320 <=7.4.12.90, DCME-520 <=9.25.5.11, DCME-3 November 29, 2024 at 04:15PM  https:// cvefeed.io/vuln/detail/CVE-202 4-52779   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
-    "id": "113571983683213207",
-    "created_at": "2024-11-30",
-    "cve": [
-      "CVE-2024-52779"
-    ],
-    "source": "mastodon"
-  },
-  {
     "body": "CVE-2024-52779 - DCME-320 <=7.4.12.90, DCME-520 <=9.25.5.11, DCME-3 November 29, 2024 at 04:15PM  https:// cvefeed.io/vuln/detail/CVE-202 4-52779   # CVE   # IOC   # CTI   # ThreatIntelligence   # ThreatIntel   # Cybersecurity   # Recon",
     "id": "113571983683213207",
     "created_at": "2024-11-30",
@@ -34994,24 +35355,6 @@
     "created_at": "2024-11-25",
     "cve": [
       "CVE-2024-53915"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "An issue was discovered in the server in Veritas Enterprise Vault before 15.2, ZDI-CAN-24405. It allows remote attackers to execute arbitrary code because untrusted data, received on a .NET Remoting TCP port, is deserialized. CVE-2024-53915   https:// vulnerability.circl.lu/vuln/CV E-2024-53915 # vulnerability   # cybersecurity   # infosec   # cve   # veritas",
-    "id": "113542689464976590",
-    "created_at": "2024-11-25",
-    "cve": [
-      "CVE-2024-53915"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": " Snyk CLI Vulnerability: Beware of Code Injection in Untrusted Projects ( # CVE -2024-48964) https:// undercodenews.com/snyk-cli-vul nerability-beware-of-code-injection-in-untrusted-projects-cve-2024-48964/",
-    "id": "113397268943033742",
-    "created_at": "2024-10-30",
-    "cve": [
-      "cve-2024-48964"
     ],
     "source": "mastodon"
   },
@@ -35043,29 +35386,11 @@
     "source": "mastodon"
   },
   {
-    "body": "Skeleton Cookie: Breaking into Safeguard with CVE-2024-45488: https:// blog.amberwolf.com/blog/2024/s eptember/skeleton-cookie-breaking-into-safeguard-with-cve-2024-45488/ # cve   # vulnerability   # informationsecurity   # cybersecurity   # cookie",
-    "id": "113194373799483831",
-    "created_at": "2024-09-24",
-    "cve": [
-      "cve-2024-45488"
-    ],
-    "source": "mastodon"
-  },
-  {
     "body": "CVE-2020-27786 ( Race Condition + Use-After-Free ): https:// ii4gsp.github.io/cve-2020-2778 6/ # cve   # uaf   # cybersecurity   # exploitation   # infosec   # exploit   # racecondition   # vulnerability",
     "id": "113107973990279498",
     "created_at": "2024-09-09",
     "cve": [
       "CVE-2020-27786"
-    ],
-    "source": "mastodon"
-  },
-  {
-    "body": "CVE-2020-27786 ( Race Condition + Use-After-Free ): https:// ii4gsp.github.io/cve-2020-2778 6/ # cve   # uaf   # cybersecurity   # exploitation   # infosec   # exploit   # racecondition   # vulnerability",
-    "id": "113107973990279498",
-    "created_at": "2024-09-09",
-    "cve": [
-      "cve-2020-27786"
     ],
     "source": "mastodon"
   },
