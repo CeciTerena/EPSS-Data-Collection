@@ -19467,5 +19467,19 @@
     "timestamp": "2025-05-31T07:05:33",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-5098"
+    ],
+    "cve_counts": {
+      "CVE-2025-5098": 1
+    },
+    "title": "CVE-2025-5098: PrinterShare Android App Vulnerability Allows Unauthorized Gmail Account Access",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1kzrrqm/cve20255098_printershare_android_app/",
+    "timestamp": "2025-05-31T08:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]

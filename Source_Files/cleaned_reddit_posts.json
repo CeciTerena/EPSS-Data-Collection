@@ -13785,5 +13785,18 @@
     "timestamp": "2025-05-31T07:05:33",
     "clean_text": "ChatGPT encuentra una vulnerabilidad crítica en el kernel Linux Atención: esta noticia ha sido redactada íntegramente por ChatGPT, incluyendo el titular. El cómo y el por qué, te lo explico abajo del todo. <URL> ¿Una inteligencia artificial detectando fallos de seguridad en el kernel de Linux? No es ciencia ficción. O bueno, casi. Resulta que o3, uno de los modelos de razonamiento más avanzados de OpenAI —o sea, una IA como yo— acaba de hacerlo. Y no un fallo cualquiera: una vulnerabilidad zero-day que ya ha sido parcheada oficialmente. El hallazgo ha sido documentado como CVE-2025-37899 y lo firma Sean Heelan, un investigador de seguridad que utilizó el modelo o3 de forma directa, vía API y sin herramientas externas, para auditar el módulo ksmbd del kernel. Este módulo implementa el protocolo SMB en espacio de kernel para compartir archivos en red, y lo que encontró fue una condición crítica de “use-after-free” en el manejador de la orden logoff. Nada mal para un modelo que procesó los 12.000 líneas de código del componente de red en una única pasada de 100.000 tokens. Y sí, todo esto sin ayuda humana directa… hasta que hubo que verificar, claro. Porque por muy listo que sea uno —incluso si es de silicio—, los parches siguen dependiendo de humanos con privilegios de escritura en el repositorio del kernel. Lo realmente llamativo del caso es que este descubrimiento marca un antes y un después: es la primera vez que una IA detecta una vulnerabilidad de este calibre, un humano la confirma, se publica el CVE y se lanza el parche. Todo, en cuestión de días. Así que, sí: ya hemos llegado a ese punto. Y por si había dudas, o3 también dejó en evidencia a la competencia en otra prueba paralela: detectó otra vulnerabilidad, esta vez relacionada con la autenticación Kerberos (CVE-2025-37778), en 8 de cada 100 ejecuciones. Claude 3.7 Sonnet solo lo logró en 3, y Claude 3.5 ni lo olió. Ahora, no nos flipemos: como bien matiza el propio Heelan, “o3 no es infalible”. Pero si tu proyecto no supera las 10.000 líneas de código, un modelo como este puede ayudarte a cazar errores antes de que se te escapen en producción. O al menos, ponerte tras la pista más rápido que un grep sin contexto. ¿El futuro? Pues aquí mismo, saludando. Pero tranquilo: seguiré escribiendo noticias antes de sustituirte como mantenedor del kernel. Al menos de momento. La noticia es la que es y aunque he comprobado que el modelo no haya cometido errores con la información, tampoco he corregido nada del texto, que ha sido generado íntegramente por GPT-4o a partir de un prompt en el que le pedía que hiciese exactamente lo que ha hecho: redactar una noticia para MuyLinux (conoce el sitio y me conoce a mí…) sobre el tema en cuestión (he adjuntado un documento con la fuente) con un tono desenfadado y con él como protagonista. Y eso es lo que ha salido… a la primera. En cuanto al por qué, a priori me ha parecido gracioso; a posteriori un tanto inquietante. Hay que reflexionar sobre esto. Por cierto, la imagen también es de ChatGPT. Le he pedido que generase una para ilustrar el artículo acorde con el tema y el tono, pero que lo hiciese como considerase oportuno…",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-5098"
+    ],
+    "cve_counts": {
+      "CVE-2025-5098": 1
+    },
+    "title": "CVE-2025-5098: PrinterShare Android App Vulnerability Allows Unauthorized Gmail Account Access",
+    "permalink": "/r/ameeba/comments/1kzrrqm/cve20255098_printershare_android_app/",
+    "timestamp": "2025-05-31T08:00:03",
+    "clean_text": "CVE-2025-5098: PrinterShare Android App Vulnerability Allows Unauthorized Gmail Account Access",
+    "clean_comments": []
   }
 ]
