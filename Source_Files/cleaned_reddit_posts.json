@@ -13854,5 +13854,18 @@
     "timestamp": "2025-05-31T12:30:06",
     "clean_text": "De nouvelles failles Linux permettent le vol de hachage de mot de passe via des vidages de mémoire dans Ubuntu, RHEL, Fedora Deux failles de divulgation d’informations ont été identifiées dans apport et systemd-coredump, les gestionnaires de vidage de noyau dans Ubuntu, Red Hat Enterprise Linux et Fedora, selon l’unité de recherche sur les menaces (TRU) de Qualys. Suivies sous les noms de CVE-2025-5054 et CVE-2025-4598, les deux vulnérabilités sont des bogues de conditions de concurrence qui pourraient permettre à un attaquant local d’obtenir l’accès à des informations sensibles.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32284"
+    ],
+    "cve_counts": {
+      "CVE-2025-32284": 1
+    },
+    "title": "CVE-2025-32284: Untrusted Data Deserialization Vulnerability in Pet World",
+    "permalink": "/r/ameeba/comments/1kzxrum/cve202532284_untrusted_data_deserialization/",
+    "timestamp": "2025-05-31T14:00:03",
+    "clean_text": "CVE-2025-32284: Untrusted Data Deserialization Vulnerability in Pet World",
+    "clean_comments": []
   }
 ]
