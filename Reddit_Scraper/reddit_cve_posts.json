@@ -19481,5 +19481,19 @@
     "timestamp": "2025-05-31T08:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2024-42190"
+    ],
+    "cve_counts": {
+      "CVE-2024-42190": 1
+    },
+    "title": "CVE Alert: CVE-2024-42190",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1kzt87u/cve_alert_cve202442190/",
+    "timestamp": "2025-05-31T09:41:58",
+    "article_text": "HCL Traveler for Microsoft Outlook (HTMO) is susceptible to a DLL hijacking vulnerability which could allow an attacker to modify or replace the application with malicious content.",
+    "comments": []
   }
 ]
