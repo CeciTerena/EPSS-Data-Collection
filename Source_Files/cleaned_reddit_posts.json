@@ -14101,5 +14101,18 @@
     "timestamp": "2025-06-01T14:00:03",
     "clean_text": "CVE-2025-27998: Privilege Escalation Vulnerability in Valvesoftware Steam Client",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-4595"
+    ],
+    "cve_counts": {
+      "CVE-2025-4595": 1
+    },
+    "title": "CVE Alert: CVE-2025-4595",
+    "permalink": "/r/RedPacketSecurity/comments/1l0ql00/cve_alert_cve20254595/",
+    "timestamp": "2025-06-01T14:41:58",
+    "clean_text": "CVE Alert: CVE-2025-4595 The FastSpring plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin’s ‘fastspring/block-fastspringblocks-complete-product-catalog’ block in all versions up to, and including, 3.0.1 due to insufficient input sanitization and output escaping on the ‘color’ attribute. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+    "clean_comments": []
   }
 ]
