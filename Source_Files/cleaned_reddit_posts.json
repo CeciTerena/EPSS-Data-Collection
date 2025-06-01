@@ -14127,5 +14127,18 @@
     "timestamp": "2025-06-01T16:00:38",
     "clean_text": "Cisco-bug: Hackers kunnen je netwerk overnemen! Cisco-bug CVE-2025-20188 kan je netwerk overnemen! Wat denken jullie van deze kwetsbaarheid? Zijn jullie al bezig met maatregelen? Deel je gedachten en ervaringen! <URL>",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-3836"
+    ],
+    "cve_counts": {
+      "CVE-2025-3836": 1
+    },
+    "title": "CVE-2025-3836: SQL Injection Vulnerability in Zohocorp ManageEngine ADAudit Plus",
+    "permalink": "/r/ameeba/comments/1l0tx5e/cve20253836_sql_injection_vulnerability_in/",
+    "timestamp": "2025-06-01T17:00:05",
+    "clean_text": "CVE-2025-3836: SQL Injection Vulnerability in Zohocorp ManageEngine ADAudit Plus",
+    "clean_comments": []
   }
 ]
