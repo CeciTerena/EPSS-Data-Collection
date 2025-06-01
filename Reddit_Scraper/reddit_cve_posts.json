@@ -19710,5 +19710,19 @@
     "timestamp": "2025-06-01T06:13:53",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-39355"
+    ],
+    "cve_counts": {
+      "CVE-2025-39355": 1
+    },
+    "title": "CVE-2025-39355: SQL Injection Vulnerability in roninwp FAT Services Booking",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1l0jkyb/cve202539355_sql_injection_vulnerability_in/",
+    "timestamp": "2025-06-01T08:00:03",
+    "article_text": null,
+    "comments": []
   }
 ]

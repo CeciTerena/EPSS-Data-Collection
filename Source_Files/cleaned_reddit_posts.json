@@ -14004,5 +14004,18 @@
     "timestamp": "2025-06-01T06:13:53",
     "clean_text": "🔥 Top 10 Trending CVEs (01/06/2025) Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today: 1. CVE-2025-20188 - A vulnerability in the Out-of-Band Access Point (AP) Image Download feature of Cisco IOS XE Software for Wireless LAN Controllers (WLCs) could allow an unauthenticated, remote attacker to upload arbitrary files to an affected system. This vulnerability is due to the presence of a hard-coded JSON Web Token (JWT) on an affected system. An attacker could exploit this vulnerability by sending crafted HTTPS requests to the AP image download interface. A successful exploit could allow the attacker to upload files, perform path traversal, and execute arbitrary commands with root privileges. Note: For exploitation to be successful, the Out-of-Band AP Image Download feature must be enabled on the device. It is not enabled by default. - Published: 07/05/2025 - CVSS: 10 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H - Mentions: 60 - Priority: 10 - 2. CVE-2025-24071 - Microsoft Windows File Explorer Spoofing Vulnerability - Published: 11/03/2025 - CVSS: 6.5 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C - Mentions: 19 - Priority: 6.5 - 3. CVE-2025-40775 - When an incoming DNS protocol message includes a Transaction Signature (TSIG), BIND always checks it. If the TSIG contains an invalid value in the algorithm field, BIND immediately aborts with an assertion failure. This issue affects BIND 9 versions 9.20.0 through 9.20.8 and 9.21.0 through 9.21.7. - Published: 21/05/2025 - CVSS: 7.5 - Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H - Mentions: 14 - Priority: 7.5 - Let us know if you're tracking any of these or if you find any issues with the provided details.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-39355"
+    ],
+    "cve_counts": {
+      "CVE-2025-39355": 1
+    },
+    "title": "CVE-2025-39355: SQL Injection Vulnerability in roninwp FAT Services Booking",
+    "permalink": "/r/ameeba/comments/1l0jkyb/cve202539355_sql_injection_vulnerability_in/",
+    "timestamp": "2025-06-01T08:00:03",
+    "clean_text": "CVE-2025-39355: SQL Injection Vulnerability in roninwp FAT Services Booking",
+    "clean_comments": []
   }
 ]
