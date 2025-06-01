@@ -14166,5 +14166,18 @@
     "timestamp": "2025-06-01T19:41:58",
     "clean_text": "CVE Alert: CVE-2018-25111 django-helpdesk before 1.0.0 allows Sensitive Data Exposure because of os.umask(0) in models.py.",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-5054"
+    ],
+    "cve_counts": {
+      "CVE-2025-5054": 3
+    },
+    "title": "Falha no Ubuntu (CVE-2025-5054) pode revelar dados sensíveis. Atualização já disponível!",
+    "permalink": "/r/TugaTech/comments/1l0zazb/falha_no_ubuntu_cve20255054_pode_revelar_dados/",
+    "timestamp": "2025-06-01T20:41:27",
+    "clean_text": "Falha no Ubuntu (CVE-2025-5054) pode revelar dados sensíveis. Atualização já disponível! Falha no Ubuntu (CVE-2025-5054) pode revelar dados sensíveis. Atualização já disponível!\\ \\ <URL>",
+    "clean_comments": []
   }
 ]
