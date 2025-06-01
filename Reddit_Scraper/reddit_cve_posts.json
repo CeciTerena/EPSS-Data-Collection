@@ -19692,5 +19692,23 @@
     "timestamp": "2025-06-01T04:41:57",
     "article_text": "A vulnerability was found in Yifang CMS up to 2.0.2 and classified as problematic. Affected by this issue is some unknown functionality of the component Article Management Module. The manipulation of the argument Default Value leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-40775",
+      "CVE-2025-24071",
+      "CVE-2025-20188"
+    ],
+    "cve_counts": {
+      "CVE-2025-20188": 2,
+      "CVE-2025-24071": 2,
+      "CVE-2025-40775": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (01/06/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-20188](https://nvd.nist.gov/vuln/detail/CVE-2025-20188)**\n\n- 📝 A vulnerability in the Out-of-Band Access Point (AP) Image Download feature of Cisco IOS XE Software for Wireless LAN Controllers (WLCs) could allow an unauthenticated, remote attacker to upload arbitrary files to an affected system.  This vulnerability is due to the presence of a hard-coded JSON Web Token (JWT) on an affected system. An attacker could exploit this vulnerability by sending crafted HTTPS requests to the AP image download interface. A successful exploit could allow the attacker to upload files, perform path traversal, and execute arbitrary commands with root privileges.   Note: For exploitation to be successful, the Out-of-Band AP Image Download feature must be enabled on the device. It is not enabled by default.\n\n- 📅 **Published:** 07/05/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 60\n- ⚠️ **Priority:** 10\n\n---\n\n**2. [CVE-2025-24071](https://nvd.nist.gov/vuln/detail/CVE-2025-24071)**\n\n- 📝 Microsoft Windows File Explorer Spoofing Vulnerability\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 6.5\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C\n- 📣 **Mentions:** 19\n- ⚠️ **Priority:** 6.5\n\n---\n\n**3. [CVE-2025-40775](https://nvd.nist.gov/vuln/detail/CVE-2025-40775)**\n\n- 📝 When an incoming DNS protocol message includes a Transaction Signature (TSIG), BIND always checks it.  If the TSIG contains an invalid value in the algorithm field, BIND immediately aborts with an assertion failure. This issue affects BIND 9 versions 9.20.0 through 9.20.8 and 9.21.0 through 9.21.7.\n\n- 📅 **Published:** 21/05/2025\n- 📈 **CVSS:** 7.5\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H\n- 📣 **Mentions:** 14\n- ⚠️ **Priority:** 7.5\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details.",
+    "permalink": "/r/CVEWatch/comments/1l0hzmk/top_10_trending_cves_01062025/",
+    "timestamp": "2025-06-01T06:13:53",
+    "article_text": null,
+    "comments": []
   }
 ]
