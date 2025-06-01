@@ -19856,5 +19856,33 @@
     "timestamp": "2025-06-01T17:00:05",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-41407"
+    ],
+    "cve_counts": {
+      "CVE-2025-41407": 1
+    },
+    "title": "CVE-2025-41407: SQL Injection Vulnerability in Zohocorp ManageEngine ADAudit Plus",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1l0yb3k/cve202541407_sql_injection_vulnerability_in/",
+    "timestamp": "2025-06-01T20:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2018-25111"
+    ],
+    "cve_counts": {
+      "CVE-2018-25111": 1
+    },
+    "title": "CVE Alert: CVE-2018-25111",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1l0xvu0/cve_alert_cve201825111/",
+    "timestamp": "2025-06-01T19:41:58",
+    "article_text": "django-helpdesk before 1.0.0 allows Sensitive Data Exposure because of os.umask(0) in models.py.",
+    "comments": []
   }
 ]
