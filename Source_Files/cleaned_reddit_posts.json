@@ -14179,5 +14179,18 @@
     "timestamp": "2025-06-01T20:41:27",
     "clean_text": "Falha no Ubuntu (CVE-2025-5054) pode revelar dados sensíveis. Atualização já disponível! Falha no Ubuntu (CVE-2025-5054) pode revelar dados sensíveis. Atualização já disponível!\\ \\ <URL>",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-41229"
+    ],
+    "cve_counts": {
+      "CVE-2025-41229": 1
+    },
+    "title": "CVE-2025-41229: Directory Traversal Vulnerability in VMware Cloud Foundation",
+    "permalink": "/r/ameeba/comments/1l12j75/cve202541229_directory_traversal_vulnerability_in/",
+    "timestamp": "2025-06-01T23:00:04",
+    "clean_text": "CVE-2025-41229: Directory Traversal Vulnerability in VMware Cloud Foundation",
+    "clean_comments": []
   }
 ]

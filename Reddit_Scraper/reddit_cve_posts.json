@@ -19898,5 +19898,19 @@
     "timestamp": "2025-06-01T20:41:27",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-41229"
+    ],
+    "cve_counts": {
+      "CVE-2025-41229": 1
+    },
+    "title": "CVE-2025-41229: Directory Traversal Vulnerability in VMware Cloud Foundation",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1l12j75/cve202541229_directory_traversal_vulnerability_in/",
+    "timestamp": "2025-06-01T23:00:04",
+    "article_text": null,
+    "comments": []
   }
 ]
