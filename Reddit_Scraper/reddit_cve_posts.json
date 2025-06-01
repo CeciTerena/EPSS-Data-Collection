@@ -19786,5 +19786,19 @@
     "timestamp": "2025-06-01T09:41:58",
     "article_text": "A vulnerability was found in PHPGurukul HPGurukul Online Birth Certificate System 2.0. It has been classified as critical. Affected is an unknown function of the file /admin/registered-users.php. The manipulation of the argument del leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47478"
+    ],
+    "cve_counts": {
+      "CVE-2025-47478": 1
+    },
+    "title": "CVE-2025-47478: SQL Injection Vulnerability in Metagauss ProfileGrid",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1l0m8aj/cve202547478_sql_injection_vulnerability_in/",
+    "timestamp": "2025-06-01T11:00:04",
+    "article_text": null,
+    "comments": []
   }
 ]
