@@ -19828,5 +19828,19 @@
     "timestamp": "2025-06-01T14:41:58",
     "article_text": "The FastSpring plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin’s ‘fastspring/block-fastspringblocks-complete-product-catalog’ block in all versions up to, and including, 3.0.1 due to insufficient input sanitization and output escaping on the ‘color’ attribute. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20188"
+    ],
+    "cve_counts": {
+      "CVE-2025-20188": 1
+    },
+    "title": "Cisco-bug: Hackers kunnen je netwerk overnemen!",
+    "text": "Cisco-bug CVE-2025-20188 kan je netwerk overnemen! Wat denken jullie van deze kwetsbaarheid? Zijn jullie al bezig met maatregelen? 🤔 Deel je gedachten en ervaringen! 🔍\n\n\nhttps://itinsights.nl/cybersecurity/cisco-bug-hackers-kunnen-je-netwerk-overnemen/",
+    "permalink": "/r/ITInsightsNL/comments/1l0shap/ciscobug_hackers_kunnen_je_netwerk_overnemen/",
+    "timestamp": "2025-06-01T16:00:38",
+    "article_text": null,
+    "comments": []
   }
 ]
