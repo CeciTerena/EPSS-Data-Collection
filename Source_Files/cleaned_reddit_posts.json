@@ -13961,5 +13961,31 @@
     "timestamp": "2025-05-31T23:00:03",
     "clean_text": "CVE-2025-48201: Predictable Resource Location Vulnerability in TYPO3’s ns_backup Extension",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-47535"
+    ],
+    "cve_counts": {
+      "CVE-2025-47535": 1
+    },
+    "title": "CVE-2025-47535: Critical Path Traversal Vulnerability in wpopal Opal Woo Custom Product Variation",
+    "permalink": "/r/ameeba/comments/1l0gsq8/cve202547535_critical_path_traversal/",
+    "timestamp": "2025-06-01T05:00:03",
+    "clean_text": "CVE-2025-47535: Critical Path Traversal Vulnerability in wpopal Opal Woo Custom Product Variation",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-5383"
+    ],
+    "cve_counts": {
+      "CVE-2025-5383": 1
+    },
+    "title": "CVE Alert: CVE-2025-5383",
+    "permalink": "/r/RedPacketSecurity/comments/1l0gi0h/cve_alert_cve20255383/",
+    "timestamp": "2025-06-01T04:41:57",
+    "clean_text": "CVE Alert: CVE-2025-5383 A vulnerability was found in Yifang CMS up to 2.0.2 and classified as problematic. Affected by this issue is some unknown functionality of the component Article Management Module. The manipulation of the argument Default Value leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.",
+    "clean_comments": []
   }
 ]
