@@ -14088,5 +14088,18 @@
     "timestamp": "2025-06-01T11:00:04",
     "clean_text": "CVE-2025-47478: SQL Injection Vulnerability in Metagauss ProfileGrid",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-27998"
+    ],
+    "cve_counts": {
+      "CVE-2025-27998": 1
+    },
+    "title": "CVE-2025-27998: Privilege Escalation Vulnerability in Valvesoftware Steam Client",
+    "permalink": "/r/ameeba/comments/1l0pn6r/cve202527998_privilege_escalation_vulnerability/",
+    "timestamp": "2025-06-01T14:00:03",
+    "clean_text": "CVE-2025-27998: Privilege Escalation Vulnerability in Valvesoftware Steam Client",
+    "clean_comments": []
   }
 ]
