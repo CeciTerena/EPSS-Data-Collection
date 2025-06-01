@@ -14017,5 +14017,31 @@
     "timestamp": "2025-06-01T08:00:03",
     "clean_text": "CVE-2025-39355: SQL Injection Vulnerability in roninwp FAT Services Booking",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-32756"
+    ],
+    "cve_counts": {
+      "CVE-2025-32756": 1
+    },
+    "title": "[하루한줄] CVE-2025-32756: Fortinet admin API에서 발생한 Stack-based Buffer Overflow",
+    "permalink": "/r/blueteamsec/comments/1l0k2tl/하루한줄_cve202532756_fortinet_admin_api에서_발생한/",
+    "timestamp": "2025-06-01T08:33:46",
+    "clean_text": "[하루한줄] CVE-2025-32756: Fortinet admin API에서 발생한 Stack-based Buffer Overflow",
+    "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20188"
+    ],
+    "cve_counts": {
+      "CVE-2025-20188": 1
+    },
+    "title": "Cisco IOS XE WLC File Upload Vuln CVE-2025-20188",
+    "permalink": "/r/blueteamsec/comments/1l0k298/cisco_ios_xe_wlc_file_upload_vuln_cve202520188/",
+    "timestamp": "2025-06-01T08:32:39",
+    "clean_text": "Cisco IOS XE WLC File Upload Vuln CVE-2025-20188",
+    "clean_comments": []
   }
 ]
