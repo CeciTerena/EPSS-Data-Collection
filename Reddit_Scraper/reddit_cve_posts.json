@@ -19752,5 +19752,39 @@
     "timestamp": "2025-06-01T08:32:39",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-24071",
+      "CVE-2025-20188",
+      "CVE-2025-37752",
+      "CVE-2025-40775"
+    ],
+    "cve_counts": {
+      "CVE-2025-20188": 2,
+      "CVE-2025-24071": 2,
+      "CVE-2025-37752": 2,
+      "CVE-2025-40775": 2
+    },
+    "title": "🔥 Top 10 Trending CVEs (01/06/2025)",
+    "text": "Here’s a quick breakdown of the 10 most interesting vulnerabilities trending today:\n\n**1. [CVE-2025-20188](https://nvd.nist.gov/vuln/detail/CVE-2025-20188)**\n\n- 📝 A vulnerability in the Out-of-Band Access Point (AP) Image Download feature of Cisco IOS XE Software for Wireless LAN Controllers (WLCs) could allow an unauthenticated, remote attacker to upload arbitrary files to an affected system.  This vulnerability is due to the presence of a hard-coded JSON Web Token (JWT) on an affected system. An attacker could exploit this vulnerability by sending crafted HTTPS requests to the AP image download interface. A successful exploit could allow the attacker to upload files, perform path traversal, and execute arbitrary commands with root privileges.   Note: For exploitation to be successful, the Out-of-Band AP Image Download feature must be enabled on the device. It is not enabled by default.\n\n- 📅 **Published:** 07/05/2025\n- 📈 **CVSS:** 10\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H\n- 📣 **Mentions:** 64\n- ⚠️ **Priority:** 10\n\n---\n\n**2. [CVE-2025-24071](https://nvd.nist.gov/vuln/detail/CVE-2025-24071)**\n\n- 📝 Microsoft Windows File Explorer Spoofing Vulnerability\n\n- 📅 **Published:** 11/03/2025\n- 📈 **CVSS:** 6.5\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C\n- 📣 **Mentions:** 21\n- ⚠️ **Priority:** 6.5\n\n---\n\n**3. [CVE-2025-37752](https://nvd.nist.gov/vuln/detail/CVE-2025-37752)**\n\n- 📝 In the Linux kernel, the following vulnerability has been resolved: net_sched: sch_sfq: move the limit validation It is not sufficient to directly validate the limit on the data that the user passes as it can be updated based on how the other parameters are changed. Move the check at the end of the configuration update process to also catch scenarios where the limit is indirectly updated, for example with the following configurations: tc qdisc add dev dummy0 handle 1: root sfq limit 2 flows 1 depth 1 tc qdisc add dev dummy0 handle 1: root sfq limit 2 flows 1 divisor 1 This fixes the following syzkaller reported crash: ------------[ cut here ]------------ UBSAN: array-index-out-of-bounds in net/sched/sch_sfq.c:203:6 index 65535 is out of range for type struct sfq_head[128] CPU: 1 UID: 0 PID: 3037 Comm: syz.2.16 Not tainted 6.14.0-rc2-syzkaller #0 Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 12/27/2024 Call Trace:  <TASK>  __dump_stack lib/dump_stack.c:94 [inline]  dump_stack_lvl+0x201/0x300 lib/dump_stack.c:120  ubsan_epilogue lib/ubsan.c:231 [inline]  __ubsan_handle_out_of_bounds+0xf5/0x120 lib/ubsan.c:429  sfq_link net/sched/sch_sfq.c:203 [inline]  sfq_dec+0x53c/0x610 net/sched/sch_sfq.c:231  sfq_dequeue+0x34e/0x8c0 net/sched/sch_sfq.c:493  sfq_reset+0x17/0x60 net/sched/sch_sfq.c:518  qdisc_reset+0x12e/0x600 net/sched/sch_generic.c:1035  tbf_reset+0x41/0x110 net/sched/sch_tbf.c:339  qdisc_reset+0x12e/0x600 net/sched/sch_generic.c:1035  dev_reset_queue+0x100/0x1b0 net/sched/sch_generic.c:1311  netdev_for_each_tx_queue include/linux/netdevice.h:2590 [inline]  dev_deactivate_many+0x7e5/0xe70 net/sched/sch_generic.c:1375\n\n- 📅 **Published:** 01/05/2025\n- 📈 **CVSS:** 0\n- 🧭 **Vector:** n/a\n- 📣 **Mentions:** 10\n\n---\n\n**4. [CVE-2025-40775](https://nvd.nist.gov/vuln/detail/CVE-2025-40775)**\n\n- 📝 When an incoming DNS protocol message includes a Transaction Signature (TSIG), BIND always checks it.  If the TSIG contains an invalid value in the algorithm field, BIND immediately aborts with an assertion failure. This issue affects BIND 9 versions 9.20.0 through 9.20.8 and 9.21.0 through 9.21.7.\n\n- 📅 **Published:** 21/05/2025\n- 📈 **CVSS:** 7.5\n- 🧭 **Vector:** CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H\n- 📣 **Mentions:** 15\n- ⚠️ **Priority:** 7.5\n\n---\n\nLet us know if you're tracking any of these or if you find any issues with the provided details.",
+    "permalink": "/r/CVEWatch/comments/1l0le2n/top_10_trending_cves_01062025/",
+    "timestamp": "2025-06-01T10:04:42",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-5375"
+    ],
+    "cve_counts": {
+      "CVE-2025-5375": 1
+    },
+    "title": "CVE Alert: CVE-2025-5375",
+    "text": "",
+    "permalink": "/r/RedPacketSecurity/comments/1l0l217/cve_alert_cve20255375/",
+    "timestamp": "2025-06-01T09:41:58",
+    "article_text": "A vulnerability was found in PHPGurukul HPGurukul Online Birth Certificate System 2.0. It has been classified as critical. Affected is an unknown function of the file /admin/registered-users.php. The manipulation of the argument del leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+    "comments": []
   }
 ]
