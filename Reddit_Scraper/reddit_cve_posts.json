@@ -19982,5 +19982,33 @@
     "timestamp": "2025-06-02T09:41:58",
     "article_text": "A vulnerability was found in chaitak-gorai Blogbook up to 92f5cf90f8a7e6566b576fe0952e14e1c6736513. It has been classified as critical. Affected is an unknown function of the file /user.php of the component GET Parameter Handler. The manipulation of the argument u_id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available. The vendor was contacted early about this disclosure but did not respond in any way.",
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-31060"
+    ],
+    "cve_counts": {
+      "CVE-2025-31060": 1
+    },
+    "title": "CVE-2025-31060: Remote File Inclusion Vulnerability in ApusTheme Capie",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1l1f2ia/cve202531060_remote_file_inclusion_vulnerability/",
+    "timestamp": "2025-06-02T11:00:03",
+    "article_text": null,
+    "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-20188"
+    ],
+    "cve_counts": {
+      "CVE-2025-20188": 1
+    },
+    "title": "Experts published a detailed analysis of Cisco IOS XE WLC flaw CVE-2025-20188",
+    "text": "",
+    "permalink": "/r/InfoSecNews/comments/1l1ejrr/experts_published_a_detailed_analysis_of_cisco/",
+    "timestamp": "2025-06-02T10:28:56",
+    "article_text": null,
+    "comments": []
   }
 ]
