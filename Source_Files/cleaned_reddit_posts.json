@@ -14231,5 +14231,18 @@
     "timestamp": "2025-06-02T08:00:02",
     "clean_text": "CVE-2025-41651: Critical System Compromise due to Missing Authentication",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30397"
+    ],
+    "cve_counts": {
+      "CVE-2025-30397": 1
+    },
+    "title": "Remote Code Execution via Use-After-Free in JScript.dll (CVE-2025-30397)",
+    "permalink": "/r/blueteamsec/comments/1l1d9wt/remote_code_execution_via_useafterfree_in/",
+    "timestamp": "2025-06-02T09:06:08",
+    "clean_text": "Remote Code Execution via Use-After-Free in JScript.dll (CVE-2025-30397)",
+    "clean_comments": []
   }
 ]

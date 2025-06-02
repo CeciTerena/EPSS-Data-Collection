@@ -19954,5 +19954,19 @@
     "timestamp": "2025-06-02T08:00:02",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-30397"
+    ],
+    "cve_counts": {
+      "CVE-2025-30397": 1
+    },
+    "title": "Remote Code Execution via Use-After-Free in JScript.dll (CVE-2025-30397)",
+    "text": "",
+    "permalink": "/r/blueteamsec/comments/1l1d9wt/remote_code_execution_via_useafterfree_in/",
+    "timestamp": "2025-06-02T09:06:08",
+    "article_text": null,
+    "comments": []
   }
 ]
