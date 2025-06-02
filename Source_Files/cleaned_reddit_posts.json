@@ -14205,5 +14205,18 @@
     "timestamp": "2025-06-02T02:00:03",
     "clean_text": "CVE-2025-5228: Critical Buffer Overflow Vulnerability in D-Link DI-8100",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-41654"
+    ],
+    "cve_counts": {
+      "CVE-2025-41654": 1
+    },
+    "title": "CVE-2025-41654: SNMP Protocol Vulnerability Enables Unauthenticated Remote Access",
+    "permalink": "/r/ameeba/comments/1l19j5m/cve202541654_snmp_protocol_vulnerability_enables/",
+    "timestamp": "2025-06-02T05:00:03",
+    "clean_text": "CVE-2025-41654: SNMP Protocol Vulnerability Enables Unauthenticated Remote Access",
+    "clean_comments": []
   }
 ]
