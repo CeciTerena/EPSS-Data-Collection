@@ -19940,5 +19940,19 @@
     "timestamp": "2025-06-02T05:00:03",
     "article_text": null,
     "comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-41651"
+    ],
+    "cve_counts": {
+      "CVE-2025-41651": 1
+    },
+    "title": "CVE-2025-41651: Critical System Compromise due to Missing Authentication",
+    "text": "",
+    "permalink": "/r/ameeba/comments/1l1cb2h/cve202541651_critical_system_compromise_due_to/",
+    "timestamp": "2025-06-02T08:00:02",
+    "article_text": null,
+    "comments": []
   }
 ]
