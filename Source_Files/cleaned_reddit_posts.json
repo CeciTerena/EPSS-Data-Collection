@@ -14192,5 +14192,18 @@
     "timestamp": "2025-06-01T23:00:04",
     "clean_text": "CVE-2025-41229: Directory Traversal Vulnerability in VMware Cloud Foundation",
     "clean_comments": []
+  },
+  {
+    "cves": [
+      "CVE-2025-5228"
+    ],
+    "cve_counts": {
+      "CVE-2025-5228": 1
+    },
+    "title": "CVE-2025-5228: Critical Buffer Overflow Vulnerability in D-Link DI-8100",
+    "permalink": "/r/ameeba/comments/1l167za/cve20255228_critical_buffer_overflow/",
+    "timestamp": "2025-06-02T02:00:03",
+    "clean_text": "CVE-2025-5228: Critical Buffer Overflow Vulnerability in D-Link DI-8100",
+    "clean_comments": []
   }
 ]
