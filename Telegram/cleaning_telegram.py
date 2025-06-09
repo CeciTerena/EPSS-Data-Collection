@@ -3,7 +3,7 @@ import re
 import emoji
 from deep_translator import GoogleTranslator
 
-df = pd.read_csv('telegram_data_25_04.csv')
+df = pd.read_csv('telegram_03_05.csv')
 
 def remove_links(text: str) -> str:
     return re.sub(r'https?://\S+|www\.\S+', '', text)
@@ -48,5 +48,6 @@ df[text_collumn] = (
     .apply(translate_to_en)
 )
 
-df.to_csv('telegram_data_cleaned.csv', index=False)
-print("Cleaned CSV saved to 'telegram_data_cleaned.csv'.")
+save_path = 'telegram_03_05_cleaned.csv'
+df.to_csv(save_path, index=False)
+print(f"Cleaned CSV saved to {save_path}.")
